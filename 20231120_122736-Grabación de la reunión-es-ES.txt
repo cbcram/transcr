@@ -1,0 +1,490 @@
+[Traspaso Fobos]-20231120_122736-Grabación de la reunión
+
+0:03
+¿Vale, ya está, vale? Pues continuamos con lo del otro día. El otro día estuvimos viendo todo el tema de ipam. No sé si queda alguna duda al respecto. Ahora mismo no.
+
+0:28
+Vale, pues pues vamos a pasar al siguiente estaba entrando porque le he cambiado todavía la contraseña. Digo no sé qué cosa que así vale, vale, pues vamos con el Ikea en herramientas de h, F, P K a Bueno, Ikea es un servidor de HCP, vale, en principio es el mismo que se utiliza para que se utilizaba para el limi. Bueno, en realidad se sigue utilizando para algunas cosas, el de HCP de Limi.
+
+0:57
+Pero nosotros también tenemos un servidor de HSP que utilizamos para algunas cosas. Una de ellas es el el cero que estuvimos ya viendo el otro día. Vale, pues básicamente lo que tenemos aquí son sub redes definidas. ¿Se puede hacer también a mano, Eh? Se pueden añadir sub redes, entonces se pueden podríamos añadir una sub red.
+
+1:26
+¿Vale una sub red de pruebas, cuál es la sub red? ¿El rango de IP es que vamos a servir en qué router está? Que cuando nos pida cuando alguien nos pida 1 I p le vamos a pasar dos parámetros 1 es el router su Gateway que es el que pondríamos aquí y el DNS vamos a coger 1 que ya exista y así lo tenemos claro.
+
+1:57
+Vale, en este caso esto es una sub red con un código numérico bueno que sea la sub red es esta la 10:15 H 964 barra 27 vamos a servir IPS de la 66 a la 66, es decir, solamente vamos a servir 1 I p.
+
+2:17
+¿Esto lo hace cero así porque solamente le le dejamos que sirva 1 I p nosotros podíamos poner de la 66 a la ciento veinti algo vale que sería todo el rango, todo el rango barra 27, el router es quién va a ser que normalmente esto se configura el helper Address en el router, vale quién va a ser la el Gateway y quién va a ser el DNS?
+
+2:47
+¿Al el DNS que le vamos a pasar como respuesta, vale, entonces si entramos en este equipo supongo que estará a ver si buscamos este equipo, por qué haces esto?
+
+3:35
+¿Mira, justo este está en comunidad, vale? Pues vamos a buscar quién tiene esta IP, pues porque viene el cero y todavía no se ha restalado el equipo.
+
+4:01
+Vale y estamos sirviendo la 10:15 h 965 es este interfaz de aquí vale, este tendrá un helper address con vale esto de aquí el IP Helper Address que tiene configurado. Lo que le estoy diciendo con esto a este router es que si me entra una petición de DHCPD.
+
+4:30
+Por esta interfaz vale que se la envíe aquí, éste es el servidor DHCP, esto es una máquina vale que tiene instalado el Ikea y esta máquina que tiene instalado el que a lo que hace es que cuando le llega una petición de DHCP entonces de este rango le va a servir una IP.
+
+4:59
+Aquí no saldría. Ahora miraremos en el en el HFP Limi y aquí nos si tenemos alguna reserva hecha sobre una Mac y si tenemos cuántas IPS hemos servido. Vale, vamos a a ver alguna que tenga IPS servidas porque acabaremos antes por aquí. ¿Hay alguna vale que está aquí?
+
+5:28
+En este caso esto es una red, me da igual de Limit, pero bueno, como si fuera de las otras funciona exactamente igual. Es el mismo software, vale, tenemos que esta es su red. ¿Qué rango de dirección IP vamos a servir de la 86 a la 90 que da está haciendo el router y el DNS que le pasamos a esas a los clientes que nos pidan IPS? Vale, pues aquí tenemos dos equipos que a través de esta de este de interface.
+
+5:57
+Nos han hecho peticiones y les hemos dado esta IP, vale, a esta Mac que nos ha pedido nos ha pedido 1 I p le hemos dado esta y nos dice cuándo expira, o sea expira hoy a las 12:58 H expira la la petición, entonces aquí en el IME por un tema particular, que es que por la el tema de los autobuses, como suben y baja mucha gente de los autobuses, la necesitamos que las IPS las liberen pronto.
+
+6:26
+¿Vale entonces para la gente que va con smartphones en los autobuses? Entonces, claro, se le daban, me parece que eran 30 minutos solamente. Normalmente esto puede estar en varios días. Lo que es el list time vale que es el tiempo que tarda en expirar. El equipo sabe que a cuando llegue este tiempo lo que tendrá que hacer es que si quiere continuar teniendo IP, tendrá que volver a pedir otro.
+
+6:48
+¿Vale, los recursos son muy bajos, Eh? Lo que no hace no prácticamente ni se entera el servidor, porque son peticiones muy muy pequeñitas, hechas por UVPY, que van rápidas y no no produce prácticamente tráfico. No es un problema el hecho de que tenga lista en tan bajo, tan bajo. Vale, entonces en este caso el.
+
+7:14
+Si queremos que funcione todo el servicio de HCP tenemos que tener solamente dos cosas. Por un lado tenemos que tener configurado la subret aquí dentro lo he metido en en en herramientas KEA, vale, en pulse hay que meterle esa subret con el rango que queremos servir y el router y el DNS que le vamos a a decir al al cliente por el que tiene que salir y dónde se tiene que comunicar.
+
+7:43
+Vale, y en la configuración del router en el puerto que lo he perdido sí, lo he perdido, vale, y en el puerto que que corresponda pues tenemos que tener el gel p address y ya está. Y con eso pues funciona por debajo. ¿Qué es lo que hay? Pues por debajo hay y hace un asiento 958.
+
+8:26
+Aquí hay en una serie de procesos que es el el control que a vale el control, que a lo que hace es genera un archivo de texto que es el que coge de configuración, que a.
+
+8:51
+¿Y el que a? Pues en es un servicio que está funcionando. A ver si me acuerdo como era, si PRL, si PRL, estatus vale. Lo que te dice es que dónde tiene el archivo de configuración que está el agente está activo, vale el servidor de h, C, P 4 está activo.
+
+9:24
+No utilizamos el de HCP de versión 6. ¿Vale, y el control AGE? El control agent sí que no nos hace falta también. ¿Y dónde están los archivos de configuración? Vale, entonces si están tenéis aquí aquí hay dos archivos, está el que a el que a hccuatro.com, este es archivo de configuración del que a y este es el archivo que se genera automáticamente vale desde.
+
+10:00
+El script, ese que que el de control K a vale lo que hace es leer de la base de datos cada x minutos, vale y genera este archivo de texto que estos son, digamos que en modo que entiende KEA, la lo mismo que te ha enseñado la sub red donde estaban las sub redes los l h, t P o sea el el DNS, el servidor de.
+
+10:28
+El servidor de mirad, ves aquí estamos pasando el TFTP Server, le pasamos el DNS aquí y le pasamos el Gateway aquí. ¿Vale, y cuál es la la sub red que es esta de aquí y cuáles son los el desde el o sea las IPS que vamos a poder servir dentro de esa subred? Esto se genera automáticamente se mete aquí.
+
+10:56
+Y desde que a D H C P 4 esto conf. Lo que hago es leerlo, vale, si hago un include y ya está y lo que hago es que detecto que cuando hay un cambio reinicio el servicio y ya está, no tiene mucho más y por defecto pues se le pasa esta información. Si no le digo lo contrario en.
+
+11:32
+En el archivo este de configuración YY poco más la forma de mirar si funcionas entrar en estas en este servidor y ejecutar esto el el t a c t R de estatus y podemos reiniciar servicios. Bueno es es la cuestión de de cogerse un manual del t a.
+
+11:58
+¿Que es un es un es un software de estos del libre de open? Bueno, sí, no sé si es open. Bueno, no sé. Bueno, no sé si es Open Source o de libre uso. No me no recuerdo si estaba ya compilado o bueno y está por y es ese que hay.
+
+12:28
+¿Está aquí, vale? Esta página web es donde te lo puedes descargar. ¿Ikea tienen las ayudas, está todo aquí, vale este de aquí? El diseño de instalación configuración tiene manuales de referencia. Está todo aquí por si hay alguna duda, pues.
+
+13:04
+¿Aquí está, aquí está todos los manuales está funcionando y lo de siempre, el el 1 de los problemas que tiene aquí es que se que se toca poco YY de una vez a otra no te acuerdas ni me acuerdo? Sí, porque además tiene poquitos.
+
+13:29
+Tiene poquitas, tiene poquitos puls y encima son todos. Prácticamente creo recordar que ahora mismo son todos de cero que se han quedado ahí, que muchos de ellos ya ni tenía que estar aquí. Pero bueno, y después pues eso, estadísticas. Lo que te da es esta visión a ella.
+
+13:57
+¿Esto de vez en cuando le pasa esto, no? Sí, sí, te dan las estadísticas, te da un rumor así un poco raro. ¿Ocupadas 14 y ocupas, lo pueden tener ocupadas 14 si solamente puede servir una y vale, De hecho la tiene cogida hasta mañana hasta mañana, vale?
+
+14:27
+¿Se le habrá pedido 14 veces y él ha asumido que que que era 14 veces las que las ha ha ha servido distintas IPSY no es así? ¿Bueno, alguna duda de esto no tiene mucho más, EH? Me ha quedado. Creo que a lo mejor es más duda de curiosidad que cuando has explicado lo de los autobuses.
+
+15:03
+Eso eran conexiones que había desde smartphone. ¿Te has dicho o algo así en un autobús para tener acceso? Era la 8:08 H 88, que eso es claro y eran que eran dos conexiones que había no, a ver, no, no. En el IMI hay hay muchas cosas metidas. En principio están los autobuses.
+
+15:30
+Que ahora mismo no se está llevando por aquí, se está, se llevando, se cambió a otro servidor de HFP que están bueno, llevan un tiempo ya aprobándose y eso lo dejé aquí por si acaso, porque alguna vez nos ha tenido que hemos tenido que volver aquí corriendo. ¿Están a p s a p s de que se cuelga que están por la calle en en Barcelona? El IMI es la red metropolitana de Wifi de de Barcelona, vale, entonces los a p s están distribuidos por por ahí, por la calle.
+
+16:00
+Lo mismo que lo esto, todo esto de aquí son las a p s vale, estos a p s están por ahí, por la calle que también se está llevando con otro servidor de HCPY. Después lo que he mirado es la parte de Sensorización. Los sensores también tienen una serie de sensores por la calle. Vale, estos sensores son equipos que están midiendo la calidad del aire y todo eso y como.
+
+16:28
+Ahora mismo no los pueden pasar todavía al servidor de HCP, que porque se han quedado sin recursos, pues de momento estos son se han quedado aquí en el HCP del IMI es el el quea INI que es la 10647499. Es una máquina que está ahí.
+
+16:50
+YY de momento no los pueden cambiar, no sé lo que tardarán en cambiarlos y al final cuando se quite todo esto, pues seguramente el el el KEA de Liny pues se apagará y ya está, vale, de momento está aquí por si hubiese alguna catástrofe, que es es el HCP que está funcionando. ¿Se tuvieron algún problema con él? Pues podían podían volver a conmutar aquí. Vale, y esto inmediatamente como tiene las configuraciones metidas, pues empezaría a servir.
+
+17:19
+Vale a ver, sí, el software ahora ya te digo, es el mismo, que es que el que utilizamos nosotros aquí y el portal. Evidentemente esto es lo mismo. Hay una base de datos que que lo que no recuerdo es si está en fobos.
+
+17:52
+A ver, crearé una nueva conexión a ver 58, 10109, 58 yo 10110958.
+
+18:24
+¿Esto es grafana, no sé si te sonará, es la está en la máquina de grafana, Eh? Metido De hecho sus redes editable de aquí, vale, es esto de aquí está la información de.
+
+19:04
+De las sub redes que hay y aquí lo que se guarda el directamente, pues se guarda datos en la base de datos, sobre todo los sub redes, donde no recuerdo yo y es cuatro. Sí, Estas son las aquí son las direcciones IPS de.
+
+19:33
+O sea, los las peticiones que ha recibido y las IPS que se les ha que se le ha dado. Ya te digo, esto no se toca nunca y el problema es acordarse. Vale, pues eso está en la misma. Es la máquina de grafana y prácticamente no afecta a nada porque no consume prácticamente nada de recursos.
+
+19:59
+En la en la del limi que tenía alrededor de 2000 sub redes, aquí hay ahora mismo hay 31. Bueno, pues en la del IMI que que ocupa, o sea que tiene cerca de 2000, se está consumiendo algo así como el 0,1% de la C P u o sea, para que te hagas una idea y le estaban entrando varias peticiones por minuto, algo así como 5060 peticiones por minuto y no ni se despeinaba.
+
+20:29
+Vale, pues es hora que a okay vale aquí esta herramienta, la de buscar Maps. Creo que estuvimos viéndola ya un pelín, pero bueno lo lo volvemos a recordar ya esta esta esta herramienta, lo que lo que permite es dentro de la buena voluntad que tiene fobos.
+
+20:56
+¿Lo que tú puedes es a través de tú le puedes decir o una Mac o 1 I P y entonces te dice dónde está? ¿Vale, entonces por ejemplo, vamos a coger lo que exista porque si no pues vamos a a ver Córdoba dónde estás? Yo que sé este una es a I p vale esto vamos a cerrarlo, esto lo vamos a cerrar.
+
+21:26
+¿Vale, entonces tú le pones 1 I p la que te interese buscar a ver dónde esta vale y lo que te dice es qué ha encontrado con SIPY? Algunas de las cosas que ha visto es primero que esa IP tienes asociada a esta Mac que la ha visto en este router a través de este interfaz, pero este es el Gateway.
+
+21:51
+Me explico por qué sé que es el Gateway, porque es el que me ha traducido la I p a Mac. Yo lo he visto, o sea, en este equipo he visto que pasaba por esta interfaz a esta interfaz, vale, es decir, en este equipo en el 2950 CE iba, iba de paso, ha pasado por ahí y ha terminado en.
+
+22:20
+Este equipo a través de esta interfaz que no tiene vecino vale y luego esos Max by lo que quiero decir es que este es el router que hace de Gateway, pero este equipo con esta IP está conectada en este puerto y eso lo sé de manera fehaciente. O sea, yo sé que esta IP está asociada con esta Mac y esta Mac está conectada aquí.
+
+22:53
+Y nos vamos a este equipo en el fast cero barra 16, pues seguramente nos dirá que tiene un radioenlace vale gestión del vano este que efectivamente es el que toca. Vale si nos vamos aquí.
+
+23:38
+Al 55349, que es el que estamos aquí. Vale, ahí está, es este de aquí, vale, si yo le digo aquí este es el puesto de Management, vale, esto es lo mismo que esto que lo que hemos visto antes. Pero aquí lo que te da opción es decirle vale en el fast ethernet del bar cero barra 16, entonces lo que es documentarlo aquí.
+
+24:08
+Esta información la la saca de la misma base de datos. Vale que hemos interrogado otra vez ahí y aquí la flechita. Esta lo que me permite es esto es documentar esto aquí, pero además también me permite documentar esto aquí. Correcto entonces este vecino yo puedo decirle que este es el el equipo que está conectado en este puerto y.
+
+24:36
+Y si vas al equipo te dicen en qué puerto está conectado. ¿Sí, vale, ya ya vengo aquí, ya no me acuerdo cuál era de aquí? Sí, no, este sí, lo que sé sí es este vale y este aquí me dice el puerto de Management. ¿En qué equipo de datos está conectado?
+
+25:08
+Si esto se mantuviera todo bien al día, pues tendríamos una perfecta documentación de de de los cableados de gestión de los centros, sino luego vamos, se podría representar todo claro, bueno.
+
+25:30
+Podríamos hacer esquemas YY si tú haces un rastreo de la UV Land, además te dice en ese puerto que es lo que tiene conectado, con lo cual también es visualmente es mucho más y sería mucho más interesante porque lo que es todo visualmente no. ¿Qué equipo hay conectado cada puerto, dónde va cada cable? Bueno, lo de siempre, opciones hay. Si algún día quiero utilizarlo esta funcionalidad, pues.
+
+25:59
+Muy bien, vale, esto era buscar Max. También tendrás la opción a ver, vamos, si es que esta más aquí de digamos herramienta buscar Max. Si aquí le pongo la Mac del equipo que quiero buscar, vale, pues nos hace la búsqueda directamente.
+
+26:29
+Y en y nos dice qué IP tiene esa Mac y dónde la y lo mismo que antes. ¿Dónde estoy viendo? En qué puerto estoy viendo esas macs y esas IP s cuando hay a veces nos salen dos registros de de de dirección IP. Eso es porque hay un hot stand by.
+
+26:55
+Un hot stand by son dos routers haciendo Gateway, 1 de ellos está en Standby y el otro está haciendo the Gateway vale de manera que si cayera 1 de los dos routers, el otro router puede pues continuar haciendo el. El trabajo de Gateway es para darle redundancia a las salidas de nivel dos hacia nivel 3. Vale, en principio Gateway solamente puede haber 1.
+
+27:22
+Pero lo que nos permite Cisco es tener, digamos que una especie de Gateway virtual que lo comparte en dos routers. ¿Entonces, si alguno de ellos tiene un problema, pues el otro coge la IPY, se y se y se proclama el Gateway de esa de esa Vland eso puedes encontrarlo? Pues por ejemplo en Valencia seguro que hay alguno en Torrente. La forma ya. Bueno, creo que os lo dije ya.
+
+27:52
+La forma en que se identifican los a ver si hay algunas hot stand by son muy, muy fáciles de ver porque están en azul. A ver 28 sen(9000). Estoy seguro que tiene él tampoco de que guay. Sí, los mismos que.
+
+28:17
+Los marca el azul Clarito, sí, la la IP salen, salen las 2:01 H es como en blanco y la otra como en Moradito no o algo así. ¿A ver si están aquí las gestión, aquí está, ahí eso es esta es la IP digamos esta es la 10:05 H 862 es la IP física, vale la IP física de Del interfaz?
+
+28:44
+De la interfaz lean 46 y esta es la la la Gateway virtual. Si lo vemos en configuraciones simplemente esto vale tienes un stand by definido sobre esta IP. La IP Real del interfaz es la 62 y lo tienen un digamos 1 I p de que hace de Getway que es la que comparten con el otro router, de tal manera que si que si cayera alguno de los dos vale.
+
+29:13
+Entonces gestión nexval, si nos vamos a nexval vamos a ver aquí y hacemos lo mismo y veremos cómo nos salen dos. Vale, vamos a coger cualquiera de estos y fue para aquí todo lo que hay gestionado son, vale, vamos a copiar este de aquí, vale, y entonces vamos a buscar este de aquí herramientas buscar Max.
+
+29:57
+Veis aquí nos aparece la IP en varios sitios, en el Tor XY en el Tor YY además en el 7206 que también lo que pasa que esto es antiguo, esto es el antiguo, que este equipo creo que ya no está. ¿Vale, entonces me está diciendo que esa IP la B por dos equipos distintos?
+
+30:20
+¿O sea, hay dos equipos que están haciendo de Gateway como hemos visto, efectivamente hay dos equipos que están haciendo de Gateway porque la 33 que es el Gateway está haciendo de virtual sobre esto y están haciendo estos dos equipos están haciendo hot stand by y lo mismo dónde está conectado? Pues mira, aquí vemos 1 que está de paso, pero este es que sería este de aquí y está conectado de 3400 nivel al 9901.
+
+30:48
+Management en este caso lo vemos, lo vemos por vecindad porque también es un router Cisco. Bueno, la circunstancia que se da normalmente, si es un una estación de continua, un radioenlace cualquier cosa no veríamos, no lo veríamos como vecino. Entonces se nos quedaría aquí diciéndolo, es que está en este equipo conectado, vale, este skip está rulando.
+
+31:16
+¿Prácticamente una vez a la semana creo recordar y va interrogando a todos los routers y a todos los switches de la red, con lo cual, bueno, la información que tienen ahí no es inmediata, EH? ¿No, es decir, conecto el equipo, ya lo tengo que tener, no? Esta información puede tardar varios días en aparecer o en desaparecer, vale, o sea, cuando tú le das ahí a enviar, no, no busca nada, o sea lo que hace, busca en la base, busca en la base de datos.
+
+31:46
+Vale, entonces digamos que si hace menos de 5 días que lo han conectado, es posible que no salga, incluso hay veces que tampoco sale, o sea, aunque esté más de 5 días conectado. ¿Esto es, es el la interrogación se hace, se va haciendo secuencialmente para no quitar la base de datos? ¿Vale, se va haciendo de manera secuencial un router tras otro?
+
+32:10
+Los switches son bastante rápidos porque al final los switches simplemente buscan las macs que tienen en cada interfaz, pero los rotos les cuesta más porque como tienen que hacer pins tienen que mirar por a R p y además también lo que hacen es una cosa que eso luego nos viene muy bien, que es. Vamos a coger un ejemplo por aquí. Seguro que hay una estación de continua Córdoba lo que hace también es.
+
+32:38
+Está flechita que tiene aquí por SNMP. Vale, esto lo coge también de ahí. Entonces, si yo hago una búsqueda aquí por Mac, Vale, me va a decir, vale, aquí no te aparece el switch está en el 2950 c e 2 fast ethernet cero barra dos. Vale, vale, si nos vamos a este equipo.
+
+33:28
+Ahora me has dicho que no me acuerdo. ¿Era este? Sí, vale, no vale aquí, por ejemplo. Mira, yo le hago a cuando entra en el 2911. Vale, le hago un ping.
+
+34:06
+¿Miro a ver si si tiene la Mac lo hago porque para refrescar las tablas a R p yo primero que nada le hago un PIN a todos los a todo el rango, los que me contestan, si los que me han contestado miro a ver cuál es su Mac, vale? Y también una de las cosas que hago es que por SMP le hago un get y lo que me contesta el equipo lo almaceno aquí.
+
+34:34
+Vale, y esto lo que lo que me permite es identificar cosas como que esto es un esto es un presurizador de rimsa. Eso me contesta el equipo, vale, y efectivamente es un presurizador, es un presurizado de rimsa, ya que estamos aquí, pues no vamos a documentar, no nos van a cobrar lo mismo con esto. ¿Qué qué pasa? Pues que soy capaz.
+
+35:03
+De pueden identificar incluso hasta la marca y muchas veces el modelo del equipo que hay conectado, o sea que tiene 1 I p determinada y puedo saber dónde está conectado muchos equipos que directamente por defecto ya tienen el el SMP activado con con la comunidad Public de lectura. Bueno, pues si me dais esa información pues pues mucho mejor vale, entonces yo sé que.
+
+35:32
+Y esto es cuando se hizo la captura. Ves el día 14 hace el martes pasado o así que que sí, pues esta noche empezará otra vez, esto es ya te digo, es lo hace una vez a la semana. ¿Lanzo el script y va poquito a poquito, pero va capturando datos, lo hace en toda la red, Eh? Con lo cual.
+
+36:00
+Tarde o temprano pues lo voy a acabar sampando y lo voy a meter en la base de datos. ¿Vale una duda de esto? ¿No? Bueno, va buscando, va buscando Max, dices YY o sea va arrastrando toda la red y cuando encuentra una Mac que no.
+
+36:38
+¿Tiene en la base de datos, la la coge y la mete como nueva, no? Bueno, voy metiendo en la base datos todo lo que encuentro, no distingo si es nuevo o es vieja. Lo que sí que guardo es cuando lo he guardado. Entonces es la información. Pasadas una semana creo que era recordar o unos días se borra.
+
+37:02
+Porque reescribes cada vez que sí, claro, yo voy reescribiendo, me da igual si si estaba ya, pues le actualizaré la fecha y ya está. Vale, vale, es que en realidad no tengo un histórico de cuando la primera vez que lo vio o tal, pues no tengo esos datos tampoco. En principio los necesitaba y como lo de siempre es un lujo el espacio.
+
+37:31
+En Fobos, pues esa información no la guardo se podía poner, sí se podía poner. De momento no está vale más herramientas RFCS las RFCS es donde los técnicos de de.
+
+38:01
+Las unidades van colgando las RFCS de servicio de vano o de o de circuito. ¿Qué es van haciendo las RFC? ¿Sabe lo que es? Sí, vale, pues entonces ellos cuando De hecho estas la han colgado esta mañana, estas las han colgado hasta mañana y el sistema lo que hace es.
+
+38:28
+Abrir la RFC aunque venga en formato PDF, vale abrirla y leer los datos, vale, y si detecta que la RFC es correcta, te da, te la da como Estado o K si te detecta la valida también. ¿Sí, vale, Fíjate, aquí te da un error de capsulación error de framelose por qué?
+
+38:56
+Porque ha detectado que ha salido algún parámetro que que está por encima de lo que debería. No sé exactamente dónde, pero tiene pérdidas. ¿Y esto con qué lo lee? ¿Con qué lee el PDFY? Pues con per per vale.
+
+39:22
+La hice un script que lo que hace es abrir el el el PDF, buscar la información dentro del PDF con unas librerías que que hay por ahí para leer, que hay para leer archivos de este tipo. Y entonces busco lo que tengo que buscar, que no recuerdo ya exactamente de memoria lo que era. Pero bueno, busco toda la información que toca YY si hay errores, pues.
+
+39:56
+¿Pues directamente te los marca una una de las cosas que puede pasar, no dime, dime, perdón, la la RFF, digo, la RFF la RFC siempre con el mismo formato, no, no, no, no, no, no, cada cada equipo lo saca con un formato diferente, vale, pero tú y con el mismo script las lee todas o tienes una para cada no? ¿Bueno, hay un solo script, pero que lee todas las vale, vale?
+
+40:23
+Lee, muchas de las de las RFCS, vale, y desde dónde la aquí se pueden ver y desde dónde las suben, desde aquí a ver cómo era herramientas como herramientas, portal de petición, ya no me acuerdo, no la subían. Registro de las F aquí.
+
+40:48
+¿Luego lo vemos, vale, vale, bueno o lo vemos ahora también estar en registro de RFCS herramienta un montón de peticiones, vale, vale esto de RFCS? ¿Aquí suben una, ay, vale, vale, suben el tipo de RFC, vale el de qué se trata? Si es un vano, pues hay que poner el número de vanos, si es un servicio hay que poner el nombre del servicio, vale el fichero.
+
+41:18
+Donde tenemos la RFCY la SAC es el número de de, este es el número de SAC que aparece por ahí las horas de trabajo de de la petición. Sí vale, entonces lo valida y si es si es correcto, pues ya está como lo marca como gay y luego en nuestro control de de órdenes de trabajo busca las.
+
+41:48
+Las órdenes de trabajo relacionadas con este con este circuito, tareas hecots. Lo que pasa es que están terminados, vale, lo ves y te dice aquí que estas RGC ya son correctas.
+
+42:21
+Del 21, del 21 YY por qué han venido estas ahora son nuevas, son del 21. Bueno, no lo sé, lo que hace es marcar las órdenes de trabajo con lo que ya son correctas. Las han repetido estas otras CCS, no lo sé, bueno, las han repetido, si te dice que no está o K hay varias opciones, una que de ellas es.
+
+42:51
+Aceptar la mano puede ser que sea una chorrada de parámetro y que o no, o puede ser que que sea un un parámetro que pero que a veces las la RFC no es cien por cien o K, pero se decide que esa RFC pues se pasa entonces.
+
+43:16
+Tú le das a aceptar, te pide un tal el motivo porque se acepta y la da por buena y ya está. Vale, Mientras tanto, pues se quedan aquí, no k, no k, mira esta, por ejemplo, estas han sido aceptadas, vale, eso es que las han aceptado.
+
+43:47
+Es exacto y aquí tenía un montón de errores. Pero ves, esta es otra. Este es otro modelo distinto de de RFC, pues a veces no la han puesto bien la encapsulación, no, a lo mejor es una chorrada o no, y yo ya no soy quien para analizar si es importante o no, es decir, no lo sé, sé que esta RFC tiene errores.
+
+44:16
+¿O tiene datos que no están al cien por cien correctos, sin embargo, te la ha pasado, Eh? Pero a lo mejor no se le ha puesto bien la encapsulación a la hora de hacer la RFC. Te la ha pasado a la RFC, pero sin embargo le faltaba la encapsulación, con lo cual ves, no se lo ha puesto negociación, no se ha puesto la encapsulación. ¿Pueden ser múltiples razones, Eh? Y esas se pueden aceptar a mano.
+
+44:45
+Si no son correctas, si resulta que tiene un error y la han subido, pues y si el error es importante, pues a lo mejor lo que tienen que hacer es repetirla. Por eso pueden aparecer varias veces aquí la misma. R CC, EH. Entonces algunos de estos, por ejemplo, este se ha hartado de subirla.
+
+45:14
+Si tú pones aquí lo que corresponda, pues puedes buscarlas, con lo cual puede saber si un vano, cuántas RCC se han subido de ese vanos o de un circuito, etcétera, etcétera. Vale, bueno, no, esto creo que era. Saltamos al DNS esto ahora te pasaré la contraseña.
+
+45:50
+Nada, el Power DNS es simplemente es es el servidor de DNS de fobos. ¿Vale, sabes lo que es un servidor de DNS? Pues si tú por ejemplo que está por aquí tiene dos funciones, básicamente un servidor de d n s 1 es el servidor, las los servidores de que te sirven directamente.
+
+46:16
+La IP, puedes hacer un ping a un nombre de un equipo al Val 3400 Tor, por ejemplo. Vale, vale, vale, pues que te sirve. La dirección IP es el DNS claro fobos a, C, D, n s de todos los equipos de la red. ¿Entonces sabe porque no tiene la base de datos, evidentemente, cómo se llaman los equipos y cuál es la IP de gestión del equipo? ¿Vale, entonces?
+
+46:45
+¿En las bases de datos del DNS que ahora veremos dónde están, lo que hacemos es desde fobos, volcamos esa información a la base datos del DN s también, pues hacerlo al revés, es decir, qué equipo tiene? Host 1051136 vale, lo que estamos diciendo es.
+
+47:13
+¿Y qué qué equipo tiene configurada esta IP? Pues te dice quién la tiene configurada. Entonces tiene puesta la la búsqueda directa y la búsqueda inversa. La búsqueda inversa se hace de esta manera, no me preguntes por qué, pero la IP va al revés. ¿Ay, sí, sí, no sé por qué se hace así, o sea, De hecho, en la base de datos hay que meterlo así, vale?
+
+47:45
+¿Es la búsqueda inversa? Pues ya lo han dicho, pues le ponemos la IP al revés, yo lo sé, no, no lo sé, no sé, no sé tanto DNS. NS lookup lo que te permite es controlar quién te va a servir. ¿Quién le le preguntas?
+
+48:14
+¿Quién me está contestando a esta petición? ¿Pues estoy contestando yo la dirección 109 11 y como le he dado un nombre IP lo que hace es una resolución inversa, vale a través de y te dice quién tiene esa esa dirección? I p a nivel interno, las inversas, bueno, las utiliza, lo utiliza mucho los routers.
+
+48:41
+¿Vale, por qué los routers? ¿Por qué la utilizan? Por qué cuando tú levantas una adyacencia o s p F por ejemplo, las Adyacencias o s P F S se levantan contra IPS no contranombres entonces la forma de resolver a qué router pertenece Esa I p s a través de la la la inversa o las adyacencias por CDP. Entonces si tú haces.
+
+49:13
+Va al 920, todo una, por ejemplo. Ay perdón PETA. ¿He cambiado la contraseña esta mañana un par de días hasta que te acostumbres vale esto?
+
+49:38
+Lo hace a a través de la A través de CDP. Yo he puesto, vale, pero en realidad yo lo que estoy viendo es esto y su I p o s P F en ebook vale, yo lo que veo aquí son IPS, yo a mi vecino lo que veo es una una dirección IP.
+
+50:13
+¿Entonces, cómo puedo saber esto? Pues de de puedo hacer una resolución inversa, vale, mira, aquí no está. Ah, vale, porque esta son no estas, esta no es de de lupa, no se estará gestionando por este equipo, esta sí que se estará gestionando.
+
+50:59
+Tampoco vale, puede ser porque no esté pasa. ¿Creo que lo quitamos, Eh? No estoy seguro ya si le si es que ahora mismo la la. El archivo del DNS es bastante importante. Bueno, te enseño dónde está y así lo ves. Esto está en fou, evidentemente.
+
+51:35
+En catalogs está aquí, en PDNS vale, tenemos ahora 50000 registros en la base de datos. Entonces ahora mismo esto es en tiempo real. Estas son las inversas y tenemos aquí las directas. Vale, sí, lo lo quitamos. Es que antes antes también metíamos todos los las IPS de todos los interfaces de.
+
+52:12
+De de los routers. O sea que, claro, multiplicamos esto por 3 o por cuatro y al final tengo 1. Claro, entonces al final creo que lo quitamos temporalmente y se ha quedado quitado. Porque claro, si hacemos hay 50600 registros ahora mismo, entonces, claro, eso cada vez que tú haces una búsqueda en fobos.
+
+52:49
+Tiene que revisarse los 50000 registros. Tiene que hacer una búsqueda sobre esa base de datos, el P, D, n s o sea, tú haces, por ejemplo, pues eso, tú haces esto y lo que hace fobos es una búsqueda sobre basada en base de datos. A ver si encuentra este registro. Ese registro tiene asociado 1 I p.
+
+53:24
+¿Vale web name es igual a Val 92021. RDG punto R de visión y ahora te pregunta, y ahora la pregunta es por qué si no tiene que estar aquí, espérate?
+
+54:13
+A no tanto por ciento ahora aquí está, vale, entonces eso es lo que me devuelve. Tiene que hacer la búsqueda sobre la base de datos.
+
+54:35
+Y lo que me devuelve es esto la 10:05 H 1 139 este aquí no vale esta esta IP la coge de este registro de la base de datos a la base de datos lo localiza y luego entonces te dice que esa IP, ese equipo tiene esa IPY te lo sirve a través del Protocolo DNS, todos los routers de la red y todos los switches todo.
+
+55:05
+Apuntan a fobus como servidor de DNS. Entonces claro, imagínate la cantidad de búsquedas que tiene que hacer cada por minuto, no por segundo. Una barbaridad. Y una de las cosas que vemos entonces aquí tiene las estadísticas del power. DN s pues eso.
+
+55:36
+¿Desde la última vez que se arrancó fobos, estos son los números que son, cuántas nos han entrado y cuántas hemos contestado? Unas poquitas, unas poquitas. ¿Sí, aquí hay 3 y 3, o sea, hay 2400, 56000000, no? Sí.
+
+56:03
+894246 son las peticiones que se han respondido de Fogo desde que está, o sea, desde la última vez que arrancó. Eh, no sé el tiempo que hace que está en marcha. Pues eso, 2000 y pico millones. ¿Que si me dieron un eurito por cada vez que contesta, verdad? ¿Bueno, va un centimito, me me conformo con un centimito de euro, vale?
+
+56:29
+También está aquí y no pide pan. ¿El pobre, el power, el Power DNS está montado, está instalado en fovos lo mismo es una herramienta power DNS, pues está aquí está el downloads, está los manuales, es un Open Source, vale?
+
+57:03
+¿Es lo que bueno, creo que lo alguna vez lo he comentado, no? Fobos es un es la suma de muchas cosas YY el y una de ellas es power DNS. ¿Entonces para qué vamos a desarrollar nosotros algo que ya existe YY funciona muy bien? Pues pues para nada, para perder el tiempo. Entonces utilizamos herramientas que ellas funcionan y funcionan bien.
+
+57:35
+Es igual que el grafana es igual que el game Load, igual que muchas herramientas, pues que que hemos ido viendo y hemos encontrado una solución que funcionaba, que es el mejor, no lo sé. ¿Cuando lo encontramos es power DNS, es de los más potentes, de los más rápidos y encima es Open Source y nos lo descargamos, lo instalamos, funcionaba, pues ya está bien, vale?
+
+58:13
+¿Vale o K hemos quedado aquí en el power del S aquí está, aquí están los más preguntones los los qué preguntan más, a qué preguntan más?
+
+58:44
+¿Y a qué puede deberse a este tipo de cosas? ¿Y que lo pregunte más? Pues sí, pero estos son equipos de bimes. A pues pues las las emisoras de bimes a pues están preguntando por su bimesa.es porque quieren enviarle un mail SMTP simple mail transferprotocol.bms.es a lo mejor porque vienen configurado con eso.
+
+59:08
+¿Y cuando arranca la emisora o cuando intenta enviar algo? Pues busca busca la IP de de de la emisora. Da igual porque esas emisoras no van a poder salir nunca hacia hacia Internet porque no tienen acceso. Evidentemente esta dirección IP yo no la tengo guardada, yo tengo las las IPS de gestión. Estos son.
+
+59:40
+Respuestas de aquí de de equipos que sí que conozco. Entonces estos son, s s R e 1, P e s R 3. Bueno, vale, nada. ¿Aquí están las estadísticas, Eh? Está contestado unas cientas, 50 peticiones por segundo, no por minuto.
+
+1:00:21
+¿App time que pone 12,8 meses sí, el tiempo que lleva la APP, o sea, llevo 1 año levantado, vale, entonces las peticiones que marcaba abajo son desde hace 1 año? ¿Sí, sí, están aquí también, EH? Son 3, 2000, 400000000 de peticiones desde desde que está levantado power DNS, no, desde que está levantado fogos.
+
+1:00:51
+¿Bueno, al final lo mismo poker Power DNS, lo que tiene por detrás es my SQL hombre, pero el focos lleva más de una, lleva más de 12 meses no, pero a lo mejor lleva 12 meses, EH? ¿Desde que se reinició los juegos puede ser que se reiniciara, o sea en los últimos 12 meses no se ha reiniciado fuegos y esto se cayó, seguramente es porque se reinició juegos por alguna razón no sé lo no lo sé por qué?
+
+1:01:18
+O porque a lo mejor le hicieron algún cambiaron la máquina de sitio o como si está virtualizado, no lo sé. El caso es que lleva el tipo este 12 meses levantado vale por segundo 150, pues eso, 150 147 ciento 150 peticiones por segundo. Está contestando así.
+
+1:01:54
+¿Poquita cosa, vale, qué más nos habíamos quedado? ¿Qué hora es en media herramientas? Bueno, vamos a ver estas dos herramientas y porque nos quedará.
+
+1:02:16
+Portal de peticiones pasa que portal de peticiones es un poco extenso, entonces te iba a decir si quieres vemos las las siguientes tareas, estaba en extenso, vale, esto es lo que estamos haciendo ahora. Bueno, pues ya te lo enseño, te lo enseño, ya está, vale para hacer el swap de los 540, estoy en las V lans que esto te explico estas dos cosas y ya dejamos para el próximo día.
+
+1:02:43
+El portal de peticiones y las tareas vale para hacer los swaps. Lo que estamos haciendo es esta herramienta vale para convertir las configuraciones de los 920 o de los 3400 en configuraciones A para para 540. Lo que hace lo que hacemos básicamente es.
+
+1:03:14
+¿A C o 3400 MPE vale, entonces queremos convertir este en este en 40 M p 0, 1 tienen que estar los dos equipos dados de alta la base de datos vale, entonces hay que ir a a montepedroso di de alta este equipo? ¿Simplemente no, no le puse ni dirección en el IP nada, simplemente hay que crear el registro y ya está, vale?
+
+1:03:42
+Entonces nada le das a enviar. Entonces lo que hace es leer la configuración del 3400. ¿Analizarla? Entonces lo primero que saca es un mapa de conectividad, es decir, Este es el mapa de cableado del 3400 y esto lo tenemos que pasar al 540, en este orden. Vale, entonces el fast cero del 3400 tiene que ir al giga 000 de 540. Así todo el.
+
+1:04:10
+Translator hay que ir cambiando este cableado, aquí como ayuda te dice que este cable se va a este equipo, este cable va a este equipo, etcétera, etcétera. Vale, vale esto lo primero que hay que hacer es cambiar un cableado por otro y aquí debajo lo que ha hecho es generarte la configuración que hay que cargar en en el 540, que es toda esta configuración aquí que es un churro muy largo y.
+
+1:04:38
+Vale, toda esta configuración se ha generado automáticamente partiendo de Del 3400 para que el 540 funcione como el 3400. Vale esto de aquí nada, porque esto lo voy a quitar, porque esto son cosas mías de las que utilizo yo de de prueba.
+
+1:05:02
+Sí, a esto, esto es un esto es el el análisis que hace el script de la del equipo, tanto a nivel de configuración como a nivel de de funcionamiento del equipo antiguo, para saber cómo tengo que configurar los puertos nuevos. Vale, entonces la forma configurable, ya te digo, es entonces a partir de de ese análisis lo que se hace es se se construye esta configuración.
+
+1:05:31
+Que tiene partes de configuración estándar de cabecera y tiene parte de configuración de interfaces. Vale, esto es lo que hay que cargar el 540. Entonces en teoría, en la noche del corte programado se carga esta configuración en el equipo y entonces hay también un script que es el de herramientas verificar 540.
+
+1:06:02
+Que una vez ya 105639 no hay edad. ¿Ay perdón el actual 540 MPS cero 1 aborta, vale, no está en marcha? Sí, porque no está en marcha.
+
+1:06:30
+Sí, a ver, una vez esta se supone está en marcha. Es que ahora no te lo puedo enseñar porque no tenemos equipos, el de cargas lo tenemos apagado. Vale, aquí lo que hará se hace. Es que le. Cuando yo he generado la configuración me he guardado en la base de datos el tráfico, tanto el tráfico que tenía en.
+
+1:06:57
+En cada interfaz, si tenía errores, que qué interfaces estaban levantados, hacia donde qué vecinos veía, etcétera. O sea, me he guardado una serie de información. Vale, cuando yo el equipo nuevo lo que hace es compararme, digamos, los datos viejos con los datos nuevos. Es decir, si en un interfaz tenía un tráfico de 20 megas en el puerto que sustituya a ese a ese.
+
+1:07:26
+Debo debo de tener sí lo mismo unos 20 megas más menos el 10%. Lo de momento lo lo lo vamos a dejar un más menos x por ciento, vale en este caso un 10. Y entonces lo que hará, lo que hará es, por un lado, mirar que los interfaces tengan el mismo tráfico, que tengan los mismos vecinos, que tengan la misma velocidad configurada.
+
+1:07:53
+Y entonces pues te va diciendo en colores, en rojo, en verde o blanco. ¿En qué estado está de sustitución? Porque una cosa es que el tú digas vale, el interfaz es o sea el router está bien, sí, tiene el puerto levantado, pero pero el tráfico está bien, pues no lo sabes y de esta manera lo que vamos a hacer es comprobar que efectivamente la sustitución se ha hecho bien.
+
+1:08:16
+En este caso, como en este, este equipo no está conectado. Ahora mismo no está conectado porque se va a conectar. Perdón se el que se va a desconectar esta noche es otro, es el el BCN este, pero es que es igual, me va a dar el mismo error porque no, no está todavía conectado. Este va a ser el conejillo de Indias. Sí, este este es el que se conecta este que se cambió esta noche.
+
+1:08:40
+Entonces, cuando esté este equipo en marcha, hará un análisis de este equipo. ¿Entonces te dirá, está bien o está mal? Sí que a lo mejor lo haces el el análisis nada más que lo has levantado y te sale y a los y a los 5 minutos ya te sale bien porque se han ido recuperando los tráficos de los servicios y.
+
+1:09:01
+Claro, hay que estar ahí pendiente de ver, entonces dejarlo que evolucione lo mismo que las adyacencias tienes que dejar que se levanten las adyacencias, eso tarda unos segundos minutos, si lo haces inmediatamente te va a dar 1000000 de errores. Eso también te lo digo, sí, porque muchos, muchas adyacencias ni siquiera las habrán levantado, los tráficos no estaban repuestos bien, entonces eso es lo que vamos a probar esta noche.
+
+1:09:25
+A ver cuánto tarda, si funciona bien, porque tampoco hemos podido ver probar esto en producción. Lo he probado sobre maqueta, pero claro, de de laboratorio a campo siempre hay y en maqueta o tenemos los tráficos que corresponden y bueno, los puedes, les puedes ir engañando y mintiendo y tal. ¿Pero no es lo mismo entonces? Pues una de las cosas que queremos hacer también es validar el software que funcione aquí. Ahora lo pues creo que tenemos de 3 a 6 el Corte.
+
+1:09:55
+¿O sea que pero bueno, que vaya, que sea leve y vaya bien, eso espero, vale, vale? ¿Y como por último hoy vamos a hacer ubelands libres, para qué sirve esto? Solamente el Protocolo ethernet solamente permite tener un número limitado de Ubelands.
+
+1:10:25
+Que si no recuerdo mal son 4096 V lands. Nosotros tenemos ya más V lands que esto. De hecho esta herramienta la tuvimos que hacer porque íbamos dando para todo cualquier proyecto. Íbamos dando V lands de manera secuencial. Pero llega un punto que se acabaron claro. ¿Y entonces qué hacemos entonces? Antes era muy fácil distinguíamos.
+
+1:10:53
+Los proyectos por V lands o un servicio de operadores, esto V Land. Sabías que claro, iba hablando de las secuenciales, no se iban a repetir, pero claro, llegó, llegó un punto en que se terminaron. ¿Entonces, a partir de ahí, qué hacemos? Bueno, pues entonces hicimos esta herramienta. Esta herramienta lo que permite es buscar V l a libres en un entorno. Es muy sencillo, me explico.
+
+1:11:19
+Vale, yo quiero, me hago ya una imaginación, a ver, yo voy a conectar dentro de Torrente, por ejemplo, voy a conectar. Ah, necesito una V Land, vale, entonces una de 2. O pongo toda la lista de equipos de Torrente porque tengo que analizar equipos, vale, entonces tengo que analizar qué los equipos y qué V lands tienen esos equipos.
+
+1:11:46
+Entonces la podría hacer poner todos los equipos de Torrente, RUP, RUP, RUP o directamente pongo un equipo, le digo, que incluya a los vecinos, sus vecinos y además incluya a todos los equipos del centro de El centro donde está este equipo. ¿Vale la otra opción? ¿Es decir, por ejemplo, yo tengo por eso está el Excel este?
+
+1:12:16
+La otra opción es vale, yo necesito hacer un servicio de operadores que va desde aquí hasta aquí se va y va a ir a través de estos equipos. Entonces yo puedo decirle que me que me diga Qué V o sea que me dé una vla libre de varios centros a la vez, entonces yo por ejemplo ponía ponerle el Val 920 PIC.
+
+1:12:42
+Y el yo que sé, el cash 920 DS vale, entonces yo de todos estos equipos, si incluyo sus vecinos, incluyo los centros a los que pertenecen. Me aseguro que si yo voy a hacer un servicio de operadores desde Torrente a Castellón, desierto, no dupliques esa IP, esa ISIP si esa V lan que que analizas esto.
+
+1:13:12
+Esta zona o este contorno o este ámbito sí y te sale que la overland 520 no está, porque a lo mejor la overland 520 la estamos utilizando en un portador que va de Lugo a Vigo. Correcto. ¿Entonces yo me aseguro que con esto le doy a enviar, vale, y entonces me dice, esta overland está libre? Pues utilízala, claro.
+
+1:13:35
+Entonces yo puedo utilizar esta la puedo reservar también. Es decir, si yo le doy a reservar, me mantiene la reserva de esa V Lan en todo el territorio durante creo recordar que era una semana vale, con lo cual yo puedo reservar. Su V Lan no se la no se la daría a nadie más de momento durante una semana, hasta que efectivamente tenga ya la orden de trabajo YY pueda empezar a leer datos.
+
+1:14:05
+Vale, con lo cual ya te digo con esto, lo que me aseguro es que ni en este equipo, ni en este, ni en este estarás ni en ninguno de los alrededores de ni ninguno de los centros. Vale, o sea, se puede enviar también a través de de Excel o se puede pegar directamente que venga desde desde un centro, o sea tú puedes de si tú tienes una. Ah, bueno, en muchas partes de fuegos esto funciona muy bien.
+
+1:14:34
+¿Tú tienes aquí la base de datos, vale, tú por ejemplo, tienes sistema? ¿Vamos a hacer una búsqueda, vale? Esto sí que es normal que se haga Cisco, por ejemplo, modelo. Yo qué sé, 400.
+
+1:15:01
+¿Vale, lo lo exporto en formato de XT para hacer un copia a pega, vale, y entonces me voy al final con el shift le marco hasta aquí esto lo copio y me voy a un Excel, esto lo sabías? ¿No? ¿Sí, vale, y hago esto, vale?
+
+1:15:30
+¿Pero al revés, también se puede hacer entonces, tanto para en un sentido como en otro, yo puedo venir aquí y decirle, vale, yo quiero que herramientas Google Ads, búsqueda libre, le puedo pegar esto? Ah, vale, entonces el análisis me lo hace sobre los equipos que le acabo de pegar o.
+
+1:15:59
+¿Lo puedo pegar esto? Ver, incluir vecinos, incluir centros, a ver si es así, vale, correcto, vale, entonces lo que me permite es eso, es que tanto en un sentido desde un Excel, yo puedo pegarle también la lista de equipos. Ajá. Esto por ejemplo, viene pues eso de una orden de trabajo, la típica orden de trabajo en el que te viene toda la.
+
+1:16:27
+¿Toda la ristra de equipos en Karayan esto también se puede hacer, EH? Ahora te lo enseño, que tampoco. No hemos visto todavía cara. Vimos karaya no, todavía no lo hemos visto. Vale a ver copia de seguridad.
+
+1:16:59
+A ver, estoy buscando un archivo de estos de que tengo aquí de de ejemplo. Vale, nada más he godo, tengo un circuito de Colt, este es el ejemplo. No vale. Entonces mira, ves lo que haríamos es esto.
+
+1:17:38
+Copiar, pegar y enviar y enviar ya está. Ya tengo lo lo bueno en esa. Con eso me aseguro que no voy a tener ningún problema para esta web con esta web Land, porque las V Land no va a estar en ninguno de estos equipos, ni en sus vecinos ni en los sí. Sí, sí, sí, no está.
+
+1:18:04
+Es que es una putada eso. El límite de las V Land nos fastidió y tuvimos que buscar una solución. A ver, es fácil saberlo porque al final si yo me voy a cualquiera de estos equipos, si te acordarás que que yo me guardo las V lands que tiene el equipo por dentro, da igual, no te desastrear y todo están aquí las V lands en la base de datos. Vale, entonces yo sé que V lands utiliza cada equipo.
+
+1:18:33
+¿Y las puedo eso rastrear y entonces es muy fácil, hay que hacerlo no? Pero bueno, es fácil decirle, bueno, pues búscame las V lance y además todos los equipos que estén en este centro y además todos los que tengan vecindad, que los vecinos no los tengo aquí, o sea va a realizar este equipo, este equipo, este equipo y todos los equipos de que estén aquí en maquinez más.
+
+1:19:05
+¿Dónde me había quedado? Ya me he perdido. Siempre me pasa igual más cuantos más equipos les vaya poniendo, pues va a hacer lo mismo para regresar también a ese equipo, sus vecinos, los de ese centro. Vale, pues pues pues ya está. Lo dejamos aquí si quieres, vale.
+
+1:19:29
+Porque herramientas nos queda portal de peticiones y tareas. Es que los dos son bueno, portal de peticiones es donde hacen todo El Mundo. Las peticiones y las tareas son la herramienta que utilizamos nosotros de gestión de de órdenes de trabajo y de esto no se tiene muchos sentidos, no o sí, no lo sé. Bueno, lo vemos, ya está, te lo cuento un poco.
+
+1:19:58
+YY cómo funciona YY cómo trabajamos nosotros porque tenemos, ya te digo, tenemos nosotros, tenemos control de todas las horas de trabajo que van entrando. ¿Quién las tiene asignadas, en qué Estado están? ¿Vale toda esta información la tenemos ahí metida? Vale, pues nada, pues.
+
+1:20:26
+Pues fin de la grabación es el viernes más.

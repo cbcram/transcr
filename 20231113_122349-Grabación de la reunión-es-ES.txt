@@ -1,0 +1,652 @@
+[Traspaso Fobos]-20231113_122349-Grabación de la reunión
+
+0:03
+¿A ver, vale, pues ya estamos grabando lo último que habíamos visto grafana YY Grey lock, verdad? Sí, vale, ahora nos vamos a iOS y PAM, que a el buscador de Mac RFC vale, bueno, empezamos, lo hacemos lo que hasta donde lleguemos y ya está. Vale, vale el tema de iOS, esto es.
+
+0:31
+Automáticamente los sobre todo esto se utiliza sobre todo para los equipos Cisco. Vale, entonces si te acuerdas cuando veníamos aquí al inventario y buscamos una máquina, yo qué sé, una máquina Cisco cualquiera vaya hombre de tipo switch tipo router va que está aquí tipo router.
+
+1:03
+Vale cualquier máquina de estas. Una de las cosas que hace es esto de aquí va recogiendo el tipo de software que tiene la familia, que esto se va a empezar a utilizar para temas de copias, para auditorías. Y lo que nos dice también es el archivo que tiene de emfile system, que es el archivo de arranque de la máquina. Sistema operativo. ¿Vale lo que se llama iOS, vale?
+
+1:33
+La versión de iOS que tiene instalada la máquina, la máquina es router, entonces esto se hace automáticamente, se puede forzar a mano porque sincronizar con red. ¿Aquí lo hemos visto algún día? Sí, sí, aquí en tipo software esto lo hace periódicamente una vez a la semana, pero bueno.
+
+1:53
+Lo que hace es entrar en el equipo y mirar a ver qué tipo de software es, qué tipo de qué que iOS tiene instalada, que iOS está funcionando. Porque hay dos cosas distintas. Una cosa es las iOS que tenga en el disco duro o en la o en la flash. Los routers pueden tener pueden tener varias versiones de de iOS, vale, pueden tener en este caso. Ahora veremos cómo hacer para cargar la última.
+
+2:19
+De los 920. Pero lo que te dice aquí es la que está funcionando en este momento. Vale, esta es la que la que cuando si le haces un software y te sale esa me sale esta estoy cachamos un tener en la con 920 NLIS.
+
+2:48
+De hecho lo saco de aquí, o sea directamente vale, aquí te dice cuál es la que tiene la 17:06 H 5 y por aquí te dirá el system file a ver dónde te lo dice, ahí estás sí, sí, Ay, ahora ahí un poquito más arriba lo tenías, sí, pero aquí andaba está aquí. Este es el que el que lee, vale, este es el que lee del.
+
+3:15
+Pero sin embargo aquí la Flash, perdón, vamos a hacer un flash, porque si no me sacan la información de flash tiene varias ves tiene la 17:06 H 5 y la 17:06 H 3 y la que está ejecutando en este momento es la 17:06 H 5. Esto se hace por una razón, todas las versiones de ellos tienen bugs, todas.
+
+3:42
+Pues imagínate que este equipo por lo que sea, está funcionando con la 17:06 H 5 y nos aparece un back por ahí que nos está fastidiando un montón y con lo cual lo que haríamos simplemente es decirle que cargue la diferentes 63 y reiniciar el equipo. Con eso bastaría parar arrancar con la 17:06 H 3, hay que reiniciar el equipo, se cortarían servicios y a estos equipos les cuesta 20 minutos largos arrancar a los 920. Estoy hablando.
+
+4:11
+¿Vale, pero bueno, ante una catástrofe ya tenemos una versión, digamos ahí cargada, en reserva por si acaso vale, y sí, y ahora la que está funcionando es la digite 65, vale, pues esta es la que lee y te dice que la digite 65, vale, a qué viene todo este rollo? Pues si tuviese aquí a iOS, entonces tú puedes decir vale los 920. ¿Qué versiones hay?
+
+4:40
+¿Entonces te vienen aquí todas las versiones que se han detectado alguna vez? Vale, pues 1313. Aquí hay antiguas, EH, muy antiguas, sí, De hecho hay antiguas, pero que todavía hay equipos que están con esa versión. Aquí hay 8 equipos que están con esta versión antigua, que son estos que son de las shocks. ¿Mira, ves?
+
+5:06
+Estos equipos del shock tienen esta versión del sistema operativo que es muy antiguo. Vale, vamos a tirar un poquito más para adelante para ver las 17:06 H 51763 que son las que nos interesan. Vale, cuántos equipos tengo con la 17:06 h 3 pues tengo 249 equipos y con la 17:06 H 5 ya tengo 682. ¿En principio esta es la que debería estar funcionando en todos los routers, vale?
+
+5:34
+Ya nos ha entrado un equipo con la 17:06 H 6 que es este equipo de aquí, vale, esto es un equipo que está en maqueta debajo. Este es un equipo de maqueta que le hemos le instalé yo esta esta versión el otro día porque estamos teniendo problemas con un tema de un de un bug y como este esta en maqueta la instalamos la 17:06 H 5 para 1766, perdón para ver si se solucionaba y resulta que no va. Seguimos teniendo el problema, pues vale.
+
+6:04
+Es de lo que hay. ¿El circo es así, vale, entonces simplemente aquí buscamos, podríamos buscar por el nombre directamente y nos sale la versión correspondiente, no? ¿Y nos dice, pues qué versión tiene instalada? También podemos venir desde aquí, desde el link este de aquí, perdón, a ver, pues este este de aquí, entonces si le picas aquí o le pues directamente se viene aquí y te dice.
+
+6:34
+El tipo software tal todo el rollo. ¿Y qué modelos de equipos los tiene instalados y quién los tiene instalados? Pues te saca la lista de los todos los equipos que te lo tienen instalado. ¿Todos estos equipos ya están rulando con la di 765 los 800, no sé cuántos que salían, sí son 700 y pico creo, perdón, 765 Ay 682, Ay, he bailado, he bailado el 6 con el 8 vale la columna de tamaño, qué quiere decir, perdona?
+
+7:01
+Vale, ahora, ahora va a lo mejor eso vale, sigue igual y el PRY, el RY el o vale, entonces hay una, un, hay un script que está funcionando que lo que hace es verificar qué versión tiene cada router cargado en la Flash hemos estado diciendo que tú puedes estar funcionando con la digite 63 vale, pero puedes tener ya en memoria de la digite 65.
+
+7:30
+De hecho vamos a ver 1 de estos dos equipos, 1 de estos equipos que nos va a pasar. ¿Eso vale? Entonces vamos a hacerle un telnet a este de aquí, salir de aquí.
+
+8:01
+¿Vale, está funcionando la 17:06 H 3 vale, lo ves que está aquí también, pero si le hago un disflash tiene las dos cargadas ya la de 1765 que está aquí arriba y la de 1763, qué es lo que habría que hacer? Habría que reiniciar el equipo, pero trabajo programado, efectivamente, entonces lo que se hace es que.
+
+8:29
+Se se cogen varios equipos a la semana, la gente de configuración pues pide el trabajo programado, reinicia el equipo, ve que arranca bien y todo el rollo. Entonces así vamos manteniendo las versiones de los sistemas operativos. Esto hay que hacerlo regularmente y bueno es lo que hay porque si la esta tiene un Pack que lo lo los tiene.
+
+8:54
+Entonces si por lo que sea nos está fastidiando, pues hay que saltar a las 16:05 H si no, pues herramientas grafana se van periódicamente se van haciendo y aquí tenemos un brush equipos y os instaladas esta esta la tenía en general.
+
+9:23
+Sistemas no general, aquí están las news instaladas y Desinstaladas 920. ¿Vale, entonces lo que nos dice esta gráfica es, ves la evolución que estamos teniendo de los la 17:06 H Mayores que 176? Pues estamos ya, pues en 900 y pico equipos todo lo que no que esté por debajo de la 17:06 H.
+
+9:53
+Hay que ir actualizándolo todas las 16:09 H, Vale, entonces todos esos equipos aquí el 17, 6, 3 o 1765, bueno, están dentro de lo de lo normal, o sea, no hace falta a lo mejor ir corriendo. Los que están muy con versiones muy antiguas, la menor era a las 16 menores a las 16:09 H estas de aquí esta sí que había que ir corriendo y 16 y estas aquí también hay que subirlas ya.
+
+10:21
+Pero evidentemente estos de aquí vale hay que menos 2176, menor que todavía quedan 250, que estos son los que se están trabajando ahora para subirlos de versión. Vale poco a poco, pues se van consiguiendo esto el tener.
+
+10:51
+Las versiones de las iOS actualizadas 1. De los problemas de los 920 es que son muy lentos, arrancando entonces bueno vale, vámonos a donde nos habremos quedado inicio herramientas iOS, pues hay un script que lo que hace es asegurarse.
+
+11:14
+Que en la Flash está cargada al menos esas dos versiones, la principal y la reserva, y eso se hace así. Esto se hace así de esta manera. La principal. ¿Cuál es la versión principal de los 920? Esta bueno tiene una p. ¿Y por qué tiene el tamaño? Porque cuando tú haces 1 F t P para subir la versión a.
+
+11:41
+Desde el servidor hasta el disco hasta la Flash de los Routers. Vale tiene que el script comprueba que se ha subido bien, que el tamaño en la Flash es el mismo que el tamaño en disco duro, porque hay veces que ha pasado que resulta que el archivo está corrompido. Entonces al intentar iniciar la 17:06 H 5 cascaría.
+
+12:11
+Entonces, la forma de comprobar una vez que es cuando ha copiado que le cuesta varios minutos, Eh, no es un no es un copia pega y ya está, sino que le cuesta varios minutos subir la subir el archivo cuando sube el archivo, que son 400 megas, son sí, 123123400 megas, vale, es que es bastante grande cuando.
+
+12:40
+Entonces, cuando has cuando has subido el archivo lo que compruebas que el tamaño sea el mismo para comprobar que efectivamente no tenga ningún que el archivo esté bien y que no ha perdido ningún paquete por el camino ni ha habido algún error. Vale, entonces hay que poner el tamaño, hay que poner que es principal y hay que poner la reserva. El de reserva vale el de reserva.
+
+13:06
+Es el anterior al principal que supone que ya está cargada en en las iOS, porque esto lo iniciamos hace unos meses y ya se supone que todos deberían tener la diferentes 63 vale cargada ya en flash. ¿Vale, y esto de o es la rommont? La rommont es una parte que es, digamos que es la parte pequeña de software.
+
+13:35
+¿Que tienen que tener también los routers? Está aquí esta de aquí vale, esto es la rommon. De hecho ni siquiera podemos saber la que tiene funcionando, no lo sabemos, sabemos cuál tiene el en el Flash, vale y lo que hacemos es y esto es automático, o sea viene aquí, tú le metes archivo y cuando arranca el el router lo primero que hace es cargar la rommon.
+
+14:05
+Y a partir de ahí inicia la carga de la iOS. El archivo es mucho más pequeño, como verás aquí son un mega ocupado, un mega, un archivo muy pequeñito y la forma de decirle cuál es la rommond que tiene que tener cargado, es así con una o vale y el archivo de la rommond aquí no comprueba tamaño y el archivo rommond que tiene que tener en la Flash, si no lo tiene, lo lo sube y borra al antiguo.
+
+14:37
+Vale, con lo cual con este script lo que nos aseguramos es que todos los routers tengan ya la última versión cargada en la en la Flash, la última versión que debería tener, porque si además por lo que fuera se fuera la luz o hay un crash o ese router accidentalmente se reinicia, pues ya arrancaría con la versión nueva y no haría falta hacer un correo. ¿El programa vale?
+
+15:05
+Vale porque salen cero equipos que tienen lo de la rom MON, porque no mira y no porque yo no Leo la rom MON que tiene porque no sé cuál. Yo no sé cuál tiene funcionando. Vale, vale, no, aquí no hay ninguna manera de decir qué rom MON está funcionando. No hay manera sobre un router, no puede saberlo, vale.
+
+15:27
+Entonces lo que hacemos es subirle la el archivo y lo dejamos ahí y ya sabemos que ese funciona y ya está Punto Pelota, vale, vale, vale, es la única excepción. Todo lo los demás es. Lo lo hicimos así porque claro, teníamos que hacerlo de alguna manera, el decirle, bueno, la rommon, ya sé que no es un archivo iOS, lo sé.
+
+15:53
+Pero lo puse ahí porque era la única. O sea, podía haber quedado una base de datos independiente, pero claro, una base de datos independiente para meter un registro no tenía mucho sentido. Entonces lo puse aquí de esta manera con una o y se sabe que es así y ya está. ¿Vale en iOS XR? Pues también tenemos las versiones. ¿Vale entonces en los XR?
+
+16:20
+¿Esto es 1 s R card 9 me parece que es no cómo se llamaba el tipo software? Ah perdón, iOS XR está aquí, vale, pues igual tenemos aquí la las versiones que tenemos cargadas, aquí no hay script, esto lo hacen los técnicos a mano, hay pocos XR de momento ahora vamos a tener el susto porque los 540 son iOS XR.
+
+16:50
+Y van a entrar 2000 equipos. ¿Esos los 540 sustituyen alguno o sustituyen a los 920? Entonces los 920 evidentemente no se van a tirar. Se van a utilizar como nivel dos, como switches y lo que es routing lo vamos a pasar a 540. Entonces vamos a tener para equipos para instalar de nivel dos, porque al fin y al cabo el el 920.
+
+17:19
+¿Como switch tampoco da demasiados problemas, tiene peculiaridades y cosas que a mí tampoco es que me gusten mucho, pero claro que tenemos más de 1000, no nos vamos a tirar a la basura, entonces se van a utilizar como si fueran switches y los 2000 y pico y 2 x R que se van a montar? Pues bueno, habrá que hacer algo para tema de versiones, etcétera, porque porque no será la verdad es que debería estar ya por aquí, supongo. A ver, sí.
+
+17:49
+Ya están aquí cargadas porque de como estamos haciendo pruebas este es el que está en maqueta este equipo que está en en en Motors está en Cataluña que está en la maqueta allí y el otro este de aquí las 7:09 H dos. ¿Este es el que tenemos, el que estoy haciendo yo las pruebas vale sincronizamos con red, vale?
+
+18:18
+IP de gestión la ha perdido porque la he perdido, hasta aquí le he cambiado la dirección. ¿IP es 421162 vale modificar equipo? Es que como ando trasteando con él no, y no es esto tampoco, no, no sé qué IP de él me he metido, bueno, es igual, ya lo miraré.
+
+18:49
+Este es el de maqueta, vale, está. Este es el que están haciendo las pruebas. De De hecho, ya vale. Estoy haciendo las pruebas de de volcarle las configuraciones que estamos generando online para ver cómo. ¿Pues eso, que esa herramienta todavía no está publicada, pero también la publicaremos esto fuera, vale?
+
+19:23
+Están pues los 3300, pues también tiene su sus iOS los 3000 vale los 28 y 11, pues también tienen aquí su serie de de iOS.
+
+19:47
+Pues pues habría, habría que hacer limpieza aquí supongo, no como como esta, que ya no tiene equipos, pues a lo mejor bueno, si le damos aquí pues se borra, ya está, o sea que es una versión antigua, pues se borra y ya está. A ver, vale, pues eso, esto no hay que hacer nada, simplemente se mantiene solo.
+
+20:18
+Vale, lo que hay que hacer es dejar que el sistema vaya leyendo y va actualizando esta información de que ellos tienen instalada cada 1. Lo único que puedo hacer es una consulta, pues un momento, dame, vamos a ver si tal versión qué equipo la tiene instalada porque hay un back o por cualquier cosa, pues podemos venir aquí y consultarlo. ¿Y las versiones nuevas las detecta? Bueno, la desde cuando.
+
+20:44
+No, De hecho, mira, Fíjate, esta la que la que te he dicho antes la el la 5:40. ¿H, yo no le he dicho nada, las ha leído, vale? Le ha detectado el equipo nuevo en la red, lo ha descubierto y le ha leído la la iOS y la ha puesto aquí no, cuando lo he dado de alta pues ha empezado a interrogarle le ha preguntado que iOS tiene instalada como no tenía esa iOS está creada la 7:09 h dos, pues ha creado la la esta versión iOS.
+
+21:13
+Y ya está. Y y a partir de aquí todos los equipos que vayan entrando pues se Irán metiéndose aquí y le pondrás también 1 que sea principal, por ejemplo la la 9:07 H dos, no, no, no, de momento en este no hay script hecho todavía. El día que se haga el script que habrá que hacerlo, pues sí habrá que poner cuál es la principal, cuál es la de reserva, poner el tamaño de la principal.
+
+21:40
+Pues lo mismo, pues porque la actualmente la que parece ser que se va a instalar en la 7:09 H dos, entonces vale, todos los equipos nuevos van a venir con instalados la 7:09 h dos hay alguno que es que es el de maqueta, que es los primeros que vinieron hasta las 7:09 H 1. Entonces habrá que ponerle las dos, esta como un principal y está como como reserva. Entonces lo que ocurrirá es que todos los equipos, pues poco a poco, pues en cuestión de una semana.
+
+22:06
+Al final pues todos los equipos tendrán estas dos versiones en la Flash de Del Router. Vale, entonces el script está ahí funcionando en background no te no te enteras y poco a poco pues va trabajando, pues se va cogiendo un equipo tras otro hasta que termina, como tampoco hay prisa, es decir, subir, revisar 1000 equipos no le cuesta nada.
+
+22:34
+Subir el un archivo de 500 megas a 1000 equipos sí que lo eso es otra, es otra cosa. Cuando metimos la versión, la última le costó dos semanas y pico 3 semanas, Eh, subirlas, pero bueno, es que son muchos equipos y es mucho. ¿No, no está mal, eh? Dos semanas tampoco para todo lo que es y todo tampoco está tan mal.
+
+22:58
+No es un coge, se coge en el equipo tras otro le cuesta 1/4 de hora, 20 minutos cada equipo, pues pues poco a poco, Pim PAM, Pim PAM, Pim PAM, pues es verdad que también habían equipos que ya la tenían, con lo cual es con sus equipos no tiene que hacer nada, simplemente verificar que está una o están las dos y ya está, entonces al final pues se hicieron los que se hicieron y ya está, no recuerdo, pero muchos Eh, se hicieron muchos equipos y ya la tiene cargada la la iOS pues ya está.
+
+23:25
+Vale, tú puedes tener aquí configurado una principal y una reserva para los XRY, otra para los XEY, otra para o s e así porque siempre voy a coger cuando yo voy a actualizar. Fíjate, cuando yo voy a actualizarlos, normalmente lo que voy a decirle es que los 540, vale, yo voy a hacer el script de los 540, entonces yo buscaré solamente entre estas 3 por eso.
+
+23:54
+¿O cuando voy a hacer, si si se hace el script para los 3300, por ejemplo, solamente buscaría en estos cuál es la principal y cuál es la de la reserva? No busco en toda la base de datos, aquí sí que tengo que decir solamente una principal y una reserva. Primero que aquí 920 pues tengo que tener definida una principal y una reserva que están aquí y en este caso excepcionalmente la ron pues.
+
+24:23
+No, para esto esto ya no se utiliza. Esto estaba al principio actualizar, no era para que no las tocaras. Si tenía esta versión cargada no le hago ni caso, ya vale, YYYYYY ya está, vale alguna duda más de a veces a ver y no aparece, no lo sé, si aparecerá, no puede ser que aparezcan.
+
+24:53
+Versiones de de radio, enlaces a ver si había alguno por ahí o ya confundo cosas porque esto para para el intia sí que se está haciendo. ¿Vale el nuestro? No lo sé. Ya tengo la duda, si solamente está haciendo temas de Cisco el Intia seguro.
+
+25:19
+Que tiene los eltec, por ejemplo las estaciones de continua, porque hay 2 o 3 versiones diferentes y esto sí que está registrado en la nuestra. ¿No lo sé ya muchas, es que hay muchas versiones de ellos por ahí Pululando, Eh? Hay muchas que no se usan ya, pero esta por ejemplo.
+
+25:47
+Los son equipos de pues de Jimmy a ver 3 k a veces aparecen cosas así raras. ¿Vale, mira, aquí ha parecido también una cosa rara, el Flash este, y es que algunos equipos tienen la costumbre de contestar lo que les dé la gana, vale?
+
+26:22
+Y entonces le haces un show ver YY te dice que la iOS es iOS. Bing y se queda tan ancho en todas las familias. ¿Hay algún rebelde, vale, entonces por qué? No lo sé, no tengo ni idea. ¿Por qué lo hacen? ¿Porque tienen la versión que toca muchas veces, Eh, pero te dicen otra cosa, esto hace para qué sirve un poco vale?
+
+26:52
+Vale, pues no, aquí solamente están los a ver, no que me abra otra sesión. ¿Esto no? Lo de Lintia se lo enseño porque para ellos es importante en lintia lo de las versiones de de los estaciones de continua, sobre todo.
+
+27:20
+No lo sé, no me preguntes por qué sé que me lo pidieron que lo hiciera y Ay, este no es tú fuera me he metido donde no toca, que es este es el 196. Este aquí es que no sé por qué he puesto ahí una cosa en azul todos vale la presentación.
+
+27:50
+Vale, aquí en el TEC, vale en las en los el TEC tenemos controladas las versiones que tiene cada estación de continua, hay una versión que es la esta de aquí que pone solamente esto, dos 10 y unas son las Smart Pack y las otras son las Smart pack S.
+
+28:17
+No me preguntes porque es así, pero es así y también por lo visto tienen problemas que tienen algún Pack y alguna historia. Entonces al final necesitaban saber qué, qué equipos tienen, qué versiones. Bueno, pues aquí también está igual y cuando como se están interrogando por grafana a ver aquí.
+
+28:46
+Vale, esta es una delte que Smart pack que se puede sincronizar por red a fuera con red. Si tiene comunicación no tenía, no tenía no, perdón, estaba a ver una que funcione esta imap. Te están dando todo este map que guay.
+
+29:14
+No sé por qué no tengo por IP, no llego a ellas, sí, no sé, bueno, por rafana se está recogiendo información, lo que no sé es por qué aquí ahora no, porque como están cambiando temas de cortafuegos y tal, a lo mejor los han cortado. Vale, no llego a ellas, también se podía sincronizar para saber qué qué módulos tienen instalados y tal, pero por lo que veo.
+
+29:43
+De de haber cortado el el cortafuegos porque es un poco raro. ¿Te razona el TEC, ves? No sé porqué no llego a a estos equipos. Debe ser que los han metido en algún.
+
+30:26
+Detrás haga un cortafuegos que a veces lo hace los últimos 6 meses. ¿Ves de repente? Deja de interrogar, no sé por qué esta no, esta está bien. Bueno, eso lo comentaré a Luismi, vale.
+
+31:01
+Cierro esto, me lo marco. ¿Está claro lo del tema de las iOS? Sí, tendrá alguna duda más. O vale, dime, no, no, que en principio bien vale y PAM y PAM y pam siempre me hace lo mismo. No sé por qué es lo que hay.
+
+31:31
+Y PAM, digamos que es la parte de base de datos inicial que con la que empezamos el proyecto. Y PAM es una herramienta no open vale libre gratuita el PHPY PAM, que lo que básicamente lo que hace es es un almacén de IPSY sus redes. Vale, estuvimos viéndola nos, la verdad es que nos gustó.
+
+31:57
+Y además era bastante rápida y se se aproximaba mucho a lo que nosotros necesitábamos, excepto en algunas cosillas. Entonces lo que hicimos fue descargarnos una versión y tunearla un poco. Está un poco retocada a nivel de código. ¿Por qué? Pues porque nosotros organizamos la información de manera que primero que nada tenemos su red, la su red, la red. Perdón.
+
+32:26
+Que vamos a utilizar, esto es el setup ID que es lo mismo que tenemos aquí es yo aquí tengo equipos, vale, tengo la de shock condes, el IMI vale, pues aquí lo mismo tengo limi, la RDG, la nuestra, teledifusión Madrid, la shock condes, vale, y esto ahora veremos lo que son lo de las reservas, entonces la RDG es la nuestra y entonces aquí lo que hicimos fue organizarlo por provincias y emplazamientos.
+
+32:56
+Porque nosotros para nosotros sobre todo era muy importante. ¿A porque a la hora de a la hora de de de resolver las peticiones de IPS, claro, a TI no te van a pedir 1, 1 I p de un rango determinado lo que te van a pedir es 1 I p de ayora, vale?
+
+33:22
+Entonces nosotros a nivel de estructura, a nivel jerárquico, necesitamos organizar la la la información de esta manera, es decir, por un lado la la provincia, dentro de las provincias tenemos los centros de cada provincia y aquí también están separados. Te acuerdas lo de los grupos de provincias y todo esto vale, aquí también están. Yo decía aquí están Valencia o P todas las todos los grupos están dentro de la provincia.
+
+33:51
+¿El punto Valencia a b t pues estará por aquí, se traen de una a otra, es lo mismo, no es que se no es que se traigan, es que la base de datos es la misma, vale, o sea, no hay que hacer una migración, la la base de datos es la misma, la tabla es la misma, lees del mismo sitio? Sí, sí, sí es, entonces lo que pasa es que a ver, esto es PHP PAM y yo lo que hago por detrás en fobos es tocar las bases de datos de PH de PHPY PAM a lo bruto, EH, sin miramientos.
+
+34:22
+Entonces yo no, no utilizo la API de pez. Paypal tiene APIS, pero no las utilizo porque ralentizaba muchísimo a fobos. Era imposible trabajar así. Cuando empezamos a volcar direcciones IPS podía tardar 1 minuto en dar de alta 1 I P.
+
+34:43
+Tú entrabas en Fobos, Leías un equipo y desde que tú te has dado la orden de que diera de alta la IP hasta que decía que ya está, podía pasar perfectamente 1 minuto, con lo cual bueno, tuvimos que entrar un poco a saco con las bases de datos y entonces yo directamente desde fobos lo que hago es escribirle sobre las bases de datos sin la API. Bueno, por eso también tuvimos que retocar un poco el código.
+
+35:11
+¿Y la parte de web en la que mira las jerarquías sí que sí que lo lo dejamos, es decir, tú bienes a a p, h, P y PAM quieres dar de alta 1 I p nueva desde aquí la puedes dar pero te va a costar 1 minuto, o sea tú entras aquí en la web, tú dices quiero dar de alta 1 I P como tiene tantísimas IP dadas de alta y la y la jerarquía es tan estricta le cuesta hacer?
+
+35:39
+O sea, revisar todas las dependencias de esa IP le cuesta un montón porque hay mucha información y no está preparado para eso. Entonces lo que hace pues eso. Por eso lo toco directamente y yo asumo que tampoco son riesgos, porque yo también hago las mismas comprobaciones, pero no le hago una, una, no le hago una una búsqueda recursiva porque.
+
+36:05
+PHPY Bam tiene muchas maneras de funcionar, puede ser estricto, no estricto. Semiestricto, yo siempre trabajo en modo estricto, es decir, no puedo tener sub redes solapadas, no puedo tener 2. ¿I p s que sean iguales no puedo, sabes? O sea, yo ya asumo que soy estricto, entonces no tengo que hacer todas las comprobaciones por si no lo soy, yo sé que soy estricto y busco una sub red y cuando voy a dar de alta una sub red tengo que mirar que no tenga solapamientos.
+
+36:33
+¿Si tengo los solapamientos no la doy de alta y cuando voy a dar de alta 1 I P pues miro que no exista la IP directamente, Eh? Dentro de la sub red, Eh, dentro de RDG, porque sí que si son las shock o o limi o el limi tiene está solapado con con redatos de gestión, vale, pero dentro de la de la de nuestra red, que es RDG.
+
+37:00
+No permito solapamientos de IPS ni de sub redes, es lo que hay. O sea, decidimos que fuera así porque es la única manera de que no se nos desmadre. Es que ahora mismo tenemos más de 100000 direcciones, IPSY, unas 80000 sub redes. Esto no hay nadie que lo esté controlando. ¿Quiero decir, no hay un no, no hay un sheriff de las I p s o 1 o alguien que esté comprobando que no se solapen sub redes para que oye, te has pasado aquí? ¿Esto no está bien hecho? No, no lo hay.
+
+37:31
+No hay nadie que haga ese ese papel, con lo cual la única manera de que no se es madre no es no permitirlo, ya está. ¿Entonces hasta ahora nos ha ido bien, EH? Quiero decir que que no tenemos problemas. Bueno, lo que te iba a decir dentro de Valencia, pues tú te vas a ayora y lo que tenemos dentro de ayora en este caso pues son las subbredes que están dadas de alta en ayora.
+
+37:58
+Vale, tanto las barra 27 como las ya esto esto son, creo que son pruebas mías tanto las barra 27 como las barra 32 como las barra 29. Vale, sí, entonces.
+
+38:14
+¿Qué ocurre? ¿Que poder? Ya vimos lo que era una extensión de lan y puede ser que tengamos la IP de o sea la las, la IP, el Gateway en un centro y estamos utilizando las IP en otro centro. Bueno, se da de alta siempre donde está el Gateway siempre se da de alta la la la sub red siempre se da de alta en el centro donde está el router que define esa sub red que después yo me lo llevo con una extensión de lan a otro sitio, vale, estupendo.
+
+38:43
+Pero la sub red estará definida en el centro donde está el el Gateway. Vale, si tengo que buscarlas. Bueno, ya tengo otros métodos para buscar esa sub red. Entonces si yo entiendo y yo tengo una sub red en la que tengo IPS definidas en dos centros distintos, entiendo que es una extensión de lan. Entonces yo buscaré.
+
+39:11
+Yo por ejemplo un centro de pequeñito donde no tenga un router. Cómo puedo buscar 1 I p pues fácil, miro a ver si dentro de ese centro hay alguna IP que tenga una extensión de lan con otro centro. ¿Si la encuentro cómo? Pues de esta manera, si yo encuentro una subred que tiene IPS en dos centros distintos y el Gateway está definido en 1 y yo estoy en otro, pues entonces sé que esa subred es una extensión de lan y puedo utilizar y puedo pedir una dirección IP.
+
+39:40
+Ahora veremos algunas en utiel. Creo que hay algunas así. Facilitas de ver, vale, vale, entonces vamos a ir utiel, vale CIA utiel y así lo vemos así porque aquí sí que tengo extensos de lan, vale gestión selva. Esto es una extensión de lan.
+
+40:03
+Ya te lo digo, o sea, no hace falta. Sin embargo, tenemos gestión de utiel y después tenemos otra gestión de Utiel, vale, y después tenemos una conexión de nivel 3, que esto también es una barra 30 de cofrentes con utiel. ¿Vale, dónde se define? Pues igual el mismo criterio, dónde está el Gateway, es decir, la primera IP válida dentro del rango. ¿Eso para mí es el Gateway, siempre es así, Eh?
+
+40:32
+Y a ver, a nivel lógico, a nivel de de programación, tú puedes definir el Gateway en en cualquier IP dentro del rango. Vale, pero claro, eso podría ser un desmadre total porque nosotros tendrías que su red por su red, entrar en la sub red y tú marcarle. ¿Dónde está el Gateway? Con lo cual al final dijimos, se acabó.
+
+40:58
+El Gateway siempre es la primera dirección IP válida dentro del run y si no lo es se cambia la dirección IP del ROUTER. ¿Vale, pero siempre va a ser la dirección IP del RUN la primera, pero si tú entras aquí, para mí el Gateway esto es una barra 30, que aquí solamente hay dos direcciones válidas, Eh? Pues mira que está marcada como web digo, pues debería ser la otra.
+
+41:28
+Debería ser marcada como Gateway o la otra, la dute, no la de cofrentes, vale, en cualquier caso, vamos a ver estas selva. De todas maneras, estos centros son los que siempre he utilizado para hacer pruebas, entonces puede ser que tengamos a alguna cosa rara por aquí. ¿Gestión selva vale, cuál es el Gateway? Pues la primera del rango, La 1 siempre tiene que ser la, la La 1, la primera del rango vale.
+
+41:58
+Entonces aquí tenemos un equipo nutiel y el resto en shelva. Si yo necesito una dirección IP en Shelva yo puedo venir aquí y buscar una. Me quedan todas estas de aquí libres y eso yo lo puedo hacer. A nivel de software hay unos algoritmos que ya tengo desarrollados que lo que hacen es buscar eso, buscar la dirección IP dentro del rango. ¿Vale bien las subbredes?
+
+42:26
+Ya te digo, están definidas siempre dentro de un centro, siempre una sub red siempre tiene que estar asociado a un centro, el centro y tiene campos. ¿Vamos a entrar aquí en el centro, vale? Este es muy importante que es el Código Info del centro. Esto es exactamente lo mismo, que esto es el mismo registro de la base de datos, el mismo esto de aquí arriba.
+
+42:57
+Bien el mismo registro. ¿De hecho, Fíjate que el prefijo equipo y el sufijo equipos están aquí, que es esto de aquí? Sí, vale. Este es el mismo registro de la base de datos. Necesita para que sea un centro 3 cosas o dos estás definido dentro de o una provincia o de un grupo que sea de tipo C de centro.
+
+43:26
+Y que tenga el Código Info y ya está. Eso es lo que necesito yo para que sea un centro y a partir de aquí yo puedo tener definidas dentro del centro. Yo aquí puedo añadir, yo puedo añadir ahora una sub red aquí entera. Yo podrías añadir una subred con todo el rollo este con toda la información y vamos a ampliar.
+
+43:56
+Yo que sé este router necesitamos otra sub red que vamos a gestionar otro centro gestión yo que sé utiel a t V vale y necesitamos una lo más fácil al final no es eso sino que tú directamente configuras el router, le pones la IPY que la lea. No tienes que hacer nada mucho más rápido aquí si tenemos que dar de alta una sub red le cuesta.
+
+44:23
+¿Pero bueno, podemos hacerlo de 2 maneras, o bien configuras el equipo lo sincronizas y directamente te sube la sub red al a la base de datos o entonces tú aquí te vienes al router al 28 al 2950 no al 2811 de util vale tú te vienes a este a este equipo? Creas una subred 1 u V Lan.
+
+44:49
+Unas perdón, un sub interfaz que esto es unidos, creas un sub interfaz aquí que sea el punto yo que sé esta que V Lan es esta no pone V lan no, esto no lo pone nada, no en en la gestión cheva lo pondrá k 3.
+
+45:15
+Vale, creas un subinterfaz que sea el fast F M 0 Barra 0.18 yo que sé miras una Uber aunque esté libre. Hay una herramienta para buscar Uber las libres por cierto, ahora la veremos. Buscas una uberland libre, DAS de alta el el el subinterfaz le pones un direccionamiento IP que ahora veremos dónde se buscan los direccionamientos IP libres y ya está. ¿Ya tienes la subred creada?
+
+45:43
+Entonces sincronizas el router y ya te creería toda la información ya te daría de alta aquí la la, la subred y todo el rollo. Vale, aquí hay algunas cosas importantes, vale entonces sobre todo gestión 2811 es una barra 32 que está en la de Loopback, que es la que me ha puesto ahora no gesto conexión, vale, esta es la gestión de de los equipos de utiel.
+
+46:11
+¿Vale que hay un montón utilizadas y pocas libres, pues esas amplío, vale, está la subred? Hemos visto que aquí debajo te dice las que están libres o las que están ocupadas estos libres y ocupadas no que contesten, Eh, o sea, esto es que está libre, esta también está, las blancas eran las libre, sí, sí, y las Verdes están ocupadas, vale, y aquí te dice en rojo.
+
+46:36
+Si está o sea, si no, si no contestan o en verde si sí contestan. Entonces si pones el ratón encima te dice la última vez que he contestado y este ha contestado a las a las 11:19 H que hace un par de horas que ha contestado desde aquí depende el permiso que tengas, pues también se le puede. ¿Se le puede decir que que le haga un ping desde aquí, vale?
+
+47:07
+¿Vale, esto es una subred? Y aquí hay una cosa muy importante que es esto de aquí. ¿Esto es lo que del va a ir a parar al DNSY lo que se utiliza aquí para definir esto de aquí la IP de vale esta IP de gestión, cómo la voy a definir yo cuando?
+
+47:34
+La 10:05 H 127 23 vamos a ir la de 10512723 que será la del lookback este de aquí es una barra 32. Bueno, si yo le digo que el host name De hecho lo vamos a hacer desde aquí.
+
+48:01
+¿Es Val 2811 UT voy a hacer dos cosas, por un lado le voy a decir aquí a fobos que esta es la IP de gestión de este equipo y además como tiene puesto aquí DNS que sí es la dirección IPY el nombre que le voy a esto de aquí lo que es lo que yo le voy a pasar al DN s vale, si yo de si yo de aquí De hecho modifico esto y le Quito el host name vale?
+
+48:34
+¿Le Quito al houssname y aquí desaparece la IP de arriba, vale, entonces si yo lo modifico aquí es la misma base de datos, EH? Con lo cual si yo aquí le vuelvo a ocurrir 10512723, si yo le digo esto, pues me lo volveré a poner en el sitio, vale, si además tengo una y aquí.
+
+48:59
+A ver, actualizo esto ya me lo he vuelto a poner, vale como tengo una y es lo que me pasa al DMS, me dice esta IP. ¿Aquí vamos a ver más ejemplos porque así lo vemos fácil todo el puedes puedes poner fobos otra vez cuando le has quitado la I p a dónde le has dado a modificar equipo cuando se lo ha vuelto a poner?
+
+49:30
+Sí, cuando, pero cuando atención de las modificar el PIC IP de gestión te da la opción de todos los de todas las IPS que tengo definidas dentro del centro. ¿Vale a ver yo para poner 1 I p de gestión tiene que estar definidas este IP dentro de un puerto sí o sí, no puedo poner aquí 1 I p libre tengo que tiene que estar aquí definida, vale, entonces simplemente lo que le he dicho es vale modificar equipo IP de gestión le he dicho cuál es?
+
+49:59
+La 10:05 H del 2723 y ya está y entonces ya me la he cogido aquí por debajo, lo que ha hecho es ir aquí y meter el host name, esto es otra sub red ya bueno esto entonces aquí tenemos el eltec tienes a host name el 9804, lo que pasa que estos equipos es muy probable que no tengan puesto para que los pase al DNSY. ¿No lo sé EH?
+
+50:27
+¿Vale entonces este el 9804? Uti no tiene puesto el DNS, con lo cual tengo el host name, el 9804 UY la 5:02 H 5105215 que no está aquí está en otra la ampliación estará ampliación es de 52110.
+
+50:59
+¿Perdón, 352215 está aquí, es este de aquí tiene puesto el host name del 9804 que es este de aquí porque la tenemos aquí, vale?
+
+51:20
+Pero no tiene puesto el DNS, con lo cual el script que le pasa la información al DNS, esto no lo esta no lo va a tener en cuenta, no la va a pasar al DNS, hay un script por ahí que está funcionando también background que es el que le pasa la información al servidor de DNS. Vale información que tenemos aquí, pues la descripción del puerto vale y este este que está que tienes marcado ahora es tiene la luz ahí en verde, como que sí que responde sí.
+
+51:50
+Y bien, por qué en fogots dice no está respondiendo, no un remotehost, pero eso es porque le ha hecho. Le he intentado hacer un tele, no un ping. Ah vale, aquí responde y además tienes el MPY funciona, vale, esta información es la misma, el Click, este esta información es la misma y la la y la respuesta es pregunta es si aquí es un círculo verde, un círculo rojo.
+
+52:18
+¿Por qué aparece aquí una una cosa verde y una x roja? Pues yo te lo diré por los daltónicos, para los Daltónicos esto y esto lo mismo. Sí, esto y esto no es lo mismo exactamente. Sí lo puedes poner en blanco y ***** que que se ve que lo va exactamente. Lo cualquiera los has de distinguir.
+
+52:48
+Sí, sí, no, por eso es por esa razón, simplemente porque hay entre ellos. Mi jefe es daltónico. Entonces claro, no, no había manera de poder distinguir esto, entonces bueno, entonces tenemos el la inscripción, el port, nada ni ni esto es de donde viene al principio no lo utilizamos, ahora ya prácticamente no se utiliza lo del Port este, el equipo y el puerto, estos sí, ya son campos añadidos que no hemos ido añadiendo nosotros.
+
+53:18
+Vale, entonces el equipo donde está definida esa IP, el puerto donde tenemos la IP, esto es lo dónde saca esta información de aquí, Eh, esta información a ver, vamos a un al 2811 que sea más fácil esta información. Vale, esta información es esta.
+
+53:45
+Vista desde dos partes diferentes, pero la base de datos no es la misma. Vale, aquí te dice si comunica o no comunica con un en vez de ponértelo así con un colorcito te lo dice con una s con una n te dice si una dirección IP propia o no fácil, si está definida en el equipo no está definida.
+
+54:12
+Y entonces podemos entrar, vamos a entrar aquí dentro de un albalat, por ejemplo, y aquí tenemos más información. Te dice la última vez que se ha visto, que es lo mismo que aparece aquí. ¿Si tú pones el ratón encima, vale, qué te aparece aquí? La fecha vale, pues esa fecha es esta, vale lo mismo, la misma información y tal. Quiero decir, esto es la información de 1 I P.
+
+54:43
+Eso es la parte, digamos de gestión de lo que es el direccionamiento. ¿Se puede tocar, hay gente que tiene permisos, ahora veremos los permisos y se puede tocar a mano, o sea tú puedes borrar 1 I p pero si te cargas 1 I p esto es fobos, o sea esto, esto es PHPY PAM, pero es fobos en realidad, entonces si te cargas aquí 1 I p desaparecen fobos también, EH? Sí, claro, y si te cargas una sub red se carga la sub red y todas las IPS.
+
+55:11
+Y se la carga en fobos. Entonces aquí casi mejor no tocar, excepto ya cuando la embrollos ya es es tamaño XL que entonces ya 1. ¿I P no te deja dar de alta, qué narices pasa con esta IP? ¿Quién la tiene pillada? Porque si la IP ya está dada de alta no te va a dejar utilizarla. Entonces te en fobos te ofrece la la opción de robarla y no es coña, tú puedes robarle la I p a 1 a 1 equipo.
+
+55:35
+Pero si le robas la I p a 1 equipo, esa IP dejará de tenerla en el equipo. Tienes que tener cuidado y estar seguro de lo que están haciendo. ¿Sí, vale, ojo, se me acaba de caer el teléfono, vale, entonces desde aquí lo puedes tocar a lo bruto todo, pero ojo, hay que dar cuidado, puedes borrar otra subred, puedes definirla, puedes hacer lo que quieras, vale?
+
+56:06
+¿Nos vamos a saltar un poco una cosa, pero a día de hoy quién quién crea ahí sub redes y ahora ver es la tema de administración, quién puede? En principio si se hace a través de juegos cualquiera puede hacerla, es decir Tú vas a un router, le añades una subrred y al leer el router automáticamente te lo va a dar de alta. No tienes que hacer nada si quieres dar de alta una reserva ahora veremos cómo se hace.
+
+56:35
+Porque es que vale, hemos visto que aquí tenemos sus redes y tenemos IPS. Hay una herramienta que no está aquí en herramientas que está en informes, pero os lo voy a explicar ahora. Por qué viene a colación con todo esto que es la el de rangos IP, vale, entonces yo dentro de aquí lo que puedo hacer es mirar a ver qué IPS tengo utilizadas. Por ejemplo, estamos hablando de que yo por imagínate que necesito 1 I p.
+
+57:04
+De para para otro centro que voy a gestionar de su tiel a través de una extensión de lana, vale necesitaría una por lo menos 1 barra 271224 de la 10:05 H dos a ser posible o cercana. Entonces la forma es me vengo aquí, entonces me vengo aquí a 105 y entonces miro a ver dentro de la 10:05 H dos si tengo espacio entonces aquí.
+
+57:32
+Puedo ver si tengo espacio en este caso mira como que no tengo espacio, no tengo espacio, no, no, no puedo definir una red dentro de la de 5 dos porque están todas ocupadas porque esto está en amarillo. ¿Este mostaza vale, entonces cómo sé que no están ocupadas? Pues vamos a ver 11053 dentro de la 10:05 H 3. Pues vale, aquí no me cabe, estas están libres pero no me cabe una barra 27.
+
+58:03
+¿Vale, necesitaría todo este cacho y entonces aquí dentro tampoco me cabe, pues la 10:05 h cuatro hay una herramienta que esto lo hace automáticamente, Eh? ¿Eso ya lo veremos con la dirección de Insermentos aquí tampoco me cabe, o sea la 10:05 h 5, pues a ver si acabamos antes a la 10:05 H 14 acabamos antes, vale, aquí ya me cabría una una barra 27 todo esto está libre, vale?
+
+58:29
+Y está en Rosita porque tengo por encima una reserva. Una reserva es que tengo aquí, que son las de Valencia. ¿Y esto cómo se define? Pues tengo aquí la reserva de Valencia, que son las 10:05. ¿H, Vale, entonces tengo aquí definidas todas las sus redes posibles, sus redes, que podrán haber en Valencia y cuáles?
+
+58:55
+¿Y cuántas IPS tengo dentro de cada de cada bloque C? Aunque en realidad aquí podrá haber bloques más pequeños que las C vale, pero aquí te digo dentro de las d 5 1 cuántas tengo que son 138 direcciones IP, si yo entro aquí dentro de la d 5 1 voy a tener una barra 25 que estos son 125 128 - 2 126 direcciones IP válidas vale, y aquí tengo otra la.
+
+59:25
+Vale, esta es la tengo dos gestiones en Torrente de que son barra veinti Barra 25 que me están ocupando toda la 10:05 H. Vale, en azul me aparecen las IP que ya tengo cogidas dentro de este rango. Vale, Fíjate una cosa y esto es las las cagadas que siempre alguien hizo en su día y se quedaron así. Mira dónde está cogido el Gateway de la 10:05 H.
+
+59:56
+Está en el está metido en el rango que se reservó para Valencia. ¿Vale, entonces javalambre alguien metió la 10:05 h y metió la una Land de javalambre dentro de la 10:05 H es un una buena orca soluciona? Bueno, habría que haberlo colgado, que lo hizo esto, esta este rango no tendría que estar aquí.
+
+1:00:24
+¿Tendría que estar dentro de Aragón o dentro, no sé si hay una sub red de Teruel en Aragón hay una subred? Debería estar en Aragón, no debería estar aquí porque es que después en los EPF se vuelve loco. También quiero decir que al final es lo que hay, pero bueno, está aquí, pero esto ya no se toca porque esto no lo vamos a tocar. ¿Claro que ya está todo definido así, pues bueno, ya está, vale?
+
+1:00:51
+Pues en la 10:05 H o dos, por ejemplo, esto de aquí sí que ya son. Mira, aquí están todavía esto de aquí. Estos ya son de Valencia, Castellón, Castellón, Castellón, Valencia, Valencia, Valencia, Castellón. ¿Esto ya está todo bien, vale? Por aquí hay más, estos se han.
+
+1:01:20
+Torrente centro control esto sea para el tema de supongo que será para el centro de no lo sé, reservas V Resellónico vale, yo yo lo reservé. Eso debe ser el centro de control de Torrente de de Marina. ¿Aquí sí, y entonces importante, si yo desde aquí digo, ostras, esto de dónde viene?
+
+1:01:51
+Yo desde aquí puedo si le pico el barra 28, vale, si perdón, si yo le pico aquí lo que me hace es llevarme a p h p PAM, perdón, ***** es que esto me me me toca la moral, vale, a ver, es que me salta a la 10 o ciento 961. Bueno, si le picas aquí a una persona normal, no como yo, que siempre tengo líos de estos. ¿Te va a esto a la 10, a la subred?
+
+1:02:26
+¿Esta de aquí vale que de RDG te pueden aparecer estas, EH? Fíjate lo que te decía, porque aquí hay solapamientos del I de reserva YYY dentro de RDG, pues está esta de aquí, vale, entonces tengo la información de.
+
+1:02:56
+¿De la subred? Vale, vale, pues con todas las IPS que esto ya ni si debe de estar, porque ya ni contesta ni han contestado nunca. ¿Entonces ya no sé si es una V lan que utilizan solamente y ya no se utiliza o está ahí, pero bueno, está definida, si nadie la ha borrado, pues ahí está, vale?
+
+1:03:24
+A la hora de buscar 1 I p podemos hacerlo bien, buscamos por aquí. Si lo hacemos a mano estoy blando, luego veremos una herramienta que esto lo hace automático. Entonces tú por ejemplo KID pues sabes que esta IP está libre. Esta IP también está libre, vale, entonces si necesitas dar 1 I p de este rango pues tienes aquí YY lo puedes ver, también puedes meter meterte aquí.
+
+1:03:53
+A ver si me me bueno a ver la 10 la 10:05 H 43 128, Ah vale, aquí igual es lo mismo, ya te digo es la misma información de 1 por 1 sitio que por otro es la misma información.
+
+1:04:25
+Como verás fuego y Pepsi para buscar es muy rápido. Lo que es para buscar es la pera, es rapidísimo y las bases de datos la verdad es que aquí también están muy bien, están funcionando muy bien porque igual desde fobos, la interfaz es super rápida y vale, perdón, vale más o menos.
+
+1:04:55
+Bien la parte de administración de esto. Bueno, la parte de antes que se me vaya la pinza a otro sitio. El cómo marcamos esto de color. Así pues hay una, hay una que se reservas RDG que aquí definimos.
+
+1:05:20
+Esas subbredes entonces la 10:05 H es Valencia. ¿Entonces yo cuando hago esta búsqueda aquí pues para hacer para generar este informe miro a ver si dentro de la 10:05 H se una reserva que está aquí es todo, es anárquico, aquí no hay, no hay restricciones de solapamientos, solamente la parte de reservas, EH? Para mí son dos redes distintas, una es la RDG, donde no se permiten solapamientos y otra cosa son las reservas, donde aquí puedo hacer lo que me dé la gana.
+
+1:05:51
+Puedo definir lo que quiera, doy de alta lo que quiero y se hace precisamente para esto. ¿Por ejemplo, si yo quiero aquí definir dentro de Valencia, vamos a definir una una nueva porque las 10:06 H Quién son las 10:06 h? No lo sé, las 10:06 H cuatro Zaragoza Zaragoza. Vale, entonces si yo creo aquí eso creo que lo vemos ya el otro día, pero bueno, lo recordamos y ya está.
+
+1:06:24
+1064 perdón, 10600 es esta, no la 16 la que estamos hablando. Sí, Parra, 16, 16. Esto es porque los 10, los 16 primeros bits de la máscara son unos.
+
+1:06:48
+¿Sabes cómo funcionan las máscaras de red? No me acuerdo, no me acuerdo exactamente qué los números que son cada cosa, pero sí una, una barra 16 es 125525500 porque tiene los 16 primeros bits de la masca, los tiene a unos y los siguientes los tiene a cero, es decir, la que me va a marcar el Gateway, o sea, la el tamaño de la superred son 16 bits.
+
+1:07:15
+Que son 65534 direcciones IPS posibles dentro de esta de una barra de 16. Vale, bueno, Zaragoza. Entonces vamos a dar de alta una barra de 16 que sea la Zaragoza. ¿Entonces yo le digo añadir, Bueno, Zaragoza o o Aragón? Bueno, yo creo que es Zaragoza, pero si no lo cambiamos no pasa nada.
+
+1:07:42
+Entonces, si yo ahora aquí me voy, primero que nada, ya me diría que esto es Zaragoza, y aquí también me diría, ya que esto es Zaragoza. Vamos a poner Aragón por si acaso, no, pues lo modifico. Vengo aquí de Aragón, Aragón, Aragón, Aragón, Aragón, Aragón. No, no, no sé, bien no vale, ya está.
+
+1:08:14
+¿A Aragón vale, qué pasa dentro de la? Pues que tengo más reservas dentro de las 10:06 H Fíjate que tengo mantenimiento a s t Esto no sé lo que es, pero bueno, alguien ha resudado I t X a S T Cellnext Esto no tengo ni idea lo que es, pero alguien lo reservó Zaragoza, Teruel. O sea, vale, hay una reserva hecha para esto.
+
+1:08:40
+¿Entonces tú imagínate que yo digo pues esta por ejemplo la 10:06 H 54 cero esto quiero reservarlo para la yo que sé el el 10654 copiamos, tiramos para atrás esto me vengo para atrás, lo puedo definir aquí o lo puedo definir? Yo normalmente las defino todas aquí.
+
+1:09:07
+Porque sobre todo porque no. Luego es un rollo tener que ir buscándolas y como me permite solapar y puedo hacer lo que quiera. ¿Cero barra, barra, barra, barra, barra, barra 24 prueba reserva, vale, la añado, ves, ya está, vale, lo tengo que meter dentro, ves? Soy de López.
+
+1:09:37
+Le cancelamos, vale la 10:06 h cero la añado aquí el V vale, así que me dejan crearla, vale, pues aquí me va a aparecer. ¿La vale, veis esto de aquí? Entonces he definido este trocito de aquí como prueba reserva, vale.
+
+1:10:14
+Incluso podría cogerme un cacho dentro de esta. Entonces vamos a definir, por ejemplo, dentro esta vamos a definir una reserva que sea la barra, una barra 30 por ejemplo. Esto van a ser cuatro direcciones, pero solamente hay válidas dos. Vale, entonces aquí ahora me crearía una reserva.
+
+1:10:51
+Dentro de la 10:06 H una reserva dentro de la reserva vale, no me lo he cogido aquí. ¿Ah, no vale, perdona este nivel? ¿Hay que crear ya la subred dentro del equipo? No, aquí no, perdón, aquí me me he columpiado yo esto me lo cargo si no es que aquí ya tienes que definir, te tienes que ir dentro del router, configurar la red, entonces ya la pasa al sistema.
+
+1:11:17
+Vale, me voy a cargar esto para esto. Me tengo que ir a por la reserva y desde aquí me la cargo, me la cargo. Aceptamos barco DDT, confirmo si quiero borrarlo. Vale, ya está, vale, entonces ya tengo esta reserva aquí y con esto ya podría definirme.
+
+1:11:45
+¿Cada cada barra 24 de estas para qué lo voy a utilizar? O si es para un centro o si es para un proyecto o para. En este caso es un proyecto, vale, entonces yo aquí puedo meter. ¿Se utiliza poco lo de las reservas, EH? Se utiliza más bien a a cachos grandes, es decir, aquí aquí sí que se utiliza bastante internacional, pues enlaces rescat.
+
+1:12:11
+Estas sí que se han ido creando, esta es la estas reservas, estas redes que cree hace poco que son partemas de shock. Vale, entonces todo esto está definido, lo lo lo vamos definiendo según me van pidiendo y ya está. Entonces dentro de las 10:02 H dos 9, pues están aquí, reservaron una una barra de 16 completa y mira lo que utilizan, nada, ya está.
+
+1:12:40
+Que pueden haber reservado menos. Pero bueno, es lo que hay, porque todo esto de aquí, todo esto de aquí no lo utilizan para nada. Mira si aquí si aquí hay unos equipos, bueno, vale lo de los informes, me voy a cargar estas aquí también a Aragón. Voy a dejar a Aragón, o sea que ya que ya puesto os la dejo.
+
+1:13:12
+Y borro la prueba. Esta para que no nos aparezca por ahí nada. ¿Luego aparecen pruebas su berros y yo por ahí y vale, dejamos estoy así, vale? Bueno, esto es ipab lo que es la parte de administración de IPS, vamos a ver la lo que es la la administración del portal.
+
+1:13:36
+¿Primero que nada settings quiero decir PHP settings es pues definir lo que son el sistema qué base de datos está? Si utilizamos vamos queremos hacer todo el Power DNS Power DNS lo está hecho a mano Eh no está desde aquí hice yo un script utilizamos power DNS pero no utilizamos power DNS la la pasarela que que tiene PHP PAM para para Power DNS.
+
+1:14:07
+Vale, lo hicimos de otra manera distinto, sobre todo porque nosotros utilizamos el el inverso también, o sea, hacemos la resolución directa y la inversa, aquí solamente se hacia la directa, las la inversa. ¿Sabes cómo? ¿Para qué es? ¿Vale si tú pones aquí? Host 10110911.
+
+1:14:35
+¿Vale, te dice quién tiene esa IP? Eso lo coge el D n s a través de resolución inversa, y eso hay que definirlo de esta manera dentro del DNS. Vale, esto no era capaz de hacerlo Power D n s o sea, esta pasarela aparte que era muy lenta y después también no estaban definidas las las antigüedades, es decir.
+
+1:15:01
+Power DNS tiene una una base de datos que es power DNSYPH. Paypal tiene una base de datos diferente a Power DNS, entonces tú tienes que volcar datos de una base de datos a otra, pero tuve que establecer un mecanismo por el que las IPS de Power DNS se borraron automáticamente cuando la borrabas desde desde fours pasados. ¿Quiero recordar 3 horas, vale entonces?
+
+1:15:31
+Si tú borras 1 I p de fobos a las 3:00 H desaparece del DNS, puede ser una equivocación o puede ser estés cambiando algo, por eso no lo borramos inmediatamente, pero sí a las 3:00 h de haber borrado la IP hay un dead Count, una cuenta atrás que empieza a restar, restar, restar y cuando llega a cero borra el registro del Power DNS, que eso ocurre aproximadamente a las 3:00 H Vale.
+
+1:16:03
+La la historia que la tenemos así porque no, si no requeriría de alguien que estuviese administrando DNSY es bastante, pues imagínate. ¿Tendrá el DNS ahora mismo de Andarán por las 60000 direcciones IPS? Pues es un poco pastosito no sé si las que tiene espérate voy a enterarlo a ver cuántas direcciones IP tiene DNS.
+
+1:16:31
+El catálogo pero esto de aquí Eh no PDMS está PDMS aquí está el PDMS sí, mira 56000, aquí está tiene 56000 IPS. ¿El DNSDNS interno, EH? Solamente son equipos de la red nuestro.
+
+1:17:00
+Claro, esto, mantenerlo a mano sería un infierno, no lo siguiente de un infierno. Entonces como al final, si el equipo está bien y si no y si el equipo lo borras, pues desaparece, pues directamente, pues borramos la IP. El DNSY se acabó, vale, estamos aquí en la parte de administración de PSP Bam.
+
+1:17:22
+¿De esto hay manuales por ahí aburrir para aburrir EH? O sea que quiero decir que de esto de esta la parte PHP PAM es una herramienta que es de de libre, o sea la puedes descargar y la puedes utilizar gratis. Y hay miles de manuales y excepto alguna ya te digo que por es que hay alguna cosita tocada, pero a nivel de de aplicativos y de base de datos lo que es la parte web no afecta, está las modificaciones están hechas por detrás.
+
+1:17:50
+Vale, usuarios hay que dar de de alta a los usuarios explícitamente para que obtengan puedan entrar. ¿Esto es una putada, pero lo que hay entonces quién tiene permiso? Pues tiene permiso los que la gente del nuc, operadores nuestros YY operadores simi, o sea gente del noc y operadores nuestros. Esa primera que había ahí arriba la puedes borrar, que ya no está bien.
+
+1:18:21
+La segunda, Alejandra Andrade. ¿Esta se puede borrar? Sí, sí, es que esa es otra. A mí me vienen con corre prisas, es que hay que dar de alta a esta persona, hay que darlo de alta sin falta porque no pueden trabajar, pero luego se piran y nadie me dice que se han pirado. Aquí hay un montón de gente que que tenemos que borrarlas, seguro un montón y del noc seguro que hay un montón de gente.
+
+1:18:49
+Mira esa Belén Lobo Sánchez también esta se ha pirado y el de de bajo también. Bueno, pues ya te encargarás, tú te voy a dar, sí, porque mira, no sé si estás aquí metido. Ah, sí que estás muy bien. ¿Sabes lo que voy a hacer? Ya te digo lo que voy a lo que voy a hacer.
+
+1:19:16
+Administrador, hala, ya está, ya puedes estar de alta borrar, ya puedes hacer lo que quieras, o sea, aquí ya puedes entrar directamente. La administración de usuarios vale, entonces tiene dos partes, la parte de grupos si quieres echarle un vistazo. Bueno, aquí se definen los grupos que están operadores simi, operadores de reservas, nada operadores normales que son los que tienen que tocar noc que tienen permiso de lectura.
+
+1:19:47
+Vale sobre RDG, pero no tienen escritura, vale importante y equipo que tiene permiso de escritura, qué es lo que te iba a decir, digo y se ha colado, sí, no, aquí hay que quitarlo ahora, ahora veremos los grupos. Entonces me voy a ir al Grupo. Shock, shock, shock, shock, shock, sí.
+
+1:20:18
+La red shock, perdón, esto es el section ID sections ID de shock, operadores red Write Noc aquí vale.
+
+1:20:50
+Aquí tiene que tocar un montón de direcciones IPSY es lo que no me gusta del del PHP PAM que se guarda los permisos en los registros de la base de datos. Entonces por eso cada vez que necesita hacer algo es tedioso, tedioso, o sea, se tira ahí para hacer una, se tira un montón, vale, pues ya está arreglado. Ves una ******. Solución a grupos, aquí está ya lectura.
+
+1:21:18
+Vale, entonces la administradores ya estás aquí, puedes hacer lo que te dé la gana. El Knock pues igual tiene permiso de lectura y los operadores nuestros pues están aquí y también los permisos que tienen el operador nuestro son todos estos de aquí. ¿Y quién tiene permiso aquí? ¿Seguro que también hay que para borrar, EH? Aquí hay un montón de gente que ya no está.
+
+1:21:49
+¿Anterior a este no, bueno, qué te iba a decir, vale, lo lo más o menos lo ves? Ahora te explico lo de la section idea vale, estamos aquí en usuarios y grupos, métodos de autentificaciones, cómo voy a autentificar normalmente esto ya no se utiliza, el radius se quedó aquí, pero no se utiliza, estamos utilizando este.
+
+1:22:17
+Vale autentificamos la contraseña Vía D a través de El servidor de de SDG. Vale, pero tienes un problema que es el que te decía primero que nada tienes que dar de alta al usuario y cuando estás dando de alta al usuario es donde le dices el método de autentificación que vas a utilizar, pero te tienes que dar de alta al usuario.
+
+1:22:44
+¿Ah, no, con que esté en el ADE no es suficiente, no? Entonces cualquier usuario que necesite acceder al PH Paypal tiene que tener el usuario creado en PH Paypal y es un rollo patatero pero bueno. Users créate user el nombre y apellidos, el username el que va el mismo que tiene que tener en en el a D en el a D.
+
+1:23:13
+El correo electrónico y el método tu notificación a D vale, y ahora cada vez que hay un nuevo usuario, esto lo estás haciendo tú. Sí, el si es administrador normalmente es normal, aquí administradores hay pocos y acá al Grupo al que pertenece normalmente es del no o de operadores o de operadores IMI.
+
+1:23:43
+Bueno, y Google and VRF todo El Mundo que no, porque no utilizamos esta funcionalidad de PHP. Más vale y ya está, se da de alta al usuario y ya lo tienes dado de alta. ¿Vale, qué más? My setting es el SMTP, donde a quién lo envío Server mail dentro. Mira, lo envié aquí.
+
+1:24:13
+Es que eso está aquí en el DNSD, aquí lo envías a dirección IP, vale, esto es el servidor de correo, si hay algún cambio tienes que venir de aquí a la ETC. Host. Ay perdón, el ETC. Quiero recordar que estaba aquí.
+
+1:24:44
+Host ahí vale vale este este de aquí aquí está puesto en plan los juegos y cambiará por lo que sea la dirección, la dirección IP del servidor de correo cambiará, habría que venir aquí al al ETC de Fobos y de host cambiarlo Vale vale, aquí se llama por nombre que es mail y ya está puerto 25 puesto PH Paypal es capaz de enviar correos.
+
+1:25:12
+Sobre todo cuando lo das de alta. Le he enviado un correo diciéndole Ah, has entrado aquí, tienes que entrarle aquí y cambiar tu contraseña y todo el rollo vale, para eso te envía un correo, vale, las APIS no las utilizamos, vale, no están instaladas ni no se utilizan, es cararger nada lenguage cada 1 se lo podría cambiar, pero seguro que alguien que instalará ser catalán, ya te lo digo yo, no está puesto.
+
+1:25:43
+Vale, y se podría bajar. ¿La verdad es que ni lo he probado, habría que mirarlo, Eh? Si se puede bajar yo la versión que es que ahora mismo está funcionando de de Fogo es la 1:03 H del PHP. Vale, es una versión antigua, entonces no lo no. O sea, no lo probé.
+
+1:26:11
+Ni lo ni lo he dejado de probar. ¿Es decir, asumimos que íbamos a dejarlo así porque porque al ser una versión antigua, si nos tenemos que poner a a meterle librerías de lenguajes y todo sabes aquello que si funciona no lo toques, Eh? Totalmente, vale.
+
+1:26:41
+Esto es widgets, nada, esto es un rollo patatero que es tú puedes definirte en tu en tu pantalla de inicio una serie de widgets que que son las herramientas, pero tags, Tags, qué bonito tags. Bueno, es lo que hay, no, esto no lo utilizamos para nada y los widgets si tú te quieres personalizar tu.
+
+1:27:11
+Tu pantalla sí vale, vale, administración sections vale las sections a que son las redes, las sections son las redes que hay definidas. Entonces tenemos el IMI, la RDG importante, esto siempre va asociado a un número, entonces en PH Pipan tú te vienes aquí.
+
+1:27:38
+¿Tú buscas un equipo foost y marca Cisco modelo tipo router vale, siempre va a apuntar a una section ID vale, lo ves bajo la link? ¿No vale, te lo enseño aquí arriba, lo veremos antes? Mira, vale, cuando yo defino un equipo vale que es que es el el aco.
+
+1:28:09
+2811 aré, pero yo defino es yo. ¿Tengo definido esa section ID dentro de Cellnex, Cellnex, el Section ID es el 3, que es este de aquí y cómo lo puedo saber? Pues la verdad es que aquí era complicado. Tienes que irte a la base de datos porque es en realidad dentro de la base de datos. A ver, te lo cuento aquí.
+
+1:28:38
+C dentro de la base de datos de PH Vipam este al Section ID que es una tabla que hay se llama section sections aquí editar a date vale y está aquí, entonces RDG el Section ID es el 3.
+
+1:29:09
+Y eso para cualquier equipo que esté dentro de la seption I D, o sea dentro de Cellnex, el Seption ID de ese equipo tiene que ser 3. ¿Esto a todo esto por qué viene? Pues fácil, si tú te vas a la base de datos de equipos, la forma en que yo distingo a qué red pertenece el equipo es con el sector ID, pues lo tiene marcado también aquí están todos los equipos.
+
+1:29:39
+¿Top vale, pero tiene el septum IDY este section ID de aquí el 8? ¿Esto es shock, vale? Y esta es la forma que yo tengo de distinguir cuando un equipo pertenece a una red o pertenece a otra y además tengo que tener el seption IDY el centro. Ojo, puede ahora estar el mismo centro en dos sections IDS diferentes como si fueran dos centros totalmente independientes. Y claro, me explico.
+
+1:30:09
+O sea, yo puedo tener dentro de la section I D 3 el centro 866 y dentro de la Section I D 8 puedo tener el centro 800, o sea el mismo el 866 a todos los efectos. A nivel de base de datos son centros totalmente distintos. Vale, lo único que ocurre es que cuando yo me voy aquí a las herramientas aquí, pues importar centros.
+
+1:30:36
+Yo le estoy pasando el seption idea al que me va a hacer la importación de los centros y entonces cuando yo le doy aquí a la flechita azul, me importará el centro este dentro de la seption ID de la que yo le yo le he definido, con lo cual si yo me voy a equipo shock importar centro shock, la seption ID es la de shock que es la 8, la 8, entonces cualquier importación de que haga aquí me la hará sobre la seption I D 8.
+
+1:31:06
+Y pueden haber dos centros, que se que se llamen igual y que estén definidos en dos centros, en dos redes distintas. ¿Y te ves a que pechipa? Seguro que hay centros que están definidos. Son los dos conserola 83, shock, shock, shock 900, mira este shock y mi y también estará el DRDG. Ah, mira más arriba se llama Conseruela Travia está.
+
+1:31:46
+En Sant, dentro de Sant Gervasi, dentro en so que está definido dentro de Barcelona y 900 en la red Nuestra, está definido también en Barcelona, quiero decir, incluso las redes, o sea las provincias, en este caso en el IMI, no corresponden a las provincias, corresponden a los barrios de Barcelona.
+
+1:32:10
+Vale, se montó así, me lo pidieron que lo montara así, no, no hay problema, como todo está dentro del limit, está todo dentro de la provincia de Barcelona, no hay problema, se montó esto es por barrios y ya está. Vale, me explico, entonces tú puedes tener el mismo centro en varias redes distintas, no pasa nada, entonces no, ojo, porque te pueden aparecer duplicados, aunque en realidad no lo están, vale, vale.
+
+1:32:42
+¿Estamos aquí la administración de las sections vale entonces para darla de alta? Pues nada añades una sección. Tú le pones aquí los datos y no sabes qué section YD es vale, entonces luego puedes hacer cosas como que si tú creas una subred a ver cancelo.
+
+1:33:11
+¿Mira, ves a ver secta? Mi D subret a ver, se pone aquí encima y mi RDG está es la 3. ¿Sí, tengo que poner Page igual a 3, vale? Lo veis bajo link, sí.
+
+1:33:31
+Vale 3 o eso te vas a la base de datos y lo miras. O sea, es cuestión de base a la base de datos. Mira a ver con qué número lo ha dado de alta y ya está, no tiene más. ¿Vale, vale, qué te iba a decir? Section CD Subnet.
+
+1:33:58
+Vale, las umets, aquí hay ciento y la madre porque te aparecen todas y hay 80000. ¿Entonces no tiene mucho sentido administrar esto por aquí? ¿Vale, porque Fíjate, aquí lo que aparece, o sea, es que y encima no te lo pagina, sabes?
+
+1:34:25
+Me aparece una detrás de otra, todas a lo bruto. ¿No sé por qué no pagina esto aquí por aquí ya te digo que por aquí no utilizo esto, vamos a pararlo, tiro para atrás, vale, se ha quedado colgado, tío, siempre me pasa, vale, ya está, vale en la administración, vale?
+
+1:34:51
+Administración vale son Net aquí ni tocar devices no se utiliza. Hicimos una prueba porque en principio estuvimos viendo que este ya tenía una base de datos de equipos, pero era una castaña pilonga que no te daba para más porque te daba esto, solamente tenía esta información del equipo, con lo cual para nosotros era totalmente insuficiente. Entonces devices no en 1 u V a ni VRFS tampoco los utilizamos servidores de DNS tampoco porque ya te digo que.
+
+1:35:20
+¿Que esto es para temas de DHCPY? Tampoco lo utilizamos por aquí, sino que tenemos un import export. Es que tú puedes exportar a a a my SQL, puedes exportar la base de datos o puedes preparar un Excel. Lo que pasa es que no sé si va muy bien esto, la verdad. Ah, mira, pues sí, puedes exportar toda la información a un Excel.
+
+1:35:54
+¿Pero es una locura hacerlo así, Eh? Pero bueno, enriping por nada. Eso es para temas de de ISIS. Vale case en number, perdón, de BGP para enrutamiento BGP, tú puedes definir el las en number. Bueno, rollos.
+
+1:36:18
+¿Custom Fields es que hay campos customizados para para las tablas, vale, entonces en IP addresses están definidos todos estos datos customizados en Subnet todos estos datos en Devices? Nada porque esto al final no se utilizaba y en locations tampoco nada.
+
+1:36:44
+Porque no utilizamos el locations que utiliza PH, Paypal. Porque nosotros lo utilizamos como un registro dentro de la base de datos de de sub redes. El centro por lo que te he contado antes, porque nosotros necesitamos definir una estructura jerárquica de por provincia. Emplazamiento, vale, ya está verify check y verify data base.
+
+1:37:16
+Pues no sé lo que hace la verdad, porque nunca me meto por aquí. ¿Vale, porque está todo en orden, vale? Pero si un check te dirá que hay una vez que ni te digo.
+
+1:37:39
+Que que ande vamos con la 1:03 H porque están ya por la por cuál están ya no por la 1:05 H dos no, esta es de marzo de Del 23 y la 1:05 H dos y estamos con la 1:03 H pero como está el customizada no la podemos cambiar. Entonces bueno, a ver, para lo que lo utilizamos nosotros va de lujo.
+
+1:38:08
+Si se hiciera De hecho, cuando instalé el fobos limpia partí de una versión de una instalación limpia. Nunca mejor dicho. ¿Entonces partí del PH Paypal el último? Entonces aquí he instalado a ver este no, este no quiero.
+
+1:38:34
+No lo he cerrado, no, sí se ha cerrado, vale, se ha cerrado esto lo voy a cerrar, aceptamos barco aquí, qué versión está en es la lo ves sistéticamente en la misma, Eh, sí, Ah, pues sí que está por aquí, no, es que este no quería, yo quería el el de limpia, lo si cerraste me parece.
+
+1:39:07
+Bueno, está aquí, da igual, vuelvo a abrir, ya está, está ahí. Yo creo que es que es igual. A ver, descartar. ¿Qué versión está la 1:04? ¿H, estéticamente es igual, vale?
+
+1:39:38
+Tiene alguna cosita, un menú más y tal de temas de de paquetes que puedes customizar. No sé lo que es el tu F a este no sé ni lo que es. ¿No tengo olvidado lo que es esto, vale entonces, pero vamos, básicamente tiene lo mismo, Eh? ¿Le faltó las notificaciones, cuál?
+
+1:40:11
+¿Lo del 2 F a debe ser algo de eso, de doble factor, de tantificación o algo así? Sí, pero no sé, pero a través de proveedores externos y tal, no sé. ¿Bueno, sí, es es algo de eso, pero no, evidentemente nosotros no lo utilizamos, pero todo lo demás está igual, Eh? En en proveedores que este tiene un archivo de proveedores también que no lo utilizamos.
+
+1:40:41
+¿Tenemos por aquí Custom Fields? Igual pues está customizado también, porque al fin y al cabo esto es lo que necesita fuegos para funcionar. Entonces esto no hay mucho más que que dar de alta estos registros, ya está. O sea, estos son son los campos que yo utilizo desde fobos y estoy machacando la base de datos, o sea estoy ahí metiendo datos en estos campos. Entonces pues cuando necesito buscar la IP de un puerto pues me vengo y necesito el estos campos los necesito en la I p o el linfo en el centro. Bueno, pues.
+
+1:41:11
+¿Esto es lo lo que hay que que que crear, vale, todo lo demás está igual la la misma putada, Eh? En Page Payment Settings en user name, perdón, en users hay que crear todos los usuarios. ¿Es un rollo patatero, pero bueno, lo que hay aquí estoy yo, a ver si me acuerdo porque aquí aquí sí que no estás no?
+
+1:41:40
+No, no, no estás creado, vale, pues ya te creas el usuario te lo pondré como administrador. Aquí hay una diferencia, tú entras en Fobos, vale, tienes que estar logado. Entonces si tú entras en fobos, si no estás logado, no te deja entrar. Aparte de la D, Perdón, esto no tiene la D.
+
+1:42:10
+Este tiene local, la la autentificación es local, vale, pero ni siquiera te deja entrar en fobos, vale, te vienes a a la A la IP de fobos y como no tienes usuario te tira aquí, primero te tienes que logar aquí en PHPY PAM y una vez te has logado en PHPY PAM ya puedes saltar a fobos. Me lo pidieron que lo hiciera para no, que no, que no todo El Mundo tuviera acceso a esto.
+
+1:42:38
+A fobos y como aquí no teníamos una D ni fobos tenía un un sistema de autentificación propio. Bueno, pues utilizo el DPHP ipam y ya está. ¿Y entonces para que crear un usuario, incluso para fobos, hay que venir a ipam y crear el usuario aquí en users no hay que dar permiso específico, Eh? Simplemente tú creas el usuario en el momento que lo creas, pues ya tiene acceso a a fobos. A fobos vale.
+
+1:43:08
+Y los permisos son diferentes. Es decir, tú aquí tienes permisos para para PHPYPY. Los permisos de fobos están definidos aquí en sistema, páginas usuarios. Vale, estos son los que tienen permisos de de escritura sobre fobos. Entonces todos los que están dados de alta en PHPYP.

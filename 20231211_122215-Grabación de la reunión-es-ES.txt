@@ -1,0 +1,580 @@
+[Traspaso Fobos]-20231211_122215-Grabación de la reunión
+
+0:03
+Vale, la grabación se ha iniciado, vale, bueno, aquí en informes van apareciendo tus cosas, porque aquí lo que utilizamos es pues cuando necesitamos informes de cualquier cosa, pues lo ponemos aquí todo junto. Porque muchas veces pues son temas de auditorías, de configuraciones, temas de conectividad, de informes, de conectividad.
+
+0:27
+Temas de rangos. ¿IP, pues bueno, aquí lo que hacemos es pues vamos vamos metiéndolo aquí la forma ya lo vimos de añadir cosas sobre es a través del sistema páginas, pues directamente lo voy, lo vamos añadiendo, hay que hacer un script normalmente y lo que hace se hace es el script y se añade aquí la llamada y ya está, entonces los informes que hay ahora mismo pues son pues por ejemplo este de aquí el de ocupación no?
+
+0:56
+Aquí lo que tenemos es un informe en los equipos, vamos a ver aquí en equipos va, vamos a inicio, vamos a buscar un equipo cualquiera. Francisco, bueno, un switch pues no me saltan todos los GPRSSY. Tampoco es plan.
+
+1:26
+¿A tipo switch ya está, vale? Bueno, pues entramos en en cualquier switch automáticamente esto ya lo vimos. Lo que calcula es la la disponibilidad que hay vale en función de los puertos que tiene el switch y en función de los que están ocupados, los que están libres.
+
+1:51
+Vale, pues te da un índice, que es en este caso están al 30% de disponibilidad. Aquí todavía si nos fuéramos al centro entero podríamos ver la disponibilidad que hay de los switch. En este caso en este centro está está perfecto, vale, no hay. Hay disponibilidad en este caso el 84% sobre este equipo y el 30% en este.
+
+2:15
+Este sería de gestión y este pues supongo que este se utiliza para gestión y para servicios también se esto es automático. ¿También se detecta, ya lo vimos, vale, vale? Pues a partir de esta información de tenemos la de la disponibilidad que tenemos. Vale, se genera este informe que lo que hace es ver centro por centro, aquellos centros en los que tenemos problemas de disponibilidad en este caso.
+
+2:45
+¿Para equipos de gestión aquí ahora mismo no se ya estamos, solamente queda un equipo de gestión en este centro, un puerto de gestión, entonces si nos vamos aquí este es de servicios, vale? Este equipo es de servicios, con lo cual aquí no podemos gestionar en principio nada, a ver si después viene alguien y dice, pues como sobran puertos, pues a partir de ahora también lo vamos a utilizar para gestión. Bueno, pues eso, que eso es otro tema.
+
+3:14
+Entonces habría que cambiar este equipo y pasarlo a a que fuera también de gestión. Pero ahora mismo no solo este equipo solamente es para servicios, vale en este caso el 3400 Este que se utiliza para gestión y para servicios. Vale, no le quedan puertos, vale, solamente está este libre y de casualidad, con lo cual en el informe.
+
+3:44
+¿Nos dice que en este centro hay que ampliar gestión, si en servicios pues igual, aquí también nos dice, y si son de corporativa, pues sí, es lo mismo, vale? Si tenemos equipos de corporativa y están todos los puertos ocupados, pues también nos dice que hay que ampliar los de corporativa. ¿Es un poco más, entre comillas, vale, porque en muchos equipos se pueden utilizar como a través de servicio, como corporativa, vale?
+
+4:12
+En este caso tenemos un switch de corporativa aquí vale, y hay muchos puertos que están down. ¿No quedan muchos switches de corporativa, no? ¿Bueno, aún quedan bastantes, Eh? Sí, sí, te diría que quedan unos cuantos. Sí, te diría que en las en las unidades de mantenimiento, en las zonas aún quedan.
+
+4:41
+Y en los centros grandes también quedan a ver, en principio como son equipos, son 29 sesentas que se normalmente suelen ser de alterna, con lo cual ni siquiera se pueden utilizar para ni para gestión ni para servicios. Estos equipos, en fin, bueno, pues están ahí y no se van a desmontar, porque esto tampoco se pude reutilizar. Entonces, bueno, vale, están, pues están ahí.
+
+5:08
+Pero en este caso Fíjate que muchos dicen que está ocupado por Stand down. Vale, entonces en realidad aquí sí que habría puertos disponibles. Lo que pasa es que como están en etiquetados y en algún momento han Estado AP pues el sistema entiende que eso es una avería, pero que este este puerto está ocupado, con lo cual bueno te puede dar un te puede dar un error diciendo que no te quedan puertos disponibles porque pero en realidad sí que quedan.
+
+5:38
+Entonces los de corporativa aquí no hay que hacerle mucho caso. Yo ya te digo por eso, porque como suelen tener la descripción en el puerto, independientemente si están up pues están down, te va a decir que están, que están ocupados. Si llevas el portátil del puesto pues ya se ponen, ya se claro, se queda down YY en teoría pues se queda down, pues pues oye, ahí se queda y te sigue marcando que está al 0%, cuando en realidad sí tiene, pero ya es un tema de de.
+
+6:08
+Sí, hasta que no se ponga en blanco la descripción se quita la descripción, no, automáticamente no lo daría por libre, tal en fin, como los los corporativa, pues en muchos no se hace porque no se mantienen la los equipos, estos a a igual que se están manteniendo los de gestión o servicio. Pues bueno, ahí están. Ya te digo lo que es el informe en sí.
+
+6:32
+Vale, esto es importante y sobre todo esto también los de servicio es menos importante. YY me explico, cuando hay un servicio y no hay puertos lo que hacen es enviar un equipo. Vale, como por ejemplo aquí si aquí hay que meter un servicio pues se tiene que buscar la vida, en este caso solamente tenemos 1 libre hay que buscarse la vida y un un mandar un equipo. El problema muchas veces viene sobre todo por los equipos de gestión, por equipos de gestión, pues muchas veces.
+
+7:03
+¿No se están? No, no se están instalando equipos por necesidades de gestión. Entonces intentar recuperar un equipo. ¿O sabes es que no hay presupuesto aquí? El problema es que cuando es un servicio sí que hay un presupuesto detrás porque hay una una petición de servicio, pero cuando hay son equipos de gestión pues no hay entonces bueno.
+
+7:27
+El caso es ese que aquí que todos estos, todos estos centros tienen problemas o bien de gestión o bien de servicios o bien de corporativa. Bueno, si alguien lo ve, pues tu bebé crevillente aquí está petado. Mira, aquí no hay nada. No sé por qué he sacado el informe estará aquí salen todos los centros que tienen un 1 en alguno de los sí, 3 para 1 o 1 2.
+
+7:58
+Ah, vale, porque en este caso son Juan Bautista. Ya se ha vuelto a caer. A ver, no, no sé, te está fallando, digo, ostras, a ver si se nos ha vuelto a caer el fuegos.
+
+8:28
+Vale, vale, aquí fíjate, gestión, petado, gestión, petado, gestión, petado, gestión, petado. O sea, es que están gestión, están sin recursos. ¿De todos estos equipos que podemos utilizar para gestionar, están todos petados a partir de de qué porcentaje lo ponen? Crítico, creo recordar.
+
+8:54
+Creo recordar que era a partir del 90%. Creo recordar, o sea que le queda solamente un 10 por 101 10% libres. Bueno, ya te digo, aquí habría que hacer algo o bien coger un equipo que no es de esa gestión YY pasarlo a gestión o instalar equipos nuevos. Eso ya.
+
+9:23
+Sí, o o ver por qué hay tantos equipos hay en San Juan Bautista, está es grande, pero son unos cuantos equipos de gestión los que tiene y están todos llenos, pero mira lo que hay aquí, pero es que mira lo que hay aquí. ¿Sí, sí has estado, no, no has estado en San Juan Bautista, vale, San Juan Bautista es el centro más grande que hay? Sí, sí, eso sí.
+
+9:50
+El de Ibiza está medio, está en medio y en alto, o sea que ahí todos los radioenlaces van ahí, entonces todos los radioenlaces gestión a través de ahí. Hay creo recordar que habían dos grupos electrógenos, está toda la parte de Tete, está tema hay, hay radios, mucho transporte, o sea, es el es el centro más importante de Ibiza. Entonces es un centro importante, pues nada nos falta, hay que poner ahí más gestión ahí.
+
+10:18
+¿Sí, hay que ampliar gestión, pero ahora viene la pregunta, quién lo paga entonces el que lo pague, pues sabes, si tú tienes dinerito por ahí escondido, pues sacándolo, porque bueno, pues pues eso, el informe en lo que estábamos, el informe de ocupación es eso, vale? Después tenemos las auditorías.
+
+10:47
+Esto está hecho de momento de una manera. No sé si al final lo cambiaremos. Supongo que sí, que es a partir de te lo cuento y así lo que pasa que es un poco lioso y como es un poco lioso. Pero funciona. ¿Entonces esto estaba aquí en THP? Pam, creo que recordar auditorias.
+
+11:26
+Aquí entran el tema de los grupos, vale editable, esto es la auditoría, vale en esta tabla vale, es la tabla auditoría.
+
+11:50
+Lo que se hace es decirle, vale, marca y modelo. El modelo no es el modelo, es el tipo de iOS que tiene instalada. Vale entonces, por ejemplo, los iOS XR tienen que tener esta línea.
+
+12:16
+Y aquí puede ser un bloque o puede ser un grupo. En principio si es una G es que esta línea tiene que estar declarada en el router. ¿Si entramos en un Cisco XE que no tenga esta línea nos va a cantar la auditoría, vale la auditoría cómo funciona? Pues si tenéis aquí informe auditoria Cisco vamos a ver los 9950 que es el bloque, ahí no solamente hay dos, entonces este equipo 2950 hoose level cero 3.
+
+12:48
+Esto lo han acabado de instalar, ahora sí lo han acabado de instalar. Lo han reutilizado 12950. Pero bueno, vale, vale, este equipo le faltan dos líneas. ¿Vale? ¿Le falta esta línea en el tacax y no tiene eleven manager? ¿Guardado, eleven manager? Normal, porque.
+
+13:13
+No, este equipo los 2950 no tienen nevent manager vale, con lo cual nos si nos vamos a la tabla, vemos que esta vale esta línea. A ver, busque que busque la de eleven manager y así lo vemos enseguida. ¿Texto like tanto si no event tanto por ciento, vale?
+
+13:47
+Entonces yo le estoy diciendo que en los iOS XEY en los iOS. Vale, tengo que tener esta línea, pero excluyo los que estén en los grupos all Dios 2610 no MMY maqueta. Entonces todos los equipos que estén en en alguno de estos grupos no me van a analizar esa línea.
+
+14:15
+¿Cómo se mete un un equipo en un grupo? Pues muy fácil, nos vamos aquí, que estamos aquí, le vas al equipo Editarlo, modificar Grupos, modificarlo, te vienes aquí, dices esto es un Old Dios, por ejemplo, vale, no Old Dios, hay bastantes más líneas que tienen Old Dios, con lo cual si lo meto en este grupo Excluiré, ahora veremos todas las líneas que tiene oil Dios, vale, añado este grupo entonces ya.
+
+14:46
+¿Si lo vuelvo a hacer, el análisis aquí ya solamente me sacará mira ninguna de las dos, vale? O sea que a veces lo que hay que hacer es mirar el informe y es un equipo que no han tenido en cuenta que al reinstalarlo tienes que meterlo en el grupo Ol Dios para que no te salga la línea. El error del inventario si vemos.
+
+15:14
+Excluir la y Old iOS vale estas 3 líneas que precisamente son dos de las que está dando el error que es esta y esta en estas el en estas líneas en los equipos que estén agrupados como Old Dios no las va a tener en cuenta, después también hay.
+
+15:54
+Grupos que pueden ser exclusivos, es decir, que solamente me van a ir, me va a mirar esa línea o ese grupo donde tenga exclusividad para esa línea, como por ejemplo aquí o en este caso los C 3000, los Cisco 3000.
+
+16:22
+Tienen que tener esta línea. ¿Por qué? Porque muchas veces las líneas de configuración difieren en en una palabra, en un texto sabes, y a veces nos vuelve un poco locos, porque a lo mejor un 3300 y un 3000 se diferencia en una palabra. ¿Pero claro, cuál lo pones? Pues al final los dejamos. Los que tienen más número los dejamos de una manera que es este de aquí.
+
+16:51
+Le quitamos los 3000 y le añadimos los 3300 y que los. Y es que eso líneas solamente va a mirarlos en los 3000. ¿Vale? ¿Lo ha explicado por el culo, vale? La forma que tenemos de los Grupos es que podemos o bien decirle que algunas líneas excluya el análisis.
+
+17:18
+De de esta línea en estos grupos o que solamente sea exclusivo de estos equipos, podemos elegir las dos alguna de las dos cosas, con lo cual en este caso ya te digo, o por ejemplo la red condes, la red condes va a través de NAT, con lo cual los el tema de tacax, por ejemplo, vale el tema de tacax.
+
+17:45
+No apunta a la 10:01 H 109 10 que sería 8 perdón la 10:01 H 109 8 es nuestro Duck AC de Cellnex al ser un NAT la configuración de los equipos de condes es esta la 10:39 H 189 8. Entonces cuando yo configuro para todo cellnex que tiene que tener esta línea la 10:01 H 109 8 excluyo condes.
+
+18:15
+Y luego le hago una línea para condes diciéndole, tienes que tener esta línea, con lo cual así lo tengo todo cubierto. ¿Vale, vale, vale? Y ahora cuando cuando es un bloque, lo que estoy diciéndole es que dentro de interfaz fast ethernet cero barra.
+
+18:43
+En este caso, todas las líneas que empiecen por fast hacer en el cero. ¿A partir de entonces, ese bloque tiene que tener description y entonces yo en el algoritmo lo que le miro es que está shodown o no está shodown? Entonces, si el el interfaz está levantado y no tiene description, dará una alarma.
+
+19:07
+Esto es así porque no hay una línea a a ver, hay múltiples líneas dentro de Del router que empiezan por description a todas las que entonces. Claro, no, no tengo que analizar todas las líneas, solamente tengo que analizar todas las líneas que estén dentro del bloque interface fast ethernet cero barra y que en este caso es es una excepción si el si el puerto está APP.
+
+19:37
+Si está down y no tiene description, es normal y entonces tiene que estar shoot down, vale, entonces daría una alarma de que no está shoot down, no que no, que de falta de descripción. En principio los puertos tienen que estar sin descripción, si no se usan, tienen que estar sin descripción en Shoot Down. Si está en Shot Down y tiene algo más, no pasa nada. Entre comillas no pasa nada.
+
+20:07
+¿Vale, por qué? Pues porque este puerto se utilizaba para algo en su día, no se limpió y está sultan. Bueno, vale, no va a salir en en la auditoría, pero si alguien una vez alguien lo levanta, pues tendrá que configurarlo bien, porque ahora tiene algo de configuración. También se podía vigilar lo que pasa que claro, al final tan tan fino no vamos a hilar porque es que si no al final nos saldrían un montón de de de errores que en realidad no, no tienen ninguna afectación porque el puerto está suldan.
+
+20:36
+Vale, entonces dentro del grupo, cualquiera de ellos, si si no está shot down la tiene que estar, tiene que tener una descripción, si no daría alarmas. De hecho seguro que hay informes, auditoría. Pasa que la verdad es que hicieron una limpieza impresionante. Ves, es que hay muy poquitos errores ahora, muy poquitos. ¿Por qué sale ese número de 2286?
+
+21:05
+El número de equipos que acaba de analizar, vale, no es el de los que tienen errores, sino los que ha analizado. Sí, entonces aquí el 2150 analiza 776 equipos, Cisco 3327 equipos, o sea, ahora mismo todos estos equipos están limpios ya y aquí igual está analizando 2286 equipos. No hay errores. ¿A ver routers, si os antiguos aquí sí que coloca ahí, vale?
+
+21:35
+Digo porque estos son equipos muy antiguos, que en algunos casos pues son los de Marina mercante, que tienen cosas exposicionales. Sí, sí, esto hay que hacer limpieza aquí, que todavía no se ha hecho. Vale, estos son temas de Takax, este no tiene el log impuesto, debería tenerlo, vale, entonces estos equipos los tienen que que ir repasando ya porque empezamos a limpiar por arriba.
+
+22:00
+Quedan los importantes, quedan las router, los switch, que estos equipos son equipos muy antiguos que pues son 261011921, que son equipos ya rutas muy antiguos que están ahí poco, poco menos que consumiendo energía en en muchos casos. Vale, pero habría que empezar a meterles mano, vale, a ver si hay algún descripción por aquí, mira a ver.
+
+22:29
+En el Gigabits Net cero barra 1 no tiene descripción, entonces si te vas aquí vale esta APP, pero no tiene descripción, no tiene nada. Entonces este equipo habría que venir aquí y poner en la descripción porque además es una adyacencia con con monte Pedrosa habría que meterle algo, una descripción aquí en el puerto.
+
+23:00
+¿Vale, es un si es 1 R, s o e es un C es un lo que sea, da igual habría que meterlo vale? Vamos a ver algún ejemplo más de grupo por si queda. Vale, si si pusiésemos ahora algo en ese interfaz y pusiésemos a pinchar ahí para sacar el informe de estos, ya no saldría esa línea, sí, sí que saldría.
+
+23:28
+No lo hemos corregido, no, por eso digo, si si ponemos algo en la descripción de esa interfaz, tendrías que esperar en el caso que se volviera a hacer una copia de seguridad de la en, en algunos casos puede tardar 1/4 de hora si tiene EEM, si no tiene EM puede tardar algún día, vale, entonces desaparecería del informe, pues a lo mejor seguro la la semana que viene al momento de los informes son se hacen cuando les toca, no cuando están calendarizados.
+
+23:57
+No se hacen en el o según tú pinchas se hacen en el momento, no, verdad, está en principio cada 3 se hacen dos veces a la semana las copias de seguridad, los informes hay que sacarlos bajo demanda, vale, tú en el momento que quieras vienes a sacarse el informe, las copias de seguridad es lo que depende. Hay equipos, sobre todo los equipos antiguos, hay muchos equipos antiguos que no tienen.
+
+24:24
+¿Que no tienen EEM? Entonces pueden tardar un poco si tienen EMM, pues tardan 1/4 de hora aproximadamente. ¿Espérate a ver que tengo aquí una ya un segundito, vale, vale? En este caso estamos viendo.
+
+25:06
+Dentro del línea V T I 0 4, que es la forma que para configurar el que podamos entrar con un telnet o con 1 s s H se utiliza a través de Links. Vale los routers Cisc Colos iOS X o y los XSX res vale, pues tenemos que tener una password metida. Si no tenemos password en el línea VTi pues tenemos un problema y es que si se nos va el el kkcax no podríamos ni entrar.
+
+25:37
+Vale, entonces si buscamos en este equipo mismo que no está dándose errores, perdón, a ver configuraciones line aquí está vale, el line V T I 0, 4 tiene la palabra password metida dentro del grupo. Vale, Fíjate que aquí hay un espacio en blanco.
+
+26:04
+¿Lo ves así? ¿Es como se para los grupos, entonces dentro aquí tengo bloque, vale? Entonces dentro del bloque Line VTi tengo que tener la palabra password, si la tiene pues no pasa nada, si no la tiene me daría un error. Como verás. Se han excluido en la maqueta, se ha excluido en todos.
+
+26:29
+Hay unos equipos de maqueta, entonces se etiquetan como maqueta los que están en maqueta. Entonces ya nos olvidamos de los que estén dando errores. Vale, no sé si ha quedado más o menos. Sí vale lo mismo que todos los XR, los y los tienen que tener creados los usuarios admin, aunque todos tienen que tener en ETP.
+
+26:58
+Todos que tienen que tener el esto es una lista de acceso para MPLS, todos tienen que tener dentro del bloque Router SPF 135, tienen que tener estos parámetros. Quiero decir aquí al final vamos metiendo lo que nosotros que consideramos imprescindible para que el equipo esté funcionando y se está gestionando bien el router. Aquí no estamos haciendo una auditoría del del servicio que pasa por dentro de Del router.
+
+27:27
+Lo que hacemos es una auditoría de la configuración básica del router para que funcione y tengamos control sobre él y vale las auditorías la forma de hacerlo pues es sencillo, simplemente aquí en el se dice que es un tipo router y que el modelo contenga 920, vale, con eso ya nos hace la auditoría.
+
+27:57
+Si aquí pusiera que es un tipo switch nos sabría los 920 tipo switch, que en este caso no hay errores. Vale aquí en estos dos deberían de tener router ISIS CORE como en este caso a lo mejor no necesita tener ISIS.
+
+28:21
+¿Cómo solucionar? ¿Cómo podemos quitar esa esa esa alarma de la auditoría? Pues nada. Te va a modificar el grupo y hay un grupo que se llama no ISIS y ya está, se mete dentro en el Grupo de no ISIS y entonces esa en la en la tabla. Esa línea tendrá como excluido excluir el Grupo no ISIS. Entonces ya dejaría de dar la no lo voy a tocar porque no sé si hay que.
+
+28:49
+¿No hay está mal o hay que o hay que quitarlo? No lo sé. Entonces, como no lo sé, esto es nokiavast. Supongo que esto, si fuera opciones debería tenerlo. No lo sé. Supongo que al final tendrá que tenerlo porque la idea.
+
+29:19
+Es que se va a empezar a migrar la red a Segment Routing Segment Routing es una tecnología de Cisco que te permite, digamos, hacer un enrutamiento basado en servicios. Vale y es un enrutamiento dinámico estático según tú quieras y para pasarte a Segment routing.
+
+29:45
+Tienes que tener instalado ISIS, que es un protocolo, enrutamiento. Nosotros hasta ahora, De hecho sigue configurando SPF en todos los equipos. Los equipos de nuestra red tienen 1 s, P, F, pero hay que empezar a migrar a I, s, I s que ya está prácticamente todo migrado. Toda la red ya está migrada ISIS y a partir de cuando tengamos toda la red Migrada ISIS, entonces empezaremos con Concertment Routing. Vale, por eso es muchas veces es importante.
+
+30:13
+El tener controlados los equipos que faltan por configurar y eso y eso en este caso y lo incluimos en las en las auditorías. Por eso, porque necesitamos saberlo. ¿Al principio sí empezamos con muchos, al principio estaban todos, quiero decir, al principio del proyecto empezamos con que estaban todos metidos, nos daba todos los equipos, tenían errores de configuración porque ya claro dijimos ISYS hay que hay que controlarlo, pues metimos la auditoría para que controlara ISYS, vale?
+
+30:43
+¿Con lo cual salían todos, pero durante este año se han ido migrando, todo los se ha ido configurando y ese y ese en todos los equipos y entonces ya prácticamente están todos ya configurados, entonces a partir de ahora ya nosotros ya podemos empezar ya con no sé si empezaremos este año o ya no me tocará a mí este año que viene digo Eh? 24 el empezar a implementar segment Routing.
+
+31:09
+Porque además hay que hacer scripts nuevos para para todo el tema de configuración de servicios y hay que hacer bastante trabajo. ¿Pero bueno, estamos ahora en auditorías? Pues sí, pues con la auditoría porque me enrollo, vale el que te ahorras con esto y es encontrarte sorpresas. ¿Sí, sí, sí, porque y las habían, eh? Y muchas por eso, porque a ver, hay muchísimos equipos, hay 5000 equipos y a todos los equipos cuando no te falta una línea que en el fondo muchos eran chorradas.
+
+31:39
+Entendemos que muchas líneas, pues a lo mejor le faltaba la sincronización horaria. Le faltaba una, pero lo que en principio puede ser una chorrada no lo es tanto, porque si no tienes el grame lock configurado, pues resulta que no estás enviando Logs. La línea que configuras para está metida en auditoría también. De hecho aquí alguno sale que no tiene el grame lock. ¿Vale alguno? No muchos.
+
+32:07
+En este caso a los 1921 es porque se escribe de otra manera, pero el 2811, por ejemplo, 2911, en este caso está cax 921 2911. Tendré que mirarlo. A ver, vale, pues aquí por ejemplo.
+
+32:34
+¿Pasaba mucho porque antes lo configurabamos todos los equipos a mano, no? Pues es pues era más factible que te olvidases de una cosa o de otra o lo que fuese. Y aquí cada maestrico tenía su librico, cada 1 tenía su su, su plantillita y era que utilizaba. Y si esa plantillita tenía un error, pues se la arrastrabas a todos.
+
+33:03
+Y históricamente teníamos ahí una cantidad de errores. Este por ejemplo era el 2811 Itana este fíjate la tontería que es como le falta estas dos líneas. No se están haciendo estadísticas de red de este equipo. Grafana no puede entrar al 2811. Vale porque le faltan estas dos líneas. ¿Eso es importante? Pues entiendo que sí.
+
+33:29
+Pero bueno, ya te digo el el grupo, el tema de los sillos antiguos es un tema que de momento lo dejamos porque porque habían era más importante. Los otros equipos ya son equipos muy anticuados. ¿Están ahí ya? Pues bueno, están porque están, porque en muchos casos son 2610. Esos 2811 son equipos muy antiguos, pero si quisiéramos dejar toda la red perfecta, pues habría que empezar a meter mano esto.
+
+33:56
+¿Pero bueno, aquí hay 112911 que tiene falta la descripción en estos puertos, pues esto habría que empezar a solucionarlo, vale? Este es el último grupo que ha quedado así como como pendiente de solucionar. ¿Y os lo estoy enseñando, pues por por ver ejemplos no? Sí, lo lo importante eran los de aquí arriba, incluso este de aquí es el iOS XR, ahora mismo iOS XR tenemos 70 equipos.
+
+34:25
+Estos unos 540 que son los que hay que añadir ahora en la auditoría, que son los equipos nuevos que estamos instalando, que no tiene todavía las grupos creados y estos esto lo tengo que hacer yo, es lo que hay. Estos dos equipos se están instalando, este este es el de maqueta, que esto mira fácil, esto es una, esto es un equipo de maqueta, pero no está etiquetado como maqueta al grupo más seguro, claro, entonces hay que meterlo modificar grupos.
+
+34:55
+¿Esto es maqueta, esto es una maqueta que está instalada en Barcelona, Eh? Para hacer las pruebas del 540. Vale, ya lo tenemos, vale, entonces yo me voy aquí actualizo y eso ya me ha desaparecido este equipo, este 540 es el nuevo también o sea que traía aquí este este.
+
+35:26
+Y los dos de arriba este y los dos de arriba. Estos son responsabilidad mía, sí, porque tengo que hacer. Tengo que añadir las líneas de al, al a las, a las líneas de de auditoría del fichero donde está la vale. Entonces en realidad de los de los 70 XR que hay, hay muy poquita cosa. Aquí le falta este porque se definió otro otro profesor, EPF.
+
+35:56
+¿Y esto de aquí a las VP Multicart Routing y este es porque no tiene multicast un reflex, esto es un reflector vale? Y este igual no necesita multicast y entonces estos dos habría que etiquetarlos como los que no necesitan PIN ya está. Vale para que desapareciera aquí. En realidad no hay nada mal si te fijas los 540.
+
+36:25
+Que eso es mío. Bueno, los el resto están, los 9300 prácticamente estarán limpios. Hay alguna esto habría que añadirlo. El viernes vamos a dejarlo y si acaso el viernes les cargaremos un un carayanne para que que que meta el en estos 9300 meta el level manager.
+
+36:54
+Vale, haremos un carayan y veremos cómo cómo funciona. Vale a ver esto aquí configuraciones porque no tiene level. ¿Ah, es son nuevos el trinky, o sea este se se acaba de instalar el día 8, hace 4 días se instaló, vale, entonces si te vas al final pues no tiene la línea de level manager, metida las líneas porque esto va, vale, entonces?
+
+37:22
+¿Que lo saquemos así porque si no, no se ve bien, vale aquí debajo, sí, aquí debajo tiene que tener unas líneas que son las que comunican a a fobos cada vez que hay un cambio, vale?
+
+37:37
+¿Cada vez que hay un cambio en la configuración del equipo, sí haga el backup inmediatamente te regulariza toda la información de puertos, te hace cada 15 minutos el backup, eso se eso se lanza a partir de esas 3 líneas, 3 o 4 líneas son bueno, pues el próximo día los lanzaremos estos equinetes, vale?
+
+37:58
+Y veremos cómo se hace un la cómo se lanza de manera masiva un este tema que es es súper sencillo para lanzar a configuración a varios equipos simultáneos y la verdad es que lo veremos. Vale el informe Internet y os XR esto periódicamente la gente de configuración tiene que entrar y tiene que ver que están todos los que se lo tienen partido por grupos o está o se hacen.
+
+38:23
+Task Force, no vamos a todos a estos o todos aquellos de esta manera, ya te digo, todo esto lo hemos conseguido regularizar ya en unos pocos meses y ya tenemos lo tenemos ya más o menos controlado, nos falta la última que es esta de aquí y esto lo veremos. Vale auditorías de Albalá esta no me suena la verdad. Bueno, pues.
+
+38:51
+¿La que las que yo conozco que son las de sin conectividad, que es que te dice en un informe en el que te dice que que estas matriz esta salvada no contesta en muchos casos desde te dice aquí desde cuándo no contestan y la IP que tienen en este caso no tiene IP configurado, con lo cual difícilmente va a contestar, vale esto? Pues alguien tendría que dar solución, no sé quién la verdad, pero bueno y que puede que hay algunos hasta este de baja.
+
+39:19
+Seguro, pero es que alguien tendría que ver que venir, borrarlos o decir, oye, que esto está de baja. El problema es muchas veces de fobos, es es ese también porque a la hora de meter información podemos meterla, pero a la hora de quitarla alguien tiene que tomar la iniciativa y decir, Oye, esto hay que quitarlo, hay que borrarlos. Este equipo se dio de baja y bueno, esto son equipos que sí, que comunican pero no tienen ese MP. Hay tantos porque hay una tarjeta de albalá.
+
+39:48
+En concreto, la 3001. La TL 3001 me parece que es que no tiene SNMP. ¿Creo recordar, EH? La 3000 sí que tiene o al revés. Ya no lo recuerdo. Hay un modelo de tarjeta de gestión de albalá que no, no tiene SNMP.
+
+40:11
+Hubo hubo también un eso es por y por eso hay algunas tarjetas de SSWY de IPA que no sale etiquetado si son de RGE, si son de M p o no, no. Eso es porque en su día me pasaron un listado con lo que era cada cosa y yo lo volqué a fobos.
+
+40:36
+Pero porque en la en el en el cofre yo creo que no están etiquetados, no o sí, no lo sé, no lo sé, es una cosa, es una cosa que te quería preguntar. No creo que marca al bala, al bala, al bala. Creo que si una tarjeta es de 1 M p, e o no, eso eso me lo pasaron porque aquí no, o sea la descripción, esa esto de la que aparece aquí esto, esto está metido en base de datos.
+
+41:05
+En la es que esto no hay manera de de en la en la en la matriz no viene vale la la matriz no tiene ninguna manera de etiquetar esa esa tarjeta. Entonces me pasaron un listado con la la matriz y cada tarjeta para qué se utilizaba yo lo volqué ahí vale, o sea que si se cambia el canal o se cambia lo que el MP que hay en la tarjeta, habría que que hacerlo enero.
+
+41:35
+Claro, entonces habría que venir aquí y o eso, o que te o que pasen un listado con hacer que hicieran un listado. ¿Con quién me está llamando? Vale nada, estos equipos hay que cambiar eso a todos. El nombre empezando por ahí. Sí, entonces habría que primero que nada cambiar ese nombre a todos.
+
+42:08
+Que eso es fácil, se pone el script que lo haga y lo hace. ¿Y a partir de ahí, que a través de la IP de gestión o que es la forma más fácil de hacerlo, EH? Al final que a través de la IP de gestión nos pasaran un un listado con la información referente a esto, a la descripción, a cada tarjeta. ¿Para qué se utiliza?
+
+42:36
+¿Entonces ese volcado se puede hacer ese volcado? No hay problema. El problema está en que claro, ellos, la gente de producción van a su bola. En fin, tienen sus formas de de de meter la información y ellos no trabajan con fobos.
+
+42:57
+Claro, es de vez en cuando, cuando les pedimos cuando hay un problema, cuando pues nos envían un Excel con esta información, pero ellos no, no, no lo utilizan. Vale, entonces, pues eso, no hay manera de poder sacar del de la matriz esto y no hay manera de que de que de que nosotros podemos consultar de manera autónoma esto en algún sitio.
+
+43:28
+Porque yo creo que ni siquiera en vitra está esto metido. Me no me suena que esto en en vitra no, cuando a lo mejor lo tienen en Sira, pero en vitra no creo que esté y nosotros desde fuegos a Sira. A fecha de hoy no se puede entrar ni queremos. Sí, es que a ver, hemos tenido problemas. Hemos tenido problemas de que nosotros estamos haciendo determinadas consultas y cuando había un problema con un sistema la culpa era nuestra.
+
+43:55
+Es que no estás haciendo bien las consultas y por eso se cae el sistema. ¿A ver que yo estoy haciendo una consulta sencilla, que no estoy haciendo ninguna barbaridad, sabes? Y al final le encontraron el problema y no éramos nosotros. ¿Eso era ese tipo de cosas, vale? ¿O sea, no, no era la culpa, no era la nuestra, era una culpa que estaba mal instalado el servidor, pero a quién echaban la culpa?
+
+44:23
+Pues yo no tengo la culpa ya alguien la tendrá, no lo de siempre. Bueno, el caso es que el caso es que no tenemos acceso a ningún sistema y lo único que hago es puntualmente. Eso sí que es cierto. A vitra sí que consulto la base de datos de servicios para hacer el Alta Automática y ya está y para leer la correspondencia, a ver si para poder.
+
+44:48
+Encontrar el código de de Servicio de de determinadas cosas, por ejemplo las adyacencias, es un C si hay una R soe a la hora de ponerle el cadri y le voy yo actualizando como puedo, pero tampoco la información que tiene tampoco es completa porque ni siquiera tienen muchas veces ni siquiera tienen códigos de de adyacencias para yo que sé para m P, l, s s o para gestiones, o sea la la interconexión.
+
+45:15
+¿Entre por ejemplo un switch y un router para gestionar el router, vale? La mayoría no están, no están etiquetados, no hay un código en vitra para esto. Entonces si te vienes a Cisco tipo router, por ejemplo este de aquí.
+
+45:43
+A ver, no es que no sé si alguno de esto está en este no, esto está por Management, no están mindown vale, este no está, este es tendría que buscar 1 que esté gestione a través del puerto Management, que no sé si habrá por aquí alguno. Mira, estos lo acaban de vale, bueno.
+
+46:17
+El caso es que hay muchas veces que la la conexión entre entre 2 equipos marca Cisco que yo yo detecto que hay una una adyacencia por la razón que sea, ellos no lo tienen codificado, no existen vitras eso entonces sí tuvimos que darle al los no inventaron los los códigos de Cádiz, pues por para tener las los soportes tenerlos todos, todos metidos.
+
+46:46
+Porque era imprescindible, claro, vale, nos habíamos quedado en el informe porque me voy por los cerros de Úbeda y aquí en Albalat. Terror de configuración, pues solo sabes más tú que yo ya, porque aquí aparecen, pues, los las que difieren de lo que tenían que tener. Sí, aquí lo que he caído ahora, Fíjate, es en las que no tienen etiquetado, si es M, p, e o s, r, g e.
+
+47:15
+Estas mismas que salen ahí, esas ipas que salen de ahí exactamente qué template contra qué template las está chequeando, si contra el de R G o el de El del MP. ¿Le voy a escribir a a Juan y le voy a preguntar, vale, pues eso lo pensaba, porque yo pensaba, yo pensaba que eso de RGIMP que lo cogía de Del Albaland, pero ya me estás diciendo que no, no?
+
+47:43
+Es que no hay, no hay una etiqueta en la en la descripción del en lo que es el interfaz, perdón, en lo que es el el cuando cuando sincronizas no hay ninguna variable dentro de la tarjeta que te diga que esté almacenado. Ese valor no está configurado eso. ¿Entonces yo sé que ellos tienen bases de datos, pues eso que está la información, pero no te puedo decir ahora mismo quién me los pasó? No lo recuerdo.
+
+48:12
+Vale, debería hacer 1 e t L o algo YY buscando de vez en cuando. Si a ver eso por se puede hacer un script sencillo en el que con un formato determinado se mete y ya está. Eso es muy fácil de hacer, es decir, hacer un script que tú le envías un Excel con las las columnas donde tocan. Y eso porque a ver.
+
+48:40
+Ellos te van a enviar cada vez un formato diferente y eso es así. Entonces tú tienes que tener en cuenta, vale, yo lo que voy a enviarle es la IP. Sí quiero comprobar la IP en el centro y el slot claro y la descripción y entonces lo que se hace es pues eso se hace un volcado en el que esto esta información se actualiza a partir de de ese Excel muy sencillito lo más sencillo posible.
+
+49:10
+Entonces, cuando a TI te envíen un Excel súper MEGA gigantesco con toda y con 1000 columnas, lo que tienes que hacer es coger esas 3. Solamente te haces un Excel nuevo tú con ese formato, sabiendo que es el que tiene que tener y se acabó y el que le envías es ese, porque como le envíes, ya ya nos ha pasado varias veces, Eh, que haces un mega script ahí para que te analice el Excel que te envían y tal.
+
+49:34
+¿Y a los dos meses te envían otro Excel que dices, pero bien, qué hago ahora? ¿Ahora tienes que corregir todo el script para adecuarlo a nuevo Excel es un rollo, vale, entonces lo mejor es hacer lo más sencillo posible, en el que tú tengas claro cuál es el formato y cuando a TI te llega la información con copia pegas, te montas tú un Excel sencillito y se acabó, vale? Calendario t PES, pues está claro, es el mismo calendario que aparece en tareas.
+
+50:04
+Pero con una diferencia, aquí no aparece el técnico. Es que es que la la intimidad y en este caso es más necesaria que nunca, sabes, porque a veces que aquí es mejor, parece cancela y aquí alguien puede tener alguienes. Pueden tener la tentación de directamente atacar al técnico y pedirle explicaciones. ¿Vale, entonces?
+
+50:33
+Cuando aquí hay un alguien que este informe lo puede sacar cualquiera, entonces si quieren información sobre un corte programado, pues que pidan información al responsable. Vale que en este caso es pues será o o Tenorio, o será Zamora o será día. ¿Ahora será yanzi perdón, será Óscar Yanzi, vale?
+
+51:00
+Pero no aparece el técnico porque aquí el técnico no. Si te vas a tareas en tareas sí que sí que aparece. No sé si te acordarás, sí, pero pero a tareas no, no, no tengo acceso tampoco, no le tengo que dar acceso aquí en tareas calentar ETPS tengo acceso pero no me sale nada, vamos, aparece aquí esto vale que es el los técnicos que tienen que.
+
+51:25
+Vale, este es el que se consulta a través de tareas se consulta este este listado y a través de los informes de fobos es el mismo, pero sin el el nombre del técnico. Vale, pues eso es el los técnicos, los los cortes programados que hay previstos en este caso para enero hay poquita cosa previsto todavía y en ahora en diciembre pues es esto y estamos a 11 esta semana y estos cortes programados.
+
+51:53
+¿Y luego periodo de congelación? Sí, aquí prácticamente hasta mitad de hasta el 8 de enero o así será. Sí, ahí no se hace nada. De hecho, a mí también a nosotros nos han dicho ya que las pruebas de los 540 está todo paralizado ya hasta hasta mitad de enero, porque tenemos que seguir probando las migraciones a ver si funcionan bien. De momento están funcionando muy bien, pues toco madera para que continúan por ese camino.
+
+52:24
+Vale o K qué más equipos in CLI aquí es un. Esto es un un listado de los equipos Cisco que hay dados de alta en la base de datos y que fobos no puede entrar. ¿Por qué?
+
+52:48
+Pues muchas veces porque están los equipos dados de alta y se han borrado, o sea, y el equipo la han quitado pero no lo han borrado. Perdón, o sea, el equipo ha desaparecido pero no lo han borrado, sí, no lo han dado de baja. Sí, esos 7206 que veo por ahí, por ejemplo, estos están sin la IP, está el equipo dado de alta pero no tiene la IP de gestión porque este equipo se ha cambiado, todas las IPS se han pasado al equipo que ha sustituido el sustituto, se ha apagado el equipo pero no había borrado el equipo de la base de datos. Mira, descripción, valencina baja.
+
+53:18
+Muy bien, yo creo que hubiese costado menos borrar haberlo borrado, el que tú borres. El equipo no quiere decir que se borren las configuraciones, EH, las configuraciones tenemos un histórico de configuraciones guardado, si tú borras el equipo no pasa nada, las configuraciones no se borran, es lo mismo borrarlo que pasarlo a estado baja, no hay que borrarlo, hemos. Se se tomó la decisión de que cuando un equipo desaparece se borra.
+
+53:49
+Y la baja no se pasa, no se pasa a baja y luego se borra o o se borran directamente y ya está, no hay. Hay que borrar las IPS, sobre todo porque a veces se puede quedar 1 I p por ahí colgada y puede ser un problema y se borra. Se borran las I, p, s o se secuestran desde otros equipos, también se puede secuestrar.
+
+54:11
+Toma posesión de las I p s o lo que sea o se borran las que ya se hayan de borrar y luego a partir de aquí ya se borra el equipo, porque si no nos van a quedar adyacencias. Eso te iba a decir, digo los cadis y todo te lo tienes que borrar también, no para liberar recursos contra lo que está enfrentado, por ejemplo. Sí, en este caso mira si tiene una nueva que la cree la nueva no, este caso este Cadiz habría que borrarlo, entonces habría que venir aquí al al listado.
+
+54:41
+Y borrarlo. Bueno, yo es lo que lo que te comenté. Yo en muchos casos pues voy, me meto aquí, a veces voy borrando, pues según voy pudiendo, porque además es fácil verlo. Mira este de aquí está, hay que borrarlo este equipo, este CAD ya no existe. Fíjate cuando se se vio la última vez.
+
+55:09
+Bueno, hace no mucho, no 21 del 11 del 23 está mal esto no tenía ni un mes, sí, pero hay que borrarlo. O sea, eso es porque este equipo se ha cambiado por el 540, que lo sabes de buena tinta en este claro, no me acabo de dar cuenta ahora, pero tú fíjate que no tiene ni origen ni destino este Cádiz.
+
+55:36
+De Cádiz no tiene ni origen ni destino. ¿La última vez que se vio fecha de lectura es el 21 del 11, esto es porque se ha sustituido, entonces habría que venir aquí y esto pues se borra, ya está, son muy fáciles de ver, EH? Ya te digo que a ver y es que hay que darle mejor a la Lupita que darle a enter.
+
+56:02
+Es que si le das, si le das a Lupita, es un get, si le haces te das enter es un post y entonces el post siempre da un poco más de morcilla. ¿Vale? Pues entonces hay que mira, aquí hay otro, este también hay que borrarlo. Entonces aquí revisando y borran los cadis que corresponda, pues a todo esto se puede hacer también un script.
+
+56:29
+El que regularmente cogiera los los soportes, que los soportes que no tienen adyacencias, o sea, los soportes que no tienen origen y destino. Es decir, que ya no hay ningún equipo que tenga este soporte y borrarlos. Eso a lo mejor es lo más sencillo, pero bueno, en este caso pues se borran y ya está.
+
+56:58
+Incluso es mucho mejor para la hora de regularizar y que los servicios, todos los servicios que pasaban por el por el por el antiguo. Como esto se se reescanean todos los servicios una vez a la semana, pues entonces todos los servicios pasan a a estar bien. En teoría ya deben coger el soporte nuevo, que es el que va a través de otro equipo servicio. Mirad este sin embargo.
+
+57:26
+¿El día 1 del 11 del 23 lo último es que se vio y es un Wifi, no lo sé, si hay que si hay que dejarlo o no, no lo sé, pero bueno, los que hay que borrar suelen aparecer fácil Eh? O sea, no tienen ni origen ni de estilo este de aquí, por ejemplo, 6 del 9 del 23, o sea, sí, hace tiempo.
+
+58:01
+Fuera y este también hay que borrarlo fuera. Bueno, pues ya vas a tener aquí trabajito que hacer eso o directamente hacer un script. Ya te digo que mira la fecha de lectura, mirar a ver si tiene origen y destino, y todos los que tengan origen y destino que les falte o que la fecha y lectura sea antigua.
+
+58:31
+Con más de yo que sé dos meses de antigüedad que desde hace dos meses no se ha visto, es adyacencia de manera automática. Ya ves el día 88 nuestro hay que dejarlo aquí de momento porque no sabemos, porque esto puede ser que se haya caído y no se hayan sincronizado cualquier cosa de estas cuando tocaba a ver.
+
+59:01
+8 del 12 del 23 sin comenzar con red todos. Y si vas a borrar un circuito, un soporte y tiene metido servicios o algo, te da un aviso o no fuera, no, no te da ningún aviso y no hace falta que te lo dé fuera, no porque cuando se reescane y.
+
+59:28
+Ya va, va a ir por la presencia nueva. Lo que habría que hacer es los servicios que hay que metidos ahí. Cuando tú borras un servicio temporizarlo para que automáticamente esta noche o dentro de un rato reescaneara esos servicios. ¿Eso sí que se podría hacer, EH? Habría que hacerlo. Entonces si tú te coges el 12, el 23, ves este simplemente faltaba sincronizarlo porque no tiene fallo.
+
+59:56
+¿Tú te vienes aquí y este tiene este caso, no tiene van del ethernet, no tiene servicios este entonces hago un servicio a ver alguna que tenga este de aquí ocupación, vale esto, esto lleva estos servicios, vale? Entonces lo que habría que hacer es, si yo borro este soporte, marcar esos servicios para que fueran rescaneados inmediatamente.
+
+1:00:27
+Vale, entonces se iría aquí, le haría un el automáticamente por background, haría una sincronización automática y ya está, desaparecería aquí te desaparecería un equipo, se te quedaría cojo y en el momento y en y al momento ya volvería él solo a a buscar el camino que le correspondiente. Bueno, estábamos en en informes.
+
+1:00:51
+Que nos vamos, vale, es que está todo entrelazado. Sí, sí, es ya vale. ¿Equipos sin SMP es pues equipos que sí, que comunican que sí, que tengo daca, pero no tienen bien configurado el el SMP, estamos aquí, EH? Equipo sin SMP es este de aquí ya veo que hay pocos entonces.
+
+1:01:20
+Tú tienes al 2567 Obi este sincronizar con red muestras. MP aquí debería darte un error, pues mira, está bien. ¿Y por qué te dice aquí que tiene un problema? S M p a lo mejor también es que a veces en el último Spoiling te ha dado error este ABI, no, pues mira, pues no sé por qué o a lo mejor es fower es el que no, es que no.
+
+1:02:01
+Actualizamos todos y es que aquí también encontrarás actualizar todos. ¿Hay un en el Script este hay algún problema con este equipo? ¿Ves este equipo tiene algún problema? No va el todo fino, vale, ya está desde aquí.
+
+1:02:28
+Debería haber desaparecido y si no tendré que revisarlo yo sí está todavía. Pues bueno, ya lo revisaré yo ver por qué sigue apareciendo aquí este vale el resto, pues eso son equipos que deberían tener configurado, vienes en M p a y por lo que por lo que sea no no hay manera de que comunique bien vale, entonces este por ejemplo, no tiene, no podemos entrar vías en m p a este equipo.
+
+1:03:01
+¿Esto es un problema de configuración, Eh? Llana, simple y llanamente. Entonces si no tiene configuración, pues no se puede hacer telemetría. ¿No podemos tener mucha, no podemos muestrearlo, no podemos saber muchas veces el estado de los puertos, vale, este equipo no tiene configuradas RP, y por qué no?
+
+1:03:25
+¿Access list porque no está, ves? Le falta el 58 y le falta el 161, lo veremos también vamos a dejarlo por ahí, Recuérdate, acuérdate de este vale y lo arreglaremos con el carajan el próximo viernes. Vale que también hay un hay un carajang para hacer, para para arreglarlos, vale informes.
+
+1:03:58
+Esto no recuerdo cuál era. Ah, vale, sí, el Cisco work. No sé si esto, creo que ya no sé si utilizan, se sigue utilizando ni idea. Lo que hace es un listado que te dice en la semana del año qué equipo se han instalado. ¿Vale, entonces esta semana?
+
+1:04:22
+La 49. De momento se han instalado estos equipos, estos equipos dónde se han dado datos en Fogos o sí, sí se han dado de alta en fogo estos equipos este mes, esta semana, perdón entonces por número de semana y año, porque esta información se enviaba a ciscoworks para darlo automáticamente de alta allí, que no sé si lo seguirá utilizando o no, desconozco.
+
+1:04:55
+Bueno, ahí está, esto es, me comentó una vez Eduardo que le pasabas un fichero de equipos que se habían dado de alta para es exactamente el mismo informe, solo que a Eduardo se lo envío semanalmente y después 1 mensual de resumen.
+
+1:05:18
+Y aquí lo que puedes hacer es sacarlo tú cuando tú quieras. Vale para para darlos de alta. En el NNM lo utilizamos, se llamaba enigma o algo así ata equipos en enigma. Sí, es que antiguamente es que es una risa, sí, o sea fobos. A ver, en principio fobos fue el primer fobos, vale.
+
+1:05:45
+Ford fue la primera vez que hicimos hace 14 años una base de datos a través de web, que estaban solamente los equipos y los puertos y tal, y no había nada más, y eso empezamos a trabajarlo hace ya un porrón de años. Vale, esa máquina se llamó fobos. ¿Por qué? Pues porque entonces había costumbre de llamarlo por por objetos interestelares. No estaba, pues eso.
+
+1:06:14
+Habían sistemas y todos los sistemas. Cada sistema recibía el nombre de una luna, de un de un planeta. Sí, lo sé, lo sé. Jobos es una luna, jobos es una luna de Júpiter, puede ser, no lo recuerdo. Júpiter espera, oye, yo sé que oigo de Saturno, hay un montón de de máquinas que tenían el nombre de las lunas de Saturno. Bobos, luna de Marte de Marte mira.
+
+1:06:41
+¿Era fobos en la luna de Marte? Pues fobos se llamó fobos por por por por ese pedrusco. Esto es, nosotros empezamos a trabajar fobos cuando ya yo me cambié al departamento. Entonces ya empezamos a a hacer una base datos ya más potente que fue. Es vale que fue ya cuando empezamos a capturar datos de Vitra y empezamos ya a meter equipos y metimos la interactividad de de con con los routers para que le dieran información.
+
+1:07:11
+Vale, y entonces le como era un sistema nuevo basado en antiguos foos, pero en realidad era un sistema completamente nuevo. Lo llamamos enigma, pues porque a alguien se le ocurrió y dijo, pues le podíamos llamar enigma. ¿Pues bien, me parece bien, o sea, una una máquina estupenda quien solo que daba soporte a quién daba soporte esa máquina? Claro, pero no, no, nosotros no miramos.
+
+1:07:40
+¿Una, no tenemos ninguna ideología política, sabes? Tenía que ver con la historia, o sea, era una máquina maravillosa que encriptaba y que fue era técnicamente era una pasada YY eso quien lo niegue, pues es que no, no sé. En fin, bueno, total, que nosotros empezamos a trabajar con enigma, pues llegó un día desde arriba alguien que dijo ese nombre no me gusta y tuvimos que cambiarlo.
+
+1:08:10
+¿Sabes, o sea, entonces qué hicimos? Pues ponerle el mismo nombre que ya tenía y que a y que a todo El Mundo le gustaba. Pues continuamos llamando a los juegos y entonces por eso en muchos listados aparece el nombre de enigma. Por ahí equipos dados de alta en enigma o informe de equipos enigma o algo así. Sí, por esa razón vale.
+
+1:08:39
+Informes, incongruencia, servicios. Vale, aquí son en errores que cuando se hace el el escaneo automático, si detecta algún error aparece en este informe. Yo creo que no lo mira nadie, pero bueno, de que sí, de que no ha encontrado dónde terminan o tiene más de una terminación y nos aclara fobos.
+
+1:09:12
+Entonces el servicio busca el servicio, si te vas a este es lo primero que veo que no tienes el linkado con yo no sé porque porque no lo de nadie, que nadie me lo ha perdido. Vale, tiene 3 entregas, claro. Entonces hay algún problema ahí o bien que no está bien configurado, que puede ser o que.
+
+1:09:40
+¿Se han metido algún puerto para monitorear esto y se ha dejado tal cual, sabes? ¿Sí, pero me me contaste un día que ya había circuitos que les pedían con con dos entregas o algo, dos entregas, sí, sí, eso se tenía en cuenta, sí, pero es que aquí hay una recogida y 3 entregas ya es demasiado, no? A ver, o sea, no, mira, esto es por sabes, seguramente lo que ha pasado aquí.
+
+1:10:10
+Porque este entra por el giga cuatro, que es este, de aquí vale el giga 10, que o hubo un error con este puerto y lo cambiaron directamente y no han borrado esto de la base de datos o y aquí en este caso igual porque se está entregando en dos puertos diferentes, no tengo ni idea. ¿O se hizo la RFCY, no se borro o algo hay ahí? Pues a ver si lo podemos rastrear.
+
+1:10:40
+Vale, algo hay ahí que no, que no, no está funcionando nada, vale, mirad, pero si este puesto está dado, con lo cual esto se ha dado, seguramente la RFCY este igual este puerto está dado, pues porque sería para la RFCY se ha dejado ahí, entonces esto hay que ver qué le pasa, pero como nadie mira el informe, pues.
+
+1:11:10
+¿Vale, entonces estamos aquí en informe con con s servicios, todos estos les pasa algo? Todos estos servicios los C n 3 P suelen ser míos, esto es esto, esto ya estar de manera automática. ¿Servicios los C n 3 P además está es que como son automáticos, vale?
+
+1:11:36
+Aquí estoy encontrando algo raro, entrega aquí, entrega aquí y a veces puede pasar, ves, mira, está ahí metido, Coño, bórralo. Si ya no se utiliza para nada más, pues bórralo si este si va de alta desde desde el 22. Bueno, pues eso, que hay puertos por ahí que se han dejado abiertos, se han dejado libres y están.
+
+1:12:13
+Entonces en incongruencia de servicios, pues van saliendo todo este tipo de errores que se van encontrando, pues aparece por aquí. ¿Vale, vale, qué más de informes, más de informes, incongruencia escaneada? Vale, aquí hay cuando se hace el la actualización de de todos los servicios.
+
+1:12:44
+F 42, pueden aparecer IPS duplicadas. Vale, entonces tú te vas al día siguiente. Entonces en este informe puede ver todas las IPS que han aparecido duplicadas en la red F 42. ¿Vale, y cómo accedéis el informe? No, aquí el problema está en que debe haber podido algún script, que es que lo ha borrado.
+
+1:13:11
+Es que hay scripts por ahí tengo que revisarlo, vale, entonces aquí te aparece en este informe lo revisaré cuando encuentra IPS duplicadas muchas veces antiguamente, sobre todo cuando nosotros no tenemos la base de datos de de que ahora veremos cuál es el el de rangos IP. Cuando la gente provisionaba direccionamientos igual se hacía con excels y los excels muchas veces llevan a errores.
+
+1:13:40
+Pues porque no estaban bien actualizados, porque se hacía a mano, porque cada 1 metía lo como le daba la gana. Y entonces pueden aparecer duplicidades de direccionamiento, que si es si es a nivel local. Quiero decir, por ejemplo, tú tienes en un centro un direccionamiento para un radionace para que haga no sé qué. Y ese mismo direccionamiento de radio se utiliza en otro emplazamiento también para el direccionamiento de radio, porque tú al final de la jugada lo que haces es.
+
+1:14:08
+Conectar con el servidor de con la estación de continua que está en el otro extremo. En principio no, no hay mayor problema porque lo que se hace es la ruta se configura de manera manual en el router se hace una ruta estática en cada router, entonces en principio no hay problema. Entre comillas no hay problema porque tú no. Al final no necesitas publicar las direcciones intermedias de salto entre esos entre esos radio enlaces.
+
+1:14:37
+No necesitas publicarlo a la red, a veces se hace, pero bueno, tampoco hay. No pasa nada porque en realidad tú no lo vas a utilizar. Tú necesitas llegar al al otro extremo como es un como no solo una red, sino que es un ramal y tienes conectividad IP va a funcionar, tú vas, tú le vas a hacer un ping a la estación de continua y vas a llegar, vale, si le hicieras un ping a la IP intermedia, puede ser que no llegaras.
+
+1:15:03
+Pero bueno, a TI te da igual. Tú lo que te necesitas es tener la ruta estática metida en los routers que que hacen de Gateway y ya está lo único que necesitas saber. Bueno, pues ahí bien, encontramos que habían muchos que estaban duplicados, muchas direcciones IPS que estaban duplicadas y entonces en el informe ese se empezaron a destapar todas esas direcciones IPS estaban duplicadas y al final pues tuvimos que tuvimos que.
+
+1:15:35
+Que limpiarlo y ahora mismo pues se limpió bastante y por si acaso, pues aparecen aquí. En este informe aparecen las IPS duplicadas. ¿En su día se regularizó prácticamente todo y bueno, de vez en cuando aparecen direcciones, Eh? No digo que no, también saben muchas veces lo que aparecen, lo típico que hace el Centro de control que te pone 1 I p de cada que se me para hacer pins.
+
+1:16:04
+Eso también aparece en el informe porque eso misma IP lo han utilizado en otro sitio y no lo han borrado, con lo cual pues muchas veces te aparece que la 19216811 y la 19216812 y te aparece en 20 sitios distintos. Eso sí, Eh, claro, hay que revisar todo eso, lo que pasa que claro, no es un problema, porque ese direccionamiento es un problema que es un sabemos que es un direccionamiento que se utiliza para que se utiliza y ya está.
+
+1:16:33
+Y ya no se tienen más en cuenta, pero están están duplicadas, pues aquí aparece. Estoy intentando mirar una cosa, inicio, escaneo, punto a ver, a ver si veo que la he borrado. Vale, sí.
+
+1:17:00
+Es que hay por ahí unos cuantos scripts que están leyendo. Vale, desde que vale lo revisaré porque tienen que aparecer. Es que hay algunos scripts que utilizan el mismo, el mismo fichero, que esto es un fichero al final Eh y que alguno de ellos lo está borrando. Normalmente lo que hace es borrar el fichero.
+
+1:17:34
+Y entonces hace la hace la actualización de todos los equipos y entonces va va añadiendo al fichero. Si por lo que sea se interrumpe el proceso justo después de borrar el archivo, pues se queda vacío. Vale, entonces tengo que revisarlo, que estoy viendo que hay bastantes. Hay como 8 o 10 scripts que están utilizando ese mismo archivo.
+
+1:18:00
+Mira, a ver si alguno de ellos no está funcionando bien, vale que hacía tiempo que no lo miraba, vale, lo revisaré, vale, y este es importante. Este es ya lo vimos el otro día, que es el de rangos IP, que es el donde tenemos las, o sea, todo el direccionamiento de red de datos a gestión. Vale, entonces aquí pues por bloques tenemos lo de las reservas que también vimos, no si vimos las reservas.
+
+1:18:29
+Y aquí lo que nos van apareciendo es todo el direccionamiento que tenemos en cada todas las IPS que tenemos en cada rango. En principio podemos trabajar con con rangos mayores que que barras 24, es decir que sería por ejemplo aquí aquí todo lo que aparece aquí son barras 24. Podemos trabajar con direccionamientos más pequeños evidentemente que barras 24.
+
+1:18:56
+Pero también podemos trabajar con direccionamiento más grandes que barras 24. Lo que pasa es que como nosotros somos un poco torpes, los humanos digo, nos hemos acostumbrado a trabajar siempre con barras 24. Entonces mentalmente al menos yo partimos siempre todo el direccionamiento en visualmente lo partimos en barras de barras 24 o un más pequeñas como este. ¿Es el caso, no?
+
+1:19:26
+Entonces aquí tenemos una barra 29, otra barra 29, todo este rollete y a partir de aquí esto estaría libre. Entonces estas de aquí estaría libre, pero claro, aquí no vamos a poner 60000 direcciones IP, entonces lo hemos troceado en barras 24 para que sea más fácil manejarlo. Entonces, si ahora, por ejemplo, necesitáramos un direccionamiento, si fuera un barra 23 por ejemplo, pues tendríamos que coger esto de aquí.
+
+1:19:57
+Vale, si necesitáramos yo, que es un barra 16, barra 16 es una barbaridad, pero bueno, tendremos que venir aquí y mirar un barra 16 que estuviera libre. Por ejemplo, la 10:49 H Esto será una barra, un barra 16. Vale, vale, aquí.
+
+1:20:24
+Esta ya estuvimos viéndolo que toda esta información es la misma información que hay en el PH Paypal y aquí también es la base de datos que se utiliza cuando hay automatizaciones de direccionamiento o bien para radio enlaces o bien para o bien para routers o bien para meter GPRSS todos se automatizan sobre la misma base de datos, con lo cual hemos reducido los errores de direccionamiento prácticamente a cero.
+
+1:20:55
+Ya no se dan direcciones Hipers duplicadas y si lo haces es que lo estás haciendo adrede, pues si lo haces semana automática fuegos te lo va a comprobar y si no haces semana la manual es que no has venido a verlo. Si está libre porque la manera sencilla es venir y verlo, vale, entonces en este caso la 1020050 está libre, no tienes ninguna IP asignada aquí dentro no está de más, también entrar a ver si hay algo reservado.
+
+1:21:21
+Vale, en este caso si está en blanco es que no hay nada reservado y si aquí no hay, puede pasar que haya alguna IP que esté usada y no esté etiquetada, no, sí puede estar reservada. Por ejemplo, aquí todo esto está reservado, si tú lo vas a utilizar para esto, lo coges, pero si es para otro proyecto esto no los puedes tocar. Vale, entonces direccionamientos libres aún quedan, es decir, que aquí de sobra.
+
+1:21:51
+En la 10:01 h, por ejemplo, 101 Madrid, 107101107. Pues tenlo, aquí es 1 107 se piden, se piden máquinas y tal sí, ahí puede pasar que esté algo o alguna IP de esas que esté ocupada con algo pero no está etiquetado, no es poco probable. ¿Antes era antes era fácil, sabes? ¿No es imposible, Eh? Entonces lo más fácil es hacen un ping.
+
+1:22:21
+Sí, sí, es que es que me me pasó hace ya tiempo, pero no hace relativamente. No hace mucho que cogimos una IPY estaba ocupada, pues alguien que buf cogió la IPY, no la etiquetó o no la pidió o directamente la configuro porque le venía bien esa y vio que no contestaba nadie y la puso y sin decir nada nadie. ¿Eso puede pasar, EH? Eso a veces pasa, sí, sí, sí, no por eso por eso.
+
+1:22:47
+¿Necesito 1 I p de este rango yo mismo empiezo a hacer pins hasta que veo una que no contesta, pues esta sí es lo que no no pasó, que no hicimos PIN y la cogisteis esta y bueno, es lo que hay, quiero decir, puede pasar sí, puede pasar, intentamos que sea la menos veces posible, claro, evidentemente no hay un autoaprendizaje, Eh? No hay autoaprendizaje de las direcciones IP que contestan y no están dadas ya tan fobos.
+
+1:23:17
+Porque entonces ya sería la locura. Se podría hacer. Decidimos no hacerlo porque si no nos no aparecen esos problemas. Me explico, yo ahora, por ejemplo, me cojo 1. I P vale y digo, me apetece, mira, necesito 1. I P voy a coger esta y si esa misma IP directamente se se documenta en Fobos, vale, dijera, Vale, esta está ocupada, está claro que nadie más la va a coger.
+
+1:23:46
+Pero es que esa IP no debería estar ocupada. Esa IP debería tener una petición detrás de esa de esa IP para que alguien la pudiera. Creo que sí que estaba fiems a vosotros os la daría a vosotros, dirían, esta IP es la que vais a tener, pero alguien anteriormente a vosotros cogió esa IP porque le dio la gana, me explico.
+
+1:24:12
+¿Entonces no la culpa? A ver, no hay que buscar culpables tampoco. Lo que hay que ver es no, no que tienen que aflorar todo ese direccionamiento que está oculto porque nadie lo ha documentado en su día, nadie lo documentó y está por ahí, tiene que aflorar. Y si es y si el que ha puesto la IP que ha querido la ha puesto hace 3 días porque le ha apetecido, pues que la quite porque no debería hacer así. O sea, tú no puedes utilizar 1 I p de dentro de la red sin pedir autorización.
+
+1:24:43
+Y sin saber que esa IPS está utilizando para lo que sea. ¿Sabes entonces la forma que vayan apareciendo? Todo eso es pues que que salgan errores como ese, que ya exista seguro, Eh, que hay por ahí muchas y yo me he encontrado a veces.
+
+1:25:07
+Vaya, yo me he encontrado a veces, incluso a mí me ha pasado, EH, de yo necesitar 1 I p para una máquina, una máquina virtual ir buscar 1 I p hacerle un PIN y que la Pi y la IPY me conteste y no estar documentada. ¿Y dónde está esa máquina? Pues mira, ahora estoy a la 10:01 H 107 73 y me está contestando, por ejemplo, no.
+
+1:25:36
+¿Quién es quién es? ¿Quién es esa máquina? Pues es que me es que esa IP me suena la 1:07 H 73 y la 1:07 H 74 = 2 máquinas de de salto que utiliza Nokia para el mantenimiento ya. ¿Pero quién quién ha instalado esas máquinas y por qué han cogido esas IPSY? Cuándo se han instalado eso ya no te sé decir.
+
+1:26:09
+Claro, a eso me refiero que que quien haya instalado esas máquinas no vale con lo de hago un ping y si llego y si no me contesta nadie la uso claro, esas IPS deberían de haberse pedido y se y a veces no pasa nada, oye, necesito, mira estas que están libres, me las quedo yo, pero son, son para mí, vale, pues ya está, no hay problema, se documentan y punto ya está, si no es una cuestión de de fiscalizar nada, pero es una cuestión de tener.
+
+1:26:38
+La red bien documentada, claro, pues si le haces ping a la 74 te tiene que responder también, pues ahora lo vemos porque las dos son seguro que hay. Y sobre todo eso es que las dos, las dos están destinadas eso para Vodafone, para Nokia la 3 y la cuatro, la 3 y la cuatro, la 5 ya no, pero la 3 y la cuatro las utiliza.
+
+1:27:03
+¿Nokia, no, seguro que hay más por aquí, Eh? ¿Seguro, ya te digo yo que seguro mira, la 77 también contesta y la 78 también contesta, también contesta, De hecho, no sé si te habrás fijado que cuando tú asignas un puerto a un equipo cuando le asignas 1 I p a ver, vamos a hacerlo con una de estas de acuerdo?
+
+1:27:36
+¿Si tú ahora vienes a un router, esto lo hicimos adrede porque nos ocurría Eh, te vienes aquí a un equipo? Yo que sé esto está en intersión no todo esto sí en intersión me voy, me voy a intersión inversión, perdón.
+
+1:28:00
+Intensión vale intensión, me voy aquí a un equipo cualquiera, cualquiera. Yo que sé este de aquí que está desmontado directamente, no me parece. ¿Sí hago abajo, vale, yo hago esto, vale? Y le digo que nueva venga a ver.
+
+1:28:33
+Antes de asignarla comprueba si si contesta porque ya nos ha pasado de de de ocurrir esto que es asignar el IP. Sí que estuvieran contestando, pero esto se hace digamos cuando tú vas a utilizar esa IP. ¿Vale, cuando vas a utilizar la IP sí que lo comprueba, no está periódicamente comprobándolo claro, entonces aquí te dice, Oye que esto contesta, tú dirías ******?
+
+1:28:58
+Pues alguien la ha utilizado porque esta IP está libre, en principio está libre, a mí me consta que Sta IP está libre, vale salir, vale, entonces no. La no la he guardado, a mí me consta que está libre, si contesta pues alguien debería documentarlo, no sé, bueno, eso ya dejará de ser un problema para mí y pasará de ser un problema tuyo.
+
+1:29:29
+¿Vale y ya está, no? Yo creo que informes reinicio equipos. Bueno, este es el último informe que hay, ya lo vimos que es el por que se han reiniciado equipos y en este caso este de aquí se ha reiniciado, por ejemplo por un by the FACE. Ah, no está aquí, está aquí el.
+
+1:29:57
+Es por si hay alguno que se ha reiniciado porque ha cascado porque a veces puede ser Eh, lo que son todos, bar Reloads, bar Reloads, bar reloads, mira qué bien, pues mucho más road comand o sea además te viene el CRQ que en fin y el de cómo el Inca lo del CRQ no lo pones tú cuando tú haces el reload tú puedes decirle la razón por la que haces el reload a través de línea coma todo. ¿Ah, vale, vale?
+
+1:30:26
+Entonces te viene la información porque eso se queda guardado en logs y se queda guardado aquí en reinicio. Entonces ya lo tenemos dicho, que lo hagan bien. Vale entonces ya desde ya, desde aquí directamente, pues cuando hay un reloj fíjate que son casi todos los 920 porque se están subiendo de versión. Vale, entonces no hay mucho corte programado para subir de versión al equipo y entonces lo lo etiquetan. El CRQY ya está.
+
+1:30:57
+Y esto nos llega a a Grey lock y de Grey Lock os lo pasa al juegos, vale, pues ya está, qué más, ya está. Informes ya está, nos queda caray para para el viernes al viernes y con esto acabamos muy bien.
+
+1:31:28
+Fin de la grabación.

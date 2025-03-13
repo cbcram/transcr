@@ -1,0 +1,793 @@
+[Traspaso Fobos]-20230918_120938-Grabación de la reunión(2)
+
+0:04
+¿Vale, nos quedamos, vimos karayan grafana y Grey lock, vale? Y se nos comentamos así muy por encima el tema del IMI sobre todo, pero bueno, si acaso lo que va a hacer es vamos a ver un poco cómo funciona el tema del IMI en equipos y mi.
+
+0:26
+¿Vale, está integrado tanto el inventario IMI como importar centros? Bueno, aquí bueno, eso lo veremos. Sí, vamos a tener que verlo también hoy si es posible el tema de de de lo de importar centros desde desde vitra. Vale en inventario IMI está todas las máquinas del IMI, vale.
+
+0:54
+Está integrado en fobos igual que que es Felmex colpero entrando a través de IMI. Lo que vemos son lo que vemos los los equipos de limi y los centros de limi. Vale, entonces aquí hay muchos de los que no se llegan. No sé esto. En principio lo que son los datos lo debe mantener marbertrand.
+
+1:23
+Lo que es el tema del IMI vale es el que el que lo lleva él. Hay muchos equipos que por lo que veo no comunican, entonces no sé si es que se han borrado o se han dejado de borrar, no lo sé, aquí aquí si no tengo ni idea porque aquí yo no, no me suelo meter a ver lo que es la funcionalidad de la aplicación, vale, pero bueno, lo que es esto funciona más o menos todo, igual tienes una sincronización con red de la que tú puedes traerte directamente datos del equipo.
+
+1:55
+Vale y puedes hacer consultas sobre el equipo y etcétera. Hay muchas cosas que esto funciona exactamente igual que el fobo es nuestro, excepto en algunas cosas que sobre todo por ejemplo en vuestras MP que se hacen llamadas directamente al equipo, al equipo que te dije que es el que está sin intermediador.
+
+2:22
+Vale que es este de aquí la de 6474100, vale, entonces el que habla realmente con los equipos muchas veces es este y lo hace bajo petición de Fobos, el resultado tú no lo, o sea tú lo que ves es que funciona igual que el otro. Vale que el Fobusimi, pero digo que el fobus Cenix, pero por debajo hay procesos que están llamando al otro servidor.
+
+2:53
+Se configura bueno encontrar una manera de configurarlo, herramientas y pan. Creo que estaba aquí y Administration sections.
+
+3:31
+Vale, pues aquí no está, o sea, por aquí no se ve. Ah, bueno que está aquí todavía haciendo la copia de seguridad por otra sesión y ya está.
+
+4:13
+¿Que hay una tabla de sections? Vale permisos, Mirad, aquí es donde se configura la imagen del mapa del fondo está en una tabla de sections y aquí se configura el el proxy de procesos. Entonces está en Barra IMI, Barra remoto, vale.
+
+4:43
+Entonces, cuando hago una petición a fobos para hacer algo sobre la red del IMI, aquí hay una serie de scripts que son los que hacen la llamada al al servidor remoto. Vale, tiene un proxy inverso que es el que hace la llamada hacia allí. Lo que pasa es que claro, tú visualmente al ser un proxy inverso, tú no te enteras de nada a través de la web. Tú lo que ves es como si estuviese el propio fobos.
+
+5:13
+Accediendo a o sea, directamente accediendo a ya lo diré a la red de Limi, a la red de Limi, Espérate que cierro cosas que tengo aquí 1000000 de cosas y si no cierro cosas, esto también la cierro, vale, esto lo cierro. Voy a cerrar todo y abrir solamente lo que me interesa, porque si no, no sé ni dónde estoy, vale.
+
+5:43
+Solamente me queda una sí, vale la otra, aquí nueva ya está, vale, entonces eso cuando accedemos aquí a la red de Limi en muchos procesos, sobre todo de sincronizar con red. ¿Y todo esto ves? Está está la foto. La imagen que te he dicho antes está en la que está ahí en esta tabla.
+
+6:13
+Aquí en esta tabla, en la sections está esa imagen que es un gif que ahí va. ¿Se configura aquí dónde va metido, que estará en Barra image, supongo? Sí, en image es en línea, es el cuatro este aquí estabcnxic.jp G y a través de un proxy inverso hace las peticiones.
+
+6:43
+Aquí no hay que tampoco hay que darle muchas vueltas, simplemente se configura el Punto Pelota. Vale, aquí en el sections esto será menos. Esto es parte de aquí, que es la que yo hice a mano. Todo lo demás se configura desde desde el PHPY PAM, Eh, tanto para crear una section, entonces aquí en PHPY PAM.
+
+7:12
+¿Aquí no sé por qué siempre me hace esto, pero bueno, no te no te tiene cariño esta parte sí, no sé, es es el mismo servidor, Eh? Sin embargo, a través de 1 I p me dice que me ha caducado la contraseña, pero bueno, a ver, entrando a través de la dirección 11 sí que funciona bien, vale aquí en sections.
+
+7:36
+Es donde se definen y se dan de alta las secciones, pues en este caso pues si hay que dar de alta una sección nueva pues se da de alta. Aquí ya está y aquí lo que son el IMI por ejemplo y luego tiene una paralela que es la reserva Simi. La RDGY tendrá tiene una paralela de reservas y ahora te contaré también un poco esto para qué es. Y es que nosotros tenemos una herramienta que es para marcar reservas dentro del todo el espacio de de direccionamiento IP.
+
+8:08
+De limi del shock, por ejemplo, como has visto, shock no tenía, aquí no aparece esa información, no tenía proxy, con lo cual al shock accede directamente, todas las máquinas acceden directamente al shock, o sea, fobos directamente accede a todas las máquinas de shock. Tiene tú una una sectionidad aquí, aquí también vale.
+
+8:34
+¿Tienes la septum ID de shock con su inventario, con sus centros y todo el rollo vale a la A la red soft no tiene acceso todo El Mundo? No, no lo sé, yo sí, yo tengo qué qué es decir, operadores, no operadores. Esto lo lleva Fran.
+
+9:05
+Los equipos de la shock los lleva Frank. Vale, hay una herramienta que lo que hace es sincronizar la base de datos de de equipos de de la shock que se llama Cupera. Sí, vale, pues hay un proceso que lo que hace es todos los días sincronizar la que la información que tiene cupera y se la baja fobos, con lo cual los equipos aquí aparecen como si fueran setas, no si dan de alta un equipo nuevo en Cupera, pues aparece aquí.
+
+9:34
+Vale a ver un equipo de estos aquí por ajá no tienen ese MP, pues estos equipos ellos los dan de alta en en cupera aquí y en este caso sí que descargáis de de la base de datos de Cupera no, pero solamente el equipo y la IP sí, claro, luego con eso ya vosotros conectáis al equipo YY.
+
+10:00
+Sí sincroniza sobre sincronizamos la información de los puertos, las la versión del iOS que tiene montado el número de serie, el modelo vale, nosotros se coopera, lo único que bajamos es el equipo, el nombre del equipo, en qué centro está instalado y la IP de gestión del equipo. Y a partir de ahí ya lo metemos en la cadena y ya empieza a a supervisarse el ya ya periódicamente se conecta el equipo, se baja información, etcétera, etcétera, sí.
+
+10:30
+Aquí había una cosa pendiente que era vale, tienes el a M p era poder desde aquí directamente a mano, poder sincronizar los equipos está pendiente de hacer el el script está hecho. Simplemente lo que faltaba era añadir la llamada vale para que desde aquí se pudiera hacer una llamada y sincronizar este equipo a petición bajo demanda que ahora mismo se está haciendo cada dos o 3 días. Creo recordar se configura.
+
+10:59
+De hecho, incluso no sé si se metió. Vale, no, es que aquí hay una cosa, vale, no se metió. En nuestro caso, la sincronización de nuestros equipos también es cada dos 3 días, excepto si se modifica algún equipo. Si tú entras en modo configuración a los 15 minutos haz una copia de seguridad sí o dos. Vale, hay una manera de detectar si el equipo ese.
+
+11:26
+Alguien ha entrado a configurarlo y si ha entrado a configurarlo a los 15 minutos hace una copia. ¿Vale eso eso cómo lo detectáis lo tiene el equipo? YY si en caso de qué tal lo manda o o o no, no, mira, tenemos un proceso o lo hacéis desde grafana o desde greglo, no, ninguno de los dos sitios lo hacemos desde el propio equipo.
+
+11:53
+¿Es el equipo el que porque dice, Eh, que me están modificando, tengo que mandarla, no? Lo único que le dice a Fobos es, Eh, que alguien me está modificando y esto se hace con una script que hay aquí abajo, que en todas las configuraciones, todos los equipos que tiene event manager, que no, desgraciadamente no son todos, tienen esto de aquí. Vale, entonces esto es lo que le lo que le dice.
+
+12:20
+Es que cuando se sale de modo configuración, o sea, tú entras a configurar el equipo y tú estás palpando. ¿Cuando haces un exit y te sales del modo de configuración, vale, lo que hace es una llamada directamente a fobos y le dice, Eh, alguien me está manipulando? Y entonces automáticamente lo primero que hace es actualizar toda esta información. Esto lo hace cada vez que entras en modo configuración.
+
+12:48
+En ese en ese preciso instante vale, por ejemplo, le vamos a hacer esto, pues si que eso a configuraciones vale, vamos a entrar en este equipo que es el vale hacer lo minimizo un poquito de tamaño así no, no se ve nada en a z X, pero vamos a tocar el el el algún 1 que esté blanco.
+
+13:31
+El cuatro vale interfaz fasterface fnet cero barra cuatro vale, está en Shot Down y está sin descripción. ¿Lo ves, vale? Entonces yo entro aquí y digo confterm interfaz, Faster cernet cero barra cuatro, vale, le pongo una descripción guión.
+
+14:01
+Prueba, vale, vale, si yo ahora me salgo de modo configuración, fíjate lo que ocurre aquí, todavía no lo ha hecho. Vale, ya está, ya lo he puesto, ya está. Entonces dentro de 15 minutos hará una copia de seguridad.
+
+14:31
+Vale, si ahora dentro de 15 minutos volviéramos aquí, aquí habría una. ¿Habrá una copia de seguridad, De hecho un refresco, sí, por qué lo hacemos, que las copias tarde más? Pues porque puedes estar haciendo esto le cuesta muy poquito la copia de seguridad, le cuesta un poco más entonces para no estar almacenando copias de seguridad mientras alguien, entonces entendemos que el el tiempo medio.
+
+14:55
+De modificar un equipo es inferior a 15 minutos. ¿Entonces tú? Se supone que ahora durante 15 minutos la persona está que que está configurando este equipo va a estar ahí entendiendo, está cambiando parámetros, estará haciendo cosas y en 81012 minutos se saldrá del equipo. ¿Entonces, a los 15 minutos de haber recibido el primer, el primer aviso, fobos va a hacer una copia de seguridad del equipo, vale?
+
+15:25
+Y si lo que hace es comprobar si hay algún cambio y si algún cambio guarda la copia. ¿Evidentemente en este caso, si yo no lo le Quito esto haría la copia de seguridad porque porque enciende hay un cambio, vale? ¿En este caso ahora vamos a hacer otra cosa, que es quitarle la descripción, vale?
+
+15:56
+Vale, y ahora esto se va a poner de color rojo. ¿Esto qué me indica? Lo que me está diciendo, que es que lo que hay en la base de datos es distinto a lo que hay en el equipo. Si en la base de datos está vacío, lo que hace es directamente lo mete. Pero si en la base de datos.
+
+16:19
+O sea, en el equipo es diferente a lo que ya tiene la base de datos y tiene algo, y esto lo hace muy por una razón muy sencilla, porque yo ahora reservo un puerto, por ejemplo, y no tengo que machacar lo que hay ahí. O puede ser un error del operador que se haya equivocado. Entonces en este caso lo que hay que venir aquí es decirle cuál es la información que vale. Entonces desde aquí, por ejemplo, ves estos están cambiados.
+
+16:47
+¿Solución? Pues nada le digo, pues lo que hay en el equipo me lo pasas a la base de datos, vale, este ya está, este me lo va a machacar, me va a quitar el vale, has visto me ha quitado la descripción y este de aquí el baja, no sé por qué han puesto ahí baja vale y el gestione enlace que está en blanco vale este de aquí también hay que hay que actualizar la información.
+
+17:17
+Hay otra forma de trabajar, que es que yo desde aquí puedo modificar un para un dato, vale en el puerto cuatro, vale, yo vengo y lo modifico y le digo, vale Estado y digo, está reservado y esto va a ser. Aceptamos barco.
+
+17:45
+Si yo ahora sincronizo, evidentemente me va a decir que está mal, que eso está vale en el equipo está en blanco y yo aquí tengo algo y lo que me permite es decirle, vale, pues yo lo que quiero es configurar el equipo con esta información. Entonces nada le doy aquí le doy actualizar description.
+
+18:12
+Pues ahora se va el equipo y lo que hace en el equipo es en el puerto cuatro, se logra, se mete en modo config, se va al puerto cuatro y escribe lo que tienes puesto ahí y lo configura. ¿Vale en en en el equipo lo pone reservado y aquí y ha escrito esto en la configuración del equipo lo ha metido, vale?
+
+18:42
+También nos queda la opción de vale, pues si yo ahora aquí digo, vale, pues este Estado es libre y no quiero poner descripción, vale, acepto barco, lo sincronizo con red y entonces ahora me da la opción de esto decirle, vale, yo quiero borrar lo que hay ahí. Entonces me da más opciones que es o actualizar description, borrar description.
+
+19:12
+A y ponerlo en shutdown o hacerle directamente un default del fast ethernet cero barra cuatro, es decir, me me fundo toda la configuración del puerto cuatro y lo dejo limpio de polvo y paja. Pues nada, voy a hacer un default, vale, pues nada, directamente en el puerto cuatro queda libre, queda limpio y queda limpio y si te vas y si de aquí Ah por aquí. Aquí puedes ver las configuraciones del puerto, Eh, en tiempo real.
+
+19:48
+Vale, es un puerto cuatro. ¿Te ha quedado limpio de polvo y paja? ¿Vale, vale? Algunas de las cosas que hace cuando se conoce también es esto. De ahí que es que te calcula la la la capacidad de El número de puertos que tienes disponibles en este equipo.
+
+20:16
+¿Y para qué se utiliza en este caso? Se utiliza para gestión y para servicios. Vale, eso es lo hace automático, lo de la gestión de servicios, porque aquí hay servicios, o sea, si encuentran la palabra de 8 letras con un guión en medio para ella, eso es un servicio para form, es un servicio vale percepto R soes y qué más y no me acuerdo más había otro también vale.
+
+20:46
+Vale, se habíamos quedado en el INI porque me voy liando el tema. El tema de condes tiene también su sector ID, que se llama, se abrió hace poco, tiene equipos condes, están aquí, tienen inventario de condes, importar centro de los condes.
+
+21:07
+Vale, vamos a ver ahora también lo de importar vamos a dejar. Ay te quería preguntar importar en IMI habría un importar centro SIM, no centros o equipos no, no ponían o hoy voy, hoy voy equipos IMI importar centro SIM Grafana IMI que limi también tiene su grafana.
+
+21:33
+Vale, el limi tiene también su grafana a través de un proxy inverso y tiene todos los datos de tráfico de Del grafana. ¿Es diferente al nuestro, EH? El grafana de IMI es diferente a a Grafana, a Phenlex, la máquina es distinta, los scripts son distintos, tiene sus propios dashboard, el password es distinto, no el password para en mí no es el mismo porque sino ya la locura.
+
+22:01
+Vale, entonces tú vendes aquí el equipo IMI, te aparecen todos los datos del IMI, vale con todos sus interfaces. Sí, lo tenéis como como el nuestro. Vaya, esto es como el nuestro. Tiene alguna cosilla, como por ejemplo que De hecho empezamos a hacer la la fana de la fana de limpias, prácticamente igual que este.
+
+22:30
+Entonces tiene pues cosillas. Tienes estadísticas de ocupación en tiempo real. ¿Entonces bueno, aquí directamente te va diciendo que en en qué interfaces están más ocupados? Vale las medias, medias, medias, medias, medias. Vale, aquí puedes decirle sí, durante un periodo de tiempo. ¿Cuál ha sido su CPU? Bueno, esto es una chorrada que me pidieron.
+
+23:02
+Que depende la pues tú puedes verla de varios equipos o de toda la red. ¿Vale, entonces lo que te dice es las estadísticas, vale, entonces este equipo están petados de memoria ya? Pues depende la red que sea, porque hay varias redes, pues suyas.
+
+23:28
+¿Son unas unas dashboard que me pidieron, los hice en su día y se ha quedado o las había en Internet, que esto no es así? Vale, esto es porque los equipos estos están tan petados que han desconectados en MPY no puedo interrogarlos vale, vale, esto era el grafo fuera quién te suele pedir las cosas, quiero un gráfico de esto o lo otro, pero es tu Isabel Isabel, directamente no, sí.
+
+24:04
+Es la que lleva el interfaz con es es la interfaz con IMI. Cuando necesitan algo pues no lo piden. Por hoy ya está, no suelen. Últimamente ya lo hicimos lo que nos pidieron y ahí se quedó. Quiero decir que no vale antes de empezar con el radios, que es más complicado. ¿Vamos a ver lo de importar centros, vale?
+
+24:31
+Aquí, como habrás visto, no hay ningún sitio donde se puedan dar de alta centros. ¿Y está hecho adrede, vale? Sí, sí, porque es que era un desastre total que aquí cada 1 se inventaba. El Código INFO ponía pendiente de no sé qué y decías, pero o sea, para que un centro esté de alto en fobos tiene que existir en vitra, ni más ni menos, y vitra bebe de agua. O sea.
+
+24:57
+Sí, nosotros como no tenemos acceso a Aqua, pues nos toca ir a vitra, pero es lo que hay. ¿Bueno, tampoco pasa nada de Aqua a Vitra, se sincronizan prácticamente todos los días, entonces tampoco es un problema, Eh? ¿Cómo funciona esto? Pues nada, te vas a importar centros y entonces buscas el centro. Pues dime un centro que te apetezca, a ver, yo que sé.
+
+25:26
+A ver, hay llora siempre, siempre todo es el mismo, vale, aquí te aparecen todos los centros que están dados de alta y que contiene la palabra llora, están dados de alta en vitra, vale, y aquí aparecen los centros que están dados de alta en fobos. Como verás, no todos los centros de vitra están en fobos por una razón muy sencilla, porque en vitra es una barbaridad. Entonces todos los centros en el, por ejemplo, están en Vitra.
+
+25:55
+Todos los centros de de shock, todos los centros de de está todo allí, vale, pero no nos interesa pasarlo todo. Los Abertis towers sí que están todos, me parece, y si no deberían estar, vale, pero bueno, entonces, si nosotros vamos a dar de alta un equipo en un centro que no está en la base de datos de Fobos, pues hay que importar la información.
+
+26:24
+Entonces lo que se hace es te vas al centro y le picas, aquí vas a ver alguno que nos interese, t V 1 llora es que vamos a tener mayor a la A T V si está dado de alta a ver alguna a t V que no esté de a la alta está borrado, esto se ha borrado, bueno es igual, vamos a darle alta a este el de Barcelona cerdat C t a t V Vale, vale.
+
+26:58
+Vale, pues simplemente lo que hay que hacer es pulsar aquí. Vale la de aquí. Entonces este ya está dado de alta, es un poco lerdito, vale, así lo verás más claro. Aquí está este, por ejemplo.
+
+27:23
+Nunca he entendido los que llevan el ZZ adelante, los que están los borran porque están de baja, han borrado ese centro o lo han dado de baja y entonces para no borrar la descripción pone el ZZ bueno o no va al colegio internacional los Smash Picks Center. ¿Esto está enfrente de casa de mis padres donde vivían tal cual vale, este centro no existe, vale?
+
+27:49
+O sea, no existe en en fobos, en Fobos, pues nada le damos aquí ya está en fobos. Vale, pues si tú te vienes a fobos, si es March, vale, tenéis aquí abajo, vale, evidentemente estará vacía, pero además.
+
+28:24
+Ahora hay que definir el prefijo y el sufijo. Ahora sabes que para dar de alta equipos hay que ser una norma y necesitas el prefijo y el sufijo del centro. En en ello estoy, en ello estoy que tengo que que empezar a poner nombres nuevos por ahí. No, no hace falta, lo hace foboso te vienes aquí aquí, vale, le das a modificar.
+
+28:55
+¿Perdón, o sea esto de aquí vale, entonces le dices genéramelo en Valencia o en Teruel? Vale, te lo digo. Hay problemas que muchas veces se mezclan provincias. Entonces en la en centros de Valencia se han metido en la zona de Teruel y no sé por qué lo hicieron en su día, pero están metidos, por ejemplo, la zona de Valencia, hay una zona que está dentro de la provincia de Teruel, una es como una isla.
+
+29:24
+¿Pero es Valencia, vale? Sin embargo, en esos en en algunos centros de esa isla pusieron que era de Teruel. El caso más claro es en las islas. El problema está en que en las Islas Canarias no se nombra por provincia, se nombra por isla. Entonces le tienes que decir a qué isla pertenece, porque la Gran Canaria tiene varias islas.
+
+29:52
+Sí, aquí te aparecen las islas y tienes que decirle a qué isla pertenece. Claro, vale, en este caso está en Valencia, vale, y automáticamente te ha generado el acrónimo sufijo, pedazo, sufijo. Sí, según la norma que establecimos en su día para generar sufijos.
+
+30:23
+Por ejemplo, cerrar no quiero este quiero aún no que sea más fácil este de aquí, pues Valencia. Ya me has respondido una pregunta que te iba a hacer de por qué no se hacía automáticamente lo del prefijo y el sufijo de de las islas y demás, claro, es que son las islas. Pues tienes que.
+
+30:54
+¿Tienes que elegir la isla, vale? Y entonces ahora aquí por ejemplo los a t V ya está dicho, ya ya se le dijo que hiciera esto, que fuera a t V P C t o sea los a T V Haz esto, mete a t V_ En este caso tenía que haber hecho o no_ no sé por qué no lo ha hecho.
+
+31:16
+Tendré que revisarlo. Ah, no, sí, sí, perdón, ya está lo que pasa, que creo que que se movió porque tiene algún carácter más eso y vale, vale, correcto, vale, pues en este caso estoy atento, Eh, vale, este centro se define así, pues nada le das a enviar y hasta el prefijo del sufijo degenerado, entonces cuando tú te vas aquí a este centro.
+
+31:46
+¿Si vas a dar de alta un equipo, o sea pedazo de sufijo, que bueno se definió que se hiciera así, Eh? Que tuviera en cuenta todo lo que usara las dos primeras letras de cada palabra. Bueno, un rollo, pues es lo que hay. ¿Entonces, si tú vas a añadir un equipo aquí que va a ser marca un Cisco, por ejemplo, modelo cuál? Pues 12911, por ejemplo.
+
+32:17
+Así es como se llamaría el equipo. Tú puedes poner aquí pues ya está, ya está general el pedazo nombre, equipo, Vale, puedes, puedes hacer que te genere, por ejemplo.
+
+32:43
+Automáticamente todos los nombres de todos los equipos, de todos los MPRS, otros los 2950 o otros los hay. ¿Un script que hice? Sí, hay un script que lo hice, pero en su día lo hicimos para para pasar todos los equipos nuevos que había que pasar al nuevo sistema de telecontrol. Esto me lo pidió León, me parece.
+
+33:10
+Pero ahora mismo desde aquí con interfaz web, no, no lo hay, vale, entonces hay que ir dando de alta si son equipos, pues hay que ir dando el alta 1 a 1, sobre todo también por eso, porque hay que mirar, comprobar que el centro exista, que el acrónimo el el prefijo del sí, sí, sí, no, claro, no, no, por supuesto, yo te hablo de los que tengan el centro creado y prefijo y sufijo generado, si alguna forma rápida hay un script que lo hace sí.
+
+33:39
+Hay que meter los datos en una base de datos y a partir de ahí empieza a generar lo lo bestia. Te voy a te voy a convocar para mirar eso en otras esas pues sí, sí se puede hacer. YY de todas maneras también hay que comprobar que el equipo no esté dado de alta con otro nombre, porque hay muchos MPR, por ejemplo, o muchos 9402 que ya están dados de alta y tienen otro nombre diferente, sobre todo los radioenlaces, los radioenlaces también.
+
+34:06
+Este de los MPRS queremos estamos cambiando el gestor y les queremos ya dar de alta en el nuevo gestor con los nuevos nombres. Vale, pues sí, pues convocó a mí, lo miramos, se puede hacer, o sea, De hecho, el script está hecho ya tendría que buscarlo que ya no me acuerdo. ¿De dónde está? ¿Vale ahora esto si te vienes a al ipam?
+
+34:29
+Que nos habíamos quedado por aquí aquí, vale, abrimos muchos melones, te vienes a la red de datos de gestión si tiene a bien y eso que está retocado. ¿Pero lo del Ipam es un pelín lento a veces, Eh, pero bueno, la verdad es que tienen muchos datos, pues aquí tendrás un una subnet que es la que hemos creado, que tiene el info, vale?
+
+34:58
+¿Entonces los centros se guardan como carpetas de PHPY PAM están aquí metidos en la base de datos, Eh? ¿Tal cual tienen algunos datos extras como es por ejemplo el el linfo, el prefijo del sufijo que es de aquí se pueden cambiar, EH? Si los quieres cambiar a manubria o se pueden cambiar desde aquí o directamente se pueden cambiar desde la interfaz de Fobos y en este caso lo que vamos a hacer es borrarlo.
+
+35:28
+¿Los queremos tener aquí? Pues directamente para borrar un centro que ya no queremos tener aquí, pues borramos, la confirmo borrar esto vale, y aquí ya pues no ha pasado nada, no pasa nada por aquí el centro este de los Smart pues ya no está, vale, y aquí pues tampoco estará, pues ahora la cascará y directamente.
+
+36:03
+No sabía que le estás diciendo porque ya no tiene el centro en la base de datos vale el inventary shock, importar centros es exactamente lo mismo, solo que en vez de meterlo en la en la base de datos, o sea en la en la red de Cellnex, pues la meten a shock. ¿El limi o Condens igual no es lo mismo, Eh? ¿Es el mismo interfaz, lo que pasa que aquí no hay prefijos, sufijos, no se utilizan, pero entonces aquí?
+
+36:34
+A G V, por ejemplo, que tendrá muchos centros, va a haber equipos condes portal, centros G V a no, a G u punto vale y hay muchos centros que están de G V a que están dados de alta. Estos es porque como no había equipos.
+
+37:02
+En estos centros pues directamente solamente habrán equipos de difusión. ¿O vais a saber entonces no hay routers ni switches ni nada? Pues directamente no, no os di de alta cuando hice la migración a esta red. ¿Qué equipos metéis en focos? O quiero decir qué centros Metéis en fobos de si tienen Cisco lo metéis y el resto pues depende o si si voy a dar de alta un equipo en directamente.
+
+37:30
+¿Por ejemplo, pueden haber equipos los los 9402? Hombre, normalmente si hay 19402 está por lo menos hay un switch. Sí, hombre raro. ¿Raro es que no haya un switch, pero por ejemplo, un equipo de satélite, unos cómo se llaman los de dos equipos de satélite, los receptores de de TMT los MPRSMPRS? Perdón, sí.
+
+37:59
+¿MTRS hay en centros a ver, son, no se instala como Cisco o como Científical lanta, si estamos científical lanta, claro, Cisco y el Código, sabes cuál es? ¿No? A ver, espérate, porque aquí hay centros que sí tienen restos de satélite.
+
+38:31
+Y equipos, perdón, centros. Ah, ya este creo que tiene actor de satélite. Sí, esos de aquí. Vale a ver cómo está de alta como Cisco 9804. Vale, pues aquí estos equipos.
+
+38:58
+Equipo marca Cisco de 90 de 804. Vale, todos estos equipos están dados de alta y en muchos de en muchos centros. Y sí que habrán switch porque no le hace falta por ejemplo este y ver, pues aquí sí que hay vale. Normalmente es los que aquí me aparecen normalmente los que los que no tengan IP de gestión.
+
+39:32
+Es porque seguramente está en algún sitio donde no hay gestión. En este caso todos tienen gestión, EH, que soller cote, todos estos tienen gestión Carrasco y tiene Torrente, tiene tiene Gobierno de Navarra, todos estos tienen gestión artxanda, mira, este puede ser que no sea el de Montroy. ¿Está el de montroy posible que no tenga gestión? Pues si mira hay un 3400.
+
+40:01
+Bueno, da igual, puede ser que esté dado de alta ya de aquí. En este caso hay muchos, y también en el caso de los 9804, por ejemplo, también son interrogables vías en MP que esto también está bien y te da el si la la RF de cada de cada señal si tiene la salida sin cada salida.
+
+40:37
+¿Como no están etiquetadas las salidas en ninguno, pues tampoco lo lo hiciera, se sincronizara, pero se podría hacer, EH? ¿De hecho, sincronizar con red a ver o se sincroniza? Sí, porque está cogiendo datos. O lo cogí directamente de.
+
+41:03
+Que no logres tú dónde me lo he dejado por ahí muerto en algún sitio, no, perdón, no estás en MP o esta información no, no la sincroniza, me la no me la debieron pasar a algún Excel y lo volteé, aquí ya está. ¿Estos equipos se dieron de alta, todos a a piñón, o sea, o sea, si he cogido una base de datos se metieron todos aquí, vale?
+
+41:35
+Lo único que se como esto ya se hizo hace mucho tiempo, pues se hizo con el código que a mí me dieron. ¿Que es este de aquí? Claro, habría que hacer también, supongo que algún procedimiento en el que se pudiera renombrar automáticamente los los equipos que entraras aquí y le dijeras pásamelo al al nombre nuevo.
+
+42:03
+Y ya que te dejara en las bases de datos con el nombre nuevo, que eso también se podría hacer aquí sí que hay previsto, ya está en la base de datos un alias vale y este alias lo que hará es guardar esta información que es el código viejo en el alias y meter el Código nuevo en el en equipo. Por si después necesitas hacer alguna búsqueda o saber ese equipo de dónde viene, pues el tener los dos nombres aquí.
+
+42:34
+Vale, eso está previsto. Lo que pasa es que, bueno, las cosas del Ministerio van despacio. ¿Y y quién debía, quién, quién? Bueno, empezamos esto porque Víctor Bassas quería también hacer algo y tal y empezó también por ayer, pero al final Víctor se ha ido y esto se ha quedado a medias y se ha quedado.
+
+43:02
+Supongo que habría que hacer algo para poder cambiarlo y después hacer una. ¿Lo que pasa es que habría que hacer una batida centro por centro, mirar a ver si los equipos que hay son los que deben de estar, si, pero eso es complicado también, EH? Eso es muchas cosas, sobre todo porque aquí interviene mucha gente, porque te vas a un centro pequeño. En teoría, como es ayora, que es un centro relativamente pequeño y hay equipos de producción, hay equipos de telecontrol, hay equipos de transporte, hay equipos de energía.
+
+43:29
+Y aquí faltan las emisoras de de difusión que también deberían estar, que tampoco están porque tienen su direccionamiento IP, tienen su marca, su modelo, tienen un un montón de datos que deben de estar aquí. ¿Por cierto, este lo voy a quitar, que esto es una prueba mía, vale? Hay un montón de datos de de que deberían de estar aquí. ¿Y no están esos equipos? Bueno.
+
+43:58
+Si alguien se decide alguna vez hacer un inventario como Dios manda, pues la herramienta está solo. Hace falta que metan los datos. Sí, vale, bueno, muchos equipos que sí que se puede ver por SMP. ¿Puedes ver los datos en tiempo real del del equipo, EH? Por la tensión de las baterías, la carga está en 3 amperios, ahora en flotación y no tiene alarmas.
+
+44:28
+¿De estos hay muchas, muchas cosas que hace en fuegos, EH? Puedes, ahora estoy viendo que puedes directamente desde aquí directamente entrar en equipo y ver la situación del equipo. ¿Hay no es conocer con interfaz más o menos genérico para que todos tengan la misma interfaz, que sea fácil, simplemente es entrar aquí y darle aquí muestras dime cómo muestras? Pues ya está.
+
+44:55
+Por eso no hace falta saber cómo es este equipo ni conocerlo. Tú vas ahí y le das ahí, ya sabes cómo es, ya ves cómo está, vamos, la información que te interesa es la que tiene, ya está, no tiene más claro, los radio enlaces, muchos, también está el interfaz hecho o incluso emisoras de difusión. También creo recordar que había en el gatel Gatel, perdón, no, no, el gatel creo que había algunas.
+
+45:34
+Que también lo hacía esta no, este pasa no puede ser que esté sin sin confusores en MP, que también muchas veces pasa. Habían también este Rodas y que habían. Y si no, pues todas maneras hacer el el el. El interfaz es muy sencillo.
+
+46:14
+Porque simplemente es cogerte la la Mir y ya está. Este no tiene activado este MPM. Es que hay hay vuelvo a Torrespaña.
+
+46:47
+Carrasco y Valencina, bueno, tampoco habían, no, no lo habrán cambiado, no lo sé. En su día sí que se hizo. Sí que los hice para para poder interrogarlos también por aquí, pero ahora no, no sé por qué no contestan. Se habrán cambiado mejor la.
+
+47:13
+Eloide ves a saber la del Community perdón del s M p o pues igual tenía el interfaz web en el que tú podías ver el estado de.
+
+47:49
+Ah, vale, ves, te dice. La potencia nominal, que tiene ahora mismo potencia de salida, no sabe cuántos amplificadores tiene, está emitiendo con el Canal 43, por ejemplo. ¿Vale, dónde nos habíamos quedado? Condes, vale, condes va a través de un cortafuegos.
+
+48:18
+Y entonces la peculiaridad que tiene que al fin y al cabo te da un poco igual, es que el direccionamiento va por NAT. Entonces el direccionamiento que aparece aquí a ver sale Valencia, voy 30 por ejemplo, vale el direccionamiento. Este no es el que tiene configurado el equipo, el equipo tiene una dirección. ¿Tú ves la configuración?
+
+48:48
+Y lo que es las direcciones IP, en este caso 11039. ¿Vale esto? La vuelta es a través de un login host ves, mira, está a través de NAT. Entonces a mí me ve como 11039189.
+
+49:17
+Este de aquí vale, esto debe ser un 161, no un 61, pero vale, a mí me ve como una dirección un poco extraña, pero es porque va por NAT, no hay que darle más vueltas, está, sí, funciona bien y ya está. Vale, Ah, vale, sí, una cosa.
+
+49:43
+Los diferentes colores del direccionamiento IP ya que estamos, te lo cuento ya que lo veo aquí, si aparecen en blanco, en el fondo, en blanco, eso quiere decir que el equipo, el equipo lo tiene configurado. ¿Estoy hablando ahora de Cisco, Eh? El equipo es Cisco, eso quiere decir que esa que esa IP la tiene configurada el equipo. ¿O sea, si tú piensas aquí la configuración, verás que la tiene puesta aquí, vale?
+
+50:14
+Si está en gris quiere decir que el equipo en este momento no lo tiene configurado. Es decir, que para este puerto tenemos una estación de continua y lo que han hecho es que en vez de dar de alta la estación de continua en el centro han puesto que la IP y esto está actuando como si fuera un switch. ¿Vale, es un switch con una V lan, pero no tiene la IP configurada de mi interfaz, me explico?
+
+50:42
+Vale, entonces en este caso aparece el fondo como gris, entonces normalmente en un en cualquier switch que vayas en un 3400, etcétera, etcétera. Cuando estación de continuidad tal IP codificador no sé qué. Cuando todo eso se se se se define en el switch y no se da de alta el equipo, sino que la IP se se se administra de esa manera, o sea se se da de alta en la base de datos como 1 I p dentro en un switch, entonces aparece como gris, eso lo hace automático.
+
+51:11
+Cuando se actualiza, cuando se sincroniza con red, entonces mira a ver qué direcciones IP tiene. Cuando aparece así en color azul oscuro. ¿O vale, eso quiere decir que esto es un hot stand by y es que esta esta esta interfaz tiene configurado un hot stand by sabes lo que es un hot stand by? Sí que está como está de reserva.
+
+51:40
+Sí tiene, hay dos equipos que tienen la misma IP de de de hot standby, es decir, esa IP puede la pueden puede ser Gateway. El Gateway pueden ser dos equipos diferentes, 1 no puede estar en activo y el otro en pasivo vale y en la dirección IP de a la que todo El Mundo de dentro de la lan tiene que referirse como Gateway es esta, pero a su vez el interfaz tiene que tener 1 I p configurada para que funcione este invento.
+
+52:10
+Entonces la IP propia del interfaz aparece en blanco y la dirección de hot stand by, es decir, la que hace de Gateway de de Salan aparece en azul. ¿Vale, entonces así tienes todas las IPS? Aquí hay una excepción también por ahí que es que cuando son direcciones IP multicast que nosotros podemos provisionar para decirle al sistema, aquí voy a tener esta multicast aparece como verde, el fondo es verde.
+
+52:40
+Ah vale, entonces si veis poner 1 I p de color verde es porque alguien ha aprovisionado una dirección multicast en ese puerto. Pues por ejemplo un codificador. Vale voy, voy en un puerto, voy a meter un codificador y necesitaré meter su dirección IP del codificador que va a tener su IP de producción y además va a tener 1 I p de Multicast. Vale, pues la IP de Multicast va a aparecer en azul verde, perdón, en ver el Font va a aparecer el fondo o en verde, vale, vale.
+
+53:11
+¿O K qué más? ¿Qué hora es la una? Uf, ya vamos petados, como siempre, gracias. ¿Vale migración de vanos? Esto es una herramienta que hicimos para hacer migración de vanos, pero.
+
+53:38
+No me acuerdo ya ni cómo estaba hecha, vale, y después no había una una. De hecho, bueno, la utilizamos que había una una base de datos de Radioenlaces vale en la que vamos a ver una petición, tramitar peticiones, enlaces. Lo digo porque así lo vemos tramitado.
+
+54:11
+Vale, el 55 equipos vanoss en la que tenemos esta de aquí es la que se ha hecho la petición y entonces tenemos todos los datos del radioenlace cuando nosotros provisionamos las direcciones IPS aquí una herramienta que utilizamos.
+
+54:42
+Para para provisionar todo el direccionamiento IP, esto se puede hacer de manera semiautomática. Vale, ajá. Una vez ya nosotros provisionamos el direccionamiento IP, lo que podemos hacer es generar a partir de la ficha del baño que ya nos han enviado a nosotros. Lo que hacemos es generar una ficha nueva con este direccionamiento IP integrado.
+
+55:13
+Que es la que devolvemos esta de aquí vale cálculo de enlaces de datos generales, vale, y ya lo que hace el sistema es meter esto. ¿No tenemos que meterlo manubrio y esto es lo que devolvemos la tecnología de la zona para que para que instalen el radioenlace ya tiene todo el direccionamiento puesto, vale?
+
+55:42
+¿Entonces aquí qué guardamos? Pues en qué switch y en qué puertos va a estar conectado. Todas las direcciones de IPD Land de Radio, Todos los datos de de lo que es el el radio enlace y desde aquí también lo que hacemos es dar de alta automáticamente el radioenlace en el centro como equipo vale que es este de aquí, este es el equipo que hemos dado la alta en el centro. Esto habrá que cambiarlo para utilizar ya la nueva normativa que no está hecho todavía.
+
+56:10
+Vale, y aquí la IP de gestión, pues aquí alguien tendrá que venir aquí cuando esté montado decirle, vale, pues la IP de gestión es esta, estamos barco. De hecho ya está comunicando. ¿Entonces se puede sincronizar? Sí, no lo sé, sí, mira a ver, entonces vienes, entras aquí.
+
+56:41
+Entonces le dices, vale, pues pásame toda la información a la base de datos. Esto lo deberían hacer, pero no lo hacen y entonces ahora verán lo que hace nada. Esto que no la pasa, no lo sé, que no la pasa.
+
+57:18
+Bueno, habría, tendría que haber generado el vale, no sé, al sincronizarlo tiene que leerlo. Es información del puerto, meter las frecuencias, todo el rollo y es 1 V r 4 a todo esto a lo mejor es que han cambiado algo de la versión y por eso no lo hace bien. Tendría que revisarlo. Sí, es 1 V r 4.
+
+58:03
+Es un poco raro leerlo, lo lee, entonces tiene el portuno porque está todo. ¿Parece que están todavía todos en Down, Eh? Pero las radios sí que el modem 1 sí que tenía que haberlo dado de alta con las frecuencias y bueno, vale, lo revisaré a ver porque esto lo super, esto no funciona bien.
+
+58:32
+Lo que había dicho entonces la base de datos, esta en principio existe y nosotros la utilizamos porque nosotros, según nos vienen las fichas de los vanos, las almacenamos aquí. ¿Vale, y entonces aquí? Pues hay un histórico de radioenlaces, pues que está ahí metido está todo. Pues eso, o por código de vano o por centro o por info se puede sacar todo a ver.
+
+59:02
+Por ejemplo, aquí dos. Aquí habrá ese Torrente, Torrente que tendrá basura ahí para aburrir. El 142006. Bueno, en teoría todo esto está montado o estuvo montado en Torrente.
+
+59:34
+Esto es radio láser, no existe el memo ni que no existe. O sea estos equipos no están dados de alta en la base de datos, alguno pone baja alguno lo pone desmontado, pues aquí vas a ver aquí este no, no existe, no existe caso link Verizon.
+
+1:00:08
+Esto no se ve. Mira, pues aquí Ignacio Gómez en su día se dio de alta. Aquí lo que no existe es demónico. ¿Sí que está dado de alta el el equipo, pero eso debe estar ya más muerto que para qué?
+
+1:00:34
+Del año 18, esto es el año 18, eso es, a saber, me ha pasado un poquito de tiempo, igual se ha desmontado, es que esto en realidad no lo mantiene nadie. Entonces bueno, igual que lo otro, la herramienta está, no se usa, pues bueno, ahí está. Nos habíamos quedado de inventario, vale el que la fecha que pone TDM que es.
+
+1:01:06
+¿Teledifusión Madrid o sí? Teledifusión Madrid tiene muy poquitos centros, muy poquitos equipos, pero bueno como son son equipos de de ellos y el y el direccionamiento estaba solapado con el nuestro que es 1192168, pues bueno, lo dimos de alta aquí por tener inventariados, vale tener los equipos inventariados, pero.
+
+1:01:36
+Y saber para qué es cada puerto y todo el rollo. De hecho, muchos comunican, Eh, vale, entonces la información en la base de datos se mantiene ya sola y las configuraciones pues deben estar haciéndose también configuraciones. Pero nos este no se ha hecho con copias desde hace bueno.
+
+1:02:08
+Posible que nos haya tocado la configuración desde el año 2013 de 2019, puede ser que no se haya modificado la configuración. ¿Bueno, ya está esto sí, no más o menos vale radius uf, esto es un cómo funciona el tema del radius, pero hoy es una entradilla, nada más, no, EH?
+
+1:02:37
+Sí, V a Radio es es una entradilla, no es una entradilla más o menos y ya entraremos en detalle cómo funciona todo exactamente. Pero para que te vayas haciendo una idea, porque en 1 hora ni de coña, no tiempo para explicártelo, vale, en aquí están integradas todas las remotas de a t V vale en Fobos.
+
+1:03:07
+Entonces, o bien por por aquí podemos buscar las remotas son inelcome. Ahora hay también de otras marcas, pero bueno, muchas remotas son inelcome. Vale, entonces se dan de alta con el código del usuario de Del Radius.
+
+1:03:32
+¿Vale, he he visto que salen códigos de esos filtrando por Cisco también salen códigos de esos D, a, b, t puede ser porque son GPRSS routers GPRSS que tienen tarjeta SIM aquí en realidad lo que hacemos y ya está, esas también van por radios, Eh? Entonces los equipos de radius, como ya históricamente tenían este nombre, al final lo dejamos con este nombre.
+
+1:04:00
+No se no se genera un nombre nuevo, sino que se utiliza el que ya tenía en su día, que está fuera de la norma. Pero bueno, entonces el los equipos de GPRS lo que tienen la parte de arriba es lo mismo, pues tiene su marca, modelo o todo el rollo este. Pero tienen la peculiaridad que estos datos de aquí, estos datos de aquí que tienen un usuario, la contraseña de autentificación de la remota, esto es, si está sincronizado sobre las 2:00 H bases de datos.
+
+1:04:30
+¿Que tiene? Te acuerdas que os conté que el radius tiene dos bases de datos de My SQL, que es donde bebe el radius vale, pues tiene dos bases de datos, que es la que contiene la información sobre la sobre las remotas, su su usuario, su contraseña y si están autorizadas o no va a entrar. Esto se sincroniza de esta manera, o sea, si.
+
+1:04:59
+Yo vengo aquí le digo luego UY el y el uso de password. Simplemente al enviar lo que hace es volver a mirar si esta base de datos está la información correcta, es decir que tiene la dirección de One. En este caso también puede tener dirección de Lan, puede tener doble direccionamiento y lo que hace es cuando yo le doy aquí a enviar sincronizar esta información sobre la información de las bases de datos.
+
+1:05:28
+Del radius, con lo cual esto en verde y esto en verde quiere decir que está sincronizado y que en estas dos bases de datos existe este registro, con lo cual esta remota puede entrar. Además si quieres comprobarlo le das al h de histórico y te dice cuántas veces ha entrado. Vale, normalmente hacen esto las remotas una vez al día, vale que es que paran las paran la la sesión y la reinician entonces el día 18.
+
+1:05:58
+Que es hoy a la A las 9:15 h de la de la mañana esta remota se ha se ha vuelto al hogar y la información que le he pasado. ¿O sea, quién me ha preguntado este nas? Este es el nas que me ha preguntado que este nas este nas es de telefónica. Me ha preguntado si estaba autorizado y yo le he dicho que sí y que configurara este IP, con lo cual.
+
+1:06:27
+¿Qué puedo decir de esta remota? Pues que esta esta mañana ha comunicado y que regularmente comunica y tiene buena cobertura porque todos los días la 13:14 H 15 esta lo ha hecho dos veces 161617171818 vale la remota se desconecta y se vuelve a conectar. Esto lo podemos ver aquí qué remota o sea qué SIM tiene con esta remota tiene esta SIM.
+
+1:06:56
+¿Tenemos una base de datos de Sims en las que nos dice el número de SIM en qué equipo está configurado, si en este caso está asignada, de dónde viene esto? Lo ponía la gente de Telecontrol. Supongo que lo lo me lo ponía. Este chico se ha ido ahora, ***** qué memoria tengo.
+
+1:07:27
+De los que estaban en telecontrol sí se ha ido o sí se ha prejubilado ay de Telecontrol. ¿Quién no me viene? Bueno, pues estaba hablando yo todos los días con él. ¿Bueno, es igual la SIM, qué línea tiene? ¿Vale esta SIM? ¿También tenemos una base de datos de SIM de líneas, vale?
+
+1:07:56
+Si tiene PIN, el puck, el puck dos, esto no sé por qué es y esto lo que hacían es ponerle. ¿Ellos le ponían el el código de centro donde estaba montado, pero que es este de aquí? En realidad hay que fiarse. Lo que aparece en fower sobre todo vale. Toda esta información la tenemos en distintas bases de datos.
+
+1:08:23
+Vale, porque necesitamos todo esto de aquí, sobre todo el el a p n también hay que dárselo a cuando se sincronizan las bases de datos. Vale, tenemos todo el direccionamiento, lo tenemos aquí, vale, entonces tiene dos 46. Si te vas aquí tenemos todas las remotas. En este caso, pues te aparecerán un montón de remotas.
+
+1:08:56
+¿Vale, Estas son las redes en qué centros están asignados? Y aquí debajo aparecerán cuando ellos quieran. Las IPS de las remotas. Vale, esto son las remotas. Entonces cada IP tiene un host name, esto es para el DNS.
+
+1:09:20
+Y está conectado en el 682 en el en el puerto One. ¿Vale, entonces o bien te puedes venir aquí? Si quieres también y por por el equipo, pues puedes poner el equipo, entonces te aparece a qué remota pertenece. Vale, esto también lo puedes poner en fobos, que también como coge la información del mismo sitio, pues al final pues todo lo Junta.
+
+1:09:50
+¿Vale, entonces igual miráis por aquí? Pues a ver en qué sí, qué línea no. ¿Si quieres hacerle un pues quieres llamar a ver si la línea contesta qué línea tiene conectado? Vale, y esto se gestiona a través de este menú. Eso ya te lo contaré cuando cuando entremos en detalles, vale, ahí tenemos todas las líneas.
+
+1:10:18
+Vale, se pueden buscar las líneas por código por donde están tenemos todas las Sims. Vale, pues igual por número de SIM, por equipo al que está conectado, se pueden buscar por cualquier criterio. Permite agregar lotes. Aquí sí que cuando hay que dar de alta, por ejemplo, necesitamos.
+
+1:10:48
+1000 usuarios nuevos. Claro, ahí tenías tú al pobre Tenorio, dale que te pego dando de alta equipos a manurio. ¿Bueno, al final hicimos un proceso que era simplemente DAS el prefijo le dices cuántos equipos quieres dar de alta número? Inicio de Orange con un código secuencial que utilizan o para Orange o para Vodafone.
+
+1:11:17
+La IP de inicio quiero decir yo quiero que empiece por la yo qué sé la 10:30 H y no sé qué operadores el o UY si ponen alguna descripción le das a enviar y lo que hace es generarte todos esos equipos. Vale de golpe no tiene que estar 1 a 1. Entonces claro, que te haga 1000 equipos a la vez, pues es maravilloso después agregarlo.
+
+1:11:49
+Desde aquí directamente puedes darle a un equipo vale y lo que puedes hacer es sincronizar bloques enteros o incluso si quieras enviar te lo sincronizaría todos. Entonces coge todas las remotas GPRSY. Mira a ver si en las bases de datos del radius están bien bien sincronizadas. ¿Entonces tú por ejemplo, yo que sé quieres sincronizar todas las de telefónica? Pues le pones a B, t, t, L, C.
+
+1:12:15
+¿Y te sincronizaría toda la de telefónica me cuesta un ratín, Eh? Esto es, no es vale GPRS de radius lo que hace es conectarse a las tienen distintos números. Registros, sí.
+
+1:12:41
+Sí, porque históricamente puede ser que 1 o se haya registrado bien en 1 y 1 en el otro. ¿Y luego no pasa nada, EH? Lo que pasa es que algunos tendrán más registros porque se se sincronizaron más más remotas, que luego han desaparecido, pero en principio están todas bien y funcionan todas bien. Entonces como funciona todo bien, me da igual que tengan diferente número de registros. Sí, porque ahora tú, por ejemplo, borra las dos bases de datos.
+
+1:13:09
+Y las vuelves a sincronizar y se quedarían las dos paralelas sin. Pero después esto es el problema, está en que nunca lo hemos hecho. Entonces hay equipos que se dieron de alta en una y no en la otra. Pueden ser también que fuera el principio cuando solamente utilizábamos un servidor, después utilizábamos dos, vale, entonces al principio solamente utilizábamos un servidor y luego ya le pusimos 1 redundante, entonces puede ser que esa diferencia de 200 y algo registros vengan desde entonces.
+
+1:13:38
+Nunca han estado los dos en paralelo, ya te lo digo yo que no, y funcionan los dos de manera independiente. Vale, y aquí lo que te dice es que están las dos bases de datos, están bien y están funcionando. Tengo unos unos usuarios de Orange, vale, me en la base de datos hay unos usuarios de test que son estos que yo utilizo.
+
+1:14:08
+Y lo que hago es comprobar que a través de este radius me puede autentificar y a través de este radius me puede autentificar. O sea, que autentificación a través de los dos radios redundantes funciona para estos usuarios de test. Y en la última hora. ¿Cuántos ha autentificado Orange y cuántos ha autentificado Movistar y de Vodafone? ¿No nos pasa accounting?
+
+1:14:38
+No nos lo dice, Vale Orange, Movistar sí que nos dice cuando nosotros le decimos que que sí, que vale, que lo autorizamos Orange, Movistar nos contesta diciendo, Vale, lo he autorizado. Vale, Vodafone no lo hace, con lo cual no tenemos estadísticas de las de las que ha autentificado Vodafone en tiempo real en la última hora tampoco pasa nada, funciona. O sea, lo único es cuando estos números empiezan a caer.
+
+1:15:08
+Por ejemplo, si Movistar baja a 200 tenemos un problema grave porque sabes que los números son que aproximadamente en la cada hora, por lo menos 1002 1000 remotas se vienen a autentificar si no se están autentificando mal rollo porque algo pasa y esto lo que hago es entrar directamente en los dos servidores radius.
+
+1:15:35
+Vale el dos, esto es un servidor radius y esto es otro servidor radio. ¿Están actuando, están redundados actuando en road Robin, es decir que cuando nos piden cada vez le preguntamos a 1, vale, entonces están los dos funcionando y además los dos están contestando cómo lo sabes? Pues por ejemplo esto tengo algún outlet.
+
+1:16:04
+I bet request responsors. Mira, estos de aquí son los que se han aceptado, vale, desde que se reiniciaron. Entonces, si tú lo vuelves a pedir, acá van 686, pues ahí habrá otra cifra, ya ves 862, es decir, se han, se han mientras el rato que estamos hablando se han aceptado más remotas está funcionando.
+
+1:16:35
+¿Perdón, era este de aquí 76686? ¿Pues ahora está el 763, vale? Y después aquí te dice que las de Vodafone, que está atendiendo. Cuánto tiempo tarda en contestar a cada petición. ¿En qué puerto está contestando? En Orange, Movistar. Y estos son el accounting que el accounting.
+
+1:16:59
+Es lo que nos envían el ya te digo, lo que nos envían los operadores contestándome diciéndome ya ya lo entonces, Movistar si lo envía YY Orange también Vodafone. No, no, no nos lo envía, vale, ya está. ¿Y que cuánto tiempo tardamos en en contestar? Pues estamos alrededor de 4 o 5 milisegundos por petición, que es más que decente. O sea, es lo que nosotros tardamos en contestarle.
+
+1:17:28
+A una remota desde que nos pregunta, con lo cual, cuando hay una caída gorda no se recupera en menos de 1 minuto, nadie está recuperado, todo en menos de 1 minuto. Recupera todas las peticiones. Vale, ya te contaré más porque aquí hay mucho bacalao. Sí, sobretodo es por temas de verás que está todo duplicado.
+
+1:17:58
+Tenemos los dos servidores de de mysql, los tenemos duplicados, los servidores radius, los dos tenemos duplicados. Se atienden peticiones de todos los operadores por los dos radius YY aparte tenemos controlado el que las estadísticas de los dos estén funcionando más o menos igual vale.
+
+1:18:20
+Sé que has puesto de cuatro milisegundos en el otro me pareció que eran 8, no, no depende, a ver esto. Mira, aquí son 7 a 6 a 3 3 sí, aquí lo que cuenta es la desviación YY que no pase de eso de 810 milisegundos, pero no es normal, es lo a ver en función de la carga del paquete, de lo que tarda de la base de datos de un montón de, pues puede tardar unos milisegundos más que menos vale.
+
+1:18:49
+Entonces, pues en función de pues muchas cosas, ya te digo que lo normal es estar en esos márgenes unos unos pocos milisegundos. Si empiezan a subir a 100 milisegundos cosas así ya también preocuparte más que preocupante. Sobre todo que te diga que está todo okay, Eh, que te dice que está todo okay tienes.
+
+1:19:16
+Las conexiones a los servidores remotos de my SQL las tienes levantadas a través de. También hay un balanceador que está en Ron Robin y ya está así de golpe y porrazo para que te vayas haciendo una idea. Y esto está en herramientas GPRS test radius. Vale, aquí es donde hay que para saber si funciona bien o no funciona bien.
+
+1:19:48
+Vale, y aquí la gente tele control cuando hace un pedido de 3000 Sims, claro, para dar de alta lo que hacen es enviar un Excel bien, ellos ya tienen un Excel con un formato determinado, entonces cogen el Excel, lo envían y entonces da de alta las Sims o los equipos. Entonces cuando ya han instalado un equipo.
+
+1:20:14
+¿Aquí a través de este Excel, lo que hace es decirnos el equipo en qué centro está instalado, cuál es su SIM, cuál es su todo el rollo? Porque los equipos a ver, hay un centro que era pendientes de instalar. Tenemos un centro especial simplemente de asignar. ¿Vale este centro? Sí.
+
+1:20:44
+A difusión no, no está. ¿Dónde está? Lo ha pasado ya bueno.
+
+1:21:18
+He estado sin vale, sin nada, sin nada, sin nada. ¿Ya qué? ¿Qué han hecho? Nublada, Nublada, Nublada, nublada, madre mía, no sé lo que han hecho. Aludiente, sí se han, se han lúcido.
+
+1:21:50
+¿Pendiente asignamos voy copiar, vale este centro, vale esto? ¿No, aquí sí que a veces cuando haces un copia pega, se te mete un carácter en tabulador y eso eso siempre vale, puede estar ahí, vale estar aquí, vale en este centro, vale?
+
+1:22:19
+Están todas las Sims que están pendientes de asignadas, están vale, están en stocks, están ahí. Entonces estas Sims no están montadas todavía en ningún equipo, entonces lo que hacen ellos es cuando las Sims las envían al fabricante. Vale, entonces por ejemplo, compran 100 remotas Triskel, entonces cogen 100 Sims y se las envían al fabricante.
+
+1:22:47
+¿El fabricante tiene que meterlas en el equipo, vale? Y una vez están metidas en el equipo, hay que venir aquí y decirle a a la base de datos que esta SIM se ha asignado a ese qué equipo tiene que SIM no vale, entonces esto lo hacen aquí. A través de herramientas GTRS envía recel instalaciones de equipo.
+
+1:23:16
+Igual hay un formato que ellos tienen de Excel. Entonces en ese Excel ponen todos los datos, se lo envían y entonces automáticamente se actualiza la base de datos. Entonces al equipo lo pendiente de asignar. Este equipo está pendiente, está a lo mejor ya está asignado, pero todavía no se ha instalado. Vale, entonces está aquí todavía pendiente de asignar, igual que todos estos equipos de aquí ya tienen asignada la IP.
+
+1:23:46
+Ya tienen asignados, está actualizados en la base de datos, pero todavía no se han montado y está pendiente de que se de que se instale en el centro. Cuando este equipo se instala en el centro, pues nada se se asigna al centro. Modificar equipo CAMBIAS aquí el centro y dices este está en tal sitio, está en Burgos, vale, ya dices, pues en el centro que sea.
+
+1:24:16
+Y ya lo asignas al centro correspondiente, vale, y a ellos ya después se hacen las pruebas correspondientes. Le comunican o comunica todo lo que otro con esto. ¿Quién está ahora? ¿El Grupo de Juan Pedro? Sí, sí, Juan, Grupo de San Pedro. Lo que no sé quién de ellos espías es el que se ha pirado, vale, espías es el que sí llevaba esto.
+
+1:24:42
+¿Y se ha prejubilado ahora en enero, o sea en en julio no, pero mentira cochina, en junio se prejubiló, sí se prejubiló y ya no está, entonces ya ahora mismo no sé quién lo lleva, si robusté o robusté, creo que también porque también tengo prejubilado también, no, no, David robusté no, todavía no, pues es joven robusté, Eh, Ah, bueno, sí, es verdad, no sé qué vale, no lo sé, o sea robusté quién será?
+
+1:25:12
+¿Que lo lleva ahora? Se supone que entre ellos hicieron traspaso de funciones. Yo di de alta, una chica me suena una chica puede ser Rosalía, puede ser Rosalía. Carmona, me suena que diera alta una chica, ahora te lo digo, pero tengo la base de datos en el Grupo, en el Grupo Juan Pedro, creo que está Rosalía, está David Robusté.
+
+1:25:41
+Rafa León, Jorge y llanas y Eduardo Segovia me parece Patricia. Ah, pues no dar vilariño, pues no me suena de nada. Y también de alta Pedro Jesús Montesinos, que también lo de alta.
+
+1:26:12
+Claro, control. Y estaban también todos estos de alta, que tampoco sé los que tengo, los que tengo que borrar o los que no, porque aquí hay un montón de gente. ¿Este se ha jubilado también ya? Ángel Dominguez, sí, todavía está, sí, pero Ángel Domínguez ahora está en con con nosotros en digital Solutions.
+
+1:26:34
+David Hidalgo también está en digital Solutions. Chema sapirado no, perdón, dicho es que no, no se nos ha pirado. Javier Javier Cebrián Sapirado este sí, lluis ya no está ahí, tampoco está en digital Solutions. También Mari Carmen Sapirado.
+
+1:26:59
+No sé si Jordi dónde está ahora, no lo sé. ¿Jordi sorinet está en digital solución también? Bueno, pues pues pues pues pues pues eso, pues trae control de ideal tal Pedro Este y a Patricia bueno, creo que 1 de los dos lo llevaba ahora porque De hecho tienen permiso para GPR s sí, vale.
+
+1:27:35
+Eso esta información, por ejemplo, aquí esta remota todavía no tiene asignada la SIM y debería, no sé por dónde va a entrar, pero bueno, puedes modificar aquí el equipo directamente y decirle que SIM Mentira Cochina, tienes que entrar a la SIM.
+
+1:28:03
+Tienes que venir, para eso tienes que entrar a la SIM herramientas, GPRS, Sims, buscar la SIM, la SIM que corresponda y entonces ya la asocias a al equipo. ¿Le dices en qué equipo está instalada? Vale, ya está cancelo y cancelo porque esto está anulada.
+
+1:28:29
+Y entonces, una vez ya la tienes aquí asignada, pues entonces ya en el equipo ya te aparece la SIM, la línea, todos los datos. Y no recuerdo esto funcionaba, que no lo sé para ver si funcionaba también el SMP. Sí, vale la parte básica, sí.
+
+1:28:59
+Aquí también antes aparecía más información, pero me lo hicieron quitar. Vale, no sé, vale. ¿Tienes alguna duda de todo esto así? ¿Ahora mismo es que no, no quiero meterme ahora así de golpe en lo que es el RAID, cómo está configurado y cómo está montado que eso? Uf.
+
+1:29:39
+¿Eso una sesión heavy o lo veremos si ya me preparo café y Coca Cola, no? Sí, sí, es que es es complicadete, pero bueno, no pasa nada. Lo veremos con calma, pues inventario.
+
+1:30:05
+¿No sé así de inventario que se me ocurra porque en lo próximo ya son soportes, no? Sí, y del fogos de Lyntia se vale aparte o fogos de lyntia está aquí, yo entro a través de este nada, 101105161 hay que entrar a través de esta máquina.
+
+1:30:34
+¿Por qué? Pues porque es la única que pasa a través del lan Tulan. ¿Y tú, tienes tienes permisos para acceder a la máquina? No, esta máquina es un escritorio remoto. Si no lo tenéis, te deberíais pedir permiso por eso. Por eso te pregunto, sí, entonces aquí en esta máquina, vale, pues tienes.
+
+1:31:04
+Va un poco lentita, es lo que hay. Tienes fobos en la 101322196, Vale, esto lo gestiona el tema de usuarios y los permisos para poder entrar. Luismi, vale, tienes que tener usuario para poder entrar. Aquí no hay quiero entrar y.
+
+1:31:33
+Sino que sí o sí, tienes que estar siempre rogado con tu usuario para poder ya directamente entrar a la máquina. Vale, y a partir de aquí lo que tiene es el tema de importar centros. Nada no funciona ya porque ya va todo. Ahora mismo se está sincronizando. Se está sincronizando lo que es la base de datos de Intia, el inventario de intia.
+
+1:31:58
+Con nuestro inventario es hay un proceso en Fobos, Fobos Fobos que se llama en que lo limpia. Me parece que era así. Vale este proceso lo que hace es leer todos los días la base datos de Lintia. Mira a ver los equipos que no estén dados de alta en la base datos y los da de alta. Vale, vale, entonces aparecen aquí.
+
+1:32:31
+En inventario aquí hay, pues eso, un montón de provincias. Ellos tienen fuera también, pero en realidad casi todas estas están vacías. Hay muy poquita, muy poquita información fuera, pero al principio, como me pasaron todo esto, di de alta a todos estos, todas estas provincias. En realidad no hace falta tanto.
+
+1:32:57
+¿Y después? Pues pues eso, en cualquier centro, aquí no hay Valencia, Valencia sí que hay algunos centros. Mira, este está este de aquí, este de aquí este equipo. ¿Esto es un un rat, vale?
+
+1:33:31
+Y este equipo, pues está ahí. Tienen su grafana también para ver, vale, entonces tienen tienen grafana para ver las estadísticas de tráfico, todo el rollo acabando en la página.
+
+1:34:03
+Se sincroniza. También coge la información de Del equipo que se lo trae a la base de datos. Vale sabe también quién es, automáticamente quién es su vecino y también crea lo que son los soportes para saber quién es el vecino. En este caso el vecino es un otro rat, pero ya más grande. Vale, esto es un equipo.
+
+1:34:37
+¿No conozco los equipos limpia, EH? Bueno, tienen una mezcla, ellos ahí tienen ra, tienen raidscon, tienen Huawei, tienen Cisco, tienen Nokia. Estoy hablando de de switch, EH, de de transporte no estoy, no estoy hablando de radio enlace, no de de Switches. En este caso es un rato y aparte ellos.
+
+1:34:59
+Su forma de ellos van por familia, vale, ellos no van. Por tipología de de equipos no se separan los los router, los switches no, no tienen la familia MSR que son los Nokia, la familia energía que son pues evidentemente equipos de energía y después tiene la familia carrer ethernet donde están todos estos equipos nuevamente carrer y ethernet. Hay una mezcla entre Cisco.
+
+1:35:30
+Vale, esto es un rat. Cisco Rays COM está un poco mezclado de todas maneras a ver el buscador directamente. ¿Tú puedes separar y decirle, bueno, pues búscame los marca Cisco 920 va un poco lento esto, EH?
+
+1:35:59
+A veces, pues mira, ahora he ido rápido. Estos son los iOS e que tiene los 920 que tiene. Pues igual tenéis aquí toda la información de de su forma de codificar los servicios. Las V las que utilizan, vale, puedes sincronizar la información, ya empezamos. ¿Esto lo lo usa Luismi o lo usan ellos?
+
+1:36:26
+Esto lo usa todo El Mundo. Después esto pasa como un fobos nuestro. En teoría es algo que no, que es como unas cosas medio pirata y que no hay nada legalizado y que pero después al final es todo El Mundo lo usa porque como tiene la se conecta con los equipos y se cargan información de los equipos, pues en en realidad es mucho más fiable este inventario que el suyo.
+
+1:36:54
+¿Por qué? ¿Pues porque lee la información desde los desde directamente, desde los equipos, pero vamos, que la gente de limpia tiene acceso a esto, no? Sí, sí, sí, ellos están aquí en sistema usuarios para vale, no, perdón, aquí no, aquí se daban los usuarios en el ipam a ver, ipam vale, los usuarios ahora se dan de alta aquí.
+
+1:37:24
+Aquí en users, la segunda vale para poder entrar tienen que estar dados de alta aquí vale, esto lo lo lleva Luismi. Entonces si necesitáis entrar usuarios, lo que sea pues lo habláis con él, que os lo cree, vale, entonces lo hicieron porque en principio fobos no autentificaba era igual que nuestro.
+
+1:37:53
+Tú directamente estabas en la red, podías entrar, pero nos dijeron que por temas de seguridad, que lo teníamos que cerrar. Y entonces, como fobos en sí mismo, no tiene ninguna herramienta de autentificación de usuarios. A ver, sí se puede. Pero no quiero usarla porque sería fobos quien controlara y leyera contraseñas y no quiero hacer eso. ¿Vale entonces como PHPY PAM funciona a través de HTTPS?
+
+1:38:23
+Vale, entonces utilizamos los usuarios de ipam de PHPY PAM y una vez ya tienes la información aquí fobos lo que hace es autentificarte sobre la base datos de PHPY PAM para poder entrar. Vale, entonces si te has logado en PHPY PAM, tú vienes aquí y ya tienes la sesión abierta.
+
+1:38:49
+Si está a 10 minutos 1/4 de hora te cierra automáticamente la sesión y tienes que venir aquí y volver a entrar. Vale un poco coñazo a veces, pero bueno, es lo que hay. Te vuelves a venir en fobos y arriando, vale, esto tampoco se utiliza ya el caracter equipos porque ya se hace la sincronización automática y después en herramientas pues tiene poca cosa.
+
+1:39:21
+Tiene alarmas esto tráfico más del cien por cien en ni se sabe, no, el problema está en que a veces estos equipos muchos están borrados. Entonces no, no se sincroniza bien. Hay que y hay que aceptar las alarmas porque el equipo nunca te va a decir que está más del cien por cien porque ya está desmontado el equipo.
+
+1:39:47
+Sacar. Entonces hay que alguien tendría que venir aquí y aceptar la alarma que no lo hace nadie. ¿Evidentemente tienen grafana, tienen informes de copias de las iOS que tienen instaladas que también utilizan entonces por ejemplo? Bueno, para los 920 esta herramienta también la tenemos nosotros altamente, la enseñaré si tenemos unos minutillos entonces en los en los iOS XE, en los 920 podemos saber.
+
+1:40:16
+¿Qué versiones de iOS sí es poco, qué versiones de iOS tenemos instalada y cuántas? ¿Cuántos equipos tenemos en cada versión? Vale entonces en esta versión en la 3:16 H cero 9, pues tenemos todos estos equipos, estos equipos están con esa versa. ¿Vale, pues a veces ellos necesitan saber qué versiones tienen los equipos y esto lo hace para todos, EH? Tanto aquí lo hace también para Nokia.
+
+1:40:45
+¿Para Huawei y para racecom lo que ya tienen dos versiones, tienen 73 en un equipo y 200 veces en la otra, en el otro, 202 equipos en esta versión vale, y en rat? Pues no sé lo que ni lo que habrá, pues hay un montón.
+
+1:41:14
+Pues ver si pues caquita pegata página 3 no hay más, vale, ya está, pues eso igual, pues Estas son las versiones que tienen instalados los equipos, este equipo está funcionando y tiene pues esta versión ahí también ellos hacen sus auditorías, se les pasa la información de qué versiones de de ellos tienen instalada cada 1 para sus líos.
+
+1:41:43
+Vale, y aquí pues eso están para rat rayscom, Huawei eltec también la estación se continúa. También tiene firewall, claro, entonces pues te saca la versión que tiene cada cada 1. Aquí también ellos utilizan.
+
+1:42:14
+¿Pues 1 mismo esto de aquí ahora, justo a ver 1 que vale utilizan grafana para monitorear las estaciones de continuo, EH? Entonces te da la información de la tensión de las baterías corriente de carga en cada momento.
+
+1:42:43
+La capacidad teórica de las baterías y entonces te da la autonomía teórica de las baterías en horas. ¿Vale, entonces a partir de aquí? Pues ellos sacan también sus estadísticas. ¿De qué centros están más en precario, menos en precario? Vale, y si a ver.
+
+1:43:11
+Estos últimos 6 meses y aquí igual también es la temperatura en la que están las baterías, porque esto lo tienen en cuenta y aquí por ejemplo, pues evidentemente si pasaron de 6 a 8 es que aquí montaron algo, con lo cual evidentemente la capacidad de las baterías bajó de 28 horas a 22. Entonces pues eso pueden saber.
+
+1:43:47
+¿Y la tensión de carga de las baterías? Pues va en función, pues, de muchas cosas, de las temperaturas, de las baterías, del Estado en el que están, de los inversores. ¿Cómo están funcionando? Igual pueden sacar aquí unas estadísticas de todo lo que él quiera. Vale, pues sí, esto más o menos es grafan la limpia, el resto funciona igual.
+
+1:44:10
+Pueden sacar informes de de los Cisco en el que tienen los rangos IP, ahora lo veremos a ver de 53. Sí, esto funciona, vamos a verlo en el nuestro. ¿Cuántos puertos? Estos son informes que se que nos han ido pidiendo y los hemos ido haciendo. Vale, y después también tiene auditoría de configuración de Cisco y de Rasco, entonces te dice los errores de configuración que ha encontrado.
+
+1:44:38
+Vale que tienen una plantilla de lo que tiene que haber y chequea contra esa. ¿Sí confío y mira a ver, nosotros esto ya ya también lo tenemos esto en explotación, vale? Bueno, esto es de la fana limpia, no tiene mucho más bueno lo que te enseñé el otro día, los tipos de equipos de puertos, no sé si te lo enseño, esto no vale, ahora te los digo rápido.
+
+1:45:07
+¿Cosas rápidas vale en sistema tipos levantar, volver en total circuito? No, no me suena eso. Aquí son los a p n que hay de que que tienes que poder el sistema. ¿Estos son los parámetros, digamos generales, de la de la aplicación de las bases de datos, vale?
+
+1:45:31
+¿Entonces, los tipos de de Business line, los tipos de ceco, los tipos de equipos, cuántos tipos de equipos hay? ¿Pues estos, qué son los tipos de ceco? ¿Perdona Víctor, los quién tiene que ir asignado a que seco, a que se arrete, a que a se arrete, a tradia, a Ontower o a Cellnex? Vale, vale, esto no sé para qué se utiliza al final, pero bueno, creo que era por un tema de presupuestos.
+
+1:46:00
+¿Los tipos de equipos, pues eso, qué tipos de equipos hay? ¿Por el orden inverso, para que te salgan en el listado te salgan primero los router, luego los switch, pues tienen esto de aquí el orden este vale, si hace falta la realta un equipo, un tipo, pues vienes aquí, se da de alta el el tipo de equipo y ya está estado puertos, en qué Estados puede estar un puerto en el averiado? ¿Sabes aquí?
+
+1:46:30
+Grupos de equipos, esto estado de equipos, grupos de equipos. Esto es un poco más complicado que es que se pueden etiquetar para muchas cosas. Se pueden etiquetar los equipos para que diciéndole que pertenece a un equipo o pertenece a otro, sobre todo por el tema. Aquí mucho se hace por el tema de auditorías. Nosotros también tenemos auditorías, pero los equipos no son exactamente iguales.
+
+1:46:54
+Entonces hay equipos o o incluso los equipos no pertenecen todos al mismo proyecto. Pueden haber equipos que de distintos proyectos que aún siendo el mismo modelo, la configuración es distinta. Entonces hay que puedes decírselo. ¿Cómo? Pues agrupándolo.
+
+1:47:17
+Vale, entonces se meten esos equipos en un grupo determinado y sabes que para una auditoría terminada, para una línea terminada, tú puedes decirle, mira, pues los equipos de condes, por ejemplo, no me mires el radius o el takax, no me mires el takax en los equipos de condes, porque no va, no va a ser igual, los equipos de condes tienen su propio takax. Entonces se crean la auditoría como dos bloques, 1 para condes y otro para el resto. Me explico, entonces puedes agrupar.
+
+1:47:47
+O sea, a etiquetar equipos dentro de un grupo determinado y luego se pueden hacer listados. ¿Quiero decir, pues dame, dime, todos los equipos de rescate, pues están todos los equipos bien etiquetados simplemente con un informe, pues a ver todos los equipos de rescate, vale, entonces por ejemplo, ahora, ahora veremos alguna está grupos de equipos, módulos, operadores, puertos, referentes por servicio, soportes, vale, entonces servicios, qué tipos de servicios hay? Pues este tipo.
+
+1:48:15
+Entonces tú a la en los desplegables, a la hora de dar alta un servicio, pues te salen estos. Entonces tú quieres ahora poner un servicio de un tipo de servicio nuevo, que tú te inventas, pues vienes aquí y lo das de alta. Entonces ya te aparecen los desplegables para poder dar de alta y después aquí están los usuarios, que son los usuarios que tienen acceso a yo normalmente por aquí no entro. Te acuerdas que te conté el otro día todos los permisos aquí yo normalmente no entro porque aquí faltan cosas.
+
+1:48:41
+No está terminado por aquí. Faltarían un montón de permisos aquí debajo que no están aquí solamente están los generales y a veces lo que hace. Por ejemplo, si tiene, si tienes que dar de alta un un usuario para que acceda, yo que sé a poder modificar de equipo solamente porque directamente desde aquí se le puede dar permiso y ya está, se crea el usuario y se da de alta, vale, se da de alta desde aquí que aquí solamente tenemos acceso, ya te digo Tenorio Zamora y yo a este.
+
+1:49:11
+A este menú vale a sistemas, ahí tienes alguno que ya no está en la empresa. Sí, seguro, aquí seguro muchos y habría que ir borrando, pero pero hay que entrar y borrar, tío, y esto es la repera porque yo nunca no. O sea, no tengo tiempo para hacer esto porque entre otras cosas, a mí no me comunican. ¿Quién se va a la empresa? Sí, exactamente.
+
+1:49:39
+¿Entonces hay un montón de bases de datos con usuarios por ahí y con permisos de gente que ya se ha ido, pero si a mí nadie me dice que se ha ido, sabes? ¿Este se ha ido, sí, ya lo sé que se ha ido, pero yo lo sé porque telecontrol cuando yo a sep spice le tienes ahí cuatro más abajo, Eh? Pues igual sé que se ha ido, pues habría que borrarlo, pues supongo que sí. Mira, Javier Cebrián se me borra, pobre Javier, mira, ya hemos ya lo hemos liquidado.
+
+1:50:08
+10 ft. Pues también. Tampoco viene mal que hay veces que miras bases de datos y de nombres y de tal. Y dice, pero si usted hace 12 años que dejó la empresa y todavía está aquí con permisos a todo, sí, por eso, mira, ya está borrados, ya no pueden acceder a espías. Claro, aquí habría que hacer una limpieza.
+
+1:50:29
+Importante, pero bueno, da igual, ya está ya paso. Vale el tema de grupos importante inventario. Entonces, por ejemplo, un 3300 vale pertenece al Grupo de los 3300. Es que tienen unas peculiaridades a la hora de de a la hora de.
+
+1:50:59
+Ya lo diré a la hora de hacer la auditoría, vale, entonces en este caso hay una un par de líneas que no tienen que verificar porque esta esta configuración no las tienen, entonces lo metemos aquí y en la auditoría digo esto no me lo no me lo tengas en cuenta y también a la hora de hacer búsquedas, tú, por ejemplo, puedes decirle, Mira, quiero que me saques todos los equipos. Sisco, del grupo Rescat, vale.
+
+1:51:30
+Y si todos están etiquetados como deberían estar etiquetados, te saca el listado los rescat. ¿Por qué? Pues porque aquí pertenecen al Grupo Rescat Ves esto en en modificar Grupos, tú vienes y dices, pues añadir, yo que sé 1 no ISIS, pues añadimos, ya está. Entonces aquí me aparecerá que también pertenece al Grupo ISIS. Voy a quitarlo, que sí.
+
+1:51:59
+Vale, lo Quito de aquí cerramos ya está, entonces yo puedo hacer, yo puedo etiquetar grupos, o sea equipos por grupo, independientemente de lo que sea, es decirle yo que sé o por proyectos o por hay grupos que se utilizan para se utiliza para auditoría y este se utiliza para el proyecto y a la hora de y a la hora de buscar.
+
+1:52:27
+También podré buscar y decirle a ver cuántos 3000 tenemos, independientemente de cómo te llames, pues los 3000 que tenemos son estos. Vale, también puedo decirle marca Cisco, modelo 3000 y grupo todos. Pues lo mismo. Aquí seguramente saldrán más porque seguro que hay alguno que nos ha etiquetado.
+
+1:52:56
+Pero no pasa nada. Tenemos aquí enseguida kandam porque tenemos las auditorías de los 5 3000. ¿Vale, en este caso este que lo están instalando ahora, vale, están todavía instalándolo y si no, si está instalado, por qué no le han hecho? ¿La ves si está instalándolo ahora? Pues Jordi Bielsa tendría que haber añadido lo del Event Manager aquí debajo, que no lo ha hecho.
+
+1:53:28
+¿Vale entonces en la auditoría, pues nosotros podemos ir detectando todos los programas que nos vamos encontrando, los 3000 y los 3400, pues igual, pues tenemos 2284, 3400, de los cuales solamente hay 1 con problemas de mira, no cortos alguno hay más, no? ¿Pero fíjate, al principio esto asustaba, EH?
+
+1:53:52
+¿Pero 2200 son los que están bien y abajo te salen los que fallan en algo no? El total que van a analizar son 2284. Van a analizar estos equipos de los cuales estos son los que están mal ahí sí son 6 equipos que deberían de tener, no está nada mal, no está nada mal y tenemos pues para sacar auditorías, pues de los 920 de los 300 de los iOS XR de.
+
+1:54:21
+¿Vamos, vamos trabajando, EH? Porque aquí al principio todos los habían un montón, que sobre todo en 2950, por ejemplo, aquí Fíjate que solamente hay dos, en los 2950 todos los demás están bien. Vale, no sé qué más se me ha quedado pendiente por el así lo de los informes. Rangos IP.
+
+1:54:51
+Lo que te he contado esta mañana hace un rato que tenemos lo de lo tenemos RDGY reservas y es para esto. Sí, con las reservas me he quedado esto. Las reservas las sacamos aquí. ¿Por qué? Mira si tú te vas aquí a herramientas y pam en reservas jolines jolines Jolines vale ahí.
+
+1:55:23
+Tiene guardada la última que hace en su Net reservas. Yo he definido, cierro esto, cierro esto, cierro esto, esto la 10:27 H como la GPRS de Vodafone, vale, entonces te vienes a aquí y tengo la 10:27. H cero cero barra 16.
+
+1:55:51
+No está esta sub red, no está creada dentro de RDG, está creada dentro de reservas. Vale, porque RDG no podemos tener, no, no permitimos solapamientos entre redes. Entonces, claro, si si dentro de RDG creáramos las 10:27 h cero cero, fíjate, ya no podríamos dar más dar de alta más subred desde dentro, porque para a la hora de automatizar teníamos un problema, que es que es muy difícil.
+
+1:56:21
+Crear una estructura de árbol dentro de la RDG para direccionamiento, IPY automatizar eso porque cómo sabes si una sub red ya está de alta o no, porque vas a tener un rango siempre por encima que que la cubra digamos no, entonces al final lo que hicimos es que en la RDG no se permiten solapamientos de redes nunca. Y entonces creamos esta sub red que es la que utilizamos, digamos para.
+
+1:56:49
+Crear la estructura de árbol por encima de la RDGY. Aquí lo que tenemos son reservas. Entonces si tú entras en la 10:27 h a su vez Tendrás también ves tienes cosas como la One Vodafone que es la 10:27 h 9 y por aquí debajo no sé lo que habrá, pero bueno, algo más. Bueno, pues son todas estas menos esta entonces aquí.
+
+1:57:17
+Pues tenemos la 10:27 H y 9 que son la One, y estas dos están solapadas, pero lo que nos permite esto es hacer, digamos, como una estructura de árbol. ¿Vale lo mismo aquí lo mismo la GPRS Orange tenemos la dentro de la 10:31 H tenemos la. 3220, Sabes? Entonces aquí dejamos de hacer cualquier cosa y esto nos permite crear esto.
+
+1:57:47
+Reservas, entonces aquí a la hora de utilizar rangos, primero nos dice cuántas IPS se utilizan en cada una y a su vez permite marcar direcciones IP. Tasa internacional por la 2:10 H 2, 3, 6 y aquí dentro sabes que tenemos todo esto reservado y dentro de la de esta de 2360.
+
+1:58:17
+Tenemos estas subbredes, estos ya son sub redes configuradas en equipos. Vale, vamos, por ejemplo, vamos a 1 1 fácil auditoría perdón, informe rangos I P R B G 1 normal que sería por ejemplo una de Valencia, la 10:05 H Vale, entonces aquí no está etiquetada, pero yo podía venir aquí y decir vale.
+
+1:58:46
+¿Quiero añadir una subret no aquí 10500 barra 16 vale y esto le digo que es Valencia, entonces si yo ahora aquí me voy al inventario lo actualizo vale lo ves?
+
+1:59:21
+Entonces yo puedo podría etiquetar, pues la Die 16 es Cataluña la 10:01 h Madrid y tendría todo los rangos etiquetados y yo entro ya alguna vez aquí y yo sé que todos estos rangos pertenecen a Valencia, entonces una vez yo entro ya la 10:05 H 1 vale, entonces aquí ya sí que me da la sub red a las que pertenece esto.
+
+1:59:52
+¿Mira, esto es precisamente pertenecen a Java Alambre que esté bueno, vale, pues de aquí voy ya va un 9300 gestiones, gestiones, vale este de aquí por ejemplo, esta es sub red de aquí vale, quién es el Gateway? Pues un 9300 de Torrente, el o B Land dos es el Gateway de toda esta sub red.
+
+2:00:22
+Las que están en blanco es que no nadie tiene esa IPY, las que están en azul es que alguien tiene pilladas esa IP. Entonces yo necesito 1 I p del rango pues me vendría por ejemplo a esta ya está, oye quiero 1 I p en este rango pues mira la de 1011051240 para TI tú en el momento que esa IP la configuras dentro de un puerto de un equipo y aquí ya aparecería etiquetada, vale, te dice esa IP.
+
+2:00:51
+¿A qué equipo pertenece? ¿En qué interfaz y la descripción del la interfaz? ¿Vale, y si le picas a directamente la Net, pues se va directamente o link o link o link no, ahora no mira dónde toca porque me ha pedido la contraseña y se va al menú, vale?
+
+2:01:23
+Bueno, pues actualizamos a ver nada fuera es igual. En teoría debería venir aquí. ¿Dónde me he quedado el informe? Aquí me he quedado. Sí necesito buscas esto en ipam que no es lo mismo pero.
+
+2:01:55
+¿Que no me deja, me tiene manía hoy o qué? El ipame es que es un poco puñetero. Con esto ya está. Aquí hay un espacio en blanco que lo tengo que quitar, es esta de ahí vale esta subreda la tengo definida en Torrente, ves lo que te decía y aquí tengo la misma información.
+
+2:02:27
+¿De todas las o sea de toda la subret para qué se utiliza cada IP? ¿Quién es el equipo que la tiene pillada? ¿En qué puedo? Interfaz aquí no que no te aparece es la descripción de Del interfaz, solamente debes de la descripción de la I PY aquí hay una cosa importante, si aparece aquí un nombre en hostnite vale, este es el que va a utilizar el DNS.
+
+2:02:58
+De hecho, como está en el DNS yo puedo hacer un ping al 53, 7, 7, 1 b ahora sí que está muy bien. ¿Y por qué no aparece?
+
+2:03:30
+Ah, porque no es Cisco, vale, está quitado porque este equipo no tendrá. Ya verás por qué no tendrá puesto que pase al más cosas. Sí, sí, es que es que es un lío de ******* DNS, ya ves, tiene que tener yes.
+
+2:03:55
+Si aquí tienes un yes, entonces esta información de este radioenlace lo pasaría al DNS. ¿Vale, nos habremos quedado aquí, entonces alguno que seguro que tiene es un router, vale? Este de aquí es lo que aparece aquí. Si le hago un ping este de aquí el registro que estás leyendo es ese.
+
+2:04:24
+Vale, está leyendo este registro. La 10 es unos 155. Este es el registro que está leyendo el DN s para para meterlo, o sea para para saber cuál es la IP. Vale, entonces mira a ver que aquí solamente tenga 1 y que además sea esta IP. Entonces si hay algún error en el DNS pues eso puede solucionar aquí cambiando el hostmail.
+
+2:04:53
+¿Cualquier registro de esto se puede cambiar a más nubrio desde aquí, Eh? No es conveniente, pero bueno, tú puedes venir aquí el host name podrías cambiarlo, pero no es conveniente, mejor hacerlo a través del interfaz web de Fobos. ¿Son 2:15 H, Eh, sí, nos hemos pasado a 1/4 de hora, ya vale? Bueno, en cualquier caso estos informes yo la mayoría los puedes ver tú.
+
+2:05:23
+Y si no, pues me lo dices. El próximo día te te doy permisos y ya puedes entrar a ya puedes entrar a a ver todo esto. ¿Vale, vale? Sí, porque si yo le doy aquí a informes, reinicios que me dice sí, sí me salen.
+
+2:05:48
+Sí, sí, sí puede ser. Hay muchos informes que no están, que no están incapados. Puedes entrar directamente, pues si SMP, esto también me ha salido muy bien, vale, pues pues pues el viernes más no sé qué nos toca el viernes este se pone un calendario a mano. Bueno, yo tendré por aquí 1.
+
+2:06:29
+Interacciones, funcionalidades. Fobos o porte era lo siguiente que me lo saque por aquí. Mire, ya aquí, vale, me lo voy a sacar a guardar y así lo tendré por aquí. Pero presente, nada.
+
+2:07:27
+New nueva carpeta. ¿Aso, voy guardando aquí cosas, vale soportes la próximo día son soportes? Sí, bueno, los funcionarios de fou es el día dos del 10.
+
+2:07:57
+Arquitectura, administración, integraciones. ¿Estaba puesto hasta el 25, estamos a 18 bien, vamos bien, no? Sí, sí, nos quedaban interacciones, nos queda una sesión más que me podemos ver, no lo sé, si quieres que veamos algo más en detalle.
+
+2:08:24
+Pero yo casi que iría avanzando con lo otro, no con funcionalidades Fobos oración 7. Se supone que tenemos una semana para funcionalidades ahí. Si acaso lo que iremos es, pues eso, volvemos a ir repasando cosas, la la próxima sesión y sobre todo, que tú me vayas preguntando cosas también.
+
+2:08:58
+Porque es que tiene tantas cosas que ya no sé si te lo he contado o no te lo he contado. No me extraña. ¿Sí, sí es entonces bueno, un poco ver lo que es los equipos, cómo, cómo se agrupan los menús, los los centros, qué qué datos tenemos ahí? Bueno, no, no lo hemos visto todavía.
+
+2:09:27
+Vale, vale, pues pues pues el próximo día pues funcionariales lo que es la parte de equipos, todas las gráficas de.

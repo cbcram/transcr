@@ -1,0 +1,577 @@
+[Traspaso Fobos]-20231002_122322-Grabación de la reunión
+
+0:02
+Antes de antes de de la reunión, desde luego tengo que compartir las grabaciones. Venga, vale, vale, vale. He añadido el tema de los 3 d s F S ahora ya saca la versión que tiene el el transmisor vale y se pueden sincronizar directamente desde el equipo.
+
+0:26
+Se puede consultar el equipo, se puede ver la potencia y desde aquí se puede sincronizar y entonces lo que hace es poner la descripción con la información que tiene el transmisor y esta parte de aquí con el canal que tiene. Vale, vamos a hacer un también ahora un trabajo que es que vamos a actualizar el el firmware de los equipos. Entonces los equipos que tengan versiones inferiores a la 2:22 H hay que actualizarles, entonces hay que lanzar un script.
+
+0:56
+Están en principio, están todos dados de alta, ya no están todos normalizados al nombre nuevo porque a lo mejor los dejan de pasen, no estar normalizados. Pero bueno, vale, entonces se tarda. Hay sitios donde aparecerán con los dos nombres. Bueno, antes hemos visto Torrente, por ejemplo, no aparecen unos equipos con_ otros sin_ otros con guión medio bueno.
+
+1:25
+Ya no los normalizaremos todos, pero en principio ya deben estar todos. ¿Vale soportes, soportes a que nosotros llamamos soportes, soportes? Hay dos cosas. Por un lado, la parte principal de los soportes, la parte de de los cadis, que son los soportes.
+
+1:49
+Automáticos generados a través de adyacencias sí que es C de circuito y addie de adyacencia. Me imagino no correcto. Vale entonces la adyacencia que nosotros cuando nosotros actualizamos un un equipo leemos periódicamente la información que tiene. Actualizamos la información sobre la base de datos. Una información que se lee del equipo es las adyacencias por CDP.
+
+2:14
+En, por ejemplo, en n además también funciona por el LDP, que es un un protocolo parecido a, c, d, P pero bueno, es genérico, CDP es propietario de Cisco, entonces lo que hacemos es cuando nosotros encontramos una adyacencia entre 2 equipos, generamos un código, si no existe, evidentemente, si no si existe ya pues no la generamos. ¿Entonces nosotros lo que hacemos es le damos un código de subyacencia, vale?
+
+2:45
+Y entonces le decimos dónde empieza y dónde acaba. Y lo marcamos como origen y como destino. Básicamente la idea es que el primero que pilla el primer equipo que pilla es el que va. ¿Va a ser el origen? No, no hay un no hay criterio específico, no. Si yo entre si tenía que marcarlo un origen y otro destino me da igual.
+
+3:08
+¿El primero que veo que veo que lo localizo, que no, que no tiene el está dado de alta, ese es el origen, vale, qué es lo que ocurre cuando yo hago esto? ¿Lo primero que hago es buscar si tiene en en vitra, tiene reconocido? ¿Tiene algún circuito dado de alta en vitra que yo pueda asociar a este a esta adyacencia? Si la encuentro le pongo el Código aquí en alias vale.
+
+3:39
+Y además les traigo la bueno. Es una información que extraigo de aquí, de la de Vitra. Sé cuándo se ha dado, cuándo se ha creado, cuando se ha dado de alta vale la fecha de creación es cuando se inserto el registro, esto es desde hace 4 años, pues desde que está funcionando este aplicativo en fobos vale, cuando he leído esa información de desde el equipo que ha sido hoy.
+
+4:07
+Hoy este este circuito estaba levantado y esta adyacencia es correcta, vale, el recorrido es con fines de cálculo, básicamente vale, entonces si yo entro en este equipo y encuentro este recorrido o el recorrido inverso es que la adyacencia existe ya claro, si yo entro por el 3400 yo vería o el.
+
+4:32
+¿3400 fast de cero barra 3 a gigabitez cero barra 1 o vería el el inverso correcto? Vale igual lo que hago es comprobar si hay algún soporte que ya tenga ese mismo recorrido. En este caso sí tiene vale, ya está. ¿Cómo? ¿Cómo? ¿Cómo encuentras la equivalencia en en vitra on fire para sacar el C?
+
+5:02
+Qué qué buscas en en buscando esto a través del del equipo puerto miro a ver en vitra este este interfaz de este equipo. Si tiene algún soporte, algún circuito exactamente vale, pero tienen que ser soporte, tienen que ser o CET o e t h s vale, sí, vale, no pueden ser servicios.
+
+5:32
+De cliente, o sea, sí, que no sé sí que no sea 1 b t ni cosas de estas que sea un circuito ethernet o algo así, sí. O tiene que ser una perdón, un CET o 1 R soe, solamente se pueden dar esos dos casos, el resto me da igual, no los tengo en cuenta, vale, entonces, aunque detectes una yacencia, no la creas.
+
+5:53
+¿En ese caso o no le pones el no, no, no le pongo la lias, pero la creas igualmente, no? Sí, sí, sí es, es imprescindible para todo, para que fuego funciona bien por una razón muy sencilla, los circuitos MPL s vale, no tienen código Z en vitra. Por eso, por eso te te preguntan o los asua estos que las rutas alquiladas y demás sí, vale, entonces los alquilados, por ejemplo, mira.
+
+6:24
+Aquí esto es una ruta alquilada, no tiene alias porque no tiene una correspondencia. Estos este, sin embargo sí la tiene, sí, pero estos no tienen una correspondencia en en en vitra. Entonces nosotros. Nuestro problema era que nosotros me daba igual que fuera una ruta alquilada, como que fuera una conexión de gestión. Es una conexión entre física entre 2 equipos y yo necesitaba tener.
+
+6:54
+Una, una base de datos común para todo, con lo cual tuvimos que poner este código. Nos lo tuvimos que inventar en ese sentido para poder para poder documentar la red, porque la base de toda la red son las interconexiones entre equipos. ¿Correcto? Vale, entonces esto es una interconexión entre equipos.
+
+7:16
+Por encima de esto puede haber muchas cosas, puede haber 1 n 3, 1 x CONNECT, puede haber un soporte, un servicio al cliente, puede haber 111 entrega al cliente, puede haber muchas cosas, pero la base es la interconexión entre equipos y esto es lo que nosotros estamos reflejando aquí. Vale, entonces aquí podemos también de de vitra, me imagino no del equipo, normalmente la cojo del equipo. Ah, vale, desde lo que tiene marcado en la interfaz.
+
+7:45
+Sí, correcto. Lo que tiene en el en el descriptivo, en el interfaz, vale, es donde lo lo lo lo pongo aquí en algunos casos, después puede cambiar porque vitra sí que es verdad que no coincide exactamente muchas veces. Entonces cuando nos pasan aquí hay, hay que darle la capacidad y esta capacidad muchas veces nos la la tenemos que coger de vitra y la forma de encontrar los MPLS en Vitra es un poco complicado.
+
+8:12
+Sí, entonces nos pasan ellos un Excel con lo que el entonces hay que a veces cambiar esto para que coincida lo que tenemos nosotros con lo que tiene vitra. Pero bueno, es una cuestión de ir ajustando también. ¿A veces vale cosas importantes en tiempo real, vale, yo puedo ver si esta diacencia y está bien pulsándolo aquí encima me lo vuelvo a hacer aquí encima del circuito le pulso? Sí, vale, lo que hace es interrogar a los dos equipos.
+
+8:42
+Vale, y entonces me dice por CDP que está o K es decir que estoy viendo esa adyacencia ahora mismo en tiempo real. ¿Y cómo están los interfaces? Porque yo puedo entrar en una interfaz y en el que está down, pues este algo pasa. Sí, en este caso están los dos APP. Cuándo se ha cuando se ha leído hoy que ha sido hoy y el recorrido que tiene ya está, o sea esto está o KY te puedo asegurar que está o k porque lo acabo de comprobar.
+
+9:09
+En un momento que le hago clic, compruebo que esté toda la información o k vale, qué más cosas importantes vale en vitra, perdón, en vitra, que esto se desconectó. ¿Vale la ocupación por encima de de esta adyacencia? Tengo dos conexiones, tengo de momento encuentro dos X connects que me están pasando para estos dos servicios.
+
+9:41
+¿Vale, son servicios, ya veremos el viernes, no? Sí, el viernes próximo día veremos todo el tema servicios porque el servicio siempre se van a apoyar en en soportes. ¿Puedo ver la latencia de este servicio? Vale en grafana que son el retardo que tiene el el.
+
+10:12
+El punto a punto, el retardo que tiene entonces puedo ver pues los últimos 30 días, pues fluctúa entre 5 y un máximo. Un retardo de 20 milisegundos vale de media tiene cuatro milisegundos, un máximo de 18 y un mínimo de 3 durante el periodo seleccionado aquí arriba vale.
+
+10:36
+¿Desde aquí bueno, puedo volver para atrás, es decir, está todo, normalmente está todo vinculado, EH? ¿Desde aquí yo le daría, pues puedo volver, estaría en el mismo sitio, vale, cierro esto de aquí, vale, y aquí en la C esto es importante también porque aquí puedo ver las caídas que ha tenido esta interfaz, o sea este, este esta adyacencia que durante el día 20 y 21 de agosto estuve dando un poco de morcilla, vale, desde entonces no ha vuelto a caer, está o k?
+
+11:07
+Entonces de aquí también estamos sacando las adyacencias de circuitos alquilados. ¿Hay unas estadísticas también que sacamos que para ver los cortes que tenemos en las fibras hombre, y lo sacamos, lo sacamos también de aquí, vale? ¿Esta información nos viene desde Grey Lock, ya veremos Grey lock? Bueno, estuvimos viendo también Grey lock como funcionaba también, no, un poquito, sí.
+
+11:32
+Vale, pues Grey lock nos cuando encuentra una caída de una adyacencia, en realidad de un de una caída de unos EPF que asociado a un soporte lo que hace es es mandarnos un registro con esa caída. Vale, entonces nosotros esto lo vamos metiendo en una base datos. Entonces tenemos un registro de esa información que nos viene desde grade. Lo pues lo vamos almacenando.
+
+11:58
+Y nos dice cuánto ha, cuándo ha caído, cuando se ha vuelto a levantar, etcétera. Podemos modificar datos de aquí, pero bueno, son datos administrativos y aquí hay una cosa que es la que se utiliza para luego sacar gráficas, también para estadísticas de tráfico. También el Comité de vamos a buscar lo que tengamos en el Comité.
+
+12:27
+¿Cuando hay problemas con alguna con algún circuito alquilado de estos a ver si hay alguno que tenga ya puesto te la meti Ana vale? Da igual en el comité de capacidad se están monitoreando en la aquellas aquellas soportes que tengamos problemas con.
+
+12:54
+De de exceso de tráfico vale este circuito alquilado, por ejemplo, de lyntia nos ahora mismo se está monitorando. Como soy monitora, simplemente hay que decirle si queremos telemetría de origen o de destino. Yo tengo que asociar la telemetría de de este soporte a 1 de los dos interfaces. Estos dos interfaces ya tenemos telemetría en Grafana. Vale, pues si nos vamos a grafana.
+
+13:27
+Herramientas grafana, equipos de equipos, nuevo modelo. Vale, vale, si nosotros nos vamos aquí a grafana y decimos que queremos ver el TEN 005.
+
+14:00
+El 005, el 255 pone sí, me lo me lo me lo filtrado por aquí debe estar por aquí. Puedes escribir arriba donde pone intervalue. Sí, pues no está porque no está. Ah, porque no has cogido el equipo no te ha cogido el ay verdad, vale, perdona.
+
+14:31
+Ahora sí vale en 005. ¿Vale este equipo vale, entonces Fíjate cómo está de tráfico, está en 600 megas, ya estamos ya en un 60% de no? Perdón, un 6% es de 10 Gigas, este es de 10. Sí, vale, entonces en el comité de capacidad ya tenemos determinados.
+
+14:58
+Circuitos alquilados, que lo que hacemos es mirar a ver cómo están de capacidad. Eso simplemente lo que no decimos es de que dónde queremos que coja la telemetría del origen o el destino. ¿Por qué está hecho así? Porque a veces a ver los XRY, los XE, siempre se está cogiendo telemetría de los interfaces, vale, eso es así, pero en los 3400, no. En los 3400, solamente cogemos la telemetría de aquellos equipos que nos hace falta.
+
+15:28
+Entonces a veces el origen es un 3400, puede ser porque De hecho hay alguno, hay y cada vez hay más, hay menos porque es muchos están cambiando por 920 y ahora se van a cambiar por 540, pero todavía hay 3400 que están dando servicio. ¿Entonces, qué es lo que pasa? Claro, no tendríamos la telemetría de este soporte porque no tenemos la la interfaz. Entonces lo que hacemos es decirles si es origen o destino, ya está.
+
+15:56
+Sí, si queremos coger las la telemetría de este puerto, pues la cogemos de este puerto, porque al fin y al cabo el la las estadísticas de tráfico van van a ser las mismas, pero a la inversa el RX de 1 va a ser el TX del otro, o sea eso no hay más vale, entonces podemos ver pues eso, entonces a partir de ahí sacamos de unos comités de capacidad, pues se saca la ocupación que tiene cada cada soporte.
+
+16:24
+Y la forma de decirle que nos coja la telemetría, que nos coja, no, que nos que nos pase a las gráficas que luego se hace. Con el empower B se hacen una serie de gráficas y se hacen una serie de informaciones. Lo único que hay que decir es esto, que vamos a coger la telemetría de origen o de destino si está en blanco. No, no lo va a pasar a a las estadísticas para el Comité.
+
+16:48
+La forma bueno, aquí hay una manera de que que te cambie el color. En principio esto tendría que estar hecho en todos, pero no está, pero no es cierto, no está hecho en todos. Entonces por ejemplo, entramos en alguno de estos, a ver, cámbiate, vale este mismo, este este mismo no tiene el código externo y el proveedor, porque es como es un tema administrativo, pues no está hecho.
+
+17:15
+Entonces para que cambie el color, porque al ya veremos que la forma de dibujar servicios te va a cambiar el color en función de muchas cosas, el color de de la raya que hace entre los dos equipos. Vale entonces la forma de decirle en realidad que esto es, hay que decir que es de limpia, proveedor limpia y esto el código de servicio es de limpia. ¿Es este vale? Pues habría que código proveedor aquí.
+
+17:45
+Bueno, entonces ya lo dibuje de color azulito que queda más mono. Luego porque así podemos distinguir, sí, porque sabemos lo que tenemos subcontratado fuera o lo que tenemos por red propia. Vale, entonces habría que poner esto en en los que toca, pero no está. ¿Vale dos preguntas, dime el Comité este de ocupación, quién es o quién va?
+
+18:16
+Vas a Manuel o a Manuel y la gente tecnología está Lorena, está, te lo digo a ver qué tengo por aquí. Comité de gestión de la capacidad, vale, está Sergio Luque.
+
+18:42
+Vale, está Lorena, que más viene Roger Llorca, Patricia Reaño, Lorena, estoy yo. A veces vienen Alejandro y Óscar Yanzi y Gemma Faura, vale.
+
+19:03
+Pues es, es pues es un comité de análisis de datos que va sacando fobos y lo pasamos a power BEE y a partir de ahí pues sacamos eso, estadísticas de tráfico, latencias, sacamos también eso, pero eso lo veremos en informes, no, no, no, eso esos informes no los hago yo, eso ya es un tema de manual. Ah, pero no, no los no, los generáis desde aquí, desde fobos, la, la, la información sí.
+
+19:32
+¿Lo que es la información la coge de fobos, pero es un power be, vale? La información la coge de fobos y el powerbi lo que hace es dibujar una tarta ahí, unas, unas barritas y unas. Pues eso para hacer más visual lo que es todos los datos extraídos desde aquí desde fobos no tenemos aquí, yo no lo tengo el Power Bi, Eh, pero los datos están aquí, en fobos van Grafana, no están en fobos, están en fobos.
+
+20:01
+¿Están en fuegos, normalmente en unas vistas que tengo aquí, pues por saber de dónde los conoce, EH? Normalmente de aquí ahora te enseño porque hay vistas y hay unas consultas hechas. ¿Vale de aquí ves? Pues ante las caídas esto es una vista, esto es otra caídas es súper, etcétera, va a ser garrafana cuando hay cuando también tenemos una vista de caídas que se hacen por la noche.
+
+20:30
+¿Es fácil, normalmente por la noche hay caídas que son fijas, o sea que son conectan equipos o cosas no? Sí, pero normalmente suelen ser cortes programados que ellos hacen por cualquier razón, que no nos que no nos comunican muchas veces y son trabajos que hacen sin comunicar. Entonces, claro, se nos cae, se nos cae después. También tenemos una consulta para ver cuántos segundos de corte tenemos en cada en cada soporte.
+
+21:01
+Vende equipos y la última es la que la última que tienes ahí esta sí, la de esta no vale, vale, sí, la la ocupación de rutas, entonces cada ruta pues que sacamos las que tengan más las rutas que tengan más, más capacidad. ¿Sí, porque a ver, no todas, no todas las capacidades son la velocidad de línea de los interfaces, EH?
+
+21:27
+Porque hay soportes que tienen capacidades menores. Pero si, pues mira, este es 140060 y sin embargo los interfaces es un giga, pero tenemos contratado 460 megas. Esta información nos la tienen que pasar desde vitra, porque si fuera por mí, mira esto estaría ideal. Pero no es el caso. Vale, vale.
+
+21:52
+¿Y la otra que te iba a preguntar en lo de tipo que tienes puesto de de nivel 3, eso lo ponéis vosotros a mano o no? No, eso es automático. Vale, es que he visto que cuando le dabas a editar, cuando cuando le dabas a editar estaba ya campo también para escribir. Entonces esto es automático, es cuando un soporte tiene 1 I p en los extremos, es decir, este interfaz a ver el giga 00119 tiene 1 I p configurada en el interfaz.
+
+22:23
+Es este de aquí vale y eso te digo que sí o sí va a ser así, vale, ves eso quiere decir que ese soporte es un soporte de nivel 3. ¿Luego se utiliza para otras cosas, vale, pero básicamente lo que te viene a decir es que los los los n 3 cuando es un ethernet n 3 es que este soporte tiene 1 I p configurada y va a tener una adyacencia o c, P, F directa, vale?
+
+22:51
+Cuando es 1 s n normal es que no tiene configurado 1 n, 3 exactamente sí, pero 1 I p en en esa interfaz ethernet, si en el caso que que justo que has mirado ese es la ese interfaz tenía IPY, los dos de debajo por ejemplo, eran también MPLS. Si no lo tenían correcto, vale, pues este este no lo tendrá el 0016, Este no tendrá, no tendrá IP.
+
+23:18
+Tiene un subinterface que sí que tiene IP por encima, pero lo que es el interfaz en sí, el físico no tiene IP. Vale, vale, a ver si vamos a ting, vale el interfaz, el físico, el TEN giga no tiene IP. Después por encima pueden haber muchas cosas, como un subinterfaz que sí tiene, pero eso ya no es eso, es otra guerra.
+
+23:47
+La la dyacencia la tengo, esta es de tipo ethernet y la otra es de ethernet. N 3 vale también se pueden dar. ¿Creo que habían cuando es gestión, entonces evidentemente no va a haber una gestión a través de un equipo alquilado, pero esa adyacencia puede ser de gestión, vale? Y las adherencias de gestión, entre otras muchas cosas.
+
+24:15
+No pueden reenrutar servicios y por eso las tenemos que identificar. ¿Claro, vale, y entonces se marcan normalmente? Pues eso son the fast, the fast y cosas así como sé que es una una interfaz de gestión, pues seguramente porque en alguno de los dos pone gestión de no sé qué.
+
+24:42
+Claro, por eso tenemos los es lo que te iba a decir que por eso tenemos los puertos identificados como gestión, servicio o R D C entonces esto será gestión a secas. Sí pondrá aquí pondrá gestión o pondrá a ver, digamos el equipo el 2811 en la fase cero barra cero CET. Vale, pues esto lo he identificado como gestión, porque a ver si aquí pone en el 3004 cero barra 1, pues no.
+
+25:10
+¿Esto es 1 C n 3 P normal, lo he identificado como gestión para bueno, por aquí pasan servicios, vale, pero es que tiene por encima un servicio C n 3 P bueno, tendría que revisarlo, Eh? Pero a lo mejor no debería. Este concreto no tenía que haberlo identificado como gestión o que antiguamente se utilizaba para gestión y luego se ha vuelto. Se ha pasado a utilizar para otra cosa y lo entiende que es de gestión.
+
+25:49
+¿Puede ser también porque sean fast, EH? ¿Que bueno, tendría que revisarlo, Eh? Porque también la forma de que no renrute mira, por ejemplo, este de aquí es una gestión, este sí que es de gestión. O sea, todos los que empiezan por gestión son gestión. Este es un Management que también es un esto es de gestión también.
+
+26:12
+Con el Management, pero es gestión. Vale que esto es entre el fast cero y el fast cero barra 3 de otro equipo y esto seguro que esto es una gestión. Vamos, entonces todo lo que está marcado como gestión nunca va a nunca reenrutaría un servicio por ahí. ¿Yo creo que lo hicimos así cuando era un fast, EH? Creo recordar porque así es que es muy peligroso reenrutar un servicio a través de un fast Ji JI.
+
+26:43
+Y esto, por ejemplo, son equipos de corporativa que tampoco hay que reclutar por ahí y o porque el equipo en sí sea un equipo de gestión. ¿También habría que mirarlo, Eh? Si alguno de los dos equipos vale, correcto, vale, es por eso el equipo este, por ejemplo este 2950. Este 2950 es un equipo de gestión.
+
+27:11
+Y no lleva servicios, con lo cual nunca puedo enrutar un un servicio a través de este equipo. Entonces todas sus adyacencias eran gestión, vale este de aquí gestión y servicio. Este sí puedo reenrutar a través de pero la adyacencia que va hacia el 2350 no la puedo utilizar para reenrutar puedo utilizar otras esta de aquí.
+
+27:41
+Pero este de aquí, por ejemplo, no la podré utilizar nunca y esta adyacencia seguro que está marcada como gestión. ¿Ves? Sí, para evitar eso que se puedan reenrutar servicios a través de equipos que no soportan servicios que no soportan o que no debería. Por ejemplo, un si fuera en este caso, a lo mejor el 3400 sí lleva servicios, pero tiene el 2950 este de aquí.
+
+28:10
+No sabemos esto en qué con, o sea, si este equipo soportaría servicios, entonces para evitar problemas fuera, no, nunca, nunca va a buscar una ruta por ahí. ¿Vale, vale, qué más nos queda aquí? Bueno, tenemos la las caídas, es independiente, cualquiera también lo hace, no hace falta que sean. En este caso no se ha detectado ninguna.
+
+28:41
+Es un circuito F que está dentro del mismo centro, o sea que es normal que no se detecten caídas que está dentro del mismo centro. ¿Vale, desde aquí vale sacar esto correcto? Vale, y entonces en dentro de soportes te quedaba alguna pregunta, no vale bien.
+
+29:09
+¿Vamos a buscar soportes, editar soportes, que es lo mismo, pero editamos este de aquí que lo mismo que decidamos aquí a la A la pesito este de aquí, Eh? Vale soportes editar, vale mapas de provincia, lo que hace es primero que nada, cuando no es que sí, es que aquí habría que hacerlo, por ejemplo, las cadis, los circuitos de la yacencia no se borran.
+
+29:38
+No se borran automáticamente. De momento a lo mejor habría que hacer algún algoritmo para que los borrara, vale, pero normalmente no se borran automáticamente. Estoy buscando 1 que no esté actualizado este por ejemplo este no, esta gestión vale, no, no, no he dicho nada a ver alguno porque de vez en cuando entre entro yo y voy borrando.
+
+30:07
+Servicio Wifi Valero, cuando es un servicio Wifi a veces pasa esto que solamente veo un 1 de los dos extremos porque el algunas marcas de Wifi meten, tocan el Protocolo CDP y a veces nos hacen un poco la murga. ¿Pero bueno, veo que todos tienen verificación de fecha de lectura hoy eso quiere decir que?
+
+30:33
+Que los ha comprobado todos hoy y estaban todos arriba. Sí, sí, sí, esta noche los habrá leído todos cada 3 días le revisa todos los equipos y hay algún sitio donde puedas ver si hay alguno que esté caído o no. Pero quiero decir no, no, no es no, pues separarles no vale, no hay de momento ningún informe, a lo mejor una de las cosas que habría que hacer, a lo mejor son un informe que sacara los que hace más de x días que están caídos.
+
+31:03
+¿Bueno, a lo mejor habría que hacer el informe, Eh? Se podía saber servicios caídos y que los sacara perdón, soportes caídos y que te dijera qué soportes está está caído. Sí se se podría añadir ese informe. ¿Vale este soporte, por ejemplo? Vamos a ver, este vale, vale, guapo.
+
+31:33
+Debe ser que está 1 de los dos equipos muertos. ¿Vale el Alie 3400 kart 3? Ese equipo está timeout perdón, vale el 920, el 920 está bien, en el 920 he podido entrar porque dice que está down.
+
+31:58
+Donde no ha podido entrar es en el Calpe 3 que estaba ahí debajo. Mentira cochina, aquí debajo te dice que este este equipo no contesta, vale, con lo cual aquí hay un problema, una de 2, este equipo está muerto o lo han quitado, entonces pues vemos aquí timeout, o sea ese equipo no comunica.
+
+32:29
+Pues no sé qué ha pasado, o sea, ha muerto o la han desmontado. De todas maneras es cuando ha dejado de comunicar. Es la última vez que se vio la adyacencia 30 de septiembre no ha sido. Mira, aquí está el día 6 del 9. Ese día fue el último día que se vio levantado. Si le das ahí a caídas, se ve.
+
+32:58
+¿Debería salir? No, no sale, no, no, porque si la han apagado directamente no habrá enviado el no habrá enviado el el el trap, pero el otro no lo debería haberlo cogido el 920 debería haberlo, sí, debería haberlo, pero si lo han dado de baja antes de borrarlo.
+
+33:25
+¿El equipo a ver si está de baja, no está de alta, no sé, debería haberos salido a través del otro, EH? Pero a ver, tampoco es milagroso esto quiero decir, al final vamos a través de Logs, si el equipo no me envía el log, pues no puedo analizarlo. ¿A ver, esto no es un sistema de supervisión, EH? Y eso nosotros también lo dejamos muchas veces, claro, aquí la información que de la que nosotros disponemos.
+
+33:54
+Es información que nos viene a través de logs y poco más o entrando en los equipos. Entonces esto no es una una ciencia exacta. Esto por ejemplo, esto sí que es exacto porque es algo que fobos ha intentado. Esta esta fecha entró y leyó la configuración y desde entonces ya no, no, no ha vuelto a a conseguir entrar a este a no ha visto esta adyacencia desde entonces. Entonces si te vas a la ley 920 Calpe.
+
+34:22
+Está, según bitra, está desinstalar ese equipo. Mira, pues estaba está down. ¿Por qué? Pues es posible el 3400 calp 3 según bitra va a poner a desinstalar, pues alguien debería haber entrado aquí y si la han borrado, o sea, si han quitado el equipo, pues esto se tenía que haber regularizado, tenían que haber quitado la descripción del puerto, tendrían que haber pasado administrativamente caído.
+
+34:50
+Tendrían que haber ido a la diasencia y por lo menos no sé o borrarla o o darla de baja. Vale lo de siempre. Entonces la forma de de verlo es aquí cuando la última vez que se leyó era esto, pues si encontramos por ahí alguno más que que te puede dar pistas. Desde luego, si la fecha es de hoy.
+
+35:18
+¿O de un par de días es que están bien? ¿Sí, es que está bien y sigue leyendo la información, tienes unos, hay un montón, no? Jo, hay un montón, pues miles, o sea, te diría que hay miles. Sí, sí, claro, es que todas las adyacencias de la red las las tenemos controladas, claro, están todas, claro, de manera automática y además las leemos cada poquitos días y verificamos que está todo bien y.
+
+35:47
+Por ver alguno que 10. Vale, mira, vamos a intentar arreglar una venga, aquí hay dos orígenes, hay 1 1 M. P R en medio lo ves, vale, pero no hay destino. La forma de arreglarlo es fácil.
+
+36:18
+Si cada equipo Estado lo ponemos en modificación, vale perdón, modificar soporte y entonces podemos hacer varias cosas. Una es directamente marcar. Si sabemos que es este equipo la adyacencia, marcamos el destino y ya está y ahora tendríamos. Entonces vamos a de momento, vale.
+
+36:46
+¿La yacencia está correcta, es esa, vale? Entonces marcamos como destino y lo y lo reordena. Sí, y ya lo ponemos de alta a alta y enviamos, vale, ya lo tenemos arreglado.
+
+37:24
+¿Vale, cómo podemos hacer para meter un banno aquí en medio? ¿Por qué hacemos esto fácil cuando luego nosotros hacemos una ruta de de un servicio? Si nosotros hemos documentado este radio enlace, luego en el servicio podemos ver dónde está. ¿Dónde está ese radio enlace, vale?
+
+37:49
+¿Los lo veremos en servicios, EH? Pero aquí lo lo que podemos hacer es documentar los radioenlaces que tenemos aquí en dentro de un soporte. ¿Cómo se cómo se haría esto? ¿Vamos a dar un soporte, lo haces, lo puedes hacer automático o lo tienes que hacer tú a mano? No los radioenlaces, no hay que hacerlos a mano porque los radioenlaces son transparentes. Es que por eso me me me ha extrañado el el BLS ahí.
+
+38:19
+A ver, es que el problema está en que los radienlaces son transparentes y yo no los puedo ver de ninguna manera. La única manera que hacerlo es poniéndooslo. No tengo ni idea, Eh, pero vamos a intentar hacer un shock, vamos ponerlo en modificación, vale, y entonces nos da una serie de herramientas para poder hacer eso. ¿Una de ellas es, aquí podemos insertar un un equipo a partir de aquí, vale?
+
+38:49
+¿Entonces le diríamos, vale, qué equipo tengo? Pues tengo estas opciones. ¿Por qué? Porque en este centro yo tengo estos equipos. Sí, según lo que tienes documentado de de la red. Claro, claro, entonces yo tengo alguno que me vaya a Car dos, pues no lo sé.
+
+39:10
+No, no, es que es que no, o sea, lo estoy improvisando, Eh, no tengo ni idea, sí, sí, sí, sí, sí, espera que busco yo a ver qué serie, qué, qué centro es BCN 3400 Car Cardos, qué mal suena, pero bueno, no tengo, no, espérate, que este es el cardón. Bueno, no, no, no, es un cable, es un cable, no es un radio enlace, vamos a buscar 1 que tenga un radio enlace, vale, te lo pasamos sede de Carmel con la vida en mi vida.
+
+39:39
+¿Carmel será bueno, vale? Vamos a buscar un soporte que tenga vaya de un centro a otro. Este no, porque helicóptero este de aquí vale, este va de de de aquí a aquí. No sé lo que son, pero vamos a improvisar, son la marcha. Luego no nos sale todo mal cuando improvisamos, pero.
+
+40:08
+Pero queda muy bien cuando sale bien. Sí verdad, vale, ponemos en modificación, vale entonces con este icono inserto un equipo a continuación de este vale entonces s p R 3 que no sé lo que será SPR, esto es Sant Pere de Ribes. ¿Hay algún?
+
+40:37
+¿Y el otro centro es 12811 SPRRTV, el otro centro es también es Sant Pere de Ribes, pero está todo junto o qué? Los dos son Juntos, Sant Peres de Ribes y porque a 1 le han puesto RRTVY, el otro es SPR. Vaya lío, la vi también. ¿No están todos en el mismo centro también, EH?
+
+41:04
+Jo Peta espera esto lo esto lo borro de la grabación. Venga a ver, buscamos un a ver, vamos a yo que sé a un centro que sea monduver por. Ah, bueno, sí, en soportes podemos buscar por por centro. También esos que tenéis aquí al principio que pone origen, que sí, que es un.
+
+41:34
+Un 3400 así y el otro aparecía un radioenlace a ver, perdón, estos primeros sí, destino, esto son una klis. Ah, no, no, perdón, perdón, es que eso lo vamos a ver luego. Ah, vale, no, no me había dado cuenta que eran de otro tipo.
+
+41:57
+Vale, entonces por ejemplo, podemos buscar por por perdón, hecho por centro, no es por equipo, por ejemplo, quiero saber todos los soportes que hay en un equipo, pues nada, yo lo tengo aquí, digo que me busque todos los que tenga, por ejemplo este y el 2811 aves tiene estos dos equipos. Vale, entonces si os digo por ejemplo el Val, 1400 MON me dirá todos los que tienen el MON, el MON dos y el MON 3 es lo que hay en las búsquedas.
+
+42:25
+Vale, tanto en origen como en destino, vale, pego monduber aquí tiene que haber un radioenlace, digo yo, si no, ya me mira, justo ya está hecho. Bueno pasa nada, lo lo borramos y ya está, pego monduber lo vuelvo a hacer, así que acabaré antes porque si no, para que me haga una copia.
+
+42:54
+Esta ya me lo pongo aquí en el Paint mismamente. Sí, lo ponemos en modificación. Esto habría que hacerlo en todos, pero es lo que hay coba. Vamos a ver cómo se hace esto y así lo vemos rápido.
+
+43:28
+Podemos construir también, eh, soportes a mano también lo vamos a ver, ahora nos hace un soporte a mano, pero de momento lo vamos a hacer con las ayudas, vale, incluso me va a cargar este vale. Yo parto del origen, vale, es un error, ya que no hay destino, evidentemente. ¿Entonces, cómo puedo añadir el destino? Pues lo tengo muy fácil, simplemente lo que tengo que decirle es que me busque el vecino.
+
+43:59
+Entonces en tiempo real entra en el equipo y le dice que yo estoy viendo a este equipo. Vale, estoy viendo a este equipo con este interfaz por este de aquí. Me explico, vale, repito aquí si lo pulso a la V como Sabes lo que te.
+
+44:24
+Es lo que te iba a decir que dónde le habías dado. ¿Aquí estamos en pego, vale, quién es vale? Aquí le puse la VY entonces me busca en tiempo real quién es su vecino a través de este interfaz y es este, vale, le doy aquí ya lo tengo, lo marco como destino y ya tengo el soporte hecho. Vale, vale, y ahora además yo quiero insertarle un radioenlace por medio.
+
+44:55
+Vale, pues nada, simplemente le decimos aquí que es es el 5051602 este este de aquí que va a hacia onduber vale dentro de este centro de P cuando tengo estos estos tengo estos equipos, todos esos equipos no vale con lo cual yo dónde cuál es el siguiente equipo puerto podría ser 1 m t R.
+
+45:20
+Porque puede ser que yo esté llevando por ahí un transporte de de un de un de un pueda hacer un soporte asociado a una transmisión de televisión. ¿Entonces yo puedo conectar un switch directamente con el DECO, por ejemplo? En este caso lo que va a hacer es hacer un soporte a través de un radioenlace. ¿Vale, entonces?
+
+45:48
+¿Vale, yo voy a pasar por ese radio nace por qué puerto Entro, pues entro por el puerto 3, vale, vale, entro por el puerto 3, quiero salir del equipo, por qué puerto voy a salir por el puerto de radio? En este caso como son 1 + 1 * 1 de los dos por el modem 1 vale.
+
+46:16
+¿Y al siguiente equipo cuál? ¿A dónde voy? Pues en monduber lo que me ha dicho, lo que me dice es que a continuación del 516002 de de Pego tengo el 51 600 de de Monduber, con lo cual picándole aquí directamente me salta del centro. ¿Por dónde? Por el modem 1.
+
+46:51
+¿Y por qué? Interfaz, error de tipo es porque yo aquí tengo un equipo de radio, ya tengo un equipo giga necesito necesito salir de este equipo, pues salgo del equipo a través del puerto 3 pues ya lo tengo, ya está construido el soporte a través de la radio, lo pongo en alta y ya está.
+
+47:23
+Vale, cómo haríamos, por ejemplo, y así lo puedes ver un soporte para conectar un switch a un DECO. Eso en Monduber tiene que haber seguro digo yo, o o vamos a ir a un centro más pequeño porque bueno, es igual. Lo hacemos en Monduber va para que sea si yo me voy a monduber.
+
+47:51
+Vale, y en Monduber habrán 3000 en Monduber. Perdón, aquí voy a buscar un switch de servicio. Este 9402 es servicio de GT Levante. No sé si estará dado de alta este este equipo en Monduber este 9402.
+
+48:23
+De fusión Imagínate que es este vale, pues a a imaginarnos que este este es del Mouse 3 vale, ahorita no tengo servicio, Mouse 3 no tiene no ni la IP ni tenemos nada, pero bueno para lo para lo que nos.
+
+48:52
+Aquí tenemos que encontrar dónde está Air MOX 3 vale, está dentro de este equipo el 3400 mondos vale, está aquí, aquí está conectado el DECO vale, entonces imagínate que nosotros queremos conectarle y decirle que aquí vamos a tener un deco conectado.
+
+49:31
+¿Lo primero que tenemos que hacer es decirle que aquí tiene un DECO, entonces en vecinos tenemos que decirle no es obligatorio esto EH? ¿Pero sería conveniente decirle aquí tienes un DECO conectado 9402 este de aquí vale directamente aquí para tener ya documentado las adyacencias que deberían de haber, pero bueno, y entonces lo que vamos a hacer es nos vamos a soportes?
+
+50:05
+Damos al 1 de alta. O sea, si estamos aquí decimos qué tipo de soporte es esto. ¿Son pruebas que hice yo, EH? De sí de de broadcast de producción. ¿Vale entonces el soporte? ¿Podemos modificar y ponerle los datos? Pues el tipo.
+
+50:33
+¿El tipo físico que es en este caso sería sernet eléctrico, nada, capacidad, nada, no hace falta pruebas, vale, si tiene poder externo todo todo lo que te diera la gana, vale, y aquí te añadiríamos de dónde? Pues del Balt.
+
+50:59
+¿De 1400 monkal 3, no recuerdo, ey, no me acuerdo, creo que sí o el mon dos aquí está, vale? ¿Entonces le decimos donde empiezo el el soporte vale? Y en este caso como el DECO yo no lo veo, hay que meterlo a mano.
+
+51:28
+Entonces yo tengo que insertar un equipo que sea el 94 cero esto que había por aquí, ese me lo me lo he saltado. ¿Ay, Ay, y qué puerto? Pues este de producción, vale, marcamos como destino. ¿Te acuerdas lo del que me has dicho? Y eso porque pones un no sé qué punto gif con esto.
+
+52:00
+Entonces, yo puedo meter unos gifs asociados a un equipo en particular. ¿Entonces me el dibujo, vale, me lo hace algo así? ¿Entonces yo después, cuando haga un servicio, cuando el servicio MUX 3 lo dibuje, me dibujaría esto así?
+
+52:25
+Y si además un 94 salvadas. Además tengo otras funcionalidades que también en tiempo real puedo saber si está saliendo la producción a través de ese beco lo vamos a dejar así y ya cuando veamos el tema de servicios lo lo revisaremos. ¿Vale, vale, y así lo ves, porque hay algunas cosas muy chulas que en principio no se están utilizando, pero se se implementaron y la verdad es que que podrían ser interesantes, Eh? Pero bueno.
+
+52:55
+Eso ya os lo dejo a vosotros y ya haréis lo que creáis. Vale más o menos entonces a la hora, a la hora, evidentemente aquí no te va a decir nada porque no sabe. Te saca la información del puerto, claro, pero no te saca la información del del soporte porque no tiene una yacencia asociada, no puede sacarte.
+
+53:25
+Pero bueno, si que te dice que te estaba sacando un perdón. 20 megas a través de esta interfaz tiene o drops, con lo cual bueno, normal, vale, vamos a poner de aumento que vamos a poner, bueno, estamos así en modificación, sí, vamos a dejarlo en modificación.
+
+53:51
+Esto estaba hecho en principio para temas de Broadcast. ¿Se pueden meter, por ejemplo los GPSS se pueden meter los MTRS? Vale, entonces tú puedes tener servicios que asocies, pues toda la cadena de distribución de de servicios nerticast directamente en lo puedes tener aquí documentado de manera gráfica.
+
+54:20
+Vamos a ver si hay alguno que quede. No sé si habrá algunas pruebas que hice yo aquí, sí, bueno, esto lo mismo. Interfaz de producción a un albalá y después también. Creo que recordar que también se puede hacer esto. Vale, entonces lo.
+
+54:55
+Pues lo es así. También se pueden documentar. Vale, yo tengo el cable que va desde un albalá con su slot hacia el transmisor. Esto es todo lo que tengo documentado, o sea, yo tengo el transmisor documentado con su gif correspondiente. Entonces sí, claro, habría que hacer las cosas bien. Entonces yo puedo documentar.
+
+55:26
+Todo, todo lo que es la distribución de de los albalá. Hay un servicio asociado a esto, entonces te te dibuja todo el centro. ¿Vale lo que viene de los MTR? Pues los MTR sacan al no solamente 804. Vale, este es el cable que va desde 19804 hasta una hasta un hasta un albalá.
+
+55:51
+Muy fácil, desde las I dos de salida del 9604 hasta la slot cuatro reserva de la Albalá. Esta albalá está aquí dado de alta, vale, tiene no. Las entradas aquí correspondientes son vale de la RG del Canal 58, vale, entonces se podrían documentar, ya te digo, todo el cableado de difusión de un centro se podría cablear aquí.
+
+56:24
+¿Claro, esto sería un trabajo importante, no? ¿Pero bueno, bueno, es lo que hay, vale? ¿Qué más cosas tenemos que ver de en soportes? Las.
+
+56:53
+Los acli los acli es un poco lo mismo, pero es decir, cuando nosotros tenemos acli son acceso cliente, cuando normalmente lo que lo que ocurre es que nosotros llegamos hasta un servicio de cliente vale que es 1 b t por ejemplo, este caso es 1 b t.
+
+57:18
+¿Estamos hablando de soportes, EH? Esto son siempre soportes cuando nosotros tenemos, cuando nosotros tenemos un soporte para un servicio. En este caso nosotros en nuestro centro acabamos el servicio con 1,1 equipo de red, un 3400 que sí que leemos la información, pero luego hay un radioenlace que llega hasta el cliente.
+
+57:46
+Pero nosotros no tenemos nada ya. En el otro extremo no hay, no hay ningún equipo de datos. En el otro extremo ya es un equipo de cliente, con lo cual yo no puedo ver nada. Ahí no veo nada. Entonces no puedo documentar automáticamente esto y a la hora de dibujar un servicio este BT de navegación aérea yo me quedaría en el 3400 CE no llegaría hasta el cliente.
+
+58:17
+¿Entonces, los referentes de zona van documentando esta información? Vale, entonces lo que dicen es que en el fast ethernet cero barra 3 del 3400 lo que hacen es decirle pues a mano.
+
+58:34
+¿Como ya hemos visto antes, le dicen, pues hay un puerto, sale por el módem, van especificando los puertos y los radioenlaces pueden haber varios, Eh? Vale tu origen al final. Entonces, cuando yo dibujo el servicio B t a asociado a este puerto, lo que ocurre es que me dibuja también el recorrido hasta el cliente, aunque en el otro extremo no tenga un equipo de datos.
+
+59:03
+Lo veremos en servicios. Esto hay que hacerlo a mano, desgraciadamente, y lo van haciendo las los referentes de zona, la gente de zona, no cuando van pudiendo, porque también los pobres van como van, vale, porque cada vez menos también cada vez hay más trabajo y que encima nosotros encima les vamos pidiendo, pues todo esto y al final los pobres pues pueden hacerlo, hacen lo que pueden. Se supone que si están todos documentados pues tendríamos, pues.
+
+59:32
+Vale, pues mira, vamos a hacer una cosa, el parte son la barra 3, esto es 1 B t 1630, luego lo veremos, Eh, ya está, lo tenemos aquí y lo que nos dibuja es esto. ¿Vale? Cuando llegamos al C nos dice que por aquí tenemos una clip que no llega hasta el cliente.
+
+1:00:05
+¿Y si lo sacamos a nivel cero, lo sacaría esto, vale, entonces qué os lo tenemos? Las dos entregas de este que tiene diversidad vale como a través de 2 X conex que tenemos diversidad, tenemos este radio, nace aquí como es de aquí a aquí.
+
+1:00:28
+Hay en este soporte, hay documentado un radio enlace que esto lo han hecho a mano por eso por eso lo pinta. Si no veo lo pintaría directamente del una raya azul. Una raya azul. Aquí hay otro radioenlace que te está dibujando esta esta raya, o sea porque también salen especificado y al final llegas al cliente al CE te dice que en el fast fernet cero barra 3 yo termino pero en realidad en el fast fernet cero barra 3 lo que tengo es otro radioenlace por este ad Click que me llega hasta el cliente.
+
+1:00:59
+¿Ah, es es lo mismo las dos líneas? Sí, sí, sí, lo mismo. ¿Eso lo he despistado un poco, sí, lo sé, pero es que no encuentro, tengo que revisar, tenemos que revisarlo, Eh? En realidad es el puerto, es el mismo, es cero barra 3, sí, sí, por eso por eso que es lo que me ha llamado, pero es que aquí a nivel físico, o sea a nivel de de red, a nivel de red, Eh, estoy hablando yo, mi puerto es este.
+
+1:01:25
+Este es mi puerto a nivel de red, este es mi puerto porque es lo que yo veo de manera automática, pero existe además en ese interfaz. ¿No sé a lo mejor sería cuestión de poner esto este palo aquí en medio esto aquí ahí no sé, no sé cómo dibujarlo aquí a partir de la R dibujarlo no sé, de momento lo he puesto así, vale?
+
+1:01:52
+Lo que hace es decirte que además tengo información de que aquí existe una aquí. ¿Repito, esto es manual, Eh? Esta información se documenta de manera manual y no hay nada de automóvil. Sí, sí, sí, sí, sí. Hay un radioenlace que me llega hasta el cliente, entonces lo que puedo ver es como yo tengo documentado los radioenlaces es el servicio con todo el equipamiento que hay por medio.
+
+1:02:18
+¿Se pueden? Bueno, también se pueden. Se podrían documentar también los emuladores de 1, por ejemplo, pues tú puedes poner soportes que sean de tipo e 1 es mucho más fácil porque al fin y al cabo un soporte de tipo e 1 es un cable que da origen a destino, punto, pelota. ¿Se podrían hacer también aquí a nivel funcional? ¿Pues se puede hacer cualquier cosa, no?
+
+1:02:45
+Si lo ponemos a nivel dos, pues nos esconde la información que no necesitamos tener. Simplemente lo que nos dice es, pues eso, vale, vale, no, no quería enseñar los servicios, enseñar tus servicios, pero bueno, ya te los he enseñado. ¿He enseñado un spoiler, ya lo veremos con detalle, vale, entonces para eso se hacen los aquí?
+
+1:03:11
+Para luego poder documentar un servicio y tener la visión de todo el conjunto, tanto la parte automática que es la que hace fuegos entrando en los equipos y sacando las adyacencias, como la parte que hay que hacer de manera manual de los equipos que nosotros no vemos que son, pues eso son unos radio enlaces, esos equipos nosotros no los vemos. ¿Entonces la forma de documentarlos es así, vale?
+
+1:03:40
+Qué más mapas de provincia. Yo le he dado y no me sale nada. Mapa de provincia. Ah, vale, nada. Sí, perdona, sí, sí, no de Barcelona porque se vuelve loco. ¿Bueno, lo que nos dice es como yo tengo los soportes entre los centros, vale?
+
+1:04:08
+Entonces me dice, cómo están conectados los centros de una provincia. ¿Entonces, por ejemplo, aquí me dice que hay dos soportes, Eh? Catalias a través de este soporte, el sabinar, con a través de este soporte. ¿Vale, entonces, si yo necesito ir desde un centro a otro, vale, con esto sabes por dónde tirar?
+
+1:04:36
+Con lo con esto sabes por dónde y si voy a tener capacidad o necesito montar otro radio enlace porque aquí han montado dos, porque no habría capacidad y han tenido que montar otro. ¿Entonces aquí lo mismo que antes, le DAS clic, te dice la la capacidad te dice el en este caso es un circuito de ono, vale?
+
+1:05:06
+Alquilado a ono te dice entre qué dos equipos está la adyacencia aquí lo que no te da ahí es la ocupación, no, no, aquí no te dice la ocupación, bueno, te da el tráfico que tiene en ese momento, me parece no o no, no, no te lo da bueno, tampoco costaría nada poner aquí el tráfico que tiene megabits en este momento se podría poner, no, no es un.
+
+1:05:33
+Bueno, si hace falta como total estoy interrogando a los equipos, estoy metiendo en me, estoy metiendo en los equipos, estoy interrogando, no sé como un show, interfaz no costaría nada, también sacar el ancho de banda que está en este momento. ¿Vale esto para qué? ¿Pero no dejes de sorprenderme que haces doble click y interrogas al al momento a los equipos y es instantáneo, Eh?
+
+1:06:01
+Sí, sí, además bastante rápido. ¿Cuando le doy Click ya está y te da la información, tardas más en pensarlo? Sí, sí, es que sobre todo sabes lo que te quita mucho el rollo de tener que decir. ***** ahora le tengo que hacer un telnet al equipo. Tengo que mirar a ver si está bien.
+
+1:06:22
+Mirad la el vecino, hazme un show, interfaz, hacer un show CDP solo solo en escribir el login, ya tardarás más de lo que tardas en en hacerle clic a todos los todas las líneas que tienes ahí. ¿Entonces para eso va muy bien ese tipo de ayudas, no? Por eso siempre he intentado añadir lo mismo que cuando tú entras un equipo, el que tú directamente desde el equipo puedas sacar. ¿Mira, ves?
+
+1:06:50
+¿Aquí tenemos un tirabuzón a cuello vuelto, en este soporte tengo una cadena de 2 Radioslaces, sabes? Vale, la forma de documentarlo es, pues igual que antes, tú vas añadiendo los equipos por dónde entras, por dónde sales, por dónde entras. Ya está. Sí se lee perfectamente, sí, sí.
+
+1:07:20
+Y eso es como hay que documentar la los radienlaces vale, entonces te da toda, si tienes la la como tengo el soporte tengo todo a la por medio, pues ya está, pues lo te lo doy aquí la información y ya está, vale, y una de las cosas por ejemplo también el tema este de la configuración, pues también va bien, porque aquí dices vale, es el faster fernet cero barra 22, pues te vas a cero barra 22 y tú dices vale.
+
+1:07:47
+¿Cómo está la configuración? ¿Pues es esta y cómo está el Estado del puerto? Pues está APP y conectado y además tiene esta este cero cero el que la han utilizado. ¿Mira, ves y no tiene Internet, o sea, no tiene interfaz IP configurado en el en el en el en el interfaz no tiene configuración IP, vale?
+
+1:08:20
+Y sin embargo, aquí tienes toda la información. Vale, nos habíamos quedado aquí. ¿Si ponemos ya alguna provincia un poco pastosa, pues al final se lía un poco, Eh? Pero bueno, la información está. El problema está en que muchas veces mira. ¿Por ejemplo, Valencia empieza ya a hacer rayas? Sí, sí, claro, y.
+
+1:08:55
+Podemos maximizar, lo ponemos en grande. ¿Por qué ocurre esto? Ya es fácil. ¿Hay veces que las adyacencias vienen desde otros centros, desde otras provincias, vale?
+
+1:09:13
+Pero estos centros pertenecen a Valencia. Sin embargo, no salgo por Valencia, salgo por otra provincia, entonces no me dibujan los otros los centros de otras provincias por aquí, por ejemplo, Cofrentes, Telsius, autor, buitre, TVV, cofrentes. Esto saldrá por otra red que no sé cuál es la maestra trenita valenciana.
+
+1:09:42
+7 agua está el superdrolla lo mismo saldrá por condes. ¿O ves a saber el Ayuntamiento de sueca, el Perelló o el Govern? Estas tienen pintas, todas a través de red condes. Estas, por ejemplo, salen a través de Caudete, que es Albacete. ¿Vale entonces esta cadena, esta cadena? Nosotros aquí en Valencia llamamos la vía dolorosa, porque es que desde aquí hasta aquí a ciento y pico kilómetros.
+
+1:10:12
+Y encima por una carretera que te mueres. ¿Entonces cuando había un problema en un centro, Eh? En chela, cuando había un problema en chela, antiguamente cuando eran radio enlaces analógicos. ¿Y todo esto vale, entonces no sabías dónde estaba el problema entonces?
+
+1:10:30
+Tenías que empezar a recorrerte toda la carretera, desde desde caudete hasta chelva, subiendo las centros a ver dónde estaba el problema. Y es que hay una barbaridad de kilómetros, pero es que no hay otra alternativa porque está dentro de las montañas YY no había otra manera de salir de Txel tielba de de Chelbautiel. No había otra manera de salir de ahí, sino a través de esta ruta. ¿Entonces era era una cosa complicada, vale? Bueno, ahí el resto de.
+
+1:10:59
+De centro, pues igual que antes, vale detalles, Uy, sí, he pinchado en un centro y me dice simular corte en Cádiz, sí, sí, no es para otra, eso es para otra cosa. Eso lo veremos mañana en servicios, vale, no, es que pensaba, digo a lo mejor pincho en el centro, YYY me lleva al centro.
+
+1:11:29
+No, no, también puedes verlo. Lo que pasa es que se utilizan servicios para cuando quieres. Tú tienes un servicio multicast, vale, tú puedes decirle, vale, si se me corta este soporte, que se qué centros se ven afectados. Entonces te dice cuáles serían todos los centros afectados a partir de ese soporte. Claro, un servicio multicast. Tú no puedes decir, se han cortado todos los todos los centros que dependen de un servicio multicast.
+
+1:11:58
+Porque pueden ser, pueden haber centros que sigan funcionando y otros no. Al fin y al cabo es una estructura de árbol, una rama no tiene por qué afectar al tráfico de la otra y entonces de esa manera puedes saber si se te corta una rama. ¿Cuáles son la lista de centros afectados por ese corte de servicio? ¿Bueno, lo veremos mañana, vale igual mañana o el viernes? Vale, vale, pues eso, aquí simplemente pues puedes ver el los centros.
+
+1:12:27
+Aquí lo que pasa puede tener, aquí es nada, porque esto es para equipos, o sea, no es para vale, y aquí pues eso puedes ver las adyacencias, en fin, bueno, un poco de todo cuando dibujas. Pues eso, Barcelona, Madrid es una locura, esto es sí, ya los centros así a las provincias un poco grandecitas ya empieza a complicarse, aunque estas provincias ya bueno.
+
+1:12:56
+Eso es mapa de lo utilizaba la gente de planificación por el tema de radio enlaces. ¿Entonces, cuando hay que pedir un radio hay que mirar entre 2 centros y tenemos comunicación, vale? Entonces hay que mirar, mirar a ver si hay una vía y si hay una vía, cuál es y hacia dónde va.
+
+1:13:28
+Vale, entonces pues nada. ¿Entonces, si tienes si tienes necesidad de salir de un centro, pues te dice, o para ir de un centro o hasta otro, pues te dice por qué ruta vas a poder ir YY por qué? ¿Por qué soportes vas a tener que utilizar? Y además, la capacidad teórica, o sea la capacidades de los reenlaces de esa vía, se está bien documentado. Claro, lo tienes aquí.
+
+1:13:52
+Aquí pues evidentemente esto no está bueno, no sé, esto son 10 gigas, es una tienda de telecable, no lo sé, habría que mirarlo como va a traer. Sí es que muchas veces no lo tenemos. Esta información no la tenemos todavía porque este aquí esta esta ruta. M P l s A lo mejor no tiene problemas, entonces no, no está en comité y como no está en comité no nos están pasando el ancho de banda real que hay alquilado.
+
+1:14:25
+Vale, pues ya está y después en soportes. Cargar el Excel de ocupación es lo que nos envía. ¿Entonces Lorena, me envía un Excel periódicamente os cargo aquí el Excel correspondiente? A ver si está no aquí en TMP.
+
+1:14:52
+Ocupación a ver, abrir el 23. Ah, yo no sé porque era de ellos, entonces lo que hago es cargarle, busco la adyacencia correspondiente, le cargo el ancho de banda y todo el rollo. Vale, y estos son los soportes que no tienen, o sea, esto es lo que tienen. Tienen asociados en teoría un R soe.
+
+1:15:16
+Y aquí las rutas que no tienen no son, no tienen asociadas un código vitra, vale, y con eso lo que hacemos es actualizar la base de datos con su información. Pues ya está soportes me puedes el el Excel lo puedes abrir o o porque nada es un Excel que no se que me envía. ¿Es un Excel pasión?
+
+1:15:53
+¿Esto es lo que me envía los M P l S por 1 lado con el ancho de banda y de dónde a dónde van, pero aquí Fíjate que no nos envían los equipos han metido aquí en el texto y es a veces es complicado, EH? Y los o los los no MPLS, pues a través del código de circuito pues ahí sí que es más fácil.
+
+1:16:21
+Porque incluso a veces a mí también me sirve, porque si yo me pasan una R soe que yo no tengo documentado, entonces buscando a ver a a manubrio, esto hay que hacerlo a Manubrio, Eh, te metes buscando el servicio, la adyacencia correspondiente, entonces le pones el alias y lo dejas ya documentado. ¿Vale esto una vez al mes? Pues pasa el Excel y hay que volcarlo y buscar a ver si hay alguna R soe que no tengo documentado, vale, bueno.
+
+1:16:51
+Pues cada vez hay que hay un comité, pues envían un Excel con la información. Vale, vale, y no sé nada más tener otra cosa ya los Cádiz, sobre todo. Bueno, el tema de los Cádiz es todo de hay, hay, hay Cádiz, hay actlis y qué más hay.
+
+1:17:19
+Los beos, bepro y eso son son pruebas. Ahí no hay fundamentalmente CAD YY CAD y JACKLY no, ahora mismo lo que se está utilizando es eso. Los asci y los bepro y todo eso son pruebas que en su día hice para ver si se podía hacer. Efectivamente se puede documentar y se puede dejar todo, pero claro.
+
+1:17:41
+¿Esa información la tendrían que pasar a través de Excel o tendrían que la gente de de broadcast meter esa información o la gente de zona? No lo sé. Eso ya el sistema puedes meter la información y perfectamente lo puedes documentar. Si encuentras a alguien que le ponga Javier al gato, pues.
+
+1:18:12
+¿Por ejemplo, esto vamos a verlo, esto modificar de vez en cuando entro y lo si veo alguno mal, pues lo pongo bien, ya está, esta es la lava tal pues marca y este por qué puede estar mal? ¿No lo sé, porque a veces falla, sobre todo cuando hay hay wifi de por medio, porque ahí mira a verás por qué?
+
+1:18:43
+Y a un telnet la 3400 bits sala si no le pongo la.
+
+1:19:12
+Por esto, porque por Faster fernet cero barra 22 veo ve a una cosa que no se sabe lo que es y por el faster fernet cero barra 22 ve a otra cosa que sí que se sabe lo que es y entonces a veces se vuelve un poco majareta y te hace esto, pues pues como es este marcamos destino.
+
+1:19:42
+¿Y lo dejamos arreglado? Ya está sobre todo porque es importante saber dónde tienes el origen de destino, sobre todo a la hora de ya te digo, el tema de servicios muchas veces la la la, la herramienta multicast te dice por dónde sale el servicio, pero tienes necesitas saber a dónde entra, en qué ese servicio, dónde va y a veces por el CDP. Es complicado porque hay equipos por medio.
+
+1:20:16
+¿Dime, pero estaba preguntando, sí, te da exactamente igual cuál poner de origen y cuál poner de destino? ¿En principio sí, ya te digo, normalmente cuando encuentro una adyacencia en el equipo en el que estoy, suele coincidir que es el que alfabéticamente está primero, vale? O sea, pero no hay nada en plan de pues la sede de cliente más como destino o un equipo que esté más hacia el core de la red como origen.
+
+1:20:45
+No vale, no, eso requeriría manos que decidieran si están en un sabes, si como intentamos que fobos funcione de manera automática, todo lo que sea posible, sí, entonces sabes el que primero alfabáticamente te parezca, ese es el que marcas como origen, vale, lo marco como origen y ya está. Y entonces pues intento, ya te digo, de vez en cuando entro por aquí. A veces también ocurre esto, pero bueno, que el puerto es un serial.
+
+1:21:15
+¿Que todavía están algunos serial sí, sí, Ah, no, mira, pues por CDP ha cascado, APP APP este cuadrada Whatsapp vale, puede ser que pues sea por un serial, EH? ¿P D H s D H o SEA que todavía están funcionando para flipar a Whatsapp, no? Pues CDP sería cero cero.
+
+1:21:45
+No sé por qué dice que no los CDTS cuando sí que por CDTS sí que está, pero bueno, da igual cero barra cero al al 1 barra cero Ah vale, porque aquí le falta el 2.0 esto le falta aquí aquí también esta, no sé. ¿Bueno, existen todavía, EH? Sí, sí.
+
+1:22:15
+Algunos queda por ahí de para la gestión. Tal vez serials alguna vez alguna cosa rara que pueda haber por aquí. ¿Ves otro que está dando morcilla aquí a través de Wifis? Pues nada, yo cuando ya te digo si veo alguna cosa rara de estas, pues pues entre el cambio, pero en el 50 al 3400 esto esto lo marco como destino.
+
+1:22:50
+Y ya está dado alta. Ah, sí, intento, intento no reutilizar códigos, sí, vale, o sea, el que desaparece desaparece, desaparece, sí, porque luego lo de reciclar códigos. Luego como que para qué si tienes números de sobra.
+
+1:23:24
+Al final sabe lo que pasa, que la que las documentaciones al final son un desastre, porque el reutilizar un código que decir que puede ser que tú estés leyendo o creyendo que el que el Código, el 606 es una cosa y otra gente puede estar pensando en que el Código 6 es otra porque tienen diferentes versiones de entonces, no, no hay nada peor que la confusión.
+
+1:23:52
+¿Reciclar no siempre es bueno, ves? No, en este caso no, y con lo cual yo siempre me encuentro una adyacencia nueva, lo que hago es código que además los hace automáticamente, pues incrementas en 11 nuevo y ya está y ya está. Si no hay problema aquí por ejemplo este está de 27 del 9, Este está muerto, modificar equipo a ver si está modificación, ya verás lo que te dice ahora te dice que no hay adyacencia.
+
+1:24:21
+Y así lo vamos a borrar. Es un serial, así que sí, es un serial. Pero bueno, entonces le digo saltar equipo, digo que por vecindad me diga quién está al otro lado y no hay nada al otro lado. ¿Vale? O sea, y en tiempo real podemos comprobar si ese cable está conectado o no.
+
+1:24:46
+Y si encuentras encuentra algo en ese en ese lado, con lo cual como no hay nada conectado al otro lado, pues directamente me lo voy a cargar. ¿Sí, además busca en Vitra RVGB 1130 pendiente de baja, pues te te baja, desde cuándo eso no lo pone? Ah, mira, se lectura el 27 del 9 no, pues no están, no sé tanto hace, pues nada, directamente vas aquí, le dice.
+
+1:25:17
+Yes y ya está borrado. Entonces cuando hay un cambio de que esté aquí igual del 6, del 9 del 23, este es el día 6 que es el Goop Up 0001, esto qué es 1 I, coop 1, coop dos y Coop 3, pues está de alta.
+
+1:25:45
+¿Es del Ayuntamiento de Barcelona, sector vía pública, no sé de qué será, pues es un serial y el qué tienen en el otro lado? Pues no lo sé, pues sí que tiene algo del otro lado. ¿Pues nada, pues Ah claro vale, sabes por qué? Porque este TCS de rescate vale, pero es que este equipo no es nuestro.
+
+1:26:19
+El 4221 y bup me parece que no es nuestro, por lo menos no está en la base de datos, vale, por eso no lo da de alta. Entonces si es nuestro habría que dar de alta al equipo y si no es nuestro, pues es lo que hay. ¿Se queda así? Pues nada.
+
+1:26:43
+Y si si borras una adyacencia y luego la vuelve, la vuelve a dar de alta con el mismo número, no, no, con 1 distinto no vale con un número nuevo, siempre cuando se da de alta es un número nuevo, aunque sean los dos mismos equipos y todo sí, vale, no pasa nada, no pasa nada, no, no, no, si es por me parece que es lo lógico, Eh, pero es que borrar aquí una adyacencia que este no sé.
+
+1:27:12
+No hay borrados automáticos, con lo cual si alguien borra una adyacencia es porque la borró, porque sabes lo que está haciendo o se presupone, pero es igual, son automáticas. Si tú borras una adyacencia que existe, pues dentro de 3 días la volverá a dar de alta y cuando revise todos los servicios que pasan, pues adyacencia pues lo volverá a poner. ¿Donde toca ya está, no hay que hacer nada, sabes? No hay que en teoría todo es automático, pero no todo es automático. Bueno.
+
+1:27:42
+Estoy mirando a ver si por encima a ver si hubiera alguna y miraste. Por ejemplo, también tiene pinta estar de baja, que es LR. Soe, 7099 modificación vale, y aquí igual y en el tengo de vecino pues no tengo a nadie de vecino pendiente de baja también.
+
+1:28:11
+Pues el CAD y el 1004 pues es este de aquí, pues directamente se borra, ya está 24 de 23, que bueno, sí, pero es que mira, por ejemplo, estos son del 21 y del 22. Nadie los ha borrado. Sí, no tienen ni ni origen ni destino.
+
+1:28:42
+No es porque estaban dados de alta, se desmontaron estos 7606, se desmontaron, pero los soportes han quedado aquí huérfanos. Bueno, pues mira, adiós no, seguro que hay muchos, Eh, porque esto no lo borra nadie. No estaría mal. A lo mejor hacer el informe ese EH que dices tú de.
+
+1:29:12
+31 del a ver, esto es del día 14 del 7, nada fuera, este es del 24, del cuatro al 23 que este del 19 no, porque en esa pantalla no puedes ordenar por por las fechas no y nada, no, no, no falta. A lo mejor sí que sí que es verdad que falta a lo mejor darle un poco más de.
+
+1:29:40
+De Vidilla al a la A los filtros que no tienen filtros. Pero bueno, a lo mejor un filtro no estaría de más poner un filtro ahí que se pudiera. ¿Vale? Pues este tampoco existe ya pues nada, y aquí lo borra.
+
+1:30:07
+Porque este es del 19 del 6. ¿Pues pues adiós, que ya me siento mal, eh, que no, no es que esto de vez en cuando estoy me estoy metiendo sobre todo porque por ver si veo alguna cosita rara, así que podamos comentar, sabes? Pero es que claro, este es desde agosto, no este, esta adyacencia no existe.
+
+1:30:38
+Desde agosto no la he visto. Entonces seguramente eso estaba borrado. El resto de 4660 pendiente de baja también, pues nada estaba. ¿Está aquí, se borra? Bueno, pues si quieres lo dejamos por aquí. Vale, ya está.
+
+1:31:09
+Nada del 20 del 20, ya ves.

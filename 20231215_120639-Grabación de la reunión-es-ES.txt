@@ -1,0 +1,466 @@
+[Traspaso Fobos]-20231215_120639-Grabación de la reunión
+
+0:02
+Vimos que comparto esto grabando, ya estamos bueno. ¿EPA esto dónde estás de de cómo has llegado a ello? ¿No? Todavía no está llegado a ello poniendo el enlace porque esto era, es un informe nuevo que he hecho. Ahora lo tenéis ahí en pre.
+
+0:35
+Sí, y entonces accedo él, lo puedo acceder a través del link, lo pongo a mano el link y ya está y entonces trabajo para que no se vea y ahora como como está ya me ha dado el o K pues nada. Vamos a páginas, lo vamos a poner en herramientas mismamente. Sí, herramientas, coseno, herramientas, herramientas.
+
+1:05
+A ver porque me está contestando en qué parte del menú lo ponemos. Vale, pues son herramientas, búsqueda, VPN. Acuérdate que siempre son 3 letras. Vale el índice, siempre pueden haber sido 5, pero al final vi que con 3 había suficiente como para hacer una estructura más o menos decente.
+
+1:45
+Vale activa así esto está en Barra H File equipos y aquí le ponemos esto es por jodermes.pl Excel y aquí el buscar usuario.
+
+2:13
+Y para esto hay un bizcocho. Creo que ya está y vale. Veamos inicio entonces aquí en herramienta, aquí estará búsqueda usuarios. UPN, casi no sé si pondrá el último bueno es igual, ahí se ha quedado y nos está redirigiendo adecuadamente. Vale páginas herramientas que a veces hay algún.
+
+2:46
+Es que no es cambios, tío, es que no está en cambios, está en directamente en equipos, pega mal el link, vale, ahora sí, herramientas, buscar usuarios VPN ya está aquí, pues yo estoy en el grupo, tú no vas a poder entrar y te tengo que darte permiso al Access. Vale, ya está perfecto.
+
+3:24
+¿Vale, y vamos a hacer hoy karayan verdad? Correcto entonces Karayan, ya hemos visto varias veces. Creo que esto va a ser más un repaso de de muchas colas, que es un ejecutor de configuraciones, es un un orquestador, un no sé cómo llamarlo. Bueno, es que en realidad es como una especie de pequeño orquestador, tiene funcionalidades muy sencillas.
+
+3:53
+Pero a la vez, al ser tan sencillo es muy flexible, con lo cual nos permite hacer muchísimas cosas. ¿YY bueno, y la verdad es que se utiliza muchísimo, aunque parezca mentira, o sea, tanto para borrar servicio? Ya lo vimos para crear servicios, para hacer un cero, que es una instalación de de un equipo. En este caso es un 3400 que no se ha terminado. Sí, vale.
+
+4:20
+¿Están en ello para configurar servicios? Vale, esto es un servicio que ha entrado, se ha puesto el Excel, ya lo vimos que se tiene aquí y se se ejecuta. Vale, entonces esto digamos que es la cola de de de proyectos que tiene. Vale, sí, entonces en principio podemos hacer búsquedas por cualquier o por el código, por el o por el usuario que lo ha ejecutado. Pues por ejemplo, yo que he ejecutado, pues yo tengo estos, estos son míos.
+
+4:50
+O por el texto que aparece en la descripción. ¿En fin, se pueden hacer búsquedas por a ver qué me está diciendo aquí una cosa, mi jefe vale, ahora lo puedo cambiar, pues un nada es un texto aquí, vale, entonces aquí para crear un proyecto nuevo? ¿Nosotros ahora queremos hacer una tarea, pues directamente nos vamos y creamos la tarea, vale?
+
+5:29
+Y aquí en la tarea, primero que nada hay que poner una descripción, es la que nos va a aparecer, nos va a asignar. Ahora esto a veces lo hace bueno, nos ha asignado el Código 84, que es el código proyecto. Vale, entonces dentro del código proyecto ahora hay que ir añadiéndole tareas que ahora veremos cómo se añaden tareas. Vale, y ahí después aquí tenemos para poder modificar.
+
+6:00
+El proyecto para poder ejecutarlo si lo queremos ejecutar o completo si lo queremos temporizar, es decir, podemos decirle, Mira, pues me lo ejecutaré esta noche a las 12:00 H de la noche también lo podemos hacer. ¿Podemos clonar el proyecto? ¿Hay veces que tenemos un proyecto que que se ejecuta o periódicamente o es que ya tenemos algo parecido creado, vale con lo cual lo clonamos, nos nos aparecen todas las tareas y luego las podemos ir modificando o las podemos vale? Y después también tenemos un generador de llave.
+
+6:29
+Este generador de llaves que nos genera 1 a K vale que es a K nosotros se la podemos pasar a un usuario que no tenga permisos para ejecutar para que lo pueda lanzar el cuando quiera. ¿Vale, entonces, por ejemplo, nosotros tenemos un proyecto que que vamos a hacer una conmutación esta noche, vale?
+
+6:53
+Nosotros podemos dejar el proyecto con con todos los comandos, todas las configuraciones que se van a cambiar. ¿Es decir, entraría en un equipo, haría un shutdown de un puerto, entraría en otro equipo, haría un no shutdown de ese puerto? Vale, imagínate que es una conmutación de 2 puertos. Vale, pues el el usuario que tuviera que ejecutar eso puede hacerlo dos cosas, se lo temporizo o directamente genero una llave y se lo envío a una persona que va a hacer el Corte programado o o del centro de control o quien lo vaya a ejecutar.
+
+7:23
+Y con eso ese usuario podría ejecutar este proyecto concreto solamente este y una vez vale, entonces a las 12:00 H de la noche, cuando fuera le diría pues le se le pasa el link porque genera un link también general y entonces lo que haría es bueno, le damos, ya está, vale, este es el link, este link vale.
+
+7:51
+Es el que se le debería enviar por correo y entonces en el correo él le aparecería esto como pinchable justo aquí no vale, entonces le daría y ejecutar vendría aquí y lo podría ejecutar. Vale, se ha guardado la llave aquí que es lo mismo, quiero decir es al final es el link también aparece aquí abajo, es el mismo link y es lo que deberíamos enviarle a ese link que hemos generado. Es el que.
+
+8:21
+Para poder ejecutarlo. Vale, pues vamos a ir por la parte más sencilla. Vale, vamos a a ver cómo se se da de alta una tarea. Las tareas siempre van asociadas a un equipo o a varios equipos. ¿Entonces si es un equipo, pues directamente aquí ponemos el equipo, vale? Si son varios equipos, pues o bien con comas o separados por espacios me da igual.
+
+8:51
+Vale, vamos a ejecutar en estos dos equipos una misma cosa y esa misma cosa la tenemos aquí. Aquí tenemos las posibles opciones que ahora mismo tenemos. Esto son scripts que se van creando por necesidad, es decir, cuando necesitamos hacer algo.
+
+9:12
+Vale, pues directamente hacemos el script, lo damos de alta en la, en el, en el, digamos en el diccionario de script o en la biblioteca de Script que tiene karan, y a partir de entonces se puede usar. Hay scripts que tienen parámetros y otros no. Vale, entonces, por ejemplo, hay algunos muy complejos, como por ejemplo configurar ISIS, que no hay que darle ningún parámetro, simplemente hay que decirle Configurame ISIS.
+
+9:41
+Y este lo que hará este este script es hacer una serie de labores, de mirar a ver cuál es la dirección del loop Pack, generar una Network a partir de esa dirección de Loopback. No sé ir por por por puerto, por puerto, mirar a ver cuál es el ancho de banda del puerto para generar los datos que necesitamos para el ISIS, para saber los pesos que tienen cada cada puerto.
+
+10:06
+Hace un montón de cosas y al final acaba configurándolo. Ahora veremos algún ejemplo que ya por ahí ya de configurar ISIS. Vale y pero no necesita ningún parámetro. Sin embargo, si yo voy a configurar un wlan en un iOS, pues necesito decirle el puerto y necesito decirle la V Lan vale, por ejemplo, 111 muy tonto que es. Yo creo que es el primero que hicimos, que es el ver el look time.
+
+10:33
+Beret time es un script que me devuelve el tiempo que lleva arrancado el equipo, vale, y además a mí me sirve también muchas veces de de comodín y ahora me explicaré, le envío la el la tarea vale, entonces en este caso no hay parámetros, me ve, me ve, me dice que hay dos aquí equipos afectados, vale, me dice cero, no es cierto.
+
+11:04
+¿Equipos afectados que hace una búsqueda total, como no encuentra un equipo que se llame así, dice que cero, pero no es verdad, se va a ejecutar sobre estos dos, Eh? Eso no hay problema aquí de momento no es que hay hay otra opción que ahora la veremos emeruttime es la tarea que voy a ejecutar y no tiene parámetros, pues nada le damos a enviar, vale y ya me separa los dos equipos.
+
+11:33
+Vale, es que hay otra opción que ahí sí que vamos a verlo, que es decirle, vale, yo quiero hacer los Val, 3400* y quiero hacer esto sobre o sea, voy a ejecutar el verus time sobre los todos los 3400 de Valencia. Vale, entonces ahí sí, en equipos afectados sí que me dice que va a hacer en 59 equipos y si le doy a enviar me generará las 59 tareas.
+
+12:03
+Me explico, sí, vale, a veces aquí te dice, tienes que ejecutar esto sobre 1000 equipos. Entonces tú Decides, te lo piensas si que ojo, cuidadín, cuidadín, vale, no lo voy a dar porque si voy a tener vamos a tener que borrar muchos, muchos.
+
+12:27
+Pero bueno, por ejemplo, podemos decirle, vamos a hacerlo, vamos a hacerlo en menos en Tor, por ejemplo. ¿Vale, cuánto es 3400 hay en Torrente? ¿Pues hay 7, vamos a hacerlos aquí, sí, porque aquí quiero que veas cómo funcionan las colas, vale, qué podemos hacer ahora? Podemos también ejecutar.
+
+12:50
+Listas de comandos que dejamos nosotros vamos a verlo después o podemos ejecutar plantillas que ya tenemos preparadas, que también se vale, o configuraciones estándar que también las tenemos preparadas. Vamos a primero que nada, vamos a hacer la parte sencilla y luego vemos lo otro. ¿Vale? Entonces a la hora de ejecutar una tarea, lo que le decimos, podemos hacer dos cosas, o directamente aquí ejecutamos, le le decimos Ejecútamelo todo ya está o puedo ir ejecutando paso a paso.
+
+13:21
+¿Por eso hay un pie aquí, Eh? ¿Muy bonito lo había parecido, es un pie? Sí, sí, es un pie. Bueno, pues ejecutar paso a paso, Ponte ejecutar paso a paso, es que me va a ejecutar solamente esta línea. Esto se utiliza mucho porque cuando es una lista de comandos y tú vas a ejecutarlo sobre muchos equipos, primero pruebas en 1, vale, con lo cual te permite probar sobre un equipo, si va todo bien y ves que está bien, perfecto, pues entonces ya lanzo las a ejecutar y se lanzaría el resto.
+
+13:49
+Entonces si le damos a ejecutar paso a paso, entonces nos nos hace, nos cambia el Estado. Automáticamente hay un dispensador que lo asigna a la cola 1 vale y ya se estará ejecutando y si todo va bien, que me temo que no vale, ya está resuelto. Resultado vale, entonces te dice que está todo o k.
+
+14:19
+Que se ha ejecutado en la cola 1 cuando se ha ejecutado y el resultado y entonces en el resultado me da el resultado del script. En este caso este equipo lleva levantado 14 años. Toma ya vale 27 semanas, 4 días 2:13. H, Vale, esto es el uptam de este equipo. Cuando yo lo lance a todos, aquí me va a aparecer otro icono.
+
+14:54
+¿Que es el de STOP? ¿Si yo tengo un proyecto muy largo y lo estoy viendo que está saliendo mal, no hay que aquí, no hay que actualizar nada, EH? ¿Tiene autorefresco toda esta información? Vale, yo estoy viendo que está saliendo mal, algo va, va mal. Entonces yo puedo darle al STOP y pararme y parar el parar el proyecto.
+
+15:17
+Y que deje de ejecutarlo porque sino, claro, empezaría a ejecutar, ejecutar, ejecutar. Y al final vale, entonces vamos a darle a ejecutarlos todos. Y verán, ahora hay 5 colas en paralelo. Ahora verás como cada trabajo irá a una cola distinta y va a empezar a dispensar. Vale, entonces ahora mismo ya está, va a empezar a ejecutar.
+
+15:47
+¿Hola 3, se ha quedado repagada? Sí, bueno, a veces es que a veces las cosas van, no se ejecutan, todas a la vez pueden tener cosas pendientes, vale, ya está, ya lo ejecutan todos, con lo cual yo puedo consultar el resultado aquí. Este lleva 13 años, este lleva menos supongo, claro, este solamente lleva 7, el más joven vale, aquí cuando ya está todo ejecutado, el estado automáticamente pasa terminado.
+
+16:18
+Y ya no podríamos volver a ejecutarlo. Por eso está la opción de clonar, porque si yo quiero volver a hacer algo parecido a lo que tengo o exactamente igual, clono el proyecto me generaría otro proyecto nuevo y a partir de ahí ya podría volver a ejecutarlo porque sobre todo es porque aquí resguardamos el resultado. ¿Ya lo tenemos el proyecto cerrado y este es ejecutados y ya está, vale?
+
+16:49
+Vale, vamos a buscar un equipo, no vamos a hacer otro proyecto y haremos algunas pruebas y vamos a intentar hacer algo en un equipo que no contesta. ¿Vale entonces equipos inventario? Vamos a buscar un equipo que no conteste.
+
+17:15
+¿Y ahora vendremos y clonaremos este proyecto o no ponemos un proyecto, no a ver marca Cisco del tipo switch, por ejemplo, vamos a buscar un switch que no conteste este vale este equipo? No, no, no está contestando, pues sí contesta, ves, estaba refrescado.
+
+17:45
+Sí, a veces pasa, Eh, a ver este de aquí al este. Me temo que no va a contestar. ¿Vale, este no está contestando, vale el ayuntamiento Alfa del PIB? Vale, entonces sobre este, en la ley del Ayuntamiento vamos a hacer un proyecto y vamos a ver qué le qué le ocurre. Vamos aquí a ir cerrando ventanas.
+
+18:14
+Este fuera vamos aquí a carayan proyectos. Añadimos un proyecto más. Va a ser. ¿Entonces aquí añadimos una tarea sobre este equipo que se abr uptime vale? Y ahora mismo, por ejemplo.
+
+18:52
+¿Vamos a ver, si yo ejecuto esto me cerrará el proyecto, verdad? Me dirá que está terminado y ya tendría que hacer otro proyecto nuevo. ¿Yo lo que hago normalmente es que siempre al final si voy a estoy haciendo pruebas o estoy mirando a ver si entonces lo que hago es añadir un equipo que es normalmente este es el Tor vale y veo y le digo que ver up time y esto qué es lo que me permite?
+
+19:21
+Y yo hago esto, yo puedo ejecutar paso a paso este este de aquí y como queda otro que todavía no está ejecutado, no me cierra el el proyecto. Entonces con un mismo proyecto puedo estar haciendo pruebas, vale, y ahora vamos a buscar un puerto y un equipo que podamos a configurar 1 u V Land, un puerto 1 U V Land, Vale.
+
+19:50
+Y vamos a poner un description en un puerto. Vale, vamos a buscar 1 en un equipo, vamos a ir a llora, que es el que siempre utilizo el pobrecito, a ver si tiene puertos libres y aquí utilizaremos un puerto de aquí vale 1 de estos el fast de fernet cero barra 17, vale, vamos a configurar una V lan en ese puerto.
+
+20:18
+¿Vale, pues nada, venimos aquí, esto lo Quito y además voy a hacer eso y además voy a venir aquí en el Bar 2950 a yo voy a configurar 1 u V l a V L a iOS, vale, por qué aparece u V L a?
+
+20:47
+Y os y aparece un blan 920, porque los comandos y la forma de hacerlo es muy distinta. ¿Vale, entonces? Pues en vez de hacer un script que lo haga siempre todo, que mire a ver cuál es la configuración que tiene, pues a al principio lo hacíamos así y luego ya empezamos a hacerlo de otra manera. Un segundito puedes parar, un segundito, pausar, creo que no, pero la la paro y la vuelvo a empezar luego.
+
+21:16
+¿Entonces este generador? Bueno, espérate un segundito, lo pongo en mute o cuelga y luego te vuelves a unir a la llamada. ¿Quieres, vale? Bueno, espérate, lo pongo en mute y ya está.
+
+24:05
+¿Hola, hola, no sé qué le pasaba a tío, he colgado 1 segundo sin querer y ya no me dejaba entrar por por el teams, vale, lo pones en marcha o no lo has parado? Ah, vale, bueno, pues nada. Perdón, perdón, es que me estaba llamando que estoy esperando una cosa y me han llamado por teléfono y bueno, vale, vamos a configurar Google and I os lo que estaba diciendo es que antes.
+
+24:33
+Lo hacíamos de una manera y ahora lo hacemos de otra, es decir, antes para configurar una novel and iOS, pues congelamos un script de configurar Google and News. Bueno, están, ya he hecho los scripts y pues en principio funcionan bien. Lo único que hay que separar es cuando la el que lanza esto lo tiene que tener en cuenta, pero la verdad es que no es un problema porque al final esto se genera se secuencia desde las órdenes de trabajo. La mayoría de a veces te diría que el 99% y el Secuenciador sabe hacerlo.
+
+25:04
+¿Sabes si es un iOS? Un iOS es x r o es un iOS XEY ya lanza el script como correspondiente al al donde toca y ya está. ¿Vale porque luego bueno, ahora lo lo hemos visto, pero lo repasaremos ahora vale, le doy a enviar y entonces aquí como hay parámetros, vale, ya me dice, me los pide, me dice qué puerto es? Pues el fast cero barra 17 era.
+
+25:32
+¿Habías dicho el 17? ¿Sí vale, qué Google la voy a configurar en este puerto? ¿La 100 qué tipo? No digo nada, la descripción, la descripción voy a poner prueba y la velocidad no la voy a forzar, la voy a dejar en automático. El puerto lo tienes que escribir tal cual o si lo escribes con mayúscula ya no lo coges, o si después externet o tengo que poner que lo entienda el router por eso.
+
+26:01
+¿Da igual esto, lo entiende el router si pongo FA también si pongo fast ethernet también lo entiendes? Lo tengo que poner como lo entienda el router. Vale vale, pues ya está, le doy a enviar, me genera la la lo que es los parámetros que lo voy a enviar para generar y ya voy a añadir un verus time otra vez.
+
+26:31
+Para que no me no te cierre el proyecto, vale, este lo vamos a ejecutar paso a paso lo podemos borrar también o bueno, lo vamos a ejecutar y ya está. Ah, no vale, perdón, este es el que fallaba. Sí, vale, este es el que fallaba, vale, entonces lo que hace el sistema lo que va a hacer es decirme que no llega él y que lo va a aplazar.
+
+26:56
+La ejecución de de este, de este, de esta orden, de esta, de esta tarea, vale, se va a quedar aplazada porque no hay conectividad con él, vale, entonces tengo dos opciones, o la cancelo porque este equipo está muerto, no está, no sé qué le pasa o lo reintento, si yo no hago nada dentro de 1 hora lo reintentará.
+
+27:27
+Vale, si yo no hago nada, si a la tercera vez que lo reintenta y no lo consigue, automáticamente cancelar el día. ¿Por qué? Porque sino el el Estado, aquí se quedarían muchos Estados en borrador o en el se quedarían en aplazados. Vale, entonces se quedarían los proyectos ahí abiertos indefinidamente y esto imagínate que estoy reintentándolo cada hora. Yo sé que me lo puedo.
+
+27:52
+Dentro de 1 hora no va a haber problema, pero imagínate que me ejecuta esto dentro de 3 días, a lo mejor me estoy equivocando porque es una configuración de UV lan. Alguien ha cogido y se ha puerto para otra cosa y dentro de un día resulta que lo configuro yo y lo machaco, pues no vale, vale, vamos a ejecutar este paso a paso, entonces está ahora, luego lo cancelaremos vale, esto lo vamos a ejecutar paso a paso.
+
+28:21
+Luego he estado en cola, pues la cola 1 es es aleatorio. Quiero decir, siempre va a escoger una cola que tenga la cola que más libre tenga que menos, y si y si tiene, si tiene las colas vacías, pues directamente lo que va a hacer es escoger una de las 5. Da igual. ¿Vale resultado? Pues aquí te dice un montón de cosas.
+
+28:52
+¿Te dice que va a que que no es Access? No es TRAN, no, con lo cual entiende que lo único que va a hacer es configurar. Es que existe la vuela en 100 dentro del equipo y la ha puesto en Access. Vale cómo la configuración la ha hecho fobos. Fíjate que si ahora nos vamos al equipo, va por aquí. ¿Dónde lo habíamos dejado aquí?
+
+29:23
+Sincronizar con red debería haber, Ah no, que esto es 12950, vale, perdón, si hubiese sido un 3400, automáticamente se hubiese actualizado la información en fogos es que los 2950 no tienen el event manager. Vale, entonces con esto vale, ya estaría. ¿Y la configuración del puerto?
+
+29:49
+Es esta vale, con lo cual yo puedo decirle que la velocidad fuera 10. Puedo decirle que lo hagan tipo trank, como no le he dicho nada, pues lo hace lo más sencillo que es tipo Access con V en 100 ya está. Podía haberle dicho que me configurara la V en 100, pero que fuera trank entonces también lo haría.
+
+30:17
+Me haría una un Access, un Access trank a Low Google Land 100 support modetrank. Vale, como no le he dicho nada, pues lo hace lo más sencillo, que es configurar un wlan. ¿Vale, pues cómo borramos esto ahora? Pues ya lo hemos visto muchas veces. Quito la descripción, vale sincronizo con red, me dirá que flechita derecha flechita izquierda.
+
+30:48
+Le digo que flechita izquierda default in the Fat fast de Ferney Barra 17. Vale, con esto lo que hago es dejar el puerto en default. Ya está. ¿Ahora sí que esto como lo he hecho desde aquí, sí que lo volver a a actualizar se ha quedado el puerto 17 en libre y la configuración pues se habrá quedado en no description y en shutdown, vale?
+
+31:17
+¿Vale, pues estamos en cara ya en este caso qué hacemos con este? Pues vamos a cancelarlo. ¿Cancelamos línea? Pues nada se queda cancelada. Vale, ya está esto, ya no lo vuelvo a Reintentar nunca más, nunca vamos a tener más problemas con él. Vale, vamos a hacer ahora un proyecto.
+
+31:44
+Que lo me lo he dejado aquí guardadito que Óscar Yanzi me estaba pidiendo que haga una cosa que es configurar en todos los 9 y 9 en 9 K Please vale que configure, quiere que configure unas líneas en todos los.
+
+32:11
+Y os XR de la serie 9000 y 9900. ¿Esto cómo se puede hacer? Pues muy fácil. Primero que nada hay que secar años ni hacer listas de comandos. Estas listas de comandos lo que me permite es yo generar una. Una lista es una lista, pues una es una serie de comandos login a a s R a 9 K.
+
+32:41
+Vale y le pongo los comandos que quiere que Óscar, Óscar quiere que ejecute estos comandos. Óscar, yo en sí, vale, y quiere que ejecute esta s de comandos en todos los s R 9 K entonces me ha generado una lista de comandos que es esta de aquí que es mía. Con estos comandos vale, se pueden poner también parámetros, Eh, yo puedo poner parámetros. ¿Cómo pongo parámetros? Pues a ver si.
+
+33:10
+Si tengo aquí alguna prueba Server, prueba BIC, que puede ser esto 1 de estos, mira, yo puedo hacer una lista de comandos en el que yo le pongo entre corchetes un parámetro. Entonces cuando vaya a yo a incluir eso como una tarea, me preguntará por pantalla esa ese parámetro. Entonces, si yo digo.
+
+33:34
+Ejecútame el pruebavit sobre este equipo me dirá show como detecta que hay, me dirá que interface, pues tú le dices la interface, entonces ya te genera la tarea para ver el el showroom de esa interface me he explicado, puedes utilizar tantos parámetros como quieras dentro de una lista de tareas. Vale, vale, entonces vamos a hacer un proyecto que sería a ver, vale, esto lo vamos a hacer de otra manera.
+
+34:02
+Entonces primero que nada hay que ver los equipos en los que vamos a ejecutar esto, vale, entonces yo busco equipos. Te marca Cisco Cisco modelo a s R 9 K Este es el modelo que son todos los 9000 y los 9900 y los 9906. Vale, estos son todos.
+
+34:28
+¿Vale 9919, vale, lo saco en modo texto, vale? Y me copio todo esto a un Excel. ¿Copiamos todo esto a un Excel y ahora me voy a Excel ***** en blanco y lo pego aquí, vale? Y ahora me cojo todos los equipos.
+
+35:04
+Vale, hay 67 equipos. Lo copio y ya me voy a karayan a ver karayan proyectos. Hago un proyecto que es R conf login a s R 9 K Entro en el proyecto.
+
+35:34
+¿Vale, y le añado una tarea, qué equipos los pego? Vale al copiarlo y pegarlo desde Excel, sale con un espacio, sale con un espacio y aquí voy a ejecutar, lista, ejecutar lista de comandos. ¿De momento no me pide nada, vale, le doy a enviar y aquí me dice, qué lista de comandos Quieres? Pues aquí es donde hay un montón.
+
+36:04
+Las del otro lado, pues si tú pones por letra vas apretando login, vale, te va al sitio, no hace falta recorrerlo todo, vale, tú estás aquí arriba, a ver lo haces así. L O G G ves lo ora login rest lo s R 9 K vale, me dice que el lo que voy a enviar es eso.
+
+36:32
+O sea, yo voy a ejecutar esto en todos los equipos que le acabo de meter aquí arriba. ¿Vale, okay, pues sí, pues o K pues nada, o k ya lo tengo aquí y ahora qué haríamos? Pues primero que nada ejecutarlo en 1. ¿Por qué? Porque asusta, vale como hay más de 20.
+
+36:59
+Lo que haces directamente te lo mete en una cola lenta, la cola l esta es la sexta cola. Cuando hay un proyecto que tiene muchas tareas que hacer, automáticamente lo mete en la cola lenta. ¿Por qué es eso así? Pues porque a veces que son proyectos como esto, que son configuraciones masivas que por defecto y normalmente no tiene que tener una alta prioridad y sin embargo son muchas, son pueden ser bastante largas. Entonces si yo meto esto.
+
+37:30
+En en un equipo vale en una cola normal puedo colapsar una cola. Las 5 colas que tengo de alta prioridad las puedo colapsar y no me interesa colapsarlas vale, me interesa tenerlas siempre.
+
+37:51
+Tenerlas siempre disponibles para que si entra una orden de una conmutación de un servicio o de un enrutado o de un cualquier cosa que sea rápido que no tenga las colas, atendiendo una masiva de 1000 llamadas que puede tardar horas, que pueden tardar horas en ejecutar, entonces, cuando es una que detecta que tiene más de 100, perdona más de 20 líneas directamente.
+
+38:19
+¿Creo recordar que eran 20 Eh? Las meten con la LY ya está, o sea y ya se Irán ejecutando. Si tuvieras prisa pues te tocaría hacer 53 proyectos diferentes, en este caso como son 60 líneas pues bueno vale, ya tenemos que confeccionarlo, no vale, esto es lo que me ha respondido el router, es decir nada, con lo cual entiendo que se ha ejecutado bien. Podemos podríamos ir a verlo ahora a la configuración a ver si está metida.
+
+38:51
+¿Vale, entonces qué puedo hacer ahora? A ver otra cosa en las en las en las, en las listas de comandos. Ahora mismo, si la cambio ya se ejecuta, si si yo modifico se ejecutaría la nueva, EH, me explico cómo.
+
+39:17
+No, no se queda memorizada la lista de comandos. Ah, vale, sí, sí, sí, sí, vale, entonces yo por ejemplo lo que puedo hacer es esta, es de comandos. Vamos a cambiar una cosa bueno, voy a primero que nada, voy a ver el comando, si vale no vale, vale. En Net esto ya hay que entrar un poco y saber un poco de routers.
+
+39:55
+Evidentemente tienes que saber a ver, soy hombre y no sé hacer 3 cosas a la vez. Tienes que saber los comandos que tienes que mirar en el router. ¿Ejecuta líneas de comandos? Evidentemente no.
+
+40:28
+Vale, son, vale, es que aquí ya está, vale, está luego en el archive no lo ha cogido. Es que no lo sé. No sé si los comandos como se pueden ver.
+
+41:14
+¿Vale, los comandos serán, no? Es que estas ya te digo, no te no sé si a ver si tienen que ir a.
+
+42:08
+Vale, no hace nada. ¿Quiero decir no, no, no, así, mira, están aquí arriba y por qué no los han memorizado? Debería debería haberlo hecho y no lo ha hecho bien. ¿Y por qué no lo ha hecho bien? A ver, y creo que es o show login.
+
+42:48
+Archive vale, vamos a a modificar lista de comandos que no sé, yo aquí tampoco quiero volverme loco si no funciona, pues ya lo reviso yo luego y continuamos, omite aquí y hago esto.
+
+43:31
+Vale, esto me aparecerá el resultado cuando cuando yo le doy una orden, vale, vamos a probarlo en el en proyectos. Ahora ahora ya puedo ejecutar el siguiente. Vale, pues aceptamos barco.
+
+44:12
+¿Para esto se es utilizar paso a paso porque hay que ver que efectivamente se queda bien configurado el equipo vale, ves, ahora ya se queda bien configurado, lo veis aquí? Ya tiene el login archivo metido, esto es lo que le acabamos de meter, vale, pues ya teniéndolo claro que ya funciona. ¿Cuál es el siguiente paso?
+
+44:41
+Pues ejecutamos a lo bruto, ahora los meteis a todos en la cola. ¿LY pasito a pasito y poquito a poquito, pues él va configurando, vale? En función del número de líneas que tenga. ¿También tarda un poquito más en refrescar, EH? Seguro que si yo le doy aquí a actualizar, ya me aparecen todos en la cola. L.
+
+45:17
+¿Vale, va relativamente rápido, Eh? Quiero decir que esto no este, por ejemplo, ya lo he ejecutado el C c R 1, pues igual aquí también está, luego en el chive y ahora pues es cuestión de eso, de dejarlo y que vaya ejecutando cuando termine, pues dentro de 5 minutos seguramente porque va va bastante rápido.
+
+45:43
+Con la lenta entre comillas, vamos, sí, con la lenta a ver, va haciendo la cola. Lenta es en el sentido que va. Están todos ahí en colados, claro, para ejecutar el último pues va a tener que ejecutar todos los de arriba, pero no interfiero en el resto de colas, claro, sí, el resto de colas se pueden quedar fritas en serie en vez de ponerlos en paralelo. Entonces, ahora que lo tenemos esto aquí, pues vamos a ver el karajan estado de colas.
+
+46:12
+¿Estado de cola, nos dice cuántas tareas hay en cada cola? Las colas rápidas que son estas de aquí están vacías y la cola lenta, que es la L, es la que tiene más tareas. Si lo que hay que esto normalmente está todo a cero. Si vemos que una tiene muchas tareas o tiene algunas tareas y se han quedado ahí atascadas.
+
+46:36
+¿Puede ser algún script que haya fallado y eso creo que recordar que ha pasado un par de veces en 2 años, Eh? No estoy hablando de que ocurra todos los días, sino que hay veces que hay una cola que se te queda atascada con una tarea y no, no sé por qué, no sé por qué se queda ahí atascada, entonces nada es cuestión de ver esa cola YY yo entro por el sistema y la y la y la desatasco. Ya te digo, creo recordar que ha sido dos veces en 2 años, alguna vez en 2 años, o sea, prácticamente es.
+
+47:06
+Esto es anecdótico, el resto de veces está así, está siempre vacía y hay, y en este caso, pues sí, tengo una cola que ahora mismo le quedan 45 tareas. ¿También hay otra cosa, vale las listas comandos, lo tienes claro? Vale entonces en la lista de comandos, por si acaso, yo le puedo añadir tantas login.
+
+47:36
+A ver, será en el aquí está. Yo puedo añadir cosas y puedo añadirle también yo que me enseñe el resultado para que efectivamente luego en resultados me aparezca lo que me interesa ver. Entonces si estoy configurando un puerto pues me interesa ver el el el interfaz, pues hacer un show interfaz vale o estoy configurando el MPLS, pues sabes, puedes ir añadiendo shows o puedes ir añadiendo cosas.
+
+48:04
+Tiene palabras reservadas, no puedes utilizar en assets, no se puede utilizar deletes. No se puede utilizar que más palabras serían reloads por razones evidentes. ¿Imagínate que alguien cabreado dice, lista de comandos Reload are you SURE? Yes, vale.
+
+48:33
+A quién a todos haría parda, vale, haría más parda. Sí, pues, ese tipo de palabras no se pueden, o sea, está, está, ni no, ni el reload, ni el reloj, ni el rel, el renia no te lo reconoce ni el los shotdown sí, quiero decir, hay a ver, shotdown se utiliza shotdown, tienes que tirarlo a un puerto. Claro, bueno, es lo que hay.
+
+49:03
+Siempre queda constancia. ¿Quién lo ha hecho, Eh? O sea, tú te estás logando con tu número de usuario y tus proyectos van firmados por TI. ¿Lo puede modificar otro usuario? Sí, y cambia el nombre y cambia el nombre de la cuando lo ejecuta. Vale, aquí internamente vamos guardando cosas, vale, aquí aparece un nombre que del propietario del proyecto, vale.
+
+49:36
+Pero pueden otros actores, entre comillas, pueden generar tareas que también están guardadas. Y esas tareas también las tenemos guardadas. ¿Sabemos quién, las quién las ha creado, quién las ha creado, ejecutarlo? No, pero la tarea, quién la ha creado, sí sabemos la fecha. ¿Por qué? Porque yo le doy a ejecutar y lo meto en una cola. No sé ni cuándo se va a ejecutar ni quién la va a ejecutar.
+
+50:09
+Claro, es complicado, no nos ha hecho falta hasta ahora y karan lleva en marcha ya como 3 o 4 años o 2 años. La última versión, la última versión de Karan. Bueno, te lo cuento yo porque he estado colas aquí. Antes solamente había una cola y estaba la cola. ¿LY aquí sí que vimos que hay veces que se esta cola, se quedaba un poquito lenta, vale entonces?
+
+50:34
+Hace 2 años la ampliamos y cuando metimos 5 colas en paralelo esta cola ya no se utiliza que antes se utilizaba y metimos las 5 colas en paralelo más la la Sexta Cola. Entonces no nos ha hecho falta tampoco ver exactamente que que alguien nos haya saboteado aquí. ¿No todo El Mundo puede entrar, Eh? Aquí solamente puede entrar la gente que tenga permisos.
+
+51:05
+De hecho, tú si entras no sé si te dejará entrar, te doy permisos, sí, estoy viendo las las listas de comandos las estoy, las estoy viendo, pues porque tienes te te daría permisos para entrar aquí todo El Mundo no puede entrar. Le estoy dando vueltas, no sé si me ha terminado de quedar clara la diferencia entre.
+
+51:35
+Tarea YY lista de comandos tarea es una línea genérica, tarea es una línea, vale, aquí tenemos una línea que tú puedes hacer muchas cosas, perdón, perdón, perdón. Cuando cuando haces un proyecto sí que le pones como lo de ver up time, eso no está como una lista de no está en lista de comandos, eso es un script, ya es claro.
+
+52:03
+Ya es un script que ya está hecho. Hay unos scripts que ya están hechos que se pueden utilizar, pero no todo lo que no todos vamos a necesitar hacer sobre un router como por ejemplo esto. Esto me ha dicho Óscar Yanzi, oye, necesito que metas esto en todos los 9900, vale, esto es algo puntual, puntual. Si lo voy a hacer ahora y no voy a hacer un script estándar para hacer un trabajo puntual que se ha hecho una vez y nunca más se va a volver a hacer.
+
+52:32
+¿O sea, pero básicamente es el el procedimiento es el mismo, no? ¿O sea lo que pasa que los otros los tienes guardados para más usos y esto es algo que bueno, que esto también lo puedes utilizar más veces? No, porque es una lista que quiera y lo puedes volver a llamar cuando quieras, pero en principio no vamos a hacer 111 script estándar, que se va a utilizar 1000 veces o se va a utilizar 20 veces al día. Esto es algo que supone mucho, supone mucho trabajo, mucha diferencia el el hacer el script varias horas.
+
+53:02
+Sobre todo por una razón, porque una lista de tareas, bueno, tú la pones aquí, la ejecutas y ya está y no le das más importancia. Funciona bien, vale, pero tú imagínate cuando estamos hablando de un script que hace cosas como esta que es, mira, acaban de configurarlo. ¿Este ha fallado, no? Pues vamos a otro, a ver, alguno que esté funcionando bien, vale, vale.
+
+53:31
+Esto es muy complejo. Quiero decir, ha calculado una Network míra los interfaces. Quiero decir, esto tiene una complejidad que esto no se puede hacer con una lista de comandos. Vale lo mismo que configurar el o s, P, F de un de un equipo o configurar la V Lan. la V Lan vale para configurar la W Lan de un equipo de un servicio a ver si.
+
+54:00
+A ver si me aparece aquí configuración de un servicio. ¿Alguno que haya fallado, vale, mira, por ejemplo, aquí por qué ha fallado? ¿Error de conexión, vale, no puede conectarse al equipo cuando cuando tú intentas configurar un puerto se pueden dar infinitas circunstancias, como por ejemplo que ese puerto esté levantado, vale?
+
+54:27
+Si ese puerto está levantado y tú estás intentando configurarlo como trank, no pasa nada. Lo que tienes que asegurarte es que no tengas ningún sub interfaz o no tengas esa V lan ya configurada en ese puerto. Pero si tú vas a a configurar una un puerto como Access, vale, y el puerto está levantado, no te va a dejar. ¿Por qué? Porque tú estás teniendo tráfico por tú estás tienes tráfico por ese puerto.
+
+54:56
+Y si yo te lo configuro tipo Access con otra V lan y por ahí va otra V lan distinta a la que voy a configurar, te voy a cortar al servicio. Entonces te va a dar un warning y te va a decir, ojo, que esto si lo hago te voy a cortar. Entonces te lo mete como Warning y te deja forzarlo o cancelarlo, pero te lo advierte.
+
+55:22
+Y se y se para hasta que lo ves, no, claro. ¿Entonces, qué diferencia hay? Pues que los scripts tienen mucha seguridad detrás, en el sentido de que comprueba muchas cosas. ¿Tienen cálculos complejos sobre lo que estamos haciendo? Sí, pero los cálculos y cosas que has hecho tú, claro, evidentemente son scripts, o sea, en karayan tiene 111 carpeta, un directorio, como quieras llamarlo, a mí me gusta más directorio, pero bueno, tienes un directorio en el que tú están están los scripts.
+
+55:52
+Pero no solamente están en los scripts en pair, es que también tenemos scripts, hechos que lo que hacen es configurar algo, configurar el ya lo diré, configurar la las cortafuegos. ¿Para qué se utiliza? Vimos el otro día temas del Limy. Vale, imagínate cuando nos hace una petición de limy y tú tienes que una.
+
+56:21
+Tú no eres IPS del INI, vale, Fíjate los que hay. Mira todo esto. Todo esto se ha configurado de golpe. Mira lo que ha tardado, ha empezado a las 9:54. H en la cola. L no te muestra ahí cuántos equipos hay, no, no.
+
+56:42
+¿Cuántas líneas? ¿Nada en el contador no, no lo muestra, mira, no, no lo he puesto nunca, hay 1000, aquí hay 1000, Eh, ya te lo digo yo porque sé que los hay, si lo lo sabes de buena tinta, no? Sí, pues desde las 9:54 H, vale hasta las 11, o sea prácticamente en 1 hora te ha configurado 1000 túneles, esto no accede a equipos Cisco, esto es un cortafuegos.
+
+57:12
+Es decir, al final para hacer un este script no puedes hacerlo por una lista de comandos, porque tú tienes que entrar en el cortafuegos, tienes que mirar a qué grupo pertenece mirar a ver si la clase existe, tienes que crear el objeto, tienes que sabes, o sea un montón de tareas que tú tienes que ejecutar sobre el equipo. Y al final hay un script que efectivamente, pasándole esta información, ese script te hace todo eso.
+
+57:43
+El el script se llama configura IP, SEC túneles. Vale, ese script te configura todo lo necesario para que ya tengas el túnel. Si hubiese que hacerlo a mano, necesitas, no sé, 10 personas una semana directamente. Entonces cuando es una labor compleja o una labor repetitiva.
+
+58:09
+Entonces, vale, ahí sí vale la pena hacer el script, se hace el script, se analiza, se mira, se mira la seguridad, miro a ver quién está intentando configurarlo, miro que que efectivamente lo que voy a hacer no va a afectar a ningún servicio, ni voy a cortar nada. Se hacen una serie de tareas, entonces el script evidentemente, pues se tarda en hacer. Si fuera simplemente escribir estas 3 líneas, el script tardarías 10 minutos en hacerlo.
+
+58:37
+Te lo DAS en el sistema, coges 1, haces un copia, pega, metes esto, pues metes todo esto y esto ya está arreando, lo metes en la en la, lo das de alta en la biblioteca y ya está, vale eso son 10 minutos, pero para cosas tan sencillas no vale la pena porque ya tenemos la precisamente que hicimos las listas de comandos para esto, para para hacer, para ya lo diré.
+
+59:06
+Para resolver problemas sencillitos que cualquiera puede hacer esto, cualquiera que tenga permisos puede entrar, Eh, hacer y se hace. De hecho, si vas a listas de Comandos, Verás que hay listas de comandos de toda la gente. ¿Aquí aquí está el propietario, hay un montón, EH? Casi si aparezco en login te diré cuántas hay 615.
+
+59:38
+Listas de listas de comandos y cada 1, pues según lo que necesite, pues se las va haciendo. Ya lo bien de Ikea 238 nos faltaba ponernos los equipos de de de Ikea, pues su recurso ya está. ¿Ah, esto es un poco estercolero también, EH? He de decir.
+
+1:00:03
+Sí, sí, aquí cada 1 se hace lo que quiere, aquí si buscas yo que sé por De hecho, PE Barroso, por ejemplo, ya no está con nosotros, está con con temas de seguridad. Vale, él se hizo aquí sus un script, o sea, se hizo una lista comandos, pues para escribirlo en algunas, en en algunos routers, si está aquí está, quiero decir.
+
+1:00:29
+¿Se tendrían que haber borrado? Pues supongo, pero tampoco hay una herramienta para borrar. La verdad es que estaba viéndolo, pero bueno, hay un montón y los scripts los haces tú solo o los haces con Jean C Te van diciendo los los pasos que hay que ir aplicando o cómo. ¿Cómo hacemos un poco? Hacemos, hacemos un poco mix, porque a ver lo aquí. Lo importante es que quien haga el script tiene que saber lo que está haciendo.
+
+1:00:59
+O sea, yo por eso, por eso me tienen que explicar cómo se hace, para qué se hace y cómo se comprueba. Entonces, claro, yo para configurar un Nobel a tengo que aprender a hacer un Nobel a para configurar el ISIS, tengo que aprender a configurar ISIS, no tengo que ser un experto en ISS ni el Travel Shooting de ISIS, tengo que saber configurar ISIS. Entonces ellos me cuentan, mira, se hace así, así, así, así, así, vale.
+
+1:01:27
+Entonces se hace una primera versión del Script que normalmente no funciona al cien por cien y hace exactamente lo que nosotros queremos. ¿Entonces ya luego vamos haciendo pruebas, porque los scripts estos hay que probarlos en profundidad, Eh? Por eso, por eso puede decir que hay scripts que hemos estado días probándolos, porque sobre todo son temas críticos, o sea el de configurar V Lan.
+
+1:01:53
+Te dejas por ahí un un parametrillo de algo y la lías y la lías parda. Y haciendo pruebas hemos tirado un interfaz que no teníamos que haber tirado y durante dos segundos hasta que te das cuenta y dices ****** y durante unos segundos pues corta un servicio. A ver, son los scripts, les haces tú no, o sea, tú quiero decir no, no tú solo, pero que tú estás en todos, claro. De hecho los los los lo que es la configuración los hago yo.
+
+1:02:23
+A fecha de hoy, o sea yo lo digo pensando en en fecha de mañana con pues el valido como sea, ellos sí, no, sí, De hecho ya han hecho algunos, me parece que para han hecho alguna script ya para lyntia y han hecho ya cosillas y hay que a ver, ahora se va a hacer un análisis de de de toda la infraestructura de fobos y de bases de datos de scripts de entonces ellos van la van a hacer ellos.
+
+1:02:53
+¿Ya sí la auditoría que van a hacer? Sí, sí la auditoría. Entonces ellos van a sabrán, van a saber dónde está cada script, para qué se utiliza la base de datos, lo sabrá fell next y ellos también lo sabrán, con lo cual el día de mañana, pues lo que tienen que hacer es mirar cómo está hecho. A ver, entramos aquí a ver este no espera, que es que.
+
+1:03:23
+No lo quiero grabar porque a ver esto porque se ha quedado colgado, me lo cuentas luego si eso paramos antes. No, no, no, no, no, es que estoy entrando en un sistema, pero no quiero que a que no se vea, vale, sí, entonces ahora, luego, ahora vuelvo a compartir 10. ¿Es que esto es crítico, EH?
+
+1:03:51
+Entonces prefiero que no quede constancia. Los que deben saberlo lo sabrán, como por ejemplo tú. Vale, mira, vale, aquí es donde están los scripts guardados en, en, en Carajan no es una máquina, ya creo que al principio lo dije, Vale, carajan no es una máquina, en una carpeta de carajan están los scripts.
+
+1:04:32
+Que pueden, además pueden pueden estar hechos. En principio empezamos a hacerlo con ansí vale, lo que pasa es que ansí no nos gustó porque ansívor, el problema que tiene es que es muy lento y necesitamos algo más ágil, mucho más ágil y entonces empezamos, probamos con per, que es la que es como está hecho fobos y vimos que también era posible hacerlo con per y continuamos. Creo que es muy rápido.
+
+1:05:02
+Y desde aquí yo puedo. Por ejemplo, voy a lanzar un script que es el el a ver ver time como es un* vale, entonces yo puedo llamar a un script desde aquí time lo que hace es menos l.
+
+1:05:31
+Vale y 950 anyo. En realidad lo que hago es esto. Este script lo que hace es entrar en el router y es hacer un show. ¿Vale? Y entonces lo que me responde el script es lo que yo almaceno en el resultado. Vale, si ves el look time este es muy sencillito, es un script de jumper, pero bueno, tiene su cierta complejidad.
+
+1:05:57
+Vale, entonces lo que hace es pues acceder al al equipo hace un esto lo hace para averiguar cuál es la IP. Se conecta al equipo a través de de unas librerías. Así le hace un telnet y lo que hace es hacer un show. Un tan vale ya está y no hace nada más.
+
+1:06:27
+Vale, pues cada script está hecho para una cosa, el de configurar la wlan. Pues tienes para el iOS, para el 9000 y para el 920 el Access List. Pues igual, para configurar el Access list, pues tienes tu para el ISIS. Pues tienes el el configurar ISIS para el Tag, pues tienes la configuración del takas del 920 y hay varias versiones para configurar la telemetría.
+
+1:06:56
+Entonces aquí están los scripts que nos han hecho, nos han ido haciendo falta. Además, aquí también está las colas, que son estas. Sí, ya las he visto, es 121. Tenemos aquí las colas que son estas colas, estas colas se están ejecutando todo el rato, son los que se estos scripts, son scripts también al fin y al cabo.
+
+1:07:32
+Están hechos en en PR también, y lo que hacen es lo que hacen estos scripts. Es configurar el o sea, mirar a ver la tarea que tienen asignada y ejecutarla y el resultado lo meten. En la base de datos están las colas. Qué tips importantes aquí el aplazados este script vale.
+
+1:08:01
+Este script es el que va va reintentando los aplazados es un script también vale, habrá un dispensador. El dispensador lo que hace es cuando lo que te he contado, que lo que hace es que que mira a ver la cola que está más cuando damos a ejecutar, o sea la metemos una tarea en cola, hay que asignarle una cola.
+
+1:08:32
+Entonces este script lo que hace es eso, mirar a ver las tareas que tengan cola y que estén en Estado cola, pero no tengan ninguna cola asignada. Busca qué cola está más libre y se le asigna. Vale, esto lo hace este el dispensador. Entonces viene la cola, mira a ver las tareas que tiene asignadas a esa cola y las ejecuta y después hay 1, que es el terminador.
+
+1:08:59
+El terminador lo que hace es que cuando va viendo si los las los proyectos que se van terminando, es decir, las que ya todos los todas las tareas están o terminadas o canceladas, vale, lo que hace es terminar el el lo cierra, cierra el proyecto. O sea, ups, punto PM.
+
+1:09:32
+¿Y se están ejecutando aquí vale tenemos, se están ejecutando las colas, se está ejecutando el dispensador, se está ejecutando el terminador el cola L y en el cron tenemos el el que el que reintenta eso se hace a través del cron, vale?
+
+1:10:01
+¿No tiene mucho más cryant, es bastante sencillo, Eh? Y muy útil. Además, ahora mismo te puedo decir no sé si te lo dije el otro día, el número de de tareas que ya se han ejecutado en caryant, pero lo puede mover fácil. Tenemos a karajan por las tareas, aquí está STOP.
+
+1:10:37
+138925 tareas. ¿Esta es la que se han ejecutado, no que se han creado, es decir, pueden haber errores, pueden haber aquí? Pues a lo que no hemos llegado, pero digamos líneas de líneas de de tareas, de de proyectos, 138000 líneas, 138000 tareas y la máquina es muy, muy sencillita.
+
+1:11:05
+Está es muy estable, está siempre desocupada, ya ves está el cero 3% de CP u entonces de vez en cuando aquí aparece alguna cola que hace una cosita y tal, pero muy muy light el el trabajo que tiene esta máquina, pero bueno, mejor así porque está muy ágil.
+
+1:11:32
+Los sacamos de fobos por eso, porque para que fuera una máquina que fuera muy ágil y que no, los scripts se pueden hacer de cualquier cosa. Creo que lo he dicho. Se pueden incluso meter llamadas a APIS. Se pueden hacer llamadas HTML para que compruebe o configure el radius dentro de un radio, enlace que también los hemos hecho. Los Ericsson los configuramos a través de de de web. Hacemos una llamada a un post.
+
+1:12:03
+Vale con una serie de parámetros YY configuramos los los radionaces así. ¿Bueno, aquí lo que pasa que ya te digo todos los que haya configuración de las salbalas muy bien, no? La configuración de las salbalas no está aquí, no, no, eso eso es no es una tarea de configuración, eso es una tarea de capturar información, eso es diferente.
+
+1:12:31
+Esto son tareas de configuración. Vale aquí, aquí esto es para operar sobre los equipos de la red, no para leer sus datos. Vale, al leer sus datos están los escritos de Fobos que va entrando los equipos, mira las configuraciones, pero no toca configuración, vale, vale configuraciones, siempre hay que hacerlas por aquí. ¿Por qué? Pues muy sencillo, porque allí no tenemos control de usuarios.
+
+1:12:57
+No tenemos, no sabemos quién ha entrado, quién no ha entrado y allí no podríamos. No, no deberíamos tocar nada. Vale cuando es intervención sobre un equipo se se debe hacer aquí en en Fobos, vale.
+
+1:13:24
+¿Qué más te iba a contar? No lo sé. Ah, vale, bueno, hay una opción. Sí, es que había algún detalle por ahí en karayan estamos en karayan proyectos, vale, cuando yo este me lo ha cerrado ya también, sí, claro, me lo ha cerrado, vale, ya está, va a decirle a Óscar que ya está, envía un mensaje ahí, salud, gracias.
+
+1:13:54
+
+
+1:14:31
+Vale, vale, vamos a crear un proyecto nuevo porque este nos habrá quedado. Creo que habrá terminado el borrado este de aquí. Mira, tenemos este en borrador. Vale, cuando yo creo una tarea, también vamos a crear una tarea. Aquí aparecen unas cosas que son, puedo ejecutar una plantilla y aquí es otra historia.
+
+1:14:59
+Esto es porque yo puedo desde aquí lanzar una configuración masiva masiva. ¿Entiéndeme, yo quiero configurar un 3400, vale? ¿Y toda la configuración de los 3400 la tengo en plantilla, vale?
+
+1:15:21
+Yo tengo una plantilla inicial de los 920 también, no tengo de los 3400. Entonces yo aquí puedo decirle de este equipo que se está instalando esto. ¿Empezamos a trabajar antes de de tener cero, vale? Antes de tener cero lo hacíamos así Cogíamos, dábamos la alta al equipo, ese equipo se metía en gestión y entonces le decíamos, el equipo este que nos es este.
+
+1:15:49
+Tiene una configuración inicial del 3400, vale y la y la lista de comandos inicial es takax default vale es esta. Esta lista de comandos inicial es una lista de comandos que es para meter el takax. ¿Ahora tampoco se hace así, hay ya un script que mete el takax se sigue pudiendo utilizar esto, EH? Esto sí que es, pero ya se trabaja de la otra manera que es a través de cero.
+
+1:16:18
+Que se encarga de hacer todo, de no tienes que preocuparte de nada, das, das de alta el equipo, le das todos los parámetros, lo dejas y le dejas ahí currando y ya está. ¿Vale? Y después está también secuenciar swap. Secuenciar swap swap es una funcionalidad especial que lo que hicimos es para poder hacer cambios de cambios de de equipos.
+
+1:16:48
+Cuando hay un cambio de un equipo por otro equipo, tú le dices el equipo origen, el puerto origen, equipo destino, puerto destino. Vale, le das a enviar y lo que te hace es replicarte la configuración de un puerto sobre el otro. Me he explicado, no, imagínate que vamos a cambiar 12950 por 1 3400. Sí, vale, entonces tiene dos opciones.
+
+1:17:17
+O vas a manubrio puerto por puerto, a configurar todos los puertos o vienes aquí y de un Excel desde un Excel le pegas equipo origen, puerto origen, equipo destino, puerto destino. ¿Vale esto aquí en un Excel? Pues todos poniendo equipo 1 puerto 1 y equipo dos puerto dos, vale.
+
+1:17:46
+Y entonces lo que va a hacer y aquí puedes decirle también 1 perdón aquí 1 por ejemplo esto esto aquí por dos 12 control VY ahora esto ya está, ya está abajo.
+
+1:18:20
+Y esto lo arrastramos hasta abajo. Vale la la idea que llevo tú dices de un equipo de un puerto al otro equipo de otro puerto copiar aquí. ¿Entonces yo esto lo pegaría aquí, vale? Y entonces me generaría las tareas necesarias para que.
+
+1:18:47
+Esta configuración la pasé aquí, esta configuración la pasé aquí. Esta configuración la pasé aquí. Incluso no tiene por qué ser el mismo equipo cada vez, sino que yo puedo ir unificando de diferentes equipos hacia un.

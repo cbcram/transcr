@@ -1,0 +1,808 @@
+14350_ Fobos_CNP-20240613_100440-Grabación de la reunión
+
+0:02
+Pues continúo. En principio comentaba, es una herramienta que hemos ido desarrollando nosotros, tiene cosas que nosotros y hemos ido necesitando y posteriormente pues también hemos ido adaptando a necesidades de de otros departamentos que nos han ido pidiendo, pues cosas es una herramienta, pues que está abierta, el código es nuestro.
+
+0:27
+Y en fin, vamos desarrollando, pues ya ya os digo, según necesidad vale fogo, se es un conjunto de servidores, es un conjunto de de de sistemas que están coordinados entre ellos y al final como resultado un poco está siempre lo que es la el visor web está en esta dirección, siempre hay que entrar de esta manera. HTTPS 101 ciento 981 Barra Ch File.
+
+0:55
+Vale, y con esto abrimos lo que es el portal principal, la autentificación siempre es a través de L d a P antes, antes de que empieces un poco por darle, por dar contexto también, por dar contexto también a a a esto. Esta herramienta lleva funcionando, no sé cuánto tiempo, cuánto son, cuántos años son desde que la empezamos a desarrollar la primera versión hace 1414 años. Vale, es es un conjunto de herramientas, todas basadas en código, en código.
+
+1:22
+Libre, es decir, no es nada que tengamos que tengamos de bajada la licencia, ese tipo de cosas. O sea, todo se ha provecho del Código libre. De hecho, todavía sigue igual, es un conjunto de script y surgió como una herramienta de inventario. ¿Es decir, pensé, en aquel momento no teníamos nada que nos permitiera meter los equipos en ese momento de datos y tener pues inventariado, puertos, direcciones IP, no, no teníamos nada, lo desarrollamos para tener eso y a partir de ahí ha ido creciendo y ahora tiene muchas funcionalidades, pero os quiero decir, cómo, cómo, cómo, cómo empezó?
+
+1:52
+Y su función principal, que sigue siendo la misma, no es un gestor. ¿Lo vuelvo a repetir, no es un gestor, aunque tiene cosas que bueno interrelacionan con los equipos y podemos pensar que que que puede ser algo parte de un gestor, no es un gestor, Eh? Hay gestores para cada 1 de los de las diferentes tecnologías que tenemos, pero esto no lo es, vale, es un inventario de red y concretamente de los equipos de datos. ¿Se pueden meter más equipos? ¿Sí, ya lo veréis que hay equipos de de todas las tecnologías, pero principalmente equipos de datos, vale?
+
+2:22
+Vale, Víctor, perdona, vale, vale, entonces la primera parte es en todo, se basa en los emplazamientos, en los centros, con lo cual primero que vamos a ver es la parte de para importar centros. No, en fobos no está permitido crear centros de manera de manera arbitraria. Vale, los centros siempre se importan desde Aqua Vitra.
+
+2:49
+Y si no existen en Aqua Vitra no se pueden, no se pueden crear. Vale, entonces la importación del centro simplemente es nosotros, o bien por Código Info o por nombre o por podemos hacer una búsqueda. ¿Vale en Aqua Vitra? No sé.
+
+3:06
+Pues lo que aquí hay, aquí al lado, vale, entonces nos aparecerá. Aquí también podemos hacer búsquedas por código, vale, entonces evidentemente, pues nos aparece Montserrat y aquí lo que no tenemos es lo que tenemos información de Aqua y a la derecha la información del centro en Fobos tendríamos si si tiene, si tiene descripción, es que haga fobos, si no tiene descripción, es que no existen fobos.
+
+3:31
+Vale, y después esta parte aquí de prefijo y sufijo. Esta parte se utiliza para cuando queremos crear un un equipo en un centro. Hay una herramienta que hemos hemos desarrollado a partir de de una normativa que nos que nos hicieron llegar para generar los nombres de los equipos.
+
+3:52
+De manera automática no tenemos que calentarnos la cabeza. ¿Cómo vamos a llevar al equipo? Nos vamos al centro, damos de alta un equipo tal marca, tal modelo y nos da el nombre que que va a tener y ya está, vale, entonces la la generación de de nombres viene determinado por hace unos años que nos reunimos, se desarrolló un procedimiento entre todas las áreas para para nombrar de forma única. Dijéramos a todos los equipos, porque en aquel entonces cada 1 nombraba a los equipos como le daba la gana.
+
+4:18
+Pues al final se llegó a 1 a 1, conclusión de cuál tenía que tener prefijo, si fui con nombre de de, de de nombrarlos y es lo que hay aquí puesto, vale aquí esto no es que nosotros no, sí que nosotros teníamos una entonces, luego se llegó a otra, es parecida a la nuestra, pero pero hubo modificaciones con respecto a la que nosotros teníamos. Vale, vale, para dar de alta un centro, simplemente nos venimos aquí. Bueno, primero que nada, lo que estaba comentando los usuarios que me he quedado a medias.
+
+4:44
+En el I am tiene que tener permiso para acceder a la red de gestión, vale con eso fo ya se puede entrar en fobos. Yo a ver, en fobos no, no se autentifican usuarios, yo le digo al servidor de dominio, si es un usuario puede entrar o no, yo no gestiono contraseñas ni usuarios, entonces si tiene autorización para entrar en fobos, ya puede entrar en fobos. A partir de que ya hemos entrado en fobos, ya si nos dice que no tenemos permiso, esos permisos sí que los tenemos que gestionar nosotros.
+
+5:14
+Vale, pero nos saldría aquí un texton de color rojo y si aquí ya tenemos el usuario nuestro, si aquí aparece el usuario aquí a la derecha, ya hemos entrado en fobos y entonces a partir de ahí, perdón, y a partir de ahí ya podríamos tener usuarios. Vale, ya podemos hacer la petición a nosotros para poder crear centros o poder hacer determinadas cosas. Vale, estamos ya habíamos quedado aquí entonces para dar de alta un centro, simplemente nos venimos aquí pulsamos el botón azul y lo que hace es.
+
+5:43
+Dar de alta al centro de los fuegos. ¿Vale que era este de aquí entonces? Efecto, ya lo tenemos en fuegos, no sé, no sé si lo entendéis, pero se hace porque si no le creas un centro no puedes meter un equipo. Eso generalmente cuando vas a meter un equipo que está en un centro y no está el centro en fuegos, tienes que llegar y dar de alta al centro de fuegos porque no tiene por qué estar, aunque esté en aukabyte o está en lo que sea, no tiene por qué estar en fuegos. Entonces previamente, cuando va a dar un.
+
+6:09
+Un equipo tienes que ver si el centro está creado, en la mayoría de los casos está creado, pero sí es un centro nuevo de 1, pues 1 de estos de B, t o de algún operador de estos de o de a t W pues hay que crearlo. Vale, es lo que os está explicando Víctor. ¿Vale, perdona un momento a la hora de crear aquí un centro, cómo se haría? ¿Es decir, si está ya creado en en Aqua, que tendrías que hacerlo desde cero, se traspasaría desde Aqua hasta aquí o cómo le das al Botoncito Azul y ya está?
+
+6:40
+¿Si quieres lo buscarías, es decir, tú ves lo primero que haces es ves que pone, busca centros en fire vitro, ahí lo buscas, tú sabes el nombre en Aqua Vitra, te lo sabes, pones el nombre y aparece, entonces imagínate que es este que pone 26176 Tenerife Toyo Tenerife Submayorazgo o lo que sea lo has encontrado, qué qué tienes que hacer para metro la A a Fobos, pues darle en la en la flechita azul que aparece, vale, qué es lo que va a hacer ahora Víctor?
+
+7:05
+En este mismo, por ejemplo, vale, entonces tú le das aquí a la flecha azul y lo das al alta en fobos y ya está, ya lo tienes dado al alta en fobos y si no ya puedes ir al centro YY meter el equipo. Lo que sea que quieres hacer ya ya tendríamos muy sencillo. ¿Vale, siguiente paso es si vamos a crear un equipo, hay que dar un prefijo y un sufijo, vale, cómo se hace para nombrar los equipos? ¿Le decimos que nos lo genere, vale?
+
+7:33
+Ya está, este sería el prefijo o el sufijo del centro. Damos a enviar y ya podemos crear equipos en este centro sin ningún problema. ¿Ahora veremos cómo se generan los los los nombres de los equipos, EH? Ya está aquí no hay mucho más, quiero decir, no hay que no hay que inventarse nada, lo hemos hecho porque la gente cuando no encontraba el centro pues se lo inventaba, claro, al final teníamos un desmadre de centros y de códigos.
+
+8:03
+Que no correspondía con la realidad. Entonces, para evitar esto siempre tenemos que coger el centro que esté creado en Aqua. Si el centro es muy nuevo y no está todavía creado en Aqua, hay que esperarse hasta que no esté el el centro creado, no lo podemos importar ni lo podemos crear. Vale, vale, tenemos después la parte de modelos. Aquí lo que hacemos es, entre otras muchas cosas, definir el acrónimo del modelo.
+
+8:33
+Vale, entonces este radio enlace, por ejemplo, el acrónimo se utiliza luego para construir el nombre del equipo y también para para modelar el equipo. Vale no solamente el acrónimo, sino para moderar el equipo las tarjetas que tiene tal eso es es teóricamente es para eso. Quiero decir que si hay un equipo nuevo lo que hay que hacer es ver si es si ya lo tenemos en red, entonces no hay ningún problema porque estará modelado. Si no está en red, sí que hay que modelarlo nuevamente, o sea que hay que hacer con la.
+
+9:03
+¿Según es imprescindible, EH? Para dar de alta un equipo de con con una marca de un modelo determinado. En principio debería de darse de alta el modelo siempre, porque para construir un nombre lo vamos a necesitar. Esto ahora mismo, si ya tenéis algún problema con esto, lo lleva Gustavo. Vale, entonces para crear un modelo hay que hablar con Gustavo. Gustavo es vuestro hombre.
+
+9:29
+Le pasáis la información de le la marca, el modelo y un poco lo que son las tarjetas que lleva o los módulos que lleva y se da de alta aquí a ver, esto no es fijo, luego puede cambiar, vale porque por ejemplo si nos vamos a un Cisco 12811 pues tiene lo que es la la parte básica. Luego este equipo puede tener tarjetas diferentes. V lance diferentes, puede tener muchas cosas diferentes a lo que aparece aquí, pero eso automáticamente luego ya se cargará.
+
+9:57
+¿Vale, esto se utiliza para qué? Pues por ejemplo, si vamos a a hacer la provisión de un equipo que de momento no está instalada, damos de alta al equipo, tenemos una serie de puertos que ya podemos asignar, ya podemos reservar y de cara al futuro, cuando el equipo ya se instale, pues ya absorberemos la información del equipo y la meteremos en la base de datos, vale, eso nos permite no tener que meter todas las pues a lo mejor de este equipo 2600 ahí no sé 20 variedades diferentes, para no meter las 20 variedades metemos 1 genérico, y lo que hacemos es cuando se ha instalado el equipo, le preguntamos.
+
+10:27
+¿Y ya obtenemos toda la información que sea diferente del del del genérico, vale? Aún así fijaros que hay algunos 2950 que empezamos con el rollo de poner cada 1, lo que pasa que al final estos son equipos antiguos que se hicieron así, pero ya últimamente lo que hacemos es lo que dice Víctor, porque si no tendríamos montones de de de diferentes versiones de equipos aquí a la derecha, pues nos dice la cantidad de equipos que hay instalados en la red que tenemos con esta marca y este modelo. Si está todo bien documentado, pues aquí nos aparecen todos los equipos que tenemos.
+
+10:57
+¿Con esa marca modelo las versiones del sistema operativo de la iOS que tiene instalada la IP de gestión, para qué se utilizan y dónde están instalados? Vale, con el Código INFO la búsqueda no os preocupéis, ahora lo veremos con más detalle. Vale una una pregunta sobre esto, entonces ahora siempre que vayamos a definir un modelo nuevo INFO Bus hay que hablarlo con Gustavo, sí, sí.
+
+11:19
+Vale, es que en las últimas reuniones yo creo que no habíamos quedado así. Habíamos quedado que nosotros desde TIP sí podíamos crear modelos. Bueno, sí, sí, sí, no hay ningún problema, digo si tenéis a ver si vale, pero ahora con lo que habéis explicado ahora sí me han aparecido dudas. La semana pasada me pidieron 150040 en la Cadia que no estaba modelado. Entonces claro y bueno, lo añadí yo, no, no, no, pero es que los es que mira los tiempo 540 se llaman así.
+
+11:48
+Exacto, ahí es donde iba yo, entonces sí que se da un modelo para cada 1 de ellos, no, mira, te lo digo, lo más fácil es seguramente lo que has hecho, tú has quedado 150040 vale y tú has hecho 150040 genérico, te lo habrás puesto, no sé cómo lo has puesto. Bueno, yo le puse la descripción que tenemos nosotros en el ítem del de Del proveedor, bueno del ahora me sale de de Italt Telvel, Eh, vale.
+
+12:16
+Luego, cuando el equipo lea la la versión del la iOS y el modelo lo cambiará, pero cuando ya esté en gestión, explica vale.
+
+12:27
+¿Entonces tal cual lo hicimos, estaría bien, no? El único problema que me encontré, y esto también lo quiero decir, es cuando lo creé. El hay que introducir todos los puertos es que tuve que introducir de 1 en 1 y cada vez que introducía a un puerto se me cerraba la pantalla. Tenía que volver a abrirla y no sé si a ver si quieres empezar a reservar. Sí, si quieres empezar a reservar, depende de lo que quieras hacer.
+
+12:57
+Claro, nosotros antes de comprar el equipo no sabemos los puertos que puedo tener o tendríamos que meter todos los modelos. Entonces lo que puedes hacer es, oye, voy a reservar un puerto, meto ese puerto y ya está. ¿Por qué? Porque los demás nos va a coger cuando el cuando, cuando hablemos con el equipo puedes meter el de Management, puedes meter el el TEN giga o el que necesites. Vale, es que ya estos reservados ya está.
+
+13:15
+¿Se tiene que dar de alta de 1 en 1, añadiendo pues el campo, orden, puerto, capacidad tal y es un poco pesado, entonces si si si se puede mejorar lo podemos hablar y lo YY lo cambiamos Eh? Para que se pueda hacer de manera no sé automática que digas del 1 del del 1 al 17 me generas esos puertos, ya está bueno, pero si decís que solo introduciendo los dos puertos iniciales por decir algo no, el de gestión y el que vamos a asignar es suficiente.
+
+13:44
+Y que luego ya el equipo le era, vale eso lo de luego ya lo lee de la de la base de datos, entonces todo lo sub interfaces, aquí no están sub interfaces las interfaces BDIY todo eso, aquí no está los BVI, en este caso los 540, eso ya luego ya se lee si si quieres. Por ejemplo en la semana pasada además de la cadia también me pidieron 9300 YY ahí ya me cansé y no le puse puertos porque dije, me me voy a pasar aquí el día tampoco pasa nada.
+
+14:13
+Entonces por eso no, no, tampoco, tampoco pasa nada. O sea, cuando des de alta 9300 no te dará ningún puerto de alta, lo único que pasa es que tú luego, en cada vez que lo des de alta, si necesitas provisionar tú a mano, lo vas a tener que que crear dentro del equipo. Claro, aquí a D Tel. Después dio de alta el equipo en la sede y entonces el equipo se creó sin puertos. Vale, cuando se lea el equipo ya se se meterán todos.
+
+14:40
+Eso, eso no hay problema. Lo importante es la dirección de gestión y todo lo demás, una vez que esté, habla con el equipo y recoge los puertos. ¿Vale? Y sobre todo el tema del acrónimo para que el nombre se genere, el nombre del equipo se genere según la el procedimiento que que tenemos ahora, porque sino no, no lo vas a poder generar con ese nombre. ¿Te lo vas a tener que inventar, vale?
+
+15:00
+Y el problema de inventarse las cosas es que cada un los criterios te pueden cambiar de una semana a otra según el día que tengas, entonces lo mejor es normalizarlo todo En este sentido porque así tienes todos los nombres iguales. En cualquier caso, ya te digo luego incluso hasta el modelo te lo va a cambiar, vale, con lo cual automáticamente te va a decir esto es este equipo. ¿Ya veremos cómo saben cómo saber si el si el modelo lo tenemos o no dado de alta vale?
+
+15:27
+Vale, y luego ya nos vamos al inventario, el inventario simplemente es que por que por provincia o bien podemos buscar, vale, entonces vamos a ir primero a la búsqueda de equipos y así ya vemos el inventario por centros. Vale, la búsqueda de equipos está aquí, nosotros aquí podemos buscar por cualquier cosa, en principio en esta ventana, tanto por nombre del equipo como descripción del puerto, Código Info del centro, Cualquier cosa que.
+
+15:54
+Entonces esto es una una primera búsqueda rápida. Vale, entonces simplemente buscando aquí nos diría, los centros que tienen en esa descripción nos aparecen aquí arriba, aquí debajo los centros, los equipos que o bien en el en la descripción del equipo o bien dentro de la configuración aparece ese texto. ¿Es decir, que si nosotros necesitamos saber en qué va, en qué equipos hay aplicado un comando, simplemente haciendo la búsqueda de ese comando nos va a decir qué equipos tienen ese aplicada ese comando, vale?
+
+16:24
+Y y a debajo no que nos aparecerá son los puertos de los equipos que tienen en esa descripción. O sea que aparte del del los equipos podemos tener en determinados en determinados puertos de estos son radioenlaces vale, aquí solamente nos van a aparecer. Nos va a buscar en la configuración de Del equipo Cisco porque son los que estamos leyendo las configuraciones. En los radioenlaces no leemos las configuraciones, pero sí tenemos las descripciones de los puertos.
+
+16:51
+¿Entonces nos va a dar la información? Siempre intentamos ofrecer la máxima información que tenemos. Después cada 1 que visualmente filtre. A veces es un poco rollo porque pues haces una búsqueda un poco genérica como +9000 y te aparecen un montón de información, pero preferimos eso a que no te salga información que estás buscando. Vale, entonces primero que nada podemos hacer una búsqueda. Marcamos esto solamente por centro.
+
+17:20
+Directamente podemos buscar por provincia, por ejemplo Valencia, por aquí en Valencia, vale, y nos solamente los los centros de esa provincia con esta descripción. Vale, entonces ya no sale lo que toca. Vale, podemos buscar por equipos, vale que ya hemos visto hasta ahora, pero además en equipos podemos especificar la marca.
+
+17:50
+Y podemos especificar incluso hasta el modelo. Vale, entonces vamos a quitar esto. Estos son los equipos modelo 2950 que hay en la provincia de Valencia. ¿Esto sigue conservando la provincia, eh? Entonces aquí tenemos los 2950 de la provincia de Valencia.
+
+18:13
+Si le quitamos aquí lo ponemos en blanco. Lo que va a hacer una búsqueda en toda, en toda la base de datos de todos los equipos que tengan de la marca Cisco modelo 2950 dentro de de toda la base de datos. Aquí no hace falta que sea exacto. Quiero decir modelo podemos poner 540 o 9300. ¿Quiero decir no, no hay que poner el modelo exacto para que tenerlo en cuenta, vale?
+
+18:41
+Después podemos también decirle que nos busque en los puertos, que nos busque el texto que que tenemos aquí dentro de los puertos y entonces nos sacaría el texto y después tenemos la marca TXT, que esto lo que nos permite es cuando hacemos la búsqueda, nos quita los los links y los gifs. ¿Para qué es esto? ¿Mirad, si nosotros hacemos esto de inicio, al final, vale?
+
+19:10
+¿Copiamos y nos vamos a un Excel, vale, lo pegamos y tenemos un Excel con la información de los 2950 que hay en toda España, con la información de El equipo, el alias, la versión del sistema operativo que a muchas veces me necesito saber los 2950 que tenemos instalados, pues son estos y aquí tenemos el centro, tenemos el nombre, tenemos la versión de de la iOS, vale?
+
+19:43
+Entonces tenemos podemos pasarnos a a 1 Excel un montón de información sobre sobre lo que hemos buscado de los filtros de búsqueda. Vale, y después también podemos buscar, ya os he comentado por pues por comandos equipos le Quito esto y el modelo.
+
+20:14
+Vale, todos estos equipos tienen IP helper aderes metido en alguna interfaz. Vale que es lo que os comentaba antes, vale dudas de la búsqueda. Ahora os explico un poquito el tema de grupos.
+
+20:42
+¿Cisco vale, podemos buscar también por tipos? Vale, la tipología entre router y switch también es automática y hay un criterio que es establecimos que es que si un un equipo de datos tiene más de 2 I p s es un router IP propia, no IP configurada a mano, sino que internamente en la configuración tiene configuradas más de 2 I p s eso es un router.
+
+21:09
+Si tienen menos de 2 puede ser un switch, con lo cual los etiquetamos automáticamente como router o como switch. Vale, los grupos, los los equipos también podemos agruparlos, podemos definirles unos grupos, vale que en este caso justamente este no tiene, ahora vamos a ver 1 que tenga, vale, entonces por ejemplo tenemos un grupo que son los equipos de rescate o de de rescate aquí vale, entonces todos los equipos de rescate.
+
+21:39
+Van a tener un grupo rescate, pueden tener, pueden pertenecer a más de un grupo, vale, entonces puede, yo puedo ir añadiendo grupos para un equipo aquí, vale, y entonces yo a la hora de buscarlos. Estos grupos, aparte de para las búsquedas, se utilizan para otras cosas, por eso a veces aparecen grupos como Old iOS o c 3 1000, por ejemplo. Esto se utiliza para después de un tema de inventario, pero en principio.
+
+22:08
+Nosotros podemos buscar aquí por ese grupo y entonces nos listaría solamente los equipos que pertenecen a ese grupo. Si los podemos los queremos agrupar, pues perfecto. Vale, una vez ya tenemos el el equipo, pues nos vamos a ir al centro. Vale tanto si venimos a través de la búsqueda de inventario, el mapa del con las provincias, si entramos en en cada.
+
+22:37
+Cada provincia o pues podemos ir hasta el centro, vale, en el centro nos aparecerá por agrupados. Por tipología, vale una serie de cosas, primero que nada si están respondiendo al Pink, si tienen celege y tienes NP es un tema nuestro y después el nombre del equipo, nombre oficial que tiene el equipo dentro del centro. ¿En los equipos de datos siempre tiene que coincidir el equipo con el que tiene configurado, Eh?
+
+23:07
+No podemos tener aquí un nombre y luego en el equipo que tenga otro nombre. En principio tiene que ser el mismo, vale, después tenemos la descripción del equipo, una serie de datos. La dirección de gestión del equipo puede tener muchas IPS, pero aquí siempre vamos a a ver la dirección IP de gestión para para gestión, para servicios o puede ser mixto, vale, y después la utilización del equipo.
+
+23:36
+¿Los puertos en este caso tenemos puertos fast ethernet y esto por qué se está calculando mal? Vale cuánto nos quedan libres, que en este caso nos queda 1. Libre. Vale, nos queda un fast ethernet libre, con lo cual tenemos un 25% de disponibilidad porque en total solamente hay cuatro.
+
+23:58
+Pero esto es un router, no es un switch, con lo cual aquí pues hastacierto.no es preocupante en este caso, por ejemplo en este caso que solamente nos queda 1 libre sí que es preocupante porque son 2950 y aquí solamente tenemos un puerto libre. ¿En este switch se hace, se hacen también unas estadísticas para ver los equipos que están más utilizados y por centro, si si tenemos falta de de de puertos, vale?
+
+24:22
+Tenemos esta parte de aquí que CDP lo que hace es construirnos un mapa lógico del centro de de las conexiones de los equipos. ¿Vale? Entonces va a empezar a interrogar a los equipos y va a ver a qué otros equipos vecinos ve a través de sus interfaces. Y lo que hace es construirnos el mapa. Cuando aparece una raya oscura y un equipo más pequeño es porque este equipo pertenece a otro centro.
+
+24:52
+Y a partir de ahí no voy a continuar rastreando porque sino crearíamos la crearía el mapa entero de España y tardaría bastante vale. Aquí lo que vamos a hacer es especificar qué conexiones tiene. Y dentro del centro pues voy a intentar descubrir todos los todos los equipos como están conectados. ¿Vale, y entonces nos dice, estos interfaces cómo están? ¿Qué más?
+
+25:22
+Cierro esto, vale, vale, Víctor, disculpa una una consulta aquí sería posible incluir que cuando te está pintando la topología por CDP, si ya tienes la información que quieres, pausarlo para que no siga ampliando el mapa. ¿Pero ya no, no, no, no, no lo tiene, pero habría forma de de conseguir esto? Sí, fácil, mira, mira.
+
+25:52
+¿Tienes eco o o o o soy yo el único que lo oigo alguien yo yo también me oigo, tú puedes parar el ahora no, ahora está bien, ahora está bien, lo lo has visto? No, no, perdóname, me estaba poniendo el mira a ver, tú empiezas a rastrear, vale, cuando ya tienes suficiente lo paras aquí arriba a la izquierda lo paras, ahí ya está.
+
+26:24
+Vale, de acuerdo, vale, vale, tú lo que haces, esto es parar el script y ya está. A ver, se se podría hacer. El problema es que lo que hacemos es es coger el primer nivel, es decir, cogemos el primer nivel que hay que hay de equipos y ya está. Si no tendríamos que entrar a parar lo que es el script. Si te vale con eso bien y si no, pues se lo pides a Gus y lo miramos.
+
+26:46
+De cualquier petición que tengáis de temas de juegos, de tal es la persona que le tenéis que que pasar, las lo, lo que se, lo que se lo que creáis que podéis necesitar. Vale, sí, a ver, es que es es cierto que hay centros que son bastante complejos. Entonces tardan un rato en ser centros muy grandes.
+
+27:08
+Bueno, pero con el truco Este lo lo paramos y ya está. ¿Sí, paras, la paras, lo que es la la lo que haces es realmente es decirle al servidor web que pare el script, o sea que pare esa página web, con lo cual lo que hace el servidor es matar el proceso que está que está está por debajo, entonces se para y ya está, vale?
+
+27:31
+Después tenemos también desde aquí. Si tenemos configurado el explorador, podemos hacer un llamada web o hacer un puti directamente. Desde aquí, vale, podemos llamarlo desde aquí el histórico, automáticamente en fuego se van va haciendo cosas de manera automática. Vale sobre todo, pues el tema de puertos, los alta puerto automático o cuando crea un puerto que no existía o cuando.
+
+28:01
+Fuerza a a Down, a Shut Down, un puerto, entonces eso genera un un evento que los vamos guardando aquí en la en la h Sty histórico. Después podemos ver las configuraciones, luego veremos dentro de equipo esto con más detalle. Podemos también más coger unas muestras en MP del equipo, esto es simplemente en plan rápido, te dice los puertos que están APP y los puestos que están down del equipo.
+
+28:30
+¿Vale esto, esto también lo veis en otro sitio? ¿Esto lo único que utilizamos es para ver que el SMP últimamente para ver que el SMP funciona, EH? Es decir, hay otros sitios donde se ven si los puertos están arriba o abajo, es decir, más y mejor por así decirlo. Vale, los equipos estos periódicamente es es decir, periódicamente puedes pueden ser cada los router y los switchs cada hora y los el resto de equipo puede ser, cada día se hace un ping.
+
+28:53
+¿Entonces acordaros que no es un gestor, vale, por lo tanto lo único que tenemos es le cogemos, vamos cogiendo información, pero no es un gestor en el cual estamos cada 5 minutos a cada minuto preguntándole al equipo, no es eso, vale? Cuando aquí aparezca caído y que tarde, sé que es tiempo en que en que se refresque aquí y aquí te dice que ha perdido la comunicación YY unos minutos después lo ha recuperado. A ver, esto simplemente es.
+
+29:19
+Un indicativo no es exacto que haya perdido la gestión en este momento o la he perdón al revés, la ha la ha perdido en este momento o la ha recuperado. Esto es cuando yo he visto que ha dejado de responder al Ping y en este caso pues por ejemplo, un radioenlace vale los saltos, estos puedes incluso de varias horas. ¿Vale, para qué sirve? Pues fácil, nosotros a veces se pierde la gestión de un equipo.
+
+29:45
+¿Y lo que podemos ver es qué día, a partir de qué día se perdió la gestión de ese equipo? Pues porque ha habido un cambio de configuración o porque el equipo se ha quedado frito o cualquier cosa. Entonces lo que podemos hacer es más o menos aproximadamente cuando o también podemos ver cuando un equipo ha empezado a comunicar, es decir, qué día se instaló ese equipo. Entonces, a partir del día que se instaló ha empezado. Te da un evento de que ha recuperado la comunicación. Vale, vale, después tenemos equipos de transporte en aquí.
+
+30:14
+Cuando es un radio enlace nos aparece lo que es el equipo para para fobos un radio enlace. Son dos equipos instalados en dos centros diferentes. Vale, tenemos un equipo en un centro y otro equipo y lo que lo les une un nexo que es el el radioenlace que se esta parte de aquí, por eso esto aparece en gris y además un equipo puede ser un cofre que tiene varios enlaces, con lo cual un mismo cofre puede tener varios enlaces metidos dentro.
+
+30:42
+También tenemos equipos de difusión, tenemos equipos de energía, vale, y en algunos casos la información que nos va a aparecer por SNMP. Vale, es información en tiempo real del equipo. Hemos construido un pequeño driver, por ejemplo. En este caso la estación de continua en tiempo real nos va a decir los datos de la tensión de las baterías, la potencia y el Estado está en flotación. No tiene alarmas. ¿Perfecto, entonces?
+
+31:10
+En las estaciones de continua prácticamente todas están en los sies también. Por ejemplo, los ocomec también están metidos entonces en tiempo real. Podemos obtener una información básica de cómo se está comportando el equipo. Si el equipo tiene una alarma habría que ir al gestor y mirarlo, o si tenemos un problema con él, hay que ir al gestor. Esto es una ayuda que ahí está una ayuda rápida y que nos puede dar una idea aproximada. Hay muchos equipos que vuelvo a repetir, no se puede.
+
+31:40
+Gestionar desde aquí, o sea esto simplemente es algo que ponemos para que se puedan ver las cosas, pero no es algo que que digas oye, este es voy a gestionar todos mis equipos por aquí, no, no es esa, no es esa la la la idea de esto si quieres entrar ya en un equipo y lo y lo vemos, si quieres una última aclaración esto no refresca, solo ojo la información y la muestro y dejo de interrogar al equipo, vale, con lo cual si tenemos aquí la pantalla abierta no esperemos que esto cambie porque no va a cambiar.
+
+32:09
+Si queremos que vuelve a preguntarle, simplemente le refrescamos y ya está y le volverá a preguntar, pero yo no estoy constantemente preguntando los equipos. Le pregunto una vez vale, y una vez ya está creado, o sea, ya nos muestra la información, se desconecta del equipo, vale, entramos un equipo, vamos a entrar, por ejemplo, en un switch que habíamos visto antes. Vale, aquí la cabecera, el tipo, el tipo es automático, la marca hay que especificarla, el modelo es automático.
+
+32:38
+Y esto verde aquí indica que en la base de datos de modelos tenemos el equipo. Este modelo lo tenemos. Si no lo tuviéramos que aparece aquí una spa en rojo, tendríamos que ir a leer o modificar el modelo o ir a a la base de datos de modelos y crear ese modelo. En los casos de datos que podemos acceder, pues también algunos radio enlaces también tenemos la información, pues automáticamente se rellena el número de serie.
+
+33:05
+La descripción es algo que se pone cuándo se dio de alta el equipo en la base de datos, cuándo se dio de alta el equipo administrativamente, es decir, cuando alguien vino aquí le dijo, está de alta porque puede ser entonces claro, fecha de registros, cuando se crea fecha de alta es cuando empieza a comunicar con el equipo. Vale que es importante porque a veces se dan de alta un mes antes de que esté que el equipo se se vaya o más, entonces aquí más o menos lo que es en este caso fue el mismo día, o sea, alguien lo metió y lo y lo gestionó, lo editaba y yo creo.
+
+33:34
+Yo creo que esto es cuando cuando arrancamos fobos dos, la versión, la nueva, la última versión, sí metimos aquí todos los datos directamente, pero puede haber discrepancias en las fechas no pasa nada. Sí es normal, vale la IP de gestión la que la IP con la que estamos gestionando el equipo. Ahora veremos qué condicionantes tiene el DNS es sí.
+
+34:01
+Paso la información del host name al DNS Fobus tiene 1 d n s en la que relaciona las direcciones IPS de gestión con el nombre del equipo para que directamente desde una terminal de de una terminal de de de gestión podamos hacerle pins al nombre. No tenemos que saber los nombres, los las direcciones IPS de los equipos. Como es mucho más fácil para nosotros, nos limita más el los números que las letras.
+
+34:28
+Nosotros para nosotros es mucho más fácil recordar un nombre, con lo cual si queremos hacer un ping a un nombre, un telnet, pues lo hacemos a ese a ese nombre y es lo y a través del DNS Fower lo relaciona. Entonces lo que le decimos es si queremos incluirle el DNS, si queremos es la configuración, la cola nada. El SDMP es sit soporta SNMP para que nos enseñe el icono este de aquí.
+
+34:55
+El Grupo ya lo hemos visto. ¿Para qué se utiliza y los puertos disponibles que tiene? Vale, vale. Después de aquí tenemos una serie de menús con los que primero que tenga la tenemos las configuraciones. Periódicamente se comprueba la configuración del equipo. Si la configuración del equipo no corresponde con la última que teníamos guardada, nos la va a a guardar. Vale aquí.
+
+35:22
+Pueden haber que si es igual, pues directamente la ignora. Si ya ya la tenemos guardada, entonces en esta configuración, por ejemplo, tenemos la configuración de todo el equipo porque habrá habido algún cambio, pues en la esto se comprueba normalmente dos veces a la semana se comprueban todos los equipos y se mira a ver si ha habido cambios en la configuración. Entonces, si no ha habido cambios, pues directamente los guarda. Vale, vale.
+
+35:49
+Creo que que si haces cambios te guarda automáticamente porque hay un script en los equipos. Sí, sí, hay un script en algunos. En este por ejemplo, este equipo es muy antiguo y no lo soporta. Hay un sobre todo la parte de de de 3000 de equipos 3400 y la parte de XE los 920, que hay más de 1000 equipos, que si alguien modifica la configuración automáticamente esa configuración al cual a los 7 minutos se la prueba.
+
+36:16
+Vale, la comprueba y si ha habido un cambio la guarda automáticamente, con lo cual prácticamente tenemos copias instantáneas de de modificaciones. Muestras. MP, ya las hemos, hemos visto modificar los datos del equipo, es decir, podemos modificar cosas para la marca, el modelo, el centro, podemos cambiar la descripción, podemos modificar las fechas aquí nos permite hacer muchas cosas para la IP de gestión. Tenemos que tener dada de alta la IP.
+
+36:45
+En el equipo la parte de puertos no nos deja poner cualquier cosa, precisamente también para evitar el que pongamos arbitrariamente 1 I p que no corresponde no, yo tengo que tener 1 I p generada aquí para que puedas coger esa IP para gestionar el equipo, con lo cual tenemos una protección frente a a errores de la gente. Vale, puedo sincronizar con red, que esto es una de las cosas que hemos que hemos comentado antes.
+
+37:15
+Que es que yo puedo conectarme el equipo vale y ver las diferencias que hay entre los datos del equipo. Estos datos son los que tiene el equipo y estos datos de la derecha son los que tengo en la base de datos. ¿Si hubiese alguna discrepancia que seguro que hay por aquí, a ver, va a estar todo bien, no?
+
+37:42
+¿Vale, por qué esto aparece en rojo? Porque la información que hay en el equipo es diferente a la información que tengo en la base de datos. Entonces yo me vengo aquí, vale, y esto de aquí Víctor, vamos a decir antes de darle todo el tema de sincronización. ¿Yo no sé, es mejor entrar en todo el tema de los puertos, explicarle lo que se ve aquí y luego les explicamos el tema de la sincronización, vale?
+
+38:07
+Bueno, vale, pues si te parece, porque si no empezamos por el tema de sincronización sin ver lo que hay en los puertos y tal lo que ves, lo que ves nada más entrar es esto, es lo que tiene un equipo, es decir, tanto a nivel físico como a nivel lógico, es decir, Este es un 3000 y aquí ves todo lo que tiene físico y también lógico. Cuidado porque es una de las cosas que es es más complicado de de obtener, sobre todo cuando lo vas a dar, de cuando vas a ver un modelo en un modelo nunca te dan los puertos lógicos, tienen los físicos, por eso lo cogemos el equipo una vez que esté configurado.
+
+38:35
+¿Entonces, qué más, qué más te da? ¿Si quieres sigue empezando por el te da el número de los puertos y sigue si quieres el puerto, el interfaz lógico qué es en este caso es de tipo router o tipo trank o tipo Access, vale, aquí nos califica el ese puerto, de qué tipología lógica tiene el Estado en el que está? Es automático, Eh, no, no, no tenéis que ponerlo, es decir, es cuestión todo lo que aparece aquí, hay cosas que podéis modificar y cosas que no, Estas son automáticas, es decir.
+
+39:03
+Él te dice si es un Trump o no lo es o si es una interfaz enrutado o no, o es eso o es un acceso, vale, no tienes que poner igual que el Estado, el pone libre ocupado en función de lo que vea, igual que el link va al equipo y ve si está APP o está en Admin Down, eso es muy interesante porque hay veces que vas a coger un puerto, vas a mirar algo y ves que está caído y dices, hostia, pues aquí este está libre, este no está o ves que hay una descripción, pero es que está caído, es decir que a ver también también puede pasar a veces después nos aparece la dirección IP.
+
+39:30
+La dirección IP, según el fondo, nos indica una cosa, nos indica otra, cuánto es una dirección con el Fondo Blanco como en este caso esta de aquí lo que nos dice es que esa configuración IP está configurada en el equipo. ¿Vale, dentro del equipo está configurada esta dirección IP en este puerto? Si aparece de color gris es que alguien ha venido aquí y ha dicho que ese puerto tiene esa IP. En los switches, por ejemplo, antiguamente se etiquetaban las direcciones IP que se estaba utilizando para el equipo que había conectado en ese puerto y la gente los etiquetaba.
+
+40:00
+A a mano vale, es es, pero en el equipo no está configurado. Entonces aparece en fondo gris cuando aparece en este color morado o Alba como quieras llamarlo. Esto quiere decir que esto es un hot standby, con lo cual tiene varias direcciones IP tiene la dirección IP, la physic configurada en mi interfaz es esta, pero tiene un hot standby sobre esta vale es un tema de de backups de de Gateways.
+
+40:27
+Si el fondo es de color verdoso es que es una dirección IP multicast. En algunos equipos también podemos ver si tiene si tienes Víctor álbum 920, que vamos a verlo mejor que en 3000, que que es muy limitado en cuanto a 90020920 RB, sí, en este este es 1 de los equipos que sabéis que hay en toda la red. Claramente siempre es el equipo básico que tenemos en casi todos los sitios y tenemos todos los servicios montados encima de este, es decir, aquí veis todo lo que estaba diciendo Víctor de las de las que están en gris, las que están en.
+
+40:57
+Las que están en otro colorcito, es decir aquí lo podéis ver todo vale este este aquí esta dirección I por ejemplo no está configurada físicamente en este puerto, alguien ha ido ahí y ha puesto este dirección IP que es perfectamente válido porque es para digamos reservar o indicar que vamos a utilizar esta IP para este intraplex, pero en realidad no está configurado en el equipo. El esa dirección IP tendría que estar configurada en el intraplex. Lo que pasa es que como hasta ahora, no sé.
+
+41:22
+No se inventarían todos los equipos, pues tenemos que ponerlo en algún sitio, porque si no, no sabríamos qué dirección tiene el intraplex, es decir, los sabría alguien el que lo instaló, pero no sabría nada más, entonces la única forma es ponerlo ahí. Lo ideal sería que ese intraplex estuviera metido en fobos con su utilización EPY, entonces Fobos lo lincaría automáticamente con este puerto y entonces quedaría toda la información, pero como hay veces, como no está, hay que meterlo a mano, pues lo preguntáis, y por qué se meten cosas a mano y cosas no, porque se meten cosas a mano, porque no hay otra forma de hacerlo. Vale, nos gustaría que no se metiera nada a mano, pero no tenemos otra otra opción que hay cosas que hay que meterse a mano.
+
+41:52
+Vale, la descripción normalmente es la cogemos directamente del del puerto, ya como hemos dicho antes la descripción, pues en función de si es diferente o es igual, pues si es igual pues no aparece en ***** y si es diferente nos aparece en rojo, entonces hay que hacer algo con respecto a los que están en rojo. Vale, después nos aparece la V Lan, la MTU que tiene el equipo configurado, después nos aparece la V lan, la V Lan en este caso nos dice.
+
+42:19
+Puede puede haber una wlan o pueden haber varias. Cuando es un equipo de Tran, pues aquí pueden haber varias wlans. Vale, una de las funcionalidades que tenemos es que nosotros podemos seguir la wlan, eso es esto se puso, se puso aquí, porque con esto lo que podemos es permitir esto, se lo hicimos al futuro. ¿Control hace tiempo que pueda seguir esa wlan, por qué equipos pasa? Entonces le damos y automáticamente lo que va a hacer es descubrirnos esa V lan desde dónde viene y hacia dónde va.
+
+42:46
+Sin importarle para qué se utiliza, si está configurado bien, si está, lo que hace es seguir la W Land, Vale, entonces lo que nos dice es que está aquí en el BDI 119 92, que tendrá una dirección IP seguramente, y esto da o no, da igual o no da igual, es decir o no pasa por él y luego llega a este switch y en este switch están estos puertos. ¿Están configurados también con esta W Land, Vale?
+
+43:14
+Y esto es lo que nos es decir, te permite hacer un seguimiento del servicio, es decir, muchos servicios que entregamos son de nivel dos y la única forma de seguirlo son con novelanes, aunque sea a nivel 3 podríamos seguir, pero en este caso son muchos los servicios que damos. Son nivel dos, los sabéis muchos los que estáis aquí, lo sabéis porque sois los que hacéis esos servicios. Entonces lo que hacemos es darle al Centro de control una forma de ver por dónde va, porque esa información generalmente no está en ninguna parte, salvo que sigas un poco la orden de trabajo.
+
+43:39
+Porque muchas veces es más fácil ir aquí, ver el código del circuito, ver el que sea clicas aquí ves la V a le DAS y dices a ver por dónde va y te permite más o menos saber por dónde está. Vale daros cuenta que aunque estuviera caído es igual, el sistema lo leería, lo pone en rojo el interfaz que está caído, pero lo seguiría, es decir, porque eso fue a la configuración, a él no le importa que está en rojo porque él lo sigue, vale, en este caso es un servicio, con lo cual nos va a dar todo el mapa del servicio.
+
+44:07
+¿Esto marcó un antes y un después porque antes obviamente esto lo teníamos que hacer a mano, alguien tenía que pintarse por donde pasaban todos los todo este servicio por 1 adelante ibas al siguiente equipo, lo Mirabas, te ibas al siguiente y mirabas con esto ya no lo necesitamos, simplemente le damos y ya está, vale esto? Esto se desarrolló hace hace bastantes años para para como una ayuda para nosotros y para el centro control. Esto lo que quiere decir es que estos puertos están configurados pero están caídos, vale, están en down estos puertos.
+
+44:41
+Vale dudas. Luego en servicios veremos una aplicación para que en lo que son servicios de operadores esto también lo hace y descubre el camino del servicio. Vale, vale, es, es, es parecido, es decir, alguna vez esto se puede, se puede ser parecido al tema de de lo del servicio que vamos a ver, pero si cuando el servicio sea de de nivel dos, es decir, puede ser o pueden, es decir, esto es más, esto simplemente sigue, no vuelan, el servicio sigue, el servicio vale por donde vaya.
+
+45:09
+Vale, pues cerramos esto y aquí bueno, se puede parar y ya está, vale y ya no sigue descubriendo, vale después el circuito en los los soportes tipo kdi en en fobos siempre detectamos las adyacencias de c, d P entre 2 equipos de datos. Nosotros queremos saber quién está al otro lado de cada puerto. Si hay un equipo de datos, vale.
+
+45:38
+Y ese equipo de datos, además lo que hacemos es etiquetar esa adyacencia porque todos los servicios luego van a pasar por encima de este de esta adyacencia esto digamos que es un cable o un radioenlace o algo que une dos equipos. En este caso lo que haces es esto de aquí es un soporte. Luego veremos un poquito con detalle los soportes. ¿Vale? Lo que indica es que hay un una conexión de este equipo con este equipo a través de estos puertos.
+
+46:07
+Vale, aquí puede haber un radio enlace o puede haber una fibra o pueden haber cualquier cosa, pero este equipo se ve con este equipo a través de eso. Eso es lo que indica ese código. Esto también es automático cuando la adyacencia se detecta, si no existe, la crea automáticamente le da un código y la y la da de alta. No repetimos códigos. Es decir, cuando hay una migración en el que un cable de se cambia de puerto, lo que se hace es crear un código nuevo.
+
+46:34
+Vale, y luego los rastreadores automáticos ya se encargarán de todo lo que lo que es la aplicación, la aplicación de servicios. Ya se encargarán de de reconocer el nuevo camino durante un día, quizá 2 días, pues vamos a tener el servicio un poco de squajering en el sentido que vamos a tener una rama rota, pero cuando automáticamente se vuelva a regenerar ese ese servicio, pues ya cogerá el camino. Bueno, no, no tenemos que hacer nada sobre ello.
+
+47:03
+Y aquí nos dice, pues en este caso además tenemos un servicio de nivel 3 con este código que une este esta dirección IP con otra dirección IP en un punto a punto vale, y también tenemos una en la aplicación de servicios. También tenemos aparte de los servicios de operadores, tenemos servicios de de conectividad. Nivel 3, tenemos x CONNECT. Todo lo que pueda ir por encima de soportes para nosotros son servicios.
+
+47:33
+Vale, después tenemos en los puertos, tenemos la C esta de aquí que lo que nos indica es la configuración en tiempo real del puerto. Entonces se conecta con el equipo y nos muestra la configuración, ya está, no tiene más. Vale como veis la la gran mayoría de las cosas vienen del vienen del equipo, pero hay cosas que se pueden modificar. Hay cosas que puedes modificar aquí o cosas que se pueden modificar en el equipo porque 1 de los mayores problemas que teníamos es que alguien entraba en el equipo.
+
+48:03
+Forma local modificaba algo pero se olvidaba de modificarlo aquí o viceversa, lo modificaban aquí y no lo hacían en el en el equipo. Entonces lo que os va a explicar después Víctor, que es lo que antes le he cortado, es la sincronización de datos entre el equipo que está en en en red y la base de datos de tal forma de que siempre tengas la información actualizada de que en este caso nosotros hemos dicho que lo que tenga el equipo es lo que vale, vale, acabemos esta parte de aquí bueno si es aquí la M es nos nos muestra la Mac, las Mac en los puertos de nivel dos.
+
+48:33
+Esto es para el centro control el tema del Centro de Control de las. Necesitas ver Mac que hay en el puerto, en este caso es 190020 €9, pero bueno, en este caso nos dice también el Estado en en tiempo real del puerto. Vale, entonces nos da la información de de si está APP no está APP y la parte de y si tiene IPS vale, pues sí, también el protocolo IP como está dentro de de.
+
+48:55
+Del puerto, en este caso esto es la la misma información que nos daría el puerto. ¿Yo aquí no filtro nada, vale? Perdón, el favor no filtra nada cuando le damos lo que ejecuta. ¿Es un show interface o un show interfaz status y es la información que nos da y aquí hay que interpretarla, nos da mucha información muy útil, pero no la tenemos que leer o saber leerla, vale?
+
+49:18
+Vuelvo a comentar esto, esto es para temas de centro de control, es decir, que o que alguien quiere mirar algo en un equipo determinado, es decir, esto te lo da, si te conectas el equipo te lo da exactamente igual, pero esto es un tema de por si quieres verlo ahí rápidamente, pero vamos, que es tema de centro de control. Quizá a vosotros no os interese mucho este tipo de cosas, pero bueno, están ahí por si acaso. ¿Vale, entonces aquí de manera administrativa se puede se puede cambiar datos?
+
+49:44
+Luego si hay unos captatos es posible que luego los los los modifique, porque hay algunos que como ya hemos visto son automáticos. Pero bueno, una de las cosas que podemos cambiar sobre todo son las descripciones y el vecino. En caso de que nosotros queramos etiquetar, que hay algo en el otro extremo y que no lo ve. Por ejemplo, pues que hay un no sé, un equipo de fibra o hay cualquier cosa. Podemos nosotros etiquetarlo como después vea por CDP que otro equipo lo va a cambiar.
+
+50:10
+Con lo cual es posible que lo cambiemos y luego nos lo nos lo quite, no lo cambie el sistema. Aquí lo que no va a lo que hay que podemos hacer aquí es de cambiar una descripción. Nos lo marcará en la siguiente sincronización en rojo y podemos elegir si la descripción se la enviamos al equipo o la traemos del equipo.
+
+50:29
+Vale, y después también tenemos la herramienta de grafana, que es que grafano es una herramienta que tenemos para ver el los gráficos de de datos. Esto sí que os puedo integrar, porque muchos os preguntáis, oye, cómo está el el no sé qué y este servicio no sé cuál, pues podéis mirarlo, vais a si vais al puerto, veis luego por el servicio también se puede ver, es decir, cómo puedo ver el.
+
+50:49
+¿Cuánto me está consumiendo este cliente? Pues vas al puerto del servicio en el que está conectado el cliente, vas aquí, lo ves YY ves y ves y te conecta directamente con el grafana y puedes ver el el tráfico que está metiendo. En este caso son 60 megas, pues estás viendo en este puerto que están entrando 60 megas. Puedes verlo también en función de los últimos 90 días, que la fan es muy flexible en ese aspecto.
+
+51:10
+Rafa a necesitaríamos un curso de una semana para ver todo lo que tiene, pero bueno, básicamente lo pero, pero es muy sencillo a nivel de. A nivel de es muy intuitivo, es decir, que si os sale esto más o menos jugando con lo de las 90 días, jugando con dos parámetros más o menos, puedes ver todo, intentar no darle mucho tiempo porque la base de datos la tiene que que rascar YY claro, los recursos no lo tenemos, los tenemos siempre un poco limitados, pero bueno, así podemos ver los últimos 30 días del.
+
+51:37
+Del tráfico del del de este puerto, pues podemos verlo. Habíamos visto antes aquí que ha que ha habido habido un corte, pues como estamos preguntando periódicamente, pues aquí ha habido un corte, vale, entonces esto normalmente está entre 5 y 8 minutos cada vez que le preguntamos, con lo cual 5 minutos arriba abajo hay una correlación de cuidado. ¿Cuidado con esto, EH? Cuidado con esto porque alguno puede pensar eso es un corte.
+
+52:06
+Puede ser, puede, puede, puede, porque en el momento que pierdes gestión del equipo también lo interpreta que es un corte. Entonces cuidado porque para entrar en un equipo tengo que entrar por gestión para pedirle datos, si yo he perdido la gestión va a salir. Eso pasa que en un momento dado no veo nada. ¿Si en todos los puertos ha tenido el mismo Corte es que se ha perdido la gestión? Vale, pues comprobar en otro, pero bueno, para que lo sepáis, que esto para interpretar no siempre que aparezca un que un corte es un corte real, Eh, un corte de o puede ser que se se se haya cortado un tráfico de de otro puerto.
+
+52:36
+Aquí sí que lo parece. No sé si alguien me lo quiere explicar porque sí que seguro que es un corte, pero si no, no os pongo en ese brete porque se ve que es un corte porque la CPU, temperatura, memoria, CPU, disponibilidad no ha tenido el Corte porque todo se vería afectado, es decir, cualquier dato que estuviéramos hablando se vería afectado de eso. Como no hay ningún corte salvo en el interfaz, pues evidentemente es un corte de tráfico real, vale, puede ser un corte programado o puede ser lo que sea.
+
+53:05
+¿La información que hay aquí arriba es del equipo, EH? Esta información es del equipo y una vez ya lo tenemos abierto, pues podemos seleccionar qué puertos queremos ver, Eh, podemos ver otros puertos, podemos ver un servicio, vale porque estos son servicios, con lo cual podemos ver el tráfico que hay en un servicio determinado. ¿Puede ser que puede ser que coincida, que es que no pasa tráfico en ese momento por ahí no que se haya caído el puerto, no, sí, sí, no, no hay tráfico, no quiere decir que sea un corte de servicio, no?
+
+53:35
+No, no es un corte de servicio, si puedes puedes poner lo de antes, puedes ponerlo Víctor para que se vea el puerto, pero este casco es un puerto I p o sea que se ha caído el puerto casi seguro te te digo porque te digo cómo verlo, es decir, cómo ver si no pasa el tráfico, es decir, lo ponemos en casualidad, no, no meta Dios, está aquí el corte, ahí lo tienes bien, si te ha llegado a cero es un corte, si se ha quedado ahí.
+
+54:06
+Con el residual no, pero no quiere decir cosa esto 89 kg veis, es un corte seguro, otra cosa es que miramos ahí, no sé, 100 100 K, 300 400 KS bueno, podías pensar bueno algo, algo ha fallado, pero el interfaz, pero cuando va a cero es que es un coche, pero si es un servicio no quiere decir que se ha caído este interfaz se puede haber caído en otro sitio, EH, el interfaz y se ha cortado el servicio eso.
+
+54:31
+Sí, pero bueno, lo que dice Cristina es lo que le interesa, es capacidades, claro. Entonces puede ser que en ese momento no lo estén usando, o que ha sido un corte corte o porque en su momento no estaba pasando tráfico. ¿Esto por por poco que lo estén usando Cristina, por poquito, aunque lo tenga de backup, hay cierto tráfico? ¿Hay cierto tráfico entre unos y otros de tal? Lo que hay es decir, cuando tú ves que se va a cero es que se ha cortado este de aquí, por ejemplo.
+
+55:00
+Y ahí tienes por ejemplo 1 que tiene un pico, ves ahí lo ves este este va a pico, este es un típico servicio, lo otro no era un servicio, lo otro posiblemente fuera una multi cast y si me preguntáis y porque es una multi cast, se ve rápidamente multi cast porque el tráfico de multi Cast es constante, vale el el tráfico de un servicio es así, ves y aquí ves que baja, sube, baja sube, posiblemente sube, pues por el día baja un poco por la noche, pero nunca se hace cero, vale, está muy cerquita.
+
+55:28
+¿Pero está y ves dos cientos tal, pero nunca llega al al cero, vale, esa es la diferencia, aquí no hay corte, no, este es el servicio normal, es un es un servicio normal, saludable, que funciona, vale este curiosamente lo utilizan por la noche y por el día no? Bueno, pues a lo mejor es que por la noche hacen backup o alguna cosa de esas. Es curioso, si os dais cuenta, se utiliza entre las.
+
+55:51
+Entre las 23:00 H de la noche y las 6 o 7 de la mañana, luego ya dejan de utilizarlo hasta las 3:00 H de la mañana. Bueno, puede ser un backup, puede ser, pero vamos, no estamos para interpretar esto, pero que os digo que que que de aquí se puede sacar más o menos que que lo utiliza para para temas de backup por la noche o cualquier cosa. ¿Este servicio vale, o sea cuando se hace un equipo se hace completo, Eh? Aquí no se especifica qué puertos queremos sacar, estadísticas de tráfico, se hace el equipo completo cuando todos los veréis. Thirty Systems Subinterfaz es todo.
+
+56:20
+No, no es a ver, ya que le preguntamos al equipo, se lo preguntamos por todo, es que es más fácil preguntarle por todo que ir preguntando al 11, por todos, por por todos los interfaces, porque YYY la cuestión que alguien se lo preguntar es bueno, pero pero esto está bien, hay algún puede haber algún error, o sea puede haber errores, pero más o menos es os podría decir que al 97 98% es lo que hay en la red, vale, no digo que alguien lo encuentre, hostia, que encontré un puerto que no está puede ser, nosotros también los encontramos.
+
+56:48
+¿Pero más o menos es, está muy muy acercado a lo que es la red, sobre todo en tema de operadores, está prácticamente estaría por decir que está prácticamente vamos al día con lo que con lo que tiene, con lo que nos pasa a nosotros en el trabajo, porque si lo sabéis se hacen automática a la sala de trabajo de operadores, se hacen automáticas y todo se va metiendo en las descripciones, todo se va metiendo automáticamente, entonces es difícil que se nos olvide, o sea, se me olvida a una persona, pero a una máquina es más complicado, vale que se olvida, os olvida a todos o los pone todos, vale?
+
+57:19
+Vale, y ahora ya sí vamos, vamos a ver la sincronización. Bueno, se pueden borrar puertos, no es ninguna cosa trágica, quiero decir, si borramos un puerto dentro de 2 días o en ese mismo momento, el equipo lo volverá a dar de alta automáticamente de equipos de datos. Estoy hablando, Eh, vale, entonces si se borramos por por equivocación un puerto, no pasa nada, se va, se sincroniza y como hoy no existe, pues lo volverá a leer del equipo y se acabó, vale, sincronización de equipos.
+
+57:49
+En este caso, vale, tenemos que la descripción que aparece en el equipo es diferente a la izquierda. Espera, espera antes de nada lo que hay a la izquierda de lo que veis es lo que hay en el equipo. Lo que veis a la derecha es lo que hay en la base de datos, red y base de datos. Y cuando aparece naranjita creo que es naranjita. Perdonadme que yo esto es muy malo. Es que.
+
+58:13
+Lo que hay en el equipo es distinto que lo que hay en la base de datos y te da la opción de decir qué quieres hacer, poner lo que hay en la base de datos en el equipo o poner lo que hay en el equipo en la base de datos. Entonces vale, en este caso pues vamos a pasar como aquí le han puesto el código en servicio, pues lo que vamos a hacer es pasarlo a la base de datos. Nada, simplemente le damos a la flecha azul y ya tenemos documentado en la base de datos y ya está, ya tenemos ya está y supongo que alguien pensará, y tengo que hacer esto con todos los equipos de la red todo el tiempo, con todos.
+
+58:42
+No, no, esto se hace automáticamente esto simplemente por si quieres. En un momento dado estás mirando y en un momento dado quieres hacerlo rápido porque acabas de estar al equipo y lo quieres hacer. Pues vas y lo haces así, pero si no, no sé cuántas. Cuántas veces se hace a a la semana, a la semana se hace 3 días, o sea, perdón 3 veces a la semana o cuando hay una modificación de un equipo que también se hace, entonces lo que se hace es esto es, automáticamente lee el equipo y todo lo que hay en el equipo lo pasa a la base de datos.
+
+59:11
+¿Y esto se hace 3 veces a la semana o cuando hay una modificación vale, y entonces aquí pues nos nos saca la información de los puertos, nos saca la información de los vecinos que ya la hemos visto, para qué que es para crear las adyacencias y además también vemos las adyacencias o s P F o i s I s que también necesitamos saber esas adyacencias de nivel 3, vale esto esto? Esto nos permite tener actualizada la, la, la, el inventario con respecto a lo que hay en red, pues con mucho con 1,1 delay de un día o dos.
+
+59:41
+Sí, a ver, es es YYY. Si es una modificación de un puerto es inmediato. Si yo entro en un equipo y cambio una una descripción de manera inmediata, me lo sube a la base de datos. Vale, vale, en este caso pues ya está. Nos ha desaparecido el rojo este que tenemos por aquí y ya lo tenemos documentado. Vale, vale, ahora ya está.
+
+1:00:14
+¿Qué más tema ERP nos da la A? R p de todo el equipo, los servicios lo que hace es una búsqueda. Entonces como sabemos qué servicios pasan por por este equipo a través de determinada información, pues también nos lo va a decir. Entonces en este equipo circulan todos estos servicios aquí los C, n 3 P son tema de transporte nivel 3, que es un tema nuestro.
+
+1:00:39
+El el si es el código de servicio de operadores, pues también aparece aquí. Vale, pueden aparecer también m p, l, s o m cast que son direcciones IP multicast que están transitando por el equipo y estos son X connects, vale que estos x connects a su vez están dando de alta, o sea están dando servicio pues a a otras cosas, vale, cerramos esto y después los servicios espera, espera, da, da otra de los servicios por favor.
+
+1:01:08
+Si queréis dar a esta chisma de servicio, lo único que tienes que ver para vosotros es el resumen servicios que pasa el bom cero 6 y esos dos multicars. Los demás son códigos internos para cosas de Del propio equipo, pero los los servicios que a vosotros no interesa. Si conocéis, pues por ejemplo por aquí pasa el bom cero 60, pues ya está. Si clicas en él creo que te lleva lo que es el servicio en sí y lo puedes y lo puedes trazar por dónde va. Esto es otra para que la que lo que lo podemos ver luego obviamente está está roto con algún problema que tengo 6 de 540.
+
+1:01:36
+Pues están habiendo migraciones de 540 y todavía no se ha, no se ha regularizado todavía. ¿Vale, esto se hace la regularización de los servicios se hace una vez a la semana, con lo cual si se ha cambiado algún equipo que se ha cambiado esta semana, pues hasta el sábado no se no se no se regularizará esta información, podemos forzarlo a que lo haga, EH? ¿Si no tenemos necesidad podemos forzarle a a que sincronice toda esa información, vale?
+
+1:02:04
+Ya está lo que es la parte de equipos, más o menos estaría. Tenemos también aquí nos dice el tipo de software que tenemos y la iOS que tenemos instalada y desde aquí podemos saltar directamente a la A esta iOS y en la que nos dice cuántos equipos tiene instalada esta misma versión de iOS. ¿Vale esto? Hay una herramienta que es la la la herramienta de iOS que también nos lo dice dudas.
+
+1:02:37
+No hay dudas, no hay dudas, pues nada, es que hay dudas. Se lo preguntáis luego a a a Gus que le tenemos por aquí, no sé si con nosotros, que si está por aquí Gus, cualquier duda, no dudas, porque las dudas no las, pero cualquier cosa que hay que necesitéis se lo se lo pues se lo lo pasa, es a través del yo yo tengo yo tengo una duda, o sea en este caso cuando habéis hecho la exploración.
+
+1:03:02
+¿Que comentabas, creo que Juan Manuel que se quedaba únicamente en el en el primer centro, no, o sea te te te daba digamos la conexión con el siguiente centro, pero no seguía explorando en en este, en esto que has comentado de servicios, en esto sí que hace una exploración más profunda o casi todo pasa, pasa de misa final, ves todo?
+
+1:03:23
+Cuando es el mostrar por CDP, cuando vemos las adyacencias por el CDP de un centro, lo que nos da es el esquema del centro, sin importar los servicios que hay por ahí. La aquí simplemente es las conexiones físicas entre equipos. Vale, entonces podemos ver todas estas conexiones.
+
+1:03:45
+Y luego el soporte veremos que tiene también una utilidad importante, que es para saber en cada provincia como están interconectados todos los centros, que también los podemos saber. Vale, entonces aquí simplemente lo que nos va diciendo es eso, como tengo los cables distribuidos en un centro, que es exactamente así, en este centro están conectados de esta manera también puede algunos cables, serán equipos que solamente se utilizan para gestionar equipos. Vale, por ejemplo si tenemos un giga cero.
+
+1:04:15
+En este caso este no, pero puede ser que tengamos un switch conectado en router por un puerto de Management, no pasa nada este en este caso por ejemplo, este equipo se está gestionando a través de este cable, pero es una adyacencia física a través de un soporte de tipo gestión. Vale, no, no implica que solamente sean para servicios, no, no, no pueden ser cables de gestión, pero ahí tenemos un cable puesto.
+
+1:04:44
+Vale, vale, tenemos varias redes. También tenemos la red de shock que tiene su inventario y sus centros. Vale, tenemos la red de condes que tiene su inventario de equipos y sus centros, la red de Limi teledifusión Madrid. Y esto es un tema de pruebas que que que estuvimos probando y se quedó ahí aquí cuando hablamos de shock. ¿Perdón, EH?
+
+1:05:12
+¿Cuando hablamos de shock, este es el inventario, o sea, aquí podríamos ver dónde tenemos conexiones de fibra óptica, no, en principio sí, lo que no sé es cómo, pero aquí lo que vemos es el inventario, aquí no a ver, por ejemplo, lo que pasa es que shock, por ejemplo, no tiene CDP, pero bueno, si podemos ver los equipos vale? Y aquí nos da la misma información.
+
+1:05:42
+¿Vale de conexiones de equipo a equipo que son de fibra o son eléctricas? No lo sé. En este caso, en función de lo que hay aquí, si hay 1 1 s F P de óptico, pues veremos 1 s F P óptico. Pero a nivel lógico para mí es una conexión entre 2 equipos de datos.
+
+1:06:10
+¿Vale, comprendido, vale, los equipos de condes? Pues igual, pues tenemos todo lo inventariado, todo lo inventario de la red de condes y la red del IMI, pues tenemos también inventariado a toda la red del IMI. Además, el IMI también tiene su propio grafana. ¿Vale para hacer el el lo que son estadísticas de tráfico de todos los equipos, incluso es un equipo independiente, vale?
+
+1:06:38
+Vale, pues vamos a ir a los soportes, como ya os decía antes, vale, los soportes pueden ser de varios tipos. A nosotros, en principio los que nos interesan son los el tipo KDI, que es las conexiones de un equipo de entre 2 equipos de datos. Entonces nos dice un, el código que le hemos dado nosotros es un código secuencial si corresponde.
+
+1:07:03
+Con un equipo, o sea con un circuito de que aparece en vitra, nos lo va a decir aquí, puede ser que no, que no lo tengamos en vitra, por ejemplo, los los circuitos de gestión en vitra no están dados de alta YY los que ellos nombran como MPLS tampoco tienen código de de áreas. ¿Por por qué hacemos esto? ¿Por qué veis los cadis y todo tipo de cosas que a alguno de vosotros no le interesa para nadie? ¿Ay, esto qué es?
+
+1:07:28
+Vale, esto es una herramienta que tuvimos que utilizar porque cuando nos pidieron hacer un enrutador de circuitos automático, vale, en caso de caída, es decir, no nos queda otro remedio de que crear todo esto. Es decir, fuimos a mirar a bitra y bitra. No tenía todas, no nombraba todas las conexiones físicas entre equipos.
+
+1:07:46
+Y nosotros las necesitábamos nombrar esas, esas, esas entonces, por eso se crean estos cadis que en muchos casos no tienen, no, no tienen, no tienen un igual en la parte de bittas y no tienen coloca Víctor, y si no, no lo pone, eso es para que lo veáis. ¿Por qué se utilizan, para qué se necesitan estos soportes? Es un tema interno nuestro para el tema de los de los del enrutamiento automático. Al final lo que hicimos fue.
+
+1:08:08
+No sé si alguno conoce el tema de las redes de datos. ¿La red de datos tienen un protocolo, enrutamiento que se llama o s, P, F que es el que se encarga de ver por qué camino va cuando se cuando alguno de los circuitos se cae, vale, lo que hicimos fue meter ese algoritmo aquí dentro, lo metimos dentro para por qué? Porque cuando se cae cuando y metimos aquí lo que es toda la red, toda la red está metida aquí. Entonces cuando se cae un servicio entre: el Centro de Control tiene la opción de reenrutarlo automáticamente, es decir, ellos no tienen que tocar nada, es decir, el sistema les busca un camino nuevo y les configura ese camino. Vale, para eso tuvimos que hacer todo esto.
+
+1:08:38
+¿Es decir, os importa a vosotros los cadis, no vale, pero que seáis para qué son, vale? ¿Y por qué están puestos los cadis? Cuando los veáis ahí es simplemente un tema de que lo necesitamos internamente para hacer lo otro. ¿Vale, si alguno se pregunta y funciona lo de enrutamiento sí funciona, vale, es decir, podemos, o sea, el centro de control tiene la opción de con un botón reenrutar un circuito que se ha caído, y si es como preguntáis y por qué no lo hacen? Eso ya no es pregunta para mí, es decir, algunas veces supongo que sí que lo hacen, otras veces que no, otras veces son más rápido, otras veces menos.
+
+1:09:07
+Eso ya no es una cosa que yo tenga que contestar, pero la cuestión es que la posibilidad está porque se pidió hacía hacía varios años que se hicieron. ¿Vale, vale, los cadis? Vamos a ver 1 cualquiera, pues ya hemos visto antes que una conexión de un equipo con otro. Vale, puede tener, puede tener, ya os lo diré, puede tener radio enlaces por medio, a ver si encuentro alguno.
+
+1:09:39
+Al 3400 a yo y creo que hay alguno. Vale caudete, vale, si documentamos esto, esto es un radioenlace que tenemos en medio que comunica a dos centros. Vale, luego cuando hacemos el dibujo de los servicios nos permite saber si en a través del servicio como va fluyendo todos los radioenlaces que tenemos y si tenemos.
+
+1:10:06
+Una avería, corte en un servicio. Podemos ver qué equipos hay implicados en todo el servicio, incluidos los radioenlaces o o equipos de fibra. Vale, si le pulsamos directamente aquí encima del nombrecito lo que nos va a hacer es en tiempo real, se va a conectar a los equipos, nos va a ver que están APP y APP, es decir que los dos equipos están bien y además por CDP.
+
+1:10:32
+En en este momento ha vuelto a comprobar que efectivamente sí se ven en esto a través de estos puertos y es correcto, o sea estamos hablando de CDP. ¿Alguno dirá, y qué es eso de CDP que estáis diciendo montones de veces? CDP es un pequeño protocolo que utilizan los equipos de Cisco, solamente creo que es propietario y permite la la. La única intención de CDP es saber el equipo que está al otro lado. La información que te da es quién está al otro lado, es decir, un equipo por CDP que tenga en los dos lados, 1 te dice yo soy tal y el otro te dice yo soy tal.
+
+1:11:01
+Y de esa forma siempre ves quién está conectado a ti. Parece una tontería, pero cuando hay cambio de fibras o hay cambio de tal o alguien, los cables los ponen donde no debe. Enseguida vemos si ha habido un cambio de cables por el tema del CDP, lo vemos enseguida, por eso es cuando hay CDP, es simplemente un pequeño protocolo que sirve para ver quién está el otro lado. Vale, esto también se está, se está leyendo, con lo cual la fecha de lectura, es decir, la última vez que hemos visto fue ayer.
+
+1:11:29
+Ayer vimos este está conexión, con lo cual podemos saber si una conexión está viva o directamente ya esos equipos ya hace tiempo que se desconectaron. Vale, y podemos ver la ocupación de que tiene a través del servicio. En este caso pasa a una multicast, un sigfox y un circuito de pruebas, que eso son pruebas mías, vale, y tenemos también en algunos servicios. Podemos también la ver las calles que ha tenido el.
+
+1:12:00
+¿Cerrar pestañas perdonarme? Pero es que me pone aquí una cosa que vosotros no lo veis y me fastidia un poco. ¿Vale, vale? Y después también podemos modificar pues las descripciones podemos añadir cosas, podemos añadir el alias si sabemos el soporte que corresponde de de de Vitra, pues también lo podemos documentar con lo cual tenemos podemos tener la la relación entre las dos bases de datos.
+
+1:12:27
+Si tenemos proveedor externo lo podemos indicar también y entonces nos cambiaría el color. Con el color nos dibuja a un azul más más claro. ¿YY podemos también documentar los códigos de de de proveedor, los que utilizan y a través de qué proveedor estamos? Tenemos esta conexión de fibra, vale, después en soportes tenemos el mapa de provincias que lo que podemos ver es en una provincia.
+
+1:12:57
+¿Pues voy a poner una pequeña, porque si no, cómo están interconectados los centros de la provincia? ¿Vale, pues a través de estos soportes, cómo tenemos esas conexiones entre centros para hacer planificaciones y para instalar radio enlaces? En algunos casos me la han pedido incluso para hacer instalaciones de para llevar unos servicios.
+
+1:13:25
+¿De gestión de de un centro a otro? ¿Pues directamente por aquí puedes saberlo, vale en algunos centros, en algunos a ver qué hora es tarde, vale? Sí que quería enseñaros también esto, sobre todo para por si hay gente de.
+
+1:13:53
+3 D s, 3 d s, 3 d, s o el TEC. ¿Vale este MMM vale, esto es una estación de continua vale? Ya hemos visto que que podemos ver los datos en tiempo real de la estación de continua para los decos los 9402 también funciona para los MTR, vale, entonces aquí si hay MTRS que habrán.
+
+1:14:22
+9804. Vale, pues en tiempo real podemos ver los la información del del MTR, de lo que es la recepción en cada canal o las salidas que tenemos. Tiene alarmas y también tenemos una herramienta que en muchos casos, por desgracia, no está bien documentado, el dónde está conectado este equipo. Entonces a través de esta herramienta de aquí está, ahí lo que nos permite ver es por dirección Mac.
+
+1:14:50
+Descubrimos dónde está conectado, entonces sabemos que está en este equipo y este puerto, si le pulsamos aquí directamente lo que va a hacer es auto Documentarnos esto y aparte en el switch nos va a indicar que en este puerto tenemos conectado a este equipo, vale, con lo cual podemos ir documentándolo todo. Perdona Manuel espina no que que que digo que aquí veis un poco la dificultad que tiene. Cuando los equipos no nos dan más información el rato nos dan mucha información y podamos hacerlo casi todo automático, claro, estos equipos ya.
+
+1:15:17
+Sí que necesitamos algo de información, de que la gente vaya poniendo cosas. El radiolance a quién está está conectado, quién hay al otro lado, en quién puerta está conectado y si enganchamos todo eso, pues evidentemente engancharemos todo el servicio entero y veremos absolutamente todo, todo lo que he metido en un servicio a que meta y tal, pero eso necesitamos más información que a día de hoy. Si os soy sincero, en la parte de datos está completa y en la demás parte pues está radiolances, creo que está bastante bien también, pero en las demás partes todavía está muy empezando, por así decirlo.
+
+1:15:48
+Vale, pero bueno, es lo que hay para dar de alta un equipo que no lo hemos visto todavía. Entonces para dar de alta simplemente nos venimos aquí, al más tenemos que tener primero que nada, tenemos que tener el prefijo y el sufijo, ya hemos visto cómo se generan, en caso de que no lo tenga desde aquí también podemos editarlo y lo podemos generar, en este caso ya lo tenemos, no haría falta. ¿Se puede modificar esto? Se hizo con un algoritmo el identificar el prefijo del sufijo de todos los centros en algún caso.
+
+1:16:16
+Puede haber fallado el algoritmo, entonces te pone alguna cosa rara en el sufijo, en fin, entonces eso era más difícil. El entonces se puede modificar, pues aquí modificamos el sufijo y ya está. Ojo, que ya hay equipos dados de alta con ese sufijo, entonces habría que tener cuidado. Lo que hacemos vale para dar un equipo, simplemente le damos al más y le damos a generar qué es lo que queremos generar. Pues no sé un albalá, por ejemplo, o que hemos generado un albalá.
+
+1:16:47
+¿Qué modelo tenemos de Albarás? Pues tenemos el genérico, pues genero vale y entonces automáticamente ya nos dice que este equipo va a tener este nombre, vale que va a ser el tipo producción y ya está y le damos a enviar y nos genera el equipo además con todos los interfaces, vale, entonces por ejemplo no lo voy a dar de alta, vamos a dar de alta de Cisco. ¿Perdón, me lo he saltado aquí, vale?
+
+1:17:20
+No sé 2811 o 21502850, vale, vale, se va a llamar así el 2950, entonces yo le doy a enviar, me va a dar de alta el equipo y me va a meter ya todos los puertos que teníamos en el modelo vale, y este equipo de momento no tiene IP de gestión. ¿Por qué? Pues porque no tenemos ninguna IP definida ni podemos aún darle 1 I p de gestión tendríamos que definir 1 I p de gestión para este equipo.
+
+1:17:49
+¿Y entonces ya nos dejaría seleccionar en modificar equipos, ya nos dejaría seleccionar 1 cómo se pone 1 I p de gestión pues ahora lo enseño 1 I p de gestión que por ejemplo pase la 10:07 H dos 80 no sé si está ocupada, nos lo va a decir también EH? 107280 vale, voy a generar aquí.
+
+1:18:16
+Esto es mentira, es decir, tendría que generar una V lan, etcétera, pero bueno, 107280 le damos al tabulador y entonces nos dice que está ocupada y está ocupada por la remota y Logitech, con lo cual no podemos utilizarla o se la podemos robar, pero tenemos que leer lo que hay, a ver una que no esté ocupada allá.
+
+1:18:47
+¿Van a estar todas ocupadas? Vale, pues vamos a ir a ver y esta parte es la la herramienta PHP PAM me viene a la la vamos a ver ya inmediatamente porque me viene al pelo. ¿Podemos entrar con invitado invitado, vale?
+
+1:19:22
+Es el almacén de las IPS. Básicamente vale entonces para una sub red que es esta de aquí que es la que estamos intentando buscar 1 I p aquí debajo nos va a decir todas las IPS de esta sub red que tenemos en este centro, es decir jerarquías. RG Alicante Alcoy tenemos esta sub red y dentro de esta sub red tenemos todas estas IPS que ya las tenemos configuradas o identificadas y aparte.
+
+1:19:50
+En este caso las tenemos todas ocupadas. No hay ninguna solar IP libre dentro de este subret una cosa es que no comuniquen eso, ya no me meto, pero están documentadas todas si no o sea si no, si no están documentadas nos aparecen. ¿En resumen, nos aparecería en blanco Gestional Code dos, por ejemplo, aquí todas estas IPS están libres y podríamos provisionarlas vale?
+
+1:20:20
+Y las IPS que tenemos ocupadas nos aparecen en verde. Esto es un trabajo. La asignación de IPS ahora lo veremos. Lo que son las peticiones lo que hace directamente es venir aquí y buscar las IPS. Vale, pero podemos ver dentro de una sub red qué direcciones IPS hay disponibles y nos dice en qué equipo y en qué puerto está configurada esa IP.
+
+1:20:45
+Aquí a la parte izquierda tenemos la estructura de de de en el árbol de todo de todas las provincias. Luego dentro de cada provincia nos aparecería todos los centros. Vale que tenemos definidos y dentro de cada centro nos aparecería las subredes que tenemos definidas dentro de cada centro. Vale, esto es un. Esto es un una remota que tiene una dirección de lan y una dirección de de One. Vale, pues dentro de la dirección de de Lan.
+
+1:21:16
+Pues esta no tendríamos solamente una ocupada y tendríamos todas estas libres. Esta herramienta simplemente es para consultar. Nos viene muy bien porque su estructura de la base de datos la utilizamos mucho antes de fobos y si tenemos alguna duda de alguna IP, pues podemos venir aquí y buscarla.
+
+1:21:42
+¿Por ejemplo, vale, entonces aquí nos va a decir esa IP en qué redes está definida? Está definida tanto en la red de gestión como Enimi podemos tener esa sub red y además nos dicen que sub redes vale en este caso está definida dentro de esto y aparte tenemos también documentada 1 I p concreta que es esta weland de aquí que es fobos vale YY está weland está la weland 109 de fobos que pertenece a la.
+
+1:22:10
+¿A R D G que es la red de cellex? Vale, aquí también podríamos dar un curso de varios días sobre pencipipan, pero tampoco tiene mucho sentido explicar mucho más de lo que está aquí simplemente, ya que ya os digo, tenemos las subredes documentadas y todo el direccionamiento IP documentado. Aproximadamente ahora mismo estamos en unas 80000 subredes y unas 140000 direcciones IPS documentadas.
+
+1:22:40
+Entonces a la hora de buscar este buscador es muy bueno y muy rápido. Esta aplicación es la que no sé si va mucho a una reunión o no, es la que se va a utilizar o que habían utilizado para todo el Grupo. Para nivel de de un tema de IPS esto simplemente es es también es de dominio público y es un sistema. Esto lo utilizamos también hace un montón de años, lo encontramos YYYY lo utilizamos, luego la lo ha cogido todo el Grupo, nosotros no teníamos nada que ver, la da la casualidad de que lo han cogido.
+
+1:23:09
+Y la única es simplemente para guardar direcciones IP, es decir, es una forma de direcciones IP. ¿De qué es lo que hay en ese equipo? Lo tenéis ahí, lo podéis utilizar, ponéis arriba el buscador y ya está, no tiene más, está enganchado con fobos, con lo cual lo que pones en fobos está aquí también, con lo cual, si lo que buscáis es una dirección IP, que hay exclusivamente una dirección IP, quizá sea esto sea mejor si buscáis un equipo siempre fobos vale, sí, sí, sí, vale, dudas.
+
+1:23:38
+Pues vamos a ver corriente, si no, no hay todas. Bueno, pues echamos un vistazo rápido de servicios y luego ya miramos la el resto de herramientas. Vale, busca de servicios, hemos visto soportes apoyados sobre soportes, pues tenemos la base de datos de servicio periódicamente. Fogo, se conecta en vitra y entonces va a empezar a descargarse todos los todos los los servicios de operadores.
+
+1:24:10
+Que tiene bitra que se han dado de alta y que nosotros desconocemos. Vale, entonces aquí hay un ejemplo que es este de aquí en BT 1586, vale, este se ha auto, lo ha descubierto fobos vale y dice que se ha importado desde bitra de con esta con esta o t vale. ¿Y en qué fecha se ha sincronizado?
+
+1:24:40
+Que se sincronizó el día 8 del 6. Vale, y el Estado en el que está aquí lo que nos indica es el recorrido de todo el servicio. O sea, el servicio empieza aquí el 3400 de P, China en el puerto 20. Fijaros que aquí como tenemos definido un soporte de un radio enlace, es el mismo puerto y lo que nos va a decir, vale.
+
+1:25:08
+Nivel cero es que en realidad a nivel lógico es la entrada de este servicio, pero en realidad está entrando por aquí el servicio. Lo que pasa es que nosotros no tenemos visión de de esto, del tráfico que hay por los radio enlaces, entonces a nivel lógico entramos por aquí. A nivel físico estamos dando el servicio este de radio enlace y esto vamos a verlo porque el puerto es el mismo, es el fasternet cero, barra 20, vale este servicio, después va hasta pechina nivel dos.
+
+1:25:39
+Y después tenemos dos x CONNECT que podemos ver a nivel lógico que es de esta manera vale, tenemos un x CONNECT que va para aquí y otro x Connect que va para allá y se entrega en este equipo, en este puerto o en este equipo. En este puerto vale en el Giga 0042366 o aquí en el giga 16, el 2366 es igual, vale, esto es un servicio precisamente este equipo.
+
+1:26:05
+Estos servicios son los que no se pueden reenrutar los servicios que tienen dos entregas. Los servicios que se pueden reenrutar son los que solamente tienen una entrega, que son la mayoría. Por cierto, los que tienen dos entregas serían muy complicado de reenrutar esto y como era la minoría, pues se dejó. Y aquí lo que nos dice exactamente es por qué equipos y que por qué puertos va pasando el servicio. Vale entonces partiendo de este equipo que empiezan por la faste cena de cero barra 20.
+
+1:26:34
+Que utiliza este esta V Land y además es un túnel. Pues eso. ¿Y a partir de ahí, cómo va pasando por los diferentes equipos? ¿Qué podemos hacer? Podemos rastrear el servicio, es decir, dime por dónde vas pasando. ¿Entonces automáticamente lo que va a hacer es ir, se va a ir conectando a los equipos, vale, y lo que va a haber es esa V Land, que acordaos que es la evolución del rastreador de V lands, esa V Land por dónde va pasando y ahora mismo?
+
+1:27:04
+¿Está el servicio bien? Están llegando a las entregas y como tenemos un backup de un de un x CONNECT nos dice también por cuál de los dos está pasando el servicio. ¿Este lo tenemos stand by, que este de un color así marrón clarito y este lo tenemos en APP que está en verde, es decir, el servicio lo estamos entregando aquí ahora y este está en backup, vale? ¿Lo veis, vale?
+
+1:27:34
+En algunos casos podríamos reenrutarlo, ya os digo, en este no, pues teniendo dos entregas en los servicios que son de de un solo de una sola entrega, se pueden reenrutar. Entonces vamos a buscar un servicio, por ejemplo, el Colt 0990 vale en este equipo, o sea este servicio.
+
+1:28:04
+Lo hemos dado de alta, pero todavía no lo hemos rastreado. Entonces está de alta automático y entonces lo que hay que hacer cuando tenemos un servicio así es dar decirle que lo rastree. Entonces lo que damos es sincronizar automático o manual, en este caso para ir más despacio es prácticamente lo mismo. Lo que va a buscar es dentro de la base de datos de puertos, puertos que tengan esa descripción.
+
+1:28:31
+Esta de aquí, con lo cual tenemos puertos. ¿Dónde empieza esto en Marbella? Pues en Marbella es este equipo de aquí, con lo cual este servicio empezaría aquí. Entonces a partir de aquí lo que va a hacer es rastrear el el servicio y me automáticamente me lo va a dar el de alta en la base de datos. Este equipo. ¿Por qué no está dado de alta automáticamente este servicio? Porque no ha sabido encontrarlo.
+
+1:29:01
+En teoría lo tiene que hacer automático, pero hay veces que no lo hace, entonces cuando tiene dudas no lo hace, vale, entonces ya nos quedaría documentado este servicio. Tenemos aquí un x CONNECT, vale, y entonces datos editar podríamos darlo directamente, ya que estamos pues vamos a dar de alta el servicio, ya tenemos dado de alta el servicio en fobos, a partir de aquí ya se podría reenrutar.
+
+1:29:32
+Vale, si además nosotros quisiéramos saber esta conexión MPLS, para nosotros acordaos que es un servicio más, o sea, una conexión MPLS es un x CONNECT que para nosotros es otro servicio que tiene va por una capa inferior. ¿Entonces, cómo podemos saber por dónde va a pasar ese? Pues directamente desde aquí podemos trocearlo.
+
+1:29:58
+¿Y lo que va a hacer es decirnos desde ese x CONNECT para ir desde este equipo hasta este equipo, por dónde va a ir pasando? ¿Vale entonces para ir desde aquí hasta aquí? Esto que que os he estado contando teóricamente es es una excepción, es decir, todos los servicios deben de estar metidos, ya vale para de tal forma de que tienes todos los servicios, es decir, esto no está para que lo hagáis vosotros ni ese tipo de cosas. Es decir, no, no es la idea.
+
+1:30:31
+¿La idea que tengáis utilizar esto es para veis por dónde va, es decir, no que tengáis que dar esto sincronizar manual, no, si no tienes algún problema de esos habláis con nosotros porque yo entiendo que esto verlo y decir Ostia esto qué tengo que hacer aquí? ¿Es decir, eso es un error nuestro que debería estar metido, vale vosotros en teóricamente todos los equipos tienen que estar rastreados y tienen que estar metidos en todos los servicios y vosotros lo que os interesa es ver por dónde va el servicio, si es que lo necesitáis, oye, quiero ver por dónde va el servicio, incluso aquí el tema de Reenrutar tampoco os afecta a vosotros porque es el centro de control, pero se hace desde el mismo sitio, vale, vale?
+
+1:31:02
+Os digo, tenéis claro que este equipo no tenéis que hacer este procedimiento, es decir, esto no es algo que diga, Ostia, me he perdido que tengo que hacer aquí de manual y no es no, no, nada es decir eso. Si tenéis algún problema de que 1 de los servicios no está, nos lo decís inmediatamente, oye, está el servicio, lo he ido a mirar porque tengo que mirar, no sé qué y no lo veo, nos lo decís a nosotros y lo y ya lo ya lo miramos, es decir, teóricamente aquí tienen que estar todos los servicios metidos, que De hecho están casi todos, están casi todos, pero los algunos de los que se van sincronizando automáticamente no se.
+
+1:31:32
+No, no se sincronizan. Entonces hay que echarles una manilla para que lo hagan. Vale, entonces una vez ya tenemos el x CONNECT también lo tenemos. Y aquí lo que nos permite es que para ir aquí, aquí a nivel cero, lo que nos va a indicar es exactamente este MPLS. En realidad lo que va a hacer es ir por aquí, aquí, aquí y aquí. Vale, entonces este servicio va a seguir esta trayectoria.
+
+1:31:59
+A ver, la la la. Lo que os ha puesto aquí es las diferentes capas que puede tener un servicio. ¿Es decir, cuando tú estableces un servicio a TI te dice un principio y un final, pero realmente es el principio final? En el caso de los x Connect, que son unos, unos, unos, como si dijéramos unos no son interfaces, es una, es es un circuito lógico que se construye sobre una red. ¿Al final te interesa saber por dónde va físicamente y eso es lo que saca Víctor cuando ha puesto que has puesto m cero, verdad?
+
+1:32:29
+Cuando has puesto en el cero, él saca los los equipos sobre los que pasa realmente, a ver si tenéis que tener en cuenta temas de de ancho de banda o temas de por dónde pasa o temas de un corte programado o si va a aceptar o no. Tenéis que ver esto, entonces esto es lo que es, hay un, hay un, hay un anillo como veis aquí a nivel a nivel físico, que son esos cuatro equipos y te está diciendo, pues exactamente por dónde puede pasar, por dónde puede pasar, por dónde va, no lo sabemos.
+
+1:32:54
+¿Por dónde va? Generalmente ese es el camino más corto, pero puede haber otras cosas en tal, no nos dice por dónde va exactamente, te dice por dónde puede ir, vale, te da las opciones, es decir, va el camino entre el 9000, el mal 920, DAT 1 y el 9900 y t X o p 2 puede pasar porque está conectado directamente o por nosotros dos. El sentido común nos dice que va a poner más corto, pero puede ser que no podemos tener ahí un interfactural. Por otro lado podemos tener le hemos modificado el, el, el, el.
+
+1:33:23
+Los costes o s p F iba a ir Por otro lado, es decir, no lo deis por hecho. Es decir, simplemente tenéis que tener en cuenta que ese tráfico puede ir por un lado o por el otro. Nivel lógico se ve que sí vale algunos servicios, por ejemplo, también tenemos.
+
+1:33:46
+Registrado 1 de de Multicast si quieres para que lo vean este es un servicio de unicast. Bueno, no sé si lo ha explicado Víctor, es un servicio de ethernet de nivel dos en el cual es la capacidad. Muchos de los que estáis aquí son los circuitos que estáis manejando y pero también vamos a ponerlo de multicast porque también hay gente aquí que está o que o que o que conoce los servicios de multicast y quiere verlos. ¿Cómo se ven aquí? Todo lo que es un servicio de Multicast busca el servicio, entonces buscamos aquí c 1 2 3 4.
+
+1:34:14
+Cero bueno, busque 1, busque 1 para que no fuera extremadamente grande porque hay algunos que son tremendos a buscar más esto precisamente. Bueno, esto está bien, es 1 de los pequeños, vale, es un servicio multicast en el que nosotros tenemos esta fuente que tenemos aquí 234005 vale que tenemos la fuente detectada en esta dirección. ¿IP, esto es esto, todo es automático Eh? Toda esta información la vamos rastreando en la red.
+
+1:34:44
+Entonces cuando encontramos multicast lo que hacemos es rastrear esa multicast a ver hasta dónde llega. Cuando son de nivel 3, las multicast de nivel dos nos rendimos, o sea es una locura. A veces el los equipos mismos no saben que está pasando multicast nivel dos y entonces es probable que mientan porque hay muchos equipos que pasan a través de X connects o pasan determinada manera y los equipos no se enteran que está pasando a nivel dos.
+
+1:35:12
+Nivel 3 sí que funciona bastante bien. Entonces a partir de una fuente y una dirección IP multicast lo que hacemos es construir el árbol de distribución multicast, que en este caso la fuente la tenemos en este equipo. Vale que por este puerto tenemos la entrada de al.
+
+1:35:33
+Del del y a partir de aquí lo que hacemos es distribuir esa multicas tanto a nivel 3 cuando está con... o a nivel dos cuando está en línea continua. Y esa distribución. Cómo se va haciendo esa distribución a través de de toda la red de esta multicast vale, podemos por un lado volver a rastrear. Si yo le doy rastrear a multicast lo que va a hacer es dibujarnos en el árbol de distribución multicast.
+
+1:36:04
+Y si encuentra un camino que no tenemos documentado, no lo dibujaría en amarillo. ¿Vale para para qué es eso? Para. O sea, esto lo guarda cada X tiempo, es decir, cuando lo ponéis no tenéis que hacer nada. Ya os da la de multicast. Es como un snapshot, es decir, os coge lo que.
+
+1:36:20
+Nosotros esto cuenta cuanto lo hacemos, cada cuanto hacemos este, este, este, una hasta la semana. De hecho se una vez una semana rastreamos una multi cast vale, el día 10 se rastrearon, claro. ¿Por qué pone aquí rastrear multi cast? ¿Qué significa eso? Significa que si yo en ese momento tengo un problema o estoy, no me coincido. Quiero saber exactamente qué hay en ese momento y no tengo que seguir toda la multila imaginaos seguir la multi Cast por todos estos equipos.
+
+1:36:42
+O sea, yo no sé si hacer una idea, pero si tuviéramos que seguir este equipo aquí, pues si ya no lo ocurra, entonces lo que haces es al final dices, bueno, voy a ver lo que hay actualmente, no sea que de aquí a unos días algo se ha caído. Le doy a rastrear multicas y lo hace en el momento y me descubre si hay nuevos caminos o me descubre si hay caminos caídos. También referente a lo que tenía guardado. Esto le sirve al Centro de control cuando quiere ver si hay qué afectación tiene, cuando se le ha caído alguno de los alguno de los de los enlaces que tiene, vale, pero simplemente que sepáis.
+
+1:37:10
+Que cuando lo ponéis os da el árbol de distribución que necesitáis ver. Oye, yo veo el árbol de distribución, lo veo. Que si queréis estar más seguros que a ese ahora mismo le dais a rastrear y se ve en esos momentos os podéis encontrar también que hay algo cortado, también aparecerá en rojo, vale, pero si no aparecen, si hay nuevos caminos, si hay una modificación, si hay una configuración nueva, entonces os aparece una nueva tal. Si lo queréis saber al día, le dais a rastrear, si no, si os vale con como está, más o menos lo ponéis y ya está.
+
+1:37:34
+¿Vale, aquí en la cita va diseñando los los los que está viendo en tiempo real, está viendo esto entonces va dibujando en una Rosa, claro, cómo sabíamos antes las distribuciones? Pues difícil porque o las pintabas, pero claro, cada modificación que había de esto tenías que estar, tenías que estar modificando el este cada poco, entonces con esto no necesitamos eso. ¿Si ya tenemos snapshot de lo que hay y ya está y sabemos todas las distribuciones multicas a dónde llegan, vale?
+
+1:38:01
+Con lo cual los esquemas para nosotros hombre, siempre vienen bien, pero que en este caso más o menos nos sirven muy bien. Esto de de de esquemas de red para servicios, vale, hay algunas muy locas si queréis ver por por curiosidad, Eh, bueno, hay selecciones de nacionales, pues pues os podéis creer, pues que que estas estas no tocas, o sea es.
+
+1:38:28
+Tremenda, pero bueno, la he construido el día 10 del 6, también la rastreo completa, vale, entonces tenemos el origen aquí y a partir de ahí hemos construido toda esta red de distribución de manera automática. ¿Vale, qué? ¿Qué hay por debajo? Lo único que hay por debajo es que entramos en cada equipo, vamos viendo los comandos que hay que utilizar en Cisco y lo mismo que Harías tú pintándolo en una en una hoja, pues te lo haces aquí lo vas, vas cogiendo la información y la vas poniendo nada más, no tiene nada más.
+
+1:38:56
+No es ninguna herramienta de mercado que exista ni nada. No está hecho a mano, vale, vale, De hecho, intentamos varias herramientas de mercado hace muchos años con el tema del multicast y las pocas que había en su momento y ninguna funcionaba bien, con lo cual al final tuvimos que desarrollar una, ni ni hay ninguna que funcione bien actualmente, porque ya no hay para que seáis una idea de multicast. Ya no le interesa absolutamente a nadie, es decir, ni a los fabricantes.
+
+1:39:24
+Y a la gente en general intenta evitar o o evitar el tema de multicast. Nosotros nos queda otro remedio porque tenemos que distribuir con multicast, pero no es lo normal en el mercado. Vale gente que no conoce ni lo que es el multicast y son operadores y ni siquiera sabe lo que es el multicast ni el tiene por qué entenderme. Por eso apenas hay herramientas de temas de Multicast. Vale normalmente en vitra la coincidencia vitra lo que tiene es dado de alta muchos tramos.
+
+1:39:52
+Entonces tiene todos estos tramos dados de alta que en realidad nosotros lo identificamos como un único código con una fuente. Entonces a partir de una fuente construimos todo el árbol y le damos un único código. ¿Entonces podemos buscar ese código in vitra a través del buscador de servicios? Si traemos el Código Vitra, podemos intentar encontrar el servicio de Código que tiene fobos de servicio de con ticas que tiene documentado.
+
+1:40:21
+¿Aquí sí que no hay búsquedas en Vitra, Eh? Aquí lo que hacemos es solamente buscar en la red y dentro de la red las direcciones IPS que hay, pues las vamos provisionando automáticamente. Vale alguna duda. El tema de servicios hay mucho, pero no podemos extendernos mucho más allá porque con el tiempo que tenemos que es muy poco.
+
+1:40:53
+Vale, pues vamos a ver lo que son GPRS, grafana, vale, Gray lock. Hay una herramienta que utilizamos bastante, que es el tema de Gray lock, que lo que nos permite es recoger los logs que se van generando en los equipos. Vale, y aquí lo que no, aproximadamente estamos recibiendo alrededor de 1000000 y medio de logs diarios.
+
+1:41:19
+Vale, todos los equipos generan esto. Esto es un lock que genera un equipo que espontáneamente dice, me pasa esto puede ser cualquier cosa. En este caso 1 C, P, Duplexmeet Max puede ser una caída de un interfaz, puede ser una caída a un protocolo, puede ser una advertencia. Generan, ya os digo, muchos logs diarios y eso lo vamos almacenando en algunos casos, si recordáis el up o el down de los equipos en los puertos que nos decía si estaba postradown.
+
+1:41:48
+Lo sabemos por aquí porque cuando nos llega desde un equipo que nos dice que se le ha caído un puerto, entonces vamos a fogos y lo marcamos como se ha caído. El puerto tiene herramientas de búsqueda, pero no me voy a extender mucho más que si a alguien le interesa que que entre en herramientas Grey lock invitado, invitado y puede entrar libremente y buscar cualquier búsqueda de esta. Se puede exportar, se puede exportar a 1 a a a 1 c, s, V y podemos descargarnos sobre un equipo todos los incidentes que ha tenido un equipo.
+
+1:42:17
+Vale, vale, esto es porque al final porque necesitamos esto. Esto es una herramienta de también de dominio público Grey lock, que se puede descargar de cualquier sitio. Es decir, nosotros la la instalamos porque nos parecía una de las más potentes que teníamos para el número de lo que teníamos, porque al final no teníamos un un six lock, es decir, teníamos un six lock de los normales de lo que en cualquier máquina de Unit te pone six lock y aparecen ahí los los lock, pero en modo texto. O nos teníamos que ir a a n, n, M, n, M.
+
+1:42:42
+Pero que tampoco teníamos mucho acceso al log y al final decidimos poner esto, con lo cual tenemos ahí todos log y lo utilizamos, es decir, es es útil para vosotros, depende, es decir, si queréis algo muy muy determinado sí, pero que sepáis que está aquí y estoy de acuerdo con Víctor, tampoco que daré más vueltas, que sepáis que esto es el sistema de log que tenemos para recuperarlo, para recogeroslo y ya está. Tampoco quedaría más vueltas porque no creo que lo vais a tener que utilizar algunos, sí, por ejemplo la gente que está está con nosotros, gente de tecnología, si necesita haber algún determinado log o alguna cosa.
+
+1:43:08
+Pues puede entrar aquí y verlo sin problemas. ¿Vale, entonces, pues este invitado invitado, lo que tienes derecho a ver cualquier cosa, o sea que sí, sí, los equipos hay que ponerlos de esta manera, Eh? Sobre o sobre todo hay que poner ese sí. Bueno, es el* al final del nombre de equipo, porque el* se llama.
+
+1:43:26
+No, no, el problema sí porque el equipo no se llama Val 3 perdón, me he equivocado yo aquí 3400 Tor dos, el equipo se llama vale dos, punto retevisión. RBG, punto red, visión de dividual.es entonces el equipo para Grey Lock, si queremos saber un equipo, simplemente lo ponemos aquí el nombre del equipo* le decimos en qué intervalo tiempo queremos hacer la búsqueda, le damos a buscar y nos saca la información, vale, ya está.
+
+1:43:53
+Grey lock, no vamos a entrar mucho más allá, sino que sepáis que se están capturando los logs diarios de los equipos. Los guardamos poco tiempo, poco tiempo. Estoy hablando de 3 meses más de allá de 3 meses. No podemos guardarlos porque no nos caben, porque directamente las Board. O sea, creo que mira el último día han entrado 1426000 registros.
+
+1:44:21
+Hay muchos datos de equipos de pues muchos equipos que son cantarines y que periódicamente están quejándose de cosas. Y hay equipos que son muchos eventos del tipo temperatura, ventilador, hay muchísimos eventos de ese tipo, pero también hay información importante como se me ha caído un protocolo, se me ha caído un puerto, con lo cual al final los tenemos que recoger todos, analizarlos y en función de lo que sea, pues ya lo hacemos. Vale, que sepáis que eso está ahí.
+
+1:44:46
+La herramienta grafana también la hemos visto antes, pero bueno, si la hemos visto ya, si quieres sí, pero vamos, ya la hemos visto. Yo creo que si tenéis algún inter entramos en podemos entrar. Yo creo que muchos coard, algunos de vosotros ya tienen acceso a esta herramienta, sobre todo crear, podéis crear cosas si queréis, por lo menos tenéis habéis pedido acceso para crear cosas y si no lo tenéis, si queréis crear o modificar o ver, nos lo pedís también que os lo damos, esto es.
+
+1:45:14
+Libre para todos, o sea, es decir, esto no es que nosotros tengamos esto y no queremos, no, no, esta información está ahí y todo El Mundo puede hacer lo que quiera, incluso si alguien quiere decir, Oye, me dejas que quiero hacerme unos unos gráficos sin problemas, sin problemas. Es una herramienta que hemos puesto para que todo El Mundo la utilice. Vale, no solamente está, está para muchas cosas, para tráfico de Internet, tráfico de equipos. Algunos. Alguna vez me habéis pedido tráfico exclusivo de un cliente, es decir.
+
+1:45:40
+Cualquier cosa está se puede poner en grafa, todo lo que se pueda medir se puede poner en en graphat. Los datos los tenemos, o sea, es decir, los datos en interfaz los tenemos desde con una cadencia de 1 año. Si queremos ver los datos de un servicio, tendríamos el servicio durante 1 año. ¿No es que cuando metemos un un dashboard nuevo a partir de ese momento sea captura, sino los datos ya los tenemos, vale?
+
+1:46:03
+O sea que podíamos ver gráficas de 1 año con 1 año de antigüedad. Vale sobre todo importante es en equipos, datos, equipos, nuevo modelo que este es donde podemos ver las estadísticas de cualquier equipo, cualquier equipo a s R 9 K 540 y iOS XE. Vale, si queremos ver tráfico de equipos 3400 no están todos porque hay muchísimos y tienen muchísimo tráfico y tampoco nos cabía.
+
+1:46:32
+Entonces, si necesitamos monitorear algún 3400, hay que hay que ponerlo específicamente, que lo haga, vale, y a partir de ese momento sí nos daría, nos haría la las gráficas del equipo completo. Repito, siempre grafana hace equipos completos, nunca podemos especificar un puerto determinado. Entonces a partir de ese momento, pues ya tendríamos el el tráfico de de ese interfaz. Vale, si son XEXR.
+
+1:46:59
+No hay que decirle nada, automáticamente en el momento que entra el equipo ya se van a hacer gráficas de todo el equipo y aquí lo que haríamos es pues seleccionar el equipo, no sé cualquiera de ellos. No sé si tenemos ya estadísticas de tráfico en sí, este ya tenemos, seleccionamos los puertos que queremos ver o el puerto que queremos ver, entonces por ejemplo vamos a ver los dos tens, pues marcamos los dos tens en puertos.
+
+1:47:22
+¿Entonces aquí arriba nos da la información del equipo, en este caso disponibilidad, no tenemos el momento CPU memoria porque hay que mirar, hay que ver igual en Eloy de de estos equipos dónde están porque es diferente a otros equipos y entonces aquí debajo nos da la información de tráfico de ese puerto, estadística de tráfico y aquí también fijaos aquí son 200 megas estos multicast? Sí, aquí igual esto es casi seguro que son multicast, bueno un mega no lo sé, pero aquí debajo 200 megas de tráfico mantenido.
+
+1:47:51
+Seguro que lleva seguro. Seguro que en ulticas y aquí arriba podemos decirle de tal fecha a tal fecha o podemos especificar el tiempo por las últimas 24 horas, pues nos da el tráfico de las últimas 24 horas o este que era 11920 o 900, no, un quien no o que no, esto es un quien no, 40 no y nos dará. ¿Cuándo empezó, cuándo empezó a capturar información? Aquí, o sea este equipo se está, el otro día vale y a partir de ahí ya tenemos información de tráfico.
+
+1:48:21
+Hace poco se cambió la semana, muy poquito se cambió pues el día cuatro del 6, o sea la semana pasada y ya hasta que se desmonte este equipo va a estar capturando datos y tenemos tenemos unos datos de un de 1 año desde aquí, pues tenemos en podemos ver, acordaos lo que es la estadística de tráfico, vale, nos podemos ir directamente hasta el el circuito de adyacencia correspondiente.
+
+1:48:51
+¿Y en grafana? Pues tenemos he cerrado, así que la ventana perdón tenemos además en Grafana, pues estadísticas de pins, de de Latencias, de caídas. ¿Bueno, quien quiera dar información a que le que bucee un poco por aquí en en dashboards aquí en las 3 Rayitas Dashboard y a partir de aquí pues que pueda verlo también monitoreamos sistemas, estamos haciendo bastantes, bastantes gráficas, vale?
+
+1:49:22
+Bien, pues grafan ya está y PAM lo hemos visto también buscar Max de momento, pues vamos a saltarlo portal de peticiones y el de buscar V lands, la herramienta de buscar V lands es la primera que vamos a ver ahora corriendo herramientas V lands búsquedas libres lo que nos permite es.
+
+1:49:49
+¿A ver eso les voy a explicar por qué hay una herramienta de buscar el boulam, alguno diría Pack es esto? El problema es buscar Uber anes, que las Uber anes solamente hay de 4096, es decir, no se pueden utilizar más, es decir, estamos limitados, entonces al final vamos, repetimos Uber Anes entonces para buscar por centro los que están libres, pues hicimos esto, es decir, al final lo que haces es tú metes el equipo y te va a decir esas Uber Anes que tienes libres en ese centro.
+
+1:50:13
+Porque no tenemos 4096, es decir, y a nivel global no las podemos guardar porque ya hubiéramos pasado de 4096 seguro, con lo cual lo que hacemos es a nivel local, pues ponemos una en un lado, luego llevamos el tráfico a otro lado por por otros medios y ponemos otra bola que puede ser esa o puede ser otra diferente. Vale, vale, la que tenemos es, pues por ejemplo, le diríamos al 3400 Tor.
+
+1:50:38
+Y va al 900, vale, imaginaos que queremos llevar un servicio desde Torrente a picayo, vale, pues le pondríamos los dos equipos separados o con comas o con espacios. Da igual. Y además le decimos que que queremos incluir en la búsqueda todos sus vecinos y incluir los centros completos. Esto es decir, lo que nos va a hacer es buscar una uber a libre dentro de Torrente y picayo. ¿Por qué? Pues porque quiero llevar un servicio de Torrente a picayo y necesito asegurarme.
+
+1:51:08
+Queden en en ninguno de los dos centros voy a tener su ov lan, vale, podemos poner todos los equipos aquí si hacemos un copia a pega lo podemos hacer desde desde Excel, tenemos una columna que tenemos todos los equipos, marcamos todas las columnas copiar, venimos aquí y pegar, No obstante, podemos también pegar un Excel, vale, entonces le enviamos el Excel, haría exactamente lo mismo leernos la columna del Excel con todos los equipos.
+
+1:51:36
+Y le damos a enviar y entonces lo que hace es buscarnos y nos dice una uberland que podemos utilizar y nos asegura que dentro de de en estos centros no tenemos esa uberland utilizada. Esto creo que lo utiliza. Antes voy a hacer lo de gestión de red, pero ya no sé quién hace de gestión de red. Pero efectivamente antes gestión de red es lo que utilizaba para para poner las horas de trabajo, poner las V Lanes para para esto. Vale, si ahora no sé que las hace.
+
+1:52:01
+¿Si le damos a reservar, nos reservarías tú V lan para estos centros, vale? Con lo cual, si cualquier otra persona volviera a preguntar esta no se la daría y si no la vamos a utilizar durante un mes, la vamos a tener reservada para durante un mes y luego la liberamos y una vez ya el equipo se diera de alta. Vale, si no la utilizamos no pasa nada, al al mes se libera. ¿Si durante ese periodo instalamos un equipo, vale?
+
+1:52:30
+¿Como ya tendrá esa V lan entonces esto ya automáticamente digamos que de manera implícita se reserva su V Lan y ya no lo utilizaría nunca aquí importante en el tema de reserva de IPS que se hace automático cuando hacemos una pedimos una reserva de IP de gestión, lo digo para que alguno supongo que lo sabéis, pero si alguno lo sabe creo que tiene una validez de un mes y en un mes creo que no se ha, no se ha, no se ha instalado nada, no se ha puesto nada, la IP se libera y el puerto se se se vuelve a dejar como libre, vale?
+
+1:52:59
+Veo que cuando podamos gestión que tengamos cuidado en en producción, no en producción. Lo que se queda se queda ahí y aunque lo reserve se va a quedar ahí toda la vida porque nadie se atreve a a borrarlo. Ahí los que lo hagáis con producción pues hay que esperar a que llegue la baja y si lo habéis pedido por error, pues ahí se queda. ¿Sobre todo porque y me preguntáis por qué no lo has hecho igual? Porque se decidió que es no nos no se en la reunión que que estuvimos nos.
+
+1:53:24
+No dimos ese paso de decir, pues si hay un una reserva de una producción que está caída x tiempo se borra automáticamente. No lo hicimos, no, no, no, no dimos ese paso. Lo de gestión sí, la gestión, si está más de un mes se borra, tenéis que volver a pedirlo otra vez, vale el número de W Lan es aleatorio, pseudo aleatorio, quiero decir, no va a utilizar la reserva, si yo le doy a enviar me va, me va a dar otra vale, o sea, esto es me va a coger un número de de manera aleatoria en las que tengo libres.
+
+1:53:54
+Con lo cual es difícil que se que nos diera la la misma ubera en el mismo día en dos centros, pero bueno, por si acaso tenemos la opción de reservarlas. ¿Vale, vale? Portal de peticiones a ver, sí, en las herramientas tenemos el portal de peticiones 2 minutos. Víctor, nos queda bueno, podemos hacer peticiones de IPS desde aquí y es que desde aquí damos el correo de nuestro correo.
+
+1:54:22
+¿Si tiene asociada una petición de servicio, la ponemos para qué queremos? Si son para enlaces y operadores y para resto de servicios, pues vamos a instalar una estación de continuidad, pues resto servicios, o sea, no hay más. ¿Queremos instalar un switch? Pues lo mismo, resto servicios. Si vamos a instalar un radioenlace acordaros que.
+
+1:54:45
+Que hay una petición, unas peticiones específicas para radioenlaces que enviamos la ficha del radioenlace con la marca el modelo porque es mucho más complejo que pedir solamente un p. Normalmente un un radioenlace tiene varias IPS, entonces hay que se gestionan de otra manera. Si son IPS para gestionar equipos, switches para gestionar, no sé, una estación de continua, etcétera, etcétera. ¿Se hacen por aquí entonces?
+
+1:55:11
+¿Daríamos la descripción, para qué lo vamos a hacer? Vale, y entonces lo que tenemos es luego vamos a dejar un poquito un poquito más pequeña. Vale aquí una vez ya tenemos aquí la la petición Estado borrador, entonces ya podemos ir añadiendo hosts, vale, entonces podemos ir diciéndole el código del centro imprescindible el código de centro, vale, podemos buscarlo.
+
+1:55:39
+¿Valencia qué centro queremos? ¿Pues enguera, pues vale, aquí en verde nos dice que es correcto el tipo de IP que vamos a utilizar, qué equipo vamos a conectar, es decir, podemos decirle ya desde aquí qué equipo vamos a conectar? Si no, no pasa nada, podemos dejarlo en blanco, el nombre del host que va a tener vale, es un nombre corto, no, la descripción va aquí bajo, o sea aquí no se puede poner, necesito el switch, no, no aquí.
+
+1:56:07
+Un nombre cortito que identifique a lo que queremos, remota transmisor TXE, pues no sé, decodificador. Y en la descripción podemos podemos extendernos un poquito más, pero tampoco podemos poner la Biblia porque esto alguien lo tiene que atender. ¿Vale lo enviaríamos host prueba podemos enviarlo un Excel? Sí.
+
+1:56:35
+O sea, podemos crear un Excel, nos podemos descargar la plantilla en en Excel, vale descargar plantilla. ¿Qué es lo mismo? ¿Información pero en formato Excel la rellenamos en el Excel? ¿Se lo enviamos por aquí, o sea, seleccionamos el Excel, le enviaríamos el Excel y nos rellenaría automáticamente todos los líneas con esa información, vale?
+
+1:57:04
+Una vez ya tengamos esto, le damos a tramitar si son IPS de gestión, el sistema va a intentar buscar 1 I p automáticamente, si no puede, pues ya la pasará a los técnicos de de provisión para que se asigne la IPY ya os y ya se contestará. Si es si consigue encontrar automáticamente 1 I p en el centro podemos seleccionar el switch en el que queremos conectarnos, que tenga puertos libres.
+
+1:57:27
+Con lo cual ya tenemos todo, tenemos la IP, el switch y el puerto en el que podemos conectarlo y automáticamente también ese puerto, ese puerto del switch se va a configurar con esa V lan y además va a poner la descripción de lo que le hayamos puesto aquí. Vale, por eso necesitamos poner algo y ya automáticamente tendríamos configurado el puerto. ¿Vale alguna duda de esto?
+
+1:57:58
+Para el shock tenemos específicamente direcciones, IPS, acceso, firewall y acceso a Internet, etcétera, etcétera. Pues es parecido, pero bueno, tenemos que especificar más datos. ¿Vale el origen, el destino? Manuel, tú aquí algo que quieras señalar.
+
+1:58:25
+¿Has perdido, Manuel? ¿Bueno, qué más peticiones tenemos? Tenemos peticiones de citrix para cuando queremos acceder a Internet, direccionamiento de enlaces, aquí es las peticiones de enlaces donde enviamos la ficha del enlace. Vale, porque nosotros tenemos una herramienta que también nos ayuda a provisional direcciones YP sobre de enlaces, porque es bastante complejo.
+
+1:58:52
+¿Tenemos peticiones varias donde podemos pedir cosas del tipo proyectos subida a operadores que necesitemos que nos hagan algo, pero no encaja dentro de nada, pues lo ponemos aquí, vale? ¿O tenemos también el registro RFCS que desde aquí podemos incluir las RFCS de tanto de operadores?
+
+1:59:19
+Como de radioenlaces o de equipos vale, y aquí en herramienta RFCS podemos buscar por van o por servicio. ¿Vale, podemos buscar la RFC, tenemos un buscador aquí arriba, vale entonces pues la 20:26 h que estamos viendo ahora vale servicio buscando esta es la 20:26 H 2226 será vale?
+
+1:59:50
+O bien por por por objeto o por código de de y aquí tenemos la RFCY aquí el resultado de la RFC que se ha registrado esto automáticamente entra en el sistema. Si el sistema entiende que la RFC es correcta, ya lo da por válido Estado o K, pues ya está, vale y ya queda registrado, con lo cual aquí tenemos almacenadas.
+
+2:00:15
+Todas las IPS tanto buenas como malas que se van subiendo al sistema y podemos hacer búsquedas por servicio por vano vale y podemos ver la RFC de esto estamos desde hace ya más de 1 año recogiendo RFCS, con lo cual en teoría deben de estar todas aquí. Vale en caso de no o k puede ser por alguna chorrada, pues como que no se ha puesto el la la capsulación bien, pero el tráfico está correcto, te va a decir que no es correcta porque.
+
+2:00:45
+No está bien la encapsulación y ha venido un técnico, la ha revisado y él ha de manera manual. ¿La ha aceptado? Pues porque porque había un fallo en la negociación. A ver, fallo en la negociación es porque no se no, no estaba, no estaba en automático, no lo han puesto en manual y ya está. Detecta el sistema, que es errónea porque no cuadra con los parámetros exactos que tiene que tener.
+
+2:01:12
+Pero en principio la RFF es correcta, con lo cual pues si es correcta, pues la aceptamos. No pasa nada. Entonces hay un técnico que la acepta y ya está. Vale hasta aquí más o menos el curso. ¿Dudas? Yo os invitaría a que entrarais y mirarais. Hay muchas cosas que se pueden ver, muchas herramientas, tenemos informes que podéis consultar.
+
+2:01:43
+Tenemos carayan vosotros lo podéis ver si necesitáis acceso una vez ya podáis entrar en juegos y ya tengáis vuestro usuario autorizado a a entrar en red de gestión si necesitáis acceso para modificar equipos o para ver más allá de algunas cosas, como por ejemplo los carayan.
+
+2:02:08
+El los carayan es el secuenciador de configuraciones, vale, entonces aquí es donde automáticamente desde la aplicación de servicios justamente este no a ver un servicio que se genera una lista de tareas YY automáticamente el servicio se se a través de este orquestador, pues se configura en la red. Vale, pues aquí hay información de cómo se ha configurado, cuándo se ha configurado, etcétera, etcétera, etcétera.
+
+2:02:38
+Esto normalmente no tiene no, no gente que no tiene acceso. Si alguno necesitara tener acceso, pues se le puede dar el tema de de soportes, buscar soportes, todo El Mundo puede acceder servicios. Creo que también todo El Mundo puede acceder a ver servicios. Si alguno necesitara más permisos en algún tema, pues se le pues que los pida, no los pida y también se le pueden asignar. Vale, pues damos por finalizado aquí el curso.
+
+2:03:08
+Si os parece bien, muchas gracias Víctor a Vosotros. Gracias, gracias, gracias, gracias hasta luego.

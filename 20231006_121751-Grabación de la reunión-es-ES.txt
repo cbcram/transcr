@@ -1,0 +1,709 @@
+[Traspaso Fobos]-20231006_121751-Grabación de la reunión
+
+0:03
+Bueno, voy a compartir ya está, pues dale, vale, pues a ver, comparto pantalla, compartimos pantalla, vale, ya tenemos la pantalla ahí. Esto no vale. Bueno.
+
+0:22
+Algunas novedades que han aparecido esta semana y que son relativamente importantes en cuanto a la A cómo van a funcionar también algunas cosas y aparecen nuevos campos por ahí. En la parte de equipos, en modelos hemos incluido varias cosas. Una de ellas es la familia. ¿Vale la familia? Lo que vamos a hacer es agrupar en la misma familia todos los equipos que tengan la misma configuración, me explico.
+
+0:52
+Modelos de 920 hay 8 modelos diferentes, pero vamos a hacer un sistema en el que va a ser una una auditoría continua con regularización de configuraciones, es decir, que el sistema lo que va a hacer es ir entrando en los equipos, en los equipos a partir de la marca y el modelo y en este caso de la familia, vamos a especificar.
+
+1:21
+Cuál va a ser su configuración base en cuanto a tema de Tacax sincronizaciones de de horarias, listas de acceso para SNMP, usuarios y contraseñas locales, interfaz con fobos, todo eso va a ser común. Todas las esa configuración, las líneas, todas van a ser iguales para la misma familia, es decir, todos los 920 van a tener.
+
+1:51
+La misma configuración base, todos los a s los a s R no van a ser iguales. Entonces en los a s R 920 tendremos unos en los a s R 1004 tendrá su propia configuración en los XR, pues tendremos XR de 16 bits que son por ejemplo, a ver vale.
+
+2:20
+¿Cisco 9900 que están aquí abajo disco cero 9900 dónde los metí? No los he metido todavía, pero es que estamos ya no están todavía metidos.
+
+2:44
+Es que estoy ya mira, no es nenu chasis todavía no tiene la familia metida en este caso los 9001 vamos a ver los que hay raíz cero y así regular, vamos a hacer una cosa, vamos a meterlo en un modelo de un de un XRY así lo vemos un un ejemplo, vale, entonces nos vamos a búsqueda, buscamos por modelo un 9001, vale, entonces me marca Cisco Cisco modelo 9001.
+
+3:20
+No es el modelo son a s R sí, es que esto es vale, no hay 1001 o m p el modelo es la A s R 9 K vale los a s R 9 k modelo a s R 9 K tiene que tener esta familia.
+
+3:42
+Esto en do lo saco la familia, la la estoy de manera automática extrayendo del fichero. Entonces es la primera parte del fichero he encontrado. Esta es la mejor forma de hacerlo de manera automática en equipamiento Cisco vale porque esto va a funcionar muy bien. Entonces nos vamos a modelos, modelos y tiene que haber un Cisco a s R 9 K que en este caso debe estar por aquí abajo.
+
+4:12
+¿No está, qué guay, ves, vale? En su día se dio de alta esto Cisco 9001 chasis pero esto para dar de alta tenía sus datos, pero en este caso pues no, no, no sirve. ¿Vale, qué es lo que vamos a hacer? Primero que nada, en este caso 9001 está por aquí abierto y ahora lo había abierto.
+
+4:40
+Lo vuelvo a abrir, vale, vale, tiene un montón de puertos, un montón de datos. En este caso vamos a hacerlo simplificado porque si no vamos a estar 1 hora. Aquí creamos como ya tenemos una información de un Cisco 9001 a ver si hubiese otro. Ah, sí es no.
+
+5:07
+No hay más, vale, no hay más, no hay más, eso es solamente este, habría que ampliar toda la información. Vamos a hacer 1 a s R 9 k 1 modelo que sea a s R 9 K, pero que no tenga espacios ni nada, ni cosas raras. Vale, entonces lo que hemos hecho es copiar el 9001 sobre la A s R 9 K en este caso lo vamos a llamar 9001, el acrónimo vale necesito añadirle la familia.
+
+5:32
+¿En este caso los 9000 de manera automática también tiene a s R 9 K no tiene por qué coincidir, pues en diferentes Eh? Entonces a s R 9 K lo modifico y le digo que la familia es a s R 9 K entonces a partir de ahora aquí yo añadiría todos los puertos gigas que tiene que tener, pues fácil, gigabytes Ethernet orden, lo que sea sería el 7 tiene 1 GB ethernet cero barra cero vale.
+
+6:02
+¿Entonces se iría añadiendo al modelo este habría que ir añadiendo toda esta información que no está añadida, que es donde el giga cero hasta el hasta el giga 19 tiene 20 puertos gigas, no? Sí, habría que añadiros aquí el modelo. Luego lo lo añadiré. Vale entonces cuando nosotros ahora demos de alta un equipo nuevo.
+
+6:29
+Automáticamente ya me va a poner la familia, con lo cual como ya sé la familia y ya sé modelo, en principio si el proyecto está en blanco yo me iría a la configuración base de esta de este equipo y a través de un software que ya tenemos funcionando, que es el cero, que también lo veremos. Lo que haremos es volcarle la la configuración a este equipo y a partir de ese momento automáticamente la la va a mantener la configuración que tiene que tener.
+
+6:59
+Me explico, o sea, si nosotros nos equivocamos, alguien entra y le cambia una línea del takax. Cuando esta aplicación esté funcionando lo volverá a poner como tiene que estar tener una plantilla o 1 o cuando vayamos a instalar un un Cisco 9001, en este caso ya se está haciendo para los 920 y para los 3400.
+
+7:26
+Se va a hacer también, ya que estamos trabajando ya estas semanas para que se haga también con los 540 nuevos que se van a instalar. Vale, entonces lo que va a hacer el sistema es vale, habrá que decirle, Mira, vamos a instalar 11540. Al darle alta al 540 ya pondrá la familia sin sin hablar con el equipo, ya le pondrá la familia y el modelo.
+
+7:49
+Vale, perfecto. Como ya tengo la familia del modelo, digo, quiero instalar este equipo y automáticamente el sistema le volcará la configuración que tenga que tener la configuración base. Vale, está hablando siempre configuraciones, base, las configuraciones de otras cosas, por ejemplo, los protocolos, hay algunos protocolos de enrutamiento como el ISIS también se van a hacer de manera automática porque es muy complejo y es YY ya tenemos el script que lo hace. Entonces tenemos un software que lo que hace es configurar.
+
+8:20
+¿Los routers, meter la configuración ISIS vale, entonces es un tema complejo porque es en concreto es el de las NS Apps, no? ¿Sí, pero fíjate, nos va a hacer falta además lo que tiene que hacer, EH? O sea, todo esto lo hace claro, si no lo hace fobos, sabes lo que lo quien tiene que hacer.
+
+8:47
+Un tío Manubrio tiene que entrar, mirar los interfaces que tiene calcularla en esa APP con meterse quiero decir, la en esa APP. ¿Es esto la Net? Sí, sí, tú tienes que configurar una Net dentro del del ISIS core. ¿Tienes que ir de interfaz por interfaz diciéndole que tienes que enrutamiento ISIS core, cuál va, cuál van a ser sus sus balanceos, o sea, sus métricas?
+
+9:09
+¿Esto lo tienes que hacer a manubrio, claro, teniendo un script que lo hace maravilloso, no lo hacía, o sea, no, esto no se configura en la casa a mano ya nunca, no es que hace mucho que no se meten en esas ni nada, pero se van a volver a meter, no, no para para todos los equipos están ya configurados, Eh? Es que el el ISIS hay un protocolo, protocolo, enrutamiento, que es el segment routing.
+
+9:35
+Vale segment routing es una forma de meter flujos de tráfico a través de la red de manera ordenada. Vale y es capaz de hacer renrutamientos y tal. Vale, pues nosotros hemos vamos a empezar a implementar también segment routing, pero segment routing siempre tiene que ir sobre ISIS, no puede funcionar sobre, sobre o s, p, F que es otro.
+
+10:03
+Protocolo, enrutamiento que estábamos utilizando nosotros. Ahora vale, el problema vino cuando teníamos que que configurar los equipos, pero es que hemos tenido que configurar más de 1000 equipos y meterles y S y s a más de 1000 equipos. ¿Vale, entonces claro, tuvimos que hacer esto, por ejemplo, no? Es decir, nordeste 5.
+
+10:32
+En este caso no, a ver alguno que esté. ¿Mira, ves? Empezaba a las 10 y desde las 10:15 H hasta las 10:17 H. ¿O sea en 3 minutos configuró el ISIS de todos estos equipos, 3 minutos y algunos son heavies, Eh? Y tú te puedes tirar 3 horas y no acabar.
+
+11:01
+Y que funcione. Vale, quiero decir, Este script es eficiente, no lo siguiente, y es claro, en este tipo de configuraciones, pues va muy bien porque son configuraciones muy complejas. Vale, pues todo esto también se va a hacer de manera automatizada a partir de la nueva aplicación. Me enrollo y me voy por donde no debo, vale lo que estamos hablando de la familia.
+
+11:29
+¿La familia esto va a ser automático, vale? Lo vamos a usar aquí. Tenía una antes de que sigas, tenía una preguntilla la parte de proyecto esa se documenta a mano. Entiendo, no, aquí sí, sí, tú dices si es para un proyecto de limpia, si es para un proyecto de Conde, si es para un proyecto de limi o lo que sea que tenga que tener alguna una configuración específica, entonces habrá que ir a a la aplicación y decirle, está por aquí todavía escondida.
+
+12:02
+Entonces dentro de las configuraciones vamos a tener la familia y el proyecto, entonces en en esta será la Sr 920, proyecto base, que es cuando no tenga proyecto va a utilizar esta y entonces aquí dentro tendremos la configuración base que tiene que tener este equipo. ¿Entonces tiene que tener de la parte de cabecera de de las cotizaciones de host name tiene que tener estas líneas sí o sí, tiene que tener estas líneas, vale?
+
+12:30
+¿En la parte de Takax tiene que tener estas líneas sí o sí en la parte de SNMP tenemos que configurar esto, sabes? O sea, por grupos especificamos qué configuración tiene que tener y esto sí o sí lo tiene que tener y esto es lo que va a comprobar el sistema que este router tiene esta configuración. ¿Aquí hay cosas que pueden ser que en los proyectos sean diferentes, entonces habrá que venir aquí, crear esto 920 de condes, vale?
+
+12:59
+Entonces, que puede ser todo igual simplemente que una cosa, en vez de apuntar a un sitio, apunte otra o que tenga información diferente. En fin, bueno que es. Entonces al final vamos a tener una biblioteca de configuraciones estándar, que son las que tienen que vamos a poder cargar y vigilar que tengan los equipos. Vale, entonces en este caso no vale.
+
+13:26
+Entonces esta aplicación que todavía no está terminada, simplemente que iba a enseñaros la pantalla, va a beber de aquí, es decir, va a ver qué familia tiene el equipo, qué proyecto tiene. Si queremos cambiar el proyecto, nos vendiremos aquí modificar equipo y aquí tenemos la proyecto. Vale, ya he añadido también aquí sistema, tipos, proyectos, a ver dónde estás corazón un poco más abajo, proyectos aquí está, vale, entonces aquí podemos añadir proyectos para.
+
+13:54
+Que no salgan allí en la ventanita, pues aquí podemos modificar equipos, especificaremos el proyecto que toque y ya está. Entonces ya sabremos o definiremos cuál es la configuración base que tiene que tener este equipo. Vale, lo vamos a sacar, ya te digo la familia de manera automática a partir de la información de la iOS y esto la ya se está.
+
+14:25
+Haciendo entonces venimos aquí al equipo. Buscamos por ejemplo marca, Cisco, modelo. No digo nada tipo voy a poner los routers porque no me salen tan bien. Van a salir todos los G PRSS que no quiero ver los GPRSS vale, vale, entonces familia, ya tengo aquí lo que son las familias.
+
+14:55
+Y lo que tendré que ver ahora es que efectivamente estas familias, que ya el 2811 Nm es una familia, yo tengo que venir aquí a equipos, modelos y sería conveniente que tuviera todas las familias porque está seguro que no está, no está dada de alta porque para los 2811 solamente utilizamos esto.
+
+15:20
+Una familia que era 2811, pero ahora tenemos también una familia. 2811 Nm, claro, pues la parte fácil es que yo puedo venir aquí, lo lo duplico, le pongo perdón, no lo he copiado 2811 no esta esta búsqueda no era a ver cuál es.
+
+15:50
+¿Voy cerrando porque muy bien, EH? Porque tienes un montón de pestañas abiertas. Sí, sí, es que se me es que no sé si fue mejor o peor. Al principio no abría ventanas extras, siempre trabajaba con la misma, pero claro, al final querías tener varias abiertas, pero es que ahora, claro, cada cosa que haces te abre una nueva.
+
+16:20
+Y al final ya no sé si es mejor o peor, pero bueno, bueno, vamos a buscar los 2811, a ver cuántos modelos, cuántos equipos marca Cisco modelo 2811 y entonces vemos toda la variedad de 2811 que tenemos. Vale, pues en este caso son todos 2811 Nm. Sí ves, son todos 2811 Nm. Vale, pues entonces la familia que tenemos que definir.
+
+16:53
+Creo que lo había quedado fuera. Esto lo Quito de aquí esto. ¿Vale, es 2811 Nm, vale, pues envío la familia, pues qué familia tiene los 2811 Nm? Pues perdón.
+
+17:23
+¿Vale, lo estoy haciendo mal, el el modelo es el 2811 y la familia es la 2811 Nm la 2811 Nm esto está mal esto ahora lo borraré vale esto es 2811 lo actualizo me aparecerá la Nm? Lo borro porque no tiene ningún sentido que esté aquí.
+
+17:46
+Y la familia del 2811 será la del 2811 Nm. Vale, ya está. Y con esto lo que hago es decirle, todos los 2811 tienen la familia esta y ya ya sabré cuál es su configuración base. Vale, también he añadido esto.
+
+18:12
+El que yo me me dice cuántos equipos tengo por marca, modelo, cuántos equipos tengo y si le hago Click, pues me dice, los equipos que son los que son. ¿Vale? Sí, más o menos. ¿Esa es la idea, no? No afecta. De momento mucho. Va a afectar mucho en un futuro de cara a las configuraciones, ya te digo de todas maneras.
+
+18:46
+Si ahora en este caso el 2811 ya es un equipo obsoleto, pero si yo ahora diera de alta 12811 automáticamente ya me pondría la familia, con lo cual ya en el alta sabría cuál es la cuál es la configuración base que tiene que tener este equipo, con lo cual es mucho más sencillo. Luego a la hora de la gente de de que tiene que configurar los equipos.
+
+19:11
+Ya desde el principio, pues definir toda su configuración base para poner en servicio este equipo y que funcione con el tacax, con las sincronizaciones horarios, con todo vale, entonces nos quitamos de encima muchas de las plantillas que hay por ahí, porque cada 1 tiene su plantilla, cada 1 trabaja de una manera distinta y al final siempre hay diferencias de una plantilla a otra y de esta manera vamos a intentar evitar esto.
+
+19:35
+El que cada 1 trabaje con una plantilla diferente porque no está clara la información, así va a estar muy clara, todos los repositorio y ya está y ahí está. Todos los 2811 de esta familia tienen que tener esta configuración base y ya está y no, no van a haber dudas. ¿Vale, vale alguna duda respecto a esto? Yo creo que que más o menos está pocos.
+
+20:09
+Bien, pues pues pues diferencias, diferencias entre, o sea, por ejemplo, los 920 que tenías varios que sean todos distintos. ¿Les vale a todos la misma plantilla? Sí, sí, sí, porque yo en la en plan, en la en la en la plantilla base.
+
+20:33
+No configuro puertos, solamente configuro lo que es la parte de gestión del equipo y de funcionamiento del equipo. Todos los 920 son iguales, independientemente del número de puertos que tenga. Sí, lo que espera. ¿Lo que quería decir yo preguntarte es, puedes tener dos iguales que les tengas que aplicar distinta plantilla, pero no en base a proyecto, sino en base a otras cosas, no, verdad?
+
+21:00
+No, si son marca modelo de cellnex, todos tienen que tener la misma plantilla. ¿Si es plantilla base estoy hablando, Eh? Sí que es lo que documentas aquí es la plantilla base, sí, tú puedes tener por ejemplo, Rescat tiene. Los equipos son cellnex creo o están en red, cellnex los tratamos como si fueran nuestros y mucha parte de la configuración.
+
+21:29
+Del van a ser iguales porque la parte del takax, la parte de sincronización, todo eso es igual, pero tienen diferencias, con lo cual habrá que hacer una plantilla para el 920 de Rescat simplemente es hacer eso. Entonces tú coges en rescat copias la una plantilla de cellnex a Rescat y después en Rescat le modificas las líneas que tenga que llevar esa planta, o sea le modificas las líneas que son diferentes respecto a la plantilla base.
+
+21:56
+Entonces, cuando entre un equipo de rescat que tendrá su familia y su proyecto Rescat mirará la configuración de rescat. Vale, y así al al final tenemos que poner cotas. No, no hay tanta variedad que como no empecemos a cotar cosas, hay más excepciones que hay que unificar. Y sí, sí, hay que entonces, claro, tú puedes.
+
+22:23
+Hacer configuraciones diversas no, nadie te lo impide, pero te obliga a que tengas que hacer tu proyecto. Entonces tú vas a tu configuración proyecto y pues poner lo que quieras con tus configuración diferente. Todo diferente vale, pero cualquier equipo que esté en configuración base marca modelo. ¿Estoy hablando de la red Cisco, de momento esto solamente aplica a red Cisco vale en el resto de equipamiento? Pues ya se verá.
+
+22:55
+Porque los radio enlaces a ver, incluso en la configuración base, siempre van a haber diferencias. Porque la IP de gestión es diferente. El nombre del equipo es diferente la forma de gestionar el equipo puede ir a un banda o puede ir en interfaz Management. Quiero decir, aún teniendo en cuenta que hay datos que pueden cambiar, pero son muy pocos, te diría que son el nombre, la localización donde está instalado el equipo.
+
+23:23
+La IP de gestión, si se gestiona a través de de interfaz de Management o se hace a través de de banda a través de Uber a, n o, d, B, D, I y casi te diría que la el nombre de la VRF de gestión. En caso de que lleve, ya está. No hay más datos en la parte de gestión. Estoy hablando que sean diferentes. Todo lo demás es común para cada equipo, cada para cada Family.
+
+23:54
+En el caso de los a, s, r, s por ejemplo, ahí hay diferencias porque hay a s, r s de de 32 bits y a SRS de 64 bits. El sistema operativo estoy hablando, vale, entonces ahí habrán dos familias, el a s R 920 de 16 bit de 32 bits, perdón, y el a s R de 64 bits y cada 1 llevará su configuración distinta.
+
+24:21
+Entonces los 9900 por ejemplo son de 32 bits de 64 bits. ***** a ver marca Cisco vamos a buscar 9901 el k s R 9 K vale, Fíjate que esto es un 64 bits. La familia es 1 s R 9 K 64 bits.
+
+24:50
+Si buscamos un serie 9001 1 s R 9001 es 1 s R 9 K pelado, esto es un 32. Las configuraciones van a ser distintas, a ver, no es obligatoriamente que sean distintas. Lo que estoy diciendo es que como la familia es distinta, tendremos que tener prevista dos configuraciones que serán muy similares, pero tendremos que tener previstas dos configuraciones distintas en la biblioteca.
+
+25:19
+De configuraciones, 1 para los de 16 y otra perdón, 1 para los de 32 y otro para los 64 y otro para los 64. Vale, a través de esto también una de las cosas que vamos a hacer también es a través de la iOS. Lo veremos cómo funciona, pero bueno, las iOS.
+
+25:48
+Lo que estamos haciendo también es ver que ellos tienen que tener cargada a cada equipo y estamos definiendo la mínima que tiene que tener cargada el equipo y cuál es la principal que tiene que tener cargada el equipo. ¿Con esto ya ya le conté algo, no? Eso también lo vamos a tener en cuenta. Vale, aquí vale, entonces tengo aquí la familia, vale, qué más ya está.
+
+26:19
+Empezamos con servicios o si tienes alguna duda más, un momento o k bueno, servicios, servicios, aplicación de servicios. Vale, hemos visto lo que es un soporte soporte. Es una conexión entre 2 equipos de datos, ya está.
+
+26:47
+Hay más, incluso vimos también que hay posibilidades de crear una conexión entre 2 equipos de lo que sea. Podíamos hacer soportes hasta de grupos electrógenos con cuadros eléctricos. Es un cable, se puede tú das de alta a un grupo electrógeno y das de alta un cuadro de energía, como un equipo. Vale, y tú le defines un puerto al cuadro de energía y le defines un puerto al grupo Electrógeno, salida, trifásica, entrada, grupo y le.
+
+27:17
+Y eso es un soporte a nivel lógico para fuegos. ¿Y lo puedes documentar así, Eh? Vale, pero siempre estamos hablando que es unos soportes, siempre van a ser conexiones punto a punto entre 2 equipos, siempre vale un soporte, siempre es una conexión punto a punto entre 2 equipos y qué tiene que tener un origen y tiene que tener un destino. ¿Eso siempre es así, vale, qué es un servicio?
+
+27:48
+Un servicio es cualquier cosa que utilice soportes y me explico por ejemplo una conexión o s p F entre 2 equipos entre 2 Routers. ¿Qué es una conexión o s p F entre 2 routers? Para mí es un servicio de nivel 3 que conecta dos equipos a través de sus IPS.
+
+28:15
+¿Vale, cómo podemos ver esto? Pues una conexión entre 2 equipos de nivel 3 siempre estará definida como 1 c n 3 P vale que signifique conexión de nivel 3 punto a punto vale siguiendo un poco lo de las cuatro letras, guión y a partir de ahí ya veremos. Pues vale, entonces tengo 1 C n 3 P.
+
+28:45
+Que es una conexión de nivel 3 entre 2 routers. Vale, por ejemplo, esta que va desde 1 I p hasta otra IPY se transporta a través de un soporte. Pueden haber 1 o pueden haber 1000. Me da igual. Vale, por ejemplo, si yo tengo un túnel, tendré.
+
+29:11
+1 I p en cada extremo y por el medio pueden haber un montón de soportes y pueden haber otros servicios. ¿Vale por qué? Pues por ejemplo, una una multicast puede veremos los servicios multicast puede transitar a través de un soporte, puede transitar a través de un nivel 3 o puede transitar a través de un x Connect.
+
+29:40
+Un soporte es un soporte, ahí no hay más. Tu tía, un x Connect es un servicio y una conexión de nivel 3 es otro servicio. Estas las creáis vosotros o también se crean solas. Las n 3 P se crean solas, estas no hay que mantenerlas, estas se crean solas cuando en la parte de regularización de de equipos, por ejemplo, espera, si yo voy a sincronizar equipo, sincronizar con red.
+
+30:12
+Digo actualizar, todo pasa que aquí se me va a cerrar, creo. O se cierra, se cerrará, pero voy a hacer una cosa, seleccionar todo, copiar, vale, no se cierra aquí debajo va a buscar los vecinos que tiene, vale, estos son los vecinos, con esto crea los soportes.
+
+30:45
+Porque yo sé los vecinos que tengo, entonces efectivamente compruebo si los veo o no los veo, vale, entonces yo sé que a través de este interfaz veo este equipo en este interfaz y tiene esta descripción en el puerto. ¿Yo lo que hago es mirar a ver si yo coincide con lo que yo tengo en mi base de datos, yo tendré, tengo que tener un soporte que coincida con esta información, vale?
+
+31:14
+Si no lo tengo, tengo que crearlo y lo creo automáticamente. ¿Los cadis, no, sí creo los cadis, entonces a partir de aquí se crean los cadis y a partir de aquí, de las Adyacencias o s P F o I s I s se crean los c n 3 P s Ah, vale, vale, entonces yo busco si tengo una adyacencia C n 3 P que coincida en la base de datos con lo que yo tengo en el equipo, con esto, con la 10:16 H, entonces si nos vamos aquí?
+
+31:44
+Volvemos aquí 101652177, vale, yo tengo que tener aquí una adyacencia, que es la perdón esta de aquí esta adyacencia de nivel 3 a través de o s p F es una adyacencia o s p F estoy hablando sí, sí.
+
+32:11
+Las adyacencias TPF tienen que ir de 1 I p a otra IPY, en este caso lo que hace es buscarlo en la base de datos y hay una que coincide con esto y que se llama la C n 3 P 0, 0, 13 que es esta que estoy viendo aquí debajo con lo cual en este caso pues no tengo que hacer nada porque ya la tengo creada y De hecho me dice aquí la última vez que la ha visto, si yo ahora esto lo actualizo que si no no me la ha cambiado todavía.
+
+32:42
+Perdón, fecha 23 de enero. ¿No, si yo lo que puedo hacer ahora es sincronizarlo a mano, es decir, si yo partiendo del inicio esperemos lo de la sincronización, EH? Es que te construye el árbol, te lo construye de manera automática.
+
+33:06
+¿Qué puedo hacer? Pues puedo por el otro lado puedo rastrearlo, puedo decirle Compruébame que es así, que esto funciona así, vale, entonces lo que va a hacer es comprobarme que efectivamente vale, veis que esta raya verde está comprobando y está todo verde, con lo cual lo que voy a decir es que de un extremo al otro extremo está todo bien y funciona esto. ¿Por qué se pone rojo? Pues porque hay errores de línea en el interfaz, entonces al comprobar lo visto que hay.
+
+33:35
+Errores en el interfaz y me lo marcan en rojo porque hay errores en el interfaz. Vale, vale, y desde aquí también puedo comprobar las adyacencias CDP, igual que veíamos en soportes. Vale, si yo le clico aquí encima del soporte me saca también me dice que es c, d, P o K o sea que esto lo veo bien, está así, es real y en este pedido instante esto es real y está funcionando.
+
+34:05
+Y además también tengo otra herramienta que es la de continuidad. IP, es decirle vale, pues compruébeme, tengo continuidad IP de un de un extremo a otro extremo. Pues sí, ha entrado en un equipo y desde aquí aquí le hace un ping y me dice que sí que ha respondido y que está todo bien. ¿Puedo cambiarle el tamaño, cuántas repeticiones quiero? Quiero 20 y el puedo cambiar el tamaño.
+
+34:35
+YY puedo cambiarle el bit de no fragmentación. Esto es importante, vale porque el bit cuando dos dos router se transmiten datos tú puede ser que tengas en medio algo que te esté limitando el tamaño de los paquetes. Sí, esos paquetes son mayores.
+
+35:02
+Que el tamaño máximo por el medio en el que van a pasar los routers por defecto te lo van a fragmentar, te lo van a partir en dos y te lo van a enviar. Eso para multicast es muy malo porque esto introduce gitter y retardos y puede puede fastidiar un poco. Entonces 1 de los test que podemos hacer es darle el tamaño que queremos y decirle que no fragmente.
+
+35:28
+Es decir, yo quiero comprobar si por hoy me están pasando tramas de 9500 bytes, entonces le pongo un tamaño 9500. Le digo que no haga fragmentación, es decir, si al bit de no de de de no fragmentación, entonces la le repito el ping. Entonces puedo saber si llegan o no llegan esos tramas de ese tamaño. ¿Vale por defecto? Pues no está en no, pues normalmente no fragmenta, o sea, permite la fragmentación.
+
+35:57
+Y aquí pues que hacemos de 150 bits. Repito, el PIN, vale, entonces ahora me va a hacer una repetición de 20 pins con 150 pins están aquí ya, vale, entonces me ha hecho 20 pins con 150 bytes, bits, no bytes. Perdón, y me ha dicho que han llegado al cien por cien. Pues oye, está perfecto, vale, por lo menos para lo que queremos.
+
+36:23
+Están dentro del mismo centro, o sea digo yo dentro del mismo centro como para que vaya fallando, no, entonces vale, tenemos aquí podemos ver también no data, vale, no está viendo que toca esto, pues como estamos ya con los con el nuevo modelo de de grafana.
+
+36:51
+Aún no lo he cambiado, tengo que cambiarlo, vale, qué ocurre nosotros aquí podemos tener un ahora el tema de modificaciones duplicados y todo esto luego lo contaré. ¿Bueno, la flechita esta para qué es? Pues para esconderlo o para mostrarlo.
+
+37:16
+¿Vale porque puede ser que vale que sobre todo cuando es multicast a veces que que nos interesa tener más ventana, pero lo podemos maximizar también, EH? Vamos a decirle quiero ventana completa, le da, le da a la MY ya está y también el otro día vimos cómo dibujar esto lo vamos a ver mejor con un servicio multicast.
+
+37:46
+Servicio buscar servicio. ¿RG a ver RG Valencia por ahí seguro que ese RG de Valencia vale esto es un servicio multicast, vale? Ya lo estuvimos viendo el otro día un poquito por encima, vale, entonces si yo le doy que me lo haga a nivel cero lo que va a hacer es esto.
+
+38:18
+¿Como yo tengo en los soportes definido los radioenlaces y tengo las fibras, te acuerdas de las fibras que eran azules claritas? Vale, entonces yo tengo un esquema de la red de la distribución multiclast de la RG de Valencia en base a los soportes en base a los x CONNECT. ¿Esto es, un x CONNECT vale?
+
+38:45
+Esto es un radioenlace. ¿Aquí faltan cosas, Eh? Porque de p d I a Nixball hay una fibra, aquí hay otra fibra del PDI. Aitana hay un radioenlace. Entonces puede ser que haya cosas que no estén todavía dibujadas aquí, porque para ir de itana a benimelli aquí falta un radioenlace. Nadie lo ha dibujado.
+
+39:12
+Entonces aquí debería haber algo, o es una fibra, o es un radioenlace o es algo. ¿Si eso es porque aquí no se lo ha dicho, esto es esa parte hay que hacerla a mano, no? Sí, la parte de los radioenlaces hay que documentarlas a mano porque no hay manera de verlas. Son transparentes, totalmente transparentes. Entonces estos radioenlaces cuando hay un problema podemos ver si lo tenemos todo perfectamente documentado, pues.
+
+39:40
+¿De un vistazo podemos intentar averiguar donde están las cosas, pero aquí también podemos además hacer un rastreo multicast y ver hasta donde llega la información multicast rastreando los equipos lo lo vamos a ver EH? ¿Si se cae alguno equipo o algo se alarma o no se pone en rojo, si haces un rastreo sí, si no, no vale aquí qué pasa? ¿Que esto no es un sistema de supervisión?
+
+40:07
+Fobos no tiene recursos para estar constantemente preguntándole a los equipos. Si tuviéramos 111 Rack de Mackinorros, pues sí, podríamos hacerlo. Pero en este momento fobos tiene el límite que tiene y tiene la capacidad que tiene YY es lo que es. Fobos no es un sistema de supervisión, tiene ayudas, tiene herramientas, tiene cosas que te pueden dar pistas, pero hay otros sistemas de supervisión que son los que deberían estar haciendo esto.
+
+40:37
+¿Que podría llegar a hacer los juegos? Claro, le pones la máquina, le pones el software o se desarrolla el software que haga falta y se hace eso. ¿No hay problema, pero ahora mismo no, no podemos hacer eso, vale? Nos habíamos quedado un servicio sencillito, que era 1 C n 3 P.
+
+41:07
+¿Los C n 3 P ya los c n 3 P se hacen automáticos, Eh? Cuando hay una migración, eso sí que es cierto. Cuando hay una migración de un equipo a otro, hay veces que esto no lo hace bien. ¿Por qué? Porque ya existía 1 C n 3 p antiguo.
+
+41:30
+Y como parte del C n 3 P ya está documentado y la otra parte no coincide. ¿Hay veces que no no es capaz de sincronizarlo, entonces hay que venir borrar el C n 3 p antiguo, es decir, VENÍA aquí, voy a hacer un chichas y ya está para liberar la parte de recurso que está ocupada YY que pueda crear 1 nuevo, claro, entonces por ejemplo este de aquí?
+
+41:56
+¿30 las 8:45 H cuando están en rojo es que ha habido un error, esto se sincroniza automáticamente, Eh? Cada esto es 23 vale el día 30 del 9, o sea esto creo que es los los fines de semana. Sí, el domingo los sincroniza todos a la vez, este domingo los volverá a intentar sincronizar todos, sincronizar es que él hace esto datos, sincronizar automático.
+
+42:25
+Para todos los servicios. Y esto lo que hace es mirar que efectivamente hay continuidad al servicio y funciona. Vale, ya está. ¿Qué diferencia hay entre sincronizar y rastrear? Rastrear es sobre un equipo, sincronizar es sobre un servicio. ¿Vale, entonces tú cuando le das ahí a rastrear, vale?
+
+42:52
+Cuando yo le voy a rastrear no me va a tocar la base de datos, sino simplemente es visual. ¿Vale? Aquí creo que no lo he dicho bien antes. ¿Si yo rastreo le hago un seguimiento visual pero no toco la base de datos, vale con la sincronización rehaces, vale, y si yo le doy aquí a sincronización auto o sincronización manual?
+
+43:19
+Si que sesión automática es cuando yo normalmente tengo definido ya una recogida y una entrega. Aquí no, no hay origen y destino, aquí es recogida y entrega, normalmente recogidas pueden haber, normalmente hay una y entregas pueden haber muchas en una multicast pensemos por ejemplo, no, yo tengo una recogida de que es donde me está entrando la multicast y después tengo muchas entregas, pues yo tendré aquí todas las entregas y recogidas solamente debería tener una.
+
+43:48
+En algún caso excepcional pueden haber más de una recogida, pero a mí no me gustan. ¿Sinceramente, Eh? ¿Yo prefiero, al menos visualmente ver siempre una recogida y muchas entregas, porque soy a lo mejor es que una limitación de mi cerebro, Eh? Que que lo veo más como una estructura de árbol que cuando no, que cuando es una estructura así muy mezclada, que a veces dices esto, algo, algo, algo va mal porque no es normal que esto se esté así. Vale, nos habíamos quedado.
+
+44:17
+Esto es un nivel 3, el n 1 es digamos la parte lógica y el n cero es la parte física. En este caso no hay nada, es un cable pues dibuja un cable y ya está. Si si fuera una multicast o fuera un en en n dos no, simplemente nos dice nos da el soporte, ya está.
+
+44:44
+N n 1 nos diría la parte lógica que pueden haber más equipos por medio de su soporte y en la parte n cero nos sacaría ya todos los radiolaces toda la parte porque hay por debajo que ya no nosotros no, no, no lo podemos ver, sino que es algo que ya hay que definirle en los soportes y decir, mira, aquí hay un radiolace, entonces esos los sacamos a través de n cero. ¿Para qué se utiliza la G? Pues mira, muy sencillo.
+
+45:12
+Si nos vamos a servicios y buscamos un servicio de estos chulos distribución cuatro K nacional, no te quiero contar lo que hay aquí. ¿Te has ido ahí a 1 gordo, EH? ¿Claro, entonces Fíjate que es 1 muy grande y aparte seguro que tiene por ahí C n 3 P que se han quedado colgados porque cuando hace esto es que hay algunos C n 3 P colgados, vale?
+
+45:43
+Esto podemos dibujarlo y podemos llevarlo para que quede bonito a los podemos estirar. ¿Vale? ¿Qué pasa con esto? Pues que cada vez que visualizamos el lo tenemos que estirar es más fácil. Le damos a guardar, guarda las posiciones y la próxima vez que entremos vale y así yo lo actualizo.
+
+46:12
+Los va a hacer, es visualizarlo dónde me había quedado y no empieza otra vez a desplegarse, que es un rollo patatero y sí, con la Medusa, como la llamo yo, empieza a moverse ahí, pues empieza a mover, pues nada, tú si ya la tienes abierta ya tienes como te gusta, le das a guardar o alguien lo ha hecho. Esto es común para todos, no para ti, Eh. O sea, si alguien guarda un servicio se queda guardado para todos, o sea, si lo tienes ya ordenadito ya el siguiente que lo tenga que mirar ya lo tiene, sí.
+
+46:41
+¿Es que hay algunos que son 1, que este es pequeñito, pero bueno, ves este? Alguien lo ha hecho porque se nota Mogollón. Cuando tú el no se mueve es porque ya está guardado. Si no estuviese guardado, lo que pasaría es que se empezaría a mover. ¿Tú lo puedes mover, Eh? ¿Ahora?
+
+47:07
+Sí, si te vas y vuelves, vuelve a la de antes que estaba la de antes. Si la guardas tú ahora sobreescribes lo sobreescribo, entonces al entrar me lo va a enseñar así, vale qué tiene está pintada una entrega y en ahí en la tabla pone hay 3. Sí, pues son B, d, I, S, =, B, D, I S que BDI Son V lands, no son protos físicos.
+
+47:34
+Entonces aquí lo que hace es las entregas, solamente la dibuja cuando es un puerto físico, porque Fíjate el n P I 2 G C a la entrega la hace la en 1 b d I en un en un equipo que es el PNI este de aquí para saltar de un nivel 3 a 1 nivel dos y eso se hace a través de 1 b d I entonces está entregando la señal en 1 b d I pero claro, aquí te dibujaría un palo.
+
+48:06
+Y no tienes a ver, tiene más sentido dibujarlo así. Entonces no dibujo las entregas cuando son lógicas, cuando son solamente las dibujo, cuando son físicas. ¿Vale, vale, pero existe una entrega, EH? Entonces tú le das a sincronización automática y existe una entrega para que me lo va a cerrar y está entregando en 1 b d I por eso te dice que está entregando aquí en 1 b d I.
+
+48:34
+Ves, te entrega las la señal de nivel 3 te la pasa de 111, conexión de nivel 3 a 1 b d I en este caso, si lo cortamos no hace nada. Vale, no hace nada. No lo he cortado, pero está exactamente igual.
+
+48:56
+Me acaba de cambiar la fecha de sincronización, me ha dicho que me ha que y como está en ***** quiere decir que la he sincronizado bien y me la acaba de sincronizar ahora. O sea, entonces voy a explicar un poquito esta parte de aquí, vale, yo tengo una recogida en este puerto que tiene una dirección IP, que esta no es la multi Card, esta la de perdón esta la la multi Cast. Vale, también me puede aparecer aquí la dirección IP de producción.
+
+49:28
+Y a partir de aquí, a través de esta V Lan va a distribuir. De momento esto es un salto de nivel dos. Vale, entonces me llega el 3400, el disleta 5 me salta a la isleta 1 al 920. Vale a través de este soporte que es este de aquí si yo le le clico me iría aquí.
+
+49:56
+Vale al soporte que dimos el otro día y en aquí en ocupación pues me sacará la multicast esta EH que estamos viendo. Vale, estoy en el en el isleta 1 para irme a la isleta al 9001, esto en el 920 para ir al 9001, que es lo que utiliza una conexión de nivel 3 que va desde esta IP hasta esta IP.
+
+50:22
+Pero esta conexión de nivel 3 además utiliza este soporte que tiene por debajo. Entonces, si yo lo pongo aquí en el nivel cero, lo que me va a dibujar es el soporte físico de esa conexión y aquí me dibuja las dos. Vale, tengo. Por un lado tendría la conexión física y por otro la lógica. Normalmente tenemos que estar en nivel dos. Vale, entonces aquí en.
+
+50:52
+Está conexión física, que es 1 C n 3 P es también un a su vez es también un servicio como hemos visto antes. ¿Vale, entonces aquí podemos tener servicios, podemos tener soportes, podemos tener x CONNECT, buscaremos ahora alguna x Connect y veremos cómo funciona entonces la conexión de nivel 3 entre este equipo y este equipo, a su vez tiene una conexión física desde este puerto hasta este puerto, me entiendes?
+
+51:21
+Vale, entonces aquí lo que tengo es toda la información de este servicio. Por un lado tengo las conexiones físicas de nivel 3 de o c, P, F o D, I, s, I, S Tengo la conexión de las IPS de origen y destino de esa conexión de nivel 3 y por encima, o sea, por debajo de esa conexión de nivel 3, hay una conexión física que va desde este puerto a este punto cuando es 1 u V lan nivel dos, pues te dice la euro V Lan que es.
+
+51:52
+Juan, esto va saltando un nivel 3, nivel 3, la W Lanes 1 porque es una conexión punto a punto. Un nivel 3 que hay normalmente es welem 1 puede no serlo Eh en algunos, en algunos por channels por ejemplo, o algunos bundle utilizan un wland diferente porque pueden haber sub interfaces que van por dentro de ese bundle y cada sub interfaz tiene su wland diferente.
+
+52:18
+Pero normalmente cuando es una conexión normal nivel 3 es V Lan 1 y luego sale por la V Lan 761. Esto no es obligatorio, se suele hacer así, vale podría ser otra V lan de entrega y hay otra conexión de de final de nivel 3 y me va desde el 920 PNI hasta el 3400 P n I 2 que está aquí.
+
+52:47
+Y aquí ya entré con el P N I 2 en este puerto, en el Giga 7 YY que giga 7 tenía esta IP de producción. Configurar vale provisionada perdón configurada no provisionada en la base de datos. ¿Vale así un poquito para empezar con la multicast no está mal, vale entonces?
+
+53:18
+¿Cómo puedo yo rastrear esto? Esto es muy fácil. Cuando es una multicast le doy a rastrear multicast y lo que va a empezar a hacer es desde la recogida en moradito. Lo que va a hacer es verificar que esa multicast está fluyendo a través de esos interfaces. Las multicast son direccionales, sí, con lo cual te dice en qué dirección está viendo el flujo.
+
+53:48
+Por eso en las de nivel 3 sí que sé qué flujo tiene. En las de nivel dos no tengo ni idea porque las multicas de nivel dos, los equipos no saben por dónde van o por dónde vienen. ¿Es algo muy curioso, Eh? Sí, sí, tú te tú te metes en un en un switch y no sabes por dónde está entrando. De hecho, hay equipos que no saben ni siquiera que está transitando por ellos una multicast.
+
+54:15
+¿Es tremendo, pero es así si es que el Protocolo, el protocolo Multicast para el nivel dos es a ver, la multicast puede transportarse de 2 maneras de nivel dos, a nivel 3 vale nivel dos utilizáis GMP, que es un desastre de protocolo, es lo que es entonces nivel dos es muy malo el protocolo? No, no es que sea malo, es queda muy poca información.
+
+54:43
+Es muy antiguo, dejémoslo ahí, no, pero el el, el Pim, el Pim es igual de antiguo y funciona mucho mejor. El Pim es el que se utiliza en en a través de nivel 3, una conexión de nivel 3 utiliza Pim y el Protocolo PIN obtiene mucha más información que el IGMP. El IGMP no te dice ni hola muchas veces entonces claro.
+
+55:11
+¿Es complicada la interacción con los equipos para que te para hacer esto? Es muy complicada porque si es un 3400, si es 190020, si es un cada equipo lo hace de una manera distinta, tienes que interpretar la información, a veces no te la dan. ¿Es complicada, EH? ¿Mostrar esto en multicast, pero bueno, está relativamente bien resuelto y funciona bien esto hay cosas que mejorar, evidentemente, pero es lo que hay, vale?
+
+55:40
+Después, cuando es 1 muy complicado, se pueden rastrear entregas, que es rastrear entregas. Vale, vamos a ir a que habíamos visto de la RGE de Valencia. Esto no está implementado de manera automática, se hizo unas pruebas, pero no está funcionando en todos los transportes multicast. Si alguien quiere animarse y quiere ponerse a documentar.
+
+56:09
+Lo único que tienes que hacer es documentar. ¿Vale, Fíjate aquí que aparecen unas pelotas gordas, vale, qué pasa con las pelotas gordas? Pues que si yo en este equipo vale, si yo le doy al botón de la derecha, puedo ver los detalles del equipo. Vale, entonces Fíjate en el fast ethernet cero barra 7 en este equipo.
+
+56:38
+¿Yo tengo documentado que tengo un albalat vale y que además entro entrando por el módulo 3, yo puedo ir aquí a albalat y en el Slot 3 tengo la tarjeta de la RGE o K vale, entonces este equipo por qué no está sincronizando? Ahí va. ¿Está perdida la gestión de este equipo?
+
+57:09
+No lo vamos a poder ver ahora aquí. Bueno, vamos a coger otro que vamos antes porque es que vamos a interrogarlo. ¿Y si me me va a decir que a ver este de aquí 20400 ori, detalles qué puerto estaba en el 11? Vale, en el en el 11 le digo que tengo un vecino que es el albalá. Orihuela en el puerto 7 en el puerto 11. Perdón, vale.
+
+57:36
+¿Entonces yo me voy aquí y en el lote 11 qué tengo una iPad? Vale, okay, vale, pues ahora si yo me voy aquí al servicio y digo que o bien me rastreé Multicas, no voy a rastrear multicas, lo que voy a hacer es rastrear entregas que hacen lo mismo, pero solamente en las entregas. Entonces si yo rastreo las entregas, lo que me va a hacer es que va a conectarse a los equipos.
+
+58:05
+Tanto si son transmisores como son decos o como son albalat. Vale, y me va a dar la información del equipo entonces en el albalat Slot 10, en este caso en Orihuela. ¿Vale, tengo en una multicash que es esta la 2:03 H 9100114 que es esta de aquí esto me lo está dando el albalat, Eh? Y me dice que tiene.
+
+58:35
+O K la entrada y tiene o k la salida output o k input o k es decir, este albalá me está produciendo esta multicast cuando es 19402. Pues también me lo hace a ver este de aquí este aquí es un albalá. Este es 19402. Sí, sí, este 19402942 también se hizo el driver.
+
+59:04
+Entonces el 9402 me dice que la entrada 1 está o KY la salida 1 está o KY además Steven 9402 lo que tiene son dos, en este caso por la entrada 1 tiene este servicio la de 239100114 y por la entrada dos tiene la 2:03 H 94036 que es otro servicio. Otro distinto vale este es el a R G está en la entrada 1 y me dice que está o KY también en algunos casos.
+
+59:35
+Ramón Tube no es capaz de verlo, a ver dónde estaba. Si te veo corazón, esto lo podemos ver en el cuatro K sí, en el cuatro K sí que se ven en el cuatro K hay en los pequeños, en los pequeños es porque no ha salido eso entonces porque eso son las las grandes, como decías antes, no, porque no está definido aquí. Esto va a una entrada a una IPA de 1 R G e entonces hay que venir aquí.
+
+1:00:01
+¿Y documentar en la en la salida del iPad quién es su vecino y por qué y por qué tarjetas está, no está documentado, no lo dibuja, esto hay que documentarlo ves esto hay que documentarlo a mano, entonces si alguien viniera aquí y dijera pues en el Alba la PIC puerto cero barra 7, si yo aquí le digo quién es su vecino que no sé cuál es?
+
+1:00:33
+¿Será 1 de estos no lo sé y además le le especifico por qué es LOT? ¿Estoy saliendo como ya ya sabe que es un albalá, me lo dibujaría aquí me dibujaría el cuadradito con el albalá, vale?
+
+1:00:54
+Sí, el servicio a ver el servicio de la del cuatro K sí que hay equipos thres DS que también lo hace sobre equipos thres DSFS también lo hacía y entonces yo me puedo ir aquí a servicio, buscar servicio. Buscamos el cuatro K a ver si tenemos por aquí algún FS. Vale, aquí tenemos unos FS, entonces yo digo rastrear entregas.
+
+1:01:34
+Vale, entonces lo que está haciendo es entrar a los equipos los Trends y te dice la potencia de salida te dice que está todo okay y que no tiene alarmas. Si alguno tiene alguna alarma, pues te lo voy a decir ahí. No sé si están todos sin alarmas, están sin alarmas.
+
+1:02:00
+Esto son pruebas que estuve haciendo yo, por eso he documentado algunos servicios se lo que están documentados porque los documenté yo, pero bueno, mira este de aquí, mira, Ah, mira, este se pone en el de la cajita, en rojo, bueno, salmón, salmón o en colorín este equipo está parado, cero vatios de salida.
+
+1:02:27
+¿Si está cortado ahora vamos a llamar al al Doc al Noc para que lo mire, vale, entonces De hecho, mira, está en rojino, se ve desde lejos, no? Sí, sí, sí, se le ve, se le ve bien, se le ve bien. ¿Bueno, pues claro, a ver, esto es un trabajo de documentación que habría que hacer, que habría que hacer si se quiere tener, Eh? Posibilidades hay sí, no lo de si ya veo.
+
+1:02:53
+Lo único que hace falta es ahora documentarlo, si se documenta, se tiene, si no, pues no se tiene, lo mismo se podría hacer para los miers, lo mismo se puede hacer, o sea, cualquier equipo que tenga SNMP. ¿Vale, se puede hacer esto? Los 3 d s tienen SNMP, los albalat tienen SNMP, los que lo tienen, no todos, pero los que lo tienen tienen los 94 cero los tienen, es decir.
+
+1:03:19
+Entonces cualquier equipo que tenga comunicaciones en MP hay unas unas librerías pequeñitas que son las que yo voy dándole la información de de qué es lo que tiene que preguntar y cómo lo tiene que preguntar. Y simplemente para y esto se hace una vez para cada marca modelo, pues para el 3 F, F s ya está hecho. Entonces aquí habría que venir y decirle, pues mira, aquí tienes 1, 3 d, F s que por ejemplo, no sé si lo nos va a dejar.
+
+1:03:50
+Si va a ser sencillo hacer este que es el 15, el Portillo dos, sí en el puerto 15 tengo 1 3 d s F S de la RGE Modifico el vecino. A ver si soy capaz de ver cuál es qué 3 d s.
+
+1:04:22
+¿Será este no? R G 2 este de aquí o este de aquí o aquí o R G no era el de nos estábamos mirando el del cuatro K es verdad piloto cuatro K esto toda la razón del mundo. Vale, es el cero 1 vale, y entonces yo me voy a este equipo.
+
+1:04:51
+Cierro esto, acabaré antes yéndome desde aquí, vale, y en el puerto 17 yo le digo que es el vecino que es el 301. Vale, si fuera un albalat tendría que entre corchetes decirle cuál es el slot que utiliza, pero era espera, era en el, en el fast 17 o en el 15.
+
+1:05:23
+Pruebas cuatro K eran 17, pero esto ha caído, está caído, están, están admin down, vale, tenías pintado el link no era el 15, tiene usted tiene usted toda la razón del mundo, que soy un power, soy un melón que lo has hecho para pillarme.
+
+1:05:43
+Sí, seguro que ha sido, ha sido por eso vamos a ver si estoy atento, claro tío, claro es que era para ver si estaba muy bien, Eh, veo que estás haciendo a ver esto no es Ah según copia pega que no toca al cero, ya está, lo vuelvo a hacer, vale 15, lo modifico, entonces le digo que el vecino es el 301, el 3.
+
+1:06:11
+FS Portillo cero 1. Aquí estamos, vale, pues nada ya está, entonces si yo esto lo actualizo ahora en el Portillo aquí abajo me debe aparecer, vale, ahí está el transmisor pero no te hace falta, no te hace falta, digo rastrear la entrega otra vez.
+
+1:06:41
+No es que si como ya la has rastreado antes, si yo le le doy a actualizar, lo que hace es repetirme la última operación que he hecho sobre el servicio. Ah, vale, como la he rastreado, pues me la vuelve a rastrear. ¿Podría hacerle rastrear entregas, EH? Desde aquí le doy a rastrear entregas y me la vuelve a rastrear. Con lo cual pues fíjate lo fácil que es documentar una chorrada de estas.
+
+1:07:05
+Si yo ya sé el equipo tengo y además tengo el driver de la marca y el modelo simplemente en la salida del switch le digo cuál es el transmisor que tengo y él dibuja y el de automáticamente ya me va a dar toda la información del del equipo. Vale, muy chulo. A mí esto me parece súper interesante y no sé por qué no lo quieren utilizar, sinceramente porque me parece una pasada. Mira vos.
+
+1:07:35
+Esto vamos a ver por qué esto lo dibuja mal. Entonces tú le vas a rastrear entrega, rastrear multicast, perdón y así lo vemos más fácil vale lo maximizo y lo que va a hacer ahora es dibujarte a rayas amarillas en las partes que no están documentadas, con lo cual todo esto nos lo va a unir con rayas amarillas y entonces ver, podemos ver dónde está el fallo.
+
+1:08:03
+Sí, eso es porque tendrá entregas por ahí que se han desmadrado o no sabe llegar o alguna cosa rara. Ahí sí, a ver una más en una ves esa línea amarilla que acaba de dibujar. Eso es porque hay una conexión que no tiene documentada, vale, y no sabe cómo hacerlo. Es un punto a punto de SPF. Eso es porque esto antes este túnel iría a algún otro sitio.
+
+1:08:33
+Y no sabe documentarla. Entonces hay que venir aquí, mirar este puerto, si tiene un punto a punto generado, borrarlo y ya está. Y entonces lo que va haciendo es eso. Ahora en Moraete va construyendo toda la conexión y aquellos sitios donde no estén documentados, pues aquí hay otro, haya cazado otro. Entonces hay que ir luego revisando.
+
+1:09:05
+¿Estas conexiones por qué no están bien documentadas? Porque no ha sido capaz el sistema de Documentarlas nuevamente. Suele ser por eso, porque por debajo hay un punto a punto que se ha quedado obsoleto. ¿Le han cambiado el equipo? No lo ha acabado de hacer bien la las IPS estaban pilladas con otro punto a punto, entonces las las han reutilizado y hay un cacao ahí de en la base de datos de IPS que no se aclara ni el pobre fobos.
+
+1:09:31
+Hay que limpiarlo, regularizarlo y volverlo a a sincronizar y ya entonces ya lo hará. Bien, vale, si las entregas no sabe lo que hay en este caso, vale, pues directamente dibujo una e con diciendo ahí estoy entregando el el servicio. No sé lo que hay ahí, no sé seguir.
+
+1:09:55
+¿Y aquí igual aquí ahora mismo pues va dibujando, ves, va construyendo la red y así va diciéndote, por aquí veo la multicast, por aquí veo la multicast cuando son así grandecitos le cuesta un rato Eh? Pero bueno, pero va rápido, va, va bien, hombre, que que que esto en la red le cuesta bastante menos que un tío a mano mirándolo.
+
+1:10:31
+¿Sí, sí, sí, por supuesto, por supuesto, ya te lo digo yo lo digo porque yo cuando yo lo tenemos pensando por dónde empezar? Sí, cuando hice este software, al principio yo hacía los rastreos a mano, claro, para ver cómo tenía que solucionar el problema y era un infierno. Pero vamos, que es que cualquier detalle.
+
+1:10:57
+¿Era ostras YY ver por dónde está multicast va a nivel 3, va a nivel dos, por dónde se va, baja 1 B d I no baja 1 b d I o sea, era de verdad horroroso, vale? ¿Y aquí va rastreando todo y si llega al final y hay un equipo, vale, pues igual te lo rastrea, Eh? El equipo también.
+
+1:11:30
+Aquí, cuando las conexiones son una línea continua, es un nivel dos, y si son discontinuas es un nivel 3. Vale, entonces la forma un poco de distinguirla es esa. Bueno, pues eso va construyendo el el árbol poquito a poquiel y donde encuentre cosas nuevas.
+
+1:11:57
+¿Que no están documentadas? Pues las pones. ¿Mira, ves, todo esto está pescándolo ahora? ¿Pues esto es y sí, estaba redescubriendo, estaba redescubriendo rutas, que puede ser que en su día estuviesen, pero a lo mejor hubo una incidencia, la última vez que se sincronizó y entonces perdió esta rama, porque cuando se sincroniza lo que hace es coger ramas, no?
+
+1:12:33
+O sea, coger lo que hay. Si tú tienes un corte aquí, cuando estás sincronizando esta rama, la pierde, desaparece, claro, desaparece y al volver a sincronizarlo y ya está resuelta la incidencia, la vuelve a descubrir si la si le damos a sincronizar auto. Lo que haría es documentar esto ahora y si eso está desaparecido y haces el el rastreo no lo pinta tampoco, no te lo pinta en rojo.
+
+1:13:05
+¿Cuándo acaba? Si hay algo que está documentado y no ve, te lo pinta en rojo, no, no, al revés, que que no esté documentado, pero sí que sí que esté, te lo o sea, te lo creo yo, si sí que si existe pero no está documentado, lo pinta en amarillo. Si está documentado y está cortado o no existe, te lo pinta rojo cuando acabe, independientemente si hace sincronización o rastreo no.
+
+1:13:33
+Sí, bueno, si haces rastreo no te hace nada, si haces no te lo, si te si haces unas un rastreo te lo dibuja solamente no afecta la base de datos, si haces una sincronización y no existe, te lo quitará de la base de datos, Eh, sí, claro, pero pero en el eso yo igual. El caso es de que que de que en la base de datos no esté pintado YY haga un rastreo y lo y lo encuentre. Entonces te lo pintaría amarillo.
+
+1:13:59
+Sí, de amarillo y tendrías que darle a sincronizarlo porque dices, a mí me faltan cosas, faltan cosas, lo has sincronizado automáticamente también se sincronizan cada X tiempo, también se sincronizan. Pero bueno, si tú lo sincronizas y siguen saliendo cosas amarillas cuando lo haces un rastreo, eso es porque hay algún problema a la hora de hacer esto, el establecer los punto a punto en la base de datos.
+
+1:14:23
+Pues porque hay una, hay una. Se ha reutilizado eso para cualquier cosa porque las IPS están duplicadas con otro sitio a ver fobos. Al final es muy estricto en eso. Por ejemplo en Fobos no puedes tener la misma IP unicast, es decir, excepto las multicast que sí las puedes tener en múltiples puertos 1 I p unicast solamente la puedes tener definida en un puerto vale, y esto es así.
+
+1:14:53
+Si tú tienes por ahí un equipo que la han desmontado pero sigue la IP documentada en ese equipo y no la han borrado, cuando intento documentar es el equipo nuevo que tiene la misma IP no me va a dejar porque ya tengo 1. I p definida, claro, pues si no podrías aquí montar un lío. ¿Qué es lo que hay que hacer? Pues una mínima tarea de ir al equipo.
+
+1:15:20
+¿Borrar el equipo o borrarle de IP del equipo? Entonces si yo apago un equipo lo primero que tendría que hacer es irme al equipo y borrar todas las IP que tienes que tenía ese equipo o directamente borrar el equipo. No pasa nada, se borra y ya está, pues borro el equipo.
+
+1:15:40
+Sincronizo el equipo nuevo y crearía todas las conexiones, todos los servicios punto a punto que correspondientes, porque entonces ya me deja porque ya tiene las IPS las tiene liberadas, entonces ya puedo crear las conexiones punto a punto SP F si no vamos a tener un problema y es ese problema que tenemos que es que cuando llega un punto en que no soy capaz de establecer ese punto a punto en en la documentación.
+
+1:16:08
+A la hora de rastrear, pues no voy a ser capaz de documentarlo. Es lo que hay, o sea, o eres estricto o no lo eres. Y en este caso decidimos que fuera estricto porque si no en la primera versión de Fobos no éramos estrictos y había un lío de IPS que no te puedes ni imaginar. Al final sí, pues lo mismo. Pues porque al final.
+
+1:16:35
+¿Equipos que se cambian, equipos que se quitan cables que se cambian de sitio, no quitas el cable que toca, el el que sabes, al final cogías una IPY, la tenías en 7 sitios distintas y decías, y cuál es la buena? ¿Tenías que entrar en los 7 equipos, mirar a ver si si existían, no existían, habían quitado la IP, era un lío tremendo, vale? De esta manera requiere un poco más de mano de obra.
+
+1:17:05
+Cuando hay una modificación, pero es lo que hay, pero es mejor así. Yo también entiendo que es mejor así. ¿Entonces lo único que es eso que requiere una revisión humana de qué es lo que está pasando ahí? Porque ya vemos que fobos no ha sido capaz de documentar esto y si no ha sido capaz es porque hay un problema en la en la documentación o equipos que no se han borrado.
+
+1:17:31
+IPS que están por ir flotando o que ya no se utilizan pero si que las tiene documentadas un equipo. Cosas de estas y eso hay que regularizarlo fobos. Mucha información que hay en los equipos. La sube a las bases de datos, pero nunca, nunca, nunca borra información de las bases de datos porque podemos liarla parda.
+
+1:17:59
+Por lo que sea, comete un error fobos y empieza a cargarse en las IPS de los equipos. Imagínate la que se puede montar. ¿Dijo no pensarlo sí, ya pasó en su día, Eh? Que desaparecieron todos los puertos y desapareció toda la información. Y en fin, y fue por una manipulación errónea de un técnico y desapareció toda la información y hubo que corriendo recuperar más.
+
+1:18:28
+Copias de seguridad no eran completas. ¿Sabías en 3 cantos? Todavía no, sí, sí, estaban 3 cantos y se lió una buena. ¿Desde entonces hago copias de seguridad semanales y las hago yo, sabes? O sea, a mí no me volverán a pillar con una de esas. Todas las semanas hago una copia de la base de datos completa de fobos.
+
+1:18:57
+Me cuesta unos minutos, pero me da igual, prefiero invertirle abajo llave. Desde entonces te puedo decir que solamente hemos tenido que recuperar una tabla porque se corrompió y ya está. ¿Fíjate el tiempo que le he dedicado a hacer las copias, EH? Pero hay que hacerlas sí, sí, sí, sí, hacerlas, porque aquí hay muchísima información.
+
+1:19:20
+Que ha costado mucho recopilar y esto ahora sería muy complicado volver a volcarlo todo de de nuevo y desde el principio sería, buf, buf, tremendo. Bueno, ya no sé si ha acabado ya sí es igual, está, no, todavía no ha acabado, está todavía en ello, vale más o menos está todavía aún le quedan ramas por por bueno. Hemos visto lo que son los rastreos de los las entregas y los rastreos multicast, es decir.
+
+1:19:49
+Te te dibuja la distribución multicast. Si yo aquí te diera sincronización automática me haría lo mismo que está haciendo, pero ya me lo metería en la base de datos o me actualizaría la información de la base de datos. ¿Vale, la pregunta es, se pueden normalmente las cuando encuentro una fuente multicast en fobos, o sea por la red? O sea, enchufa fobos, entonces hay muchos servicios, busca servicios.
+
+1:20:18
+¿Hay muchísimos servicios multicast, yo te iba a preguntar cuántos cuántos servicios tienes en esta tabla ahí metidos? No lo sé, miles, por eso hay miles, todo lo que pillo por ahí lo voy metiendo, hay equipo incluso multicas que son muy chorras y algunas no, yo no, yo no te hablo de multicast, hablo, Ah, servicios, no sé si quieres, te lo digo fácil, te lo digo fácil, es fácil, vamos aquí, Pim PAM.
+
+1:20:48
+Servicios, hay que tener en cuenta que aquí también están los servicios. Punto a punto están los los broadcast de nivel 3, que también se pueden dar de alta, aunque no se hace. Eso no se hace en automático. Ahora te contaré cómo son y para qué se utilizan. ¿Están los x CONNECT? Están muchas cosas, servicios editable, data STOP.
+
+1:21:18
+Van a hacer un select. Están las copias que también se pueden hacer copias de servicios para tenerlas documentadas, versiones que ahora lo veremos también 32000 servicios ahí. Ahora mismo la base de datos vale que los tenga que revisar. Se va a reír un rato.
+
+1:21:48
+Vale, entonces los servicios los multicast empiezan por mcas y pueden ser de nivel dos. Si solamente utilizan nivel dos, los servicios multicast de nivel 3 no se no se rastrean automáticamente. Vale porque se llamaban unos líos fobos que es tremendo. O sea porque ya te digo, es que la información es es muy mala. La que tenemos un servicio a nivel es.
+
+1:22:17
+Rastrear multicast no sé qué es lo que va a hacer, porque la verdad es que no lo sé, mira, ves, es que ni siquiera tiene este este por ejemplo, ni siquiera tiene multicast. ¿Ya es porque sí, porque este equipo, este servicio, o sea en este equipo había una multicast por ahí pululando y directamente fuegos la encontró y la provisionó, entonces habría que revisar por qué esta esa multicas está ahí y si?
+
+1:22:47
+Y si de verdad es buena, pues habría que borrarla. ¿Vale, entonces te digo, los de nivel dos no se están documentando, vale, qué más, qué más, qué más, qué más? ¿Hay algún email multicast? Los de nivel 3 sí se están rastreando periódicamente todos los fines de semana. Este el día dos del 10, pues.
+
+1:23:16
+¿El el lunes noche de noche, del lunes al martes, no de de domingo al lunes tarda esto le cuesta un par de días, EH? ¿Hacer todos los multicast, hay muchos multicast D n 3 y ahí y son muy grandes algunos, Eh? Entonces cuando estamos hablando de pues eso, cuatro K de Del M P 1, P M P 2 M P 3, Mira, Fíjate, es a ver.
+
+1:23:46
+La Rioja se pueden buscar también por multicast. Si tú sabes la multicast de un servicio, vamos a ver alguno de estos que tenga la multicast t n 3 este de aquí vale, esto es la multicast t n 3. Si tú te sales la multicast la puedes buscar directamente el servicio por la multicast servicio busca el servicio.
+
+1:24:16
+¿Si de aquí no le Quito el esto me me pasa muchas veces y a a veces confunde mucho, EH? Si yo aquí le pongo un carácter, un tabulador o hago un copia, pega, en este caso al a copiar y pegar me ha pegado un un aquí unos caracteres raros. Vale, si yo le doy aquí a buscar no me lo va a encontrar. Evidentemente coge todo, entonces hay que darle bien el corresponde. Entonces si yo lo puedo buscar por el servicio, por puedo buscarlo también por por equipo.
+
+1:24:46
+Vale, entonces en esto primero, cuando todos Tor Tor como origen o como destino, también me aparecen. Entonces yo puedo saber todos los servicios que hay en un equipo, si pasan por él o sí, sí pasan por bueno, si pasan por él, no lo lo digo por los lo digo por los últimos que pone Madrid Coruña, a ver si quiero saber esto, todo lo que transita por él. Lo más fácil es irte al inventario.
+
+1:25:15
+Sí, sí, sí buscas el equipo, el Val, 3400 Tor, aquí aparecen todos, pero no, no solamente nos interesa este y aquí le dice servicios, vale, y aquí sí que te dice todo, los que pasan, los que entran, los que salen. Vale, aquí te da un resumen de todos los servicios que pasan por este equipo aquí en servicios esta es la mejor manera de hacerlo.
+
+1:25:41
+Si quieres un soporte, pues tú te vienes a 1 R, a 1 Cádiz, por ejemplo, este de aquí y tú aquí también en ocupación tampoco puedes decir, también puedes decirle cuál es el servicio en este caso es un punto a punto solamente y es un, esto es un sigfox, por ejemplo, y este sigfox es un punto a punto. ¿Vale, te acuerdas que te dije que podía tener más de un soporte? Pues en este este es un caso. Vale, tengo una conexión punto a punto entre 2 I p s.
+
+1:26:10
+¿Pero que va por a través de nivel dos? La la comunicación es nivel dos a través de unos switches y unos rutas y esto se puede dar perfectamente. Vale, mira, ya que estamos aquí, vamos a aprovechar para ver el tema de las modificaciones y las copias. Vale, vamos a empezar desde aquí. Yo parto de un servicio que ya tengo establecido.
+
+1:26:40
+Vale, entonces yo quiero hacer una modificación sobre este servicio a la hora de documentarlo vale, entonces yo lo duplico y yo aquí puedo quitarle cosas y puedo cambiar la ruta. Si quiere, va.
+
+1:27:01
+¿Entonces yo de aquí podía decir, le pongo de aquí, quiero que me vayas al siguiente equipo y entonces a través del puerto le dices con que va aquí? ¿Yo que sé esto es una, estoy desvariando EH? Quiero decir, estoy poniendo aquí cosas al Tun Tun y yo puedo cambiar a toda la ruta y decirle que no, que vayas por aquí, quiero que vayas por allá. A ver, vamos a hacerlo lo suficientemente mal.
+
+1:27:32
+¿Vale, sale de Monduber, llego a Torrente de Torrente, por dónde salgo del 1400 Tor, evidentemente por el 8 no, porque es por donde estoy, trato yo que sé me voy al de Verizon, pues hala, el de Verizon aquí al Faster Fernet cero barra 9 y desde este equipo dónde voy? Espérate, perdón, espérate, vale.
+
+1:28:04
+¿Por el 8, si salgo por el 8 tengo que ir aquí, vale, he vuelto a monduber, espérate, dejé de ida y vuelta, sí, de viajé de ida y vuelta, vale?
+
+1:28:41
+Partimos de este, mira, me he cargado el toda la estructura y sin embargo me lo sigue dibujando, pero me lo dibuja en gris. ¿Por qué me lo dibuja en gris? Porque en color me va a dibujar lo que yo estoy haciendo aquí, pero en gris me mantiene el original para que tengas un patrón de guía, no el sigfox, el 0062, Este es el original que yo tengo por debajo. ¿Yo estoy trabajando sobre una copia, vale?
+
+1:29:11
+Vale, entonces vale, yo salgo de aquí y digo, me voy de aquí y desde aquí me voy. Ya no solo te voy a ir a Torrente 2 a l Z No sé cuál es. Creo que es alcira. Alcira sí puede ser alcira.
+
+1:29:39
+¿Y del Torrente dos me voy a ir a yo que sé aquí no sé de dónde voy, Eh? ¿Y aquí ya salgo en un interfaz en el te ven ya salgo por el puerto 7, yo que sé o voy a salir por el puerto dos, vale, y esto lo marco como entrega, vale? Con lo cual ahora tendré dos.
+
+1:30:08
+El color es el que estoy editando ahora y en gris tengo el original. Vale para que esto quede un poco más decente. Y además fíjate que los los routercitos me los dibujan más pequeños. Sí, los los que ya no intervienen en este servicio. Vale, yo me voy de aquí y me voy al original, que es este de aquí.
+
+1:30:37
+Y yo lo que puedo hacer ahora es decirle, vale, quiero que me subas este a producción. ¿O sea, este está obsoleto, el nuevo es este y entonces lo que hace es lo has visto, lo has cambiado? Claro. Ahora el nuevo Sigfox Zero 62 es el que estaba editando, pero el otro lo sigo manteniendo en copia, Eh, me ha cambiado 1 por otro.
+
+1:31:07
+¿O sea, has hecho un swap de 1 con otro no correcto, entonces yo aquí sigo teniendo el bueno, el bueno que es el que es de verdad, en el modificado tengo el bueno y aquí tengo el nuevo, el nuevo, que es mentira en este caso, pero bueno, tengo el la versión nueva, es decir, yo puedo aquí tener varias versiones del mismo servicio, la podéis hacer más? Sí, sí, yo puedo hacer todas las que quiera otra, pues otra la 0:02 H.
+
+1:31:37
+Entonces puedo venirme y editarla a 0 2 y hacerle otra cosa, vale, vale, y aquí puedo directamente puedo borrarlas, vale, entonces, por ejemplo, ha habido un se se ha hecho un trabajo programado porque para provisionalmente pasar el servicio por otro sitio, por ejemplo, pues esto se puede documentar mediante una modificación del servicio original. La pongo en cuando hago la conmutación, la lo, lo documento así.
+
+1:32:05
+¿Vale, por qué? Pues porque porque ahora el servicio me pasaría por este equipo, no me pasaría por el original. ¿Entonces, si yo me voy ahora a este equipo, yo le digo, servicios, ves? Lo que tengo aquí es el sigfox. Me dice que está pasando por ahí, pero vale.
+
+1:32:40
+Pero lo has cambiado realmente no, esto es documentación claro y esto no. ¿En qué momento? ¿En qué momento lo aplicas al equipo? No, no, si yo ahora me vengo aquí y le digo editar Estado, modificación y me aparece aquí.
+
+1:33:06
+En este caso es un sigfox. Vale, es que este en este no me va a dejar si es un servicio de operadores. Aquí me aparece un botón que pone provisionar en red. Esto es un, esto es un punto a punto y los puntosa.no se pueden provisionar en red. Si es un es un operador, lo que me permitiría es volcarlo a red. Entonces me cogería esto volcar a red y me y me lo volcaría y me configuraría este servicio por estos equipos.
+
+1:33:35
+De manera automática eso se hace con los de BTV en aire no hay algunos correctos configurantes revisiones no, sí, sí tienen backups configurados, yo los puedo conmutar también lo vamos a ver ahora, no sé si nos dará tiempo, hoy que va a ser que no, que son las 2:00 H de hoy. Ya en la próxima sesión lo que haremos es buscaremos un servicio, miraremos cómo se hacen las conmutaciones, cómo se pueden hacer los rastreos.
+
+1:34:05
+¿Todo vale, vale, vale, y entonces en este caso no podrías volcarlo a los equipos? No, no, porque es un punto a punto, vale en este caso, en este caso es un punto a punto, solamente se puede hacer eso en los servicios de operadores. Vale, vale, son transportes de nivel dos y de operadores. ¿Vale los nivel 3? No, porque se supone que los de nivel 3 son de red propia. Vale los los servicios de nivel 3.
+
+1:34:34
+Los tienen que tocar solamente la gente de configuración por la misma razón, si la podemos liar parda tú imagínate que cambias una adyacencia SPF de un router de torrespaña y puedes cortar la red directamente. Eso no se hace, no se no se permite hacer eso. Vale, vale, se podría hacer EH, pero no, no es no es adecuado. Bueno, lo pongo otra vez en alta.
+
+1:35:03
+¿En la próxima sesión veremos un un servicio de operadores, cómo se construye, cómo se conmuta? ¿Entonces aquí tenemos dos opciones, una es vuelvo a rastrearlo todo y se queda todo de **** madre y ahora lo vamos a hacer así o directamente puedo recuperar la versión anterior, vale, qué es lo que vamos a hacer o vamos a hacerlo automático en sincronización automática? Vale, estoy diciendo Vuélveme a rastrearlo que no.
+
+1:35:32
+Entonces lo que está haciendo ahora es va saltando de equipo a equipo, mirando a ver esas esa distribución a través de esta V Land que está a través de la o V Land 2018 es un transporte, es un nivel dos. Entonces va entrando en los equipos por ver por dónde y hasta dónde va el nivel dos y al final encuentra un equipo de tipo routing y que tiene 1 I p que efectivamente es el que toca. ¿Qué ha pasado fácil? Teníamos antes una modificación.
+
+1:35:59
+Ya me he dado cuenta que ha hecho una copia, ha hecho una copia. ¿Por qué? Muy sencillo, porque lo que ha rastreado vale. Lo que ha rastreado es diferente a lo que tenía documentado. Tenía documentado esto y lo ha guardado en una copia. ¿Cierro, lo ha guardado en una copia, vale?
+
+1:36:24
+Porque lo que ha rastreado es diferente a lo que teníamos documentado. ¿Entonces no, no borran ni tiran, lo que hay te lo guardan, pero te pone, lo te dice cuando he hecho la copia y ahora aquí nosotros podríamos volver a a subirlo, Eh? Si yo le doy a clic me lo volvería a documentar arriba o directamente me lo puedo cargar, porque como no vale para nada, pues me lo cargo la copia, pues Quito la copia de aquí y ya está.
+
+1:36:56
+Vale, sí, para servicio de operadores es superinteresante porque salva mucho la vida. ¿Vamos a ir, nos quedan 5 minutos, vamos a ver un x CONNECT, los x CONNECT sale de 2 tipos, los MPLSY, los M, P, L, a S Por qué? Pues fácil, los MPLS son los que los vienen documentados y constan en vitra.
+
+1:37:25
+Aquí hay un problema, es que además ahora nos va a buscar todos los que todos los servicios que también, además también tienen 1 m p l s con lo cual son casi todos. ¿Aquí habrá que hacer algún filtro bueno, vamos a ver 1 de estos, este que tiene 1 m P l s aquí a vale servicios, buscar servicios, vamos, este MPLS vale?
+
+1:37:56
+Aquí me dice que tiene 1 M P l S tiene 1 1 M P L S Backup y además este servicio utiliza este MPLS. Vale, cuando haces una búsqueda intentas buscar en la base de datos todo lo que tengas relación con lo que estás buscando. En este caso hay un servicio que utiliza este MPLSY tenemos 1 M P l S por qué dejaste MPLS está desincronizado.
+
+1:38:21
+Vale 1 M P l S es un x Connect puro y duro entre 2 equipos o entre 3 equipos, con lo cual van a sincronizar automático a ver si es capaz de reconstruirlo. ¿No tiene la opción de manual, no? Los M PLS tienen que estar establecidos, tú le dices dónde empieza y él solo ya encuentra dónde acaba.
+
+1:38:57
+¿A ver, va a haber un corte ahí, ves este equipo? Lo han, lo han cambiado hace poco y no han podido, no han metido aquí falta 1 C n 3 P lo que hay pues que habrán habrán recaut chutado las IPSY es lo que te estaba comentando antes, no nos va a parecer el servicio cortado, además es bastante largo, Eh cabroncete.
+
+1:39:25
+Vale, tenemos el MPLS, es un x CONNECT, vale que va de aquí a aquí vamos a verlo en BT que es más fácil verlos. BT sencillo aquí servicios buscar servicio, aquí tenemos 1 M P l S que tiene una diversidad, tenemos por un lado el M P l S 0 0, el 6368 es este de aquí vale M p a.
+
+1:40:06
+Vale 1 M P l a Diferencias no en ninguna m p l a es que cuando yo lo he escaneado no he encontrado en vitra nada referente al MPLSY, entonces he creado 1 m P l a Ah, vale, ya está a nivel funcional es exactamente lo mismo, me explico, o sea, 1 m p l a y 1 M P l S en Fobos es lo mismo. Sí, el M P l a es el que os habéis creado vosotros al no encontrar 1 m p l S.
+
+1:40:35
+Correcto, porque a veces pasa que no están. Hay MPLS que se han creado por 1000 razones, pues para gestión, para servicios que se han cambiado de de ruta para 1000. ¿Historias, yo no soy capaz de encontrar la MPLS en vitro asociado a al al X Connect que tiene el equipo, con lo cual creo 1 m p l a y me quedo tan ancho ya está, vale? Pues este es lo tenemos aquí.
+
+1:41:03
+¿Vamos a hacer una sincronización automática o en este caso está sincronizado desde el día 7 del cuatro del 21? Bueno, pues dato no sincronizar auto y lo que hacemos es sincronizarlo y ahora veremos. Lo de Tracear es que lo tracear tiene su miga también tracear no es ni sincronizar ni rastrear.
+
+1:41:30
+Vale, me vas a tener que pasar el diccionario sinónimos tracear es más parecido a lo que hace un router con el Trace Router. Y me explico cuando es una conexión de un x CONNECT, vale la X CONNECT BAD desde una dirección de loop Pack a otra dirección de Loo Pack, con lo cual yo sí que sé en la base de datos cuál es la dirección de loop Pack de este equipo y sé cuál es la de aquí, pero aquí no las tengo dibujadas.
+
+1:42:00
+Entonces al tracearlo lo que hace es exactamente dibujarme las loopbacks. Entonces me va a empezar a decir en un sentido qué saltos va encontrando. Vale que verás que coincide, de momento está De hecho, lo acabo de rastrear, o sea que tiene que coincidir. ¿Coincide con los saltos de nivel 3, vale, esto es IPPY duro, me dibuja la loopback de este equipo, lo has visto?
+
+1:42:30
+Y a continuación lo que hace es buscarme el camino inverso desde este equipo a este este equipo. La ruta podría ser diferente de veces. Hay veces que la ruta es diferente y eso es algo que hay que corregir porque el el enrutamiento te envía la el en una dirección, te lo hace en una, en por un lado por una rama y la vuelta te la hace por otro. En este caso esto está perfecto.
+
+1:42:57
+Y entonces lo que haces por un lado te he encontrado la loopback, vale, hasta aquí más más chula que para qué que te dibujo aquí en azulito y por este lado te he encontrado otro, la loopback, es decir, haced dos rastreos en un sentido y en el otro. Si aquí le diéramos rastrear, solamente me haría un sentido origen a destino. Pero aquí necesitamos hacer revisar los dos sentidos, por eso lo hemos puesto tracear.
+
+1:43:27
+¿Y entonces? Pues eso, Fíjate lo que te decía antes, mira, es una conexión de nivel 3, pero la UV Land no es La 1 casi porque utiliza un hundred ethernet a través de unos un subinterface de un header Ethernet para la conexión o c P F no había visto nunca una de ese tipo. HI Hundred Ethernet sí, 100 gigas aquí.
+
+1:43:57
+Claro, y vendrá ahora un tráfico importante, este no, este no el físico. Estos links habrá que revisarlos todos porque.
+
+1:44:25
+¿Hay veces que no encuentra los datos, vale, aquí está, no data, es jander zernet no tiene tráficos esto si debería entenderlo, no, chaval, no sé nada, vale, pues otra cosa más a revisar es que 9900, bueno, da igual geometría, vale?
+
+1:45:04
+¿Okay, okay, vale esto fuera, regresaré al otro 1000 cosas tengo que revisar bueno información, qué te aparece aquí? La MTU del del puerto a veces aparece 1 o V Land que eso es para operadores porque a veces nosotros vamos con 1 o V Land y luego entregamos en otro overland en destino es un Q en Q.
+
+1:45:31
+Te dice el puerto que hay, muchas veces te dice qué tipo de puerto es. Si es un puerto de routing, es un puerto de Switching, un puerto nivel 3 vale y bueno, esto esto es un x CONNECT. Los x CONNECT tampoco se sincronizan automáticamente porque hay miles y bueno, si te hace falta pues lo sincronizas en ese momento ya está, se te queda memorizado, pero normalmente no se no, esto no se hace automáticamente.
+
+1:46:00
+¿Sí, por por eso tenía fecha de de abril del 21, no? ¿A ver, también es que requieren estos trabajos, requieren mucho, mucho, mucho Curro de de Fobos, vale, entonces suficiente? Tiene con estar sincronizando una vez a la semana todos los servicios de nivel 3, o sea de multicast de nivel 3, y todos los servicios de operadores se sincronizan todas las semanas.
+
+1:46:27
+Mira, este está hecho del día 30, del 9, del 23, o sea esto hace un mes, pues no tiene que haber actualizado, ya no, este es del del lunes del sábado del sábado. Perdón, sí es cierto, 30 no del sábado, pues se sincronizará también este sábado. Los transportes de nivel dos tienen su fecha de sincronización YY se sincronizarán, pues cuando toquen este cada 1 tengo que ir partiendo los trabajos en varios días, o sea en los días de la semana. Ahora si no.
+
+1:46:56
+¿Intentar distribuir porque es que el pobre fuego al final lo vamos a matar de tanto currar, pero bueno, que es lo que hay, cobra lo mismo por currar que no por no currar, pues qué ocurre, pues esta máquina, hombre, al final habrá que dotarla de más recursos, porque cada vez se hace más cosas, tiene más procesos por ahí en background es lo que hay bueno, en este caso habíamos visto 1 M P l a y 1 M P L M P L A y No me PELE a Backup, Por qué es esto?
+
+1:47:25
+Porque a veces lo que se implementa es un un backup MPLS, es decir, que nosotros tenemos una vía principal y si por lo que sea aquí se cortara, automáticamente el x Connect Conmuta por la otra vía. Entonces esto como se puede haber, pues lo rastreamos y acabaremos antes. Y así lo ves. ¿Cuál es el que está levantado?
+
+1:47:52
+Entonces al rastrearlo va a ver cuál es el que está levantado. Te lo va a marcar, te va a decir voy por aquí. ¿Mira, ves? Este está en APP, lo ves que está en verde. Sí que aquí te dice APP y aquí está en en Standby ahora mismo.
+
+1:48:18
+Está aquí, está aquí pequeñito, está aquí, sí, sí, por eso, por eso cuando lo has ampliado ya lo he visto y este está en standby que pone se ve de todas maneras, esto lo dibuja en color, esto lo dibuja en verde y este en así en color, ***** solo solo lo había de de verde, solo había visto en la que va hacia abajo, la otra la he visto ahora sí, es que solapa con la morada, no la había visto, lo que hace es dibujártelo, lo que hace es ahora lo vuelves a ver y lo ves, es fácil, lo que hace es rastrearlo en los dos sentidos.
+
+1:48:46
+Entonces primero va en un sentido, vale, ya verás, ahora encuentra los dos, se va a ir por 1 de los dos, en este caso se acaba de ir por el de arriba. Vale, ha visto el final, pero aquí he encontrado otro camino y lo que hace es seguir también para atrás y lo que hace es volver aquí y decirte o K en los dos caminos. ¿Está correcto?
+
+1:49:16
+¿Vale, lo ves? Ahora está yendo por aquí, no sé si por aquí a nivel cero. Habrá más cosas por medio. Sí, aquí hay muchas cosas por medio, vale, son todas las conexiones de soportes y de nivel 3 que hay por medio para hacer este este esquema. Así es más complicado verlo, pero bueno, así es más fácil verlo.
+
+1:49:40
+Voy a volver a rastrear porque hace lo último que ha hecho. Vale, aquí verás que aparecen muchas más opciones y aparte en algunos casos aquí aparece 1 B, t, b, K cuando aparece 1 B, t, b, K es porque hay definido ya una ruta de backup para todo el servicio. Los de Naire funcionan todos con BTBK.
+
+1:50:08
+Y entonces lo que nos permite es aquí si hacemos un renrutamiento de este servicio, no libremente, nos va a buscar una ruta alternativa. Si tenemos a 1, B, t, b, K lo que nos permite es conectar esa ruta alternativa que ya tenemos definida. Vale, entonces aquí por un lado, en revisión, último cambio, lo que nos dice es.
+
+1:50:36
+En el último cambio, o sea, aquí hay en congruencia, no sé por qué regularizar. B t 9 9 7. Copio, velan, sí, porque ha habido algún error en la última. Aquí ha habido algún error y está cortado en algún sitio. ¿Ves? Hay una cosa rara ahí, entonces lo que podemos hacer es directamente no lo cargamos porque ese está bien, a ver.
+
+1:51:06
+Papo, vale que cierre cosas antes de cargarme nada, que te vas de puente ahora Eh, que te vas a hablar de puente. Eso es lo que te voy a decir, no me voy a cargar nada, no voy a borrar nada. Bueno, me he perdido ya el el servicio que estábamos mirando. A ver si me dice el BT tiene muchos menús, si quieres lo dejamos ya para la próxima sesión.
+
+1:51:37
+Sí, vale, mira, es tarde, ya son las 2:10. H, ya sí, por lo revisamos la última sesión ya los el transporte a nivel dos de operadores. Vale, pues si eso lo dejamos aquí y en el próximo día, pues continuamos con servicios de operadores. En el capítulo sí y aún quedan, quedan todavía los multicas quedan, vale, ya está, lo dejamos de aquí.
+
+1:52:06
+El próximo día más que será la otra semana ya o la semana que viene, no hay sesiones.

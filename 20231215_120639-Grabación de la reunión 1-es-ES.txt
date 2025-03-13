@@ -1,0 +1,220 @@
+[Traspaso Fobos]-20231215_120639-Grabación de la reunión 1
+
+0:02
+Esta configuración la pase aquí, esta configuración la pase aquí, esta configuración la pase aquí incluso no tiene por qué ser el mismo equipo cada vez, sino que yo puedo ir unificando de diferentes equipos hacia un único equipo de destino. Yo puedo ir unificando configuraciones.
+
+0:26
+Esto es un tema que se hizo para eso, para migraciones de equipos. ¿Lo me lo pidió, me lo pidió, me lo pidió y así vale y me dijo, tienes que hacer esto, vale? Pues se hizo el script y se añadió, aquí ya está entonces pegando los para ella, claro, esto lo esto lo tenía que hacer cada vez a manubrio y era un trabajo súper rutinario de.
+
+0:53
+Copiar, pegar. Ahora entro aquí, entro en este equipo, miro a ver qué puerto tiene, miro la configuración repliego tal ahora simplemente le dices cuál es la la la opción de swap y ya está y te haces los swaps de los equipos. No, no tengo ninguno previsto ni sé que no voy a lanzar ninguno porque si no la podríamos montar también parda. Vale, ya está entonces a la hora de tareas aquí.
+
+1:23
+Hemos visto plantillas, Eh, como decía swap o directamente la la tarea que que vamos a hacer, esto hay que mirárselo así hay que saber también cada una para qué, para qué se utiliza, cómo se utiliza, qué parámetros tiene. Vale, hay una que es esperar ping, una tarea que nos hacía falta, además, no, no es coña, Eh, es coña. Esta tarea lo que es hace es retardar todo hasta que contesta porque como en cero.
+
+1:50
+Que nosotros hacemos una configuración de un equipo y luego lo reiniciamos hasta volver a poder entrar. ¿Porque si continuamos el proyecto, qué pasaría? Pues que nos daría que está todo, o sea, que que no llega, que no llega, que no llega, que no llega. Entonces lo que hacemos es esperar ping, que es que en ese script lo que haces es retardar y retardar un poco el proyecto hasta que.
+
+2:16
+Hasta que te llega el ping de ese equipo. Entonces a partir de ahí ya puedes continuar. Entonces, si si te fijas en los proyectos que vienen de cero a ver un proyecto de cero, hace aparece por ahí un esperar ping. ¿A ver, es que depende el equipo que sea, EH? Ahora no aparecerá ninguno.
+
+2:45
+Vale, en esto no, lo que son 3003, 1300 es que en estos proyectos no entran en todo. Bueno, el caso es ese que lo que haces es esperar Pi, esperar a que esto son pruebas mías. Entonces vamos a hacerlo por ejemplo en el en el proyecto este que bueno ejecutamos este acabaremos antes en este que estamos aquí pruebas.
+
+3:15
+Vale, aquí vamos a añadirle esto, lo borramos como antes, vale, añadimos 1 que sea esperar. Pic IP, pues IP, porque me lo pregunta a mí da igual 109 11 vale, pues bueno, ya está.
+
+3:53
+Sí, es que no, no sé, no me lo ha cogido aquí. Quiere algo añádile otro time, otro butter, 1400 Tor, ver un time. Esto es un poco rollo, pero lo que hay es que tiene. Es que si no te lo cierra, entonces más rollo todavía.
+
+4:17
+Vale, entonces lo que hace es esperar a que responda el PIN y si responde el PIN pues se sale. ¿Uy fallo por qué oye cuando os diera un proyecto os manda un correo o algo o tenéis que no importa de venir a verlo? ¿No, no estuvimos mirándolo, pero como tareas te envía correos, fogus te envía correos al final sabes lo que pasa? Yo sé de gente que los tiene filtrados en spam.
+
+4:45
+O o 1 regla que vayan a tal carpeta y ya está la grabación está lista, ya se ha cerrado la grabación, no veis aquí que está lista se ha detenido, está grabando, que me acaba de decir que la se ha detenido y se está guardando la grabación, pues a mí me sigue grabando.
+
+5:20
+Ah, vale, pues nada, ya está, pues nada pone, me sale detener grabación, no me sale iniciar grabación, pero si es verdad que en el chat ha salido eso sí vale. Bueno, bueno, no lo sé, porque este este script está ahí mucho tiempo, a lo mejor es que no está por alguna razón. No, no lo sé. Bueno, lo que te voy a decir, hay configuraciones estándar.
+
+5:51
+Que es lo que hemos visto. Las configuración estándar es lo que hemos visto ahí para para cuando se hacen las configuraciones de todos los equipos, las masivas no están aquí y las de usuarios, pues que cada usuario puede tener también sus configuraciones. Esto ya no se utiliza y ya está prohibido. Sí, porque sabes lo que pasa, que al final eso cada cada maestrico tiene su híbrico y aquí cada 1 que hacía sus configuraciones y al final es que era un desastre, era un desastre total. Entonces bueno, lo lo dejamos estar.
+
+6:19
+Esto la se dejó de utilizar YY pasamos a utilizar ya cero para hacer las configuraciones de equipos nuevos. No sé qué te iba a decir sí, no sé si tienes alguna duda, a ver quién acaba todo. ¿Sí, Ah, una cosa no se pueden borrar, EH? Cuando ya estén ejecutadas no se pueden borrar.
+
+6:52
+Está hecho adrede, claro, porque si siempre aparece el resultado, siempre lo tienes aquí guardado. Claro, si yo volviera a ejecutar esta tarea, se añadiría al resultado. ¿No se borra lo anterior, Eh? Esto también es una de las cosas que cambiamos aquí. Se se iría añadiendo al revés, esto se va para abajo y Irán apareciendo aquí arriba los resultados.
+
+7:19
+Sobre todo es cuando cuando tú puedes forzar un cuando te da un warning, te dice cuál es el problema y tú puedes forzarlo para que configure. Entonces se te quedaría guardado el warning más la configuración. ¿Vale, qué más cosas te puedo contar aquí? Pues poco más el hecho de que tú puedas darle una fecha de ejecución.
+
+7:47
+Nada le pones qué día quieres ejecutarlo y a qué hora la quieres ejecutar y ya está y quedaría temporizada y el hecho de duplicarlo, de de perdón, de clonarlo, pues sin solamente te hace otro igual con estas mismas tareas, pero en estado de de borrador no tiene más y ya te digo es al final es.
+
+8:12
+La mayoría de veces esto viene todo automatizado. Fíjate. A ver, J Vázquez ha hecho ahora un servicio en este momento quiero decir, a configurar la Q o esto afortunadamente viene ya secuenciado. De este servicio no hay que hacer nada, entonces simplemente hay que ejecutarlo, ejecutar y ya está. Y aquí en resultado, pues vemos el resultado.
+
+8:37
+Vale la configuración en algunos casos o en en otros casos el X Connect te dice sí, ya la has levantado, pues aquí todavía estaba down. ¿Por qué? Porque este este puerto estará todavía caído, tiene levantado lo que es la lo que es el túnel MPLS lo tiene levantado, pero el puerto todavía no tiene conectado. Pero bueno, si esto lo tienes en Down, malo.
+
+9:03
+¿Porque efectivamente, en la primera vez que haces el X Connect, el primero sí que lo tienes Down, Eh? La primera vez que que haces un x CONNECT a ver este de aquí bueno, va a dar el resultado este de aquí y aquí en los 920 tiene una particularidad que se hace en dos pasos, la X CONNECT se hace primero en un paso que se crea el el L 2 V B N.
+
+9:35
+¿Y se crea el el el ya lo diré, aquí se crea el interfaz pseudowire y en el segundo paso es cuando ya se integra todo se bueno, al final era la mejor forma de de hacerlo y aquí una vez ya está creado el el e 2 V p n y el Pseudowire, pues ya lo integras todo en un Member ya está, es que esto es una puñeta, EH? Esto de los 920 son muy raros.
+
+10:05
+Sí, sí, sí, eso vale la Q pues igual te da la la opción de la configuración que haya metido, ya está que sí, esto mira lo que le ha costado de 55 a 55 menos de 1 minuto. Te ha configurado todos estos puertos, o sea, todo todos estos equipos en menos de 1 minuto vale dudas.
+
+10:33
+Cuando se corta un circuito y de intentas buscar un reenrutamiento, eso acaba llamando a cosas de aquí. Me imagino no cosas que qué técnico he sido. A ver voy a enrutar. No sé cómo estará puesto, es que no recuerdo borrar servicio.
+
+11:04
+¿Conectar, mira esto, por ejemplo, reenrutado, mira esto, el reenrutamiento de un servicio, ves? Y aquí tenemos un aviso. ¿Esto han reenrutado un servicio, vale? El sistema ha secuenciado todo esto y aquí lo que te dice es que el puerto ya está configurado.
+
+11:36
+Vale, entonces no te lo toca porque puede ser que ya en su día lo utilizarán para algo y se quedó configurado. Entonces ya no, incluso, Ah no, perdón, que no se quedó limpio, que no es igual al no quedarse limpio, pues no ha podido configurarlo. Vale, YY esto este caso concreto se ha quedado ahí en borrador.
+
+12:06
+¿Sí, porque aquí está esperando que le digamos esto, qué hacemos con esto? Pero eso es de septiembre ya y seguirá. Y no, no se se queda ahí esperando a que alguien le diga algo claro, lo más oportuno, pues hay que hacerla la línea ahora, ya desde septiembre, pues lo más normal es que habría que cancelar la línea.
+
+12:31
+Se cancela la línea y dentro de un momento pasará. Ha terminado, vale, ya se queda como cancelado y todo lo que ha hecho se deshace. No, no, no, no, no, no, no, no, no. Ha no ha deshecho nada, ha ha ha configurado un montón de cosas en una línea, ha encontrado un problema y no ha querido tocarlo por si acaso. En este caso, como esto era de septiembre, no voy a tocar nada.
+
+12:58
+Entonces cancelas la línea y ahora te pasará. Esto ha estado terminado a ti, claro, no, no me no sé si me he expresado bien que intentaron reenrutar un circuito no, y una de las líneas dio un warning, una de las líneas, pero funcionó el reenrutamiento, entiendo que sí, porque si nadie ha hecho nada es que no lo sé decirte, o sea, está todo configurado excepto esta línea. ¿Qué es esta línea? Pues es una configuración de nube lan.
+
+13:27
+A lo mejor se entró, porque aquí es configura Uber a nios y configura Uber a nios. ¿Intentó hacer lo mismo, vale? Y el segundo vale, no sé por qué he intentado a en el fast 1 y el fast cuatro. Perdón, sí, porque esto tendría diversidad. ¿Entonces en el fast 1 vale?
+
+13:53
+Ha cambiado, lo ha, lo ha metido por aquí, por el fast 1, el servicio y el fast cuatro no ha podido meterlo por ahí, pues de alguna diversidad, pues el servicio estaría saliendo por aquí por el fast 1. Y todas estas tareas las ha lanzado cara Yan cuando alguien ha querido recitar ese servicio, las ha lanzado fobos se la se las ha lanzado fobos a Carajan y Carajan las ha ejecutado exactamente.
+
+14:22
+El que ha generado todo esto es fobos. Cuando tú reenrutas un servicio te dice, pues voy a ir por este equipo. Voy a ir por este equipo porque sabes el dibujito, ese que te da, que te dice toda la trayectoria. Pues toda la trayectoria se traduce en esto. Esto es toda la trayectoria. Y Fobos Fobos sabe lo que le tiene que pedir a karajan, claro, karajan lo único que ejecuta son scripts.
+
+14:51
+Y además scripts individuales. ¿Vale entonces esto cadayan cuando entra a cuando fobos le lanza todo este churro, entonces paso a paso empezará a ejecutar pim PAM, Pim PAM, Pim PAM, Sabes? Y encima esto como tiene menos de 20 va a ir a sobre las 5:00 H colas. Por eso es que ha tardado menos de 1 minuto en configurar todo esto porque trabajaba sobre las 5:00 H colas.
+
+15:21
+Y además, todo lo que interviene, el mismo equipo siempre va a dar la misma cola. Vale, si me has explicado que no te haga el tejado antes que el suelo, claro, porque podría pasar. Se podría dar el caso de que tú metes diversas tareas sobre el mismo equipo en diferentes colas y te ejecute la consolidación. Por ejemplo, aquí 190020 configurar el x CONNECT que tiene. Hay que hacerlo en dos pasos. Imagínate que te resolviera el primero, el segundo paso pues te daría un error.
+
+15:50
+Porque te intenta meter un un interfaz que todavía no ha creado la anterior. Entonces todo lo que son trabajos sobre el mismo equipo. En este caso estos dos siempre van a ir en la misma cola siempre. Eso es así. Entonces mira, lo mira cuando el el dispensador, cuando tú tienes una tarea sobre un equipo, mira a ver si ese equipo ya está esperando en alguna, en otra, en otra cola.
+
+16:18
+¿Si si está esperando ese equipo ya tiene una tarea en espera en otra cola, pues se la enchufa en esa cola, independientemente del número de tareas que tenga, EH? Da igual, aunque tenga muchas tareas, esa cola da igual, se la va a meter ahí. Por eso, por es una manera de proteger el que no, el que no hagamos cosas que en momentos que no toca, vale.
+
+16:47
+¿Y si fuésemos, si fuésemos a ver algún servicio de estos ahí en servicios, pues veríamos si está normalizado o se ha quedado reenrutado o bueno, están en borrador, no? Bueno, lo mismo porque han tenido a lo mejor algún rollo. ¿Ah, no, mira estos no? Ah, vale, ya sé por qué están en borrado, porque tiene un fallo, sí, para que.
+
+17:14
+Karajan lo pueda pasar de de borrador a terminado, tiene que estar en Estado cola y fobos los mete como en Estado borrador. ¿Eso es algo que tengo que corregir yo, EH? Es un fallo que tiene fobos. Fobos los pone en Estado borrador, no en Estado cola, entonces tendría que darlo que crearlos en Estado cola, no en Estado borrador. Esto es un fallo que tengo que resolver yo y ya está, pues lo resolveré.
+
+17:43
+A ver, servicio, buscar servicio. Hemos pegado ese Ah no, este no donde estaba 1 de estos, no esto que estés reenrutado quieres decir tú sí, very este de aquí no otra vez, perdón, espérame, un segundito, sí, tranquilo.
+
+18:13
+Si si Ay, Ay perdón, si vale estoy por aquí muy bien. Me tienen que que vienen a traer un ***** a ver a ver este añadir a contactos.
+
+18:49
+
+
+19:38
+¿Vale, ya está el servicio, hemos quedado aquí, verdad? ¿El servicio dónde está el servicio, verdad? Pues está bien. El original, por dónde iba haber, iba por sí, está por el original. ¿Este es el original, vale?
+
+20:13
+Este es el original. El original, como ves, no tiene ningún dibujo gris. Si en el original te apareciera un dibujo gris, es la diferencia que hay entre el original y el que hay ahora. No me he explicado, vale, entonces este es el que está ahora mismo en de verdad capturado el día 10 del 12 del 23.
+
+20:43
+O sea, hace 5 días de toda manera se puede rastrear, después ya directamente se ve por dónde está, vale, está por ahí, vaya, básicamente está bien y alguien ha borrado el reenrutado, aquí debería haber un very reenrutado, se se nombran como reenrutados, no cuando hay y los han borrado.
+
+21:11
+Lo mismo que este ya se podía borrar también si quieres, pero bueno vale, este es con lo cual está todo bien, está levantado, tiene los X con él levantados, está el servicio, está bien, revisa el último cambio aquí, es que esto me lo pidieron, lo que tengo es el último cambio, claro, no tengo el Reenrutado, pues no lo sé, me lo han borrado.
+
+21:41
+Vale, el very reenrutado no está, no está aquí debajo. ¿Entonces no es capaz de detectar los qué? ¿Qué cambios se han hecho? Vale, a ver, pues aquí, pero bueno, en principio desde el día 10 al 12 está o K.
+
+22:12
+Pero esto es un poco de lo mismo de siempre. ¿Siempre nos pasa igual, Eh? Al final es una falta de de intervención porque aquí hay un montón de servicios que ya están. Vale, y si tú al servicio de Reenrutados pues no le haces ni caso, claro, o sea, alguien debería preocuparse, no sé o no, no lo sé. A lo mejor es esto de es una economía de.
+
+22:37
+Aquí es una la gente necesaria para hacer un. Esto cuesta más que yo. Hace años trabajaba en hacía hacía software para una empresa de cerámica. En la empresa de cerámica no sé si lo sabrás, pero bueno, te lo cuento. En los hornos hay roturas, hay un porcentaje de roturas, vale, entonces en los hornos tú metes 1000 piezas en un horno.
+
+23:05
+¿Y 20 se van a romper porque la las barbutinas cerámicas, que son los la las las porcelanas líquidas, vale, siempre van a tener impurezas siempre, entonces por muy puras que sean, siempre van a tener una pequeña impureza o van a tener una pequeña burbuja de aire? Lo que sea eso en el horno. ¿Qué pasa? Pues si tiene una pequeña burbuja de aire hace que que se raje la la la cerámica.
+
+23:34
+Bueno, te lo estoy contando todo este rollo porque el el, el jefe, el dueño de la de la de la empresa, un día me viene porque quería hacer el control estricto de las piezas que se iba rompiendo dentro del horno. ¿Entonces yo le dije, Sabes aproximadamente cuánto se te rompen? ¿Las cuántas rompes? Dice, sí, sí, yo sé que estoy. Estamos rompiendo aproximadamente un 5%.
+
+23:59
+Pero quiero llevar estricto el número estricto de de de piezas que se rompen y entonces yo le pregunté la cantidad de gente necesaria para llevar un control estricto de las piezas que se rompen. ¿Vale más dinero o menos dinero que las piezas que se rompen? Me dijo. No, no vale mucho más dinero. Le dije, pues entonces no te compensa. ¿Para qué vas a controlar algo?
+
+24:29
+Que el control te cuesta más dinero que lo que vas a controlar. No tiene sentido hacer eso. A ver si si después tuvieras una consecuencia posterior, evidentemente sí. Es decir, da un control de calidad a la hora de montar un motor. El control de calidad de los tornillos, evidentemente los esos tornillos. Si no pasas un control de calidad pues luego la puedes liar parda, evidentemente, pero es que en este caso no era eso.
+
+24:55
+¿Era simplemente lo que quería saber, es el número exacto, cuántas piezas se le rompían en todo el horno? Digo, pues lo tienes fácil, si vas a si necesitas 100 fabrica 105, se te van a romper el 5%, pues te quedan 100, que te sobran dos, la pones en una estantería para la próxima hornada que se te van a si se te rompen 107 pues coges dos de ahí y ya está. Vas a hacer un software ahí estricto, gente metiendo los datos.
+
+25:23
+¿Me vas a tener que pagar a mí una pasta para que te haga todo el aplicativo? ¿Vas a tener que pagar una pasta a la gente que está contando? Vale, pues esto es un poco igual en esta casa. ¿Tener gente que lleve este el control sobre todo esto compensa? No lo sé, entiendo que no porque eso no sería entonces.
+
+25:44
+Alguien que controle los servicios que esté aquí, metiendo, mirando, poniendo, teniendo cuidado. ¿Compensa el el que se caiga un servicio en un momento determinado o el que no esté bien configurado? ¿Un servicio? No lo sé, pero a lo mejor alguien tendría que evaluarlo. ¿No lo sé, tampoco soy yo el que se va a poner a evaluarlo porque no sé lo que vale una persona, pues esto es lo que pasa aquí también un poco, no?
+
+26:12
+Que hay servicios que bueno, que están ahí, que no están adecuados, que hay que tener cuidado, que entras, que no está bien. Pues no lo sé. Bueno, qué rollo te he contado. No, no era curioso, sí, sí, sí, sí, sí. Era curioso la anécdota de las ver amigas, fue un tiempo, sí, en en ese sector antes de entrar aquí fuera.
+
+26:39
+Haciendo programas, sí, para empresas en cerámica es divertido, aprendí, no es es lo que te contaba antes, aprendí, aprendí lo que es una barbotina, cómo se calcula, cómo se cómo se fabrica una barbotina cerámica, qué componentes lleva, qué qué porcentaje de humedad es. ¿Es un mundo, EH? Es un mundo porque claro, tienen que pesarlo todo cuando llega tienen que mirar a ver el agua que lleva, cuán, qué humedad lleva cada componente, porque luego se juntan, luego hay que meter el agua, pero tienes que saber cuánta agua tienes que meterle, luego tienes que.
+
+27:09
+Mirar la densidad. ¿Los laboratorios eran importantes, Eh? En esas fábricas de en las fábricas de barbotinas eran importantes los laboratorios, mucho más que en los fabricantes de cerámica, la fabricante de cerámica. Al final te llevabas una Cuba con 20000 L de barbotina cerámica, la Medías en el depósito, llenabas moldes y ya está ahí no te preocupabas ves a a la empresa que fabricaba las barbotinas sí que le hizo un aplicativo brutal.
+
+27:39
+¿Para el control de calidad? Sí, sí, es verdad. Hice un aplicativo espectacular para llevar control de todo, de toda la materia prima que le entraba, la densidad que tenía, la humedad que tenía. Todo claro era era imprescindible saberlo porque tú luego ibas a fabricar en base a eso, claro. ¿Y tu producto? La calidad de tu producto dependía muy mucho de los parámetros de la de la materia prima que entraba.
+
+28:08
+Entonces ahí sí que se hizo en aplicativo. ¿Bueno, yo creo que con esto ya damos por finiquitado todo, no? Entonces, si tienes alguna duda más o bueno, pues ahora volvemos o ahora o no calle para siempre, sino en cualquier momento, pues nada te van surgiendo dudas. ¿Pues me vas diciendo aquí has podido entrar en carallan a todo esto?
+
+28:35
+Sí, sí, sí. En principio sí que sí, que veo los proyectos y las listas de comandos. ¿Si le doy a hacer la lista de comandos y que me deja entrar, sí, es que creo que te doy permisos también porque también llevan permisos específicos, no? Y.
+
+29:04
+Vale, es el mínimo nivel dos, vale, sí, vale. Y y lo mismo si necesitas los usuarios para ir entrando, pues lo que también me faltaba por pasarte contraseñas de de Grafana y de Grey Lock.
+
+29:33
+Ya sigue pasando y no sé configuraciones que manda cara ya no que hace cara, ya son todas sobre equipos sobre los router Cisco o se pueden poner sobre más cosas no con que tú puedas entrar en el equipo a través de un Internet 1 s s H puedes hacer una petición Get, puedes hacer una petición post o centrar a cualquier equipo, De hecho ya ya lo hacemos los cortafuegos, muchos son palo alto, son equipos para lo alto.
+
+30:00
+Y los y los radioenlaces son equipos n, e, c o son. De hecho, ahora estamos mirando a ver cómo automatizamos toda la la jungla que hemos comprado a ono los TN sí, los TN estamos mirando, se pueden automatizar. Entonces nos vamos a de momento vamos a meterlos en focos para que leer, hacer copias de seguridad de las configuraciones que se puedan sincronizar los datos sobre la la base de datos. O sea.
+
+30:32
+¿Eso de momento lo vamos a hacer por ahí con los de Vodafone, son los que hemos comprado, si hemos comprado de ono o de Vodafone, no lo sé, Vodafone es lo mismo, es lo mismo? Bueno, pues bueno, Vodafone sí, bueno, pues esos todos los Ericsson TN que hemos comprado, sí, los 1200 sí los hay que meterlos en fobos, hay que sincronizarlos y hay que interactuar con ellos. No sé si después a nivel de configuración serán algún script en carayan no creo.
+
+30:59
+Porque si no lo hemos hecho para los nuestros, no creo que no creo que tenga mucho sentido ahora perder el tiempo en hacer scripts para estos radioenlaces que ya están por eso. ¿Por eso te preguntaba que todos los nuestros están metidos aquí en Fobos, YY por qué vamos a meterlos de boda? Ah no, pero pero en en la base de datos sí, los nuestros deben estar todos metidos, algunos se pueden sincronizar y otros no, EH o Peta, vale, estoy ahí.
+
+31:28
+Ahora lo llamaré, algunos están metidos y otros no. ¿Vale, perdón, ya se me va la pinza, están todos, deberían estar todos metidos, vale? Lo que pasa es que por ejemplo, los los los nec, los paso link neo, no, eso no hay manera. Modelo tipo tipo radio tipo transporte.
+
+31:57
+¿Vale, buscamos aquí deben estar todos, vale, entonces están los Ericsson 55? ¿Cuántos han aparecido 10000 equipos, siempre teniendo en cuenta que un un vano son dos equipos, EH? Sí, entonces para mí son equipos, para otros no, pero para mí sí.
+
+32:27
+Para mí son equipos. Bueno, pues los paso link, los neo no hay manera, no se pueden hacer los 200, sí, los cientos se pueden sincronizar hechos, muchos deben estar ya sincronizados, entonces tú puedes entrar aquí y leer los parámetros del equipo. Ahora va, no vale. Entonces deberían estar en la base de datos todos y deberían.
+
+32:55
+¿Deberían aparecer en y en los que se puede, pues se van, se están sincronizados y es lo que se va a hacer ahora es sobre los TN que no los teníamos hechos? Pues porque prácticamente nosotros tenemos muy poquito, no, no sé si tenemos, sí tenemos, pero vamos, no, no, no, no sé decirte cuántos, pues ahora lo que pasa es que ya están, aparecen ya lo que pasa es que no sé.
+
+33:27
+Ericsson, Arca Ericsson. Vale a ver, los que aparecen aquí no sé lo que hay es que ya están. ¿Están metiendo ya equipos, Eh? Entonces ya no sé cómo qué modelo es, porque como estos van con numerito el modelo.
+
+33:51
+No sé los nuevos esto, los TNSY aparecen como TNCN 510 a mí pues sí que aparece como TN. Vale, estos equipos ya son ya estos, son, se han dado ya de alta, ya ves, sí, esos esos sí que suenan a ser de los de los nombres de Vodafone, sí, de hospital de Bellvitge, por ejemplo, este sí, sí, ese que ese es el que vamos a empezar como piloto, ese centro para traernos.
+
+34:22
+Pues estos aquí pues estuve, estuve viéndolo yo YY ya sé. Y sí que se pueden. ¿Se pueden ya para sincronizarlos entonces al Sincronizarlos? Pues que aparezcan los puertos que tocan con las frecuencias de cada de cada radioenlace de cada tarjeta o que llevan, pueden llevar varias, varias radios. Entonces la que las radios ya aparezcan con su con su frecuencia pueden mirar niveles, podemos mirar cosas.
+
+34:52
+Vale, entonces eso sí que lo tenemos que hacer. ¿Está pendiente, vale? Sí, correcto, una parte interesante. Muy bien. Pues espérate que paro la de grabar.

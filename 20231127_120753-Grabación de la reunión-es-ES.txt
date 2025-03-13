@@ -1,0 +1,655 @@
+[Traspaso Fobos]-20231127_120753-Grabación de la reunión
+
+0:02
+Vamos todo el día con problemas con la red, va muy lento, se vean muchas cosas como pilladas, no, Dios, la verdad es que no, no has notado nada, no, no, porque mira ahora, ahora, ahora ha saltado la grabación, se ha iniciado, no voy hoy de todas maneras que como me voy por por CSH, casi todo estoy cuando estoy desarrollando prácticamente lo que hago es SSSH.
+
+0:29
+Que hay tiene muy poquito ancho de banda, necesitas que sean tiempos muy rápidos, pero el ancho de banda es muy, muy poquito. Entonces normalmente no me suele, no me no, no, no me suele afectar, si hay cortes sí que me afecta, pero si es por por lentitud no me afecta. Bueno, herramientas, portal de peticiones.
+
+0:54
+Vale por dos de peticiones, pues son una serie de de formularios que se hicieron. ¿Empezaron a hacerse de una manera más sencilla y luego fue creciendo según se vio la utilidad en el que permite a los usuarios, pues hacernos peticiones sobre cosas qué qué cosa nos piden? Pues desde peticiones IP, tanto para hacerles como para shock, peticiones de acceso a través de cortafuegos y accesos a Internet YVPN.
+
+1:24
+También podemos hacer peticiones citrix que es para temas de balanceadores y peticiones de direccionamiento de enlaces. Eso cuando se va a instalar un radioenlace, pues nos hacen una petición. También nos pueden hacer peticiones la gente de seguridad para peticiones de bloqueo, spam, peticiones de El Antolar, pues varias, que es cuando oye necesito esto.
+
+1:54
+¿YYY, no hay un formulario genérico para para una tarea concreta, no, entonces no lo pueden hacer por ahí y ya, pues el tema de de registro de recetes que dimos el otro día, nada es muy sencillo, simplemente cuando entras aquí, aquí lo que nos aparecen son nuestras peticiones, o sea mis peticiones, concretamente las que yo he hecho, pero yo puedo hacer una petición nueva, no?
+
+2:19
+¿Pues nada, pongo aquí mi correo, si si va asociada a alguna petición de servicio, pues se pone para qué quiero la IP? Si es para enlaces operadores o es para restar servicios, vale principio, vale, entonces y aquí podemos o bien descargarnos una plantilla y podemos enviarle una plantilla con todos los datos.
+
+2:54
+O simplemente creamos vamos host por host, es decir, equipo por equipo. Entonces lo que hay que poner es primero que nada es el el código de centro. ¿Vale, entonces podemos buscarlo directamente? Pues yo qué sé la Aitana quiero poner 1 1 I P en Aitana Aytan.
+
+3:21
+¿Qué tipo de IP es? Si es de gestión, producción, multicar, pública o virtual. Normalmente lo que se piden son directores de gestión, la gente de de tecnología, servicios. A veces nos piden también de producción y multicast. Cuando necesitan una multicast o cuando necesitan una dirección IP de producción, el tratamiento es distinto, por eso se separa. Vale, entonces cuando se.
+
+3:50
+¿Cuando queremos añadir un equipo, esto es porque por qué se hace? Porque desde aquí se pueden crear directamente los los equipos, los nombres. ¿Entonces nosotros imagínate que íbamos a gestionar en en Aitana, yo que sé un Delta, que es una estación de continua vale?
+
+4:21
+¿Cómo voy a llamar al equipo? ¿De momento no lo voy a llamar de ninguna manera y luego lo generamos, vale? Y la descripción vale, y desde aquí yo puedo generar el nombre. Lo que pasa no sé si estaba el algoritmo, si estalinkaba aquí no, sí, si estaba el tal está ahí, sí.
+
+4:50
+¿Vale, sí que está, EH? En este caso sí, como en este caso, perdón, ya existe el Delta 1 y el Delta dos, pues nos generaría el Delta 3. Si yo le doy a crear equipo, pues directamente me daría ya de alta al equipo en en Aitana, vale, vamos a crear el equipo.
+
+5:13
+Si yo ahora tuviera aquí varios equipos, o sea quisiera más equipos, pues puedo duplicar directamente la petición y puedo ir añadiendo más más IPS. Por ejemplo en Imagínate que en Aitana es un proyecto en el que voy a instalar, no sé cuatro emisoras, pues desde aquí ya puedo pedir las cuatro emisoras. ¿Vale? ¿Una vez ya está, ya lo tengo claro, pasaríamos a tramitar la petición, vale?
+
+5:42
+Tiene la funcionalidad que lo puede hacer de manera inmediata, de manera automática. Entonces lo que voy a hacer es la voy a generar. Me tomaré nota para luego borrarla. Cero 3 vale, tramitamos la petición.
+
+6:15
+YY ahora ya te genera un recurso de me dices si si lo quiero hacerlo más, tener o tener los recursos de gestión. ¿Ahora es decir, quiero hacerlo automático y me dice el puerto, el me va a decir el switch, dónde puedo conectarlo? Me va a dar el puerto, me va a decir la IP que tiene, vale, digo que sí, que donde qué equipo puedo quiero conectarlo.
+
+6:41
+Me ha detectado que puedo conectarlo en dos equipos diferentes, o en el 2952 o en el 3400. Esto lo hacemos porque el el centro puede ser muy grande y no es lo mismo conectarlo en switch que en otros. Es si escojo a lo mejor el 2150. Tengo que hacer una tirada de 100 M de cable y aquí tengo que hacer 10. Entonces damos opciones En este sentido. Bueno, pues vamos a conectarlo en este.
+
+7:08
+¿Y que además tiene más puertos libres? Sí, tiene 8 puertos disponibles. Vale, pues justamente en este no hay vale, pues a ver si en el otro hay recursos disponibles. Vale tramitar petición, aceptamos barco.
+
+7:40
+Ya está, vale como nos ha dado el error, pues ya lo lo tenemos que hacer a mano, o sea, no cuenta puertos, seguramente es porque no hay un puerto con esa V Land disponible a ver tramitar peticiones IPS, esta es la mía, que es de pruebas, vale, y esto es lo que haríamos, a ver lo que haría la gente de operadores, la la gente de operadores. ¿Ahora lo lo veremos, vale?
+
+8:11
+Una vez ya está tramitada la de peticiones, entonces ya me dice que está solicitada, vale la que está solicitada y ya cuando el la gente de operadores que que me de la IPY el puerto y el ya me la me la me la dé, entonces ya esto pasará, me me enviará un correo.
+
+8:39
+Diciéndome que ya está tramitado. Hoy con los datos de la de la solicitud Vamos a tramitarla para manejarla por aquí colgada. Vale a ver tramitar peticiones IPS, esto es otro día veremos esta parte que es la tramitación. ¿Vale buscar en fobos? ¿En fobos tenemos lo que básicamente vamos, voy a hacerlo rápido y ya lo veremos con más detalle, vale?
+
+9:07
+Y me da todas las sub redes que tengo dentro de Aitana. ¿Entonces desde aquí yo puedo seleccionar una gestión Alicante VM, gestión Aitana, vale, pues este de aquí me dice cuántas tengo libres de 62? Pues gestiona facel Pi gestión 3400 Ai tengo 23 libres 3400 al y este también nos saldría que este también tiene puertos.
+
+9:38
+Vale, pues vamos a coger la de aquí, por ejemplo, de aquí busco La 1. ¿I p que esté libre, por ejemplo, esta de aquí ahora nos dice, qué switch de de de Aitana quiero escoger? Vale, nos va a arrastrear la UV Lan.
+
+10:01
+Desde el 2811, que es donde está el Gateway. ¿Vale, pues tenemos que coger este switch y dentro del switch, qué Puerto Quieres seleccionar? Vale, en este caso sería este de aquí lo tenemos libre. Vale, pues ya tengo todos los datos, le doy a validar y me acaba de decir que incluso ha configurado ya el puerto del switch.
+
+10:39
+¿Lo ves, vale? Pues ya está, pero no es el mismo equipo que que cuando estabas haciendo la petición te da. Te daba la opción. Sí, sí, sí, pero sí, pero a lo mejor estaba buscando otra V distinta. Otro rango de gestión no tenía suficientes IPS. Entonces no crea.
+
+11:04
+No es perfecto, el algoritmo tiene pues un fallo de estos, no, ojalá fuera perfecto, pero es que tenía mucho más trabajo así, a ver si encuentra la solución, te la da, vale, sí, en este caso pues voy a a validarla ya ya está validar, entonces ya me llegará ahora un correo diciéndome que que ya tengo la y la tramitación de la petición. ¿Esto que acabas de hacer ahora quién? ¿Quién lo hace? Operadores.
+
+11:38
+Vale, entonces me acaba de llegar ya un correo diciéndome que ya se me ha. Se ha resuelto mi solicitud y los datos donde conexión la IP, la IP, la máscara de Gateway, el el switch y el y el puerto del switch en donde voy a Conectarme donde puedo conectar la, la, la estación de continuo en este caso no en este. Este es el correo que me envía antes diciéndome que.
+
+12:05
+Y que se había generado, que se había generado la solicitud y después me contesta automáticamente diciendo que ya está resuelto. Vale, si yo ahora me voy aquí a a las peticiones, que no sé dónde me ha vayado es igual, si no abrir vale aquí ya me dirá que está resuelto y quién la ha tramitado y cuándo se ha tramitado. Y en todo caso, pues desde aquí puedo verla, no puedo modificarla porque está cerrada y si.
+
+12:35
+Vale, y pero aquí también me da toda la información de de la solicitud. Vamos aquí a este, el de aquí, acciones, herramientas. Hay mucha gente que intenta cuando hacer peticiones intentan entrar aquí en tramitar peticiones. Esta es la herramienta que se utiliza por operadores. Nuestra gente de.
+
+13:00
+De seguridad para gestionar es las peticiones. Vale para para entrar a hacer peticiones hay que entrar aquí en herramientas, portal de peticiones. Vale, es que claro, esta herramienta es nuestra. Quiero decir, la visión que nosotros tenemos de la herramienta es que aquí nosotros tenemos nuestras herramientas. Claro, claro, esto a lo mejor es verdad que induce a confusión, porque.
+
+13:29
+Pero hay gente que entra aquí, pero claro, nosotros esto lo hicimos pensando en que esto era nuestra herramienta y que aquí entrábamos solamente nosotros. Claro, ahora resulta que no, que entra mucha gente no, pero bueno, bueno, he tomado nota de la petición, aquí tenemos todos los datos de la petición. Vale, ojo, que una vez hecha la petición, como antes, le hemos dicho que el equipo estaba creado. Vale, si ahora nos vamos a itana, estará el equipo allí.
+
+14:05
+Todavía quiero recordar que no se le ponía ahora dormido, que no se le asignaba la la IP hasta que eso hay que hacerlo ahora man vale en energía, que es este de aquí no tiene la impuesta, vale, entonces una vez ya esto está todo o k a la hora de instalarlo, pues tendría que venir aquí.
+
+14:29
+La gente de energía ponerle la IP faltaban algunas cosas por terminar entre comillas, que es que directamente, como ya tenías un nombre generado, pues que viniera aquí directamente y pusiera la IP. Lo que pasa es que eso nos podía causar problemas en el sentido de que el algoritmo no es perfecto, te puede 1 I p que no debería, con lo cual te puede coger la IP de otro sitio y preferimos ser un poco más conservadores, es decir, bueno, dar de alta aquí la IPY robarle la I p a otro equipo.
+
+14:59
+Hay que hacerlo explícitamente por un técnico, con las IP no se juega. Sí, es que claro, si no podemos organizar un un lío impresionante, si empezamos a cambiar IPS de puertos y de manera automatizada y que se vuelva loco, puf, podemos liarla. Sí, exactamente, puf. Esa es la palabra entonces, vale, de momento lo hicimos así y así se quedó.
+
+15:21
+Vale, no hay más opción de momento si funcionara al cien por cien, pues a lo mejor es planteable decir, bueno, pues cuando ya se resuelva la IP que venga aquí, que se la y que la la modifique perdón, pero en este caso pues no, no se modifica, vale, entonces no, de momento lo que hay que hacer es entrar aquí en naitana borrar esto en naitana Delta Cero 3 esto lo borramos.
+
+15:51
+¿Este equipo y aquí en el 29, en el 3400 Side cuál era? Sí, ese es el 3400 hay del past cero dos, creo, sí, el eight, el fast cero dos. Vale, pues nos vamos a ir aquí 400 side dos de aquí no el el, el, el, el, las ECAS, 3400 Side.
+
+16:19
+Va a estar ahí, vale, pero en el en el fastos me ha parecido este aquí prueba, sí, vale, me la he metido aquí, ya ves, sí, vale. P a I p sí que me la he guardado pero me la he guardado en el puerto, no me la he guardado en el equipo. La opción que tenemos pues de momento vamos a a vamos a quitar la IP, vamos a liberar pues la IP no, no la quiero dejar reservada.
+
+16:47
+Vale, y ahora la forma de Desconfigurar el puerto es simplemente de aquí te acordarás de no te lo digo yo, el está ocupado, no, perdón, el descripción esta de aquí vale, bajamos aquí sincronizamos con red y desde aquí podremos hacer un shutdown del puerto y dejarlo. Ya está aquí, vale, entonces pulso la flecha hacia la izquierda.
+
+17:18
+Y entonces borrar descripción insulto en mi puerto, vale, pues nada, me hago esto y ya se queda liberado. El puerto ya está libre, vale, y aquí no ha pasado nada y aquí no ha pasado eso vale tareas, peticiones IPS, esta es la parte de peticiones IPS.
+
+17:46
+Se a ver un alguno que esté en borrador este de aquí lo que permite es lo que te comentaba que tú desde aquí podemos enviar. Vale, podemos descargar la plantilla tiene las instrucciones para rellenar la plantilla. Es una plantilla de Excel, lo enviaríamos y lo que hace es esto, o sea te hace. Imagínate que quiero pedir 200 IPS para remotas que se van a montar de un proyecto.
+
+18:15
+¿Pues si yo tengo un Excel con toda la información, de qué centros están? ¿Qué tal? Pues simplemente muchas veces los Excel son copiar y pegar, entonces si tengo la información de los centros los pego ahí en la columna que toca le pongo rectificador Delta YY le digo ya está YY lo genero incluso muchos de ellos, si lo hago automático pues me lo haría, me lo podría dar la IP automática y me me lo resolvería ya directamente, vale, ya está.
+
+18:43
+Vale, no creo de momento, o sea no, no tiene mucha más complicación que esto, simplemente el tener claro en el nuevo host qué datos tengo que que rellenar aquí es lo lo aclaramos porque mucha gente nos decía, pues quiero, aquí nos ponía, pues quiero switch, no sé qué no, aquí no se pone el switch que quieres, aquí se el el equipo que voy a conectar, el que va a aparecer en la descripción del switch cuando cuando lo demos de alta, vale.
+
+19:12
+En descripción pues puedes poner lo que quieras, pero aquí solamente se pone el nombre del equipo y vamos a conectar. Me da igual que pongas estación de continua o que pongas, pero por lo menos algo si ya hemos visto que si lo dejamos en blanco lo podemos generar automáticamente. ¿Vale peticiones IPS más o menos? Sí, vale.
+
+19:37
+Pues vamos a que luego, claro, hay un confín ahí de si quieres una Pepa, una máquina que si quieres un claro bueno aquí te aquí te van a quedar registrados todas tus peticiones, todos tus líos, pues los tienes aquí si quieres para máquinas para ya te digo, se pueden pedir EPS de gestión de producción de multicast que quiero una multicast porque vamos, se va a instalar un un codificador de no sé qué en tal centro.
+
+20:05
+Pues ya te te dan la multicast, te dan la sabes y pues llegarás más adelante ahora cuando me digas lo de pedir direccionamiento de enlaces. ¿Pero qué diferencia hay entre pedir 1 I p para un vano aquí y pedirla en el la otra parte? Enlaces, sí.
+
+20:24
+Porque los enlaces normalmente va asociado, son unas 5 o 6. ¿I p s diferentes te da ya entrada de la gestión de un extremo y del otro, de de las para y de todo, no? Hombre, sí, sí te da tanto la por dónde entras, por gestión. Normalmente eso ya tiene 1 I p después depende como sea el el equipo el puedes tener una sub red para radio que tiene además 1 I p.
+
+20:51
+De radio, en el otro extremo de la Radio Tendrás 1 I p de radio además 1 I p de gestión del equipo y además puedes tener también una gestión o de de un switch y además sueles tener 1 I p de un de la gestión de la estación de de toda la gestión en banda del del enlace vale, con lo cual al final esta tienes que crear muchas veces sub redes porque la parte de radio hay que crear la sub red es adrede para este radio enlace.
+
+21:20
+Tienes que crear el otro extremos, la subred de gestión, porque también hay que hacer una red independiente para para esto. Para para el radio enlace remoto hay que hacer muchas más operaciones que simplemente darte 1 I p en la en la peticiones de IPS no se crean sub redes, sin embargo en las peticiones de radio enlaces IY además tiene una ventaja que nosotros lo que hacemos es inyectar el Excel de petición de El Excel de de que nos viene.
+
+21:50
+De de tecnología dentro del Direccionamiento. Vale, vale, si entonces nosotros metemos el Excel que nos viene desde tecnología, a partir de ahí se crean las bases de datos y además lo que hacemos es ese Excel, lo modificamos con la información del direccionamiento que hemos creado, por lo cual tenemos el Excel de salida para enviar a las zonas.
+
+22:20
+Vale, bueno, peticiones. ¿IP shock es lo mismo, pero para el shock vale con repeticiones de descripción YY aquí pues en Estado borrador pues es lo mismo, Eh? Pero tiene está más resumido, pues solamente tiene tiene menos datos el Código Centro, el host y pues y ahí de Tarragona, pues yo que sé aquí está ahora el host.
+
+22:47
+Y en la descripción no, aquí no hay más más datos ni se automatiza nada. Aquí se pide y ya está. Vale, vale, tenemos peticiones de cortafuegos. Esto es un poco más complicado cuando se hacen peticiones de cortafuegos o de acceso a Internet o de vale. Voy a coger una porque no me genera muchos, muchos correos.
+
+23:17
+Vale, entonces lo que hacemos es pedir aquí tengo una una petición que ya he hecho. Vale que tengo que rellenar una serie de datos, evidentemente. Entonces cuando hago una petición de firewall tengo que especificar cuál es el origen. Vale, cuál es el destino, es decir, que tengo que dar o una sub red o 1 I p el puerto de destino, la descripción del destino que es a dónde quiero acceder, el protocolo que voy a utilizar.
+
+23:46
+¿Y la caducidad? Si no es 1 año, vale, pues imagínate, es 1 1 1 a la 10:27 H yo que sé a la 10:27 H 11 barra 24 me valida que la información que tenga aquí sea válida, pues si yo pongo aquí una cosa que no sea válida, pues me va a decir que eso no es válido. Eso no es claro.
+
+24:15
+Vale, entonces me valida o que bien sea una red o bien sea una dirección IP el puerto 80, no sé, descripción, pruebas, protocolo, TCP, accionante de caducidad. Vale, pues la autoridad, la podemos por defecto es 1 año sí, y si lo dejas en blanco al cabo del año, al cabo del sí caduca y se deberían de borrar y eso ya se borran.
+
+24:43
+A mano o o automáticamente no, no, a mano a mano esto no, esto de hacer cosas automáticamente es muy bonito y a la gente le gusta mucho, pero se corre muchos riesgos. ¿Imagínate que se vuelve loco esto y empieza a borrar, no es más, imagínate que lo hace bien, vale? Y que las todas las reglas que estén pedidas que tengan más de 1 año las borra.
+
+25:14
+Te aseguro que esta tarde, que esta tarde ya te digo yo que el 80% de la gente de Celles me llamaría por teléfono diciéndome que qué he hecho porque no se renuevan. Hay muchas que están caducadas y no se han borrado. Como siguen funcionando, no se vuelven a solicitar. A ver. Por por eso me ha extrañado porque yo pensaba que digo lo de si lo dejo en blanco es que no tiene caducidad.
+
+25:39
+La caducidad es 1 año sí o sí, mínimo. Tú puedes pedirla para menos. Esa es la teoría. ¿En la práctica no sé si se están borrando porque hay que hacerlo a mano, EH? Entonces las reglas se borran a mano. Vale, una vez ya tengo esto, pues tramitar petición y lo mismo pasaría la petición a.
+
+26:06
+A a la gente esto pasa primero por por la gente de seguridad, vale que son los que tienen que aprobarla. Tú puedes hacer la petición. La gente de seguridad aprueba si es procedente esta regla o o no, o te dice, mira que no, que no tienes acceso a esa a esa red y en la Ley de seguridad son, pues ahora mismo no lo sé. La gente que está pues con Pedro Barroso y con.
+
+26:34
+No sé quién las está validando ahora ahora lo miraremos porque está aquí en tramitar peticiones de de de firewall, pues B Marini, este Martini de Carmona a Tenorio que sí depende.
+
+26:54
+Que yo ahí en en esta parte del flujo me pierdo un poco de Oye, yo pido esto con las reglas y pasa por 2 o 3 aprobadores y tal YYY ejecutores YY nunca sé y digo se está retrasando y digo, nunca sé a quién le tengo que que reclamar. Mira, aquí hay varias cosas, la gente de de seguridad es la que aprueba esto nosotros hasta que esto no está aprobado.
+
+27:22
+Nosotros no, no, no hacemos nada, vale porque primero tiene que pasar por ellos y también te digo que yo tampoco exactamente sé quién quién aprueba ahora, porque esto ahora mismo se se subcontrató hace tiempo y son gente externa la que está probando o denegando esto.
+
+27:45
+¿Alguien me suena a mid Side? Creo que puede ser de mid side YY las reglas al también las están metiendo o mid side o los otros en función de la carga de trabajo. Quiero decir que también están echando una mano. Entonces al final tampoco sé exactamente, yo te puedo decir quién la ha hecho. ¿Te puede decir quién la ha probado? Sí, cuándo se ha probado porque está la fecha de de la fecha de aprobación.
+
+28:11
+Y después también tiene una fecha de tramitación, que es que cuando ya está aprobada hay que implementarla. Y eso sí que lo cuando ya está aprobada está en este caso, por ejemplo, vale, en esta está pendiente de que nosotros la la demos de alta en el cortafuegos hay que ir YY gestionarla. ¿En este caso, pues Nico per tramitada, pues tramitadas estas ya están tramitadas, vale?
+
+28:38
+¿Entonces estas? Pues ya ves que están tramitadas, tienen la fecha de tramitación. ¿Quién la ha tramitado y quién la ha probado? Vale, pues ya está. Quiero decir que este tipo de trabajos, pues en función de incluso hay algunas que son automáticas, vale, cuando son accesos a Internet. Estas no, no, no, no tienen tramitación.
+
+29:08
+¿Por qué? Porque es automática. ¿Hay un tenemos una manera en que todas las peticiones de acceso a Internet de máquinas internas hay un en los cortafuegos, tenemos una consulta hacia fobos que le pregunta a periódicamente, y es que es ese, periódicamente es cada 5 minutos, EH? No te creas tú que se va muy, que le pregunta quién está autorizado y entonces se va renovando las autorizaciones de acceso a Internet en función de lo que fobos le contesta.
+
+29:38
+Tenemos unas APIS por ahí que desarrollamos y entonces pues lo tenemos automatizado. No hay que entrar. Cada vez que alguien quiere una petición no hace falta ir YY implementarla se hace automático. Eso son las peticiones, acceso a Internet en las VPN y firewall, esos sí que se implementan.
+
+30:06
+¿Una vez ya están aprobadas, Eh? Siempre, siempre hay que aprobarlas. Vale herramientas portal de peticiones. ¿Qué más tienes? ¿Alguna duda respecto a la firewall? Vale peticiones, citrix, pues son, pues prácticamente lo mismo. Simplemente tú le dices nuevo host.
+
+30:36
+El puerto, la URL, el servidor, bueno, pues haces una petición de citrix, vale, y luego cuando la gente tramita aquí, pues a ver inicio o es perdón tramitar.
+
+31:02
+Citrix, están aquí, no, todavía mira, mira las que se han hecho, quiero decir, es que esta aplicación no son ni para qué la hicimos, pero bueno, en 2 años se han hecho una bueno, vale, sí, hice una petición de citrix, el gran usado, las peticiones de citrix, vale, peticiones de direccionamiento, de enlaces. Esto sí que tiene más meollo.
+
+31:31
+¿Y más uso, no? Sí, principio es no igual, o sea, correo peticionario, enviamos, creamos la petición, vale, y aquí lo que haríamos es que al crear el el radioenlace hay que enviar la ficha del banner. ¿Vale, entonces ahora vemos 1 que ya está gestionado, vale?
+
+31:59
+Seleccionemos la ficha del mano, le decimos si es retroncal A o B, si tenemos compartimos cofres en alguno de los dos lados y si tenemos rectificador en alguno de los dos lados. Vale. Normalmente el remoto siempre suele ser el a y el más cercano a nosotros suele ser el B, con lo cual normalmente aquí vienen como que sí que tiene rectificador y en este caso pues normalmente no suelen llevar rectificador nuestros emplazamientos porque ya suele haberlo.
+
+32:28
+Si no, pues también habría que si necesitamos 1 I p para ser rectificador, pues también habría que que ponérselo vale una vez esta a ver si tengo por aquí, esta por aquí. Una vez ya tenemos el seleccionado el pues le daríamos a tramitar enviar perdón y ya nos pasaría a trámite ya luego si acaso veremos rápido cómo se.
+
+32:56
+¿Cómo se resuelve una petición de radio enlace? Vale, aquí en principio no tendríamos ya mucho más que esto. Simplemente yo lo que tengo que hacer a la hora de enviar la solicitud es que tengo que enviar la ficha del enlace, la ficha normalizada, porque por ahí al principio teníamos muchos problemas, que cada 1 tenía su ficha guardada en el ordenador.
+
+33:15
+Claro, a la hora de interpretar la ficha por fobos no podemos decir, bueno, pues un día te llega en esta celda y otro día te llega en otra. Pues no. ¿Y entonces al final, si la gente de tecnología tuvo que que regularizar esto y al final todos utilizan una ficha que que es compatible con esta información, vale? Y entonces lo que se hace es, vamos a hablar aquí herramienta, mitad de peticiones de enlaces. Cuando nos llega una petición ya vale.
+
+33:46
+Nos llega la petición, entonces vamos a ver esto, por ejemplo, esta petición, lo que en principio no llega a lo mismo, pero aquí desde aquí ya podemos ver la la ficha de la enlación. ¿Esta es esta, es la ficha que nos han enviado, vale? Esta ficha es la que a nosotros nos han enviado. Desde esta ficha se extrae toda la información.
+
+34:15
+Toda la información de de datos de Del radioenlace de los dos extremos entonces es importante. Necesito tener el Código INFO, el Código Info, las frecuencias vale y también necesito saber la marca y el modelo.
+
+34:40
+Esto es muy, muy, muy, muy, muy, muy, muy, muy muy importante, importantísimo. ¿Por qué? Si es que en función de la marca y el modelo se van a necesitar unas subredes o se van a necesitar otras y eso se hace por marca, o sea tú te vienes a este equipo un paso 1200 vale y este por ejemplo es es trabaja modo transparente, no, no utiliza IPS de radio, vale, solamente utiliza.
+
+35:07
+¿Para digamos que pasa la V lan la pasa transparente a través del del radio enlace hay radio enlaces a ver que aquí tenemos si encuentro alguno así a ver alguno que sea un V recuadro aquí sí que hay IPS de radio, lo ves? Entonces necesitamos crear una sub red.
+
+35:38
+De radio para una sub red de radio y asignar 1 I p en cada extremo de esas super de radio, de manera que por ejemplo este va a tener la 93, esta la 94 con esta máscara de red y el Gateway de este va a ser este.
+
+36:05
+Y a su vez, este va a tener una conexión con la red de datos de gestión con la máscara de red y la IP de de gestión que va a utilizar. En este caso no utiliza rectificador en ninguno de los dos extremos. Si no aparecería la IP aquí también, aquí abajo solamente. Ya te digo que el suele ser el lado a el que van en extremo remoto y el lado B en el que está en nuestro extremo. Aquí tenemos toda la información del radioenlace.
+
+36:36
+Vale, una vez ya está gestionado. Ahora veremos si lo puedo ver. Lo digo porque es hay que lanzarlo y es un poco más complicado. Desde aquí podemos generar la ficha nueva. Entonces, como ya nos la han enviado, vale, entonces lo que hace el sistema es generarte una ficha nueva ya con la información de gestión.
+
+37:04
+Te la te la añade ahí en las celdas te dicen en qué switch, en qué puerto se va a gestionar el direccionamiento de radio que es esta de aquí el direccionamiento de gestión. Vale, si tuviese rectificador pues estaría aquí, aquí o aquí aquí creo que es aquí estaría si tuviese rectificador, pues aparecería el direccionamiento del Rectificador.
+
+37:32
+Vale y esto ya se lo enviamos a a la zona para que hagan la instalación del radio enlace. ¿Esto se genera online Eh? Si yo hago una modificación aquí ahora le cambio una dirección en B lo vuelvo a generar y me vuelve a me me volvería a dar ya la la IP nueva, con lo cual si hay un que hacer un cambio es muy rápido, pues nada veis aquí, modificas el direccionamiento, si hubiese algún error pues se rectifica, se vuelve a generar la ficha y ya está.
+
+38:02
+Las flechitas que te salen ahí arriba es para generar el el equipo. Ah vale estos este equipo sí ya está creado. Este equipo ya está creado en este centro, sino con esta opción lo que te permite es crear este equipo dentro del centro. Entonces te vendría aquí vale y te generaría este equipo sí, sí, sí, con el direccionamiento que Ah que toca y todo el rollo.
+
+38:32
+Vale, De hecho, este todavía no está, no está todavía ni ni ni instalado. Vale, entonces aquí directamente, pues ya tenemos el el radio enlace generado y cuando cuando se instale pues ya pasará a conectar aquí lo único que es que habrá que ver ahora, porque esto todavía no está cambiado. Este nombre no es el normalizado.
+
+39:01
+Entonces habrá que o no sé si generar hacer el cambio mano o lo automatizamos también para que cuando genere el nombre desde la ficha del vano, desde aquí, cuando desde aquí se genere el nombre, ya se genere con el con el nombre normalizado nuevo.
+
+39:25
+¿Qué es lo que habrá que ver? Porque nosotros la ficha del vano, evidentemente lo que nos viene es no nos viene un nombre de equipo, solamente nos viene el número de vano. Bueno, bueno, si si hacemos que desde que se genera un equipo nuevo ya le pongan el nombre bien codificado, pues nos viene aquí ya, venga, ahí aquí viene, pero está mal y.
+
+39:55
+¿Es decir, vienen con el guión, ves? Y que todavía siguen ahí mirando con los guiones. Pero bueno, si ya viene aquí generado y se puede dar de alta este nombre, o sea cuestión de mirarlo. Esto tiene un problema porque ellos han puesto un nombre pero no lo han reservado en el centro y lo deberían de haber reservado. Deberían de haber creado este equipo a cuando han hecho la ficha del Ano.
+
+40:23
+Porque si ahora hacen otra persona, hace otro otra ficha de otro barro en el mismo centro. Le puedes poner el mismo nombre, le puedes poner el mismo nombre porque no lo han hecho. No lo han dado de alta en el centro. Bueno, ellos verán. Por eso que yo me suelo fiar poco de la información que nos llega por aquí y hasta. ¿Y si este nombre no me lo han reservado?
+
+40:55
+Pues no puedo asignarlo aquí. ¿Yo no puedo escoger un nombre que no esté dado de alta en la base de datos, a ver cómo poder puedo, Eh, pero pero no quiero, Eh? Porque si no puede pasar eso, que yo aquí asigno un nombre, doy un nombre, todo de **** madre y después va otra persona. Van van a instalar otro radioenlace en el mismo centro y le ponen el mismo nombre. Ya la hemos liado entonces cuando dan de alta.
+
+41:21
+Cuando en la ficha del va no dicen que va a ser ese ese nombre de equipo, deberían darlo de alta incluso antes de hacer la solicitud. Yo no me meto en esto, ya lo veréis vosotros Cómo queréis organizarlo las dos flechitas que hay en medio, esas que es por si los quieres intercambiar en el sí, porque a a a veces a veces nos venía la información mal en la ficha del va, no el lado a nos venía como en el BY en y al revés, sí.
+
+41:50
+Vale, y entonces con esto lo que puedo hacer es intercambiar los los los datos de campo de lado vale, vale, YY donde el vano que hay al lado del modelo b r 4 hay un puntito. Esto es que necesitamos que el modelo esté normalizado. A veces en la ficha el vano y casi te y el Puntito verde te dice que sí, que está normalizado, no que está correcto y que tiene los datos para poder darlo de alta.
+
+42:20
+Es que en es lo que te comentaba. A ver aquí u R 4 l no, yo no tengo la base de datos 1 V r 4 L Tengo 1 V R 4 vale, entonces ahí hay una base de datos que está aquí a ver dónde estaba.
+
+42:48
+Y es en la que yo tengo definido. Por cierto, no he hecho todavía las copias de seguridad y las tengo que hacer sin falta. Ahora lo pondré ya que he entrado vale donde estaba. Si lo recuerdo estaba en equipo. Su que me suena mal, vale esa el.
+
+43:24
+En función de El la marca y el modelo yo tengo definidos. ¿Qué es lo que necesito? ¿Vale, si voy a necesitar aparte de las de las de radio, voy a necesitar más cosas q R 2, vale?
+
+43:50
+Entonces, si en este caso la sub r cuatro como os debería estar aquí sub R 2 o v R 4, qué bien V r 4 V R 4 sí sabes, esta es la tabla, no sé, no recuerdo ya esta tabla, esto lo hice ya hace tiempo y mi memoria ya no daba para mucho. No, esto no es perdón, vale, no es no.
+
+44:26
+Aquí está esto, no, esto no, no lo recuerdo, la verdad. Tendré que buscarlo a ver dónde todo se meten.
+
+45:11
+Bueno, hay una tabla en la que se especifica los los datos que necesito. ¿Si tienen sus redes aparte en radio, si va todo transparente, si vale, por qué? Porque mira a ver si pillamos una tramitar peticiones, enlaces. Es que están todos tramitados.
+
+45:36
+No los va a dejar ninguna. Sí es que quería enseñarte la herramienta de aquí cuando todavía no tiene IPS. Hay una una tecla que nos permite abrir la la el gestor de de direccionamientos. Entonces lo que hace el gestor de direccionamientos es pues eso. Te aparecen todas las IPS que necesitas.
+
+46:03
+Y tú le puedes ir diciendo vale, pues esta me vale cógemela de esta sub red, sabes entonces en nada, en 10 segundos incluso te permite crear sub redes cuando las necesita. Entonces en en un momento te hace la. La petición del Ban no completa, la resuelve si si pudiéramos le cambiara, si le cambia el Estado.
+
+46:36
+El vano 71 151 es la 2634. A ver si me deja por lo menos por lo que la podemos ver solo citado, no digo yo qué y no lo pongo bien.
+
+47:27
+No aplicas, vale, vale, vale, entonces lo que nos permite es esto. Entonces esto aparecería en blanco sin las IP, pues ya las tienen asignadas, no las voy a borrar y aquí en buscar en fobos, vale, entonces te va, te va creando, o sea, te va haciendo la misma herramienta que vemos para IP parecido.
+
+47:56
+Pero en función de lo que necesita, pues te va diciendo, mira, pues tengo este está googleland libre, este equipo libre, este puerto libre, entonces te va dando todas las opciones que tienes y entonces en nada en 1 minuto te permite crear todos los datos de Direccionamiento del van a ver a ver que veamos 1 de estos tramitado.
+
+48:28
+¿Este lo dejo como estaba, vale? Cuál era la que tenía el V R 4 no, esto son 200. Esta nueva vale de forgas esto lo están tramitando ya en muchos casos, incluso la gente de zona, Eh, como verás.
+
+48:54
+¿Quién lo está tramitando? Aventura de Tel Este. ¿Este es Carlos Cañamás, que es el de El experto en ***** cuál era el de teníamos por aquí abierto, pero esto me parece vale esta esta petición es la 26202620 la cambio?
+
+49:25
+Verás la pantalla, aplicamos cambios, vale provisionar IPS vale, aquí lo que hace es aparte de la parte de arriba, pues también necesitamos 1 I p de radio, con lo cual vale, pues también te va a dar la opción para buscar todas todo ese direccionamiento, incluso el direccionamiento de radio te permite crear un direccionamiento de.
+
+49:51
+Crear una subred del tamaño 248 que tiene solamente 2 2 I P válidas, que es una barra 30 vale, te permite crear una barra 30 te la guarda en Fobos. Es todo muy, es muy muy tonto, quiero decir.
+
+50:10
+¿Pero la ventaja es que claro, te quita una cantidad de de de tiempo absurdo de me tengo que ir a a fobos, buscar una barra 30 donde me cabe la meto aquí tienes que quedar la Super a mano, luego venirte aquí asignarla lo hace todo automático entonces semiautomático vamos a dejar que lo hace todo semiutomático entonces ya te digo hacer una una solicitud de IPS te cuesta 5 minutos, esto antiguamente te puede costar 2 horas Eh?
+
+50:39
+Rebuscar IP, buscar sitio, buscar el enlace, buscar el switch, buscar el puerto. ¿Me era un lío mirar a ver qué marca y qué modelo, si necesito el tamaño de la de la si resulta que hay dos, dos radio enlaces enganchados 1 detrás de otro, que en vez que también hay opción, Eh? O sea, aquí podemos crear. Si tuviéramos otro radioenlace, que son que van encadenados, tendríamos aquí la otra ficha del vano y.
+
+51:09
+Pero ahora, de provisionar IPS tendríamos las opciones de hacer para los dos radioenlaces vale, y a ver que esto lo pongo tramitado, vale a ver que se perdón a ver que se haya quedado esto bien esto de aquí.
+
+51:40
+Esta no, esta no esta de aquí 2620. ¿Este de aquí vale, se ha quedado bien? Ya está, a ver. Es más sencillo que tiene muchos datos, mucha información, pero ya te digo que permite, tiene mucha ayuda. Lo único que tener en cuenta es esto.
+
+52:13
+¿Qué tienes que que gestionar? ¿Qué esto es un ipsoling 200? Si han puesto IPS de radio qué raro es que los ipsoling 200 no necesitan IPS de radio. No sé por qué lo han puesto. No tiene mucho sentido, pero bueno.
+
+52:44
+También es que tiene un, o sea, a ver, tiene un truco, el almendruco. Sí, a veces lo que hacen es cambiarle la marca del modelo. Vale, le cambian la marca del modelo y con lo cual tú puedes decirle que es una marca cuando es otra, sabes cuando lo hacen esto. Por ejemplo, cuando los V R 4 V R 2 V R todos son iguales.
+
+53:10
+Vale, entonces cuando entra un creo que recordar hay 1 V r 8 puede ser, no está parametrizado todavía. Entonces lo que hace es porque es igual que el V R 2, entonces dicen que es 1 V R 2, hacen todo el direccionamiento y luego ya lo pasan a V r 4 y ya está. ¿Vale, suelen hacerlo así, Eh? A ver, lo que voy a hacer es poner a hacer copias de seguridad backup.
+
+53:41
+Antes de que se me olvide, no sé si tienes alguna duda con respecto a esto. A ver que vaya cerrando cosas, porque si no tengo aquí un mareo, vale esto lo dejamos ahí. Esto aconsejarlo aquí es.
+
+54:14
+Esto vamos a jarlo aquí vale lo de bloqueo spam simplemente pues es un cuando entra un spam, vale, está también automatizado, se autoriza a ver 1 de estos. Vale, simplemente damos el tramitador el bloqueo del spam, hay que poner la dirección donde están entrando los spams.
+
+54:44
+Le damos a tramitar petición y se autoriza, pues los los cortafuegos le preguntan a fobos los spam que tienen que bloquear y ya está. Vale, entonces esta también esta también automatizado, no tiene mucho más que eso, se hace la solicitud, igual envía un correo, luego vienen aquí bloqueo spam. Vale entonces cuando ya se.
+
+55:15
+¿Sabes una que se haya hecho? Pues esto, acción, bloquear está tramitado, es decir, se se se se validó, se les ha pasado los cortafuegos y ya está y ha bloqueado estas direcciones, no, esto sí que se utiliza bastante o se utilizaba. No, no, mira, desde el 22 no se ha utilizado.
+
+55:42
+¿A ver si es que la relación Por otro lado puede ser, Eh? Porque a veces creamos una herramienta, empiezan a utilizarla todo El Mundo, de repente la utilizan Por otro lado, pero no dicen quitarla de ahí. Pues mira, desde el día 26 del 7 no se ha hecho ninguna petición de espa, vale, estamos aquí, pues casi que me lo hubiesen podido decir y lo hubiese quitado aquí no, pero bueno, ahora la relación desde el spland con algo sí.
+
+56:10
+Puede ser, no sé, peticiones lantulan, pues es lo mismo, son solo que las peticiones de las Lantulan, pues llevan asociadas, pues todo el tema de autentificación.
+
+56:27
+¿De de encriptación, que cuál es el el los algoritmos de encriptación, cuáles son las contraseñas? Todo el rollo, pues estos datos van aquí y ya está, pues el que hace las peticiones de la Antulan, pues tiene que tener toda esta información y cuando se resuelve pues nada tramitar peticiones la antulan ves esta aquí sí que se están haciendo más.
+
+56:52
+Vale, entonces aquí tenemos la la información para para hacer las peticiones de la Natura. Estas sí que se resuelven a manubrio y se ya está igual. Cuando tú la creas, te envía el correo, hace la validación, la pones en modo solicitado, pasa por seguridad tecnológica, lo lo ponen en aprobado y luego ya nosotros lo implementamos y entonces ya pasará.
+
+57:21
+Ha tramitado vale las sobre todo, parecen todas internacionales. Sí, sí, sí, suelen ser bueno, no, no hace falta que sean todos nosotros, por ejemplo, sí, sí, no, pero que vamos, que que se ve que es mucha las dos, las últimas son sí, la misma índole está en Exter, en Madrid. Tr en Madrid, 2 V P n a p n de Italia, de Vodafone. Bueno, aquí hay sí, hay de todo.
+
+57:49
+También la ventaja es que al tenerlo Así pues tenemos la base de datos de la gente cuando lo ha pedido, qué es lo que ha pedido YY hacia dónde lo ha pedido. Entonces todos estos registros luego los tenemos ante un problema cortafoldos, pues podríamos sacar la información de aquí, pero decir que vale portal de peticiones que nos quedan peticiones varias.
+
+58:16
+Las peticiones varias es pues la Carta a los Reyes Magos, que digo yo, vale, son, son, sí, son, son cartas a los Reyes Magos y aquí pues peticiones varias. ¿Cómo se resuelven? Pues vamos a ver qué es lo que pide la gente. Las peticiones varias, sí, sí es, aquí hay algunas que están todavía, incluso han solicitado que no se ha hecho bueno, pues a la mayoría tramitadora tenoria.
+
+58:49
+Damos a conocer la capacidad de no ocupar, o sea, esto es simplemente una petición de información. ¿Hay peticiones de cosas muy varias, necesitamos por favor los bichos, vale, vale, es que esto tiene mucha relación, o sea es con qué? Con con tareas que ahora veremos. Luego tú tú haces aquí una petición, se genera una tarea, que eso la tiene que atender alguien.
+
+59:19
+Entonces nosotros el control de tareas lo llevamos así. Lo primero que cuando se crea una petición de I p s 1, petición de radio enlace. ¿Eso siempre lleva asociado a ver que le pongo a que continúe las copias donde estás corazón aquí está, vale? Según el de tareas también hago la copia, bueno.
+
+59:50
+Tramitar peticiones varias. Pues eso, cuando se genera, siempre que hay una solicitud, se genera una línea en la tarea que se se asigna a una persona. Esa persona se tiene el control de si esa tarea está atendida, no está atendida y de una manera más uniforme que por aquí por aquí. Si tendrías que ir entrando línea, o sea quiero decir, tendrías que ir entrando en enlaces para ver quién la ha atendido. Si está atendido allí, lo tenemos todo más más normalizado para control nuestro de de tareas.
+
+1:00:20
+Vale, entonces nada, lo único que nos queda aquí ya es el tema de registro RFCS que se lo vimos el otro día, no es, es que lo he intentado ya 7 veces, no sé por qué ha hecho esto. Ah, vale que Estas son las mías, estoy un poco callado, Estas son mis RFCS, si yo entro claro es que es.
+
+1:00:46
+Si yo entro por el registro RFCS vale por el portal de peticiones. Lo que veo son mis, mis RFCS, no las veo todas. Sí, claro, me explico, sí, sí, sí, sí, solamente veo las mías, no veo las de todo El Mundo para eso, para verlas todas. ¿Hay que entrar por herramientas, no?
+
+1:01:13
+No estaba en herramientas, no estaba aquí en herramientas RFCS, aquí no tiene acceso, todo El Mundo creo recordar vale, y desde aquí se ven todas, si si están correctas como si no, en este caso este pues están okay, pues okay, vale, pues perfecto, pues ya está. Tenemos aquí la RFC este este caso es de un servicio y de un barro.
+
+1:01:43
+Tienes la RFC, el vano y la RFC del servicio. Y desde aquí pues ya te digo por o por número de servicio o por número vano, pues podemos ir viendo todas las RFCS que se han hecho o se han intentado volcar. En este caso ha habido un problema de la RFC, pues tiene un error de autentificación de autonegociación y encima tiene frame Lost.
+
+1:02:13
+La ha aceptado él de Jiménez. La la la ha aceptado, aunque estuviese mal comentario, aceptado por y por Alberto García. Vale, pues vale, la han aceptado porque sí, pues oye, pues ya está aceptada. ¿Lo que haces en herramientas es subirlas, no?
+
+1:02:39
+En herramienta portal de peticiones y es para subirlas para que las para que los técnicos tengan su su espacio para para registrarlas. ¿Y aquí tengo todas mis RFCS desde aquí puedo verlas también EH? Desde aquí lo que pasa es que claro, esto son pruebas mías y pero le das a ella nueva YY entonces pues te da paso el P, d, F o el fichero o lo que.
+
+1:03:03
+Pues va no soporte servicio, pues el Código servicio pues es el archivo el PDF que corresponda, y si tiene un SAC asociado, pues lo pones y ya está y la y la subes y te la analiza automáticamente y si está correcta pues te dice, pues está correcto con eso vale, si está mal pues te dice, pues no está mal. Si eso ya te digo, hay veces que la RFC se ha hecho, pues la autonegociación no estaba bien puesta. Bueno, pues.
+
+1:03:33
+Pero está hecho, o sea se ha comprobado el circuito y funciona bien. Bueno, pues los el el técnico correspondiente se le pide, oye, que eso está bien, es por no volver o porque incluso a veces con errores, con determinados errores, cuando son radiollaces muy largos sabes que van a tener errores y sabes que se firma un con el cliente se firma 1 1 s lea, no es un s lea, entonces bueno, si se si si sabe que eso va a tener errores.
+
+1:04:03
+La RFC dice que hay que tener errores. Bueno, pues acepta, no pasa nada. Esto es un tema administrativo nuestro, no es de cara al cliente, pero claro, nosotros tenemos la obligación de hacer las RFCSY, tenerlas registradas y como y no lo teníamos un en realidad tampoco teníamos un almacén de RGCS. Ahora ya lo tenemos, vale, porque aquí ya tenemos nosotros el poder en un momento dado.
+
+1:04:31
+En a Verfobos herramientas RFCS tú puedes ver dentro de 1 año vienes aquí y tienes la RFC del van que eso antes no lo teníamos tampoco. Bueno, no está de más tenerlo aquí, todo bien organizado, vale postal de peticiones, alguna duda es respecto a esto.
+
+1:05:01
+No, pues vamos a ir a tareas, a tareas, tareas, tareas. Es una cosa que empezó un principio. La empecé a hacer cuando estábamos en telecontrol para control de tareas un poco de de momento mío y después por si alguien más quiere utilizarla.
+
+1:05:30
+Pues para, pues eso, cuando entraba a un proyecto, para ver cuántas instalaciones había que hacer, cuántos equipos había que supervisar, si estaba hecho, si no estaba hecho, si no faltaba y al final al pasarme yo a a aquí a configuración, bueno, pues necesitamos una herramienta y al final acabamos utilizando esta. La tuvimos que tunear un poco, pero es una herramienta interna, vale que que desarrollamos nosotros entonces.
+
+1:05:56
+Aquí en la parte principal, digamos que partimos de lo que sería un proyecto. En realidad son bloques. Aquí lo que aquí llamaba proyecto es porque en su día yo lo llamé proyecto, aunque en realidad son bloques. Entonces tenemos los bloques de peticiones de ipes de operadores, que son las que nos han entrado por por aquí tenemos la mía, vale, la que he hecho yo antes pues me la voy a asignar y voy a decir que está terminada.
+
+1:06:24
+Coordinación de operadores. Yo notificado, enviamos, me la auto notifico y la termino, vale terminado, te la enviamos. A mí no me sale nada en tareas, no, no, porque lo primero que no tendrás permiso ni estás ni estás en ninguna base de datos.
+
+1:06:51
+Por eso, por eso es que esta información, toda esta información te sale en función de quién eres. Sí, sí, sí, sí. ¿Por eso por eso o sea, tendré que darte de alta en la base de datos, vale? Petición de IPS de de operadores son las peticiones que nos van entrando las peticiones IPS, vale, en algunos casos está bloqueado porque porque no se ha instalado el equipo todavía o cualquier.
+
+1:07:20
+Tato, puedes entrar aquí y mirarlo pendiente. Migración de vano, vale, entonces nos han hecho una petición de vano, una petición de direccionamiento IP. Sé que está relacionada con un con esta orden de trabajo, que también puedo entrar desde aquí y verla y está bloqueada hasta que se migre el vano.
+
+1:07:48
+Claro, no tenemos todavía ahí. En el vano no podemos asignar. IP s vale un poco. La idea es que a ver, tenemos peticiones, IPS, enlaces, que en este caso solamente está está pendiente, que ya está hecha, por cierto, pero Carlos no ha venido todavía de dicho que está terminado, es que ellos también tienen que venir aquí.
+
+1:08:16
+Peticiones IP de proyectos, pues no tiene nada pendiente. Las órdenes de trabajo baja C T o M G Cot Estas de aquí, vale, estas entran desde un Excel que nos envían periódicamente, que nos lo envían todos los días. Vale, se vuelca un Excel, el que nos aparece, que nos vienen las órdenes de trabajo que tiene nuestro departamento. Todo lo que hace es mirar el sistema, es mirar a ver si existen y si no, pues la crea.
+
+1:08:45
+A nosotros no nos crea, se crea esta esta información, aquí vale este registro de la orden de trabajo, le hago clic y puedo entrar aquí. En este caso supongo que habrá sido Tenorio. ¿Se le ha asignado ya a David Jiménez, vale, ves?
+
+1:09:14
+Tenorio se la la ha asignado David Jiménez. Javi Jiménez no ha hecho nada, ha puesto notificado, debería haber puesto bloqueado y le van a a a penalizar en tiempo. Pero bueno, ves entonces cuando una persona le llega así le le llega el la hora de trabajo, lo que tiene que hacer primero que nada es todas las mañanas ver la zona de trabajo que tiene pendientes, vale entonces en las horas de trabajo, pues alta del servicio.
+
+1:09:42
+¿Vale, por qué la ha bloqueado? Pues porque está pendiente, pendiente la hora, vale, ella sabrá por qué está pendiente, pero esta hora de trabajo ahora mismo está bloqueada. No se puede resolver de momento hasta que no cambie el Estado. Entonces aquí tenemos, pues, todas las horas de trabajo porque la mayoría están notificadas, vale, y están bloqueadas. Perdón, porque son.
+
+1:10:08
+Orden de trabajo que no se pueden resolver aquí, como verás, no están, no aparecen las que están terminadas, para eso tenemos que decir que mostrar terminados. Vale, pues estar terminado. Te aparecen todas las las órdenes de trabajo, incluso las que están terminadas, que por aquí de abajo ya están terminadas. Vale, entonces cuando alguien, un técnico acaba su orden de trabajo, desde aquí podemos ver.
+
+1:10:40
+¿Uh, hola, me oyes? Sí, sí, sí, sí, vale, se me ha quedado, me había quedado un poco tostado, vale, vale, ya está, entonces aquí te dice todos los. El día 12 del 7 la asignó.
+
+1:11:10
+La puso en notificado, se la pasó en curso diciendo estoy trabajando en ella, como vio que no podía hacer nada a los 20 minutos la bloqueo. Luego el día 9 la volvió a poner en curso por altar de nada. 9 del 8 está bloqueada y el día 11 del 8 se ha terminado. Vale, esto es un poco el historial de las órdenes de trabajo que ha que ha tenido las órdenes de trabajo. También vamos a coger una.
+
+1:11:41
+También pueden tener asociadas esto. Para mí son hitos, es decir, dentro de los proyectos hay hitos. Estos hitos son, pues, las órdenes de trabajo que hay, vale, y estas horas de trabajo también pueden tener tareas asociadas. Vale entonces por esta de aquí esta hora de trabajo, además de.
+
+1:12:08
+La hora de trabajo nosotros le creamos una tarea, que es la configuración del vano. ¿Y esa configuración del vano, quién la tiene que hacer? Porque no es lo mismo una la la. La coordinación de este hito, que es 1 hora de trabajo, la va a hacer Francisco Javier Castaño, pero la instalación del vano la tiene que hacer Juan Fernando.
+
+1:12:33
+Vale que ya se le ha notificado, con lo cual ya debería tener un correo electrónico que ha llegado diciéndole que ojo que tienes que configurar este banner, pero claro tiene que tener, tiene que estar pendiente de que se desbloquee la situación del radioenlace cuando se instale, vale, en este caso es el las.
+
+1:13:03
+Esto es las zonas de trabajo, pues saca de aquí porque es que hay tantas que se queda un poco tosta ET vale que si si le pones en mostrar terminados, claro te saca. Lleva. Hay un histórico hoy de 3 años de no página, no, no, no lo página, no lo página está pendiente de hacer, pero bueno, como tampoco se suele usar así no, porque es más fácil. Cuando tú quieres saber qué es lo que tiene pendiente cada 1, puedes saber lo que tiene pendiente operadores, por ejemplo.
+
+1:13:33
+¿En operadores estoy yo por aquí o bueno, pues el Sergio David, Sergio, David Sánchez tiene pendiente esto de aquí, vale? Estas son las las cosas que tiene de mal vale pendientes.
+
+1:14:00
+¿Referentes a zona? ¿Pues qué tiene pendiente Carlos Cañabás? Pues tiene esto, tiene la la configuración de este vano, no la configuración, no la asignación de IPS. Perdona de Carlos, es de ahí de zona valenciano, compañero. Hace años hablaba un montón con él y hace años que no sé nada de él. Bueno, es tan.
+
+1:14:31
+En llevando la parte de red de de aquí de la zona de Valencia. ¿Lo que pasa que también como ahora, ya la zona es es Cataluña, Murcia, Valencia, Baleares está un poco, pues eso, metido un poco en en todas las de la zona este, pues metido ahí en todas las guerras, vale?
+
+1:14:55
+Y después aquí también por personas, pues puedes ver, pues café caña más, por ejemplo, que estará por aquí, pues puedes ver todo lo que ha ido haciendo. Vale notificado que igual, pues.
+
+1:15:27
+Tenemos un histórico de los todos los trabajos que ha ido haciendo a otra persona. Vale en inicio cosas interesantes. Bueno, lo que te comenté. Las RFCS, por ejemplo, vienen automáticamente desde le voy a dar mostrar terminados, pero me va a poner aquí lo de siempre. Cuando hay 1 R F C Vale, esta RFC viene automática.
+
+1:15:57
+Desde desde la aplicación de RFCS, que es que cuando entra 1 c, R, F, C Mira a ver la orden de trabajo y lo linca, no, sí, a ver, que la detenga, que la detenga esto o habría que paginarlo. ¿Sí, vale, pero está ahí pendiente, vale, entonces ya?
+
+1:16:28
+Te dice la RFC, cuando se mete la RFC viene aquí y mira a ver si esa RFC está asociada una orden de trabajo y te la marca como que ya está o K pues yo te la ponía en verde vale esto baja de tengo más que Quito root y difcon. Estas son digamos lo que las bajas, esto es viene automático, o sea se el registro se crea automáticamente.
+
+1:17:04
+Cuando se crea una igual que la de peticiones IPS de operadores o de enlaces, vale estas IPS, cuando alguien mete un formulario se crea el registro. No hay que venir aquí, darlo de alta y el y lo que y el y el referente, el o el responsable de de cada parte, pues es el que asigna las tareas a un técnico o a otro.
+
+1:17:33
+Caso es un tercer nivel de seguridad, pues no lo sé. ¿Quién ha creado esto, para qué lo ha creado? Vale, peticiones varias, pues tenemos un formulario de peticiones varias, seguridad principal de proyecto y operadores, lo mismo se crean los registros, vale, y ellos también también se van haciendo cosas aquí.
+
+1:17:52
+Vale, por ejemplo, aquí llevan el control del de las versiones que hay que de de las versiones de de los 920, que irá actualizando la iOS. Entonces tenemos ahora, verás, tenemos controlado gestionado el calendario de los cortos programados. Cuando tenemos que hacer un corte programado, también lo metemos aquí. ¿Vale, entonces?
+
+1:18:21
+Por aquí en noviembre sabemos que estos cortes programados están pendientes, estamos a 27 y 7, no sé, no, no han puesto la tarea. No, es que no, no hay que subir la versión, vamos a hacer la instalación del equipo que debería estar aquí. La migración del 920 de Valladolid al 540.
+
+1:19:03
+Debería tener aquí 1 hora, pasa que como no sería sería ya en martes, no, sí, martes sí sería aquí la MG cota a ver si es esto aquí no, pero no la lleva, sería en martes no la no la lleva Alberto, no vale, este en este caso es 1 1 M G Cot y lleva asociado 1 t P corto programa vale y este TP.
+
+1:19:33
+Pues lo que hacemos es, ya te digo, llevar un calendario TPS aquí, entonces sabemos todos los días que cortes quién o sea c t 3, el grade. ¿Cuándo es el jueves? No vale, entonces mes a mes pues vemos los TPS que tenemos planificados, vale o.
+
+1:20:02
+¿En este octubre, pues los que sean fallidos, en este caso fallido, por qué? Pues este t p a ha sido fallido, con lo cual se ha tenido que reprogramar otro día. ¿Vale, lo ves? Se repronificó, este día se canceló y se hizo de este día y este día ya está a la tercera.
+
+1:20:35
+Se consiguió bien y ya está la la la MG con terminada. A ver, es una herramienta sencilla, pero la verdad es que a nosotros nos funciona muy bien porque nos permite tener todo registrado. ¿De qué es lo que hay pendiente? ¿Quién ha hecho qué, cuándo hay que hacerlo, los cortes programados, las migraciones de los vanos? Entonces a nosotros, pues ya te digo.
+
+1:21:04
+¿Se pueden crear nuevas cancelaciones? No sé, prueba, no sé quién ha hecho esto. ¿Se pueden crear proyectos, esto eso lo pueden hacer cada 1, Eh? O sea, aquí no hay restricciones en cuanto a qué es lo que puede hacer cada cada cada usuario, pero tienes que estar dado de alta aquí para poder entrar en la aplicación y poder eso, gestionar, entonces, pues a ver.
+
+1:21:33
+La incidencia del operadores está terminados, las incidencias también las nos vienen por excelsa. ¿Entonces también tenemos registro todas las las incidencias que tenemos? Sí, cuando hay incidencias, cuando tenemos en el Excel este que nos vienen las mesas de trabajo, pues también nos vienen las incidencias por ver si hay alguna que hay pendiente.
+
+1:22:05
+¿Pero qué incidencia es las que se os asignan por plata o sí? Por ejemplo, sensor meteocat, cliente, problemas red Zaragoza correo. Está incidencia es un código de incidencia de supongo que de plata. No sé de dónde viene a ver, espera, espera que lo busco en aire.
+
+1:22:50
+¿Inc, pero pero 0101131366366 no, pues esto de aire no es no sé de dónde vienen, no, no sé si vienen de plata o vienen de a nosotros, no? La no espera que que he metido dos 3 se espera.
+
+1:23:14
+1131366 a ver, espera. Sí, pues está en aire. Sí, vale, pues esa incidencia ya está terminada. Esto es de Horcau Lleida FM, PA Pa Pi, PA PA, PA, PA Pa y a ver tú, tú, tú, tú, tú, tú.
+
+1:23:44
+Se creó actividad en plata, a ver si sale algo. Tiene una llamada atendida del día 14 a las 20:00 H, Sí, aquí hay una tarea, configuración de proyectos para Héctor Andrés Martínez. Puede ser, puede ser, es que no, no sé por qué no tiene el nombre aquí asociado.
+
+1:24:11
+Como está terminada ya directamente iniciar asignó aquí en plata, o sea en en tareas, pues ya está terminando y esto esto lo leéis de algún sitio o lo metéis a mano, no, no, eso lo leemos, nos vienen con un Excel y ese el ese este lo sacáis vosotros o os lo manda alguien o hay está todo automatizado. O sea, lo que pasa es que a mí ya no sé si me llegan.
+
+1:24:38
+A ver si me llega. Siguen llegando, pues yo dije que no me lo enviaran llamadas. ¿No ves aquí a las 20:19? ¿H la Guardia? No, no, a mí ya no me están entrando aquí en incidencias. A mí me entraban.
+
+1:25:15
+Confianza de preparación de red, me parece que me las estoy cargando. Ya me entraban las las o t S y las incidencias. ¿Que era un Excel? Sí, es que todos los días me entraban 3 o 4 correos con excels. No, ya veo que tu bandeja de entrada está está poblada.
+
+1:25:38
+No es que mira lo que me pasa a mí, o sea a mí Mogollón de correos de fobos, yo me envío réplicas, vale, fobos, fobos, Fobos, entonces Fobos, Fobos, fobos, fobos. Con lo cual yo tengo miles de correos de estos. Entonces me está. ¿Cuando hay una solicitud de IP, me llega una réplica, sabes?
+
+1:26:06
+Entonces hay en algunos casos que me llegan réplicas, me las tengo que ir quitando porque esto me lo van a tener que dejar, pero bueno, me sirve para ver que si el sistema está activo está funcionando bien. Sí, pues claro, pues tengo 10000 correos por leer, sí, es más que probable, vale, también es verdad que tengo poca costumbre porque reunión esta tarde hay una, pues sí, una revisión de los niveles dos y 3. Vale, pues ya sé que.
+
+1:26:34
+Es que tengo una reunión, o sea, a veces sí, pero es que tengo de estas de fotos, ya te digo que es que tengo Mogollón. Bueno, lo que hay vale, pues eso. A nosotros nos entran las incidencias y si hay que poner comentarios pues se se pueden poner aquí y la llamada atendida y todo el rollo. Lo que pasa es que aquí no sé por.
+
+1:27:02
+¿Qué nos está asignando la persona que resuelve el tenga? ¿Tenía que venir ya asociado a la persona, pero bueno, si la proyect in Ciencias de proyectos aquí sí que se la asignan, ves esta tarde que tiene Alberto? ¿Está notificado, requiere un trabajo programado, tiene una llamada atendida y además requiere un trabajo programado para el día 23 del 11 que se terminó, vale?
+
+1:27:35
+Bueno, qué más quería contarte aquí poca cosa más. Simplemente aquí, cuando llegue la orden de trabajo, el Excel, pues envían por aquí. Antes estaba automatizado porque entraba a través de un buzón.
+
+1:27:59
+Y desde fobos podía acceder a al buzón de de correo, pero no, esa puerta no la cerraron por temas de seguridad. Y entonces fobos ya no, ya no puede leer correos externos ni internos, o sea, directamente hay que hay que enviarlo diariamente a mano. Bueno, y se envía por aquí, envía el fichero test, pues nada envía la la el feature.
+
+1:28:27
+Y ya se actualiza todas las bases de datos en pendientes. Ya bueno, ya hemos visto ya en personas también, como ver qué es lo que hace cada 1 y en proyectos, pues vale, no sé si tienes alguna duda. ¿Me estaba apuntando a eso de que antes de correos y os los quitaron? Sí, sí, sí.
+
+1:28:54
+Bueno, ya sabes que esto lo de la paranoia es libre y los y los la gente de sistemas suele ser bastante paranoico. Es verdad que fobos es un sistema Linux. Entonces estamos desde un Linux leyendo los buzones de correos del corporativos. ¿Cuán seguro o inseguro es? Pero a nivel interno.
+
+1:29:24
+Bueno, nos lo cerraron, ya está, no sé okay cargar el archivo, la verdad es que te cuesta 1 minuto, no llega 1 minuto, o sea te llega por correo, lo envías y ya está. Bueno, lo que pasa que hay que la hay que estar pendientes de estar constantemente enviándolo y esto ya lo teníamos automatizado y era muy cómodo, la verdad es pues menos cómodo, pero bueno.
+
+1:29:54
+Sigue siendo una herramienta poco poco agraciada porque bonita no es bonita, pero es muy útil. A partir de aquí se hacen también que eso no te lo he contado, no sé si te lo he contado, pero te lo cuento ahora a ver qué ha si ha terminado. ¿Los backups? Hay unas vistas que esto lo vemos aquí y así lo ves, ya vale.
+
+1:30:27
+¿En iqui en Ipam hay hay hay unas vistas, no quiero, no quiero un backup, quiero Catar, perdona? Es aquí hay hay informes varios que se generan de en power B nosotros también tenemos tenemos informes generados a partir de esto.
+
+1:30:58
+De nuestras tareas. Entonces en vistas estas estas vistas de aquí lo que hacen es traducir, digamos por ejemplo aquí por el visto de RPF nada aquí por el visto de RW Primer Puerto, puerto de vista. Lo que hacemos es coger la información de las bases de datos y adaptarlas a Power Bi para poder hacer gráficas.
+
+1:31:27
+Y en este caso, incluso aquí lo que hace también es desde power be. Se puede atacar directamente a las tablas. Entonces hay una tabla en estadísticas o t esta tabla es la que leemos nosotros desde el Power be con la información de todo vale entonces.
+
+1:31:55
+¿Quién ha hecho qué, cuándo lo ha hecho, cuándo se le inició, cuándo se le asignó? ¿Cuántas horas ha tardado en hacerlo? ¿Vale, entonces toda esta información? Luego desde powerbi podemos hacer gráficas de de todo nuestro trabajo y llevamos estadísticas de lo que le cuesta a cada a cada persona de media hacer cada orden de trabajo. ¿Cuánto si tiene?
+
+1:32:20
+Porque sabemos cuando se es cuánto ha tardado el coordinador en asignar esa o es por ejemplo, aquí son han tardado 4 horas Petition de firewall, pues han tardado 4 horas, es asignarla peticiones firewall a quien tarda 2 horas en esta cuando sombra peticiones IPS, pues ha sido inmediato directamente no menos de 1 hora. ¿Cuántas horas ha tardado en resolver?
+
+1:32:46
+¿Cuántas horas ha estado en bloqueo, por ejemplo, esta hora de trabajo ha estado mucho tiempo en bloqueo, la orden del 2000 del 2020, Eh, ha estado 2300 horas en bloqueo, son horas es todo? Sí, bueno, quiero decir sí, puede ser de un proyecto que se hizo en el 2020 y que estaba a la hora de trabajo pendiente de terminar porque había algún problema, había que instalar algún equipo o había que hacer algún trabajo. ¿Bueno, puede ser, Eh? Va a haber una baja. CT, sí, es una baja, CT.
+
+1:33:16
+Pues no se había hecho de baja. Pues eso no alistaba esta información, digamos es interna nuestra no, no sale a la web y solamente se sale a la estemos tras las llamas atendidas en esa tabla está todo nuestro trabajo.
+
+1:33:37
+Y esta tabla se va generando a partir de toda la información de de tareas y de orden de trabajo, de llamadas atendidas, de incidencias. Toda esa información nos llega a nosotros y lo lo vamos pasando aquí y desde aquí. Ya te digo, Manuel tiene en Power Beach hecho una serie de gráficas, una serie de de de información que que la podemos ver allí directamente, que es la misma que utilizamos en el ipam.
+
+1:34:06
+Lo hacemos prácticamente igual en algunos casos para para facilitarle el trabajo. Lo que hacemos es no no pasarlo por base de datos, sino trabajarlo con vistas. Entonces, en las vistas, pues tengo unas sq, unas queries las vistas de de P City. ¿Pam, vale, cae dos SPF, vale?
+
+1:34:37
+Edit View vale es una es 1 s Q L es un select que ya lo tengo aquí. View caídas as vale select entonces tengo un select hecho aquí que desde varias tablas creo una información es el formato que yo quiero.
+
+1:35:02
+Y esa información es la que cada vez que hace la consulta Manuel desde desde Power be, la extraemos de esas tablas varias a través de un de una vista. Vale, entonces, por ejemplo, el tema de las caídas SPF las sacamos de aquí cuando hay las caídas, las adyacencias de SPF. Cuando se caen es porque viene un corto de una, puede ir asociado a un corto de una fibra. Entonces si el soporte de ese de esa interfaz es una fibra, pues entonces ya la tratamos como una caída de una fibra. Pues pues digamos.
+
+1:35:32
+Esto de aquí que son errores en circuitos alquilados, es para eso a partir de las caídas SPF. Mira, vamos a ver si pertenece a una fibra que tenemos alquilada. Tenemos tablas para o sea vistas para sacar esa información. YY sí, en general, pues eso, estadísticas para para los comités de de tráfico y todo el rollo que tenemos, pues periódicamente pues.
+
+1:35:59
+Es las vistas. Se hace cada vez que la que la bueno a quien tú te. Cada vez que llamas la vista te hace la query. O sea, cuando tú llamas una vista a una tabla, la información es inmediata. El Power B es el que no lo hace, no lo hace inmediata. Tienes tú que decirle que que recargue la información.
+
+1:36:27
+¿Sí, sí, pero las caídas se las se detectaban al momento o cada vez que rastreabais no me oye de acuerdo? No, no. Bueno, en el momento entra, entran por las caídas, entran a través de de Grey Lock, de Grey Lock y cada 30 segundos se las pasa a fobos. O sea, puedes tardar 30 segundos en detectar una caída. Pero si va todo bien ya lo de siempre, fobos es lo que es y hace lo que puede.
+
+1:36:54
+O sea, no es un sistema de control en el que tengamos que tener poolings cada 10 segundos. Si nos llega el mensaje de que ha habido la caída, bien, si no nos llega el mensaje, poca cosa podemos hacer. Pero bueno, digamos que que funciona relativamente bien. Entonces, entonces tenemos bastante información de de lo que de cómo está la red, de las caídas o, s, B, F que tenemos y de de las.
+
+1:37:22
+¿Y de los servicios que pueden haber afectados entonces? ¿Pero por ejemplo, sí, esta ya la vimos, ya la vimos, no? Pues aquí es donde nos llegan las caídas, desde aquí no se ve aquí. Pero bueno, entonces cuando miras a ver si el soporte correspondiente que es este de aquí, este de aquí soporte.
+
+1:37:51
+Si el soporte correspondiente tiene asociado una fibra alquilada, es el que genera el el alarma a la caída de de esa fibra. ¿Y a partir de ahí pues sacamos estadísticas de cuántas veces se nos caen las fibras? ¿Quién es el operador?
+
+1:38:06
+¿Qué, qué, qué más caídas tiene? ¿En qué horario se producen esas caídas? Porque tenemos sospechas de que hay operadores que que hacen trabajos por la noche y no nos avisan ni nos piden autorización. Por eso tenemos una vista. No sé si lo habrás visto, tenemos una una vista de cortes de o s, p, F nocturnos y es verdad que que muchas veces cantan porque dices, coño, qué raro que durante el día no tengas cortes.
+
+1:38:35
+¿Y luego durante un mes todos los días a las 2:00 H de la madrugada tengas un corte siempre de 2 a 4 verdad? Sí, sí dices a ver esto mosquea no mosquea un poco pero bueno bueno, eso es lo que tiene ya.
+
+1:39:01
+Esta nos habíamos quedado en las en las vistas de mysql. ¿Lo he cerrado? Sí, me parece que lo he cerrado, lo he cerrado. Sí, vale, entonces bueno, habíamos quedado en las vistas aquí de INFO V Info proyectos no, no sé.
+
+1:39:29
+Esto está obsoleto porque De hecho está vale aquí en en tareas. Lo que tenemos es las tablas que está esta de aquí, que es la estadística. Lo t está importante también tenemos bueno esto. Esto es la antigua forma que sacamos las estadísticas, que ya no lo hacemos porque antes lo hacíamos a través de un interfaz de fobos, con unas gráficas ahí y tal, pero eso ya lo quitamos.
+
+1:39:58
+Y ya pasamos al power BY. Utilizamos esta tabla de aquí para cómo le pasamos la información a una power BY no sé alguna duda más de tareas. Si te iba a hacer un chiste iba a decir no, no, no es suficiente, que es demasiado plomo. Plomo. Sí, sí, se llama plomo.
+
+1:40:24
+Por eso, por eso es es que era lo lo. La información venía de plata y pero claro, era plomo de y como era una plasta de de es que es muy pesada, es muy pesada porque es que sobre todo para los operadores, les está constantemente enviando correos y es verdad, es la mejor forma de comunicar cosas, pero a un operador le pueden entrar 1015 correos diarios de esto.
+
+1:40:52
+Que si te se te ha asignado un no sé qué, que si tienes una incidencia, que se te ha asignado la una orden de trabajo, que si tienes que dar 1 I p que si y encima ya sí, sí. Por eso le llamamos plomo, porque, o sea, le llamé plomo, porque porque era muy peñazo. La aplicación es muy peñazo, pero funciona. El caso es que al final cumple su objetivo, que es bueno. De lo que se trata. Tenemos un.
+
+1:41:21
+Tenemos de una manera fiable y estructurada la información de lo que tenemos que hacer. Es que es que eso ya es la pera limonera. O sea, YY puedes ver, pues eso, todas las tareas que tienes pendientes tú si puedes ver todas las que tienen los demás. ¿Quién depende de qué? Cuando tú tienes una orden de trabajo en las orden de trabajo, no te habrás fijado que te hemos partido la parte de operadores.
+
+1:41:50
+Y la parte de de proyectos está duplicado porque pueden estar en Estados distintos. Entonces necesitábamos también saber cuando habían órdenes de trabajo, cuando hay orden de trabajo conjuntas que llevan. Por un lado, lleva asociado trabajos de operadores y va asociado también trabajos de proyectos. ¿En qué estado estaba cada 1 de ellos?
+
+1:42:15
+¿Vale, pues si hay que instalar un router de nivel 3 y a la vez hay que hacer no sé qué de de pasar a 1 o belan, pues cada 1 tiene que hacer su parte, vale? YY también lo tenemos controlado. De hecho, tenemos incluso controlados a nivel de a nivel de de las órdenes de trabajo cuando van horas de trabajo referenciadas a otras horas de trabajo. No veo ninguna por aquí, pero bueno.
+
+1:42:46
+A ver si me aparece por aquí una te lo indica también cuando hay una orden de trabajo que va a que está referenciada a otra orden de trabajo, pues también te lo te hace el seguimiento de esa orden de trabajo. ¿Sabes? ¿Entonces? Bueno, ya te digo, funciona decentemente bien para lo que a nosotros nos interesa.
+
+1:43:11
+Que es saber lo que tenemos que hacer, quién no tiene que hacer y si tiene algún problema al hacerlo y cuándo se va a resolver. Y cuando se han ido haciendo las cosas, vemos todo guardadito de quién ha hecho aquí. ¿Cuándo? ¿Sobre la base de datos, vale, pues 2 - 10 lo dejamos aquí por hoy, vale?
+
+1:43:42
+Y vale, pues ya está. ¿Entonces para la grabación? Sí, sí, vale.

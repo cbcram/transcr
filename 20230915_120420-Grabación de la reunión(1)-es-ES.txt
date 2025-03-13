@@ -1,0 +1,811 @@
+[Traspaso Fobos] 15.09.23 _Opcional_-20230915_120420-Grabación de la reunión(1)
+
+0:02
+Lo vemos más claro, debo tenerlo por aquí el vicio y así atentamente, comparto la pantalla.
+
+0:32
+Vale, te comparto, comparto pantalla y así cuando la vea me dices ya la tengo. Lo que no sé si me llegaste a compartir el vicio no lo sé. Si no te lo envío ahora ya está, lo te lo estoy buscando ahora y no le no le veo. ¿Bueno, pues te lo envío ahora y ya está, vale?
+
+1:28
+No sé dónde lo tengo ahora ahora checaste lo enviaré por no estaré aquí perdiendo más tiempo, vale, ahora te lo enviaré, no me lo vale primero que nada. Tema de fobos, vale fobos, en principio ya vimos el otro día. Es un sistema a Linux.
+
+1:47
+Y tiene como principal núcleo una base de datos my SQL. Vale esa base de datos parte de principio de lo que es PHPY PAM a ver que arranque este así lo vemos.
+
+2:12
+¿P, chipi PAM es la herramienta de que utilizamos para el tema direccionamiento IP vale entonces en herramientas p chipi, PAM, luego ya ya entraremos en detalle, Eh? Cuando veamos las herramientas, porque esta hay que verla con bastante detalle. Esta herramienta es la que al final tiene todo el.
+
+2:37
+Todo el direccionamiento, todas las sub redes y todas las direcciones IP que tenemos en cellnex y en sellnex shock y el IMI vale, entonces hay varias, varias sub redes y condes también está, vale, pero bueno, en principio lo que es RDG es la parte nuestra de cellnex. Vale, entonces aquí tenemos.
+
+3:04
+Por provincia y luego dentro de las provincias pues tenemos todos los centros, lo hemos. Ya te digo que ya ya ya lo veremos con vale y dentro de cada centro tenemos las sub redes que hay definidas dentro de cada centro vale, y dentro de cada sub red pues tendremos Eh, las direcciones IPS que tenemos definidas dentro de esa sub red. Vale, básicamente el PHPPM es esto.
+
+3:32
+Pasa que claro, teniendo en cuenta que tiene 150000 direcciones, IPY tiene 80000 sus redes, pues es un tema bastante complejo, sobre todo el tema de manejar la información sí que se atragante. Pero bueno, lo que es la herramienta PHP PAM es un un almacén de direccionamiento IP. Vale, pues partiendo de esta base de lo que es las bases de datos de PHP PAM, lo que lo que hicimos fue añadir unas tablas según nos iba haciendo falta.
+
+4:03
+¿Vale, en realidad está por ejemplo la tabla de equipos, inventario, mantenimiento, está puertos por aquí debajo, que también es muy importante los módulos que tiene cada si hay son equipos multimodulo, pues qué módulos tienen? ¿La tabla de puertos que está aquí debajo, puertos, vale entonces después?
+
+4:26
+Hay tablas auxiliares como IPS multicast. Bueno, son cosas que luego se van haciendo en puertos y según necesidad, pues se van creando las tablas. ¿Vale? Con lo cual al final las tablas de Fobos y las Tablas de PHPY PAM están todas juntas en una base de datos que se llama PHPY PAM. Después aparte está la tenéis de la base de datos. Esta fobos sí, sí está en my SQL.
+
+4:55
+¿Es my SQL, vale? Tenemos después algunas tablas, o sea, algunas bases de datos. La de DBNM es una tabla de esto. Es una aplicación que empecé a hacer hace hace unos años y que, bueno, aproveché algunas cosas, como son las bases de datos de usuarios que aquí están.
+
+5:23
+Los usuarios que tiene los permisos que tiene cada usuario dentro de fobos. Dentro de fobos hay un montón de de permisos diferentes. Vale, pues aquí están los permisos a los que tiene que las cosas en las que cada 1 tiene permiso. Vale, entonces cuando se crea un usuario, pues normalmente hay que venir aquí directamente a la tabla y retocarla.
+
+5:52
+Bueno, aquí están pues es muy sencillo el nivel 1, nivel dos, nivel 3 era la parte básica que hicimos. ¿Nivel 1, pues leer configuraciones de equipos, poder hacer cosas básicas, esto no tienen permiso de modificar nada, EH? Nivel 1, simplemente para poder ver algunas cosas que son un poco más confidenciales que un un simple usuario, un simple usuario puede entrar y ver, ver equipos y tal y ver cosas.
+
+6:18
+Lo que sería con logado a D e simplemente sí, sí, simplemente pues entrar, ves los puertos, ves algunas cosas, hay algunas cosas que ya son un poco más confidenciales que sí que tienes que tener nivel 1, con lo cual aquí solo hace falta dar de alta a la gente que tenga que tener algún permiso especial. Por eso te digo que de estando en a D E ya tienes acceso, pero simplemente para ver algunas cositas y ya está, si luego quieres ir incrementando permisos a través de aquí no, pero no hace falta darlos a todos de alta De hecho.
+
+6:49
+Hay mucha gente que no está dada de alta, solamente hay 280 usuarios dados de alta. Son los que tienen en realidad al final algún permiso sobre fuegos. Vale, esos permisos son nivel 1, es básico. Nivel dos es que pueden modificar datos de los equipos, o sea, pueden entrar y cambiar las descripciones o cambiar, añadir puertos, hacer algunas cosas sobre.
+
+7:13
+Sobre los equipos, nivel 3 es nivel de administración, solamente lo tenemos ahora mismo Manuel Tenorio y yo, esto es para la parte de de sistema. Aquí hay un menú sistema vale para poder modificar cosas, aquí vale, la parte de sistema solamente la podemos modificar nosotros. Test te añadiría a ti también para que tú puedas entrar también y añadir o quitar cosas. Vale, vale.
+
+7:44
+¿A ver, estamos aquí, vale? ¿Después, quién puede tramitar peticiones? ¿La herramienta esta de tramitar peticiones cuando hacen cuando la gente hace peticiones de PSY todo el rollo, pues quién puede tramitar peticiones es este de aquí quién puede tramitar Lan Too lan, el SEC?
+
+8:08
+No me acuerdo. Qué parece a ver, SEC SEC SEC SEC SEC. No sé si al final se utilizó para algo, creo que no peina Carmona, no me acuerdo para qué es, pero bueno, vale servicios es quién puede modificar servicios o soportes.
+
+8:38
+Que eso ya lo veremos con la cuando veamos toda la parte de servicios y de soportes, si tiene permisos parciales. Esto empecé a hacerlo, pero al final se no se está utilizando, que es que yo puedo dar permisos a determinada gente para que puedan poder, por ejemplo, modificar los equipos de energía. Me explico.
+
+9:01
+En los especialistas de energía de las zonas a lo mejor tienen que tener permiso para poder dar de alta una estación de continua y modificar cosas de la estación de continua, pero no tienen que poder modificar un router. ¿La información de un router o de un equipo de transmisión? ¿Vale, pues entonces para eso está tipos en el que puedes especificar qué personas tienen acceso a determinados equipos, puedes modificarlo?
+
+9:28
+No se utilizó tampoco porque se que se o sea, se hizo. Hice las pruebas, vale, por ejemplo, esa gente tiene acceso a telecontrol, GPRSY, difusión. Al final, pues se les dio permiso para que pudieran modificar todo. Y ya está. ¿La gente es la gente de de Habilidalgo Juan Pedro o la GT de Telecontrol de Telecontrol, vale?
+
+9:54
+Al final se ha añadido también otro permiso que es GPRS, que para poder modificar equipos GPRSY ya está, vale, telegram YD también hay. Hicimos también algunas pruebas para poder comunicar a través de Telegram eventos solamente lo estamos utilizando Manuel y yo, pero que en principio también se puede hacer a través de fuegos. ¿Enviar mensajes a telegram, vale?
+
+10:25
+La gente del noc que tiene que tener permisos para poder hacer cosas sobre soportes y servicios, pero no tiene que poder modificar equipos, por ejemplo, información de un puerto de un equipo o o meterse en sitios donde no debe. ¿Vale la aplicación de soportes, la aplicación de GPRS? La aplicación de de GPRS también, pues quien tiene acceso a poder modificar datos de equipos GPRS.
+
+10:53
+Los equipos GPRS son los de TS, las las remotas de los centros de de a t V de a T V vale, de los a T W Sí, sí, en los a t, W esas remotas se mantienen la información desde fobos, que es lo que comenté ayer con el tema de radios, sí que también está integrado con fobos, no, entonces ellos a través de unos excels vuelcan toda la información de los de las remotas en fobos. Fobos tiene las bases de datos con toda la información.
+
+11:22
+YY forward le pasa a el radius, el usuario y los contraseñas de las remotas que están de alta. También se puede modificar una remota darla de baja, o sea, vale para que no aparezca allí. Y cosas de estas. ¿Quién puede tramitar permisos de de firewalls? Y cuando se hacen peticiones de firewall, estoy hablando. Están separadas lo que son las las peticiones, las.
+
+11:53
+Las peticiones el tramitar peticiones está separado de las de cortafuegos. Una cosa es que tú puedas tramitar una petición de IP que no tiene más importancia, y otra cosa es que puedas tramitar una petición de cortafuegos que ya es un poco más comprometido. Vale, entonces los las las tramitar peticiones de firewall están separados y esto es lo último que se ha añadido. Es el tema de conmutación de radio. Vale, hay una herramienta.
+
+12:17
+¿Qué servicio donde estaba? Herramientas, computación de puertos, radio vale, computación de radio. Es que para en tiempo real se han creado redundancias para poder conmutar el transporte de radio hasta la mussara de radio Flyback. Vale, y entonces ahora está yendo por aquí, entonces para poder conmutarlo.
+
+12:47
+Le das aquí a conmutar entonces configuraría los equipos para que el transporte se hiciera por aquí son vías alternativas de pues si es una se corta podemos conmutarlo. ¿Vale, pues quién puede hacer eso? Pues los que tengan aquí, entonces los que tienen radio es porque todos los que tengan radio aquí, vale, pueden conmutar Radio Excel.
+
+13:12
+Los que tienen un cuatro es porque pueden conmutar, soporte, herramientas, conmutación de puertos. Vale que es este de aquí veis que hay bajo, pone ID igual a cuatro. Bueno, dentro ya está cabreo. ¿Antes el Internet vale? Lead napserex, vale.
+
+13:45
+Y esto que ya lo han quitado tío y no me han, me me dieron la vara para que lo pusiera aquí como si bueno es igual. Estos equipos son para la conmutación de sí, han hecho lo que salga de los huevos. ¿Esto es típico, Eh? Te hacen currar de aquí unas aplicaciones de la hostia y luego dejan de utilizarlo y no te dicen nada.
+
+14:15
+Aquí estaba hecho, no sé si todavía se utiliza, estaba utilizando porque luego no te da opciones, que no te deja entrar para que cambiar los criptomaps de unos routers para hacer la conmutación de de Vodafone de Del Reino Unido. Vale, desde aquí se podía hacer también. Ahora mismo no está. No sé por qué no funciona ni porque habrán quitado esas configuraciones de los equipos directamente, supongo.
+
+14:44
+Y nadie ha dicho nada, pues ahí se queda. Bueno, pues ahora no te he dicho nada de eso, la la computación de radio, eso es a ver aquí al final la conmutación. Esta es quién tiene permiso para conmutar la parte de radio y ya está la mayoría que los que tienen son porque son del noc. Vale, pues toda la gente del noc que me dijeron que necesitaban tener acceso poder conmutar radio, pues se añadió esto de aquí, radio ya está.
+
+15:12
+Ya ves, esto era lo de la lo de la computación de sí, punto cuatro, gracias. Sí que es la de la la educa. No sé por qué no va, pues porque nadie lo usa ya y lo ha quitado, vale luego las peticiones de de shock, nada.
+
+15:37
+También hay que tramitar peticiones YP de shock que están separadas las tramitar peticiones. Vale, sí, entonces puede hacerlo con la gente del shock, el Llull, el Silva, el Sergio Paloma. Tal bueno y esto era el. ¿Quién puede modificar túneles de ingeniería de tráfico, que también se modificó?
+
+16:04
+Y hay algunos que pueden hacerlo de momento de la de Yema, Faura y yo también estamos haciendo pruebas para automatizar la los los túneles de ingeniería de tráfico. Esa es otra película. Ya te contaré. Bueno, base de datos de usuarios esta cuando hay que dar permisos en fobos lo que hay que hacer es venir aquí y tocar. Esta vale la está en en DBDBNM si la tabla es la de usuarios o k.
+
+16:35
+¿Vale, qué más se utiliza aquí? En esta base de datos se utiliza la de formatos que son las cabeceras. Básicamente vale esto de aquí todo esto de aquí está en 1, que se llama for machine, que es en la cabecera.
+
+17:00
+Este es el este es el texto que mete cuando haces esto código HTML, que cuando tú entras lo que hace es venirse aquí a la cabecera e imprimirla. Entonces cuando tú te vienes a servicios, soportes, por ejemplo, buscar soporte. Esta cabecera servicio, ahora que pone aquí servicios, está aquí aquí.
+
+17:30
+Servicios este de aquí el Script ya sabe cuál cuál tiene que coger. Entonces si quieres modificar que aquí aparezca de otra manera, con otro color, con todo el rollo, lo que hay que hacer es modificar este registro de la base de datos. Vale, aquí viene el CSS, Tendrás el el logo cellnex que es esta parte de aquí a la izquierda, luego tendrás la imagen servicios. PNG que es esta parte de aquí vale y ya está.
+
+18:03
+Y luego ya el menú se genera dinámicamente a través. Esto es solamente lo que es la cabecera gris de arriba. ¿Sí, vale, hay cabeceras mínimas, pues también están aquí cabecera resumida, por ejemplo, vale, entonces esta para qué se utiliza? Pues cuando tú en equipos, por ejemplo, entramos en.
+
+18:29
+O sea, un servicio lo modificas, vale, esta ventana necesita una cabecera muy muy simplificada, también está metida ahí la cabecera mínima. ¿Vale, vale entonces para modificar esta parte de aquí si quieres añadir algo más, pues se modificaría el registro este registro de aquí? Vale, esto está en formatos, cierro esto y cierro esto y había alguna tabla más que se utilizaba.
+
+19:09
+Nada, pues no está. Ah, sí, vamos a ver páginas esta la de Ah, vale, páginas esta de aquí esta es importante esta tabla, pero esta tabla desde aquí no se modifica. Vale, esta tabla es la que define el menú de aquí arriba, está metido en una página y se administra desde aquí, vale, entonces desde aquí yo puedo modificar todo este menú, todo esto lo tengo aquí.
+
+19:38
+Entonces yo por ejemplo, en sistema quisiera añadir aquí, en sistema quiero añadir una línea más vale, tenéis aquí el sistema y dice, pues quiero añadir una más en sistema va de 3 en 3 letras. ¿Por qué? Pues porque lo hice así para poder identificar, lo hago así para poder interesicar bloques, o sea así visualmente, pues el sistema es 9 s I.
+
+20:07
+Pues prueba por ejemplo sería PRUY aquí pondríamos prueba vale activa así y si quiero ponerle un link pues lo pongo aquí, si no, pues no, no le pongo nada porque voy a añadir más submenús no vale, pues si te vas aquí a inicio, en principio esto ya está, lo tienes aquí, vale, si ahora por ejemplo en prueba quisiera añadirle otra línea, haces un menú.
+
+20:35
+Pues tengo aquí prueba, entonces me iría aquí a prueba porque tengo que añadirlo debajo de prueba. Vale, aquí tiene dibujadito el árbol. ¿Cómo funciona? Pues aquí debajo de prueba p R 1 que sería prueba 1 vale prueba 1 activa así y aquí pondríamos el link donde quiero que ponga yo qué sé HTTP: barra barraoel.com vale.
+
+21:05
+Vale, entonces me voy al inicio y a sistema prueba prueba 1. Si yo le doy aquí a prueba 1, pues directamente me va Google. Vale, entonces la mayoría de las veces lo que hace es apuntar a direcciones de Fobos, entonces en equipo, pues inventario, pues inventario apúntala a la que tienes ahí abajo. Vale a esa dirección a la que apunta.
+
+21:31
+Entonces es un si pinchas donde IPS que te va a la A la carga donde peticiones IPS te va pues igual pues herramientas tramitar peticiones IPS pues hay un script que se llamatrapeticiones.pl que está ahí y si aplicas aquí pues lo directamente te va. Vale entonces la los scripts lo que hay que hacer es haces un script para hacer las pruebas y una vez ya está probado, si es nuevo pues tienes que venir aquí y generar el enlace.
+
+22:01
+En en páginas vale y esto es siempre 3 letras, eh, fijo, son 33333 todo el rato, vale, si no, no funciona Kafka, claro, si pones dos o pones una o pones cuatro se vuelve un poco, o sea es fijo a grupos de 3. Entonces si le pones cosas diferentes, Kafka, no, no tiene una protección excepcional, si quieres eliminarlo, pues nada se elimina de aquí arreando.
+
+22:31
+Hay una limitación de niveles o si dos vale, en principio no hay, no había limitación, pero como no me cabían más en la pantalla creo que se pueden poner más. ¿Vamos a probar más EH? No sé a ver prueba, Ah no, bueno por por por curiosidad, Eh, no por otra cosa 1 p r vamos a probarlo, no lo sé, no me acuerdo EH, si lo limité o no, sí es que no me acuerdo si lo limité.
+
+22:59
+Creo que sí para para que no se volviera majareta tampoco, pero creo que e 2 p r prueba dos así creo que tenía limitación por el script que utilizo. Sistema prueba, prueba, prueba dos, pues si se puede.
+
+23:30
+Pero no recuerdo ningún menú o sí quería 1 que al final utilice más niveles. ¿No lo recuerdo, EH? Creo que todos tienen como máximo dos niveles y con dos niveles hemos nos hemos apañado. Bueno, pues sí que tiene más niveles. Ya lo sabes, a ver dónde me he quedado aquí.
+
+24:00
+¿Eran páginas, vale? ¿Entonces vamos a ir a borrar páginas? Esta es las pruebas, el delito. Quito Quito pruebas. Aquí aceptamos esto. Lo que pasa es que la **** es que al al ser código HTML bastante simple, a veces tienes que irte a tu a mano donde estabas, pero bueno, es lo que toca.
+
+24:24
+Sí, porque dejar al final había que elegir o hacemos algo muy complejo para que sean unas pantallas superbonitas con muchos colorines y muchas chorradas, pero que al final esas son tan pesadas y todo son tan que luego no aportan nada tampoco. ¿No, no aporta nada y van si hace superlento el el trabajar con con los sistemas son superlentos y claro, la limitación de fútbol la tenemos que si es una máquina Linux que tiene ya un montón de años y que ahí está funcionando y funcionando bien, EH? Quiero decir que no, no tenemos problemas con fobos.
+
+24:53
+Pero también en parte porque siempre he intentado simplificar todo lo que ha podido el tema de gráfico y que y que fuera lo más sencillo posible, a lo mejor bueno, habrá a quien le parezca pobre. Bueno, pues lo que hay, o sea, pero vale, vale, bueno, si quieres modificar alguno, pues vienes aquí, pues se puede modificar. Quiero decir, De hecho, hasta hasta el hasta el editor de páginas está metido aquí.
+
+25:23
+O sea, este menú de páginas también está metido dentro de páginas. Al final todo el menú se gestiona con esta pantalla, vale, si quieres temporalmente, De hecho, los que están en rojo es porque te es temporalmente, están deshabilitados, se quitó por lo que sea, no se han borrado y se han quedado ahí, o sea, pero no están visibles, no, no, no se ven, solamente se ven los que están en activos, los que están activos. Entonces tú puedes desactivar un menú entero y dejarlo ahí por si acaso.
+
+25:53
+¿Pues mira de vitra el oseo todo esto se quitó, por qué? ¿Porque no, al final no accedemos a vitra por muchas cosas, porque ya lo que cogemos la información que necesitamos, pero no hemos dejado todo esto porque bueno, hubo problemas que que empezaron a decir que nosotros les generábamos mucha carga de trabajo a vitra, que tal? Bueno, pues lo quitamos y tal. Sí, es que no hay más al final.
+
+26:22
+¿Lo quitamos y lo quitamos y ahí se quedó, o sea que pues se podían borrar? Pues sí, la verdad es que sí, porque hay muchas cosas que ya no se utilizan. Esto de sincronizar BAS BAS bases de datos tampoco se utiliza ya esto al principio, cuando teníamos file y teníamos juegos, al principio pues se tenían que estar sincronizando las bases de datos y tal, ahora ya tampoco hace falta. ¿Vale, nos habíamos quedado aquí, vale?
+
+26:51
+Base de datos PHP PAM la de Database Network Manager importante que es la base de datos que utilizamos para lo que son los parámetros de la de la página web. Hay una base de datos que es Karayan carayan es el el orquestador que va metiéndole configuraciones a los equipos. ¿Qué más importante es la de plomo que es la de nuestras tareas?
+
+27:18
+Hay una aplicación que que que el departamento nuestro gestiona todas las tareas a través de de esta herramienta. Entonces cada 1 se sabe lo que tiene que hacer cuando cuando nos entran órdenes de trabajo, pues directamente se dan de alta los registros. Tiene a ver también una aplicación bastante sencilla, pero está bien porque permite coordinar muchas veces.
+
+27:41
+¿Las tareas que tiene que hacer cada 1, puedes ver qué tareas tiene pendiente cada 1, cuándo, cómo va terminando, cuándo las ha terminado, las estadísticas de de cada operador, sabes al final? ¿Pues da bastante información YY bueno, a nosotros nos es útil y se sigue utilizando bastante, o sea, no sabéis ni jira ni no y otras cosas lo hacéis con esto, no?
+
+28:03
+Sí, porque al final hay muchas cosas que las tenemos adaptadas a nuestra medida. O sea, necesitamos que haga el sistema exactamente esto y pues se configura el script y si lo hace, necesitamos tener configuración de operadores, configuración de proyectos, necesitamos tener herramientas, pues al final lo hacemos todo ahí, ni plata ni ni nada todo aquí nosotros, todo nuestro control lo tenemos aquí.
+
+28:34
+A ver esto de aquí. Entonces, por ejemplo, aquí tenemos cuando alguien hace una petición de una incidencia, pues directamente, perdón, un neutro IP, por ejemplo, cuando hace una alguien hace una petición IP directamente viene aquí. No hay que venir aquí y crear el registro, sino cuando alguien hace la petición directamente ya se crea el registro. Vale, entonces podemos saber por ejemplo esta petición de IP.
+
+29:03
+¿Vale, pues cuándo se creó el registro, cuándo se asignó y cuándo se terminó? Vale, esto es relativamente sencillo, pero pues las las los MG cods por ejemplo, también esto también lo veremos con detalle, pero bueno, aquí también mostrar terminados, pues tenemos de las MG cods que nos van entrando, se vuelca todos los días el Excel que nos llega.
+
+29:32
+Tenemos un sistema automatizado que nos llegan unos excels. Vale, entonces podemos saber 1 M G code a ver si tenemos tareas. Sí, hasta aquí vale, entonces, por ejemplo, a ver las que tienen algunas tendrán asociados, o sea, las ONGs hots que os llegan por 1000 a un buzón concreto. ¿Ahí tenéis un script para sacar el Excel y meterlo aquí lo que sea, no?
+
+29:58
+Directamente se vuelve, se vuelve aquí y entonces ya te daremos la la mejor correspondiente. Si se ha hecho, no se ha hecho. Qué tareas tiene un porque pues esta, por ejemplo, tiene cosas que hacer, vale, en este caso están bloqueadas. ¿Por qué? Pues porque alguien las ha bloqueado por una razón y que debe de estar aquí. ***** va.
+
+30:29
+Se me ha quedado todo esto tú para allá. Es que le he dicho que me mostrara los terminados y hay un huevo y se queda ahí PA TI difuso, vale, ya está. Ahora sí que ir a parar rápido. Vale, vale, entonces por ejemplo esta hora de trabajo pues bloqueado, pues pendiente de todo esto. Vale, aquí voy tomando notas.
+
+31:02
+Tiene la descripción de la orden de trabajo, pero además tenemos separadas las tareas independientes que hay que hacer dentro de esta orden de trabajo para saber si se han hecho o no se han hecho. Vale, si tiene algún corte programado. También tenemos aquí cuando se hace la RCC de un vano, si ha venido la RCC también la tenemos aquí. O sea aquí va un poco sumando datos de un montón de sitios y al final de un pantallazo puedes saber cómo está la MG cut. Eso eso te iba a preguntar. Por ejemplo, veo aquí que ponía Daniel abril.
+
+31:30
+¿Daniel abril escribe aquí o él escribe en otro sitio y lo volcáis aquí el qué, el que Daniel abril, no sé, tenías esto aquí? Ellos también lo escriben aquí, sí, sí, ellos modificaron, sí, por eso eso ese que ponen notas, instalación van o tal tal instalación van, todo eso lo ha lo ha escrito Daniel abril, o lo no, no, no, no, esto esto viene de la de de la orden de trabajo, esto directamente nos viene de la orden de trabajo, que es el texto que tiene la orden de trabajo.
+
+32:00
+Lo que separamos es estas tareas de aquí abajo, cuando se crea esta orden de trabajo, cuando se crean las tareas, les envía correos diciéndole, tienes que ir pendiente. La configuración de esta vale, lo mismo que cuando se asigna, cuando por ejemplo, una orden de trabajo, cuando lo que cuando llega directamente vienen en blanco. Qué es lo que hace primero Tenorio, que De hecho esta la habrá asignado Tenorio.
+
+32:26
+Ah, no, pues mira, se le ha asignado, sí, Tenorio, vale, lo que ha hecho esta mañana a las 9:00 H de la mañana es que se la ha, se la ha asignado a Jordi y ahora Jordi lo tiene notificado. Vale, entonces Jordi tiene que analizar la orden de trabajo y ver si la puede ejecutar o no. Si no la puede ejecutar, la tiene que pasar a bloqueada. ¿Vale, por qué? Porque si no le va a contar el tiempo.
+
+32:54
+¿Ellos tienen objetivos en función de lo que tardan en hacer las cosas y se calcula por aquí, Eh? Porque él ahora mismo Jordi, tiene el reloj en marcha en esta orden de trabajo de aquí bajo, por ejemplo, de Laura, Laura le ha hablado, mira se la ha asignado esta mañana a las 9:07 H y a las 9:57 h la ha bloqueado la hora ya la ha bloqueado, claro, solamente la ha corrido 1 hora de tiempo.
+
+33:24
+¿Por qué la ha bloqueado? Pues veis aquí pendiente el aura vale muy bien al circuito, pues tenía que haber puesto porque está bloqueada, pero bueno, ha puesto pendiente Laura vale. Gracias Laura vale y Álvaro Javier Guerra Pérez tiene pendiente la la tarea de configurar el vano estará seguramente pendiente de que se instale, supongo.
+
+33:53
+Vale, cuando ven llegue la RFC, aquí aparecerá la RFC, porque las también a través de fuegos metemos las RFCS cuando nos llega. Entonces los los técnicos de zona cuando hacen la RFC vienen aquí y la vuelcan y esta todavía no estará. Vale entonces cuando vuelcan aquí la RFC, si es correcta, mira el vano y incluso puede ser que directamente la ponga.
+
+34:24
+En terminado si llega la RGC de Esteban. Pero bueno, esta es la herramienta que utilizamos, ya la veremos, ya te digo, ya lo veremos con detalle. Vale que esta herramienta es la de la de tareas que la que nosotros utilizamos para control de todo esto pues que pues peticiones varias simi peticiones IPS bajas de t o m g cods habían por aquí.
+
+34:53
+¿Peticiones varias de seguridad hay hay una, un portal que tú puedes hacer, peticiones varias, vale dentro del portal de peticiones yo de firewall últimamente y de VPN pido muchas pues y dónde están? Aquí van van viniendo y la gente pues las tiene que ir tramitando, ya está.
+
+35:21
+Entonces aquí también aparece que me ha tramitado. ¿Cuánto tiempo ha tardado? Vale operadores enlace image cots, vale.
+
+35:43
+Nos habíamos quedado, estamos en la base de datos y en el esquema de vale aquí el Radius esta no se no se está utilizando ya esta tampoco se utiliza ya estas dos tampoco, o sea realmente importantes son las de esta el database en el World Manager. Esto es un tema de en el.
+
+36:08
+Hostia, esto es una ******. Ah, luego sí, lo de enhel es que es una cosa aparte, pero bueno, esto es una aplicación que hice para enhel para llevar el control de tareas, pero como no querían utilizar la nuestra aplicación de tareas, pues hicimos 1,1, pues herramienta de una open que había por ahí, pero es un infierno.
+
+36:33
+Sí, porque es muy frágil. Es una aplicación muy frágil en la que cuando tocas cualquier cosa se escuajeringa todo y buah, yo lo si lo llego a saber, no lo hago así. Pero bueno, se empeñaron en que sí, que sí, que sí, que lo hagas con algo que no sea plomo, que tal no se qué, porque así podemos intercambiar datos con Enel. Y bueno, pues vale y al final una ****** porque es que es horroroso. Cada vez que tocas algo tienes que ir con un cuidado porque se escuajeringa y.
+
+37:02
+¿Y deja de funcionar y encima con una aplicación que no he hecho yo, pues estoy con las manos atadas muchas veces, es decir, y ahora qué le pasa? Yo que sé, pues si si es algo que has hecho tú y que te conoce el Código, pues su **** madre lo puedes resolver. Pero esto una locura. Bueno, cara ya en importante queda relativamente importante, pero ya menos.
+
+37:29
+Power DNS, nada, este es el DNS que también está funcionando, pero vale, bases de datos son las importantes, son esas, vamos con visión, vale entonces PH, lo que es fobos tiene, ya os ya te digo, estas dos bases de datos en my SQL importantes para que su funcionamiento tiene más como hemos visto, pero bueno, lo que son importantes tienen estas tiene el servidor Apache.
+
+37:57
+Que es el que el que gestiona lo que es la el servidor web. Básicamente es un servidor que conoce, no sé, muchísima gente que utiliza, que monta servidores para Internet. Conoce Apache es un un open superfamoso superconocido que todo El Mundo sabe tiene un servidor GTP. También se utiliza para el tema de las iOS de los routers, por ejemplo.
+
+38:29
+Las versiones de los de las iOS de todos de los routers la las metemos ahí para que después las automatizaciones de de carga de configuraciones se pueden hacer. Tú vas a cuando intentan actualizar el la el la versión de un router pues llegan van al router, le dicen que se cojan de aquí la la iOS que le toca y directamente desde Four pues se la sirves y se la configuras. Vale, hay scripts que solo hacen también automático.
+
+38:56
+Vale, entonces entran en el equipo, miran a ver qué versión tiene de de de iOS y si no la que corresponde, lo que hace es cargarle la nueva. No hace reloads. Vale, cuando cargas una configuración en un router tienes que reiniciarlo sí, para que te coja la configuración nueva, o sea la la iOS nueva. Los scripts no reinician equipos, evidentemente, porque es que si no podíamos liar la parda y cortar un montón de servicios de manera aleatoria, entonces.
+
+39:26
+No se reinicia, lo que te deja es cargada la configuración, o sea la I os la está cargada en la memoria flash y la configuración del equipo ya la ya te la deja guardada para que el siguiente reinicio ya coja la versión nueva. Entonces, o bien a través de un corte programado, o si hay una desgracia que ese equipo, a veces algunos equipos por el morro se reinicia porque hay un fallo de red o porque hay un crash o lo que sea.
+
+39:53
+El siguiente reinicio y ahí lo haría con la versión buena de de la iOS, si si lo localiza algunos lo notifica o o si lo permite. Aquí lo que has dicho no no haya sí, sí hay si lo notifica. Bueno, De hecho cuando localiza a 1 lo que hace es cargarle la configuración directamente y tenemos aquí a ver, espérate esta pantalla no te la veas a ver esta de aquí.
+
+40:21
+Esta misma vale, tenemos un informe de reinicio de equipos, vale, y aquí podemos ver los equipos que se van reiniciando. Vale, entonces desde hostia han habido bastantes. Hoy todos estos equipos se han reiniciado. Hoy puede ser por pocos. Desprogramados un reload que le ha hecho de Jiménez.
+
+40:50
+A reiniciar estos equipos debe ser que estaban programados, tienen cortes programados precisamente para esto porque sobre todo los 920 tenemos la versión de iOS. Las estamos actualizando todos los equipos. ¿Claro, no podemos hacer reloads por el Morro, tenemos que ir haciendo cortes programados, vale?
+
+41:16
+Y esos cortes programados, pues lleva cómo hablar con clientes, etcétera. Entonces pues se miran. Entonces también. De hecho hay un informe que es calendario TPS, que si te vas aquí, pues vale, tienes programadas estas versiones, bloqueado, notificado, terminado, ves. Estos son los equipos que se van reiniciando. ¿Estos son los cortes programados, que también los los sacamos de la de la aplicación de tareas, vale?
+
+41:45
+¿Los hemos seguido también controlados? Bueno, pues estos equipos se ha cruzado con con aire o no, no, no, no cruzamos nada con nadie, vale, vale, no, no, es que al final, pero como veo los es que como veo como veo los códigos de los CRQSY tal digo, pero a lo mejor los sacáis de algún sitio o algo, pero los apuntáis en los apuntáis en tareas y los ya los usáis lo que habéis apuntado vosotros no, sí, De hecho tenemos en tareas, tenemos los CRQS si miramos.
+
+42:15
+Estas tareas, tareas no, no sé dónde lo van poniendo. ¿Ah, mira, están aquí, vale, aquí en tareas mostrar tareas ves t P 0 1 quién lo va a hacer y para cuándo está previsto?
+
+42:46
+¿Vale, si entras aquí en el tienes el C R q o sea, pero el CRQ ahí lo habéis pegado a mano de cuando habéis gestionado con aire y con los CRQS el trabajo programa y a qué horas has empezado? ¿Cuándo has cuánto ha durado todo esto? Lo hacen a mano ellos, vale, al final.
+
+43:10
+Intentamos a ver, hay hay veces que no, sobre todo con fire. Sí que sacamos algo de información de fire, vale de lo que es la parte de Vitra, pero con el resto de sistemas no interactuamos por múltiples razones. Una de ellos temas son temas de seguridad y que no podemos acceder a la información porque están en discos duros, están en en bases de datos a las que no tenemos acceso. ¿Sabes entonces?
+
+43:39
+Algunos sistemas hemos intentado entrar y no nos han dejado. ¿Al final lo que se hace es pues yo ya me lo monto yo, con lo cual dime tú si encuentras en algún sitio un calendario de P es más completo que este de nuestro departamento? No lo hay porque nosotros nos basamos aquí. Vale para saber durante el mes de septiembre qué te te han hecho los que a ver los que se han hecho.
+
+44:07
+Esto mira a ver lo que te decía, los que se han reiniciado esta noche, estos equipos se han reiniciado esta noche. ¿Quién lo ha hecho? Pues este tío y si que pasa aquí dices vale, puedes ver de dónde venía y además puedes ver cuánto ha durado que sabes. O sea, tenemos toda la información aquí. No me suena este de David Jiménez, a mí tampoco, pero es de los nuestros.
+
+44:34
+No, yo es que la gente que lleva Alex ya hace tiempo que me desconecté. No los conozco a todos tampoco, porque yo normalmente con ellos no hablo para nada. No sé ni quién es, pero vale, ahí está, vale, pues lo que te estaba diciendo.
+
+44:54
+¿Las aplicaciones estas? Pues las interacciones solamente miramos datos en en vitra no miramos backup, pero si yo la pregunta que me refería de no los que se han reiniciado sino los que se detecta que necesita, que la iOS está que necesita actualizarse, no lo actualizo y ya está, o sea no, pero y no, no, no os notifica de este se.
+
+45:19
+Se ha detectado que la iOS está va desactualizada, se ha actualizado, necesita un reinicio para cuando se pueda, no, eso no lo tenéis, no, sí, está guardado en TXT pero no lo sé, está está en 1 t X T Sí que se guarda, pero sí, pero vamos, que no, claro, no, no es visible porque no nos hace falta. En realidad vale exactamente vale, vale, porque es que a fecha de hoy, por ejemplo, los 920 están ya todos con la versión nueva cargada.
+
+45:45
+Ya, pero porque habéis hecho vosotros un planning para hacerlo, claro. Y tenemos el escrito ahí que se ejecuta una vez al mes, él solo, entonces a una mala dentro de un mes. Si tú instalas 190020 que no tiene la versión buena dentro de un mes ya la va a tener. Con lo cual lo que sí que sabemos es a través de la de la del portal.
+
+46:14
+Es la versión que tienen ejecutando. Vale, entonces tú te vienes aquí y aquí siempre puedes ver equipo yo que sé equipos. Marca Cisco modelo que son 3400. ¿Qué versión tiene instalado? Este por ejemplo la tienes aquí. Esta es la versión que están ejecutando de iOS.
+
+46:41
+Pero los 920 todos tienen ya cargada la la nueva la buena en herramientas iOS 520. Vale, es actualiza su última venga la la principal es esta, esta, la de 7605 es la que está cargando cuando encuentra y deja también de backup.
+
+47:10
+Por si acaso, la D 7, 6, 0, 3 la deja también cargada. ¿Ahora mismo ya tenemos 492 equipos con esta versión ejecutándola Eh? Y todos la tienen cargada ya los 1400 equipos. Creo recordar entonces, cuando ahora venga una nueva versión, pues esta pasada a ser la de reserva.
+
+47:35
+Da, se da de alta la nueva, la nueva versión de iOS y se la pone como principal y entonces ya la próxima vez que se ejecute el script, lo que hará es cargar la la nueva versión. Esta la borrará y dejará esta como la de backup. ¿Eso lo hace el script solo, EH? No hay que tocar nada. Y si sale una nueva versión, eso quién lo tenéis controlado, Manuel o la. A ver, esto es automático.
+
+48:05
+Esto de aquí entonces tú coges 190020, lo enchufas y lo sincronizas con la base de datos, vale, y ya detecta qué versión de ellos tiene. Si es una versión de iOS nueva, la pone aquí ya está. ¿Cuál es la versión que tiene que estar ejecutando? Eso no lo dice tecnología vale, bueno, tecnología Manuel, directamente.
+
+48:29
+Esta es la versión que tiene que tener funcionando los 920, pues llegamos aquí y lo ponemos como principal. A veces disco se le dice a tecnología se lo dice a Manuel y entonces ya esta es la que está homologada, pues esta es la que tenemos que tener ahí. ¿Vale, y entonces qué hacéis? Recalibráis el script para que no hay que recalibrar nada, hay que poner cuál es la principal de cuelgar la reserva y ejecutar la script y ya está, la información la coge de aquí.
+
+49:00
+Vale, el script no hay que tocarlo, ya está, ya está preparado para que la información. ¿Entonces esto quién lo hace? ¿Pues normalmente lo tendría que hacer álex, pero como lo hace una vez cada 3 meses, nunca se acuerda de cómo se hace y lo hago yo, sabes? O sea, cargas, cargas aquí una Cuando sea el nuevo registro de la nueva iOS y la configuras como principal.
+
+49:23
+Si el equipo si el equipo ya está, si ya te ha venido un equipo con esa versión, directamente ya te va a generar la línea, entonces simplemente tienes que venir aquí, modificarlo y decirle pues tú vas a ser la principal y ya está, vale y modificas ya eso va y después que ya lo va lanzando a todos los equipos del área, sí y poco a poco, pues en tarda aproximadamente dos semanas en hacer la carga de los 1400 equipos.
+
+49:52
+O sea, claro, es que hacer 1 F t P de la iOS desde el equipo hasta Fobos, claro, tampoco vamos a matar a iOS a Fobos, quiero decir, vamos haciendo un de de equipos, los vamos haciendo de 1 en 1. ¿Qué le cuesta al FTP? ¿Qué le cuesta 8 minutos? Pues 8 minutos 8 minutos por 1400 equipos, pues te vas a bastantes días, sí, entonces lo que le cuesta cuando acaba pues ya ha acabado.
+
+50:22
+¿Entonces tú vas viendo continuamente o solo en algunas franjas horarias o no, no, cuando empieza lo hace siempre lo hace continuo, vale, cuando él empieza ya tú lo Lanzas, lo lanza, no sé si no lo dejamos ya fijo una vez al mes, creo recordar, no lo sé o lo Lanzas y automáticamente se va, se va actualizando, es que De hecho lo tienen en objetivos, EH?
+
+50:47
+El hecho de ir actualizando los equipos, de cuántos equipos tenemos hasta en gráficas, saber cuántas cuántas iOS nos quedan para actualizar y todo eso lo tenemos en gra zona estadísticas o K iOS instaladas el otro día. Creo que intenté entrar aquí a grafana el otro día YY no sé si.
+
+51:15
+No tengo acceso o cómo va, pero no, no conseguí entrar. Envitado invitado, vale, vale, ya ves tenemos los que en total tenemos 1150 equipos, ahora no, pero nos han bajado, pensaba que había más bueno, pues es igual, hay 1150 equipos de la que tenemos mayor de la 1670041, o sea, fíjate que estamos ya aquí.
+
+51:46
+¿Desde hace 1 año, pues desde hace unos meses que empezamos con esta versión, vale que empezamos con 299, estamos ya por 741, o sea se han, se han reiniciado 300 y pico equipos en lo que va de año, todo a base de cortos programados, Eh? ¿Entonces llegará un día en que esto? Pues.
+
+52:11
+Al final todos los equipos que tenemos que es el total de estos de aquí los 1150. Estos 1150 equipos tienen que tener todos la versión esta azul. A lo mejor no llegamos a todos, sino que sale otra nueva y volvemos a empezar. Volvemos a empezar que es un tipo de Sierra, pero bueno, es lo que hay. Son equipos que tardas 1 año en actualizarlos todos.
+
+52:36
+Haciendo cortes programados poco a poco. Y si en durante ese año sale otra versión, pues tienes que volver a empezar, pero es la vida misma y entonces a ver menor de mira, fíjate, menor de la 19, los que quedan, quedan. Eso es lo que te iba a decir mientras no se te queden muchos en la última de la última vamos, no vamos mal, 12 equipos quedan, hay 12, vale eso solamente hay 12 menores de la 16:09 H.
+
+53:06
+O sea, es muy poquitos. A lo mejor si incluso alguno del laboratorio o algún equipo secundario que no se utiliza, puede ser o incluso algún equipo que ya se ha pagado y directamente todavía está en las estadísticas porque el equipo no se ha borrado hasta que no borras el equipo de la base de datos te sigue apareciendo aquí en las estadísticas porque sabe cuál es su versión, vale, no tiene en cuenta si está de baja o no, no se, no creo, no lo sé. O al final pusimos, no lo pusimos, no lo recuerdo exactamente, pero bueno, lo mejor es al final.
+
+53:35
+Por un tema también de que te se supone que cuando un equipo lo pones de baja, el que lo da de baja debería ir y borrar todo el direccionamiento IPY tampoco lo hace, entonces lo mejor, borrar el equipo. Se borran las IPS, se borran los puertos, se borra todo lo que no se usa, claro, se libera todo, se libera todo y arreglando ya está y las configuraciones. ¿Al final guarda una, EH?
+
+54:03
+O sea, podemos ir a a equipos que se desmontaron hace 2 años y al menos tenemos una configuración, la última configuración guardada de ese equipo por si acaso, por si acaso, sí dentro de 3 años, pues hay un script también que limpia, porque es que se me ocupa una barbaridad al final tener ahí miles de configuraciones. Si no es dentro habría que ir limpiando. Entonces, como venimos de jouna, al menos 1 configuración de a un equipo, aunque esté, aunque se haya borrado el registro.
+
+54:34
+Vale, nos habremos quedado aquí, vale, bueno, eso el FTP utiliza, eso es utilizar desde los equipos para descargarse las configuraciones, o sea las iOS para poder descargar hacia los equipos. ¿Y tiene también una cosa muy importante que parezca mentira que pero es el DNS, vale el DNS qué hace? Es fácil 1 d n s normal y correcto.
+
+55:05
+En activo vuelvo a entrar y ya está. Hace rato que no lo he abierto. ¿A mí me pasa también, EH? Con el lo mismo es que es un rollo cuando llegas un rato que no lo tocas, pues cierra la sesión. Tampoco está mal a veces.
+
+55:28
+Sí, no, lo que pasa es que a veces, por ejemplo, en está está los tienen configurados de servidor Linux en 5 minutos, o sea en 5 minutos que no toques te cierra la sesión, coño, y a veces estás mirando de una cosa que tardas más 5 minutos y te la ha cerrado y te ***** en todo porque tienes que volver a abrirla sin rollo y a veces te te ha cortado cosas y tienes que ir con un cuidado la Ostia vale el el hecho de que hagas esto.
+
+55:58
+Vale, sí, y que todos los routers sepan las direcciones de los demás y que cualquiera puede llamar a un equipo por su nombre dentro de la red de Cellnex. Vale, todo esto lo gestiona este DNS. Este de aquí vale, el DNS está ahí, no pide pan.
+
+56:26
+Que que incluso estaba el PDNS estaba aquí. Pues lo quité hasta aquí. Dentro de fogos hay una página que nunca está ahí aquí aquí herramientas PDNS.
+
+56:58
+Para saber si, sobre todo si está en marcha. Lo que pasa es que también como nunca se cae, al final no lo usamos. Pero bueno, te dice el porcentaje de cuántas peticiones se ha atendido en este tiempo. ¿Quién es el más preguntón? ¿Quién es? ¿Sabes en la última quién? ¿Quién te está preguntando más? Yo la verdad es que buf.
+
+57:29
+Esto son el número de peticiones. DP, no sé, esto son las peticiones que se han atendido, o sea flipas y lleva ahí 10 años funcionando y no pide pan y entonces lo que hace es estas esta aplicación este el Power DNS es un open que está instalado en fobos.
+
+57:55
+Vale, está recibiendo por minuto unas 150 160 peticiones por minuto. Ahí está esto. ¿Cómo funciona? Pues hay aquí una base de datos que se llama la bro isla. Es.
+
+58:24
+PDNS que es esta de aquí que solamente necesita, tiene la base de dominios, pero aquí nada está configurado para que funcione RDG producto de retribuciónaudividual.com y la inversa que es la esta es la cuando haces un una resolución inversa vale y después tienes una una base de datos de registros.
+
+58:51
+Que tiene 50000 registros con las direcciones IP que fobos le dice que tiene que tener. ¿Vale, cuál es la IP? Esta es la resolución inversa. Luego bueno, vamos a una directa por aquí, vale por aquí vale entonces el IE 3001 tal o el MAT a ver el Lan el Lan 1921 tal tal tiene esta dirección IP.
+
+59:20
+¿Vale y aparte el dedcount esto se lo añadí yo, para qué fácil fobos le envía con un script? ¿Lo que hace es cada creo recordar cada minuto regulariza esta base de datos me cuesta muy poquito, EH? Es pispás entonces los datos a ver las es está en USB.
+
+59:52
+Barra pasar DNS, mira qué tarda, ya está, ya he regularizado todas las todas las IPS de fuego se las ha pasado power DNSY entonces lo que hace es todas las nuevas. ¿Qué pasa con las viejas? Pues es para eso está el Dead Count este de aquí Dead Count lo que hace es.
+
+1:00:20
+Restar 1 cada vez que se actualiza. ¿Vale, entonces qué va a pasar? Pues que si dentro de 25 veces que se llama este script al pasar DNS no ha vuelto, borra el registro. Ajá. Entonces las IPS que se borran y que tienen que tener el host name pueden durar pues aproximadamente 1520 minutos.
+
+1:00:49
+Dice sí o 25 minutos, si a los 25 minutos se ha de borrarse 1. I P desaparece el registro, con lo cual ya no se puede hacer un ping a esa, a esa dirección. Vale, ya te digo, lleva funcionando un montón de años y ahí está. O sea, sí, y nunca nos ha dado problemas, ni nos ha dado fallos, ni nos ha cascado nada, ahí está, no pide pan.
+
+1:01:19
+Sí, sí es es de las explicaciones que asombrosamente funcionan muy bien. Es gratis porque no, el Power DNS es open fourth y vale el DNS muy bien con lo con lo cual todos los routers, por ejemplo, están configurados a apuntar a este DNSY los DNS es de corporativa.
+
+1:01:47
+También a estar actuando de de relés para que cuando tú desde un sistema externo, desde tu máquina, por ejemplo, tú le haces un ping a a 1 router, vale a ver mira símbolo del sistema de de mi máquina.
+
+1:02:16
+Pues no, pues lo habrán quitado tío, pues antes sí que funcionaba esto, antes funcionaba. Bueno, pues en red de gestión seguro que funcionan todos, todas las máquinas que están en red de gestión tiene que apuntar este DNS, pues aquí ahora no va. Ah, vale que es que estoy entrando claro, es que estoy en la en la L a n de gestión, en la VPN de gestión, no estoy en la corporativa.
+
+1:02:41
+Vale, pues os da igual, en teoría desde cualquier lado tienes que poder tienes que poder acceder a este DNS. No sé por qué desde corporativa puede ser eso que esté que no esté a través de la VPN corporativa, sino que estoy a través de la VPN de gestión y no tengo como el DNS, yo estoy en la de corporativa, lo he probado pinball 3400 Store y me dice la solicitud de PIN, no puedo encontrar el host, no pruebe el nombre y vuelve a intentarlo, pues lo habrán quitado.
+
+1:03:10
+No le han quitado el DNS para que no apunte ahí. ¿Bueno, antes sí se podía, EH? De hecho yo lo utilizaba bastante. Vale, pues bueno, gestión, sí, todo cualquier sistema que entres que tenga configurado este DNS, cualquiera de las dos, la 10:01 H ciento 9 c o 161, entonces todos los sistemas, todos los routers, el mismo de aquí.
+
+1:03:39
+¿Configuraciones espera, aquí hay alguna configuración esta configuración mismo dónde estás corazón? A ver, me late así punto 9 11 vale.
+
+1:04:08
+Todos apuntan ahí y todos tienen que tener configurar el dominiorge.retrovisionaudiovisual.es. ¿Entonces todos los routers entre ellos saben cuáles saben resolverse los nombres de los demás? ¿Pues para qué? Pues porque muchas veces entre ellos se van por nombre o o incluso cuando haces un show CDP, pues en vez de enseñarte la IP te dice qué equipo está al otro lado, no qué IP tiene. Sobre todo para los técnicos es importante.
+
+1:04:37
+¿Porque no se saben las IPS de memoria, los CI S vale DNS esto como estos fobos? En principio estos fobos alrededor de fobos hay muchas cosas, hay cosas como por ejemplo Carayan, que es lo que te he contado, que es el que entra en los equipos a configurarlos, la gestión, la pantalla de carayan sí que está aquí.
+
+1:05:06
+Pero en la máquina no vale entonces los proyectos de cada Jam que tienes en la base de datos de cada Jam terminados, vale, esto es un servicio, por ejemplo, que se ha ejecutado para configurar un servicio, todas estas todo esto se ha ejecutado sobre estos equipos. Vale, y esto lo ejecuta esta máquina la 10:01 H 109 16. Ahí es donde está el orquestado realmente funcionando.
+
+1:05:37
+Ese orquestador trabaja sobre esta base de datos. Mira a ver qué tareas está enviando Fobos. Fobos le envía tareas a esta base de datos, vale o bien a través de cero o bien a través del interface web, o bien a través de de un alta de un servicio. Le envía tareas YY carayan lo que hace es secuenciar esas tareas. Tiene 5 colas.
+
+1:06:06
+Vale, ahora mismo están las las 5 vacías. Tiene 5 colas. Vale más la cola lenta. Cuando la cola lenta es cuando hay trabajos que tienen más de 50 tareas. Las mete automáticamente aquí. Pues por ejemplo, cuando hay que configurar 1000 equipos que a veces nos ha tocado, o sea hay que enviar, hay que enviar este parámetro a 1000 routers.
+
+1:06:31
+Vale, entonces las metes siempre la cuelga lenta para que vayan una detrás de otra. ¿Para qué están pensadas estas colas de La 1 a la 5? Pues para tareas como por ejemplo cuando hace un reenrutado o cuando se hace 1111 servicio, sabes cuando hay cosas que quieres que haga lo más rápido posible, pero son pocas cosas, lo haga muy rápido. Entonces lo mete en estas 5 colas que trabajan en paralelo. Entonces empieza a distribuir trabajos en estas colas.
+
+1:07:00
+Y cuando entran aquí, pues empiezan a a ejecutar. Va superrápido, o sea, es la repera ejecutando colas. ¿Esta máquina solamente hace eso, EH? Ejecutar trabajos y va muy rápida. Es una máquina también que está bastante, es de la misma época que fobos. Se se montaron estas dos máquinas, pero es muy rápida porque solamente tiene eso. Esa tarea también también es Linux.
+
+1:07:26
+Sí, sí, toda la no. Yo todas mis máquinas son Linux, vale, o sea que vamos a acabar, vamos a acabar antes. ¿Todas las máquinas son Linux? Exacto, ya está. Todas las bases de datos son my SQL, excepto Grafana que utiliza influx y Grey lock utiliza elastic, pero son porque Grey Locke es una aplicación que ya estaba hecha y utilizaba elastic.
+
+1:07:54
+Y grafana utiliza influx porque es la mejor manera de almacenar datos de históricos, de de medidas mucho más rápido que mysql haciendo esa tarea, ahora no le pidas que almacene nombres. Por ejemplo, influx no es horrorosamente mal almacenando nombres, porque es una base de datos que se se diseñó específicamente para eso, para almacenar números. Y es rapidísima. O sea, nosotros tenemos.
+
+1:08:20
+Un 1 año de estadísticas de todos los 920 de todos los interfaces del tráfico almacenado en Netflux y funciona relativamente rápido, Eh, vale, nos habríamos quedado en karajan, vale, con lo cual karajan consulta en la base de datos de Karajan y lo que hace es ejecutar la los scripts.
+
+1:08:48
+Que vienen marcados por la herramienta. Ahora vemos 1, por ejemplo, voy cerrando ventanas y al final cada Ian proyectos. Vale entonces dentro de cada Ian en diferentes proyectos. ¿Entonces estos scripts hay por ejemplo, en este equipo hay que configurar varias cosas, no? Pues hay que configurar 1 u V lan.
+
+1:09:17
+Hay que configurar 1 Q o S y después hay que confiar otra V Lan en el trang de salida de este de este equipo, pues son 3 tareas con sus respectivos parámetros. O sea, cada tarea esta de aquí tiene sus parámetros. ¿Entonces lo que lo que hace el secuenciador de órdenes de trabajo que está aquí dar de alta por o t vale, lo que hace es tú le metes el Excel de la orden de trabajo?
+
+1:09:48
+¿Y a partir del Excel te genera esto? ¿Sabe qué scripts tiene que ejecutar para hacer una orden de trabajo? Cuando le ha metido estos registros le dice a Karan, Oye Ejecútame esto entonces carayan lo que hace es ejecutar tarea por tarea y en este caso utilizará para estos.
+
+1:10:11
+O sea, va distribuyendo, pero siempre cuando es el mismo equipo, siempre utiliza la misma cola. Me explico, entonces yo por ejemplo, tengo fuera de que era 3400 par, vale como has cogido para la primera tarea, la Cola 1, todas las tareas que vayan sobre el mismo equipo van a utilizar la misma cola, pues si solo tienes que hacer una conexión al equipo, no 3, no, no, no se hace 3, se hace en 3, sí, sí, sí se hace 3, hace 3 conexiones.
+
+1:10:41
+Pero da igual, tan rápido que ni te enteras se hace 3. Porque en realidad hay tareas que cuando ejecutan esa tarea tienes que salir de volver a entrar. Por ejemplo, en los X Connects tienes que Esperarte desde que haces un una conexión del pseudowire. Perdón, aquí creas el interfaz y luego tienes que crear el pseudowire.
+
+1:11:08
+¿Con lo cual al final encontramos que la forma más rápida de hacer esto era saliendo y volviendo a entrar, entrar le cuesta, mira, Fíjate en 1, segundo ha hecho las 3, sabes? Sí, perdón, en un no es 1 minuto, sí, sí nada, 930 y 5 a 9 36935936 a la en paralelo ha hecho estos dos equipos.
+
+1:11:37
+935936 y en paralelo ha hecho el XR 353636. O sea, en 1 minuto ha ejecutado todo, en 1 minuto ha hecho la la configuración de todo el servicio y como también los scripts son bastante delicados y complicados.
+
+1:12:04
+Yo tomé la decisión, eso ya fue decisión mía de especializar a los scripts. O sea, no prefiero tener 3 scripts, que funcionen bien los 3 scripts y que vayan rápidos, pero que cada 1 se solamente se puede hacer una cosa, que tener un script para los 3400 que lo sepa hacer todo porque es más complicado manejar eso.
+
+1:12:29
+¿Porque tú tienes que tener un un resultado para cada cosa, no? ¿Entonces al final la forma de de encolar, los trabajos, de ejecutarlos, de devolver el resultado era mucho más fácil y incluso además eso en determinadas circunstancias, te interesa salir y volver a entrar para darle tiempo al switch a reaccionar o al router? Vale, porque a veces DAS de alta, no sé el Protocolo SPF.
+
+1:12:55
+Intentas configurar al segundo siguiente un interfaz y todavía no te ha dejado. No te deja configurarlo porque todavía él internamente no se ha creado el Protocolo SPF va tan rápido porque va a toda hostia que a veces se atascaba en eso, no en en que tú le dabas la la orden de create el o sea creabas el protocolo. Pero el proceso interno del router que crea el Protocolo era era más lento que cada Ian diciéndole lo que tenía que hacer.
+
+1:13:25
+¿Entonces daba problemas un poco absurdos, como que configurabas un protocolo, te ibas a la interfaz para decirle Configúrate el Protocolo y decías, no, no existe el protocolo, decía, pero si te lo acabo de configurar, con lo cual al final, bueno, sí, al final 1000 razones así nos funciona bien y lo seguimos manteniendo así porque funciona muy bien pasito a pasito y así tienes marcado el resultado de cada paso y el resultado de cada paso lo tienes aquí, o sea, tú vienes aquí y dices, vale, cuál es el resultado? Pues este.
+
+1:13:53
+¿Cuando le dices que configuro lo belan qué? Sobre qué base está diciendo que cuando va a que ha encontrado que es un trank que ya tiene la lowed que tiene tráfico, con lo cual, por ejemplo, este trank nunca te dejaría ponerlo como Access. ¿Por qué? Porque tiene tráfico. ¿Entonces esa esa tarea implica un corte? Vale, entonces ese Corte nunca te dejaría hacerlo.
+
+1:14:22
+Y al final te verifica que efectivamente has configurado la V lan correspondiente, la 1677 la has configurado dentro del trank y ya lo tienes configurado y el trank está o K vale, entonces este es el resultado de la configuración de este script de aquí abajo. Configurar el Uber a niños está todo el rollo cuando hace un Access, por ejemplo, este de aquí es un Access, vale, ha configurado un puerto como Access está vacío, pues ni es trank, ni es Access, ni stallowed, ni es tunnel.
+
+1:14:51
+Y además no tiene tráfico. Vale, entonces yo le he dicho que configurada la V Lan. Entonces él ha decidido, De hecho, bueno, está pasando el interfaz a túnel porque le he dicho que va a ser un túnel. Es un tipo túnel. Ha configurado un túnel dentro del puerto con la V Lan en Access la 16:37 H, Pues ya está arreglado la la Q os pues igual ha entrado y te ha configurado la Q os.
+
+1:15:21
+¿Para ese puerto le ha puesto la descripción cuál va a ser el ancho de banda? Todo el rollo vale el service Policy. ¿Cuál es? ¿Bueno? Pues ya eso es eso. En 1 minuto ha configurado al servicio que antes nos costaba media hora, 3/4, 40 minutos.
+
+1:15:51
+Entonces, para los borrados de servicio, por ejemplo, también vale en este. ¿Por qué ha fallado? Pues habría que verlo. ¿Por qué ha fallado error? No es posible entrar en config F o porque les he dicho que entrara en algún puerto y no ha podido entrar y aquí lo mismo.
+
+1:16:19
+¿Entonces habría que revisar por qué ha fallado, por qué no ha podido borrar, porque a veces pasa, Eh? Sí, claro, no pueden entrar con IF porque le has dicho que te borre algo que no es capaz de borrarlo. Giga cero barra 1. Por por qué no, no lo sé, no sé por qué no ha podido borrarlo. Bueno, el caso es que.
+
+1:16:42
+¿Ha dado un error, pues en este caso sí que hay que revisarlo, no lo revisan tampoco, ya te lo digo yo, que no, pero bueno, pero todo lo demás sí que lo ha borrado bien, o sea, todo lo demás ya ha dejado, ha dejado limpia la red, o sea, todo cuando se borra un servicio, pues ha quitado los x CONNECT, Sí, sí, sí, sí, lo he dejado en las configuraciones, entonces aquí tanto los borrados de servicio como los servicios, pues se directamente se secuencia por aquí esto está automático, Eh?
+
+1:17:10
+Cuando se hace un servicio nuevo esto viene todo desde la orden de trabajo. Eso te iba a preguntar que todo esto lo hace automático desde la o t o bueno hay que meterlo, hay que hay que meter el Excel, claro, pero todo lo que aparece ahí en parámetros puerto tal tal Uber, en tal tal descripción, tal tal tipo túnel o tipo as, eso tipo trank, eso lo hace el solo todo, sí, sí. O sea, él decide si es tipo túnel o tipo trank.
+
+1:17:39
+Sí, sí, sí, mira, tú vienes aquí el servicio servicios alta por o t entonces tú coges, no sé si tendré por ahí alguna de alguna o t vieja consulta t copia o t no, es que me han cambiado hace poco.
+
+1:18:12
+No tengo, no tengo, no tengo, no tengo ninguna bueno aquí directamente te pide la el Excel de la o t a ver si tengo por aquí una copia de seguridad aquí tendré alguna sí, espérate a ver proyectos new ahora ya luego aquí tendré alguna. Ah, sí, mira, aquí tengo.
+
+1:18:40
+¿Entonces, por ejemplo, este tiene un error, está, está o t vale, malo para pruebas? Sí, sí, sí, entonces yo le envío la la o t vale, entonces me me dice que primero el el equipo no existe y el tipo de software evidentemente, si no existe el equipo no es capaz de sí, claro, de saber cuál orden es porque.
+
+1:19:08
+Aquí lo que me pasa en esta información, pero yo en función del tipo de software que tiene el equipo, si es un X es 1 x R o es 1 x 1 iOS, yo tengo que llamar a un script o llamar a otros, porque no es lo mismo configurar un Access, un puerto en Access en 1 x r que en un 3400. Entonces, a partir de lo que es la orden de trabajo del Excel, vale a ver 1 de estos. ¿Cómo es la la orden?
+
+1:19:39
+Lo abro su calendario, a ver que lo cierre, porque si no sé qué le pasa, tío, me está pasando últimamente que si tengo un Excel abierto y le hago un doble click le cuesta abrirlo a ver, abrir. Esto es lo que nos ha enviado, vale a partir de aquí.
+
+1:20:09
+Lo que hago es convertir esto en formato fobos. ¿Vale formato fobos es este, este es el formato fobos vale? ¿Qué ocurre? Pues que lo que hace es detectarte errores, error de continuidad porque sí, mira fácil.
+
+1:20:38
+Tú vas del del P n I 3 al PNI vale del PNI directamente te dice no del P n I 2 no perdona, no puedes pasar del PNI al p n I 2 sin Especificarlo, sí te falta algo. Hay un error de continuidad, esto lo está diciendo aquí no te deja continuar y aparte puedes verificar por CDP el hecho de que las las adyacencias que dicen que existen son de verdad.
+
+1:21:07
+¿Vale, porque puede ser que te encuentres entonces que salte de un 3400 a otro, pero que no sea ese puerto que ponía con el que va enlazado, no? Efectivamente, del Yaiza 920 al 3400 MMI no están por CDP conectados. O sea, este esta orden de trabajo tiene un error, aparte de los errores de continuidad que los tiene.
+
+1:21:38
+Es que además tiene un error de CP que es que esto lo que tú me estás diciendo en la orden de trabajo no es verdad lo que ocurre en la red. Entonces si detecta que todo está de **** madre te dice, te aparece aquí un botón que es dar de alta en fobos. Vale, y eso ya lo veremos en la aplicación de servicios. Y a partir de fobos tú ya puedes decirle, bueno, pues configúrame este servicio, esto lo mete en la base de datos de servicios.
+
+1:22:07
+De hecho este tiene que estar por aquí el BT 1834. Vamos a ver, bueno estamos ya que estamos, lo vemos y ya está busca el servicio, no sé si estará dado de alta o qué aquí el BTBK 1834 está de aquí, está de Escuaje Gringado sincronizar auto no sé por qué está escuaje ningado.
+
+1:22:36
+¿No hay continuidad? Sí, sí, sí que la hay, sí que la hay. Si se diga al final se estas horas de trabajo, claro, si hay un problema que es la orden está mal, pues te la vuelves a enviar la tecnología y dices, oye, que la orden está marcha todo, o sea, si es un problema que se han equivocado en una chorrada, como que no han especificado bien un puerto o pues a lo mejor los chicos lo corrigen ellos y lo pasan, pero hay veces que te tienes que volver la orden porque está mal, no sabes, te están diciendo que la orden está mal.
+
+1:23:06
+Entonces tienes que solucionarlo, no puedes dejarlo así como así. A ver, este es 1 b K no sé porque está tan desmadrado, está aquí también. El principal problema es que no hay nadie que se ocupe de mantener BY de de verificar que toda esta información esté bien. Entonces tú metes un servicio y vas dentro de 6 meses y ver si saber si alguien la ha tocado o no la ha tocado.
+
+1:23:40
+No, no, no, no, no, no es capaz de sincronizarlo, vale, vale, pues es este de aquí. En principio el normal es este, vale, entonces tú desde aquí, si tú le dices que esto está de alta, está en en modificación, te aparece una opción que es configurar secuencia de configuración.
+
+1:24:10
+Entonces, cuando le das secuencia de configuración, encara, ya te genera esto de aquí de un servicio estará allí, vale, te genera esto. Todo esto te lo genera desde aquí servicios.
+
+1:24:37
+Los e p 0 7 6 8 este de aquí vale, De hecho este habría que darlo ya de alta, que no lo han dado de alta, pero bueno y te y de aquí te dice que karayan se ha ejecutado para configurarlo. ¿Lo han hecho hoy? ¿Pues imagino que un par de días ya lo dan de alta y lo lo dejan listo, vale?
+
+1:25:06
+Antes de que se me olvide, antes de que se me olvide cuál era lo otro que hemos hecho, 1864 el C Este de 18341834 no puedo aquí, si es que lo deja. ¿Creo que lo creo, que lo he dejado en en modificación, no? Sí, sí, lo pongo en el alta y ya está tantos evitar esta.
+
+1:25:37
+Vale, entonces ya desde aquí no te si ya lo tienes de alta, te desaparece la posibilidad de poder secuenciarlo otra vez. Vale, vale, pues los que estamos aquí aquí, esto es cara ya en principio.
+
+1:26:00
+¿Cuando entremos en herramientas no sé o cuando si hacemos algún caraian habría que dedicarle un par de horas solamente a cara dian vale porque tiene mucha, mucha tela por debajo, vale, qué más cosas tiene? ¿Qué hora es la 1:30? ¿H, ya que la 1:30? H, Sí, ***** vale.
+
+1:26:27
+Si quieres estamos en algo más o como tú veas, no, no, yo es continuar hasta las dos, porque es que si no, si no el viernes, no vamos a tener tiempo prácticamente de nada. ¿Cuánto tenemos el viernes a 2 horas también? ¿Bueno, bueno, es igual, continuamos hasta las dos, vale, no? Perdón.
+
+1:26:49
+El lunes tenemos 2 horas también 2 horas. Sí, sí, hombre, te digo porque es que hay mucho, entonces sí, sí, sí, ya ya ya estoy viendo, seguimos avanzando porque si no, no nos va a dar tiempo a todo, no vamos a cumplir el calendario ni de coña. Vale, bueno, va grafana. ¿Cómo funciona grafana grafana?
+
+1:27:16
+Saberlo es la herramienta que utilizamos para ver estadísticas. Vale, estadísticas de tráfico, la vemos todo con Grafana garafana ahora mismo tiene un poco de lío. A ver, empezamos capturando datos de una manera y al final eso lo hemos ido cambiando y ahora mismo hay y encima es verdad y eso es culpa nuestra. Hay un montón de dashboard que están obsoletos y no se utilizan y ahí están.
+
+1:27:47
+Y no los hemos borrado. Pero bueno, lo que hay, vale, no lo vamos a tener en cuenta. ¿Vale entonces importantes, sobre todo cómo funciona el grafana? Pues te lo cuento y así lo ves, porque si viéndolo es como mejor se ve, sí, si menos el LUP Rosa y yo.
+
+1:28:16
+109 50. Esto habrá que tendría que empezar a quedar también usuarios donde por la contraseña. ¿Aquí lo que esto no estaba por esto no va por dominio, vale, cómo que no hay nada?
+
+1:28:58
+Vale, vale, grafana tiene en user Bean, tiene un montón de scripts, vale que son estos de aquí.
+
+1:29:23
+Vale que lo que hacen es a través de un ground Tab. Vale entonces para los XEY los XR cada 15 minutos o cada 10 minutos. En el caso de los XR lo que hace es leer por SNMP la información del equipo del tráfico del equipo.
+
+1:30:06
+Vale, antes directamente eso ya directamente lo metíamos en la base de datos y nos generaba una cantidad de basura impresionante. Vale, entonces lo que hacemos, lo que hago ahora es que a través de una base de datos de my SQL que también tiene puesta grafana. De hecho está aquí. Voy a abrir una base de datos de Grafana que es la 10:01 H 109 58.
+
+1:30:39
+Vale estar aquí todo aquí y esto es grafo. Vale aquí solamente que nos interese, hay una que es telemetría, telemetría, no vale telemetría, ya está telemetría. Lo que hago es cuando Leo la información de un puerto y.
+
+1:31:07
+De un equipo de su puerto. Vale, cuando yo le digo al router dame la información de tráfico del puerto, lo que me da son los paquetes, es un contador de paquetes, no me dice hay dos megas, no me dice mi contador de paquetes está en esta cantidad ya, pero eso contador de paquetes es tráfico. ¿Cuánto es? ¿Pues?
+
+1:31:35
+¿Es que la fana lo sabe, Eh? La fana, si tú le almacenas esto, dices que es un incremental y la fana te lo va a calcular bien, pero tú en cada iteración tienes que guardar esto. Todo este número vale y es una barbaridad. Entonces nos nos las bases de datos se nos petaban, cada vez iba más lento, era horroroso porque ahora mismo estamos interrogando 92000 puertos. Claro, si estás interrogando 20 como que te da igual.
+
+1:32:05
+Pero claro, si estás interrogando al 92000, pues madre mía, es es una **** locura. ¿Entonces, qué es lo que hago? ¿Pues me almaceno cuando he hecho esa consulta y qué es lo que me ha contestado entonces yo dentro de 15 minutos lo vuelvo a preguntar y le digo, qué medida tenías antes? Pues antes tenía tantos paquetes. ¿Cuántos segundos han transcurrido desde desde que yo pregunté, han transcurrido x segundos?
+
+1:32:34
+Pues si de x segundos hay una diferencia de paquetes de x lo multiplico por bytes, son 8 por bits, perdón, y eso lo paso a megabits por segundo, que es lo que yo almaceno en grafa en la base de datos de Influx vale, y además puedo saber el porcentaje de utilización del interfaz.
+
+1:33:05
+¿Porque también me está diciendo el ancho de banda, entonces estoy utilizando a ver megas dos megas TRX por vale?
+
+1:33:35
+Corresponden al 19% del ancho de banda en RXY en TX le corresponde vale con lo cual y me guardo esa medida y la y la guardo aquí, con lo cual la próxima vez que que entre volveré a recalcular. ¿Cuál es el ancho de banda durante esos 15 minutos? ¿Para qué me sirve todo eso? Pues primero almaceno muy poquita información en influx.
+
+1:34:02
+Que es lo que me interesa, que vaya muy rápido, la base de datos de my SQL para esto también va muy rápido, con lo cual tampoco ni se entera para guardar solamente esto porque yo no voy, yo no me guardo cada medida, me guardo solamente la la última vale, con lo cual sé la última medida que he tomado cuando la he tomado que ha sido a las 13:31 h Este equipo Mirad hace 1 minuto o se la ha tomado la última medida no, no 7 minutos ya sí 7.
+
+1:34:30
+Pues la última medida, este equipo se la ha tomado hace 7 minutos. Me ha dado esta información, no que está utilizando el 19%. Entonces tú te vas a este equipo, copy of Content, entonces general, cuando está hay equipos, perdón, no están equipos, está aquí en equipos leches, estos equipos no hay modelo, tú te vienes de aquí.
+
+1:35:07
+Le dices de este equipo y entonces ya te vienes al al interfaz que corresponda, que no sé cuál era, pero da igual, pues seccionarlo todos y entonces yo tengo por un lado lo que te he dicho, el cálculo de la del porcentaje de la utilización de la interfaz, que no sé cuál era, pero bueno, da igual y tengo en megabits por segundo.
+
+1:35:33
+Y Almaceno solamente 3 dígitos en vez de almacenar los 18 que tenía cuando almacenaba los contadores e internos. Vale, con lo cual me da muchísima más capacidad de almacenamiento y también implica mucha más velocidad, porque yo no tengo que hacer el cálculo cada vez de cada salto. ¿Si yo me guardo el incremental cada punto del gráfico tengo que recalcularlo, me explico?
+
+1:36:00
+Sí, así así no tengo que calcular nada, simplemente lo muestro lo que tengo en la base de datos y ya está porque ya lo tengo precalculado de antes. ¿Vale, pues nada, yo lo meto en las bases de datos de influx, luego me vengo aquí, configuro la base de datos correspondiente, qué tiempo guardáis? ¿1 año de de, de de Gráfica, de de de Tráfico de cada puerto? Sí.
+
+1:36:30
+Sí, sí, 1 año es el aquí los últimos no sé si estará 1 año montado este equipo, pero ahora a ver que no le pongo a todos los puertos para no petar nada. Si no petaré a ver que sí. Y es que a lo mejor a veces también te pasas calculando a ver qué puerto habíamos dicho que era. No me acuerdo el 8, pero no me hagas mucho peso.
+
+1:36:57
+Nada, vuelvo, mira, ya está, tampoco está, no sé cuál era. Es igual el HS no, bueno, es igual, cogemos un puerto que tenga tráfico y ya está, hay 1, que tenga algo de tráfico, a ver, ponemos todos y así miro, no que tenga tráfico, no hay tráfico.
+
+1:37:35
+Mira este por ejemplo el giga, el Giga 001 que tiene bastante tráfico. Bueno, entonces tenéis aquí decimos que solamente queremos ver el giga 001, este de aquí 3 por 100. Vale, vale, pues le dice eso se ha cambiado el último añi, a ver si no lo consigo, no quitarlo cuando haces así cálculos de estos así un poco bestias, pues.
+
+1:38:05
+¿Si que te mira si y de temperatura tenemos 1 año también, EH? ¿De temperatura el último principio 16, del 9 del 22 y estamos ya en 1012, del 9, del 23, o sea a 15 es hoy, no? Si hoy estamos a 15, sí he tomado esta medida, la última 37º, la última medida que he tomado hoy.
+
+1:38:37
+Pues cuando está aquí la rosquilla, sí, ahí está disponibilidad es cuando ha estado caído el puerto, por ejemplo, cuando no, no, esto es cuando ha estado disponible el router. Si yo intento la de arriba es del Router, sí vale y la de abajo vale, vale, vale, cuando yo intento acceder al router si no me si no he podido conectar con él por lo que sea.
+
+1:39:01
+Vale, me ha dado un ves, ya ha ya ha cascado, sabes yo que pues ahora hay que esperarse un poquillo hasta que se Levante. ¿Bueno, la los datos están, EH? O sea, todas se pueden sacar, pero últimamente también está accediendo mucha gente a grafana y la pobre base de datos también está. Estamos intentando meter una máquina nueva, tío, pero es que aquí has moteado.
+
+1:39:37
+Estabas en estás en ahora, ahora, ahora, ahora vale, si es que tengo aquí el auricular. A veces piso el eso que para una máquina, tío, tienes que escribir una carta al ministro del Interior para que te pongan una máquina, tío, pues y estamos intentando meter una máquina nueva para esto, porque es que la últimamente se nos peta cuando le piden estadísticas así un poco más amplias, pues.
+
+1:40:07
+Peta y se queda así para ti difusa, la información está, pero hay veces que pues le cuesta sacarla, no, yo estábamos, yo he estado intentando crecer días así, ya funciona, pues bueno, yo que sé, no hay veces que nos interesa tener algo más, a lo mejor 3 meses sí, bueno, dependiendo lo que lo que sea, pero 3 meses pues hombre, pues está bien tenerlo así un poco más de tiempo, pero bueno.
+
+1:40:36
+¿Ves? Mira 3 meses ha. Sí que lo tarda es son estadísticas de 3 meses, es ampliable para verla más grande la el que esto sí que no, sí puedes o puedes sacarlo. Bueno, yo sí que lo puedo sacar porque lo de Edit y entonces me viene aquí en grande, hay una forma que es sí que se puede que es compartir.
+
+1:41:08
+¿Copy qué pegas aquí a la ******? A ver, ***** porque no me lo pega. Lo haremos así. Se dice que copiado, pero se me pasa de mí. Control. C control V ahora sí.
+
+1:41:37
+Vale, no sé por qué ahora da un error, por qué guapo, no sé las cosas, es directo, no te preocupes, vale, bueno, sí se puede sacar, eh se puede sacar, incluso se puede vincular y directamente puedes vincular la la gráfica, incluso se podría vincular a fobos. También hicimos algunas pruebas, no sé cómo, al final cómo quedaron, no me acuerdo ya, pero bueno, desde fobos tú puedes hacer una llamada a esta gráfica.
+
+1:42:06
+Lo que la la URL será sí, sí es esta de aquí no sé, porque ahora no lo saca bien en compartir. Es esto de aquí entonces como al final voy a ver si cuelgo, vale, es esta, ya sé por qué. Ah, vale, ahora sí.
+
+1:42:46
+No sé por qué no salga, bueno, da igual chico, no pasa nada, se puede hacer y lo hemos hecho desde fobos y esta se quedó ahí, hicimos pruebas y funcionaba, pues eso puede sacar gráficas de de lo que te. Ah, sí, mira, de todas maneras puede hacer esto no, pero si quieres sacar desde fobos quieres sacar solamente la imagen, de eso también se puede ya lo que va a hacer pasa es que.
+
+1:43:14
+¿Me dirá que la quiere guardar y no la voy a guardar, porque si no vale, qué te iba a decir? Aquí hay algunos que son importantes que es esto de aquí, que son las estadísticas de Fobos, Eh, por qué no me lo sacas ahora ha vuelto, ha vuelto a cascarte a ver quién sacando esta ahí chicas gordas, vamos a darle un respiro.
+
+1:43:44
+Sí, vamos a dejarlo ir respirando porque alguien alguien ha sacado una estadística gorda y no. Y es lo que le cuando hice back gateway es porque el servidor se ha quedado tostado. Tienes que dejar que que se recupere a ver sistemas.
+
+1:44:08
+¿Espero tener esta máquina este luego antes de irme me queda 1 año, o sea digo yo que es que aquí en en grafana lo veremos también con la atencia, eso no podemos ver nada, está todo petado, vale? Pues ya lo veremos, vale, lo veremos y ya está. Vale, porque es importante. Después de la publicidad sí.
+
+1:44:32
+Es importante ver el tema de de graphana, vale, bueno, pues eso. Entonces hay un archivo que es este, el de la base de datos de medidas que está en my SQL, que es intermedio. Entonces solamente almaceno la parte que que me interesa para y así y todo. Mira cómo va, pues es lo que hay bueno, y esto es graphana vale, entonces lo que hace grafana es preguntarle a la red, pregunto a la red y Almaceno en Influx los datos.
+
+1:45:00
+Entonces tiene su propio servidor web. ¿Y de de Fobos? Pues también puedo acceder directamente a esta información. ¿Vale Gray lock el Gray lock es la herramienta que utilizamos de login, de login, de Login es de los logs? Ah, vale la herramienta de logs, de Logs, no de Logados.
+
+1:45:30
+No de logs, la herramienta de logs es esta de aquí en herramientas crelock, aquí es donde vienen a parar los logs de todos los equipos y aquí sí que es una barbaridad lo bien que funciona porque ahora mismo el dashboard es el next.
+
+1:46:02
+Verá, es la barbaridad de logs que entran diariamente, están alrededor de 1000000 y medio. Mira, ha subido 1873000 logs diarios. Vale, estadísticamente pues esto es lo que te están enviando los logs, que que más que más se le repiten las horas de line protocol, o sea que están updown's.
+
+1:46:32
+Por CDP Duplexmead match. O sea, los tipos de de errores. ¿Cuantos hay de cada tipo? Los mira. El 39% de los logs vienen de este equipo para que flipes este equipo. En los últimos días me ha enviado 161854 logs. ¿Espérate, se lo voy a pasar a Óscar?
+
+1:47:02
+Porque es una barbaridad. ¿Esto no puede ser, tío, esto no puede ser y como tampoco lo vigila nadie, pues HI SD, eso dónde es? Es para es pasar, es pasar, vamos a ir pasar.
+
+1:47:44
+260260 1000 logs en 24 horas. ¿Vale, y este equipo? Pues te vienes de aquí al search, si verás a a este math dos 20 y de* a ver qué coño está enviando.
+
+1:48:14
+De Pem está enviando, o sea está enviando, pues five supply con el fayure Edition Power supply power supply power supply. ¿Esto está enviando? Pues eso por segundo está enviando una barbaridad que está cascado el el Router, vamos o sea, bueno, ajá, lo que ahí vamos, lo que nos interesa cuando entras directamente en esta página.
+
+1:48:41
+¿En Serge tú puedes buscarlos, puedes hacer búsquedas de o bien en un equipo siempre hay que poner el* al final Eh? Porque para para Grey lock el equipo se llamaasi.rdg.reutional.es, con lo cual si pones esto con esto no lo encuentra porque busca palabras enteras. No busca entonces para decirle que para para que que busque con si, para que el con seat contiene sí.
+
+1:49:10
+¿Contiene, pues es con* vale, también puedes decirle, vale, qué es esto? Y además and message contenga* power* Vale, estás en la búsqueda y entonces solamente saca aquellos que.
+
+1:49:47
+Por tiempo, 5 minutos. Entonces todas las alarmas que tengan power vale power power Power, es decir, puedes hacer búsquedas, criterios de búsquedas and S Ors, puedes hacer lo que te dé la gana. Tienen un lenguaje un poco particular, por ejemplo, tienes que el and tiene que ir en en mayúscula, el full message tiene que ir en minúscula. ¿Sí, sí, es, es un poco particular, pero bueno, te te va ayudando, EH?
+
+1:50:15
+Por ejemplo, aquí le pones or y te va a decir que no, que no sabe lo que es or or vale, o sea, hay que ir con cuidado, pero bueno, que tampoco es tan complicado y después dices el margen de tiempo sobre el que quieres buscar, vale, se lo van a pasar. Al no, porque tiene un problema, tiene errores de la fuente cero que está cascaja.
+
+1:50:49
+A ver o K lucky o k o k o K dónde está el o k yes vale, esto funciona de la siguiente manera en inputs, aquí tengo definidos los inputs, vale, en este caso los sios Logs de Cisco. Estoy recibiéndolos por aquí y va a la base de datos general.
+
+1:51:22
+Te dice los mensajes por segundo. Ahora mismo están entrando 12 mensajes por segundo. Vale, y eso directamente lo guarda en una base de datos general que la la la strings. Tienes una general que son los almesats y aparte. Luego se definen más para algunas cosas que ahora te contaré.
+
+1:51:51
+Vale, entonces en en al message tienes que es la que utilicé por defecto, está indexada y aquí se van almacenando todos los mensajes. ¿Últimamente estoy guardando los últimos 20000000 de mensajes, con lo cual si calculas que son 1000000 y algo por día en condiciones buenas, 1000200 después de una 15 días aproximadamente, después se borran, EH? Aquí sí que no caben.
+
+1:52:19
+Sí, es que no va mal, también un log de hace más de 20 días. A nosotros no nos ha hecho falta y si alguien hace falta que ponga más máquina, o sea, es que es un problema de disco duro. Ahí va, se me ha apagado la tele monitor, no me ha apagado. Vale, entonces ya te digo, aquí están entrando todos aquí.
+
+1:52:42
+Sobre esta base de datos sobre la message puedes hacer búsqueda, ya te digo, y pues cualquiera puede entrar y buscar sobre un equipo, sobre un protocolo, lo que sea, pues todos los que están dando problemas de o s, p, F pues te lo sacan. Yo que sé en este plan y también puedes definir alertas, que es lo que tenemos nosotros definidas. Entonces tenemos alarma sucdown que es lo que hacemos.
+
+1:53:10
+Cuando detectamos que un puerto se ha caído, o sea o se levanta, vale, se lo pasamos a fobos, vale, entonces cogemos a fobos y Pum, le enviamos un un mensaje diciéndole, este puerto se ha caído o este puerto se ha levantado. Fobos hace muchas cosas con esa información, ya lo iremos viendo después.
+
+1:53:34
+El put time este de aquí es cuando un equipo inicia. ¿Te acuerdas que te enseña una página de estadísticas de los equipos que se han reiniciado? Vale, pues cuando Grey lock encuentra un problema, o sea le llega un mensaje de que un equipo se ha reiniciado o se va a reiniciar, se lo pide también a fobos.
+
+1:53:54
+Y es lo que hemos visto antes en fobos. Entonces en fobos hay una base de datos que cuando le llega esos mensajes, pues lo va almacenando para que nosotros podamos consultarlo directamente desde fobos y no tener que entrar desde aquí cada vez que sería un poco coñazo. Vale, y también tenemos las adyacencias SPF. ¿Para qué utilizamos esto? Para decirle a Fobos cuando me llega una alarma de caída de los EPF implica una.
+
+1:54:20
+Y ufobos analiza si esa caída de o s p F implica la caída de una fibra, porque también estamos sacando estadísticas mensuales de las caídas de las fibras. ¿Entonces aquí se a través de Game Lock? ¿Pues hay que cogerse el manual de Game Lock y aprender game Lock, que es decir, tampoco es muy complicado, EH, vale? En este caso, pues los mensajes que encuentro cambios en la adyacencia o s P F.
+
+1:54:49
+Yo se la envío a fobos y fobos ya se apañará, y fobos De hecho se apaña cuando le llega un mensaje de esto ya sabe lo que tiene que hacer, vale, entonces hay un hay un API en fobos que lo que hace es recoger este mensaje, analizarlo y procesarlo, y en función del tipo de mensaje que sea y el y el tipo de de Del contenido del mensaje, pues ya hace una cosa o hace otra, si es adyacencias SPF, pues mira, a ver si hay una.
+
+1:55:18
+Una fibra asociada a es es adyacencia y si hay una fibra pues directamente lo comunica, lo mete en una base de datos para sacar unas estadísticas. Si es un problema de boot time, pues lo mete en otra base de datos que es la que después tenemos sacar. La si es un alarm up down pues hace muchas más cosas, porque ahí sí que puede ir a ver qué servicios están afectados. ¿Hay una cola de alarmas por servicios, hace un montón de cosas con eso vale?
+
+1:55:48
+¿Eh, vale, eso se hace en en alertas, en dashboard tenemos unos sencillitos, pues problemas de ventiladores y todo al final lo quitamos, EH? Porque la mayoría de las alarmas que nos entraban eran de ventiladores y nadie le hacía ni **** caso. Al principio sí que te vienes, es que directamente las borro, EH, las.
+
+1:56:15
+Si tenéis a las estadísticas los streams, es que aquí directamente las borro. Entonces es posible que aquí ni me aparezcan los streams directamente. ¿A ver fan error fan error? Mira, Ah, pues han bajado. Es que ya no hace tanto calor.
+
+1:56:47
+Sí, sí, es que cuando hay calor, hace calor estaban estaban entrando alrededor de 40 50000 alarmas de ventilador, mira 52000 dicenme que el ventilador está bien 52019 que hay un una alarma de ventilador 52000 dicenme que hay un problema con el ventilador, o sea que empezabas a sumar y decías pero es que se me están entrando medio y viendo alarmas diarias solamente con los ***** ventiladores.
+
+1:57:14
+Era una pasada. Entonces lo borré directamente porque empezamos a abrir incidencias. Nos dijeron que dónde íbamos con tantas incidencias. ¿Pues mira, sabes lo que te digo a tomar por culo? Lo borro y ya está. Hola Love, Mac Flat Down Link.
+
+1:57:47
+¿Era fan, okey, hardware, ves? O sea, es que siempre estaba aquí. ¿Bueno, esa es menos menos las alarmas de ventilador, todas las demás las las borro y eso se hace aquí en system Group, en pipelines borra solo borra solo las de ventilador, no? Sí, sí, las borro, borro no, pero las era, pero aquí no era.
+
+1:58:18
+¿Es que se lo hizo en su día y ya no me acuerdo dónde era a la vez todo lo que hay aquí en gamelow lo has hecho todo tú configurarlo? Sí, sí, bueno, De hecho lo instalé, yo lo configuré, yo instalé el elasticsearch, todos los sistemas los he instalado yo.
+
+1:58:42
+Pero bueno, esto es un Open Source que quiero decir que tampoco es que sea tan complicado. ¿Y esto en principio imagino que digital value tampoco tendrá ningún problema en mantener todo esto, EH? Porque son a ver, son paquetes, incluso hay yo. A mí no me gusta instalar dockers, pero me gusta más instalar el sistema completo. ¿Lo es más fácil? A ver, no miento, es.
+
+1:59:11
+A la hora de parametrizar tus necesidades es mucho más sencillo. ¿Si instalas un docker, te viene todo muy cuadriculado, sabes? Tienes el disco duro que toca, el no sé qué, la funciones que tocan, el tamaño de cosas que entonces es más complicado. Luego tocar, sobre todo si son particiones, etcétera. Y o o espacios en disco o número, no sé.
+
+1:59:35
+Lo que te diría yo, el my SQL por ejemplo, tiene parametrizado. Puedes parametrizar el el máximo número de peticiones por segundo que que vas a atender cosas así que si te lo vienen docker muchas veces te vienen limitado, o sea, no sé por qué lo hacen y si lo haces tú y te lo parametrizas tú y te lo configuras tú de de inicio a fin, pues para mí es más sencillo. Dejármelo como quiero es más complicado porque tienes que tocar más cosas y tienes que tú instalarte las cosas a mano.
+
+2:00:03
+Pero al final te lo dejas como quieras y esto igual Eh, esto al final el gradelock lo instalamos, metimos el espacio de disco que en principio creímos conveniente, lo que pasa que luego nos hemos quedado muy cortos, pero claro, al principio lo utilizábamos para cuatro cosas, claro, esto es como todo, o sea gradelock, al principio lo utilizábamos para cuatro chorradas, Eh, no, de verdad lo estábamos para para para analizar flujos de datos y tal.
+
+2:00:31
+Y de repente dijimos sí, porque no lo utilizamos para también para los logs de los equipos y empezamos a meterle caña y vimos que funcionaba de **** madre y ahora mismo todos los equipos. De hecho en las auditorías tenemos puesto que todos los equipos tienen que tener este log sí o sí, o sea, entonces las configuraciones base, todo ya está apuntando aquí a este servidor, es que es lo que te estaba comentando, o sea te están entrando 16.
+
+2:01:01
+A las armas por segundo de ventilador. ¿Bueno, en fin, esto se borra ahí directamente, es lo que hay, vale? Nada, ya te digo, el sistema es bastante sencillito, se configura la entrada, las inputs, se configura, las lo sé, esto ya te viene pero configurado.
+
+2:01:24
+La los strings por defecto ya tienes 1. Yo definía algunos strings en realidad, después me di cuenta que no no hacía falta tanto. Muchos de estos strings se podrían incluso hasta borrar porque no se utilizan porque hay alguno de netflow, por ejemplo, esto es al principio lo utilizamos para esto para netflow, o sea en tú los Router Cisco puedes decirle pues el análisis de los flujos de datos me los envías a este que es servidor y se los cuando intentamos analizar un tramo pues le metemos aquí y luego lo analizamos desde aquí.
+
+2:01:54
+Ya podría tener alguna vez más. Lo hemos necesitado y tal, pero normalmente lo tenemos siempre parado. Esto la YYY. Al final lo que hacemos es analizar, o sea los logs normales de los equipos lo almacenamos. Tenemos el tema de alertas para enviar información a fobos, de cosas que vamos detectando que nos interesa y ya está. No hay que configurar mucho más.
+
+2:02:22
+Porque no tenemos ninguna salida. Es que además esto tú lo puedes reconfigurar para que se lo envíe a otro sistema. No, no lo utilizamos. Esto no podría mandarse a netcool, por ejemplo, pero yo le puedo enviar el log a Netcool y que sea netcool el que no, el que lo analice. ¿Si si se lo hago por aquí, Eh? Vale, si el netcool lo que esperas otra cosa.
+
+2:02:49
+Entonces hay que hacer un evento y a través de ahí, mediante algún tipo de scripting, enviarle la información que necesita netcool en el formato netcool. ¿Eso se puede hacer, vale? De hecho, en alertas creo que incluso puedes enviar mensajes en MP. ¿No lo he probado nunca, EH? Porque tú en la definición en la event definition.
+
+2:03:19
+Por ejemplo, lo de las las adyacencias. ¿Sí, a ver no, perdón, notificaciones aquí en notificaciones voy a pasar que está de prueba tu email notification mira HTTP lo puedes hacer a través de APIS, entonces a través de APIS tú puedes definir el mensaje que envías con las variables que envías, sabes?
+
+2:03:48
+Y entonces tú puedes enviarle directamente a un sistema a a través de APP que tenga APIS. Tú lo puedes enviar. La las notificaciones de los eventos no lo he probado, o sea, habría que probarlo, habría que mirarlo. ¿Y cómo funciona? Yo ya te digo Grey lock, estoy súper contento porque funciona redondo, o sea.
+
+2:04:14
+Bueno, lo dejamos, lo dejamos caer, funciona de **** madre, está este, habría que actualizarlo. Lo que pasa es que tiene un problema este Grey lock para actualizarlo a la versión 33. Ahora estamos en la la dos, algo hay que cambiar, el de las tiksearch, el de las Tipssetch ha pasado a ser de pago, vale, y entonces ahora hay una herramienta que es open search, que es un elasticsearch.
+
+2:04:44
+Gratuito y entonces Grey Locke tiene funciona sobre opensearch. Pero claro, hay que hacer una instalación bastante complicada porque este está funcionando. Sobre las TIC search habría que meter open search para meter open search tienes que actualizar el sistema operativo. Un lío. Entonces lo que yo haría yo, pero eso ya lo decidiréis vosotros, porque yo ya no estaré.
+
+2:05:11
+Ya te digo yo que este el año que viene no se ha actualizado ni de coña, es meter una máquina nueva con bastante disco duro para poder almacenar así aumentar un poco los plazos por lo menos guardar dos meses de Logs, instalarle el Grey lock versión nueva con el con el opensearch versión nueva y luego simplemente configurar las cuatro las cuatro alertas que tienes que no tiene más.
+
+2:05:37
+Esto es lo importante y saber cómo están configuradas estas alertas y configuradas las alertas en el nuevo Gradeload y ya está, no tiene más, sabes YY ya está. Entonces dejarlo así, dejarlo configurado y que funcione. Yo lo que yo haría, ya te digo, eso ya lo decidiréis vosotros y para vosotros yo creo yo. Lo mantendría. ¿Es una muy buena herramienta, EH?
+
+2:06:10
+Egglog es una herramienta cojonuda. Vale, pues casi lo dejamos aquí, ya no, porque yo también me estuve quedando ya tiempo de tanto hablar. ¿Pues sí, hombre, puedes beber agua, EH? Si quieres no te preocupes, no, no, ya, pero me estaba dando cuenta, ahora digo, me estoy quedando sin voz, vale, nos queda alguna cosilla que podemos mirar el jueves, el viernes, perdón, el lunes.
+
+2:06:36
+Del tema de integraciones con otros sistemas. Esto hay que mirarlo con detalle. El tema del radios, que esto es muy importante porque fobos y mi es simplemente actuamos a través de un intermediador. Hay algunas tareas que no podemos hacer directamente desde fobos a la A la A la totalidad de equipos del IMI vale, con lo cual hay un intermediador.
+
+2:07:01
+Que tiene unos scripts un poco raros, especiales, pero bueno, que es son los mismos, los mismos scripts que están funcionando aquí solo que nos hemos trasplantado a este servidor y el que y la base de de datos que utiliza es esta base de datos. Quiero decir, este equipo tiene conectividad hacia los dos lados. ¿Entonces en vez de preguntar Fobos, pues pregunta el fobosimi qué es esta máquina? Tiene unos scripts que son los que están interrogando a la red y la respuesta se la envía a esta base de datos y ya está.
+
+2:07:29
+Porque todos los datos del Fobus SIM están metidos en Fobos, Eh, lo que son datos en condes, lo mismo aquí, lo que pasa que se te hay un NAT a través de un cortafuegos. Entonces fobos pregunta los routers de dentro de condes, todos los datos y para actualizarse y todo el rollo. Bueno, y después lintia va a su **** bola lintia y Enel sí, en él también, aquí no, pero eso no está en él, pero en él también tiene un fobos.
+
+2:07:59
+Y limpia teamente tiene un fobo si tiene un graphana sí son más sencillos, la no tienen servicio, no tienen soporte, no tienen. Solamente es la parte de inventario de equipos y la parte de de estadísticas de tráfico ya está. No tienen más, muy bien.
+
+2:08:26
+Interesante, vale, vale, pues no queda nada estupendo. Ya ahora te enviaré el pie si este cuando cuando puedas y o elegimos aquí y continuamos el lunes perfecto. Muy bien, pues muchísimas gracias que tengas buen fin de semana. Víctor, igualmente hasta luego.
