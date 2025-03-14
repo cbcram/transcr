@@ -1,0 +1,745 @@
+[Traspaso Fobos]-20231020_120955-Grabación de la reunión
+
+0:03
+¿Vale, ya está, vale? Pues para ya terminar nos quedaba ver el tema de los de los C N 3 B y c n 3 P, que son las conexiones de entre routers. Vale, entonces las C n 3 P van a ser siempre conexiones punto a punto entre 2 equipos.
+
+0:33
+Y esto va asociado normalmente a una conexión de nivel 3, es decir, un router para comunicarse con otro router a nivel 3. Normalmente utilizan protocolos o s, P, F o protocolos ISIS vale utiliza utiliza una conexión de tipo de tipo broadcast en.
+
+0:58
+Perdón de tipo sí de tipo broadcast de una de 1 I p a otra IP. Vale, si vemos el el equipo este la configuración de este puerto luego que tiene una dirección IP que es 1252, que esto es una barra 30 que solamente tiene dos direcciones IPS, por eso distinguimos cuando es 1 I p de de punto a punto o es 1 I p de broadcast de cuando es 1 I p de.
+
+1:25
+Que va a tener más de más de 2 I p S en este caso es una barra 30 tiene solamente dos IPSY, solamente sirve para comunicar a nivel IP de un router con otro este router a través de esta conexión cuando sincronizamos red actualizar todos vale va a comprobar en las conexiones o s p F o i s i S cuando BB cinda de esos s P F o b B sinda de SISIS.
+
+1:52
+Va a comprobar que está de alta esa conexión C n 3 P porque luego nos va a hacer falta para muchas cosas. Entre ellas, pues por ejemplo el tema de transporte multicast o el tema de x CONNECT vale. Entonces cuando encuentra a través las vecindades o s P, F, V S I S vale, lo que comprueba es que tengo este c n 3 P creado.
+
+2:18
+Vale, por narices tengo que tenerlo, ya te digo porque es la forma de estructurar luego el transporte de multicast o el transporte de de nivel 3 de túneles también vale, entonces esto se hace de manera automática. Entonces cuando entra en un equipo se sincroniza. Ve que tiene una adyacencia de nivel 3 con otro equipo que es entre estos dos equipos hay una ciencia de nivel 3 y mira a ver si hay generado 1 C, n 3 P.
+
+2:46
+Vale, en este caso el que estamos viendo es el C n 3 P el 005 vale que va de jals a no sé qué es SPRTRD, pero bueno, lo miramos Sant Pere Ribestradia, sí, ese mismo he acertado, he acertado. Pues bueno, tiene que haber entre estos dos una adyacencia a nivel 3.
+
+3:09
+¿Vale, entonces bueno, vamos a vamos a hacerlo ahora, al revés, vamos a entrar aquí y vemos que tiene que estar la misma dyacencia no, no construye dos, Eh? Construye solamente, claro, entonces sincronizar con red es tiene que haber una adyacencia a nivel 3 con pujads, con el con el 920 que debe estar aquí abajo. En este caso solamente tiene una adyacencia vale como.
+
+3:38
+Con el tar 920 pug y esta este de aquí que es el C n 3 P que estábamos viendo si no encontrara el C n 3 P va a intentar construirlo. Eso te iba a decir que los los genera automáticamente en caso de que no tal. ¿Sí, aquí hay un problema y es el problema de cuando se recauchutan direcciones IPS, tú imagínate que ahora quitan este equipo, lo quitan y ponen otro 920 vale?
+
+4:07
+Que se llama de distinta manera y que tiene otro Direccionamiento I p o ponen 150040, ahora que vamos a montar los 540, vale, le ponen la misma dirección IP, en el otro extremo vale una que tenía 920, se la pasan, hay veces que no, que no es capaz de reconstruirlo esta C n 3 P se queda cojo, vale, y no es capaz de reconstruirlo. ¿Entonces lo que hay que hacer es si este equipo se quita, vale?
+
+4:36
+Lo que habría que hacer es venir aquí servicio, buscar servicio, como podemos buscar los servicios que tienen. Tengo un carácter al final muy bien. ¿Vale entonces los C n 3 P que afectan a este equipo? Si este equipo se quita se deberían borrar para que se regeneren automáticamente otra vez, claro.
+
+5:06
+Vale y está, ese es el problema que tenemos muchas veces cuando visualizamos un servicio multicas por ejemplo, que se queda en ramas cortadas. Vale, el problema es este, que esto no se ha hecho y no se han regenerado bien los los C n 3 P. Bueno, yo cuando puedo entro y lo miro pero y voy mirando y voy borrando, pero tampoco en la vida, pero tampoco me da para más. ¿Si tú no haces esto no lo hace nadie, no?
+
+5:34
+¿No, a ver, yo si veo que hay alguno me dicen, mira, es que esto se ha cortado C n 3 P vale, entonces yo por ejemplo este desde el día 14 no se ha visto, vale, qué hacemos, lo borro o no lo borro? Pues debería borrarse. No lo voy a borrar ahora porque no estoy seguro eh, pero este equipo a lo mejor es que ya 1 de estos equipos se ha desmontado.
+
+6:04
+Revisar a ver, rastrear es fácil. Le damos a rastrear y me va a dar un error porque no está conectado. ¿Vale? Si intentamos sincronizarlo automático seguramente va a decir que que no.
+
+6:34
+O sí, a lo mejor me da por otra alternativa. Vale, no he intentado sincronizar y no sincronizo. Y esto es porque es posible que 1 de los dos se haya quitado. Vale, ni siquiera tiene la BDY, ya está, ya lo han quitado, pues este cavi pues habría que venir de aquí y borrarlo.
+
+7:11
+A ver si borramos 1 que existe. Tampoco pasaría nada porque se regeneraría, le daría otro código y ya está. No hay más problema. Claro, esto también es otra cosa que lanzáis una vez a la semana y no, no, no, esto cada 3 días, cada 3 días no vale y por lo que sea ese equipo alguien entra y toca algo a los 15 minutos.
+
+7:37
+¿Entonces, si tú vienes antes de borrar un equipo, antes de cambiar algo, borras las radioacencias, llevas al equipo y lo cambias automáticamente a los 15 minutos se dará de alta el sol explicado? Sí, sí, porque como tiene programado el que cuando tú modificas un equipo automáticamente a los 15 minutos se va a hacer la copia. O sea, va a comprobarlo y lo va a sincronizar, pues.
+
+8:05
+¿Claro, al resincronizarlo otra vez, pues lo redescubre otra vez las adyacencias, si lo has lo has dado de alta y ya está las que tengan en su momento, evidentemente bueno, es lo que hay, esto habría que hacerlo, es que esos 7606, por ejemplo, sé que los están, se están cambiando, se están quitando estos equipos, entonces pues nada se quitan las los C n 3 P ya está, hay muchos por quitar, Eh? Eso ya te lo digo ya.
+
+8:36
+Y bueno, habría que mira si hay todos los 7606 desde el día 23 del 10, por ejemplo. En este caso no, esto es que el el día 23 del 10 intentó sincronizarlo y no pudo ya, pero no sabes desde cuándo. ¿No ves a saber desde cuándo se perdió? No, no. O sea, entonces bueno, pues habría que ir limpiando.
+
+9:08
+¿Sobre todo cuando hay un error de de eso, que que que vimos el otro día, que la rama que se quedan cortadas y que no las dibuja bien, pues hay que mirar a ver el interfaz correspondiente a ese a ese equipo venir aquí, cuál es el que está mal? Limpiarlo y dejar que se genere. O entras en el equipo, le DAS sincronización todos y te lo vuelve a generar. ¿En ese momento yo puedo forzarlo, Eh? Si yo por ejemplo.
+
+9:32
+Yo vengo de este equipo, el más 920 era 32, no sé 1 cualquiera, me da igual Eh, este equipo de aquí y yo le doy datos, sincronizar con red, actualizar todos, vale, con esto ya estoy sincronizando los los C n 3 P también se lo puedo hacer bajo demanda, no hace falta que me Espere una semana YY puedo ver aquí bajo el resultado, vale, puedo ver el resultado de aquí abajo.
+
+10:04
+Lo mismo que esto de aquí, pues de vez en cuando alguien bueno también se puede porque vimos del cuando se queda de color diferente es porque la descripción no coincide, pues pues de vez en cuando también hay que decirle aquí pues cuál es la que vale al final optaremos por que lo haga automático ya está la que cuenta es la que hay en el router Punto Pelota si no está reservado.
+
+10:29
+¿Si está ocupado la que cuenta la del router YYY lo que haré es machacarlo ya está, vale, vale, vale, nos hemos quedado en los c n 3 P dudas con respecto al c n 3? ¿Bueno, a ver, se puede rastrear en este caso está correcto, no? Sí, esto estaba bien, lo va a rastrear. Se puede mirar la continuidad IP.
+
+10:56
+También como tenemos 2 I p s pues funciona perfectamente. Podemos cambiar el el número de de de Pins que hacemos. Perdón, repetir Pink, el tamaño, el bit vale. Entonces esto podemos comprobar que efectivamente está funcionando bien o no está funcionando bien y en todo caso que esté descuajaringado por lo que sea.
+
+11:20
+¿A ver los C n 3 p a veces son largos, Eh? ¿No quiere decir que sean punto a punto, aquí solamente tengamos un soporte, puede haber c n 3 p s que son que tengan varios soportes porque la sobre todo esto ocurre mucho en rescat verdad? Vamos a buscar un equipo de rescate, rescate, buscamos un equipo de rescate, si no le digo equipos no me lo voy a buscar, evidentemente vale.
+
+11:50
+Hay un 3000 de rescate, esto por ejemplo, vale, este es c n 3 P vale, Mira Este, vaya hombre, este es corto, qué justo es que los 3000 de rescate suelen tener algunos porque tienen c n 3 P si no tiene IPS, si tiene IPS va a través de la V a vale.
+
+12:23
+A ver o ahí está, a ver si no encuentro ninguno. ¿Ahora vamos a probar esto de aquí este no? Bueno.
+
+12:58
+¿Esto me pasa como siempre, por improvisar me sale todo al revés, qué vas a hacer? Suele pasar ahora. Vale, vale, este c n 3 P va a través de una V Land vale y va desde una desde 1 b d I en los 920 no existen las V Land se llaman BDI Bueno, pues desde va de 1 b d I hasta una V Land.
+
+13:28
+¿Y va a través de un transporte nivel dos vale? Y la conectividad del punto a punto la vamos a ver cómo dato a sincronizar auto a ver entramos a este sincronizar con red. Solamente vamos a ver la conexión.
+
+13:57
+Punto a punto de un extremo al otro, vale, pero lo que vemos es cuando se rastrea automáticamente. Solamente vemos al vecino en el otro extremo, que es el rocacor barrascal dos. Una pregunta aquí después del código del C n e 3 P.
+
+14:23
+Que en en otros casos anteriores se había siempre en 1, en este que hay un 6 sí es porque tiene 6 saltos, cuenta los saltos que hay por aquí, creo recordar era distinto, los otros era 1. Sí, cuenta los los saltos que hay, bueno es, es, comprueba, es es un es un chivato que tengo yo ahí, vale, es un no, no es algo que el vea, sino que es un chivato que yo a veces me pongo por ahí cosas.
+
+14:50
+Civatos para cuando estoy haciendo el software o cuando lo estoy utilizando, darme cuenta de efectivamente si lo está haciendo bien o no. Muchas veces hay cosas por ahí, te acuerdas muchas veces también las rayitas que aparecen por aquí también te pregunté por ahí sí, pues esas rayitas es para ver si está haciendo algo, porque como si no está en las rayitas, cuando tú le vas a rastrear hay veces que se quedaba tostado. Vale, entonces si no le pones las rayitas que te las vaya dibujando.
+
+15:19
+¿En este caso las dibujas? ¿Sí, vale las rayitas, ves lo que está haciendo es cada vez que ves una horizontal, EH? Salta un equipo nuevo cada vez que ves una vertical son los puertos que está analizando de ese de ese equipo. ¿Entonces yo sé que está haciendo cosas, no se ha, no se ha quedado tostado y cuando ya para es que se ha parado, pues es a ver, eso es parecido, no? Yo a veces cuando hago un software que.
+
+15:42
+¿Que está haciendo? ¿Pues el el pues me pongo chivatos por ahí para ver que efectivamente lo está haciendo bien o lo está haciendo mal y a veces se me se me olvida quitarlos, EH? Esto está hecho de adrede, lo dejé adrede, el otro a lo mejor lo tendría que haber quitado, pero bueno, está ahí, pues bueno, incluso le podemos hacer de aquí también la continua IP como tenemos las IPS, pues le puedo hacer directamente un ping desde un extremo hasta el otro, tengo unas 172, vale, pues pues 100 pins, vale, hazme un 100 pins.
+
+16:12
+¿Ya me ha hecho hacer pings, ya está, vale? Esto seguramente va a seguir apareciendo en muchos sitios. Hay creo recordar que había que arreglarlo. Me parece no, que era el tema de poder ver la gráfica de Engrafana de Del del interfaz. ¿No tiene datos aquí, vale?
+
+16:41
+Datos equipo de 9000. Vale, es que no está apuntando al a la gráfica que toca, es que esto lo hemos cambiado. Esto tendré que cambiarlo también que podemos ver si entramos en grafana, miramos este este este puerto desde aquí pues se podía ver el tráfico que tenemos en en en este C n 3 P lo mismo que si es fuera un servicio de operadores, pues igual mirando la gráfica de 1 de los saltos podemos ver el la.
+
+17:11
+¿La gráfica de esa interfaz, en este caso como son interfaces de red, pues pueden llevar más cosas aparte de esto, EH? Es decir, no solamente llevarán estas este servicio cuando 1 de los dos extremos ahí sí que sí que se puede ver. Entonces si vas a grafana, miras este equipo, vas a ir desde aquí a ver, aquí aparecía grafana.
+
+17:39
+Herramientas la fana, que esto luego lo veremos. ¿Aquí irá una, lo veremos, Eh? Pero bueno, os lo enseño ahora, equipos, datos, equipos, nuevo modelo que es este de aquí cambiamos porque cambiamos modelo de interrogación sobre el equipo.
+
+18:04
+¿Vale, los 3000 nos están viendo quién le interrogaba a los equipos, fobos o no? ¿Grafana? Sí, sí, hay una máquina que se llama Grafana, por eso está aquí, que es la datos, equipos, es que es le está sacando lo que no toca, es datos, equipos, nuevo modelo.
+
+18:27
+Es que ayer no me acuerdo con quién hablaba y estábamos comentándole y me decía no, que es fobos el que se lo manda a la infografana le digo que no le digo y decía que no, que es grafana el que lo hace. ¿El que interroga es grafana, vale? Sí, normalmente a ver el que ahora ahora te lo cuento, el que hace que que a lo mejor es un spoiler de que pues ya lo veremos cuando lleguemos a grafana, pero no a ver lo que son lo que son las estadísticas de tráfico, las estadísticas de latencia.
+
+18:57
+¿Las estadísticas qué más de errores? Eso lo hace. Grafana es una máquina, es la 10:01 H 109 58 y esa máquina es la que están interrogando a todos los equipos para hacer las estadísticas de tráfico. Vale, no quería este, quería el otro. A ver el 920 este de aquí.
+
+19:27
+Y el BDI era el BDI es el 3128. ¿Tengo que arreglarlo, Eh? Los vale. Y el BDI 3128. La verdad que poquito tráfico tiene el BDI 31 es 28, sí.
+
+19:59
+¿28? Sí, tengo muy poquito tráfico nada. Y si no, pues saco el giga cero que está ahora aquí. Si saco el giga cero entero. O puedo sacar también el del 30 y 98 que estará aquí bajo. Ay, aquí vale.
+
+20:25
+Muy poquito que el tráfico vale, esto es el esto es el interfaz giga cero que esto es el tráfico que tiene tiene 1,5 megas de RXY dos megas de TX tiene muy poquito tráfico un giga poquito muy poquito y encima pues la vuela. En esta estoy viendo que hay nada, esto será más o menos el mantenimiento de protocolos e p F o sea lo mismo a ver aquí es que este tráfico va. Ten en cuenta que el rescate tiene siempre dos caminos.
+
+20:53
+Entonces, es posible que esté utilizado por el otro, o sea, que tampoco hay que darle muchas vueltas. Tiene tiene siempre dos caminos, pues a lo mejor está por otro camino. Bueno, esto es un poco de spoiler de los próximos días que veremos graphana estamos con los C N 3 b los c N 3 B vale sobre todo importante. La forma de distinguirla es que la máscara es una barra 30, vale.
+
+21:22
+Es 1225525555252, esto es una máscara barra 30, si es esta máscara es un punto a punto, entonces genera 1 c n 3 P automático si es la máscara más pequeña, es decir, tenemos más más número de IPS, por ejemplo una barra 27 porque teníamos hasta 128 no 32 direcciones IPS dentro de esa máscara.
+
+21:51
+Eso ya no es 1 C n 3 P es 1 c N 3 B y no se generan automáticamente porque a ver, tiene sentido en algunas cosas, pero no tiene mucho sentido tenerlos documentados. ¿Todo porque y ahora os explico lo que es 1 C n 3 B si buscas C N 3 B vale que son broadcast, que son broadcast? Sí.
+
+22:21
+Vale, espera aquí las que he la esquizar auto parece que une los puntos no directamente esta vale vamos a ver 1 C n 3 B es que esto no sé cómo está porque se utiliza muy poco. Lo empecé a hacer pruebas con él con los C N 3 B, pero p N 3 B.
+
+22:49
+¿Va al 2811 años, no está, no está los C N 3 B y cuando has filtrado por los c N 3 B que te salían todos coger alguno que sí que esté sincronizado? Pues ahora lo vemos a ver c n 3 P sí, ese estaba sincronizado, pero da un error.
+
+23:19
+¿Y si no hacemos 1, Eh? Sí, es muy fácil, sí, sí, es, es, se se rastrean solos, también es capaz de rastrearlos. No sé qué me paso ahí con fobos, tío, que va bastante lento. Un sincronizador automático no se sincroniza automáticamente. ¿Ya lo he dicho, verdad, este no es, es ves? Este no está.
+
+23:47
+Es que mira, este es del 21, no, no del del 21. Claro, es que esto se empezó a empecé a rastrearlos y tal, pero al final lo dejé estar porque no tenía mucho sentido. ¿Entonces a ver si encuentro alguno que esté rastreado, pero bueno, si no construyo 1, que es muy fácil y sí se ve fácilmente, vale? El objetivo de esto es que nosotros para la gestión, por ejemplo, de vamos a ir a utiel.
+
+24:18
+Que ahí tengo. Creo que tengo alguno. Para la gestión de de un centro utilizamos de una dirección IP, que es la que va a ser de Gateway para, por ejemplo, supervisar muchos, muchos equipos de dentro de ese centro. Vale, vale, por ejemplo, esta es la esta de aquí, conexión o gestión utiel gestión utiel.
+
+24:46
+Si yo sigo la V lan dos, lo que vería un poco es por dónde está circulando esta V lan y todos los cacharritos que tengo conectados aquí. Pero yo si necesito ver esto más a nivel de IP, vale, yo lo que puedo hacer es decirle, vale, pues voy a construir 1 C n 3 P.
+
+25:18
+Entonces esto no lo diría. Esto es un nivel dos puro y duro. Vale, entonces yo sé que todos estos puertos que tengo conectados cosas y entonces lo que puedo hacer es esto, servicios.
+
+25:45
+Pues generar alta Servicio 1 C n 3 B por aquí perdón, sí, **** c n 3 b aquí está me da un número, es transporte n 3.
+
+26:14
+Vale, entonces voy a empezar en el bar 2811. ¿Uti V eran era la dos, verdad? Vale, entonces voy a empezar aquí y entonces me va a construir ahora toda la estructura de todos los equipos que utilizan este Gateway.
+
+26:50
+Me explico ahora, ahora lo vemos, a ver si si soy capaz de explicarme hay dentro de de utiel hay muchos equipos que se están gestionando a través de este Gateway. Vale de la 10:05 H 21 129, entonces la manera con 1 c n 3 B lo que puedo hacer es documentar eso, es decir, todos los equipos que se están gestionando a través de esta Gateway son estos.
+
+27:22
+¿Vale, entonces tengo por ejemplo el MOX 1, el TXRG, el Albalá, el vale, lo ves? Pues todos estos equipos lo que hacen es supervisarse a través de este Gateway que me da este IPY aquí se me que me darían documentados.
+
+27:46
+Todos los puertos por los que yo estoy supervisando equipos a través de esto a ver en documentarlo. Esto tiene mucho sentido, no lo sé. En principio sí que lo entendimos que era interesante. Lo que pasa es que ya luego como sacamos la opción de rastrear la las V lands directamente.
+
+28:16
+Entonces era se, pues se hace más online y ya está. Quiero decir, entras en la, entras en en la en el equipo y dices rastreame la wlan dos y entonces te iba a decir lo mismo. Cuando hemos rastreado me he dicho exactamente lo mismo y en tiempo real. ¿Lo único que aquí como tengo la descripción en el puerto tengo la descripción de lo que hay conectado, vale?
+
+28:46
+Entonces me puede, me indica lo que es. ¿A ver, esto es esta, vale? Entonces yo puedo ver aquí todo lo que estoy gestionando a través de esta dirección de a través de Lovel and dos, que es la que tenemos aquí YY que utiliza este Gateway. Entonces todas las IPS que tengo aquí.
+
+29:15
+Tienen que ser de este rango, evidentemente porque no tendría ningún sentido, pues no nos funcionaría. Una de las cosas que también es muy parecido a esto es cuando es las multi card de nivel dos. Las de multi Card de nivel dos funcionan igual. Yo tengo 1 I p de de Gateway que me hace el digamos que va a ser el primer salto para todos los equipos.
+
+29:44
+Que sean coders o de decos que tengan 1 I p de producción tendrían esa misma IP, vale, y nos mostraría el camino por donde va pasando esa multicast y todo el rollo. El problema de las multicast es el de las Uber and 1 por ejemplo, o las multicast de nivel dos. Hay veces que pasan por equipos y los equipos no se enteran y los 920 tienen bastante costumbre hacer eso.
+
+30:13
+Sí, cuando llegan por BDIY salen por x CONNECT. El equipo no se entera de lo que os está pasando por ahí, porque lo está haciendo un pasabola, o sea, todo lo que me entra por aquí lo envío para allá ya está y no, no mira lo que hay dentro de ese paquete, no es como los routers, que el router sí que sabe qué tipo tiene su protocolo, tiene el Protocolo PIN, que es el que está recibiendo los paquetes, mira a ver lo que hay dentro, mira a ver por dónde lo tiene que enviar, lo está analizando el paquete.
+
+30:38
+Incluso a los 3400, no los pues a veces también hacen algo parecido porque utilizan el Protocolo de GMPY. Entonces a ver, puedes más o menos, no sabes si es de entrada o de salida, pero por lo menos sabes que ese puerto tiene tráfico multicast. En los 920 no hay manera. Tráfico multicast de nivel dos no funciona bien, o sea, no, no te da la indicación adecuada.
+
+31:09
+¿Entonces, al final, qué es lo que ocurre? Pues que los equipos no se pueden gestionar, o sea, cuando lo rastreamos no somos capaces de de ver la multicastación de evaluación de BN. Entonces rastrear una multicast de nivel dos, pues a veces no tiene mucho sentido. Precisamente por eso, porque es posible que te engañen, porque a lo mejor llega 190020. Tú no eres capaz de dibujar hacia dónde va y sin embargo, sí que está fluyendo el tráfico.
+
+31:38
+A veces hemos intentado hacer algunas cosas como decir, Bueno, pues haz también un pasabolas. Si llegas a 1 b d I en 190020 asume que por ahí va el tráfico en multicast a ver a dónde llegas, pero claro, también te estamos engañando al final, porque si yo asumo que está pasando el tráfico en multiclast y no está pasando, pues tenemos un problema que te estoy engañando. Y sí, y puede también inducir a confusiones. Entonces es el tema del multicast de nivel dos. Es delicado.
+
+32:08
+¿A ver si ahora con un poco de suerte, con los 540 que vamos a instalar, que empezamos ya la semana que viene, que todavía ni siquiera lo hemos analizado, EH? ¿Pero es es un en final es 1, 1 x? R lo que habrá que mirar es a ver cómo trata la música. Está en nivel dos, a ver si mejora un poco respecto a 920 YY nos da más información.
+
+32:32
+¿Si fuera así, y como muchos equipos, muchos 920, sobre todo los que están en la red Frank, se van a sustituir por 540, pues a lo mejor nos podríamos plantear, pues eso, hacer esto, pero para transporte múltiples de nivel dos, en este caso por temas de gestión solamente gestionar equipos tiene sentido? Pues no lo sé. En principio sí que lo llegamos a pensar en hacerlo.
+
+33:03
+También por una razón, porque ahora, por ejemplo, vamos a hacer una cosa, vamos a hacer el el C n 3 P de este de aquí del fast 3 Vale, ahora es 1 c n 3 p nuevo y verás lo que ocurre. Servicios, perdón, alta Servicio C n 3 P.
+
+33:32
+N 3 p tipo transporte. N 3 vale, tengo la recogida en el Val 2811 y en la overland 3, vale, y aquí voy a coger interfaz este de aquí el de Chelva.
+
+34:04
+¿Datos por qué no me deja sincronizarlo? Ah, porque pues es 1 C n 3 P leches es 1 c N 3 B vale, qué torpe ahí. Servicios pues con servicio te lo cargo, vale, no se queda ahí.
+
+34:44
+Servicio es buscar servicio, ver altas 1 C, n 3 B y por transporte en 3 enviamos siguiente salto el 28 seguros en 3 enviamos y pongo ahora esto aquí.
+
+35:14
+Ahora sí, esto es una extensión de lan. ¿Qué es una extensión de lan? ¿Pues para nosotros una extensión de lan es cuando desde un centro que tiene router supervisamos equipos que están en otro centro vale por qué? Pues porque en otro centro no tenemos router.
+
+35:42
+Entonces tenemos que definir el Gateway, lo tenemos que definir en el router de Utiel. En este caso claro vale tenemos definido el Router para que me lo guarde. Esto está mareando el tenemos definido el Gateway en el Router Utiel en el 2811 y enviamos la V Land 3 hasta Chelva.
+
+36:09
+Y en selva gestionamos los equipos que tengamos que gestionar de selva. Vale, entonces en selva pues tendemos a través del Overland 3, pues tenemos un transmisor, un rectificador 1 m t R el otro MTRY una remota. Vale, esto es una excepción de dan de libro. ¿Por qué?
+
+36:37
+Aquí yo podría sacar la W Land 3 y gestionar un equipo Nutiel dentro de este rango. Si como podré hacerlo, lo podría hacer ahora no debo hacerlo porque entonces estaría mezclando subred, o sea, perdón, una misma subret la tendría en dos centros diferentes y a la hora de.
+
+37:02
+A la hora de automatizar la provisión de direccionamiento IP de gestión, el algoritmo se se llamaría la picha un lío, porque yo como tengo aquí equipos gestionados, un tiel nunca me daría equip IP de este rango para Cher. ¿Por qué? ¿Cuál es el criterio? El criterio es que una subred solamente gestiona equipos de un centro.
+
+37:30
+Esto no quiere decir que siempre sea así. Desgraciadamente hay equipos, o sea hay subredes que están gestionando equipos en dos centros diferentes y eso es porque se ha provisionado mal esas direcciones IPS en su día, pues alguien empezó a dar IPSY. Pues pues como me pasan por aquí pues la pongo y me quedo tan ancho y eso induce problemas, nos trae problemas.
+
+37:56
+Porque tenemos la misma I p o sea, perdón, el mismo rango con mismo rango de en dos centros diferentes. Y entonces bueno, es lo que hay, no se debería hacer. Desgraciadamente ocurre y siempre que es posible, o sea, siempre hay que hacerlo. Así que bueno, la copia que no me interesa para nada, vale, siempre hay que hacer.
+
+38:23
+Que solamente tengamos en un centro, que es el que hace de cabecera de Gateway. Solamente vamos a tener la IP del Gateway y el resto de IP en en el otro extremo. Si ahora necesitaremos otro centro o necesitaríamos supervisar aquí en utiel otro equipo, pues no. Utilizaríamos lawland 3, utilizaríamos la dos, que es la que gestiona equipos de utiel. Si nos quedamos en utiel sin direcciones IP.
+
+38:53
+Vale o en Chelva estoy supervisando ya 35 equipos y me he quedado sin direcciones. IP, no pasa nada, se define otro Gateway, se crea otra wubleland, en Navarra 27, se pasa por la wland 5 y esa wland 5. ¿Se llega hasta Cher y se empieza a utilizar en Cher otra subred? Para gestión no hay que no hay que mezclarlas.
+
+39:24
+Y digo, repito, ese es el criterio, pero no siempre vale esto. Luego, bueno, aquí tenemos toda la ruta completa de la gestión de check. Vale documentarlo. Bueno, a ver si yo me vengo aquí a utiel y le digo que me rastree la ovalan 3.
+
+39:50
+Me parece lo mismo en tiempo real. Si queremos llegar al al extremo de documentarlo todo lo que hay en la red, todo donde está conectado cada IP que tenemos utilizada y queremos tener una documentación completa. Sí, habría que hacerlo.
+
+40:24
+Pero esto aquí es sencillo, tú imagínate que que hagamos esto. Quieres ver una de Torrente, por ejemplo 1 I p de o sea una un rango de gestión de Torrente es aquí ya ha acabado, no, ahora sí, sí, ya he acabado, sí, claro, la diferencia de la otra manera, pues que te salen, pues pintados los las descripciones de cada puerto y sabes lo que hay más que claro, un poco más de información te da un poco más de información aquí. Bueno, esto es a nivel dos, esto es un.
+
+40:54
+¿Yo salgo del Gateway, perdón, esto como está en un overland pinta esto, esto tengo que mirar, a ver si lo Quito de aquí porque no me gusta, pero bueno, a través de aquí yo tengo unas adyacencias, entonces voy mirando souveland por dónde va pasando aquí es puro y duro, Eh? No tengo en cuenta nada de IP, no tengo en cuenta nada, voy mirando souveland por dónde va y hasta dónde llega y esto es lo que hay, esto hasta dónde llega, si yo lo tengo aquí.
+
+41:23
+¿Rastreado en este c n 3 B ves aquí se me queda ya escrito cuál es el C N 3 B que utilizo para esto? Si yo lo tengo así de esta manera y lo tengo documentado, pues no me tengo que esperar. Primero a rastrearlo lo podríamos hacer de manera automática cada x días y entonces esta documentación siempre estaría mantenida, bien mantenida en teoría.
+
+41:55
+Y tenemos todo perfectamente documentado. Ya te digo, tener toda esta documentación tan completa es necesario. No soy yo quien tenga que definirlo. O sea que, pero bueno, a lo mejor yo qué sé. En 1 C P D por ejemplo, en 1 c P D Sí que es alguien interesante hacerlo.
+
+42:21
+¿Con 1 C, P D Tú, tú tendrías aquí máquinas de que dan servicio de Internet? ¿Tendrías un Gateway que te está dando servicio de todas estas máquinas tendrías documentado qué máquinas van a través de ese Gateway? Podías ver el ancho de banda en grafana de este Gateway. ¿Cómo te está funcionando, que es decir, ya es una información? Pues pues para 1 c P D mucho más completa, más, mucho más útil.
+
+42:49
+Vale, porque además puedes saber si los si los interfaces los tienes saturados, no los tienes saturados. Podías llegar incluso a ver cada cada máquina tener su gráfica de Grafana para ver el consumo que tiene de datos esa máquina sobre el sobre el sobre ese Gateway. Bueno, ahí sería interesante. Ya te digo más que eso, no lo sé si va a tirar la pena para nosotros.
+
+43:20
+Bueno, ahí está. Si alguien quiere utilizarlo, vale, pues este es un objetivo. ¿Vaya de los c 3, los c N 3 B vale, y qué servicios? No lo sé, vimos los el de los a D Ms no sé si lo vimos.
+
+43:53
+¿Esto también creo que al principio o sea algo comenté no? Sí, sí me suena que cuando decimos un poco visión general me suena que algo sí que comentamos. Vale, había la opción a ver este de aquí.
+
+44:20
+Tenemos la opción de documentar tipos. Este tipo de cosas no que sería los los 9804 que tiene la salida de assi, que van en hacia un albalá vale entrada en el slot cuatro auxiliar y entrada en el en una reserva del slot cuatro. Este entra un mail.
+
+44:44
+1 en el auxiliar y otro en la reserva. No sé, Ah vale en el main a lo mejor está el la entrada de multicast. Bueno, sí, en ese otro que pone main no, sí, correcto, vale, aquí va el de transporte que va hasta aquí que tenía una este equipo tenía esta. Albalá tiene una IPA que está entrando en el Slot 7 gigabyte cero Net cero barra cero está saliendo en el Slot 7 cero en el cero en el ascii cero.
+
+45:14
+Que esto sea la IPA de esta el bala y de ahí va conectado con través de un cable así hasta el main de aquí. Y la salida de esto es la que tendríamos que conectar hacia un transmisor del slot cuatro y nos dibujaría también ya también el el transmisor. Creo que estaba dibujado el bala uti cero dos.
+
+45:45
+Servicios, buscar servicios o I a ver si entramos en utiel, si no me voy a aquí no lo voy a encontrar. ¿Vale? Si entro en utiel tengo un transmisor.
+
+46:20
+Ya no recuerdo cuál hice las pruebas, no sé que hice en algunas pruebas para que se pudiera ver no hagas nada aquí, este no este en la C cuatro aquí está.
+
+47:07
+¿El soporte las I cuatro opción prueba así esta de aquí que hemos visto, vale, es que no está aquí la entrega se hacía, vale que está, es que esto está mal, vale? Y la recoge el punto de recogida no se ve ahí tampoco. ¿Entonces se dice así? Sí, no, no, es que está.
+
+47:37
+¿A ver, la recogida es que aquí no hay recogida, o sea la recogida este es el el la la señora que me llega desde el fast de ferne cero barra 12, que es el que la multicast envía esto a ver, este es el servicio, EH? Entonces esta modificación es como está cambiando esto de aquí.
+
+48:04
+TXRGU, es que esto no es así ahora Alba la uti cero dos vale y aquí salto hasta el el oct 1 que está ahí, pero bueno, ahora luego lo miro a ver.
+
+49:00
+Ah, vale, ya sé por qué, ya sé por qué vale. ¿Desde aquí esto está bien, vale? ¿Lo que lo que hay que hacer es soporte, soporte es el cable, aquí está, vale? Y aquí datos paso a modificación.
+
+49:45
+Y aquí no tengo ni idea dónde va, pero tú imagínate que esto va hasta un transmisor que no sé cuál será. Esto es de la RG no creo que era la RG, no me da igual. Ay, no me así 1 in vale Mark by Street.
+
+50:16
+Porque me está sacando un mano, vale, ya está. Ahora sí vamos a ver este equipo, el modelo, el 3 D porque está ahí en vano. No sé que inventé modelos. El 3 d, s, F S.
+
+50:43
+Esto es una especie de x punto gif. ¿Está bien, no sé por qué me saca un mano, va a haber que cierre ventanas que tengo aquí 1000000 y esto fuera, vale?
+
+51:18
+Si un equipo no tiene un gif asociado, que pinta una bola o algo así y ya está, dibuja un cuadrito, así como una especie de cacharrito ***** una caja negra, redes FSS, eso está bien. 3 F S uti, cero 1 sí, no sé por qué está dibujando. ¿Bueno, y de dónde sacas los los dibujos? Pues los me los invento.
+
+51:48
+O sea, a ver menta modelos, a ver si es que me he equivocado yo de catálogo de fabricante, no a veces algún genérico en red con rode, por ejemplo, el rode de Giff. Este no, el CSU tampoco debe giff tampoco.
+
+52:16
+Esto tenemos quien va. ¿Te vas a ser tú el policía de esto? No, no lo sé porque alguien va a tener que hacerlo. X punto gif aquí está bien.
+
+52:52
+TX. Gif está bien a ver si es que me equivoqué yo al pasar la imagen barra está bien, no sé por qué no me lo dibuja bien, vale lo revisaré también una cosa más para vale, vamos al servicio.
+
+53:29
+Servicio buscar servicio más al Val Val la uti vale, pues ya vamos a buscar el equipo a 1, 0 2 tenemos aquí así cuatro ecuación prueba.
+
+54:21
+Así 1 in vale y en salvo por RF los Asis los hemos visto bueno, ahora lo veremos, hay que hacerlos a mano, vale, entrega, vale, no sé por qué dibuja lo que quiere un vano, no sé por qué dibuja un vano. Aquí tiene que dibujar el.
+
+54:48
+Sí, lo que hemos visto en lo que sí el 3 veces ese utilice algún el cacharrito de transmisor. Bueno un poco. La idea es esta no el que tú tienes. Por un lado la entrada multicast tienes dos 90 y 8 0 4 y podemos dibujar los cables asi que van desde por ejemplo desde la salida axi dos de este 9804 util cero cuatro hasta el albalá.
+
+55:15
+En slot cuatro auxiliar quiero decir, esto es lo que sería el cableado de la RGE dentro de Utiel y al final aquí pues tendría que haber un transmisor que sería el traders. Vale entonces con todas las ventajas y todos los inconvenientes, esto hay que hacerlo a mano. ¿Entonces tú, por ejemplo, cómo se define un cable? Ah, sí, pues nada, te va a dar soportes, buscar soportes.
+
+55:43
+A ver, por ejemplo, vamos a hacer un gif, un cable así en la si sube la M p 4 la salida del M p 4, por ejemplo, Canal 28 de la salida de la SS W porque no está la salida de la SSW.
+
+56:26
+Pasa sincronizar con red y eso lo volvemos a enviar todo, a ver si nos lo pinta. Está aquí. Los cuatro auto 1 y au dos tienen las dos salidas de aquí. Perdón, los 5. Tenemos una iPad también aquí.
+
+57:15
+Por ejemplo, imagínate en el slot cuatro vamos a hacer un cable que vaya desde la RGE Vall canal 58 que nos Ah, no estamos. ¿Hemos hecho nosotros ahora este no? Sí, pues este de aquí el el Canal 28. Vale, vamos a enviar el out 1 del Slot 6. Lo queremos enviar al al TRANSMISOR del Canal 28.
+
+57:46
+Vale, entonces el Canal 28 utiel será este de aquí el 3 D es cero 6 vale, vale, pues nada soportes vamos a generar un asi, perdón de tipo asi, entonces ya nos da el código correspondiente.
+
+58:14
+¿Vale, entonces le decimos dónde, de dónde va? Pues del Val al bala. ¿Uti, cero dos de la out 6 habíamos quedado verdad? Sí, la out 6 out 1 vale, y esto se lo queremos enviar hasta el transmisor al.
+
+58:43
+¿Al zeratel 6 que está aquí debajo Canal 28 qué entrada a si 1 así dos, pues la si 1 entiendo no vale lo marco como destino y me vuelven 3 D me lo vuelven a desbozar Estado alta Qué le miramos? Pues ya está, ya tengo creado ese cable.
+
+59:12
+Esto es un soporte, entonces yo cuando como voy así crearía todos los cables y luego en el servicio del MP de a ver vale cero dos, pues me crearía un servicio, no sé al.
+
+59:40
+3400 uti está el de pruebas. Sí, no, este es la reja, buah, este es el de la rege del Comunio, Valencia vale, no, este no es este, es muy antiguo. Esto es de las pruebas al principio que este habría que borrarlo porque es de las primeras pruebas que hice. Se ha quedado documentado un poco madre mía y si sí que era.
+
+1:00:08
+¿Sí, bueno, este es la que utilicé para hacer las pruebas del resto de multicast donde está ahí vale, entonces vámonos otra vez aquí al bala utiel, no sé, porque en la búsqueda no me lo saca, tendría que mirarlo, tengo que mirar demasiadas cosas, Eh? Sí, a ver, es que esto no se utiliza. Entonces lo que te estoy contando es un poco así, improvisado.
+
+1:00:36
+¿Por qué en no no se utiliza normalmente? Vale, entonces aquí este es el cable que he utilizado, ahora ya me quedaré aquí documentado y hacia dónde me va entonces yo tendría ahora que crear un servicio y hacer lo mismo que he hecho con estos cables, es decir, ocupación. ¿Hay un servicio que que en el que voy diciéndole qué cables estoy utilizando, lo ves?
+
+1:01:07
+¿Entonces, al final de la jugada lo que hago es pues un servicio dentro de un centro no es más que la Unión de muchos cables, como yo ya le digo, qué cable estoy utilizando? Ese cable tiene un origen de un destino y evidentemente tiene que seguir un criterio organizado. Vale, pero simplemente dice, mira este cable, este cable y este cable y ya pues me dibuja todos los equipos.
+
+1:01:30
+¿Aquí no hay rastreos ni nada que se le parezca, porque aquí evidentemente esto es todo manual, toda esta, toda esta documentación, no? Bueno, como el otro día el sistema puedo hacerlo, el sistema está preparado, no han querido hacerlo. No sé si alguna vez alguien quiere documentar o otro sistema quieren documentarlo. Pues bueno, pues habría que hacer algo parecido a esto, ni más ni menos.
+
+1:01:58
+Que es definirle los cables que van, que que conexión entre 2 equipos y el servicio que utiliza ese cable también una de las cosas que miré también es cuando tú a ver el fastecernet cero barra 12, esto el fastecernet cero barra 12.
+
+1:02:24
+En realidad está dentro de una M cast que esta sí que es la RG de Valencia. Vale, entonces este equipo que estará por aquí, Torrente, Torrente, PDI. Acabaremos así va el 3400 Guti, vale.
+
+1:02:58
+Si yo definiera un servicio en el que tuviera ese ese servicio de también podría dibujarlo aquí con los 90 y 8, 0, 4. Y eso automáticamente me explico. O sea, si tú te vienes a gutiel, por ejemplo, y en Utiel Tuvieras tu viene torre España, yo samonduber teniente.
+
+1:03:24
+Claro, en el en el dibujito no, no te busca un equipo donde está, no, no, no, esto es un gráfico, genera, no lo sé, si es capaz de hacerlo no, no espera, aquí tienes buscabas ahí en la lista sí tienes aquí el fast eferren cero barra 12 sí que lo tienes aquí, vale que aquí es donde están entregando también una multicast aquí.
+
+1:03:53
+Vale maximizo esto no, aquí no se puede buscar, faltan algunas cosas, una de ellas sería esa, el poder buscar aquí dentro cosas. Y otra cosa es que esto te lo exporte a un archivo del tipo Visio o del tipo el problema del vicio. ¿Sabes lo cual es el problema? El problema vicio es que hablas de Microsoft, sí.
+
+1:04:15
+Esto es, en su día sí que se podía exportar a Visio cuando no era de Microsoft. Se generaba unos dibujitos súper chulos porque había una API en la que tú te podías enviarle toda esta información al al Visio y te generaba esta misma imagen en Visio en tú la podías guardar, la podías manipular, puedes hacer lo que quisieras hasta que cayó en manos de Microsoft y metió la tijera, dijo no me interesa que esto lo haga la gente robo o algo así se podría.
+
+1:04:42
+Yo estuve haciendo algunas pruebas y la verdad es que no es sencillo. Hombre, sí, a ver si tú te se lo encargas a alguien o o es cuestión de echarle tiempo aquí. Lo sí que estuvimos haciendo unas pruebas para pasarlo a p d F también vale, pero el problema del PDF es que te generaba un archivo bastante feo. ¿O sea, no tenía detalle el dibujo en la imagen? Sí, esto es muy fácil.
+
+1:05:11
+Cuando son cositas pequeñas, pues vale, pero cuando son cosas grandes, pues claro, a ver si si quieres exportar los datos tú le das aquí a la B Te genera esto, que esto que al final es lo que te interesa, que es lo que te interesa. Haces un copia, pega, te lo llevas a donde te dé la gana y tienes toda la información del servicio. Si quieres de tenerlo en un Excel o quieres meterlo donde te dé la gana, vale, esto al final es lo que manda.
+
+1:05:37
+El dibujo te puede dar un poco igual. Aquí está la lo, la información de todos los saltos, de todos los equipos, de todos los puertos, de todo está aquí. Vale, es aquí en d la de datos. Ahí dale otra vez, porfa, aquí sí, cada una de las patas está diferenciada o o.
+
+1:06:06
+Define cada una de las patas, a ver, sí, porque está en en el dibujo, es que es modo árbol y tiene un montón de de patas cada cómo diferencias aquí cada pata hasta el final o no puedes por el equipo de origen. Mira a ver este c n 3 P va desde este equipo, este equipo habrá desde desde el 920 chert hasta otro equipo, habrá otro salto que tiene que estar por aquí abajo, puede estar por donde vale. A eso me refería.
+
+1:06:35
+No hay, es que aquí como dibujas un árbol, sí, sí, no. Por eso lo lo preguntaba por si si tenías que que a ver la información está toda, todos los saltos están aquí, de De hecho, yo el dibujo, este dibujo se construye con esta información, ni más ni menos. No es un dibujo estático, sino claro.
+
+1:06:59
+Estos son, pues son a partir de de esta información. Lo que hago es cuando veo un equipo, lo dibujo que tengo una interfaz, le pongo una raya que encuentro otro equipo diferente, dibujo, otro equipo que encuentro un soporte que va entre 2 interfaces de 2 equipos. Le pongo la raya, es decir, sí, sí, sí, pero claro, esto cómo lo traduces es un poco complicado.
+
+1:07:28
+¿Vale, como ya te digo, bueno, aquí hemos visto los C n 3 P por ejemplo, no antes hace un rato como para qué se utilizan? Pues para esto, porque aquí tendremos saltos de nivel 3. Acuérdate que lo que son saltos que están en discontinuo son saltos de nivel 3 y lo que están en una carrera de continua son saltos de nivel dos. Pues aquí tengo saltos de nivel 3 también y tengo saltos de nivel dos y aquí llena el da.
+
+1:07:58
+Había un sitio a ver si lo encuentro PDPDBD, cantelda y Alcaudete. Vale, vale, pues eso.
+
+1:08:28
+Aquí si yo en el fast cero barra como comentabas que en el en el 3400 Utiel en el fast cero barra 12 que estaba por aquí, vale como yo tengo un servicio que empieza a partir de ahí yo aquí también podría dibujarlo. Me explico, sí, tengo un servicio aquí en el este este servicio.
+
+1:08:58
+Estos equipos, estos albalat, estos transmisores, todo esto yo lo tengo definido aquí como un servicio de de distribución. Así vale. Sí que parten a partir del Valter 1400 y Faster Fernet cero barra 12. Correcto, vale, si yo esto tengo aquí que el servicio me lo entregas en el tren Valter 1400. Uti faster fernet cero barra 12 que estará por aquí.
+
+1:09:27
+Aquí hay, vale, me estás entregando el servicio en este equipo o este puerto, como yo también lo lo tengo documentado, podría dibujarlo aquí. ¿50, utiel, algún día llegaré a Utiel? Es que perdón, es que utiel, sí, bah, es que es un lío. Utiel entra por Alicante, tío, es un poco, es la vía dolorosa que te conté algún día. Sí, sí, sí.
+
+1:09:59
+Ali Ali Caudete, aquí está, aquí está, va, va a dejar hasta desde desde Madrid a Alicante, Mira va desde Madrid a Valencia por el Nisval lo envía el PDI de Alicante, lo envía itana de Aitana lo envió caudete, caudete, ayora, Ayora, Cofrentes, Cofrentes, utiel. O sea, está el aviador.
+
+1:10:25
+La vía dolorosa. Vale, pues como yo estoy entregando aquí en el fast 12 que estoy entregando en un yo aquí podía dibujar, claro, en vez de la la pelota podía dibujarte, los los los 9804, lo la lo salvala y el transmisor, con lo cual esto quedaría completo, completo del todo quiero decir, tendría en en un documento.
+
+1:10:56
+¿La información de todos los equipos que intervienen en este servicio y qué caminos, por qué caminos van y eso es tan fácil como de llegar aquí y decirle, tienes aquí una entrega? Sí, dibújamela también sería otra opción. También se podría hacer también, insisto, si se quiere llegar a un nivel de documentación que tengas toda la información aquí, a lo mejor me interesa tenerlo por separado para no mezclar y que esto sea un árbol de Navidad aquí maravilloso.
+
+1:11:31
+No lo sé. También cuando se hace esto rastrear entregas, si tú si aquí tuviéramos esto era 7 o las 5, pero claro, es la 7, no me he ido yo de se me ha ido la pinza mía.
+
+1:12:00
+El que hemos pintado o el que estábamos mirando el cuatro o el 6, el 7 Ah y el 7 sí, es que ya no sé si es verdad o esto es de la RG espera que tengo que puesto el verso el 5 y me parece que como es aquí el 7.
+
+1:12:29
+¿Por eso no lo dibuja bien aquí, a ver si ahora lo dibuja bien o no, a ver cuando llegue aquí a la entrega 7 y si la miramos, cuál es? Yo creo que es la 7. Ay, perdón, Uy, estoy arrastrando lo que no debo, vale, pues no lo sé. Entrega IPA.
+
+1:13:20
+Eutiel para el auti dos como que no exista. Ah tío. Es que claro es que han cambiado los nombres, por eso no lo encuentra claro. Te cero dos, el iPad está en el 5.
+
+1:13:48
+Bot 7 y no es s W vale el iPad estaba estaba bien en el 5, pero el equipo se llama así Balar bala uti cero dos es el rollo este del cambio de nombres tío que que que a ver 3400 uti y el vecino vale hasta aquí este de aquí.
+
+1:14:19
+Y aquí es el 5. ¿Vale? Ahora sí, ahora sí que tienes que poder hacerlo no guapo, ahora sí que lo hará.
+
+1:14:59
+Qué intriga, sí, no sé por qué no lo está haciendo bien. Se está pensando todavía no. Slot habla genérico, está haciendo cosas todavía, pero no es a lo mejor es que está por ahí liado en otro en otra pelota que no es no es capaz de resolverla de estas de aquí. Ah, vale, este ya ha resuelto esto de aquí ahora y ya está, vale, ahora sí, ahora sí.
+
+1:15:29
+¿Vale, y ahora? Pues eso. Ahora ya es capaz de pues aquí pues igual se puede hacer los MTR en el Estado en el que están los MTR. No sé muchas cosas. ¿Sí, ya veo que aquí puedes hacer todo con tiempo todo, pero el tiempo el problema es el es el tiempo, vale?
+
+1:16:02
+¿Qué más tú das de servicios? No me no sé si servicios que me vas contratar de servicios bastante ahí, ya no de los que puedes tú crear cuando le das ahí a al más. ¿Ah, bueno, la alta por el Excel lo vimos, no es que queda aquí una cosa, el el alta por el Excel sí que lo vimos, Eh? Sí, si le enviamos el.
+
+1:16:33
+La que la que te pasaban a la orden de trabajo por ficheros. Sí, vale como nosotros tenemos servicio de operadores. A ver, vete cualquiera, vamos a ir a servicios de operadores 1 que esté de alta. ¿Yo qué sé si es un ejemplo, Eh? Es simplemente verlo.
+
+1:17:01
+¿Como mantenemos los servicios de operadores documentados, cuáles son los interfaces por los que pasan? Vale, una de las cosas que estamos haciendo es cuando a graylock le llega una alarma de que se ha caído de un puerto, esa información se la enviamos a fobos y decimos este puerto se ha caído y entonces una de las cosas que hacemos.
+
+1:17:31
+¿Es aquí este equipo? Vale, es marcar este up o down. Entonces este Apps o Down provienen de 2 fuentes, o bien de Grey Lock cuando nos dice que un interfaz se ha caído, o cuando una interfaz se ha levantado, o cuando o cuando se sincronizan con red, aquí lo hacéis tú manualmente desde aquí.
+
+1:17:59
+Un manual se hace automático, pero bueno, en fin, también se puede hacer automático, pero que borre cosas porque aquí está lleno de doble lands, que no sean para nada. Cuando yo hago esto también mira a ver el Estado en el que está el equipo, si está APP o está down. Y esa información la corrige aquí porque el Grey lock puede tener cierto retardo.
+
+1:18:27
+Y además, el Grey Locke también puede ser que no le lleguen alarmas porque, por ejemplo, tú imagínate que de repente un equipo se muere por interfaz de gestión, se te cae junto con otros 3 interfaces más a la vez. No hay manera de que ningún sistema se entere de eso, claro, porque el a través este equipo está enviando la información a través de este de este de de la onland dos que va en banda. Sí, y si esa se pierde, pues.
+
+1:18:57
+Esto va a través de un TRAN, que es el giga dos. Si se me cae el giga dos no me voy a enterar. Lo tenemos hecho de manera que este giga dos siempre está viendo otro equipo, o sea, lo que al final vamos a marcar son el Estado en el que está el soporte. Es decir, yo puedo saber si un soporte se ha caído o no se ha caído. ¿Cómo? Sabiendo el Estado en el que están los dos extremos.
+
+1:19:25
+¿Si alguno de los estos extremos los tengo en Down, lo voy a considerar que está down todo el soporte, aunque el otro me diga que está APP vale, por qué? ¿Pues porque es más fácil perder un paquete cuando se caen que cuando se levantan, con lo cual bueno, tenemos a si alguno de los dos está down, para mí está down, sí, entonces qué hacemos con esa información? Pues aquí en alarmas, operadores, lo que hacemos es una consulta.
+
+1:19:55
+Entonces, cuando se cae un interfaz nos dice qué servicios están afectados por esa caída de esa interfaz y entonces nos sale una línea rojo con a c K pues es lo de siempre. Aquí puedes ir reconociendo, aceptando que quiero que saque una línea roja para que veamos podamos ver las opciones. ¿Los Verdes son recuperados, no? Sí, correcto.
+
+1:20:22
+Y lo que está a la izquierda, que es en rojo, en rojo toda la tabla. Y de servicios, sí. ¿Qué servicios están caídos o tienen? No es que estén caídos, sino que pueden estar caídos. Me juegos a algo que muchos de estos es que están borrados, se han dado de baja y nadie aquí es que esto tampoco se está utilizando, entonces no.
+
+1:20:46
+No sé, me lo pidieron, pero no sé si al final lo utiliza la gente. ¿Enoc no lo utiliza, entiendo que no, esto sí que es un poco como hacer un poco de sistema de supervisión o de gestión del fobos, no? Sí, vale, entonces, por ejemplo, aquí tenemos una línea roja, vale, entonces aquí lo que nos dice es que el día 23 a las el día 19 o 19 o ayer.
+
+1:21:15
+A las 17:44 H se cayó esta interfaz. ¿A qué servicios afecta? Pues de momento a este al Fex 117. ¿Yo desde aquí puedo saber en tiempo real cómo está la interfaz, está down, está desconectado, el cable está desconectado, esto es tiempo real, EH? Sí, yo le doy aquí.
+
+1:21:44
+Y el cable está desconectado. Evidentemente este fex está cortado. Yo me voy aquí sigue estando de alta. ¿Si yo lo rastreo me va a decir que el este interfaz está caído, vale, es culpa nuestra o del cliente? Ahí yo no llego, sé que está caído, todo el servicio está bien.
+
+1:22:24
+Lo único que habría que ver es que está shotdown, o sea, lo han puesto en shotdown porque se van a hacer una baja. Sea que es probable porque están los dos extremos caídos. ¿Lo ves? ¿Entonces? Si yo me voy aquí al fast ethernet cero barra cuatro y miro la configuración un mindown puerto averiado, vaya, mira, no me lo creo.
+
+1:22:51
+No, no, esto está en shutdown, estos lo han tirado a este puerto, está en shutdown. Descripción, puerto averiado, es que no hay ningún otro fex aquí este stand down, el faster Fernet cero 8. A ver, configuración de este puerto puede ser que fuese por el cuatro y lo han pasado al 8 porque el otro estaba averiado, sí, pero el 8 también está caído.
+
+1:23:21
+El 8 está caído también y aquí lo que tenían que haber hecho se han cambiado sin resincronizarlo decirle, claro, sincronizar manual en el fast F M 0 barra 8 aquí para que quitara el cuatro. Pero bueno, vale. En cualquier caso, los dos puertos están caídos en los dos extremos.
+
+1:23:53
+Seguramente es porque ha sido una baja YY le han tirado los dos puertos. ¿O está en sultán, no, este no está en sultán, está quitado el cable, verdad? Sí, es verdad, no está como en Suttown, el puerto 12 está bien, miento, está caído ahora sí, vale.
+
+1:24:18
+Y este el cuatro ni siquiera le han quitado la configuración. Es que mandan ******* también. Perdón es que lo tenían que haber quitado la overland de aquí. Si el puerto está averiado, vale, bueno, a lo que íbamos, la herramienta esta si la tienes aquí abierta ya tengo 20000 otra vez abiertos.
+
+1:24:47
+Aquí, aquí y aquí servicios, alarmas, operadoras, no solo verse, vamos a cerrarlo todo, vamos antes, vale, sí, ahí tienes te marca los dos extremos, el 8 y el 23 del otro equipo. O sea, me me está diciendo que los dos han caído. ¿Entonces el Fex 117 es el servicio que está caído cuando se cae un puerto y se levanta no quiere decir que el servicio se Levante, EH?
+
+1:25:16
+¿En este caso sería un ejemplo, si se me se levanta 1 de los dos extremos, puede haber ese servicio que tenga otros otros problemas? Sí, otros problemas en otro sitio. Aquí lo que te estoy diciendo es que el el ethernet cero bar cero barra 8 de este equipo está caído y una de las afectaciones que tiene es el cero 117 y hay veces que si afecta más servicios aparecen todos los servicios aquí. Ah, claro, como allá abajo se ve.
+
+1:25:45
+Separa cientos 20 ITC, pues afectó a todos esos BTS, vale, pues esto de aquí este, al caerse este interfaz ha afectado a todos estos servicios de aquí se ha levantado. Pues bueno, enhorabuena a los premiados, ha tardado 15 segundos en levantarse, no, sí, a los 15 segundos se ha levantado, ya está, no ha habido ningún problema, ha sido un chicha la forma de ver si el si el en tiempo real como está el puerto es delante de aquí, hay veces que aquí te dice que está okey.
+
+1:26:15
+Dices si está en rojo, cómo puede ser que está o k porque todavía no me ha llegado el o K el puerto APP desde el equipo y a través de Createlock. Entonces la forma que hay de Regularizarlo es decirle, vale, pues regularízame todos los todos los puertos de este equipo, vale, entonces lo que hace es en tiempo real. Te dice que la abuela en 300 está down y el que el fast ferner cero barra 8 está down si estuviese up.
+
+1:26:45
+¿Te la pasaría verde y te lo corregiría? No habría que hacer nada más. Me he explicado sí, sí, entonces aquí si alguien tuviera a bien aceptar todas estas cosas aquí, pues a ver si encontramos lo que pasa es que ya este son de ayer, con lo cual es probable, ya que.
+
+1:27:14
+A veces se te ocurre que entra una alarma, se queda un eso, es un una recuperación muy rápida. Vienes aquí, miras a ver el Estado, te dice que está okey, le dices que te regularice aquí regularízamelo todo y ya está y desaparece la la línea Roja y ya está, ya ya solo aquí solo mira down y up, no mira.
+
+1:27:38
+Más casuísticas no es lo que me envía greylock y greylock me dice, esta interfaz ha caído, lo tienes en Down. Entonces lo que hace fobos es mirar a ver qué servicios están afectados por esa caída de interfaz. Porque si tengo los servicios rastreados y están bien rastreados, se supone, pues yo tengo el servicio, lo tengo documentado. Aquí se me cae un interfaz.
+
+1:28:06
+Cualquiera de ellos, EH, no, no es que sea los sí, sí, sí, sí, sí, sí se te cae. ¿Cualquier interfaz del camino me provoca que esto me lo me lo dibuje en rojo y entonces pues pues eso encuentro en las multicast, a ver, por ejemplo, esto no tiene fin, no es lo que veo, sí, sí, tiene, tiene un límite y sabes, ves este?
+
+1:28:36
+Está disable administrativamente. O sea que esto lo más probable es que sea una baja el FEC 142. Este este es el cuatro, no, el cuatro está exactamente down. ¿Entonces lo que habría que hacer? Pues directamente.
+
+1:28:59
+140 y fex 142 en en File pone alta sí, sí, yo lo tengo en alta y sin embargo los interfaces los tengo down, los tengo en Admin Down, fex 142 pues aquí no lo tengo igual. A ver qué interfaz era, qué qué era.
+
+1:29:29
+El l m R a 4 porque le habrán pasado por otro sitio, vale, lo habrán reenrutado por otro sitio al caerse el otro, ese es el circuito, el servicio, el G t 0 0, 33 era no, no, no, era un fex 142. ¿Ah, bueno, y que le he dado otro perdón? Sí, estoy un poco yendo ya también de la perola.
+
+1:30:02
+Este de aquí lele M R a 4 este de aquí este el que está caído, este está shootown sí provoca error, es incidencia, no sé qué vale, porta avería también ponía qué guay, vale, pues si tuviéramos alguno de estos pues aquí pues directamente lo le doy a seca porque esto no se va a levantar nunca. Estoy intentando a ver si alguno está en APP.
+
+1:30:30
+Note connected aquí se ha caído un cable el BT 1769 disabled. Este también será una baja, está de alta pero orando de baja. T 1967 te lo miro YBT 1967, pues también pone alta.
+
+1:31:00
+1769 Ah, perdón 17 lo estaba escribiendo bien, pero luego he cambiado de idea, pues también pone alta de vete con Barry Burgos a I t X Madrid. Sí, pues según dicen Burze 3 puerto Fast fernay cero barra dos no dice otra cosa, Stan and by Down, o sea, la han tirado.
+
+1:31:33
+Está en Shut Down. ¿El puerto está desconfigurado, EH? ¿El 1769 a ver que mira la cosa Curte, no? 400 c 3. Es que la han reancutado, le han cambiado, le han cambiado la ruta porque aquí no está.
+
+1:32:07
+¿Mejor lo han cambiado, Eh? De ruta a ver que antes iba por un sitio. Sí, muy bien la han cambiado de ruta. A ver sale por el R s o e 6456 pone aquí en fire mira antes iba por el C E 3 Fasta Fernet cero barra dos.
+
+1:32:32
+¿Que es este de aquí? Mira 1769 antes IVA por aquí albur 3400 c 3 aquí antes iba por aquí, vale, ya lo lo han enviado por aquí. ¿Esta es la copia que está en color y el original lo tengo en gris, que es la parte de abajo, ves?
+
+1:33:06
+¿Han cambiado la ruta? Eso como lo que estaba, como lo estaba mirando en en fire. Lo he visto como lo han cambiado. Sí, no lo busques, porque es que antes iba por esta ruta hacia aquí, hacia el Bur 3400 C 3 y ahora lo han cambiado por el bur 920 l 2 g b u eso pone lo que pone Estado duplicado. ¿Eso qué?
+
+1:33:36
+Sí, porque es la copia, porque es la copia. Sí, esto de la copia, el original es este. Ahora este es el bueno, este es el que está funcionando ahora, vale, De hecho, si lo sincronizas seguro que te da bien claro, como has quitado el cable, quitarían el cable antes de hacer el trabajo y entonces detectó que se había caído el interfaz.
+
+1:34:06
+¿DHLSD no sé qué es esto por adyacencia o s P c está encontrando algo? Vale, eso está bien, el servicio está bien aquí, lo que pasa es que al caerse el el C 3 fase cero cero barra dos, esto lo que hay que hacer es esto, ya está quitar la alarma porque ya ha saltado la alarma, con lo cual está muy bien que te haya avisado.
+
+1:34:35
+O sea que el sistema funciona. ¿Claro que el puerto no se va a recuperar porque lo has cambiado de sitio, claro, el puerto se ha caído, se ha quedado configurado, pero bueno, la arma está porque tú tenías a través de ese puerto, tenías un servicio, puedes mirar el equipo otra vez, cuál, el el, el, el, el donde estaba este de Burgos? Claro, aquí, claro, aquí lo que habría que hacer es quitar la descripción en el fast cero dos no da igual.
+
+1:35:02
+No, De hecho en el sincronizar, no, no, el problema no es este. El problema es el servicio que el servicio tendría puesto que era tenía puesto que era este equipo y este puerto. Claro, si tú te vas este servicio antes en la versión antigua, en la copia que tenemos aquí hecha, vale el servicio iba por ahí por el C E 3, vale, se cayó el puerto.
+
+1:35:30
+¿Entonces, qué hace? El sistema se va y mira qué servicios tienen. ¿Se ven afectados por la caída de este puerto? Pues el BT 1769, claro, pero porque lo tiene puesto en la descripción del puerto, no, no, no, no, porque está aquí, porque está aquí. Ah, vale, no, porque lo ponga en el vale, porque lo tiene ahí rastreado, vale, lo tenía ahí rastreado y sabía que ese o sea este servicio.
+
+1:35:56
+Y va por este puerto, por el bur de 1403 fases en el cero barra dos por eso, por eso he sacado la alarma, ahora cambian el servicio, lo ponen por otro sitio, lo lo lo resincronizan estos del 20 macho los resincronizan. ¿Qué pasa? Pues al resincronizarlo desaparece el Bur 3000 C de aquí porque ya no pasa por ese puerto, ahora va por otro.
+
+1:36:23
+Ahora si se cae ese puerto se levanta, no va a afectar a este servicio porque ya no está puesto como que afecta a ese servicio. Me explico, claro, la línea es continua teniéndola y esa línea si no la aceptas tú nunca se te va a ir. Otra cosa es que diga, mira, los equipos que estén en en shutdown.
+
+1:36:50
+Que se hayan forzado el el puerto me los quitas automáticamente ya y si hay una equivocación no te vas a enterar, si alguien se equivoca pues no te enteras. Vale a ver este está así el cable vale, no te conectes, este cable está caído este puerto, este servicio está cortado ahora mismo porque no tiene porque el cable está caído, tiene un límite aquí de no sé qué límite le he puesto.
+
+1:37:18
+No tiene paginación todavía tampoco, porque como tampoco lo estaban utilizando, pues tampoco tiene mucho sentido paginar ahora a ver si tengo encuentro alguno que esté no conectado. Vale, pues esto también está con este. ¿Te ha caído también este TVT? Bueno, era porque vieras que se que se regulariza 1, pero veo que es que hace muchos días ya que.
+
+1:37:55
+No conecta otro que está caído, vale, ahora has visto si tú aceptas 1 quita todos, me explico, si yo acepto, mira, yo voy a aceptar esta la del 3400 DOM Faster fernet cero barra dos, vale, o sea todos todos los que son de ese puerto los va a reconocer todos los va a a todos, vale, sí, y aquí igual.
+
+1:38:29
+Este de aquí afecta a estos 3 de aquí, pues si yo acepto 1 pues directamente los acepto todos. Es que justo estaba pensando en en en la barra, me tiene intrigado la la columna roja de al lado, Ah, esta de aquí sí, esto es porque aquí debajo que no, que no salen, hay más, están. Este está aquí. El BT 1958 estará por aquí, claro.
+
+1:38:55
+¿Ahí ahí tienes el resumen de todos los que servicios alarmados no, sí y que no se han aceptado las alarmas, claro, y tú pinchas en Pinchas en 1 y te sale algo o te lo te va el circuito no vale, vale, está de alta y aquí datos rastrear, claro, ahí le haces un rastrear y hasta donde encuentre dónde está el Corte? Aquí no sé, aquí ha pasado lo mismo, debe ser que se ha caído este puerto, el rastro, F M 0, barra cuatro.
+
+1:39:26
+Y le han pasado a este al 5. De todas maneras, aquí hay algún problema con este equipo porque no está pudiendo entrar a este equipo y si no puedo entrar a un equipo, pues ya no ahora. Ahora se ha puesto la flecha. ¿Ves? Te avisa, no puedo, no puede continuar. Ha dado un error en intentar entrar en este equipo.
+
+1:40:04
+¿Puede ser un error temporal o puede ser que ese equipo tenga algún problema de gestión? Pues lo volvemos a intentar. Y este equipo tiene un problema de gestión. Bueno, pues es lo que hay. Bueno, todos, todos los que tienes en la columna roja se pueden ver en algún sitio que porque ahí hay, ahí ves todos o hay como no hay paginación, me has dicho.
+
+1:40:39
+Te muestra hasta el número X si si si por eso no hay, es que si no esto crecería. El problema aquí es que nadie lo vigila. Entonces esto al final tendríamos aquí una página con 3000 líneas. ¿Otra cosa es decir, bueno, pues todos los que estén en o k pues me las pasadas 24 horas me las auto Aceptas? Claro, los tienes en en alguna tabla en base de datos los que muestras aquí.
+
+1:41:09
+Sí, claro, la tabla creo que se llamaba servicios caídas, pero te lo confirmo a ver que está aquí. Catálogo spets que PAM.
+
+1:41:41
+A ver si es esta. Creo recordar que da servicios caídas. ¿Qué está el tiempo down? Está aquí el servicio, el soporte, el equipo y el puerto que se ha caído. ¿Cuándo se generó la alarma? ¿El Estado en el que está y estaba apunta down? ¿Si está reconocida o no, cuántas veces se ha repetido esa alarma?
+
+1:42:15
+¿Y el tiempo de Down es tiempo down? Vale, el tiempo de Down es cuando se cayó el original y el Time Stamp es la el último cambio que ha tenido. O sea, si está en up es la última vez que se ha levantado. Sí, y el tiempo down es el el original cuando se cayó la primera vez y entonces y de aquí no borras registros o en principio no.
+
+1:42:44
+Como tienes como tienes un contador de las veces, entiendo que que no no les borras, no aparecen aquí en un contador también aquí también empiezo el contador está aquí. Ah, claro, ya que tienes el dato, pues sí, es que esta es un poco quejica. Sí, a ver qué le pasa a este. No hay una opción que es que tú te vas al Fast and fernazer Barra 6 cuando hay alguno de estos que está por culero.
+
+1:43:10
+Digo fastidioso que está siempre, luego te pongo un PIP en la grabación, vale, cuando hay interfaces que están ahí, hay interfaces que están cayendo levantándose 20 veces al día. ¿Vale, pues te van hasta aquí el seas el seas de Fernet cero barra 20, no, sí, perdón el 6 vale, pues te vas aquí el 6 vienes a ver qué soporte es, vale?
+
+1:43:39
+¿Te lie, vale? Pues es una interfaz de entrega. En este caso no se puede quitar. Es que hay una función que si fuera un un Cádiz, a ver, pues no, tampoco. A ver cuál era. Espérate 6.
+
+1:44:08
+¿Cómo lo he podido hacer? ¿Eso que no me acuerdo? Ha habido una manera de inhibir las alarmas. ¿Ah, vale, sí, aquí está en el servicio, pues inhibir las alarmas, vale con esto qué consigo? Pues que ya o sea ese servicio ya no se me va a volver a alarmar.
+
+1:44:46
+Es que no es normal que un servicio se me carga 10000 veces este servicio. Algún problema tiene en algún lado y hay que solucionarlo o no, eso ya no, pero normalmente cuando está cayéndose el fast ethernet cero barra 6 vale, lo que pasa está pasando. ¿Es un problema de cliente que tiene un problema en la entrega por lo que sea o que está apagándole o que apaga el equipo todas las noches, que también puede ser, Eh?
+
+1:45:15
+¿Entonces, para que evitar que salgan aquí alarmas al Mogollón, pues este ya no va a volver a salir nunca más, a ver esta, pero ha parado esta la han borrado? ¿Pues lo habrán borrado la V la en 3828 la han borrado, vale, pues qué guay, pues ya está, es lo que hay que hacer, no?
+
+1:45:51
+¿Vale, entonces se supone que que bueno, si esto se tuviera a la gente alguien lo mirara, pues aquí tendrías poquitos, claro, servicios, porque si tú esto lo aclaras y dices, bueno, pues este servicio por qué se ha caído? Pues por esto, por eso, por esto, pues vale, pues lo aclaras y lo miras entonces o lo aceptas o no lo aceptas, la dejas ahí en rojo hasta que solucione, pero.
+
+1:46:15
+Aquí deberías poder tener pocas y todo lo que son cosas estas que se han caído el equipo o que se ha desconfigurado y tal, pues quitarlas de ahí. ¿Aquí veo que si no es por el color no sabes cuál está caído y cuál no, no? Bueno, básicamente o está APP o está down, sí, sí, sí, pero no, pero así visualmente no, visualmente no.
+
+1:46:44
+Bueno, es que lo digo pensando en yendo a la tabla del a la de servicios caídos. Ahí tienes un flash que te dice el píntalo en rojo, píntalo en verde o o sí, no, si el servicio está si o sea si la línea está down, que es este de aquí a ver está de aquí. Ah, servicios caídos, vamos a ir otra vez aquí editable data, aquí tienes un y un down está aquí.
+
+1:47:15
+Ah, vale, vale, claro, es que no, no lo no lo había visto, vale, perdona, pero esto esto lo que hago es dibujarlo en verde o en rojo, ya está la está down, si está down rojo, si está a es verde, vale, perfecto, perfecto. Si está reconocida, no la dibujo y ya está, vale.
+
+1:47:39
+Y aquí pues pues eso, 3600 líneas, creo que sé que había un límite y lo borraba, creo recordar, no, no, no me hagas mucho caso porque veo que el armas desde el desde el mes 9, mes 6, mes 10, mes 9 o hice una limpieza hace no mucho, Ah, pero aquí lo que tienes es todos los circuitos que tienes en base de datos de Fobos. ¿Que se han caído alguna vez? Claro, entonces no, claro, no almacenas.
+
+1:48:09
+Eventos de caídas almacenas lo último de Del de de cada circuito. Claro es que el problema está en si yo no, no tengo espacio para almacenar eventos. No, no, está, está, está muy bien, está muy bien. Si tuviera espacio para almacenar eventos podría almacenarlos, EH, porque no le llega, pero así está muy bien, o sea, no, no te complicas YY lo tiene registrado. Claro, era muy sencilla.
+
+1:48:34
+¿A eso me refería yo cuando decía, el fobos no es un sistema de supervisión, no lo es, no me puedes decir un informe, dime este servicio cuándo se cayó, a qué hora? Yo esa información no la tengo claro, lo que puedo decirte es que en este momento está arriba o está abajo, este servicio está ****** está caído porque tiene un interfaz que interviene en el servicio que está caído eso, eso es lo que yo te puedo decir. ¿Qué servicio se ha caídos? Todos estos que hay aquí.
+
+1:49:02
+¿Que es por una baja? Pues hay que aceptar la alarma, que es porque se ha caído un cable. Pues habrá que hablar con el cliente y decirle, Oye, que a lo mejor no estaría de más, EH, que no fuéramos nosotros. Quiero decir, el cliente siempre nos llama cuando tiene un problema de esos, de esos que el cliente apaga y nos genera alarmas. De esos hay muchísimos falta señal, origen, cliente y.
+
+1:49:29
+¿Ciencia informativa para cuando se queje ya sabemos que no nos está entregando señal, si es que se queja, claro, si no es que eso que que dice vale que ya son las 18:00 H de la tarde termino de trabajar yo bajo el diferencial apago todo YY al día siguiente a las 8:00 H de la mañana cuando llego enciendo todo otra vez también hay casos de esos sí, sí, no, seguro que los hay, entonces sí, sí y al final dice, bueno, y qué hacemos? ¿Le llamamos al cliente y decirle Oye que tienes la entrega, la tienes en Down, has apagado el equipo?
+
+1:50:00
+¿No lo sé, no estaría mal, eh? A lo mejor el tener esa proactividad sería no me da para los clientes, no, alguna vez lo hemos intentado, pero no es, es complicada, es como con los operadores, es es complicada, entonces bueno, aquí estoy aceptando, a ver si me sale alguna pero a ver seguramente multicast, bueno, pues lo mismo está hecho para si si es multicast sí he visto que tenías otra tabla.
+
+1:50:26
+Aquí los servicios multicast, pues está ahí otra tabla de servicio multicast. Aquí es más normal que aparezcan cosas aquí el que se ha caído es este, este servicio como el que central es televisión. A ver si encuentro alguno que esté en not conecte. Vale, pues pues este sería 1 de a lo mejor 1 de los ejemplos de eso no que se ha ido ha apagado el DECO.
+
+1:50:58
+Con el mira esta es la esta alarma es de ahora, acaba de entrar ahora vale, sí, mira, ya la ves, fíjate, coño, ya son las 2:00. H, ahora me dice Está APP, o sea, me ha entrado la alarma pero está APP pero todavía no me ha llegado, pues nada, lo regularizo y me desaparece. ¿La ha visto?
+
+1:51:24
+Ha sido un visto y no visto, sí, por eso, o sea, es lo primero que lo que hay que hacer, lo primero que hay que hacer es mirar si de verdad el interfaz está caído, está en este caso está caído, está está claro, cuando te traen una alarma pasados unos segundos, entonces hay que ir a ver. Espera, espera, espera, espera hay, te quería la de fecha de evento, sí, no es cuando ha recuperado, sino cuando tú, puede ser, puede ser una caída, es la fecha de evento, es la primera vez que se cayó.
+
+1:51:58
+Mentira cochina, la la fecha de evento es el último evento que ha ocurrido exactamente la fecha de Down. Es la última vez que se ha caído la última vez que se ha caído y cuando recupera, pues actualiza fecha de evento y pone la de la fecha actual.
+
+1:52:19
+¿La fecha de de cuándo? Lo claro de cuándo lo marca aquí en verde, que no es la fecha de cuándo ha recuperado. No a ver, es la fecha. ¿Sí es la fecha en que a mí me ha entrado en Grey Lock, pero pueden tener retraso, claro por eso, porque es que cuando cuando le has dado a tú a ver el Estado del puerto, en el caso de ahora ya ponía APP YYY, la fecha de evento te la ha puesto de cuando tú has has testeado? Sí.
+
+1:52:48
+¿En cualquier caso, a ver, esto es un sí, una, una mecánica que yo puse a mi criterio, que también se puede cambiar, EH? ¿Lo mismo que el tema de los eventos, si tuviéramos, Ay, en cualquier caso se puede cambiar todo esto lo hice yo por así? Pues porque mira a ver este de aquí BDI lo han borrado, este hay que aceptarlo.
+
+1:53:18
+Ya no existe este servicio multicast. Bueno, pues nos ha bueno, ha aparecido 1. Pues lo hemos visto fugazmente. Lo que no sé porque hay, a veces me me aparecen mismos multicast varios puertos que se caen a la vez, no sé por qué.
+
+1:53:59
+Y en este caso pues afecta dos servicios multicast y aquí aparece, pues eso vale, aquí lo mismo si yo tengo rastreado el servicio multicast, si se me cae alguno pues es de dónde está sacando esa información al final. Bueno, más dudas damos por acabado servicios aquí espera una cuando ves la tabla de todos los servicios o o los que tienes.
+
+1:54:39
+O o era en soportes. No sé dónde has ido que que les puedes dar tú que les puedes crear. Bueno, no sé lo que quieres decir, sí, pero eso es tampoco.
+
+1:55:14
+Sí, cuando cuando te pones en el que ves todos los servicios que tienes para la opción de dar de alta un servicio por Excel, sí, es de alta. Por bueno, aquí voy allá no, no en la en la donde ves todos, ahí tienes la la alta, la otra alta, la que es la normal. Esto ahí esa sí.
+
+1:55:40
+¿Tú ahí le pinchas y entonces te puedes decir quiero 1 1 b t o quiero un alpio quiero un lo que sea, no? Sí, estos estos códigos los cargas también de una tabla de no, no, esto lo que miro es lo que hay, yo puedo crear el que quiera, yo puedo crear el BIC 0, 0, 0, 0, 0, 0, 0, 1 y entonces eso ya me aparecería aquí.
+
+1:56:11
+Vale, solamente hay que crear el primero. Mira, vamos a hacer 1, que no sé si existen tipo transporte, no de transporte nivel dos enviamos, vale, si yo ahora me voy aquí a servicios doy de alta, aquí ya tendré. Si clicas ahí ya sales un BIC.
+
+1:56:39
+Claro, vale, se hace una búsqueda y entonces miro a ver cuántos empiezan por siempre. Tienen que tener cuatro letras, un guión vale y todo es el el estándar de circuito. ¿Sí, vale, pues cuatro letras, un guión, cuántos hay 20? Pues esos 20 los pongo ahí.
+
+1:57:07
+O sea, para hacer una serie nueva, digamos así, vale, solamente hay que dar de alta al primero, a partir de entonces ya empieza a enumerarme. ¿A partir de ahí, vale, vale, y en soportes es igual, me imagino, no? Sí, en soporte es igual soportes cuando doy de alta, pues igual si yo doy de alta de tipo ascii, De hecho aquí mirad.
+
+1:57:34
+Ah, sí, tiene que ver aeropuerto con cuatro letras y no con dos, pero bueno, a partir de entonces ya me me genera códigos. A partir de ahí, vale o k vale, pues pues servicios damos los damos por finiquitados búsqueda ruta lo hemos visto.
+
+1:58:04
+Busqué la ruta, sí, habíamos el otro día, que es que yo puedo decirle que desde un centro hasta otro me busque la ruta. Ah, es verdad para sí, sí, sí, pues desde Huesca, correcto, correcto. ¿Cómo se llama el Centro de Huesca? Me da igual Jaca, mira, me gusta, Jaca me encanta, arriba de Jaca he estado muy bonita.
+
+1:58:35
+Y además muy agradable para ir a esquiar. ¿Muy agradable es por eso no he ido, porque yo no esquio, yo he ido a esquiar y he de decir que estuvimos 1 o 2 días, que no esquiamos por visitar la por ver la ciudad, pues mira, o sea que hay que tener, Eh? O sea, sí, sí, habla, dice mucho porque a mí a mí me gustó mucho. Tiene una parte antigua de la parte de la ciudadela y la parte antigua de la ciudad es muy bonita.
+
+1:59:05
+A ver, pues de Huesca hasta Cuenca, yo que sé tiene no no, pero sí sí, sí que lo sí que lo vimos sí Cuenca, pues aquí al 3400. C el ancho de banda que necesitas si quieres incluir equipo, soportes de gestión o si quieres priorizar soportes de gestión. Hay veces que lo que necesitas es una ruta de un MEGA para gestionar a en banda XD sí, pues.
+
+1:59:30
+Sí que quieres y quieres priorizar la gestión. Entonces si tú lo dices, no quiero incluir circuitos de gestión, es un para un tema de servicio, pues nada le vas a enviar, entonces te busca la ruta. Sí que lo vimos que ahora lo que hace es comprobar si efectivamente te cabe a través de los interfaces, te cabe el soporte, todo el rollo y entonces te da una una alternativa. Te dice, pues de aquí a aquí tienes esta opción.
+
+1:59:55
+Entonces ya, pues ya empieza a comprobar las interfaces entran en equipos, miran que esta APP que tiene capacidad para entonces aquí te va a hacer un soporte de nivel dos. Ahora que te va a meter un x CONNECT y va a haber que es x CONNECT. ¿En principio los x CONNECT son dinámicos, Eh? He de decir, pero lo que haces es analizar la ruta más probable. Después la red va a hacer lo que quiera en los x Connect de ahí.
+
+2:00:27
+Ay, poco se puede decir, poco se puede hacer sí, es así, vale, lo que son soportes sí que es fijo, va a ir sí o sí. Por ahí el x CONNECT, los dos extremos va a ser fijo también, pero lo que es la ruta del X CONNECT es probable que vaya por donde estoy analizando, porque al final es un algoritmo distract que es el mismo que que he utilizado SPF.
+
+2:00:52
+Con lo cual, si a mí me ha dado esa ruta o s p F casi seguro que esté utilizando esa ruta a no ser que algún equipo tenga consulado de manera manual. Una ruta diferente, pero bueno, en principio utilizaría esa ruta. Aquí hay otro soporte y aquí hay otro soporte de nivel dos y ya está. ¿Vale? Pues mi ruta sería esta para ir desde Cuenca hasta Huesca.
+
+2:01:21
+Entonces iría hasta el centro emisor. De aquí iría en x CONNECT a través del Anillo de Madrid. Sí lo enviaría por el anillo de Madrid, Zaragoza, Gea, Huesca, Arganda, Arguis, perdón, es arguis y de arguis a Jaca. Vale, esto sería la ruta de de ese servicio. Lo podríamos provisionar. Os pediría el nombre, el nombre, el nombre del servicio y esto no lo provisionaría en como un servicio.
+
+2:01:52
+¿Le pondríamos las entregas? Pues tendríamos que decirle en qué puertos de este servicio se está cancelados. Si está la entrega y ya no lo dejaría, provisionado como un servicio, por ejemplo, un servicio al cliente. No, no haría falta buscar nada más. Esta es la mejor ruta. Mira que le ha costado nada.
+
+2:02:19
+Si encima se lo mando a karajan ya o sea en menos de 5 minutos tienes tienes calculado, estoy cocinado, estoy cocinado o sea quiero un circuito de aquí aquí. Cuántos megas de 10 megas vale, tengo ruta sí, vale, me gusta, sí, la envío a a servicios, vale, tiene código o servicio, lo que sea vale correcto. Defino la entrada y la salida y se lo envío. Karajan ya está hecho.
+
+2:02:50
+Me da gusto, pero bueno, en fin, muy bien. Pues ya está. No dejamos de grabar, detener la grabación.
