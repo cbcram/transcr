@@ -1,0 +1,733 @@
+[Traspaso Fobos]-20231030_120931-Grabación de la reunión
+
+0:05
+Ya está bueno, pues continuando con las herramientas continuamos con gradelock. Gradelock es la herramienta de adquisición de logs de que utilizamos para todos los equipos.
+
+0:36
+En principio hay un usuario que es invitado invitado, creo recordar si vamos a salir dentro y ya está y lo vemos, pero que sí que me habías dicho, mira, sí, invitado, invitado, invitado. Se puede entrar en modo en modo, o sea, no, no necesitas solo contraseña autentificando dirección de usuario vas aquí lo que tenemos es en al message.
+
+1:04
+Lo que vamos a hacer es buscar logs de equipos, vale, entonces la forma de buscarlos es muy sencilla. Ponemos o bien el nombre del equipo o bien por lo que va dentro del paquete. ¿Vale, dentro del paquete lo que nos llega es esta información que es quién la envía la IP de la familia? Nada. El full message es el log del del equipo que está enviando.
+
+1:33
+De dentro, dentro, dentro del mensaje, pues va sacando, va extrayendo partes, que esta es la parte del mensaje, después está la parte del timestamp que también me va metida aquí dentro. Bueno, va va extrayendo campos de dentro, vale, pero en principio aquí podemos ver todo el todo el mensaje completo. Entonces para hacer una búsqueda de un de un equipo determinado, pues vamos a ver por aquí 1 pues el Sevilla 2960.
+
+2:02
+Vale, vale, vale, entonces para hacer búsquedas sobre este equipo podéis ponerte en mute porque está. Te oigo por detrás a Tenorio. ¿Sí, lo lo lo he pensado, pero digo para darte y te digo, pero bueno, lo lo Quito, vale? Pondré aquí el chat por si acaso.
+
+2:30
+Vale, la forma de buscar simplemente es poner el nombre del equipo. Si ponemos el equipo, vale, hay que ponerle un* al final. ¿Por qué? Porque lo que hace es buscar dentro de palabras completas. Entonces para para él, para gay Lock, el nombre del equipo es el nombre más el dominio es una palabra completa.
+
+2:58
+Entonces, si no ponemos el* pues no nos van a contar ninguna palabra que tenga este nombre. Vale, entonces al poner* estamos diciendo cualquier palabra que empiece por esto, entonces ya nos encuentra la que corresponda si queremos, por ejemplo, decirle a ahora y además que esto mayúscula and the.
+
+3:28
+Y el mensaje que contenga down, por ejemplo, vale, entonces lo que hace esto es filtrarnos por todo el equipo, este equipo y además que el mensaje contenga la palabra down.
+
+3:49
+Bueno, entonces podemos que cogerlo ni con con millas, ni porcentajes, ni no distingue en mayúsculas ni en minúsculas. No, porque sí, bueno, creo que en mayúsculas y en minúsculas sí que lo distinguiría. Vamos a por, por ejemplo, el fast ethernet, Fast ethernet cero, barra 18.
+
+4:24
+A ver qué me dice, vale, ahí es que habían caracteres un poco raros, que no los reconoce. Vale el el barra, por ejemplo, no, no te deja, pero bueno, sí que lo vale, sí que se para mayúsculas de minus, o sea, no, no importa mayúsculas, no es la barra, sí que le sí, sí, la barra. Creo que aquí había que poner una almohadilla, entonces así ya lo distinguía, creo recordar.
+
+4:55
+Vale, entonces ahora ya para para lo que son textos así, para decirme este este son concretos, que si no entiende que es una un operador y pero bueno, si o si te acostumbras a poner siempre el las comillas, pues bueno, pues ya está. Y lo hace así. ¿Pues no, aquí no necesitamos asteriscos porque la palabra completa es esta, vale?
+
+5:21
+De todas maneras, el cero barra también lo ha dicho bien. Vale que sin embargo no lo coge bien sin sin la sin el* ¿Bueno, no importa y podemos poner más, podemos poner ords podemos eso ya a gusto de consumidor, vale?
+
+5:44
+Para hacer búsquedas sobre sobre los logs del equipo también podemos decirle qué lapso de tiempo queremos que busque. Entonces en la última hora por ejemplo, no, entonces ya nos dice también cuántos mensajes nos ha llegado este por esta búsqueda y nos lo especifica aquí debajo. Entonces documento, vamos a hacer los últimos 5 minutos porque veo que está bastante cantarín este equipo. Hay un puerto que está todo el rato.
+
+6:12
+Con lo cual tiene que tener algún problema de cableado. ¿Vale dentro de esos 5 minutos? Pues nos han llegado todos estos mensajes que que queremos hacerlo. Podemos hacer varias cosas, una de ellas es exportarlo a un Excel, entonces podemos exportarlo a 1 c, s V o 1 Vale Download aceptamos barco.
+
+6:48
+Vale, no autorizo al message, ahora sí download, vale, entonces lo que hace es nos descarga toda esta información de aquí nos la descarga en un Excel que es este de aquí, que es la misma información, pero la tenemos en Excel. Si esto lo convertimos, esto lo.
+
+7:16
+Está todo ha sido bruto, vale, te lo descarga todo en un campo, pero la forma de separarlo es datos, separar por por coma texto en columnas y separar de ancho fijo delimitados por comas. No, sí siguiente, sí, creo que sí, por coma y finalizamos. Vale, pues ya está separado, ya lo tenemos separado en campos.
+
+7:47
+Vale que tenemos pues toda la información, pero separada vale como hemos puesto el* fíjate que aquí es vale el e z 2 y aquí el vale X quiero decir que puedes. Hay que tener cuidado si queremos aquí solamente un equipo concreto, habría que ponerle todo el la búsqueda.
+
+8:13
+No quiero guardar en la búsqueda, aquí podemos poner esto, entonces nos aseguramos que nos va a sacar información solamente este equipo porque si está, si ponemos el* con sep 2960 Bal nos va a sacar el X el y si hubiese un dos si hubiese sabes o sea, entonces si lo ponemos en* pues con nos saca este equipo en concreto.
+
+8:42
+¿Vale, a nivel de administración, qué posibilidades tiene? Pues bueno, si me voy de aquí y entro con el usuario de administración del Grey Lock, que aquí bueno, la gente que la necesite pues lo tiene aquí. Por un lado tenemos en en la búsqueda de la es exactamente lo mismo, lo único que tenemos son los streams. En los streams lo que hacen es tener diferentes colas de entrada de eventos y para hacer cosas.
+
+9:11
+Algunas de ellas que ahora mismo, por ejemplo todas las que son alarmas de uptown estamos separándolas y hicimos también algunas pruebas con telegraf. Y para Stream Nextflow que también tenemos preparado un Stream, aunque realmente esto está parado. Netflow es un protocolo que tiene que tiene los routers que si lo activamos lo que hace es que empieza a enviar información de todos los datos que entran por un puerto.
+
+9:43
+Con lo cual, claro, con un tráfico de varios Gigas bueno, es es brutal la cantidad de información que envía, entonces normalmente está parado a no ser que sea algo muy concreto, y entonces nos generaría un un Stream de varios megas por segundo de toda la información de de los paquetes que están entrando.
+
+10:07
+Vale, en alertas os acordáis que teníamos lo de los servicios y de los puertos up down, vale, y además teníamos también lo de las caídas de paquete, o sea que los las caídas de los de las adyacencias de de circuitos alquilados. Y todo esto vale, esto se saca aquí. En event definition tenemos las alarmas por down, esto es cuando se resetean los equipos.
+
+10:37
+Lo reinicias, no si lo reinicias de los equipos o cuando se nos caen las adyacencias de SPFY, esto es cuando se nos caen los los soportes de nivel 3 de circuitos. Vale que luego podemos sacar por por allí. Podemos ver en los perdón, en los soportes podemos ver las caídas SPF, vale, De hecho tenemos estas estadísticas, es todo tiempo real.
+
+11:05
+A ver, esto es donde definimos. ¿Qué va a hacer con esos paquetes? Fobos tiene, entre otras cosas, informes de reinicios de equipos, por ejemplo. ¿Vale, estos informes es una tabla en la que llega información y nosotros lo vamos almacenando aquí en servicios, en alarmas de de operadores, vale?
+
+11:35
+Igual aquí teníamos una serie de información que nos llega y fobos la procesa. Vale, pues esto, esto es el que está enviando. Este de aquí es el que desde grelock le envía a fobos esas alarmas en fobos lo que hacemos es le decimos que todas las palabras que tengan updown.
+
+12:05
+¿O sea, todos los mensajes que entren con la palabra, con el neumónico las part, que es una parte del mensaje que tenga updown, es decir, pues aquí search de estos que tengan updown vale esage Down, vale?
+
+12:33
+Fíjate que aquí en Last part de Monic sysconemonic Last part updown vale, esto es como nos envía el router dentro del paquete del full message, vale, y entonces lo que hace es.
+
+13:08
+Grey Locke descompone el mensaje en campos vale y 1 de los que hace es el demonic first part que es este de aquí es line proto que es nos está enviando un evento de tipo el line proto que es line protocol y en el Last part que es la última parte del mensaje demónico del tipo de mensaje es que está updown vale y eso lo lo descompone great lo cuando le llega este mensaje desde el Router.
+
+13:36
+Entonces nosotros podemos filtrar por estos campos, en este caso el evento este de aquí Alerts Fision Updown. ¿Lo que estamos haciendo es separar los que nos llegan en Last part updown, es decir, todos los paquetes que nos lleguen desde los routers diciéndome, se me ha caído un puerto, se me o se ha levantado un puerto?
+
+14:05
+Me lo envías a Focus y Focus ya se apañará. Focus ya tiene sus sus APIS y tiene sus historias. Vale Grey lock que lo único que hace es pasa bola. O sea, me llegan estos mensajes y con con la definición de alertas y eventos lo que hago es enviarles la información a Focus y ya está y se olvida.
+
+14:26
+Sí, pero igual que lo que lo mandas a Fobos, lo puedes mandar a donde sea. Me da igual yo aquí sí, sí a quien sea por correo cada evento o yo tengo aquí en notificaciones o s p alarmas a fobos, por ejemplo. Vale que lo que lo que le hago es decirle, yo tengo definido una una API que es donde voy a recoger la información.
+
+14:52
+Y esta API me la llamas cada 30 segundos. Con todo lo que tengas puedo hacerlo cada segundo. Lo que pasa es que no me parece excesivo estar machacando entonces lo mismo de siempre. Si tuviéramos recursos importantes pues a lo mejor podríamos hacerlo cada segundo. Ahora nos da igual, con 30 segundos nos vale sobre todo para estadísticas de caderas. SPFY todo eso porque al final esos son datos que al final van a una estadística.
+
+15:19
+Y el tema de los circuitos van 30 segundos de retardo, como máximo de media serán 15. ¿Dime, dime, dime porque cuando cae un puerto el router manda la información, en el momento en que cae el puerto la manda igual que la manda al gestor que tenemos al NNM la manda greclo también al mismo tiempo? Sí, pero los sitios a la vez al gestor le envía un trap, a mí a mí me envía un logo.
+
+15:46
+Son cosas diferentes. Entonces los logs siempre van un poco más retardados. ¿La prioridad para el router? Creo recordar que cambiar el trap y eso sí que es inmediato. El log puede tardar unos segundos en enviarlo. Hablamos de segundos, no, sí, de pocos segundos, ya te digo, yo estoy tratando con con retardos medios de 15 segundos como mucho y máximos de 30. Entonces a ver.
+
+16:13
+Para el trabajo que hace Focus ahora mismo no requeriríamos más, más, más resolución temporal. O sea, si quieres que sea cada 10 segundos o cada 5 segundos se puede apretar más al sistema, pero en este caso no tenía mucho sentido. Sí se puede. Tú puedes definir aquí un una notificación nueva, tú creas una notificación incluso pues enviar un correo. En este caso se hace una notificación por por HTTP.
+
+16:41
+Pero puedes enviar un correo, no puedes generar tus propias llamadas, se pueden instalar módulos, está pendiente. A ver, este está un poco. Esta versión de Gradelock está un poco desactualizada. Ya te contaré por qué. Entonces en la nueva versión de Gradelock te permite hacer muchas más cosas. ¿Por qué no hemos actualizado?
+
+17:08
+Muy sencillo, porque Grey lock, las nuevas, las nuevas versiones, esta la las las que tenemos. Vale, espérate, que me salga de aquí search. Aceptamos, no quiero a ver que no haya tocado nada porque esto es bastante delicado. ¿Alertas, notificaciones, vale?
+
+17:32
+Vale, sí, es que esta le había dado a crear una y me estaba diciendo que que tenía que guardarla y sino abandonarla. Vale, en la versión que tenemos instalada es la 3:03 h cero perdón, ahora es la 3:03 h cero nosotros tenemos instalada la dos salvo tenemos un problema que es que para la esto funciona con elasticsearch.
+
+18:02
+Que es una base de datos de textos que funciona muy bien es supereficiente y las tips search. En principio era Open Source y era muy bonito y se podía utilizar de manera gratuita. Vale, esto ha cambiado ahora en las tiks search hay que pagar licencia. Entonces lo que pasó es que sacaron open search, que es lo mismo que las tiks search, pero sin o sea sin tener que pagar licencia en Open Source.
+
+18:30
+Pero ahora se llama open opensearch y Gravelock. En las últimas versiones ya soporta opensearch función soporta las dos cosas tanto elastic como open, pero para instalar opensearch necesitas tener una versión de Linux actualizada, con lo cual al final para instalar el opensearch tienes que actualizar todo el sistema Linux. O sea, lo que habría que hacer es coger una máquina nueva, hacer una instalación nueva de Linux.
+
+18:58
+Meter opensearch, meter la última versión de Game Lock y sustituir a esta vale eso ya vosotros mismos no es urgente porque en este caso sigue funcionando. La tenemos así desactualizada tiempo ya, pero en principio está funcionando entonces un poco la misma.
+
+19:25
+¿Sí, todo lo que tenemos configurado se puede migrar de una versión a otra con todo el cambio y todo o hay que volver a reconfigurar todo, no, verdad? Sí, sí, no hay que volver a configurarlo todo porque la versión es nueva. Si la versión es nueva, no es una, no es una actualización, habría que habría que hacer una instalación desde cero, toda nueva servidor nuevo porque te tienes que cambiar, instalar un servidor, una versión de sistema operativo nueva.
+
+19:53
+Que esté securizada, etcétera, etcétera. Y ya sobre esa versión del sistema operativo nuevo, instalar el opensearch, instalar el gradelock versión 330. Eso no es complicado y a y aparte gradelock tampoco tiene grandes cosas configuradas. O sea, básicamente lo que tiene es el.
+
+20:23
+La entrada esta que esta running, la de está entrando por aquí, la de six, lo UDP, este de aquí no está funcionando, que es el puerto 2055. O sea dan algunas pruebas. Esto también son pruebas de telegram, que tampoco estoy haciendo pruebas.
+
+20:45
+Y está aquí está el running, pero tampoco quiero decir, están paradas, no tienen, no tienen tráfico estas estas entradas, la única que tiene tráfico es la de la de global input que te están entrando. Pues eso, 12000 mensajes por segundo son aproximadamente 1000000 y medio de mensajes diarios. Aprox. Vale, no, no está mal y la verdad es que funciona muy bien y muy rápido para hacer búsquedas y.
+
+21:14
+Por eso que entonces simplemente es configurar el input este que toca, porque ya te digo, el next flow. Bueno, está está running, pero podría estar parado porque no, no se utiliza y estos de aquí tampoco se utilizan, pues se habrán reiniciado la máquina y se están por defecto. Está en el running, pero como no tienen tráfico, pues tampoco piden pan, hay que configurar esto, hay que configurar las alertas que total son.
+
+21:41
+Cuatro alertas YY 5 notificaciones 6 notificaciones que eso es mirar cómo están hechas y replicarlas allí ya está y ya está. No hay que hacer nada más bueno. Miento. Había un un pipeline que es borrar las alarmas de ventilación. Vale, más de la mitad de las alarmas que le digan a a grelock son alarmas de ventilación.
+
+22:12
+De Ventilaciones que le fallan los ventiladores a equipos del tipo 2811. ¿O vale, es una burrada lo que entra, EH? Estaban entrando millones diarios de de mensajes de este tipo y nos enmascaraban todo y era y entonces al final como o hacemos una batida en todos los routers de la red y que cambien los ventiladores o los quitábamos porque era una.
+
+22:38
+¿Una pasada? Bueno, pues en este caso tú puedes. Hay un un pipeline que lo que hace es tropar los mensajes de ventilador que están entrando a través de de de Del message que estará aquí. Vale, dices dónde quieres hacer la conexión y que ahora es cuando entre 111 mensaje de ese tipo que es lo que quieres hacer y en este caso lo que hacemos es troparlo.
+
+23:10
+Sí, no, no lo guardamos, lo borro, ya está, lo lo ignoro cuando entra ese mensaje, vale, los streams no los hemos visto, las alertas y los dashboard simplemente lo que son son, pues unos dashboard, unas gráficas en los que tú puedes ver con diagramas de tartas. Mira, esto es unos mensajes que están entrando hoy diariamente, que son 1000247 al 1260. Esto es lo que ha entrado en las últimas 24 horas.
+
+23:37
+Te dice quién está generando más alarmas en este caso este equipo. Este equipo está generando el 30% de las alarmas de la red. O sea, brutal este equipo, pues normalmente yo lo que hago cuando veo algo de esto es se lo envío a la gente de de red porque es que es no, no es normal. Entonces si queréis ver los mensajes, pues.
+
+24:07
+A ver dónde era, si no recuerdo mal. Sí, no, desde aquí no era, pero bueno, da igual el güell. 3400 cord vale, mira lo que te estaba diciendo ahí porque no las está quitando, pues debería estar quitando las alarmas de ventilador.
+
+24:39
+Porque a lo mejor no las detecta con otro nombre. Ah, no, que está dando error de ventilación, no que está bajo ventilación, pues las añadiré también porque estas no se había visto todavía. Vale, tiene un problema, que es que evidentemente el ventilador está mal, pero claro, pues los los droparé y ya está.
+
+25:15
+Ah, y encima qué te está diciendo que trabaja mal, trabaja bien, trabaja mal, trabaja bien, o sea, ya es la pera limonera, trabaja bien, trabaja mal, no sé. Y encima de los dos ventilados del fan y del fan dos vale muy bueno y está enviando un mensaje cada segundo.
+
+25:49
+Vale, pues eso. Aquí tenemos las las interfaces updown, nada son gráficas en las que nos enseña. Pues eso. ¿A qué equipo se les caen mal los interfaces? Vale, en la última hora han entrado, pues 7000 eventos de ese tipo.
+
+26:17
+¿Que sean pues 3500 y 3500, porque nada más son updown, pues normalmente entra el up y el Down y este es el que más le han entrado, que han entrado 500 eventos de este vale, esto lo configuras todo tú, no? Sí, sí, estos los los dashboards hacen nada.
+
+26:58
+Sí, comentarlo con los de digital value también, o lo que vosotros me digáis, si queréis que lo mantengan ellos, pues dice que lo mantengan ellos. ¿Eso ya vosotros decís otra cosa que te iba a preguntar, la de las tisert has dicho que es de pago o se va a ser de pago o ya es de pago? Vale elas tisert.
+
+27:23
+Y no, no, no, no. La versión que tenemos instalada es es gratuita, vale, lo que pasa es que a partir de una versión determinada, vale, vale, vale, el corazón de las 3 D, gratuito y abierto, no, en la versión que tenemos instalada es gratuita y podemos utilizarla definidamente.
+
+27:50
+Vale, lo que ocurre es que a partir de una versión determinada para para la, la cantidad de de eventos que nosotros estamos recibiendo diariamente es gratuita, pues si tienes pocos eventos, pero ahora eso lo han limitado. Vale, entonces creo recordar Eh, que que pero era por un tema de Cantidad de eventos que están entrando, pues ya tenías que adquirir una licencia.
+
+28:16
+Que nosotros no, no estamos pagando, por supuesto. Y entonces tienes que irte al opensearch y si queremos subir y crecer, pues hay que o pagar o irnos a la o pagar o o instalar opensearch. Y el opensearch es gratuito. La única putada que tiene es que no podemos instalarlo en la máquina que tenemos a ahora mismo el Grey lock, porque está un poco que está.
+
+28:42
+Hay que subirlo de versión y hay que claro, eso es un Cristo. Eso sí que es eso sí que es una locura ponerse a a subir de versión una máquina existente para poder. No vale la pena, o sea, vale la pena meter un un Linux nuevo y a partir de ahí ya montas toda la parte nueva. Ya está. Y es que es mucho más rápido eso que coger un Linux viejo y empezar a actualizar módulos y empezar a actualizar librerías. Ahí es que muchas veces en lo que corres el riesgo es que deje de funcionar.
+
+29:12
+¿Te deje, salgo y no sepas qué sí, YY es que además son horas interminables, EH? ¿De y ahora qué le pasa? Y ahora no arranca esto y ahora resulta que el cron no va y ahora resulta que no me abre los puertos, que se me ha caído el TFP, que es una pasada, o sea, yo no me metería en esos líos, yo directamente instalaría máquina nueva, se instala opensearch, se instala relock y ya está, que eso está hecho en una mañana.
+
+29:43
+Se instala, se se configuran los los eventos, se configura los la entrada se hace limpieza porque ya había visto que hay varias pruebas que hice en su día y bueno, pues se hace limpieza de todo, se con solamente instalando.
+
+30:06
+En la entrada en el puerto 500 inputs que esta es la que viene por defecto el puerto 514 vale, esta es la entrada de UDP de logs de UDP, por defecto es esta, tú instalas esta entrada, instalas los los alarmas y eventos.
+
+30:32
+O sea, notificaciones y eventos y ya está, no necesitas nada más y ya con eso ya arrancas después. ¿Qué habría que hacer luego? ¿Pues sobre todo el tema de alarmas de ventiladores que hay que quitarlos que es con un pipeline, pues y está quitando, EH? Quiero decir que está quitando pues 11 mensajes por segundo 10, o sea.
+
+31:01
+¿Está quitando bastantes eventos, ya está y si después quieres los dashboard, pues bueno, los dashboard son fáciles de hacer, EH? Son con editor, tú le puedes aquí añadir nuevos como eras. Sí, aquí puedes añadir aquí pestañas y entonces la forma en que tú tienes aquí un search si le haces el una búsqueda.
+
+31:34
+Por ejemplo, que sea, ***** vamos a buscar, por ejemplo, el SAR 320 eje. Vale, entonces aquí lo que se puede hacer es a partir de aquí exportar esta búsqueda de un dashboard. Entonces te vas al dashboard.
+
+31:57
+Y en el dashboard lo que haces es decirle qué tipo de genera un cuadrito de estos, pero a ver cómo era. ¿Edit, vale, entonces aquí le dices qué tipo de gráfica quieres, dónde sabes? O sea, la editas ya está y no tiene más, que tampoco suena nada complicado. Entonces cada 1 de estos tiene, pues está hecho de manera.
+
+32:27
+¿Quieres que que visualice el que quieres? Pues un un número o quieres un Word, map o web. Vale de dónde ibas a sacar la información para filtrar las columnas y por filas. ¿Si quieres hacer nada, qué quieres que haga? Pues que los cuente. Ya está aquí. No cuentas los de los que estás dropeando de las palm, no, no, se supone que no.
+
+32:57
+Que aquí están borrados y ya está. Y en streams con tener un solo Stream, vale, me di cuenta. Luego aquí hay varios, varios streams. No hace falta tener tantos con tener un Stream. Vale el al message con este tiene suficiente y después en configuración, pues.
+
+33:26
+Creo que va casi todo por defecto. Bueno, las while list. Aquí es donde tienes que decirle las APIS a las que vas a acceder. ¿Vale? Porque si no te va a decir que no tienes no estás autorizado. Para generar una alerta de tipo URL tienes que decirle que permites acceder a estas URLS.
+
+33:52
+Las la digamos que esto es la las las listas blancas de accesos a APIS Externas. La defines y ya la puedes. Utilizarlo no tiene mucho más y todo lo demás por defecto no tiene mucho más tampoco. Y después había una cosa que era importante, que eran los índices. Sí, aquí es donde defines cuán grandes quieren que sea. ¿Quieres dejar los?
+
+34:25
+¿Los índices de datos guardados en disco duro vale, el este es el que hay por defecto, entonces lo que hago es guardar 20000000 de mensajes, 1000000 por día? Pues unos 20 días sí.
+
+34:47
+¿Más o menos entre 15 y 20 días, depende como estén de cantores, los los equipos entre 15 y 20 días duran los los mensajes y a partir de ahí, qué hago? Pues lo borro, lo que hago es decirle todo lo que pase de 20000000 de mensajes, lo borras, no tenemos almacenamiento para más vale.
+
+35:07
+¿Puedes definirle cuántos índices quieres? ¿Cuánto tiempo los puedes guardar? Vale, puedes también definir estrategias del tipo vale, lo tienes por defecto, pero en vez de borrarlos me los pasas a otro índice de otra máquina que podría hacerlo, y ahí los dejas guardados un 1 año. Entonces yo tengo un almacén ahí de índices que yo voy a guardándome.
+
+35:31
+Entonces él cuando llega a los a los 20000000, genera un índice nuevo, empieza a contar desde el principio y el índice antiguo lo almacena. Eso también lo puede hacer. Vale, entonces bueno la estrategias ya cada 1 hace lo que lo que se necesite que pueda.
+
+36:01
+¿A ver en Edit y además aquí hay una dices cuatro, voy borrando máximo, vale número de segmentos? Vale, vale, vale, vale, vale, mira, ahora mismo está trabajando con tendremos 3 índices guardados.
+
+36:25
+Tiene guardados 69000000 de documentos en cuatro índices que ocupan 26 gigas. ¿Vale, qué hago con el cuarto índice? Cuando lo genero el último lo borro. Ay que estaba va el documento. ¿Se refiere a eventos o eventos? Sí, de todo tipo, pero aquí creo que también incluíamos los de.
+
+36:55
+¿Los del ventana, los de fan, no, no recuerdo ya entonces había 1 aquí, vale, aquí estamos, vale, aquí están los índices, ves? ¿Aquí está, ahora se está utilizando este índice de aquí y esto lo tengo aquí, estos índices los tengo guardados, ves con 20000000 de documentos cada índice, qué es lo que voy almacenando?
+
+37:27
+Ah, pues mira, estoy guardando cuatro, pensaba que era 1 solo, vale, pues ahora estoy guardando 80, hasta hasta 80000000 de documentos, pues mira, son más, más días. Vale, pues eso tengo, pues eso, 80, hasta 80000000. Ahora mismo hay guardados, te lo hice por aquí arriba.
+
+37:58
+Ahora está este índice que están en 9000000 de de mensajes guardados aquí y en total tengo guardados 69000000 de mensajes, vale, sí lo amplié, no, no recordaba esto y estoy trabajando con esto ahora cuando este se complete lo guardará y borrará este de aquí el Create Lock 63 lo borra.
+
+38:27
+¿Y aquí te dice, a ver si venía las fechas? Sí, bueno, es que en realidad, como no, no almaceno por fechas, sino por número de eventos. Bueno, si te dice que es desde hace 16 años hasta hace un mes y luego los otros, te pone ahí 16 días y 6 días. Sí, sí.
+
+39:02
+Desde 16, desde hace 16 años. Eso no, no, eso va a ser que no. O sea, desde el inicio, el inicio de los tiempos. Para él son 16 años hasta hace 6 días.
+
+39:19
+Y esto es hasta 16 días. No, no está, no, no, estoy muy coherente porque esto es porque en teoría el 44 tiene que ser más antiguo que el 45. Sí, más o menos bueno, el caso es que como lo tengo lo tengo por por cantidad de mensajes almacenados. Pues eso, que sepas que se están guardando alrededor de 80000000 de de registros. Esto lo que consigo es que más o menos el espacio en disco duro esté un poco controlado.
+
+39:49
+Vale, porque tengo espacio, el no está a tope porque este equipo ahora veremos la herramienta siguiente, que es graphana. Pero bueno, vamos a ver cómo está este equipo, el grade lock, sistemas grade lock que está aquí, vale, ahora mismo está al 30 y algo por ciento.
+
+40:12
+Pero el Grey lock tiene un problema, que es que cuando se desmadra hace cosas muy raras, a ver si encuentro algún evento de estos que se nos haya ido el disco. Bueno, aquí está, ves aquí genera, va generando índices y va borrando índices y hay veces que no, que se nos ha disparado, sobre todo al principio, cuando no, no, no lo tenía bien controlado. ¿Lo de los, lo de los índices, qué hacer con los índices cuando?
+
+40:47
+Cuando se producían y todo este tipo de cosas pues se iban almacenando y a veces nos llevábamos el susto de que se nos había llenado y tenía que ir borrando a mano, corriendo y bueno, así de esta manera conseguimos que funcionara y que él solito se se fuera borrando cosas.
+
+41:08
+Por lo que ves la información con disco duro un poquito más grande, el doble que lo que hay ahora. ¿Podríamos llegar a almacenar incluso hasta 1 año de datos? Vale, pues claro, son 80000000. ¿De cuántos días nos da ahora? ¿Calculadora?
+
+41:31
+80 / 1,5 más o menos nos da unos 50 y unos 50 días, 50 días calculando que podíamos llegar hasta el 50% de disco duro que estábamos hablando de sí 100 100 días, no triplicando el Disco duro podríamos almacenar 1 año triplicando el disco duro.
+
+42:01
+¿1 año de logs son muchos logs, o sea son, fue una barbaridad ahora en total cuánto tiene 80? Ah no de de disco duro ahora no sé, ahora lo tenemos en el no recuerdo de disco duro de Gigas cuántos tiene o 365 por 1,5 aprox. Necesitáis.
+
+42:29
+Almacenar alrededor 600000000 de mensajes vale, es el de 1090959, si no como aquí el usuario que toca mal vamos.
+
+43:05
+Vale DF menos. H, vale, tenemos 132 gigas de disco y se están usando ahora mismo 60 aprox. Un 30%. Yo te diría que pues eso, unos 500 gigas.
+
+43:33
+¿Con unos 500 gigas hay espacio suficiente para 1 año de de de Logs? ¿Pues nada y requiere poca máquina Eh? Porque estas tiene 2 c P u s no 3 c P u s usado no 1 c P u como 3 tanto por ciento CPU memoria pues.
+
+44:03
+Y es, pues ya está. ¿A ver, vale alguna duda sobre grelock lo que lo que recibes? ¿Lo que decían es porque les has puesto todos los routers, algún comando o algo? Sí, sí, todos tienen. De hecho, es 1 de los comandos que ya está en auditorías.
+
+44:34
+Y es el login. Entonces tú entras aquí en cualquier equipo, equipos, marca Cisco YPS modelo 920. ¿Vale cualquier equipo da igual, Eh? En el que entres hay un comando que es este de aquí sí que cuando lo configuras, cuando lo metes en entonces les descargas automático.
+
+45:04
+59. Este vale este. Con esto ya está este equipo. Cuando tenga un Love lo enviará a perdón.
+
+45:24
+Claro que si cambiamos, si actualizamos graphana, digo creylot con una máquina nueva y le ponemos 1 I p nueva y todo no, ya no máquina nueva no, el IP es la misma, esta le mantenemos no, pero pero si le cambiásemos la IP habría que relanzar un comando a todos para para cambiar esa línea. Bueno se puede, se puede lanzar un carayan Eh, quiero decir que le costaría una mañana sí, sí, sí, Ah, no estaba, estaba pensando en eso sí.
+
+45:53
+Yo no me complicaría yo la misma IP, esta se deja con otra IP con otra IP por si acaso quieres buscar a ver si cuando haces este tipo de maniobra sabes que vas a perder toda la información, con lo cual pues a ver exit exit me salgo de credito aquí, pues este mismo si me da igual.
+
+46:26
+¿Vale, este es el importante, vale? ¿Qué te dice? Pues que está APP y está. O sea, lo tiene el link APP y está enviándole mensajes. ¿Perdón, vale?
+
+47:00
+¿Ya tiene configurada la línea, o sea a este equipo a la 10:01 H 109 59 le estaba enviando, tengo el link up, vale? Pues ya está. Estupendo. Tengo abierto sesión con él y estoy enviando mensajes. Lo que pasa que últimamente no le ha enviado nada, pero bueno le ha enviado 57000 mensajes desde que está en marcha este equipo. Vale, todos los equipos tienen que tener.
+
+47:29
+Tienen que estar configurados las otras IPS que tiene ahí de mandar login. ¿De qué son? No lo sé, porque en algunos casos ya estaban configurados. Son logins antiguos, la 10, no 109, 13 y el 32 son equipos antiguos que habían de de lock. Que yo sepa, el único que de verdad se está consultando es este es el Grey lock.
+
+47:57
+Esto es como todo, o sea, si tienes algo que funciona, pues al final todo El Mundo acaba buscando la información donde sabe que está. ¿Y Grey Locke, las dos veces que se nos ha caído, miento? Se nos ha caído 3 veces, creo. Ya dos veces fui porque se dieron el disco duro, ya que.
+
+48:19
+Y eso fue culpa mía que no tuve en cuenta y se y ya te digo, no estaban bien definidas los índices YY la estrategia. Luego alguna vez creo que se colgó y además hace poco se colgó la máquina y dejó de recibía los mensajes pero no abría el web. La la parte web no te la abría. Estaba almacenando mensajes pero no se podían consultar.
+
+48:46
+¿Bueno, pues se reinició el servicio y ya está, tampoco hay más, es un servicio de Linux, se reinicia YY ha funcionado y ya está y no tiene mucho más, EH? Porque tampoco pide pan, no está aquí funcionando y lo único que estar al pendiente es pues que no tenga alarmas, alarmas. Aquí te lo dice esta, solamente tenemos una alarma que es la de la de la del que diciéndonos que está para. Hay que actualizarlo.
+
+49:18
+Pero no tiene alarmas de que está llenando el disco duro o que tiene algún problema con con alguna cola. O vale, no sé si quieres alguna cuestión más. ¿Ah, también tiene opción de trabajar en cluster Eh? Grey lock también puede trabajar con clusters de varias máquinas trabajando a la vez.
+
+49:49
+Lo que no recuerdo si en la versión gratuita se podía hacer o había que ir acudir a la versión de de pago es lo que no recuerdo, la API Browser. Bueno, esto no lo utilizamos, tiene una API. También vale que tú puedes hacerle consultas externas a.
+
+50:14
+A Game Lock, pues para que te diga por las los locks, por por equipo, etcétera, etcétera. Bueno, no, en principio se está ahí, pero no las hemos utilizado. Vale, vale, pues esto era gamelock, pues vamos a ver grafana grafana está aquí.
+
+50:53
+¿Herramientas grafana graylock es una máquina, es otra máquina, Eh? Y Graylock. Lo que pasa es que si entras por aquí, Fíjate que te dice que estoy accediendo a la máquina de fogo, pero no es verdad. Fobos tiene un un proxy inverso que lo que hace es preguntarle a la máquina de graylock la información, y entonces esto se hace porque.
+
+51:21
+Como para poder acceder a desde red corporativa, solamente está autorizado fobos. Entonces, si tú entras por red corporativa, no podrías ver ni el Grey Long ni grafana. Entonces los dos están configurados como un proxy inverso a través de fobos, pero en realidad son máquinas distintas con sus propios servidores web y sus propios servicios. ¿Vale?
+
+51:50
+Se pueden acceder tanto a través de Del proxy inverso como directamente las máquinas. La verdad es que como lo tengo en el menú, yo siempre entro a través del proxy inverso, o sea, no me complico para ver el servicio, pues también se puede acceder directamente a través de. O sea, se puede entrar a intentar entrar directamente a la IP, pero bueno, ya tienes que ir al puerto y es un poco más complicado.
+
+52:17
+Bueno, cerramos grelo y nos vamos a graphana en herramientas graphana vale esta herramienta lo que hace es gráficas. Básicamente. Entonces tenemos la parte de la parte de Influx.
+
+52:42
+Os la voy a comentar, pero no tiene mucho más que saber instalar influx YY saber y hay unos scripts y ahora os enseñaré a ver.
+
+53:22
+Esta máquina tiene usuarios locales. Esta máquina no tiene usuarios de dominio. Vale y creo que era la. 59 y esta es la A punto 58, no 58. Sí, grafana es la. 58. Primero que nada, todos los equipos tienen que te autorizarla la 58 para poder entrar por eso en MP, entonces en todos los equipos de la red.
+
+53:49
+Tiene que tener varias líneas, que son 109, 58. El Access list de gestores es el MP. Tienes que tener permitida la 10:01 H 109 58 y la 10:01 H 109 161. ¿Esto es fuegos y esto es esto, esto es la fana, vale, qué más hay que tener? La community esta de aquí que es estándar para todos, la que utilizamos como readolly.
+
+54:18
+Y ya está, no necesitas más, entonces esto no, esto son las pruebas de 500, 40. Vale lo primero que hay que hacer, a ver si tengo alguno memorizado aquí en SMP walk. Vale, es ver si a un equipo llegamos, vale por SMMP.
+
+54:57
+Entonces vamos a coger cualquiera de estos, me da igual este de aquí mad, tendré que mirar cuál es la IP la 10:42 H 128 dos. Hay otra forma de hacerlo aquí ya lo vimos el otro día, pero bueno, 1042 esto ya no me acuerdo, 128 dos era no me he fijado. Bueno, ahora lo pondremos si no lo miro.
+
+55:26
+Hay que interrogar, primero que nada en versión dos CY voy a poner bien la la IP porque seguramente me estoy equivocando 10421282 vale, voy a ver qué voy. ¿A qué funciona esa MP? Pues si no funciona, vale, sí que funciona.
+
+56:00
+Ah, vale, no, la la Comunidad es la que no está bien, vale, vale, a ver, seas name. Ah, vale que aquí no está, vale, aquí nos hay que hacerlo poroides, da igual, no importa así, lo que hacemos es extraer.
+
+56:24
+O sea ver que que fobo o sea que grelo miento que grafana llega a los equipos por SMP. ¿Vale, hay otro comando que es el que se utiliza luego para extraer las estadísticas, que es que es RP table vale este de aquí con esto?
+
+56:52
+Lo que hago es extraer las estadísticas de tráfico de ese equipo. Entonces el equipo lo que me devuelve es una tabla con los contadores de cada puerto, de cada interfaz. Me hice de todos los paquetes de entrada, paquetes de salida, errores, etcétera, etcétera. Está está APP está down. ¿Todo esto me lo devuelve el equipo y es bastante rápido, Eh? Mira, lo que tarda, ya está.
+
+57:23
+Entonces en user Bean hay programados unas colas para XEY para XR. Vale, vamos a coger cualquiera de ellas colas a ver XR. Ah.
+
+57:59
+¿No sé las programación, Eh? ¿Esto y lo que hago básicamente es le hago un ping, miro a ver qué tipo de software es, si es un software XRY le hago un get los get de la temperatura de miro a ver la memoria, vale? Y aquí la hago en SMP World, que es lo que hemos visto ahora.
+
+58:26
+¿Con esto se me me devuelve la tabla con toda, con todos los datos de tráfico de errores, tráfico Estado está stardown, vale? Y lo que hago es tengo aquí. Hay un problema, a ver si me me explico.
+
+58:53
+Aquí me está devolviendo el número de paquetes, vale de desde que el router se se encendió son contadores de 18 bytes, me parece, con lo cual la información que guardas es brutal. Entonces estos contadores van subiendo, etcétera, etcétera, etcétera, con lo cual guardar toda esta información.
+
+59:18
+Para todos los equipos en ninflux era una barbaridad porque generaba una cantidad de basura tremenda. Incluso los equipos que no tenían tráfico también había que guardar ceros. Los que están ahora lo que hago es los que están en down, los ignoro. Todos los esfuerzos que están en Down no les hago ni caso. Guardo un cero y se acabó y a partir de entonces ya no vuelvo a guardar más ceros.
+
+59:48
+Y en my s Q L a ver si soy capaz de explicarme porque esto es un poco. Tengo un servidor de my SQL en el servidor de grafana, ahora lo lo voy a abrir. Grafana vale, entonces en Grafana tengo instalado en my SQL.
+
+1:00:22
+Este no este de aquí está la medida. Medidas vale 87000 puertos. ¿Qué es lo que hago? Cada vez que yo Leo un puerto, miro a ver los paquetes, los paquetes que he leído la última vez que lo consulté. ¿Vale entonces a partir de la medida?
+
+1:00:51
+De paquetes que yo almacené cuando en este momento la diferencia que hay entre los paquetes que estoy leyendo ahora y la diferencia de de tiempo respecto a la última vez que los leí. Yo puedo calcular el ancho de banda de tráfico durante este periodo de tiempo. ¿Me explico? Sí, más o menos sí, claro, es una medida y.
+
+1:01:20
+Equis y la siguiente sigue siendo equis, pues el entonces ha crecido, es cero, entonces no ha tenido tráfico, no ha tenido tráfico, entonces en hay muchos casos que sí tienen tráfico, vale, entonces en este caso pues vamos a ver este de aquí, vale, este de aquí suma por más esto es de aquí, entonces lo que hago aquí vamos a.
+
+1:01:49
+Vamos a coger un equipo sencillo, sino al 3400. No me he equivocado, no ay perdón. Los 3400 no se se hacen solamente por defecto todos los 920, o sea, todos los x 6 y todos los x R no se hacen los iOS normales, no se interrogan.
+
+1:02:17
+Porque hay muchos, 3400, algunos son de tráfico, pero hay muchos también de gestión. ¿Entonces no tiene mucho sentido eso almacenar datos de de estadísticas de tráficos de equipos de gestión donde Ah, perdón, digo, tenemos sitio, me he equivocado, vale, entonces yo en vez de en en cada interfaz, vale?
+
+1:02:45
+Este de aquí, por ejemplo, en vez de guardar estos contadores, cada vez que yo Leo la información que es cada 5 minutos o cada 10 o cada 15 minutos, esta información tendría que guardarla en la base de datos cada vez y yo lo que hago es calcular el ancho de banda en megas, vale en Megas y el tanto por ciento respecto al interfaz.
+
+1:03:13
+Porque aquí una de las cosas que me dice es la velocidad de línea de la interfaz. Vale, entonces yo tengo aquí la velocidad de línea de la interfaz y tengo el número de paquetes de entrada y de salida, con lo cual yo yo con eso puedo calcular por un lado los megabits de tráfico durante ese periodo de tiempo, que pueden ser 5 minutos o 10 minutos, y además tengo el porcentaje de utilización de la interfaz, con lo cual lo que guardo es esto.
+
+1:03:42
+No guardo este numeraco, de aquí tendría que guardar los numeracos y además las velocidades de línea en cada momento, con lo cual al final lo que guardo simplemente es el los megabits y el porcentaje y ya está y las gráficas se calculan todo en base a esto, con lo cual conseguimos un ahorro de espacio brutal.
+
+1:04:12
+Vale, me he explicado, no sé, sí que te he cogido el carnet, pero no sé sí. ¿Ahora cuando yo una ahí sí que tienes ahí sí que tienes medidas guardadas, no? Sí, pero yo solamente tengo una medida guardada para este puerto, que es el último que he leído.
+
+1:04:38
+¿Porque yo una vez ya he calculado esto, qué hago? Machaco el Giga 008, le digo la nueva medida de paquetes y la y la nueva medida de fecha. ¿Vale, y entonces qué consigo con esto? ¿Que los digamos? Lo que es la información extensa solamente la guardo una vez para este puerto. No tengo que guardar todo el histórico de veces que he medido esta información en este puerto.
+
+1:05:08
+De hecho, si si actualizamos y ahora esto ya ha cambiado y aquí ya vale, entonces yo solamente guardo esto para un puerto, no guardo todo su histórico vuelvo a leerlo, pues modifico YY aquí meto la última medida del último periodo de tiempo.
+
+1:05:34
+Vale, y lo que guardo en influx solamente es la información pequeña que es esta de aquí solamente guardo esta que es la utilización en porcentaje y la utilización en megas y entonces a la hora de hacer una gráfica en Grafana yo defino vale en influx.
+
+1:06:03
+Y luego ya vemos a ver que las que las faltan. Bueno, no lo sé porque hay que mirar el listado es el yo tengo definidas una serie de bases de datos nuflux vale, y en este caso la cual estoy guardando ahora mismo todo te lo digo, telemetría era, no lo sé, está aquí.
+
+1:06:30
+Vale, es telemetría, la base es telemetría, vale aquí telemetría es donde estoy guardando ya aquí es que hay muchas bases de podéis ponerte un mute que tenemos. ¿Vale, gracias, vale, digo Gus en Influx te hay muchas bases de datos, vale?
+
+1:06:58
+Muchas que hemos hecho pruebas, otras que son secundarias que se utilizan para otra cosa. Por ejemplo, para el Tetra de Navarra tienen su propio Telemetría porque necesitaban ellos acceder a una información externa. Hemos hecho pruebas con con Cisco MTD MDT que no funciona, pero bueno, aquí están las bases de datos donde estamos almacenando esa información. Estamos también almacenando la información de shock, vale, eso son bases de datos por separado. Lo que es la de cellnex ahora mismo es telemetría.
+
+1:07:26
+Hay una que es telemetría y otra que es latencias, que las latencias también es. Guardamos la información aquí para también sacar gráficas, que es el tiempo de retardo de entre entre las yacencias o s, P, F que también las calculamos. Vale lo que nos interesa así, gordo es la parte de telemetría, que es donde está toda la información de tráfico. Vale, pues ya tenemos.
+
+1:07:51
+Ya hemos interrogado los equipos, hemos averiguado cuáles son los anchos de banda que se que se están consumiendo en cada 1. Fijaros en una cosa, Fíjate que una de las cosas que guardo son los service stands, es decir, yo también estoy sacando por service Systems o por sub interface. Es el tráfico.
+
+1:08:18
+Que eso lo que quiere decir es que, como todo, cualquier servicio va a ir por un service stance. Yo puedo saber tener las estadísticas de tráfico de los servicios. También tengo los interfaces, pero además también tengo los servicios, lo que están consumiendo cada servicio. Vale, vale, pues una vez tengamos esto, pues nos vamos a Graphana grafana más o menos como es estructura. Es que aquí puedes entrar también en modo invitado.
+
+1:08:47
+Vamos a entrar, si acaso con modo invitado, y así vemos la parte, digamos cliente normal. Entonces lo más sencillo es esa aquí al al explorador de y aquí tenemos la parte de circuitos que son los circuitos tewi que no sé qué estadísticas estaban cogiendo.
+
+1:09:17
+Ni idea, vale, solo hay esos circuitos. Sí, es que esto muchas veces Manuel que hace también hay gente. Manuel también entra, se ha creado, se crea sus propios, sus propios dashboard, aquí cosas mías y cosas que no son mías. Vale PIN delay, por ejemplo, esto es lo de los retardos.
+
+1:09:43
+Entonces aquí tenemos información de los retardos de todos los de todos los equipos y los interfaces. Entonces tú, por ejemplo, el otro día vimos que habían soportes no de circuitos alquilados. ¿Y cómo se guarda en Grafana? Pues mira, te vienes aquí dices, vale, pues sácame los puertos que tengan esa descripción, que son circuitos alquilados.
+
+1:10:14
+¿Entonces, mira, te vas a este equipo al 920 Bim Giga 004 puede estar en en 1 o en el otro, EH? ¿Perdón, el aco 920, cómo en 1 o en el otro? ¿Sí, ahora ahora te explico, no tengo ninguno, vale?
+
+1:10:41
+Los soportes tienen dos extremos, vale, el 004 es el Cadiz este de aquí. Entonces Fíjate, en este caso no tiene ninguno de los dos, ni origen ni destino. En este caso no se está cogiendo telemetría, vale, pues entonces un mal ejemplo. ¿Yo aquí le puedo decir la telemetría, si la cojo de origen o de destino, vale?
+
+1:11:09
+Vamos a ver 1 que ya se esté haciendo, que así lo vemos a ver, 1 que se esté haciendo, vamos a soportes, buscamos un soporte de alquilados y se lo vamos a tener la telefónica este aquí no, tampoco es que tiene que ser alguno de los que se esté sacando telemetría para para los uy.
+
+1:11:38
+¿Telefónica, que si no lo miro, Eh, que tengo por aquí varios, vale servicio alguno de los alquilados o no de de la, pues aquí vamos a tener alguno, vale este de aquí, por ejemplo, este está telemetría o vale en origen?
+
+1:12:17
+Entonces el origen es que se está cogiendo de este de aquí la telemetría. ¿Entonces si me voy aquí a artxanda, no sé si estoy mezclando ya cosas, no? Pues tampoco a ver cuál. ¿Ah, espérate, que esto son atencias, vale?
+
+1:12:49
+Esto son latencias, latencias. Es que no este perdón porque me estaba yo estaba yo se me estaba yendo el cerebro para otro sitio donde no toca, vale, esto es las adyacencias de nivel 3 o s p F están haciendo pings.
+
+1:13:27
+Entonces es que esto es otra cosa, ya he estado yo mezclando cosas, yo me voy aquí a servicios, buscar servicios. C n 3 P. ¿Alguno que esté?
+
+1:14:00
+¿Lo que no sé si están cogiendo todos, solamente los alquilados, copiar circuitos alquilados, vale? Solamente se están cogiendo los que tienen circuitos alquilados. A ver si nos pasa por aquí alguno que tenga alquilado.
+
+1:14:59
+A ver, servicios, buscar servicios, no soportes. Es que esto es un poco complicado. A ver si no metemos la pata. Vale este sí, creo.
+
+1:15:21
+Este circuito alquilado telefónica tiene una adyacencia en cn 3. ¿P entonces este en teoría y si no tendría que mirar SIM, cuáles son?
+
+1:15:56
+Pues mira, no lo sé. ¿Por qué ahora? ¿Por qué se están haciendo estas gráficas aquí ahora? O estas eran las primeras que hicimos, si estoy yo confundido, vale, Ay, vale, es que me he confundido yo ahora sí, vale.
+
+1:16:33
+Si nosotros aquí en el que estamos aquí ahora el soporte es cargarse de ocupación, no están que añadirlo también mira.
+
+1:17:12
+Venga 1 que venga se limpia, vale este sí, mira, si yo busqueo es que es la esto es la las latencias antiguas. Esta es que aquí hay un lío, también hay que hace una limpieza importante aquí en circuitos alquilados ya no se sacan por aquí, vale, hay que venir aquí a latencias.
+
+1:17:40
+Y aquí sí que lo que se saca por por código servicio, que es el CAD, di este de aquí, vale, es este de aquí que corresponde. Vale a este circuito alquilado. A ver, que quite este de aquí, que no me moleste. ¿Aquí solo hay cadis, EH? Solo hay circuitos. Cadiz aquí, claro.
+
+1:18:09
+Porque yo que lo que necesito ver es la el retardo en los circuitos alquilados y la forma de verlos, que es cuando un circuito alquilado. Lo que hago es mirar a ver si tiene 1 C, n 3 P dentro que debe tener aquí 1 c n 3 P vale, entonces yo tengo circuitos punto a punto a través de este circuito. Entonces puedo hacer pins de un extremo a otro.
+
+1:18:39
+Como yo tengo esto aquí a través de este soporte, entonces lo que lo que puedo hacer es pings de un extremo a otro y entonces hago esta gráfica y además también tengo las caídas USBF que ha sufrido este soporte porque por encima de este de esta adyacencia tengo un.
+
+1:19:06
+¿Tengo un nivel 3, entonces puedo hacer pins y puedo puedo entonces la forma? Esto es exactamente lo mismo que venirse aquí al soporte, no soportes, cualquier soporte de estos alquilados y entonces sacar la gráfica de.
+
+1:19:35
+De latencia de este soporte. Vale, entonces es toda esta información, está en la base de datos de Latencias la que estaba en influx. Ahora veremos cómo se configura. Vale, está aquí debajo que está de aquí no está, no está de aquí, esta habría que borrarla. Latencia es tabla top, es que aquí es una, simplemente lo que nos dice es.
+
+1:20:04
+Uf, los últimos 6 meses no vamos a hacerle últimos 12 horas. Vale, en las últimas 12 horas ya es el que más, el soporte que más latencia tiene suelen ser los de los de Canarias, o sea, tienen una media de 28 milisegundos, que esto es seguro que es una de Canarias. Vale Tenerife, Madrid. ¿Tienen latencias altas estos?
+
+1:20:31
+Estos soportes vale equipos, aquí es donde hay muchos. ¿Perdona Víctor, Dime esto, cómo cómo lo calcula esto? Sí, pues nada, tú le dices, vale, es que tengo que logarme como yo.
+
+1:21:01
+¿Sing out, te lo explico y así a mí vale, nos vamos a latencias, por ejemplo, que es este es de latencias, entonces esta gráfica vamos a coger un soporte, este mismo va a haber alguno que tengamos datos, vale?
+
+1:21:32
+¿Esto es vale? Entonces lo que le digo es de la base de datos e influx de Latencias. Vale, yo estoy guardándome 1 de los campos que me guardo en la base de datos de Latencias es el soporte. Entonces simplemente le digo que me haga la gráfica del de los soportes y ella ya lo hace todo porque el soporte lleva un asociado.
+
+1:21:58
+Que es un campo que se llama la atencia y que y digo que me lo agrupe, o sea, que me lo haga en función del intervalo. ¿Entonces yo le digo que me haga una latencia de los últimos, yo qué sé de 90 días, vale? Pues entonces ya me saca los datos, yo lo puedo ver en este formato. O puedo verlo en formato datos a ver cómo era, pero la latencia cómo la calcula, le va el equipo le va mandando la.
+
+1:22:27
+No, no hay un hay un script aquí a ver, hay un script que lo que hace es hacer pings. Vale, entonces hay unos de esta script que lo que hace es buscar circuitos alquilados. Vale, después del del del circuito alquilado. Lo que hago lo que hace es buscar las IPS de los dos extremos.
+
+1:23:03
+Coge el equipo correspondiente, cojo el equipo correspondiente, le hago un telnet que está aquí. ¿Todo esto lo hace grafana? Sí, sí, esto es lo que hace grafana. Le hago un telnet y entonces lo que hago es hacer un Pink en rebonable le hago un Pink, le hago dos pins, primero 1 para que Levante los a rps y luego le vuelvo a hacer otro PIN.
+
+1:23:34
+Y en función de lo que le digo, pues búscame lo que lo que me contestas. Cuánto tiempo rate is es lo que ha tardado en contestar el Ping, entonces eso lo guardo en la base de datos de Latencias y ya está y esto lo hago cada hora. Entonces si yo hago un telnet, Ah, Ah, perdón, esto se me ha cerrado.
+
+1:24:02
+Vale, hago un tennet a este equipo a a ver, no voy a tocar nada aquí al CAS 920 TRU.
+
+1:24:31
+A ver, show interfaz giga 005. Vale, entonces lo que hago es un Bing a la 10:21 h cero 45, primero le hago 1 y luego le hago otro perdón. Ah, se me ha tocado, vale, no pasa nada.
+
+1:25:06
+¿Es que el primero tarda un poco, Eh? Por temas de RP el primer Pink, si hace rato que no, que no lo haces un Pink puede ser que tarda unos milisegundos más de lo que toca. El segundo, como ya tiene las tablas de RP cargadas, es ya es más vale. Entonces miro a ver el porcentaje y miro a ver el tiempo que tarda, entonces cojo el del medio. Sé que de media ha tardado 5 milisegundos hacer estos pins aquí.
+
+1:25:36
+Y el mínimo entre cuatro, 5 y la media es de 8. ¿Vale? Bueno, pues creo recordar que yo cogía este de aquí, el del medio, el average tenemos el mínimo, el máximo y en la media vale, pues cojo en la media de esos 5 Pins que le he hecho y eso es lo que guardo en la base de datos de influx cada hora. Entonces cuando yo quiero sacar.
+
+1:26:01
+¿Un una gráfica, el soporte, lo único que digo pues de de de la base de datos de Latencias es que es a ver, es que esto sería más un curso de graphana vale entonces latencias? Vale, tengo una variable que es soporte para eso me dibuja esto de aquí.
+
+1:26:32
+Vale, entonces yo le digo que tengo una variable que va a ser esta y que esta información me la va a sacar de esta base de datos. Entonces ya me dibuja el cuadrito para poder seleccionar las latencia, el soporte, porque yo guardo el soporte y el tiempo de latencia.
+
+1:26:52
+Y eso se genera para para lo que es la query. Y una vez ya está la la el dashboard y una vez ya está, pues entonces tengo que definir las queries. Defino la query y defino qué tipo de gráfica quiero dibujar y ya está. Es que esto es un curso de de grafana. Yo creo que se escapa un poco a esto no, pero bueno, no sé si valdría la pena que os explicara un día así grafana en profundidad, pero.
+
+1:27:21
+Si alguien va el que tenga que utilizar grafana, pues que haga un curso de grafana. Es que es a ver, es es sencillo, pero explicarlo a lo mejor es un poco y encima yo me explico fatal, pues para nada, o sea lo quien tenga que tocar esto queda un curso de grafana porque es que grafana tiene muchísimas opciones, muchísimas posibilidades.
+
+1:27:49
+¿Nosotros lo que hemos llegado a tener en Grafana es pues a base de hacer pruebas, pruebas y bofetadas y errores, o sea, y esto cómo lo hacemos? ¿Pues ni idea y te pones a probar y te pones a hacer y al final pues así está, no? Que hay un montón de dashboards que se tendrían que limpiar. Aquí hay un montón de dashboards que se tendrían que limpiar porque ya no se utilizan porque se empezamos a a trabajar de una manera. Vimos al principio almacenábamos los paquetes.
+
+1:28:18
+De todos los equipos empezamos a almacenar paquetes. También es verdad que al principio solamente almacenamos algunos XRY, algunos 920 puntuales. Bueno, no había un no había problema en en almacenar la información porque total estábamos revisando 100 equipos, vale, luego empezamos a meter más equipos XR, empezamos a a decir bueno, pues los 920 podíamos meterlo todo entre unos y otros. Ahora mismo estamos interrogando unos 2000 equipos.
+
+1:28:49
+Cada 10 minutos por el número de paquetes de cada interfaz. Pues imagínate la cantidad de información que es eso. O sea, se nos iban las bases de datos aparte, era lentísimo. Al final tuve que inventarme una solución, que fue la de la de traducir el los paquetes a megabytes y y a través de My SQL para simplificar la información. Entonces, bueno.
+
+1:29:18
+¿Dónde está la información ahora? Pues estos habría que borrarlo, esto habría que borrarlo, esto habría que borrarlo. Quiero decir, ahora, al final están todos aquí, datos, equipos, nuevo modelo, aquí están todos los equipos, todos los interfaces XRYYYYXE algunos 3400.
+
+1:29:42
+Que ya vimos cómo se hacía. Y si no, ahora lo recuerdo, vale, entonces cogemos un equipo y el puerto que queremos monitorar. Si lo marco todos, pues todos. Entonces me saca la información de todos los puertos. Los que ponen no data. Es que estos puertos seguramente están en Down, entonces los que están en Down no cojo datos.
+
+1:30:13
+¿Y los que están en APP? Pues esto es una, esto es un service instant. ¿Entonces tengo el tráfico, el gigas, el 1235 este de aquí por ejemplo, vale, este es el servicio, lo ves? Esto es lo que aparece en la descripción del puerto.
+
+1:30:42
+Vale, entonces por esto interfaz, yo sé que esta es la descripción del puerto y tengo este tráfico. ¿Y aquí qué puedo hacer? Pues puedo hacer, por ejemplo, gráficas cada 24 horas, o sea, perdón, yo qué sé cada los últimos 30 días. Esto hay que tener cuidado porque a veces se raya un poco y de repente pierde. Vale y nos saca la gráfica de de los del interfaz durante los últimos 30 días. Tenemos la disponibilidad que es decir.
+
+1:31:11
+Las veces que le he hecho ping al equipo antes de interrogarlo y me ha contestado o no, en este caso pues aquí no me ha contestado. Aquí no me contestó el equipo y se perdió la gestión durante un ping. A ver si es un ping, pues tampoco tiene más importancia. Aquí puedo ver si los equipos están fallando mucho o no la CPU como estaba la memoria y la temperatura del equipo, esto es al principio que te enseñan los scripts que tenía algunos gets.
+
+1:31:41
+Me genera esto y después la información del tráfico del puerto, pues de todos los puertos. ¿Cómo lo hago? Pues fácil. Aquí hemos visto que en las variables aquí utilizo dos, equipo y puerto, y le digo, pues la primera variable va a ser equipo y la segunda variable va a ser puerto y además el puerto va a ir en función del equipo. Entonces yo tengo un primero que nada, la base de datos de Telemetría, le digo que.
+
+1:32:10
+Me extraiga todos los equipos y después le digo aquí. ¿Entonces me me hace este cuadrito de aquí, vale? Y le digo, además, quiero que me saque los puertos, pero quiero que me saque solamente los puertos del equipo, que yo he seleccionado arriba al lado, en en el equipo y entonces me dibuja esto de aquí.
+
+1:32:35
+¿Entonces yo cada vez que cambio de equipo lo que hace es redibujarme y decirme qué puertos tiene ese equipo dentro de la base de datos de Influx? Vale, entonces yo dado este equipo yo ya tengo la CPU, por ejemplo, yo tengo una variable que es equipo, pues ya la utilizo y le digo que de la de Telemetría me saque la CPU cada 5 minutos, que es otro campo que yo estoy almacenando.
+
+1:33:02
+¿Donde el equipo sea la variable equipo y ya está y me y durante el periodo de tiempo seleccionado por defecto el Time Interval este de aquí el que esté utilizando en el dashboard y me dibuja esto de aquí la CPU tal y aquí el tráfico pues el tráfico es lo mismo solo que tengo el RXY el TX vale?
+
+1:33:30
+¿Tengo tengo dos campos para un para una estadística de tráfico, tengo el tráfico de recepción y el tráfico de transmisión, y entonces digo donde el puerto sea el puerto de la variable puerto y donde el equipo sea la variable equipo de la base de datos de IFE suma y que está en Telemetría New, pues me extraigas toda esta información, vale?
+
+1:33:58
+No tiene mucho más a la hora de hacer gráficas, requiere experiencia y requiere perder horas al principio en ver cómo se hacen las cosas y ya está. No requiere mucho más. Por ejemplo, aquí tienes un montón de parámetros que tú puedes decirle, el color de las coordenadas, el color de que estás dibujando si quieres que te haga 3 hold. Si no quieres que te haga 3 hold si quieres 1000 opciones.
+
+1:34:27
+A la hora de dibujar una gráfica, una vez ya tenemos el dashboard confeccionado, me va a salir de aquí porque no quiero guardarlo. Pues ya los usuarios tú les das permiso porque está aquí la administración de usuarios. Aquí estaba, aquí administra los usuarios les das permiso a cada.
+
+1:34:57
+¿Esto es importante que son los datasource, que aquí es donde telemetría new donde está sistemas tetra de la Barra Servidorescientos 20, aquí está, vale?
+
+1:35:23
+Esto es el alias que voy a utilizar dentro de de de grafana, pero mira la base de datos de Influx, que es la que voy a utilizar, que es donde estaba almacenando los datos. Los los datasource se definen y ya está. Hay un montón de datasures definidos, algunos se utilizan, otros no hay que mirar.
+
+1:35:51
+Porque algunos están obsoletos. Estos de aquí, por ejemplo, ya no se utilizan. Se utiliza el del Telemetría New que está aquí abajo, este no se utiliza, este sí el de telemetría de shock, porque tenemos también la shock. También estamos sacando ya tráficas de tráfico. Entonces, para shock, hemos visto que teníamos unos scripts adrede para ellos.
+
+1:36:20
+En el que tú pones el equipo de shock que quieras sacar. ¿Miras a ver los puertos que hay para sacar las estadísticas de tráfico de todos los puertos? Vale, también tenemos dentro de shock estos. Para ellos era importante que es el nivel de recepción de de los de los FPS.
+
+1:36:51
+Vale, entonces esto lo hace cada una vez al día. Mira a ver el nivel de recepción del S FP para ver que no hay degradación. Hay veces que se van estropeando y entonces van perdiendo campo, o a veces que por ejemplo, una fibra se va estropeando. Le han pegado un hachazo por ahí lo han dejado medio tonta.
+
+1:37:16
+Pues puedes ver que a partir de un momento determinado, pues baja el nivel de recepción de óptico. Pues esto se está haciendo con un script que hay aquí. Normalmente cualquier gráfica así un poco extraña que está en grafana tiene que tener asociado un script que almacena datos. ¿Cómo se ha hecho esto? Pues te lo.
+
+1:37:47
+58. Perdón, vale, no quiero todo esto, estoy en es que estoy en vale. Se llama potencias FP shock. ¿Vale, entonces cómo se hace? Pues.
+
+1:38:18
+¿Lo primero que hay que hacer es hacer el Script, eso es lo primero que bueno, primero que hay que ir, sobre todo cuando te dicen, quiero una gráfica que haga esto, vale? Lo primero que tienes que tener claro es decir cómo consigo la información, dímela. O sea, yo tampoco puedo ser un experto en todos los temas mundiales. Cuando alguien te dice quiero 111, tabla que me saque esto, lo primero que te tiene que decir es cómo vas a sacarle esa información.
+
+1:38:45
+Vale, en este caso es ejecutando un comando dentro de los routers que el comando estará por aquí. Así show interfaz tras saver vale, y dentro del show interfaz Trade saber todos los que empiecen por TEN. Vale, entonces lo que hago es buscar el campo con este a nivel de paso se hace con programación.
+
+1:39:13
+Y entonces lo que extraigo es el nivel de recepción, pues en este caso lo que se hace es se hace un split, es decir, se ejecuta algún comando cuando aparece 1 t vale, vamos a hacer un show, empezar Astra saver, vale, o sea son telnet.
+
+1:39:48
+Bueno, no sé si podré entrar por telnet 0 8 0 1 y e s W 0 9 0 7 Smart cero luego interfaz translaver pude.
+
+1:40:28
+Vale, vale, entonces me está dando la medida de temperatura y de recepción. ¿Qué hago en el Script? Pues cuando me llega a esta línea miro a ver que tenga que empiece por t.
+
+1:40:45
+Lo parto en Cachos, es decir, esto es un campo, esto es otro campo. Entonces le digo, pues búscame el campo, el cero, el 1, el dos, el 3, el cuatro, el 5, pues el campo 5. El valor que tú tengas en el campo 5 me lo almacenas en la base datos y ya está, entonces yo en la base de datos iré teniendo un una serie de de datos de históricos de la medida de la potencia recepción de cada SFP.
+
+1:41:14
+Y eso lo guardo aquí. Y entonces cuando voy a hacer la las Board, lo que hago es, defino la base de datos. Evidentemente defino la base de datos en Datasource. Tendré aquí una base de datos de shock. Vale, telemetría, shock dentro de telemetría, shock. Tendré una tabla en la que estoy guardando la vale latencia shock.
+
+1:41:44
+La base de datos, algo así vale y entonces lo que hago es tengo. Hemos visto la variable equipo y la variable puerto es exactamente lo mismo. Y entonces lo que hago es tengo un campo que es RX power, que lo que le estoy diciendo es dibújame la gráfica de la RX Power y ya está. Y aquí en función de la se hace una vez diaria esto entonces en función de.
+
+1:42:13
+En función del del periodo de tiempo lo que hago es dibujar el si cojo solamente un puerto. Lo que tengo es esto de aquí que es la gráfica, la descripción del interfaz y durante este periodo de tiempo, la media, la máxima y la mínima son operaciones matemáticas que me permite hacer.
+
+1:42:44
+La fana, o sea, le digo que me saque la media del TRX power, la máxima del del RX power, perdón, y la mínima del RX power. Vale, entonces esto quiero que me lo dibujes. Es una tabla cuadradita muy mona y esto lo defino aquí. El tipo de El tipo de de panel.
+
+1:43:03
+Digo pues que es un diagrama de barras, o si es una tarta o si es una tabla, pues yo lo defino aquí. ¿Qué es lo que quiere dibujar? Cómo le doy todos los datos de de si el automático no quiero automático, lo quiero forzar, quiero que aparezcan con colorines, quiero. ¿Bueno, eso ya es una serie de datos, vale?
+
+1:43:29
+Y entonces me dibuja la la gráfica o me dibuja esto de aquí a la tablita o me dibuja la descripción. Esto estará sacando la información a ver dónde coño está sacando esta de la base de datos de my SQL. ¿Yo puedo hacer cosas de estas, vale? Es decir, yo dentro de un dashboard puedo consultar sobre la tabla de influx.
+
+1:43:57
+O puedo hacer una consulta a la base de datos de Fobos para que me saque la descripción de este equipo y este puerto y yo puedo poner consultas en SQL por a a doquier, entonces yo simplemente lo que tengo que hacer es añadir paneles y en el panel le digo, pues aquí quiero una consulta de este tipo y me lo dibujas de esta manera y ya está, y Así pues se van confeccionando los dashboard.
+
+1:44:27
+Entonces, luego pues se pone el nombre correspondiente. Ya has visto que hay y aquí vale, esta por ejemplo, está en menos 40, o sea que esto está más cortado o está a punto de cortarse. De hecho, se ha cortado venga los últimos 90 días, está cortado directamente.
+
+1:44:56
+Sí, tiene media mediana y máxima y todo ponía nul, sí, porque ahora más tiempo que está cortado ya aquí este tiene datos, 24 horas. ¿Los últimos 6 meses, por ejemplo, está estable en menos 25 durante el último año, no? Perdón, los últimos 6 meses está estable, entonces la.
+
+1:45:25
+El periodo durante el que se guardan los datos en Influx vale, es 1 año, lo tengo yo definido de 1 año, entonces ya lo verás, al año se borra, o sea, los historiales de tráfico, todos los historiales a partir de 1 año. Esos datos se borran, entonces este de aquí.
+
+1:45:54
+Pues fue que tendrá datos desde hace menos de 1 año. ¿Vale, lo ves? O sea, estaba funcionando aquí a menos 6,5 y aquí se cayó del día 7 del 3 y aquí el día 7 del 3. A ver, esto es a las cero y a las 6:00 H de la mañana.
+
+1:46:24
+Se cayó. Puede ser que la pagaran entonces cuando deje de tener datos, pues dejara de aparecer en el top. ¿Entonces aquí en latencia, shock el top me me he ido, no, no sé dónde me he ido aquí en shock, vale?
+
+1:47:07
+¿Latencia, shock top latencia si lo tengo 1 año, pues estaba mirando esto el top de ópticos, vale?
+
+1:47:39
+Si le digo los últimos 3 meses como los últimos 3 meses, no tengo datos de ese de menos 40. Vale, pues no me aparece, me explico tú, tú aquí le seleccionas el periodo de tiempo que quieres que te saque el top. Si quieres sacar el top de las últimas 24 horas, pues nada, por las 24 horas y ya está.
+
+1:48:03
+Y en las últimas 24 horas el que ha tenido más sea menor. La media más baja es este. ¿De aquí lo que habría que mirar es por qué? Pues te vienes aquí le dices, vale, pues ha cambiado en los últimos 90 días, pues también se ha caído de 10 a menos, 30 a menos 28, pues o o le han pegado una patada a la fibra o algo le ha pasado.
+
+1:48:33
+Y además aquí tienes el día que se que ocurrió a las 12. El día aquí es cuándo se hace el PIN. No quiere decir que se cortara en ese momento. Vale, vale, aquí se hizo un PIN, o sea se midió la latencia. ¿Me daba este el nivel perdón de de recepción óptico, aquí se midió esto y aquí se me dio, o sea, entre esto y esto algo ha pasado en medio, vale?
+
+1:49:04
+¿Vale, qué más te os puedo contar de son las 2:00? H, ya sí, vale, hoy hoy estoy en la ofi y tengo que salir a comer, pues importantes.
+
+1:49:23
+Sobre todo para nosotros en equipos. ¿A ver, bueno estas sistemas que este lo utilizo yo mucho en sistemas cuál están? Pues están fobos, equipo, sistemas, es el el que ay, va sistemas fobos, vale mi de CPU, memoria, disco.
+
+1:49:48
+Aquí verás que estamos un poquito ya apuradete de disco el tráfico que tienes, la CPU que está funcionando, la memoria que utiliza my SQL, las conexiones de my SQLY, el número de queries por segundo que se están ejecutando sobre fobos. Aquí verás que si coges un histórico de 6 meses está creciendo.
+
+1:50:16
+Vale sobre todas las conexiones, que aquí está unos 38 y mira tengo, estamos ya en 40 y pico conexiones, pero aquí la media está en entre 5060 y aquí hay días que nos vamos ya a 7080. Bueno, está creciendo. Al fin y al cabo, si se usa fobos, pues es lo que hay.
+
+1:50:43
+Si se usa fogo, pues crece en la CPU. ¿Está muy bien, EH? Quiero decir, estamos en el 1% de utilización de la C, P u o sea que está bastante optimizado. Memoria, utilización de memoria. Bueno, al final esto es una estadística que cuando no pues hace su APP y ya está igual que aquí, aquí siempre está al cien por cien, pero como está haciendo shapping, pues nada.
+
+1:51:09
+¿Funciona las conexiones de MSQL? Pues igual, pues mirar que se mantengan estables y ya está aquí también importantes en sistemas es el el grafana, porque aquí sí que a veces ocurren cosas, cosas como esta. ¿A ver 1 año no tengo más datos que 1 año ocurren cosas como esta, vale?
+
+1:51:35
+No, no está, está funcionando bien porque aquí le aumenté la la, la CPU está del dos al 6 con algo a veces que está funcionando así, de repente se dispara y algo ha pasado, o sea no es normal. Cuando hace esto no es normal, hay veces que se ha subido, pasa es que ya está bastante dominado. Sobre todo al principio no tenía control de los procesos que se estaban llamando y había veces que de repente se nos disparaba al cien por cien.
+
+1:52:04
+¿Había algún problema con la red? Que no, que no contestaban. Los equipos empezaron a a acumular, los timeouts empezaban a retardarse en los procesos, se acumulaban, se acumulaban, se acumulaban y al final llegaba a ese cien por cien de CPU en 5 horas. Ahora ya hay más control de los procesos que hay. No permito más de 5 procesos en paralelo, o sea, una serie de restricciones que más o menos ahora está más o menos controlado. ¿Vale? Bueno, me está funcionando.
+
+1:52:33
+Ay, perdón, mira, pero esto es el grafana del IMI, estaba yo con el Grafana nuestro a ver sistemas, si digo me me suena que había ahí un sistemas, está grafana a IMI y el Greylock es nuestro Grafana Eh Gravelock no el ZTP perdón, el ZTP es nuestro grafana esta máquina de aquí vale, ahora sí vale.
+
+1:53:01
+Entonces, pues eso, lo que se pueden ver son las colas. Se pueden ver el número de colas que hay activas que hay aquí, pues están normalmente que sea estable. ¿A ver si me parece aquí lo de ves aquí? Pues estamos en el 2% y ya hemos subido aquí al cuatro. Bueno, la utilización del disco duro por donde vamos.
+
+1:53:28
+La utilización de memoria, el número de colas que al principio eran pues pocas colas activas. Y aquí pues ahora mismo hay 11 colas. A ver gestionándola bien ahora mismo en Lintia, por ejemplo, Lintia creo recordar que ahora tenemos unas 40 colas activas, aquí solamente tenemos 11.
+
+1:53:56
+¿Y la hemos, hemos pedido ampliación porque el problema de las con con las 40 colas activas es que se nos va la C P u o sea, hay que ahora se ha se ha ampliado, no sé, estaban peleándose, ahora quién lo amplías, si lo amplias, tú quién lo paga, cómo lo paga? ¿Bueno, lo de siempre grafana es gratuito, influx es gratuito, a ver, gratuito es Open Source Open Source, la licencia Open Source?
+
+1:54:25
+Son que tú mientras tú no ganes dinero, no les cobres dinero a los por por explotar. Esto es libre. Entonces esto es para nuestro uso interno, vale, entonces nuestro uso interno nos permite la licencia. ¿Estar utilizando influx de manera gratuita y estar utilizando grafana de manera gratuita? Funciona muy bien.
+
+1:54:52
+Y si tuviéramos un poquito más de máquina ya sería la la pera limonera, porque ahora mismo tenemos algunos equipos que no no podemos vale y aquí importantes en equipos ya lo he dicho está datos, equipos, nuevo modelo, vale, aquí es donde están las estadísticas de tráfico de todo lo que es equipos XRYXEY algunos iOS.
+
+1:55:24
+¿Voy cerrando cosas, vale? Ramales, Frank, rutas, rutas que me parecen muy tranquiladas al 90%, esto es, estadísticas de tráfico, que bueno, que no sé por qué están aquí. Es que de vez en cuando Manuel se hace unas gráficas aquí que después dejan de utilizarse y no la borra. ¿Yo tampoco borro, EH? O sea, que vale.
+
+1:55:53
+¿Hay pruebas por ahí? También pruebas de telemetría de MDT, temas de temperatura VPNSVPN corporativa. ¿No sé si todavía estarán funcionando, Eh? Aquí teníamos durante la pandemia, teníamos el número de.
+
+1:56:19
+¿Estábamos monitoreando la el número de conexiones que iban por VPN, cuánta gente había conectada porque estábamos un poco apurados a ver últimos 1 año, vale, ves? Se estaba monitoreando el número ya dejó de monitorarse, cambiaron los los firewalls y ya dejó de monitorarse hace de casi 1 año ya.
+
+1:56:46
+¿Pero bueno, había cosas tremendas, EH? ¿De picos de 1000 y pico, 1300 usuarios conectados a la VPNY cosas así, claro, estábamos todos en casa, vale, es que no quiero guardar nada, temperaturas, VPN, ventiladores, nada, vale, no sé, aquí hay muchas cosas, vale?
+
+1:57:16
+¿Estaban también lo de Ah, no estaban en el grafaraini temas de vale, pues si quieres lo dejamos, vale? Y continuamos el próximo día. Fin de la grabación.
